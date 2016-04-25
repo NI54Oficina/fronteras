@@ -76,9 +76,219 @@ p{
 	font-family:'arialregular';
 }
 
+/* Tres cajas (mercados, clima. noticias del sector)*/
+
+.box-mercado-clima-noticias{
+	padding:0 25px;
+}
+
+
+.box-mercado-clima-noticias div{
+	padding:5px;
+	background-color:transparent;
+	color:white;
+	font-family:'arialregular';
+	text-align:left;
+}
+
+.box-mercado-clima-noticias a{
+	color:white;
+}
+
+/* Caja mercados*/
+.box-mercado-clima-noticias > div:first-child > div{
+	background-color:#28A382;
+	min-height: 480px;
+}
+
+/* Caja clima*/
+.box-mercado-clima-noticias > div:nth-child(2) > div{
+	background-color:#2E9DFB;
+	min-height: 480px;	
+}
+
+/* Caja noticias del sector*/
+.box-mercado-clima-noticias > div:nth-child(3)  div{
+	background-color:#2ED7AA;
+	min-height: 480px;
+}
+
+
+/* Tres cajas (mercados, clima. noticias del sector) H3 TITULO*/
+.box-mercado-clima-noticias > div:first-child div h3, div:nth-child(2) div h3, div:nth-child(3) div h3{
+	color:#fff;
+	text-align: left;
+    padding-left: 20px;
+	font-size: 2.5em;
+}
 
 
 
 
+/******************************
+******** MERCADOS *******
+******************************/
+
+/* Mercados: cajas (compra,venta)*/
+.box-mercado-clima-noticias .small-boxes-mercado{
+	min-height:220px;
+}
+
+/*Mercados: Titulo "mercados"*/
+.box-mercado-clima-noticias > div:first-child > div > p{
+	padding-left:20px;
+    padding-top: 50px;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Mercados: cajas (compra,venta) H4 TITULOS*/
+.box-mercado-clima-noticias .small-boxes-mercado h4{
+    font-size: 1.7em;
+	text-align:left;
+}
+
+/* Mercados: cajas (compra,venta) párrafos*/
+.box-mercado-clima-noticias .small-boxes-mercado p{
+	text-align:left;
+    font-size: 2.2em;
+}
+
+.box-mercado-clima-noticias  h5{
+	text-align:center;
+	text-transform:uppercase;
+    font-size: 2.2em;
+	letter-spacing:1px;
+}
 
 
+
+
+/******************************
+*********** CLIMA ***********
+******************************/
+.box-mercado-clima-noticias >  div:nth-child(2) h3{
+	padding-top:50px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+}
+
+.box-mercado-clima-noticias >  div:nth-child(2) h4{
+	text-align:center;
+    font-size: 1.8em;
+}
+
+.box-mercado-clima-noticias .small-boxes-mercado > img{
+	width: auto;
+}
+
+.box-mercado-clima-noticias  >  div:nth-child(2) .small-boxes-mercado p:first-child{
+    font-size: 2.5em;
+	padding-top: 20px;
+}
+
+.box-mercado-clima-noticias  >  div:nth-child(2) .small-boxes-mercado p:nth-child(2){
+    font-size: 1.7em;
+}
+
+
+
+/*********************************************
+*********** NOTICIAS SECTOR ***********
+*********************************************/
+.box-mercado-clima-noticias  >  div:nth-child(3) .container-noticias-sector{
+    min-height: 300px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.box-mercado-clima-noticias >  div:nth-child(3) .container-noticias-sector > img{
+    text-align: center;
+    padding: 0px 20px;
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+	padding-bottom: 40px;
+}
+
+.box-mercado-clima-noticias  >  div:nth-child(3) .container-noticias-sector > h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.1em;
+    line-height: 1.3em;
+    max-width: 200px;
+    display: inline-block;
+}
+
+
+
+/**********************************************
+*********** SECCIÓN MERCADO***********
+**********************************************/
+.box-mercado {
+	padding:0 25px;
+	border:none;
+	font-family:'arialregular';
+}
+
+.box-mercado div{
+	padding:5px;
+	background-color:transparent;
+	text-align:left;
+	min-height: 480px;
+}
+
+
+.box-mercado > div:first-child > div{
+	background-color:#28A382;
+	min-height: 480px;
+	border:none;
+}
+
+.box-mercado > div:nth-child(2) > div{
+	border:1px solid #28A382;
+}
+
+.box-mercado> div:nth-child(3) > div{
+	border:1px solid #28A382;
+}
+
+.box-mercado > div:nth-child(4) > div{
+	border:1px solid #28A382;	
+}
+
+.box-mercado > div:nth-child(5) > div{
+	border:1px solid #28A382;	
+}
+
+.box-mercado > div:nth-child(6) > div{
+	border:1px solid #28A382;	
+}
+
+
+.box-mercado > div:first-child > div h1{
+	font-weight:300;
+	letter-spacing:2px;
+	text-align:center;
+	text-transform:uppercase;
+	padding-top:200px;
+	margin:0;
+	color:#fff;
+}
+
+
+.box-mercado > div:first-child{
+	border:none;
+}
+
+
+.container-items-mercados h2{ 
+	color:#2EA982;
+	text-align:center;
+	text-transform:uppercase;
+	font-size: 1.8rem;
+}
