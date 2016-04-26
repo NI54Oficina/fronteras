@@ -1,7 +1,25 @@
-@media screen (min-width: 768px){
+@media screen and (max-width: 768px){
 
 
 /*ESCRIBIR ADENTRO DE ESTE MEDIA QUERY*/
+	.table-mercado > div:first-child > h3 {
+		font-size: 1.3rem;
+		padding-left: 0px;
+	}
+
+	.box-mercado .table-mercado-items .moneda-mercados {
+		color: #3F3F3F;
+		font-size: 1.3rem;
+		padding: 0;
+		margin: 0;
+		display: block;
+		text-align: left;
+		vertical-align: -webkit-baseline-middle;
+		padding-top: 7px;
+		padding-left: 0px; 
+		font-weight: 700;
+	}
+
 
 
 }

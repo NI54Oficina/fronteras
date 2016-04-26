@@ -303,27 +303,37 @@ header{
 	border:none;
 }
 
+/* Mercado de Liniers */
 .box-mercado > div:nth-child(2) > div{
 	border:1px solid #28A382;
 }
 
+
+/* El precio de la leche */
 .box-mercado> div:nth-child(3) > div{
 	border:1px solid #28A382;
 }
 
+
+/* Cotización de moneda extranjera */
 .box-mercado > div:nth-child(4) > div{
 	border:1px solid #28A382;	
 }
 
+
+/*Cotización de cereales */
 .box-mercado > div:nth-child(5) > div{
 	border:1px solid #28A382;	
 }
 
+
+/* Márgenes brutos */
 .box-mercado > div:nth-child(6) > div{
 	border:1px solid #28A382;	
 }
 
 
+/* TÍTULO MERCADOS primer div */
 .box-mercado > div:first-child > div h1{
 	font-weight:300;
 	letter-spacing:2px;
@@ -334,15 +344,641 @@ header{
 	color:#fff;
 }
 
-
+/* Primer div sin borde */
 .box-mercado > div:first-child{
 	border:none;
 }
 
 
+/* TÍTULOS divs 2,3,4,5,6 */
 .container-items-mercados h2{ 
 	color:#2EA982;
 	text-align:center;
 	text-transform:uppercase;
 	font-size: 1.8rem;
+}
+
+
+/*MERCADO DE LINIERS */
+.box-mercado > div:nth-child(2) > div .icon-number-mercados{
+    min-height: 100px;
+	text-align:center;
+    padding-top: 30px;
+}
+
+
+/* Imágen vaca */
+.box-mercado > div:nth-child(2) > div > div img{
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+}
+
+/* Número */
+.box-mercado > div:nth-child(2) > div > div > p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+	color:#323232;
+	margin: 0;
+    vertical-align: bottom;
+}
+
+/* TABLA */
+
+.box-mercado .general-table-mercados{
+    min-height: 200px;
+    padding-top: 30px;
+}
+	
+.table-mercado{
+	min-height:30px!important;
+	padding:0!important;
+}
+
+.table-mercado div{
+	padding:0;
+	background:#F1F2F3;
+	text-align:left;
+	min-height:100px;
+}
+
+/* Categoría */
+.table-mercado > div:first-child{
+    min-height: 30px;
+	text-align:center;
+    padding: 0px;
+}
+
+/* Categoría título */
+.table-mercado > div:first-child > h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+
+/*  Precio */
+.table-mercado > div:nth-child(2){
+    min-height: 30px;
+	text-align:center;
+    padding: 0px;
+}
+
+
+/* Precio título */
+.table-mercado > div:nth-child(2) h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/* Var Día */
+.table-mercado > div:nth-child(3){
+    min-height: 30px;
+	text-align:center;
+    padding-top: 0px;
+}
+
+/* Var Día título */
+.table-mercado > div:nth-child(3) h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/* ITEMS INTERIOR TABLA*/
+.table-mercado-items div{
+	background-color:white;
+	border-bottom:1px solid #F2F2F2;
+}
+
+.table-mercado-items > div:nth-child(2) > h3{
+	color:#388B00;
+}
+
+.table-mercado-items > div:nth-child(2) > img{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+
+/* EL PRECIO DE LA LECHE */
+.box-mercado > div:nth-child(3) > div .icon-number-mercados{
+    min-height: 100px;
+	text-align:center;
+    padding-top: 30px;
+}
+
+
+/* Imágen vaca */
+.box-mercado > div:nth-child(3) > div > div img{
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+}
+
+/* Número */
+.box-mercado > div:nth-child(3) > div > div > p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+	color:#323232;
+	margin: 0;
+    vertical-align: bottom;
+}
+
+
+/*COTIZACIÓN DE  MONEDA EXTRANJERA */
+
+.box-mercado  .table-mercado-items .moneda-mercados{
+    color: #3F3F3F;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+    padding-top: 7px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.table-mercado > div:nth-child(4){
+    min-height: 30px;
+	text-align:center;
+    padding-top: 0px;
+}
+
+.table-mercado > div:nth-child(4) h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.box-mercado  .table-mercado-items .fecha-mercados{
+	color:#3F3F3F;
+    font-size: 1.5rem;
+}
+
+
+/********************************
+************* CLIMA ***********
+********************************/
+
+/* Cajas clima general */
+.box-clima{
+	padding:0 25px;
+}
+
+.box-clima div{
+	padding:5px;
+	background-color:transparent;
+	color:white;
+	font-family:'arialregular';
+	text-align:left;
+}
+
+
+/* CAJA CLIMA PRIMERA*/
+.box-clima  > div:first-child > div:first-child{
+	background-color:#F7F7F7;
+	min-height: 50px;
+    border-bottom: 4px solid #0078B9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+	margin-bottom:4px;
+}
+
+.box-clima  > div:first-child > div:nth-child(2){
+	background-color:#2E9DFB;
+	min-height: 290px;
+	border:none;
+}
+
+/* Título ZONA */
+.box-clima  > div:first-child > div:first-child h1{
+	text-align:left;
+	color:#B2B2B2;
+	font-size:1.8rem;
+	margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* Título CLIMA */
+.box-clima  > div:first-child > div:nth-child(2) h1{
+	text-align:center;
+	margin:0;
+    padding-top: 120px;
+}
+
+
+
+/* Cajas clima normales */
+.box-clima  > div > div{
+	background-color:transparent;
+	min-height: 345px;	
+	border:2px solid #2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(2) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+.box-clima p {
+	color:#36464E;
+	margin:0;
+}
+.box-clima >  div:nth-child(2) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima .small-boxes-mercado > img{
+	width: auto;
+}
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+/* Información del clima */
+.box-clima .info-clima{
+	padding: 0 30px; 
+	margin: 0;
+}
+
+
+.box-clima .info-clima > h4{
+	padding: 0; 
+	margin: 0;
+}
+
+.box-clima .info-clima > p{
+	padding: 5px 0; 
+	margin: 0;
+}
+
+
+
+/********* Clima 2 ************/
+.box-clima >  div:nth-child(3) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(3) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+/********* Clima 3 ************/
+.box-clima >  div:nth-child(4) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(4) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+/********* Clima 4 ************/
+.box-clima >  div:nth-child(5) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(5) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+/********* Clima 5 ************/
+.box-clima >  div:nth-child(6) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(6) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+
+
+/********* Clima 6 ************/
+.box-clima >  div:nth-child(7) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(7) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+
+
+/********* Clima 7 ************/
+.box-clima >  div:nth-child(8) h3{
+	padding-top:30px;
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 2.5em;
+	color:#2E9DFB;
+}
+
+
+.box-clima >  div:nth-child(8) h4{
+	text-align:left;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
 }
