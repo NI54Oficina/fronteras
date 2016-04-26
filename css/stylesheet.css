@@ -76,6 +76,60 @@ p{
 	font-family:'arialregular';
 }
 
+/** Header **/
+
+header{
+	background:#DDDDDD;
+	width:100vw;
+	min-height:40px;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.headerMobile .navbar-collapse{
+	height:0;
+}
+.headerMobile .navbar-collapse.in{
+	min-height:100vh !important;
+	overflow:visible;
+}
+
+.headerMobile .navbar-collapse{
+	background-color:#f2f2f2;
+	width:100vw;
+	height:100vh;
+ }
+ 
+ .headerMobile .dropdown-header-nav{
+	max-height: 0;
+	transition: max-height 0.3s ease-out;
+	display:block;
+	overflow:hidden;
+	position:initial;
+	padding-left:0;
+	padding-top:0;
+ }
+ 
+ .headerMobile .dropdown-header-nav.opened{
+	max-height: 50000px;
+	transition: max-height 0.3s ease-in;
+	padding-left:0;
+	margin:0;
+ }
+ 
+ .headerDesktop .dropdown-header-nav{
+	display:none;
+	background-color:white;
+	border: black solid 1px;
+ }
+ 
+ .li-header:hover > .dropdown-header-nav{
+	display:block;
+	position:absolute;
+ }
+
+/**Fin Header**/
+
 /* Tres cajas (mercados, clima. noticias del sector)*/
 
 .box-mercado-clima-noticias{
