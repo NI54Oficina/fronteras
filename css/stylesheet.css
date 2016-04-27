@@ -1343,7 +1343,7 @@ header{
 
 /*********************HOME*******************/
 
-#home { padding: 15px;}
+#home { padding: 15px; background-image: url(../img/bg-index.png); width: 100%;  text-align: center; background-size: auto;}
 
 .home-upper-box { background-color: white; padding: 20px 20px; box-shadow: 5px 5px 10px rgba(136,136,136,0.5); margin-bottom:7em;}
 .home-upper-box img:nth-child(1)  {float: left;  width: 10em;}
@@ -1359,23 +1359,19 @@ header{
 .producir-box{background-color: #7067B0;}
 .ayuda-box{background-color:#79BEFE;}
 
-<<<<<<< HEAD
-.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(136,136,136,0.5);} 
-.home-box > div > div {padding: 1em 0em;}
 
+.home-box > div > div {padding: 1em 0em;}
+.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(136,136,136,0.5); padding: 1em 0em;} 
 /*****************PRODUCIR******************/
 
 
-#btn-sanidad { background-image: url(); }
-#btn-manejo { background-image: url(); }
-#btn-genetica { background-image: url(); }
-#btn-nutricion { background-image: url(); }
-#btn-fronteras { background-image: url(); }
-#btn-veterinaria { background-image: url(); }
-#btn-intereses { background-image: url(); }
-=======
-<<<<<<< HEAD
-=======
-.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(136,136,136,0.5); padding: 1em 0em;} 
->>>>>>> origin/master
->>>>>>> origin/master
+#btn-sanidad { background-image: url(../img/sanidad.png); }
+#btn-manejo { background-image: url(../img/manejo.png); }
+#btn-genetica { background-image: url(../img/genetica.png); }
+#btn-nutricion { background-image: url(../img/nutricion.png); }
+#btn-fronteras { background-image: url(../img/nutricion.png); }
+#btn-veterinaria { background-image: url(../img/nutricion.png); }
+#btn-intereses { background-image: url(../img/nutricion.png); }
+
+.gota-producir div {background-repeat: no-repeat; background-size: 70%; height: 250px; max-height: 250px;}
+.gota-producir {height:}

@@ -3,7 +3,7 @@
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
 
-<body style="width: 100%;  text-align: center; background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/img/bg-index.png); background-size: auto;"  id="home">
+<body id="home">
 <!-- <?php include_once("analytics.php") ?>
  -->
 
