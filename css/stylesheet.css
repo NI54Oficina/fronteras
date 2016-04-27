@@ -249,7 +249,9 @@ header{
     font-size: 1.7em;
 }
 
-
+.box-clima option,.box-clima select{
+	color:black;
+}
 
 /*********************************************
 *********** NOTICIAS SECTOR ***********
@@ -1002,6 +1004,7 @@ header{
 .producir-box{background-color: #7067B0;}
 .ayuda-box{background-color:#79BEFE;}
 
+<<<<<<< HEAD
 .home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(136,136,136,0.5);} 
 .home-box > div > div {padding: 1em 0em;}
 
@@ -1015,3 +1018,9 @@ header{
 #btn-fronteras { background-image: url(); }
 #btn-veterinaria { background-image: url(); }
 #btn-intereses { background-image: url(); }
+=======
+<<<<<<< HEAD
+=======
+.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(136,136,136,0.5); padding: 1em 0em;} 
+>>>>>>> origin/master
+>>>>>>> origin/master
