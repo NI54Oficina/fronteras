@@ -1326,7 +1326,7 @@ header{
 
 
 
-/*********************HOME*******************/
+/*********************HOME (DETALLES DE IMAGEN)*******************/
 
 #home { padding: 15px; background-image: url(../img/bg-index.png); width: 100%;  text-align: center; background-size: auto;}
 
@@ -1346,8 +1346,10 @@ header{
 
 
 .home-box > div > div {padding: 1em 0em;}
-.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(136,136,136,0.5); padding: 1em 0em;} 
-/*****************PRODUCIR******************/
+.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(0,0,0,0.5  ); padding: 1em 0em;} 
+
+
+/*****************PRODUCIR (DETALLES DE IMAGEN)******************/
 
 #producir {padding: 50px 20px;}
 
@@ -1364,6 +1366,9 @@ header{
 
 .gota-producir > div > p {width: auto; padding: 0;margin:0; color: white; font-size: 15px; }
 
-/***********************VETERINARIA***************/
+/***********************VETERINARIA (EN PROCESO)***************/
 
 #veterinaria { padding: 50px 20px; }
+#veterinaria >div {padding: 5px 5px;text-align: left;}
+#provincia, #localidad {padding: 10px 5px; }
+
