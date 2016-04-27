@@ -79,13 +79,23 @@ p{
 /** Header **/
 
 header{
-	background:#DDDDDD;
 	width:100vw;
 	min-height:40px;
 	position:fixed;
 	top:0;
 	left:0;
+	background: rgb(252, 252, 251);
+    width: 100vw;
+    min-height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: inset -1px 4px 40px 0px rgba(237, 210, 180, 0.81);
+    -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
+    box-shadow: inset -1px 4px 40px 0px rgb(248, 229, 207);
 }
+
+
 .headerMobile .navbar-collapse{
 	height:0;
 }
@@ -148,6 +158,7 @@ header{
 .box-mercado-clima-noticias a{
 	color:white;
 }
+
 
 /* Caja mercados*/
 .box-mercado-clima-noticias > div:first-child > div{

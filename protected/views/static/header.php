@@ -1,4 +1,6 @@
-<header class="headerDesktop">
+<header class="headerDesktop" >
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+
 <span  class=" glyphicon glyphicon-menu-hamburger navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>	
 	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse" data-toggle="collapse" >
 		<ul class="ul-nav col-lg-11 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal" style="">
