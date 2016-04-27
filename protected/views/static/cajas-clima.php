@@ -1,4 +1,16 @@
+<?php
+$options = array(
+  'http'=>array(
+    'method'=>"GET",
+    'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
+  )
+);
+$context=stream_context_create($options);
 
+$data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/910',false,$context);
+
+
+?>
 <!-- General cajas clima-->
 <div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
@@ -20,27 +32,36 @@
 	</div>
 	
 	<!-- Clima 2-->
+	<?php 
+	if($data){
+		
+		$array = json_decode($data,true);
+		$fecha = $array[0];
+		foreach($fecha as $f){
+		if(count($f)>1){
+		foreach($f as $f2){
+	 ?>
 	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>LUNES 15</h3>
+			<h3><?php echo $f2["FechaDescripcion"] ?></h3>
 			
 			<!-- Clima datos & clima imágen -->
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
 				<!--Clima imágen-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima/<?php echo $f2['Valores'][0]["IDTipoClima"]; ?>.svg" alt="Imágen Clima" />
 				</div>
 			
 				<!--Clima datos-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
+					<p><?php echo $f2['Valores'][0]["Tmin"]; ?></p><p> | </p><p><?php echo $f2['Valores'][0]["Tmax"]; ?></p>	
+					<p><?php echo $f2['Valores'][0]["VelViento"]; ?></p>				
 				</div>
 				
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
+					<h4><?php echo $f2['Valores'][0]["TipoClima"]; ?></h4>
+					<p><?php echo $f2['Valores'][0]["Comentario"]; ?></p>
 				</div>
 				
 			</div>
@@ -48,189 +69,14 @@
 			
 		</div>
 	</div>	
-	
-	<!-- Clima 3-->
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		<?php } } } }else{
+		?>
+		<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>MARTES 16</h3>
+			<p>No se han encontrado informes del clima para la ciudad solicitada. Por favor intente más tarde.</p>
 			
-			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-				<!--Clima imágen-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
-				</div>
-			
-				<!--Clima datos-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
-				</div>
-				
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
-				</div>
-				
 			</div>
-
-			
 		</div>
-	</div>	
-	
-	<!-- Clima 4-->
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>MIÉRCOLES 17</h3>
-			
-			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-				<!--Clima imágen-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
-				</div>
-			
-				<!--Clima datos-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
-				</div>
-				
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
-				</div>
-				
-			</div>
-
-			
-		</div>
-	</div>	
-
-	
-	<!-- Clima 5-->
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>JUEVES 18</h3>
-			
-			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-				<!--Clima imágen-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
-				</div>
-			
-				<!--Clima datos-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
-				</div>
-				
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
-				</div>
-				
-			</div>
-
-			
-		</div>
-	</div>	
-	
-	
-	<!-- Clima 6-->
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>VIERNES 19</h3>
-			
-			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-				<!--Clima imágen-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
-				</div>
-			
-				<!--Clima datos-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
-				</div>
-				
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
-				</div>
-				
-			</div>
-
-			
-		</div>
-	</div>	
-	
-	
-	<!-- Clima 7-->
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>SÁBADO 20</h3>
-			
-			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-				<!--Clima imágen-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
-				</div>
-			
-				<!--Clima datos-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
-				</div>
-				
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
-				</div>
-				
-			</div>
-
-			
-		</div>
-	</div>	
-	
-	
-	<!-- Clima 8-->
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3>DOMINGO 21</h3>
-			
-			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-				<!--Clima imágen-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima-clima.png" alt="Imágen Clima" />
-				</div>
-			
-				<!--Clima datos-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<p>22°</p><p> | </p><p>35°</p>	
-					<p>N, 20 Km/h</p>				
-				</div>
-				
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
-					<h4>Nublado</h4>
-					<p>30% de probabilidad de chaparrones y tormentas hacia la tarde o noche. Parcial a nublado.</p>
-				</div>
-				
-			</div>
-
-			
-		</div>
-	</div>	
-	
+		<?php
+	} ?>
 </div>
