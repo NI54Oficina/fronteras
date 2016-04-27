@@ -982,3 +982,15 @@ header{
 	padding-top:10px;
 	font-size:1.8rem;
 }
+
+
+/*********************HOME*******************/
+
+#home { padding: 15px; }
+
+.home-upper-box { text-align: center; }
+.home-bottom-box { padding: 0; margin: 0; }
+
+.home-bottom-box div {padding-left: 15px; padding-right: 15px;}
+
+.hoy-box {background-color: #40CEDB}
