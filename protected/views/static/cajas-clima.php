@@ -7,7 +7,16 @@ $options = array(
 );
 $context=stream_context_create($options);
 
-$data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/910',false,$context);
+
+$localidad= "962";
+if(isset($_POST["localidad"])){
+	$_SESSION["localidad"]= $_POST["localidad"];
+}
+if(isset($_SESSION["localidad"])){
+	$localidad= $_SESSION["localidad"];
+}
+
+$data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/'.$localidad,false,$context);
 
 
 ?>
@@ -19,8 +28,14 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProced
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			
-				<h1>Buenos Aires</h1>
-			
+				<h1><?php
+					if(isset( $localidades[$localidad])){
+						echo $localidades[$localidad];
+					} ?></h1>
+				<form method="post">
+				<?php include("selector-localidades.php"); ?>
+				<button>submit</button>
+			</form>
 		</div>
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

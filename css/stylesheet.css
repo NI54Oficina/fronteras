@@ -249,7 +249,9 @@ header{
     font-size: 1.7em;
 }
 
-
+.box-clima option,.box-clima select{
+	color:black;
+}
 
 /*********************************************
 *********** NOTICIAS SECTOR ***********
@@ -1001,3 +1003,4 @@ header{
 .estemes-box{background-color: #0093D4}
 .producir-box{background-color: #7067B0;}
 .ayuda-box{background-color:#79BEFE;}
+
