@@ -250,9 +250,18 @@ header{
 }
 
 .box-clima option,.box-clima select{
-	color:black;
+	color: #B2B2B2;
+    font-size: 1.6rem;
+    background: transparent;
+    border: none;
+    width: 70%;
+    font-family: 'arialregular';
 }
 
+
+.box-clima option:focus,.box-clima select:focus{
+	outline:none;
+}
 /*********************************************
 *********** NOTICIAS SECTOR ***********
 *********************************************/
