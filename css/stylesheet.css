@@ -986,11 +986,18 @@ header{
 
 /*********************HOME*******************/
 
-#home { padding: 15px; }
+#home { padding: 15px; background-color: pink;}
 
-.home-upper-box { text-align: center; }
+.home-upper-box { background-color: white; padding: 20px 20px; box-shadow: 5px 5px 10px rgba(136,136,136,0.5);}
+.home-upper-box img:nth-child(1)  {float: left; position: relative; width: 10%;}
+.home-upper-box img:nth-child(2)  {float: right; position: relative; width:auto;}
 .home-bottom-box { padding: 0; margin: 0; }
 
-.home-bottom-box div {padding-left: 15px; padding-right: 15px;}
+.home-bottom-box div {padding: 0px 15px;  margin: 70px 0px;}
 
-.hoy-box {background-color: #40CEDB}
+.home-bottom-box div div {padding-top: 1px;}
+
+.hoy-box {background-color: #40CEDB;}
+.estemes-box{background-color: #0093D4}
+.producir-box{background-color: #7067B0;}
+.ayuda-box{background-color:#79BEFE;}
