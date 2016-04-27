@@ -315,32 +315,8 @@ header{
 }
 
 /* Mercado de Liniers */
-.box-mercado > div:nth-child(2) > div{
+.box-mercado > div > div{
 	border:1px solid #28A382;
-}
-
-
-/* El precio de la leche */
-.box-mercado> div:nth-child(3) > div{
-	border:1px solid #28A382;
-}
-
-
-/* Cotización de moneda extranjera */
-.box-mercado > div:nth-child(4) > div{
-	border:1px solid #28A382;	
-}
-
-
-/*Cotización de cereales */
-.box-mercado > div:nth-child(5) > div{
-	border:1px solid #28A382;	
-}
-
-
-/* Márgenes brutos */
-.box-mercado > div:nth-child(6) > div{
-	border:1px solid #28A382;	
 }
 
 
