@@ -1,4 +1,14 @@
-<?php
+<?php 
+$options = array(
+  'http'=>array(
+    'method'=>"GET",
+    'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
+  )
+);
+$context=stream_context_create($options);
+
+$data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedure.svc/agrupado',false,$context);
+
 	
 	if($data){
 		//echo $data;

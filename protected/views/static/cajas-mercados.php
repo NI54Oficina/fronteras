@@ -1,15 +1,4 @@
-<?php 
-$options = array(
-  'http'=>array(
-    'method'=>"GET",
-    'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
-  )
-);
-$context=stream_context_create($options);
 
-$data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedure.svc/agrupado',false,$context);
-
-?>
 <!--MERCADOS-->
 
 <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 box-mercado">
@@ -28,6 +17,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 	
 	<?php include("mercados/ganado.php") ?>
 	<?php include("mercados/indicadores.php") ?>
+	<?php include("mercados/grano.php") ?>
 	
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
 		
