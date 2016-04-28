@@ -1328,50 +1328,151 @@ header{
 
 /*********************HOME (DETALLES DE IMAGEN)*******************/
 
-#home { padding: 15px; background-image: url(../img/bg-index.png); width: 100%;  text-align: center; background-size: auto;}
+#home { 
+	padding: 15px; 
+	background-image: url(../img/bg-index.png); 
+	width: 100%;  
+	text-align: center; 
+	background-size: auto;
+}
 
-.home-upper-box { background-color: white; padding: 20px 20px; box-shadow: 5px 5px 10px rgba(136,136,136,0.5); margin-bottom:7em;}
-.home-upper-box img:nth-child(1)  {float: left;  width: 10em;}
-.home-upper-box img:nth-child(2)  {float: right; position: relative;width: 20em;}
-.home-bottom-box { padding: 0; margin:0; }
-.home-bottom-box p {color: white; font-size: 1.5em;}
+.home-upper-box { 
+	background-color: white;
+	padding: 20px 20px;
+	box-shadow: 5px 5px 10px rgba(136,136,136,0.5); 
+	margin-bottom:7em;
+}
 
-.home-bottom-box > div {padding: 0px 20px;     margin: 10px 0px;}
+.home-upper-box img:nth-child(1){
+	float: left;  
+	width: 10em;
+}
+
+.home-upper-box img:nth-child(2){
+	float: right; 
+	position: relative;
+	width: 20em;
+}
+
+.home-bottom-box { 
+	padding: 0; 
+	margin:0; 
+}
+
+.home-bottom-box p {
+	color: white; 
+	font-size: 1.5em;
+}
+
+.home-bottom-box > div {
+	padding: 0px 20px;     
+	margin: 10px 0px;
+}
 
 
-.hoy-box {background-color: #40CEDB;}
-.estemes-box{background-color: #0093D4}
-.producir-box{background-color: #7067B0;}
-.ayuda-box{background-color:#79BEFE;}
+.hoy-box {
+	background-color: #40CEDB;
+}
+
+.estemes-box{
+	background-color: #0093D4
+}
+
+.producir-box{
+	background-color: #7067B0;
+}
+
+.ayuda-box{
+	background-color:#79BEFE;
+}
 
 
-.home-box > div > div {padding: 1em 0em;}
-.home-box > div > div:nth-child(1) {box-shadow: 0px 5px 5px rgba(0,0,0,0.5  ); padding: 1em 0em;} 
+.home-box > div > div {
+	padding: 1em 0em;
+}
+
+.home-box > div > div:nth-child(1) {
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5  ); 
+	padding: 1em 0em;
+} 
 
 
 /*****************PRODUCIR (DETALLES DE IMAGEN)******************/
 
 #producir {padding: 50px 20px;}
 
-#btn-sanidad { background-image: url(../img/sanidad.png); }
-#btn-manejo { background-image: url(../img/manejo.png); }
-#btn-genetica { background-image: url(../img/genetica.png); }
-#btn-nutricion { background-image: url(../img/nutricion.png); }
-#btn-fronteras { background-image: url(../img/nutricion.png); }
-#btn-veterinaria { background-image: url(../img/nutricion.png); }
-#btn-intereses { background-image: url(../img/nutricion.png); }
+#btn-sanidad { 
+	background-image: url(../img/sanidad.png); 
+}
 
-.gota-producir div {background-repeat: no-repeat; background-size:75%;}
-.gota-producir {padding: 20px 20px;}
+#btn-manejo { 
+	background-image: url(../img/manejo.png); 
+}
 
-.gota-producir > div > p {width: auto; padding: 0;margin:0; color: white; font-size: 15px; }
+#btn-genetica { 
+	background-image: url(../img/genetica.png); 
+}
+
+#btn-nutricion { 
+	background-image: url(../img/nutricion.png); 
+}
+
+#btn-fronteras { 
+	background-image: url(../img/nutricion.png); 
+}
+
+#btn-veterinaria { 
+	background-image: url(../img/nutricion.png); 
+}
+
+#btn-intereses { 
+	background-image: url(../img/nutricion.png); 
+}
+
+.gota-producir div {
+	background-repeat: no-repeat; 
+	background-size:75%;
+}
+
+.gota-producir {
+	padding: 20px 20px;
+}
+
+.gota-producir > div > p {
+	width: auto; 
+	padding: 0;
+	margin:0; 
+	color: white; 
+	font-size: 15px; 
+}
 
 /***********************VETERINARIA (EN PROCESO)***************/
 
-#veterinaria { padding: 50px 20px; }
-#veterinaria >div {padding: 5px 5px;text-align: left;}
-#provincia, #localidad {padding: 0px 5px; margin: 20px; }
+#veterinaria { 
+	padding: 50px 20px; 
+}
 
-.red-box >div > form > select {border:none; color: gray; width: 100%;}
- .red-box > div {padding:0; border-bottom: 2px solid #0078B9;}
- .red-box >div > form > select:focus {outline:none ;}
+#veterinaria >div {
+	padding: 5px 5px;
+	]text-align: left;
+}
+
+#provincia, #localidad {
+	padding: 0px 5px; 
+	margin: 20px; 
+}
+
+.red-box >div > form > select {
+	border:none; 
+	color: gray; 
+	width: 100%;
+}
+
+.red-box > div {
+	padding:0; 
+	border-bottom: 2px solid #0078B9;
+}
+
+.red-box >div > form > select:focus {
+	outline:none ;
+}
