@@ -23,6 +23,8 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 		
 			?>
+			
+	<?php if($categorias[0]["Precios"][0]["PrecioLiniers"]!="0"&&$categorias[0]["Precios"][0]["PrecioLiniers"]!="0.00"&&$categorias[0]["Precios"][0]["PrecioLiniers"]!="0,00"){ ?>
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -83,7 +85,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 	</div>
 		
-	
+	<?php } ?>
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
