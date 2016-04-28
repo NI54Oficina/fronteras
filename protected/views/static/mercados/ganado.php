@@ -25,6 +25,8 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 			?>
 			
 	<?php if($categorias[0]["Precios"][0]["PrecioLiniers"]!="0"&&$categorias[0]["Precios"][0]["PrecioLiniers"]!="0.00"&&$categorias[0]["Precios"][0]["PrecioLiniers"]!="0,00"){ ?>
+	
+	<!-- liniers-->
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -86,11 +88,13 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 	</div>
 		
 	<?php } ?>
+	
+	<!-- rosario-->
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-			<h2>- Mercado de Rosario - </h2>
+			<h3>- Mercado de Rosario - </h3>
 			
 			
 			<!-- Icono leche y número -->
@@ -106,16 +110,16 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				<!-- Tabla ( Categoría, Precio, Var día)-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 				
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3>Categoría</h3>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-ganado">
+						<p>Categoría</p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3>Precio $</h3>
+					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-ganado">
+						<p>Precio $</p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3>Var Día $</h3>
+					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-ganado">
+						<p>Var Día $</p>
 					</div>
 				
 				</div>
@@ -125,15 +129,15 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
 				
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3><?php echo $c["Nombre"]; ?></h3>
+						<p><?php echo $c["Nombre"]; ?></p>
+					</div>
+					
+					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="precio-ganado">
+						<p><?php echo $c["Precios"][0]["PrecioRosario"]; ?></p><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecha-mercado.png" alt="Flecha arriba" />!-->
 					</div>
 					
 					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3><?php echo $c["Precios"][0]["PrecioRosario"]; ?></h3><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecha-mercado.png" alt="Flecha arriba" />!-->
-					</div>
-					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3><?php echo $c["Precios"][0]["VariacionRosario"]; ?></h3>
+						<p><?php echo $c["Precios"][0]["VariacionRosario"]; ?></p>
 					</div>
 				
 				</div>

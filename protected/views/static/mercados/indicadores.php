@@ -19,10 +19,11 @@
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-			<h2>- <?php echo $item["Nombre"]; ?> - </h2>
+			<h3>- <?php echo $item["Nombre"]; ?> - </h3>
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				
+				<!-- cabecera-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 				<?php 
 				$order=["Nombre","Compra","Venta","Variacion"];
@@ -36,8 +37,9 @@
 				$col= floor( 12/$columnas);
 				foreach($order as $key){
 					if($item["Items"][0][$key]&&$item["Items"][0][$key]!="s/c"){ ?>
-						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-							<h3><?php echo $key; ?></h3>
+						<!--nombre de columna-->
+						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?> columna-indicadores">
+							<p><?php echo $key; ?></p>
 						</div>
 				<?php 
 					} 
@@ -45,13 +47,16 @@
 				?>
 				</div>
 				
+				<!-- contenido-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
 				<?php foreach($item["Items"] as $c){ ?>
+				<!--fila-->
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<?php foreach($order as $key){ 
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
+								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<h3 class="moneda-mercados"><?php echo $c[$key]; ?></h3>
+										<p class="moneda-mercados"><?php echo $c[$key]; ?></p>
 									</div>
 								<?php } 
 							} ?>

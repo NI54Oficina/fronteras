@@ -9,7 +9,7 @@
 
 	.box-mercado .table-mercado-items .moneda-mercados {
 		color: #3F3F3F;
-		font-size: 1.3rem;
+		font-size: 0.8rem;
 		padding: 0;
 		margin: 0;
 		display: block;
@@ -22,6 +22,32 @@
 
 .col-sm-2-5 {
 	width: 20%;
+}
+
+.columna-indicadores p {
+    font-size: 1.4rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 2px;
+}
+
+.container-items-mercados h3 {
+    color: #2EA982!important;
+    text-align: center!important;
+    text-transform: uppercase;
+    font-size: 1.5rem!important;
+}
+
+.columna-ganado p {
+    font-size: 1.6rem;
+    padding-left: 5px;
+}
+
+
+.columna-granos p {
+    font-size: 1.3rem;
+    padding-left: 2px;
 }
 
 

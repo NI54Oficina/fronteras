@@ -19,7 +19,7 @@
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-			<h2>- <?php echo $item["Producto"]; ?> - </h2>
+			<h3>- <?php echo $item["Producto"]; ?> - </h3>
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				
@@ -36,8 +36,8 @@
 				$col= floor( 12/$columnas);
 				foreach($order as $key){
 					if(array_key_exists($key,$item["Mercados"][0])){ ?>
-						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-							<h3><?php echo $key; ?></h3>
+						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?> columna-granos">
+							<p><?php echo $key; ?></p>
 						</div>
 				<?php 
 					} 
@@ -53,7 +53,7 @@
 							<?php foreach($order as $key){ 
 								if(array_key_exists($key,$c)){ ?>
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<h3 class="moneda-mercados"><?php echo $c[$key]; ?></h3>
+										<p class="moneda-mercados"><?php echo $c[$key]; ?></p>
 									</div>
 								<?php } 
 							} ?>

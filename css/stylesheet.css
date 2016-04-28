@@ -349,11 +349,11 @@ header{
 
 
 /* TÍTULOS divs 2,3,4,5,6 */
-.container-items-mercados h2{ 
-	color:#2EA982;
-	text-align:center;
+.container-items-mercados h3{ 
+	color:#2EA982!important;
+	text-align:center!important;
 	text-transform:uppercase;
-	font-size: 1.8rem;
+	font-size: 1.8rem!important;
 }
 
 
@@ -398,11 +398,11 @@ header{
 	padding:0;
 	background:#F1F2F3;
 	text-align:left;
-	min-height:100px;
+	min-height:30px;
 }
 
 /* Categoría */
-.table-mercado > div:first-child{
+.table-mercado div{
     min-height: 30px;
 	text-align:center;
     padding: 0px;
@@ -507,7 +507,7 @@ header{
 
 .box-mercado  .table-mercado-items .moneda-mercados{
     color: #3F3F3F;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding: 0;
     margin: 0;
     display: block;
@@ -1411,8 +1411,9 @@ header{
 /*****************PRODUCIR (FALTAN DETALLES DE IMAGEN)******************/
 
 
-ESTAS SON LAS GOTAS DEL MENU PRODUCIR SIN EL TEXTO EN LA PROPIA IMAGEN, NAZA
+/*ESTAS SON LAS GOTAS DEL MENU PRODUCIR SIN EL TEXTO EN LA PROPIA IMAGEN, NAZA
 DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
+*/
 
 /*#btn-sanidad { 
 	background-image: url(../img/sanidad.png); 
@@ -1514,7 +1515,6 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 /***********LINKS DE INTERES************/
 
 .box-interes {
-	/*margin: 0 5px;*/
 	padding: 15px;
 }
 
@@ -1623,3 +1623,34 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
   background-color: blue;
   outline: 1px solid slategrey;
 }
+
+
+.columna-indicadores p{
+    font-size: 1.8rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.columna-granos p{
+    font-size: 1.8rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.columna-ganado p{
+    font-size: 1.8rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table-mercado-items div p{
+	text-align:left;
+	padding-left:10px;
+}
+
