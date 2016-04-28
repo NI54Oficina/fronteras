@@ -1392,14 +1392,16 @@ header{
 }
 
 .home-box > div > div:nth-child(1) {
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.5  ); 
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2); 
 	padding: 1em 0em;
 } 
 
 
 /*****************PRODUCIR (DETALLES DE IMAGEN)******************/
 
-#producir {padding: 50px 20px;}
+#producir {
+	padding: 50px 20px;
+}
 
 #btn-sanidad { 
 	background-image: url(../img/sanidad.png); 
@@ -1446,7 +1448,7 @@ header{
 	font-size: 15px; 
 }
 
-/***********************VETERINARIA (EN PROCESO)***************/
+/***********************VETERINARIA***************/
 
 #veterinaria { 
 	padding: 50px 20px; 
@@ -1493,4 +1495,38 @@ header{
 
 .red-form >div > form > select:focus {
 	outline:none ;
+}
+
+/***********LINKS DE INTERES************/
+#links-intereses {
+	padding: 50px 20px;
+}
+
+.box-interes {
+	/*margin: 0 5px;*/
+	padding: 15px;
+}
+
+
+.box-interes-inner {
+	border-top: 4px solid #5771B0;
+}
+
+.box-interes > p {
+	color:#999999;
+	margin:2px; 
+}
+
+.box-interes-img {
+	padding-top: 25px;
+}
+
+.box-interes-img img {
+	width: 100%;
+	position: relative;
+}
+
+.box-interes-inner > img { 
+	position: relative; 
+	width: 100%; 
 }
