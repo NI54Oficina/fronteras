@@ -1370,5 +1370,8 @@ header{
 
 #veterinaria { padding: 50px 20px; }
 #veterinaria >div {padding: 5px 5px;text-align: left;}
-#provincia, #localidad {padding: 10px 5px; }
+#provincia, #localidad {padding: 0px 5px; margin: 20px; }
 
+.red-box >div > form > select {border:none; color: gray; width: 100%;}
+ .red-box > div {padding:0; border-bottom: 2px solid #0078B9;}
+ .red-box >div > form > select:focus {outline:none ;}

@@ -15,8 +15,9 @@
 		
 			<div id="provincia">
 
-				<form>
+				<form method="post">
          			 <select name="provincias">
+         			 <option value="provincia">Provincia </option>
            			<option value="baires">Buenos Aires </option>
            			<option value="tucuman">Tucuman </option>
            			<option value="santiagoDelEstero"> Santiago del Estero </option>
@@ -25,14 +26,16 @@
           			<option value="entreRios">Entre Rios</option>
           			<option value="laPampa">La Pampa</option>
           			</select>
+          			
 				</form>
 
 			 </div>
 
 			 <div id="localidad">
 
-				<form>
+				<form method="post">
          			 <select name="localidad" >
+         			 <option value="localidad">Localidad </option>
          		     <option value="baires">Buenos Aires </option>
            			<option value="tucuman">Tucuman </option>
            			<option value="santiagoDelEstero"> Santiago del Estero </option>
@@ -41,6 +44,7 @@
           			<option value="entreRios">Entre Rios</option>
           			<option value="laPampa">La Pampa</option>
          			 </select>
+
 				</form>
 
 		 	 </div>
