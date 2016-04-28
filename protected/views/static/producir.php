@@ -2,46 +2,46 @@
 
  <div class="gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
 	 <div id="btn-sanidad">
- 		<p>SANIDAD</p>
+ 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  	 </div>
  	
  </div>
 
  <div class="gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
  	<div id="btn-manejo">
- 		<p>MANEJO</p>
+ 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  	</div>
  	
  </div>
 
  <div class="gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
  	<div id="btn-genetica">
- 		<p>GENÉTICA</p>
+ 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  	</div>
  	
  </div>
 
  <div class="gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
   	<div id="btn-nutricion">
- 		<p>NUTRICION</p>
+ 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  	</div>	
  </div>
 
  <div class="gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
  	 <div id="btn-fronteras">
- 		<p>FRONTERAS </br> PRODUCTIVAS</p>
+ 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  	</div>
  </div>
 
  <div class=" gota-producir gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
    	<div id="btn-veterinaria">
- 		<p>RED</br> VETERINARIA</p>
+ 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  	</div>	
  </div>
 
  <div class=" gota-producir col-lg-3 col-md-3 col-sm-3 col-xs-6">
   	<div id="btn-intereses">
-  	<p>LINKS DE </br>INTERES</p>
+  	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Sanidad">
  		
  	</div>
  </div>

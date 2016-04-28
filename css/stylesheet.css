@@ -1399,11 +1399,11 @@ header{
 
 /*****************PRODUCIR (FALTAN DETALLES DE IMAGEN)******************/
 
-#producir {
-	padding: 50px 20px;
-}
 
-#btn-sanidad { 
+ESTAS SON LAS GOTAS DEL MENU PRODUCIR SIN EL TEXTO EN LA PROPIA IMAGEN, NAZA
+DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
+
+/*#btn-sanidad { 
 	background-image: url(../img/sanidad.png); 
 }
 
@@ -1429,29 +1429,32 @@ header{
 
 #btn-intereses { 
 	background-image: url(../img/nutricion.png); 
-}
+}*/
 
-.gota-producir div {
-	background-repeat: no-repeat; 
-	background-size:75%;
-}
 
-.gota-producir {
-	padding: 20px 20px;
-}
-
-.gota-producir > div > p {
+/*.gota-producir > div > p {
 	width: auto; 
 	padding: 0;
 	margin:0; 
 	color: white; 
 	font-size: 15px; 
+}*/
+
+
+.gota-producir > div > img {
+	width: 100%;
+	position: relative;
 }
+
+.gota-producir {
+	padding: 10px 10px;
+}
+
 
 /***********************VETERINARIA***************/
 
 #veterinaria { 
-	padding: 50px 20px; 
+	
 	height: 600px;
 	max-height: 600px;
 }
@@ -1498,9 +1501,6 @@ header{
 }
 
 /***********LINKS DE INTERES************/
-#links-intereses {
-	padding: 50px 20px;
-}
 
 .box-interes {
 	/*margin: 0 5px;*/
@@ -1532,8 +1532,8 @@ header{
 }
 
 
-/*************SANIDAD -GENERALIZAR PARA LAS DEMAS*************/
- #sanidad, #genetica, #nutricion, #manejo {
+/*************SANIDAD - NUTRICION - MANEJO - GENETICA*************/
+ #mercado, #sanidad, #genetica, #nutricion, #manejo, #links-intereses, #veterinaria, #producir {
  	padding: 50px 20px;
  }
 
