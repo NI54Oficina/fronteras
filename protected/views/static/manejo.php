@@ -1,4 +1,4 @@
-<section id="sanidad" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<section id="manejo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<div class="box-producir-left col-lg-2 col-md-2 col-sm-12 col-xs-12"  >
 		
@@ -9,45 +9,38 @@
 	<div class="box-producir-right col-lg-10 col-md-10 col-sm-12 col-xs-12" >
 
 	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-		<div class="box-sanidad-inner">
-			<p>Enfermedades</p>
+		<div class="box-manejo-inner">
+			<p>Cubicacion de bañaderos</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">	
-		<div class="box-sanidad-inner ">
-			<p>Planes Sanitarios</p>
+		<div class="box-manejo-inner ">
+			<p>Bienestar animal</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">	
-		<div class="box-sanidad-inner">
-			<p>Vademecum</p>
+		<div class="box-manejo-inner">
+			<p>Buenas practicas de uso de  productos veterinarios</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">	
-		<div class="box-sanidad-inner ">
-			<p>Dias de retiro de productos veterinarios</p>
+		<div class="box-manejo-inner ">
+			<p>Tipo de destete</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">	
-		<div class="box-sanidad-inner ">
-			<p>Laboratorios de Diagnostico</p>
+		<div class="box-manejo-inner ">
+			<p>Tabla de estado corporal</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">	
-
-		<div class="box-sanidad-inner ">
-			<p>Toma de muestras</p>
-		</div>
-	</div>
-
-	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-		<div class="box-sanidad-inner ">
-			<p>Valores constantes de animales en produccion</p>
+		<div class="box-manejo-inner ">
+			<p>Reglamentaciones agropecuarias</p>
 		</div>
 	</div>
 

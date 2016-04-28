@@ -1533,39 +1533,68 @@ header{
 
 
 /*************SANIDAD -GENERALIZAR PARA LAS DEMAS*************/
- #sanidad {
+ #sanidad, #genetica, #nutricion, #manejo {
  	padding: 50px 20px;
  }
 
-.box-sanidad-2 {
+.box-producir-2 {
 	padding:0px 15px;
 	margin-bottom:20px;
 }
 
-.box-sanidad-inner {
- 	border:2px solid #6D4A84 ;
- 	padding: 0px 10px;
- 	text-align: center;
- 	height: 200px;
- 	max-height: 200px;
- 	vertical-align: middle;
-
-}
-
-.box-sanidad-left > img {
+.box-producir-left > img {
  	position: relative;
  	width: 100%;
  	max-width: 200px;
 }
 
-.box-sanidad-left {
+.box-producir-left {
 	padding-bottom: 15px;
 }
 
+.box-producir-2 > div > p{
+	padding: 40% 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.box-producir-2 > div {
+	padding: 0px 10px;
+ 	text-align: center;
+ 	height: 200px;
+ 	max-height: 200px;
+ 	vertical-align: middle;
+}
 
 .box-sanidad-inner > p { 
 	color:#6D4A84;
-	padding: 40% 0;
-	
-
 }
+
+.box-genetica-inner > p {
+	color: #ED7C28;
+}
+
+.box-genetica-inner {
+ 	border:2px solid #ED7C28 ;
+}
+.box-sanidad-inner {
+ 	border:2px solid #6D4A84 ;
+ 	
+}
+
+.box-nutricion-inner > p {
+	color: #BAA200;
+}
+
+.box-nutricion-inner {
+ 	border:2px solid #BAA200 ;
+}
+
+.box-manejo-inner > p {
+	color: #003D6A;
+}
+
+.box-manejo-inner {
+ 	border:2px solid #003D6A ;
+}
+
