@@ -990,7 +990,7 @@ header{
 }
 
 
-/* CAJA NOTICIA PRIMERA*/
+/************* CAJA NOTICIA PRIMERA*************** /
 .box-noticias > div:first-child > div:first-child{
 	background-color: #2ED7AA;
     min-height: 171px;
@@ -1326,7 +1326,7 @@ header{
 
 
 
-/*********************HOME (DETALLES DE IMAGEN)*******************/
+/*********************HOME (FALTAN DETALLES DE IMAGEN)*******************/
 
 #home { 
 	padding: 15px; 
@@ -1397,7 +1397,7 @@ header{
 } 
 
 
-/*****************PRODUCIR (DETALLES DE IMAGEN)******************/
+/*****************PRODUCIR (FALTAN DETALLES DE IMAGEN)******************/
 
 #producir {
 	padding: 50px 20px;
@@ -1529,4 +1529,36 @@ header{
 .box-interes-inner > img { 
 	position: relative; 
 	width: 100%; 
+}
+
+
+/*************SANIDAD*************/
+ #sanidad {
+ 	padding: 50px 20px;
+ }
+
+ .box-sanidad-left, .box-sanidad-right {
+ 	border:1px solid blue;
+ 	
+
+ }
+
+.box-sanidad-right > div {
+	padding:15px 15px;
+}
+
+.box-sanidad-inner {
+ 	border:1px solid #6D4A84 ;
+
+}
+
+.box-sanidad-left > img {
+ 	position: relative;
+ 	width: 100%;
+ 	max-width: 200px;
+}
+
+.box-sanidad-inner > p { 
+	color:#6D4A84;
+
 }
