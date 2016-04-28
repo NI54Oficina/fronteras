@@ -1532,23 +1532,23 @@ header{
 }
 
 
-/*************SANIDAD*************/
+/*************SANIDAD -GENERALIZAR PARA LAS DEMAS*************/
  #sanidad {
  	padding: 50px 20px;
  }
 
- .box-sanidad-left, .box-sanidad-right {
- 	border:1px solid blue;
- 	
-
- }
-
-.box-sanidad-right > div {
-	padding:15px 15px;
+.box-sanidad-2 {
+	padding:0px 15px;
+	margin-bottom:20px;
 }
 
 .box-sanidad-inner {
- 	border:1px solid #6D4A84 ;
+ 	border:2px solid #6D4A84 ;
+ 	padding: 0px 10px;
+ 	text-align: center;
+ 	height: 200px;
+ 	max-height: 200px;
+ 	vertical-align: middle;
 
 }
 
@@ -1558,7 +1558,14 @@ header{
  	max-width: 200px;
 }
 
+.box-sanidad-left {
+	padding-bottom: 15px;
+}
+
+
 .box-sanidad-inner > p { 
 	color:#6D4A84;
+	padding: 40% 0;
+	
 
 }
