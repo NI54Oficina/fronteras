@@ -24,13 +24,9 @@
 		
 			<!--Título de sección -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="border-noticias-h1 b-r"></div><h1>Hacienda</h1><div class="border-noticias-h1 b-l"></div>
+				<div class="bordernoticias-h1 b-r"></div><h1>Hacienda</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+		
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias">
@@ -56,11 +52,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Granos</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+		
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias">
@@ -86,11 +78,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-2">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-2">
@@ -118,11 +106,6 @@
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-2">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
-			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-2">
 				<h2>Precipitaciones pueden regresar mañana</h2>
@@ -148,11 +131,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Mercado</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-3">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-3">
@@ -179,11 +158,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Mercado</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-3">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-3">
@@ -210,11 +185,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Hacienda</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias">
@@ -242,11 +213,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Hacienda</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias">
@@ -273,11 +240,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-2">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-2">
@@ -304,11 +267,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-2">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-2">
@@ -336,11 +295,7 @@
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="border-noticias-h1 b-r"></div><h1>Mercado</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
-			
-			<!-- Imágen -->
-			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-img-noticias-3">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-img.png" alt="Imágen noticia" />
-			</div>
+
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-3">

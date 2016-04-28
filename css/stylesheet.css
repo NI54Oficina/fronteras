@@ -1544,7 +1544,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 
 /*************SANIDAD - NUTRICION - MANEJO - GENETICA*************/
- #mercado, #sanidad, #genetica, #nutricion, #manejo, #links-intereses, #veterinaria, #producir {
+ #mercado, #sanidad, #genetica, #nutricion, #manejo, #links-intereses, #veterinaria, #producir, #mercados, #clima, #hoy, #noticias {
  	padding: 50px 20px;
  }
 
@@ -1609,3 +1609,17 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  	border:2px solid #003D6A ;
 }
 
+
+
+#clima form select::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#clima form select::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#clima form select::-webkit-scrollbar-thumb {
+  background-color: blue;
+  outline: 1px solid slategrey;
+}
