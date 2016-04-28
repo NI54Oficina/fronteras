@@ -1450,29 +1450,47 @@ header{
 
 #veterinaria { 
 	padding: 50px 20px; 
+	height: 600px;
+	max-height: 600px;
 }
 
 #veterinaria >div {
 	padding: 5px 5px;
-	]text-align: left;
+	text-align: left;
+	height: 100%;
 }
 
 #provincia, #localidad {
 	padding: 0px 5px; 
 	margin: 20px; 
 }
+.map-box iframe{ 
+	border:2px solid #0078B9;
+	width:100%;
+	height:100%;
+	position: relative;
 
-.red-box >div > form > select {
+}
+
+.red-box img { width: 40%; 
+
+}
+
+.red-form {
+	margin-top: 40px;
+}
+
+.red-form >div > form > select {
 	border:none; 
 	color: gray; 
 	width: 100%;
 }
 
-.red-box > div {
+.red-form > div {
 	padding:0; 
 	border-bottom: 2px solid #0078B9;
 }
 
-.red-box >div > form > select:focus {
+.red-form >div > form > select:focus {
 	outline:none ;
 }
