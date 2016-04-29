@@ -1576,6 +1576,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 	font-weight: bold;
 	font-size: 1.2em;
 	position: relative;
+	width: auto;
 }
 
 .box-producir-2 > div {
