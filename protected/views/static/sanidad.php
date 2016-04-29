@@ -2,13 +2,13 @@
 
 	<div class="box-producir-left col-lg-2 col-md-2 col-sm-12 col-xs-12"  >
 		
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-sanidad.svg" alt="Sanidad">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-sanidad" alt="Sanidad">
 		
 	</div>
 		
 	<div class="box-producir-right col-lg-10 col-md-10 col-sm-12 col-xs-12" >
 
-	<div class="box-producir-2 col-lg-2-5 col-md-3 col-sm-6 col-xs-12">
+	<div class="box-producir-2 col-lg-3 col-md-3 col-sm-6 col-xs-12">
 		<div class="box-sanidad-inner">
 			<p>Enfermedades</p>
 		</div>

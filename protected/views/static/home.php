@@ -25,7 +25,7 @@
 				<div>
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 				</div>
-				<div><p>HOY</p></div>		
+				<div id="testing"><p>HOY</p></div>		
 			</div>
 		</div>	
 
@@ -33,7 +33,7 @@
  		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="estemes-box ">
  				<div>
- 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-estemes.svg" alt="Este Mes" />
+ 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 
 
  				</div>

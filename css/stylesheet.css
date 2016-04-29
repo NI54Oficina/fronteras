@@ -1558,26 +1558,24 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  	padding: 50px 45px;
  }
 
-.box-producir-2 {
-	padding:0px 15px;
-	margin-bottom:20px;
-}
-
-.box-producir-left > img {
- 	position: relative;
+.box-producir-2 > img{
+	
+	position: relative;
  	width: 100%;
  	
 }
 
-.box-producir-left {
-	padding-bottom: 15px;
-	padding-left: 15px;
+
+
+.box-producir-2 {
+	padding: 15px;
 }
 
 .box-producir-2 > div > p{
-	padding: 40% 0;
+	padding: 5em 0;
 	font-weight: bold;
 	font-size: 1.2em;
+	position: relative;
 }
 
 .box-producir-2 > div {
@@ -1606,6 +1604,10 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 .box-nutricion-inner > p {
 	color: #BAA200;
+}
+
+.box-relleno-inner {
+	border:transparent;
 }
 
 .box-nutricion-inner {
