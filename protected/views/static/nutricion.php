@@ -31,7 +31,7 @@
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
 		<div class="box-relleno squeare" >
-			<p>Relleno</p>
+			<p></p>
 		</div>
 	</div>
 	
