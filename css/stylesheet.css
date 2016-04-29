@@ -1561,7 +1561,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 .box-producir-2 > img{
 	
 	position: relative;
- 	width: 100%;
+ 	width: 95%;
  	
 }
 
@@ -1572,7 +1572,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .box-producir-2 > div > p{
-	padding: 5em 0;
+	
 	font-weight: bold;
 	font-size: 1.2em;
 	position: relative;
