@@ -1340,7 +1340,7 @@ header{
 /*********************HOME (FALTAN DETALLES DE IMAGEN)*******************/
 
 #home { 
-	padding: 15px; 
+	padding: 45px; 
 	background-image: url(../img/bg-index.png); 
 	width: 100%;  
 	text-align: center; 
@@ -1348,21 +1348,28 @@ header{
 }
 
 .home-upper-box { 
-	background-color: white;
 	padding: 20px 20px;
-	box-shadow: 5px 5px 10px rgba(136,136,136,0.5); 
 	margin-bottom:7em;
 }
 
+.home-upper-box > div {
+	box-shadow: 5px 5px 10px rgba(136,136,136,0.5);
+	background-color: white;
+	padding: 25px;
+	height: auto;
+
+}
 .home-upper-box img:nth-child(1){
 	float: left;  
 	width: 10em;
+	position: relative;
+	
 }
 
 .home-upper-box img:nth-child(2){
 	float: right; 
 	position: relative;
-	width: 20em;
+	width: 15em;
 }
 
 .home-bottom-box { 
@@ -1373,6 +1380,7 @@ header{
 .home-bottom-box p {
 	color: white; 
 	font-size: 1.5em;
+	margin: 5px;
 }
 
 .home-bottom-box > div {
@@ -1453,25 +1461,25 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }*/
 
 
-.gota-producir > div > img {
-	width: 100%;
+.gota-producir > div > a > img {
+	width: 85%;
 	position: relative;
 }
 
 .gota-producir {
-	padding: 10px 10px;
+	padding: 25px 10px;
 }
 
 
 /***********************VETERINARIA***************/
 
-#veterinaria { 
+.veterinaria { 
 	
 	height: 600px;
 	max-height: 600px;
 }
 
-#veterinaria >div {
+.veterinaria >div {
 	padding: 5px 5px;
 	text-align: left;
 	height: 100%;
@@ -1489,12 +1497,14 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 }
 
-.red-box img { width: 40%; 
+.red-box img { 
+	width: 40%; 
 
 }
 
 .red-form {
 	margin-top: 40px;
+	margin-left: 20px;
 }
 
 .red-form >div > form > select {
@@ -1544,8 +1554,8 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 
 /*************SANIDAD - NUTRICION - MANEJO - GENETICA*************/
- #mercado, #sanidad, #genetica, #nutricion, #manejo, #links-intereses, #veterinaria, #producir, #mercados, #clima, #hoy, #noticias {
- 	padding: 50px 20px;
+ #mercado, #sanidad, #contenedor, #genetica, #nutricion, #manejo, #links-intereses, #producir, #mercados, #clima, #hoy, #noticias {
+ 	padding: 50px 45px;
  }
 
 .box-producir-2 {
@@ -1625,7 +1635,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 
-.columna-indicadores p{
+.columna-indicadores p {
     font-size: 1.8rem;
     padding-top: 3px;
     margin: 0;
@@ -1633,7 +1643,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     padding-left: 10px;
 }
 
-.columna-granos p{
+.columna-granos p {
     font-size: 1.8rem;
     padding-top: 3px;
     margin: 0;
@@ -1641,7 +1651,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     padding-left: 10px;
 }
 
-.columna-ganado p{
+.columna-ganado p {
     font-size: 1.8rem;
     padding-top: 3px;
     margin: 0;
@@ -1649,7 +1659,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     padding-left: 10px;
 }
 
-.table-mercado-items div p{
+.table-mercado-items div p {
 	text-align:left;
 	padding-left:10px;
 }

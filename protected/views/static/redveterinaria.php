@@ -1,4 +1,4 @@
-<section id="veterinaria" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<section id="contenedor" class=" veterinaria col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	
 	<div class="map-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
@@ -11,7 +11,7 @@
 	
 	<div class="red-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-		    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/red-veterinaria.png" alt="Red Veterinaria">
+		    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-veterinarias.svg" alt="Red Veterinaria">
 		
 			
 		  <div class="red-form">

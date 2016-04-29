@@ -2,7 +2,7 @@
 
 	<div class="box-interes col-lg-2-5 col-md-6 col-sm-6 col-xs-12"  >
 		<div class="box-interes-img">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sanidad.png" alt="Red Links de Intereses">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-links.svg" alt="Red Links de Intereses">
 		</div>
 		
 	</div>

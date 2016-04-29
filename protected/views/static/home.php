@@ -8,10 +8,13 @@
  -->
 
 
-
 	<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
- 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
- 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-bago.png" alt="Logo Bago " />
+		<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+ 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
+
+ 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-bago.png" alt="Logo Bago " />
+
+ 		</div>
  	</div>
 
  	<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
