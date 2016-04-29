@@ -1028,15 +1028,30 @@ header{
 /* Cajas noticias normales */
 .box-noticias > div > div{
 	background-color:transparent;
-	min-height: 345px;	
+	min-height: 205px;	
 }
 
-.box-noticias > div > div h1{
+.box-noticias  h1{
     color: #999999;
     font-size: 1.6rem;
     text-align: center;
     display: inline-block;
     margin: 0;
+}
+
+.box-noticias #noticia-box-title{
+	color: white;
+    text-transform: uppercase;
+    padding-top: 85px;
+    text-align: center;
+    display: inline-block;
+    width: 115px;
+}
+
+.box-noticias #noticia-box{
+	background:#2ED7AA;
+	min-height: 205px;	
+	text-align:center;
 }
 
 .box-noticias > div > div > div{
@@ -1171,7 +1186,6 @@ header{
 .box-noticias .container-texto-noticias{
     min-height: 154px;
     border: 2px solid #2ED7AA;
-    margin-top: 5px;
     height: 170px;
 }
 
@@ -1630,12 +1644,12 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
  
 #clima form select::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px blue;
 }
  
 #clima form select::-webkit-scrollbar-thumb {
   background-color: blue;
-  outline: 1px solid slategrey;
+  outline: 1px solid blue;
 }
 
 

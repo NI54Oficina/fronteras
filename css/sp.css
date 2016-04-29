@@ -1,0 +1,26 @@
+/* IPAD  Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape)  {
+	
+	.columna-granos p {
+		font-size: 1.3rem;
+		padding-left: 0px;
+	}
+	
+	
+	.columna-indicadores p {
+		font-size: 1.5rem;
+		padding-left: 0px;
+	}
+	
+	.box-mercado .table-mercado-items .moneda-mercados {
+		font-size: 1rem;
+		padding-left: 0px;
+	}
+	
+	.columna-ganado p {
+		font-size: 1.5rem;
+	}
+}

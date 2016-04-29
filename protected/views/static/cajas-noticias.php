@@ -3,34 +3,26 @@
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
-	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div class="col-lg-2-5" id="noticia-box">
 		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			
-				<h1>Noticias del sector</h1>
-			
-		</div>
-		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			
-			
-		</div>
+		<h1 id="noticia-box-title">Noticias del sector</h1>
 		
 	</div>
 	
 	<!-- Noticia 2-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="bordernoticias-h1 b-r"></div><h1>Hacienda</h1><div class="border-noticias-h1 b-l"></div>
+				<div class="border-noticias-h1 b-r"></div><h1>Granos</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 		
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias">
-				<h2>Lechería: afirman que la industria no cumple con los valores</h2>
+				
+				<h2>Fondos especulativos volvieron a apostar fuerte contra la soja</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
@@ -45,7 +37,7 @@
 	</div>	
 	
 	<!-- Noticia 3-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -71,7 +63,7 @@
 	</div>	
 	
 	<!-- Noticia 4-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -98,8 +90,7 @@
 
 	
 	<!-- Noticia 5-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-2-5">
 		
 			<!--Título de sección -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -120,11 +111,11 @@
 		
 			
 		</div>
-	</div>	
+
 	
 	
 		<!-- Noticia 6-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -151,7 +142,7 @@
 	
 	
 		<!-- Noticia 7-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -178,7 +169,7 @@
 	
 	
 	<!-- Noticia 8-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -206,7 +197,7 @@
 	
 	
 	<!-- Noticia 9-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -233,7 +224,7 @@
 	
 	
 	<!-- Noticia 10-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -260,7 +251,7 @@
 
 	
 	<!-- Noticia 11-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -288,7 +279,7 @@
 		
 	
 		<!-- Noticia 12-->
-	<div  class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+	<div  class="col-lg-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
