@@ -1524,7 +1524,6 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 .red-box img { 
 	width: 40%; 
-
 }
 
 .red-form {
@@ -1584,10 +1583,8 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  }
 
 .box-producir-2 > img{
-	
 	position: relative;
  	width: 95%;
- 	
 }
 
 
@@ -1597,12 +1594,12 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .box-producir-2 > div > p{
-	
 	font-weight: bold;
 	font-size: 1.2em;
 	position: relative;
 	width: auto;
 }
+
 
 .box-producir-2 > div {
 	padding: 0px 10px;
@@ -1611,6 +1608,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  	
  	vertical-align: middle;
 }
+
 
 .box-sanidad-inner > p { 
 	color:#6D4A84;
@@ -1629,7 +1627,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .box-nutricion-inner > p {
-	color: #BAA200;
+	color: #BAA200¡;
 }
 
 .box-relleno-inner {

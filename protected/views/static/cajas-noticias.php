@@ -10,8 +10,8 @@
 	</div>
 	
 	<!-- Noticia 2-->
-	<div  class="col-lg-2-5">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div  class="col-lg-2-5 col-md-2-5">
+		<div class="col-lg-12-5 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -32,12 +32,12 @@
 				
 			</div>
 		
-			
 		</div>
 	</div>	
 	
 	<!-- Noticia 3-->
-	<div  class="col-lg-2-5">
+	<div  class="col-lg-2-5 col-md-2-5">
+		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -58,12 +58,13 @@
 				
 			</div>
 		
-			
 		</div>
+		
 	</div>	
 	
 	<!-- Noticia 4-->
-	<div  class="col-lg-2-5">
+	<div  class="col-lg-2-5 col-md-2-5">
+		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -74,6 +75,7 @@
 			
 			<!-- Texto noticia -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-texto-noticias-2">
+				
 				<h2>Precipitaciones pueden regresar mañana</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -83,14 +85,14 @@
 				</div>
 				
 			</div>
-		
 			
 		</div>
+		
 	</div>	
 
 	
 	<!-- Noticia 5-->
-		<div class="col-lg-2-5">
+		<div class="col-lg-2-5 col-md-2-5">
 		
 			<!--Título de sección -->
 			<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -115,7 +117,7 @@
 	
 	
 		<!-- Noticia 6-->
-	<div  class="col-lg-2-5">
+	<div  class="col-lg-2-5 col-md-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -142,7 +144,7 @@
 	
 	
 		<!-- Noticia 7-->
-	<div  class="col-lg-2-5">
+	<div  class="col-lg-2-5 col-md-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
@@ -169,7 +171,7 @@
 	
 	
 	<!-- Noticia 8-->
-	<div  class="col-lg-2-5">
+	<div  class="col-lg-2-5 col-md-2-5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<!--Título de sección -->
