@@ -15,12 +15,20 @@
 	 foreach($array as $item){
 	?>
 	
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados ">
 		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 		
 			<h3>- <?php echo $item["Nombre"]; ?> - </h3>
-		
+					
+			<div class="col-lg-12 col-md-12 col-sm-12">
+			
+				<button type="button" class="btn-indicadores btn-default">Tasas</button>
+				<button type="button" class="btn-indicadores btn-default">Bolsas</button>
+				<button type="button" class="btn-indicadores btn-default">Commodities</button>
+			
+			</div>
+			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				
 				<!-- cabecera-->
@@ -66,7 +74,12 @@
 				</div>	
 				
 			</div>	
-					
+			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
+			
+				<p>Actualizado: 12-02-2016</p>
+			
+			</div>	
 		</div>
 		
 	</div>

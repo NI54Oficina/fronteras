@@ -184,7 +184,7 @@ header{
 	color:#fff;
 	text-align: left;
     padding-left: 20px;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 
@@ -322,6 +322,7 @@ header{
 .box-mercado > div:first-child > div{
 	background-color:#28A382;
 	min-height: 480px;
+	height:auto;
 	border:none;
 }
 
@@ -352,8 +353,8 @@ header{
 .container-items-mercados h3{ 
 	color:#2EA982!important;
 	text-align:center!important;
-	text-transform:uppercase;
-	font-size: 1.8rem!important;
+    font-weight: 700;
+    font-size: 2.1rem!important;
 }
 
 
@@ -1700,11 +1701,12 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .columna-ganado p {
-    font-size: 1.8rem;
+	font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
     text-align: left;
     padding-left: 10px;
+    font-weight: 700;
 }
 
 .table-mercado-items div p {
@@ -1712,5 +1714,103 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 	padding-left:10px;
 }
 
+.container-items-mercados{
+	margin-bottom: 10px;
+}
 
+.btn-default {
+    color: #FFF;
+    background-color: #28A382;
+    border-color: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'arialregular';
+}
+
+.btn {
+    display: inline-block;
+    padding: 9px 57px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #D0CFCF;
+    border-color: transparent;
+}
+
+.btn-default:focus {
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #CDCDCD;
+    border-color: transparent;
+}
+
+.btn-default:active {
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #CDCDCD;
+    border-color: transparent;
+}
+
+.btn:focus {
+    outline: none!important;
+}
+
+.actualizar-ganado{
+	background: #5fc39e!important;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	min-height:30px!important;
+}
+
+
+.actualizar-ganado p{
+	color: white!important;
+    font-size: 1.2rem!important;
+    font-weight: 400!important;
+    padding-left: 5px!important;
+}
+
+.btn-indicadores {
+    display: inline-block;
+    padding: 9px 24px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 0;
+}
 /*.hoy-box > div:hover {background-color:rgb(0,153,167)}*/

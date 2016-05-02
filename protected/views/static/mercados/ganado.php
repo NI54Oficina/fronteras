@@ -31,32 +31,29 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-			<h2>- Mercado de Liniers - </h2>
-			
-			
-			<!-- Icono vaca y número -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icon-number-mercados">
-				<!--imágen-->
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca-mercado.png" alt="Vaca" />
-				<!-- número -->
-				<p><?php echo $entrada_liniers; ?></p>
-			</div>
+			<h3>- Ganado -</h3>
 		
+			<div class="col-lg-12 col-md-12 col-sm-12">
+			
+				<button type="button" class="btn btn-default">Liniers</button>
+				<button type="button" class="btn btn-default">Rosario</button>
+			
+			</div>
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				<!-- Tabla ( Categoría, Precio, Var día)-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 				
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3>Categoría</h3>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
+						<p>Categoría</p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3>Precio $</h3>
+					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
+						<p>Precio $ </p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3>Var Día $</h3>
+					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
+						<p>Var Día $</p>
 					</div>
 				
 				</div>
@@ -66,15 +63,15 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
 				
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3><?php echo $c["Nombre"]; ?></h3>
+						<p><?php echo $c["Nombre"]; ?></p>
 					</div>
 					
 					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3><?php echo $c["Precios"][0]["PrecioLiniers"]; ?></h3><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecha-mercado.png" alt="Flecha arriba" />!-->
+						<p><?php echo $c["Precios"][0]["PrecioLiniers"]; ?></p><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecha-mercado.png" alt="Flecha arriba" />!-->
 					</div>
 					
 					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<h3><?php echo $c["Precios"][0]["VariacionLiniers"]; ?></h3>
+						<p><?php echo $c["Precios"][0]["VariacionLiniers"]; ?></p>
 					</div>
 				
 				</div>
@@ -83,6 +80,13 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				
 			</div>		
 			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
+			
+				<p>Actualizado: 12-02-2016</p>
+			
+			</div>
+			
+			
 		</div>
 		
 	</div>
@@ -90,20 +94,12 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 	<?php } ?>
 	
 	<!-- rosario-->
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados square">
 		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square">
 		
 			<h3>- Mercado de Rosario - </h3>
-			
-			
-			<!-- Icono leche y número -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icon-number-mercados">
-				<!--imágen-->
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/leche-mercado.png" alt="Vaca" />
-				<!-- número -->
-				<p><?php echo $entrada_rosario; ?></p>
-			</div>
+
 		
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
