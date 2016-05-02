@@ -1583,11 +1583,13 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  }
 
 
-.box-sanidad {background-color:#6D4A84; }
+.box-sanidad {
+	background-color:#6D4A84; 
+}
 
 .box-producir-2 > img{
 	position: relative;
- 	width: 100%;
+ 	width: 92%;
 }
 
 
@@ -1597,7 +1599,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .box-producir-2 > div> div > p{
-	font-weight: bold;
+	
 	font-size: 1.2em;
 	position: relative;
 	width: auto;
@@ -1617,9 +1619,16 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 .box-sanidad-inner > p { 
 	color:#6D4A84;
 }
+.box-sanidad {
+	background-color:#6D4A84; 
+}
 
 .box-genetica-inner > p {
 	color: #ED7C28;
+}
+
+.box-genetica {
+	background-color:#ED7C28; 
 }
 
 .box-genetica-inner {
@@ -1628,6 +1637,9 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 .box-sanidad-inner {
  	border:2px solid #6D4A84 ;
  	
+}
+.box-nutricion {
+	background-color:#BAA200; 
 }
 
 .box-nutricion-inner > p {
@@ -1644,6 +1656,10 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 .box-manejo-inner > p {
 	color: #003D6A;
+}
+
+.box-manejo {
+	background-color:#003D6A;
 }
 
 .box-manejo-inner {

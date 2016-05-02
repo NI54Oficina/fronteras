@@ -2,45 +2,88 @@
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12"  >
 		
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrado-genetica.svg" alt="Genetica">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-genetica.svg" alt="Genetica">
 		
 	</div>
 		
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-genetica">
 		<div class="box-genetica-inner square">
 			<p>Protoloco de reproduccion</p>
 		</div>
 	</div>
+	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-genetica">
 		<div class="box-genetica-inner square">
 			<p>Asociacion Hereford</p>
 		</div>
 	</div>
+	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
 			<p>Asociacion Angus</p>
 		</div>
 	</div>
+	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-genetica">
 		<div class="box-genetica-inner square ">
 			<p>Asocacion Brangus</p>
 		</div>
 	</div>
+	</div>
 	
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-genetica">
 		<div class="box-genetica-inner square">
 			<p>Asoacion Braford</p>
+		</div>
 		</div>
 
 		
 	</div>
 	
 
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+
+
+<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+
+  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+
+  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+  
 </section>
 
 

@@ -8,51 +8,81 @@
 		
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-1">
+	<div class="box-manejo">
 		<div class="box-manejo-inner square">
 			<p>Cubicacion de bañaderos</p>
 		</div>
 	</div>
+	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-manejo">
 		<div class="box-manejo-inner square ">
 			<p>Bienestar animal</p>
 		</div>
 	</div>
+	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-manejo">
 		<div class="box-manejo-inner square">
 			<p>Buenas practicas de uso de  productos veterinarios</p>
 		</div>
 	</div>
+	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-manejo">
 		<div class="box-manejo-inner square">
 			<p>Tipo de destete</p>
 		</div>
 	</div>
-
-		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 hidden-xs hidden-md hidden-sm ">	
-		<div class="box-relleno square" >
-			
-		</div>
 	</div>
+
+		
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-manejo">
 		<div class="box-manejo-inner square">
 			<p>Tabla de estado corporal</p>
 		</div>
 	</div>
+	</div>
 	
 	
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-manejo">	
 		<div class="box-manejo-inner square">
 			<p>Reglamentaciones agropecuarias</p>
 		</div>
-
-
 	</div>
-	
+	</div>
+
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-manejo">	
+		<div class="box-manejo-inner square">
+			<p></p>
+		</div>
+	</div>
+	</div>
+
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-manejo">	
+		<div class="box-manejo-inner square">
+			<p></p>
+		</div>
+	</div>
+	</div>
+
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
+	<div class="box-manejo">	
+		<div class="box-manejo-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+
 
 </section>
 
