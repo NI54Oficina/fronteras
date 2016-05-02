@@ -314,21 +314,22 @@ header{
 .box-mercado div{
 	padding:5px;
 	background-color:transparent;
-	text-align:left;
-	min-height: 480px;
+	text-align:center;
+	padding-bottom:30px;
 }
 
 
 .box-mercado > div:first-child > div{
 	background-color:#28A382;
-	min-height: 480px;
-	height:auto;
+	
+	height:100%;
 	border:none;
 }
 
 /* Mercado de Liniers */
 .box-mercado > div > div{
 	border:1px solid #28A382;
+	height:100%;
 }
 
 
@@ -386,7 +387,6 @@ header{
 /* TABLA */
 
 .box-mercado .general-table-mercados{
-    min-height: 200px;
     padding-top: 30px;
 }
 	

@@ -27,7 +27,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 	<?php if($categorias[0]["Precios"][0]["PrecioLiniers"]!="0"&&$categorias[0]["Precios"][0]["PrecioLiniers"]!="0.00"&&$categorias[0]["Precios"][0]["PrecioLiniers"]!="0,00"){ ?>
 	
 	<!-- liniers-->
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados" hid="1">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
@@ -94,9 +94,9 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 	<?php } ?>
 	
 	<!-- rosario-->
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados square">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados" hid="1">
 		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<h3>- Mercado de Rosario - </h3>
 

@@ -15,7 +15,7 @@
 	 foreach($array as $item){
 	?>
 	
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados ">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados " hid="1">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 		
