@@ -1405,7 +1405,10 @@ header{
 
 .hoy-box {
 	background-color: #40CEDB;
+
 }
+
+.producir-box > div:nth-child(1) { background-image: url(../img/icono-producir.png);  }
 
 .estemes-box{
 	background-color: #0093D4
@@ -1682,3 +1685,5 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 	padding-left:10px;
 }
 
+
+/*.hoy-box > div:hover {background-color:rgb(0,153,167)}*/

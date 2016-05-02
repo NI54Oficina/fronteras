@@ -13,7 +13,7 @@
 	<meta name="description" content="Biogénesis Bagó es una empresa de biotecnología que investiga, elabora y comercializa productos y servicios veterinarios, destinados a asegurar la salud y mejorar la productividad de los rodeos de carne y leche">
 	
 	
-	<?php
+	<?php        
 	
 	$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>$data));	
 	

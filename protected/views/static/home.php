@@ -22,7 +22,7 @@
  		<div class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
 
 			<div class="hoy-box">
-				<div>
+				<div hid="1">
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 				</div>
 				<div id="testing"><p>HOY</p></div>		
@@ -32,7 +32,7 @@
  		
  		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="estemes-box ">
- 				<div>
+ 				<div hid="1">
  					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 
 
@@ -45,8 +45,8 @@
 
 		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="producir-box ">
- 				<div>
- 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
+ 				<div hid="1">
+ 					<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
  				</div>
 				<div><p>PRODUCIR +</p></div>
  			</div>
@@ -55,7 +55,7 @@
 
 		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="ayuda-box">
- 				<div>
+ 				<div hid="1">
  					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
  				</div>
 				<div><p>AYUDA</p></div>
