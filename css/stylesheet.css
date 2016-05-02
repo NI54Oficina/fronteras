@@ -1489,6 +1489,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 .gota-producir > div > a > img {
 	width: 85%;
 	position: relative;
+	max-width: 200px;
 }
 
 .gota-producir {
