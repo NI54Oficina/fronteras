@@ -1583,11 +1583,11 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  }
 
 
-.box-producir-2 > div {background-color:#6D4A84; }
+.box-sanidad {background-color:#6D4A84; }
 
 .box-producir-2 > img{
 	position: relative;
- 	width: 95%;
+ 	width: 100%;
 }
 
 
@@ -1635,7 +1635,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .box-relleno{
-	opacity: .7;
+	opacity: .1;
 }
 
 .box-nutricion-inner {
