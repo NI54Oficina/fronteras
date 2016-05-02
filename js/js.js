@@ -4,6 +4,9 @@ jQuery(window).load(function () {
 		Header();
 		SameHeight();
 		ResizeViewportElements();
+		
+
+
 		if(!isHome){
 			
 			$(".fadder").css('opacity',1);
@@ -258,6 +261,9 @@ function checkVisible( elm, evalType ) {
 
 
 $(document).ready(function(){
+
+	 AdaptSquare();
+
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
 		if(isMobile){
 			/*var target= $(this).attr("target");
@@ -282,4 +288,22 @@ $(document).ready(function(){
 				$(target).removeClass("opened");
 			}
 	});
+
+
+	function AdaptSquare(){
+	var ancho = $('.square').outerWidth();
+  $('.square').css('height', ancho+"px");
+
+  $(".box-producir-2 > div > p" ).each(function( index ) {
+
+  	 var alto_div = ancho;
+  	 var alto_parrafo = $(this).height();
+
+  	 var alto=((alto_div/2)-(alto_parrafo/2));
+
+  	 console.log("alto "+alto);
+   	$(this).css("margin-top", alto+"px" );
+
+  });
+}
 });

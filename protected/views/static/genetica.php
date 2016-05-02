@@ -8,31 +8,31 @@
 		
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">
-		<div class="box-genetica-inner">
+		<div class="box-genetica-inner square">
 			<p>Protoloco de reproduccion</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
-		<div class="box-genetica-inner ">
+		<div class="box-genetica-inner square">
 			<p>Asociacion Hereford</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
-		<div class="box-genetica-inner">
+		<div class="box-genetica-inner square">
 			<p>Asociacion Angus</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
-		<div class="box-genetica-inner ">
+		<div class="box-genetica-inner square ">
 			<p>Asocacion Brangus</p>
 		</div>
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 hidden-xs hidden-md hidden-sm ">	
-		<div class="box-relleno squeare" >
+		<div class="box-relleno square" >
 			
 		</div>
 
@@ -40,7 +40,7 @@
 	
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
-		<div class="box-genetica-inner ">
+		<div class="box-genetica-inner square">
 			<p>Asoacion Braford</p>
 		</div>
 

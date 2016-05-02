@@ -37,7 +37,7 @@
 
  <div class="gota-producir col-lg-3 col-md-3 col-sm-6 col-xs-6">
  	 <div id="btn-fronteras">
- 	 	<a href="">
+ 	 	<a href="http://www.fronterasproductivas.com/">
  			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-fronteras.svg" alt="Sanidad">
  		</a>
  	</div>
