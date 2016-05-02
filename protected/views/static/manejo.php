@@ -31,7 +31,11 @@
 		</div>
 	</div>
 
-		
+		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 hidden-xs hidden-md hidden-sm ">	
+		<div class="box-relleno square" >
+			
+		</div>
+	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
 		<div class="box-manejo-inner square">
@@ -39,11 +43,7 @@
 		</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 hidden-xs hidden-md hidden-sm ">	
-		<div class="box-relleno square" >
-			
-		</div>
-	</div>
+	
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12">	
 		<div class="box-manejo-inner square">
