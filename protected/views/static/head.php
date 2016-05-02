@@ -64,11 +64,13 @@
 	
 	<!--CSS PROPIO-->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/stylesheet.css"> <!-- general / interior pagina -->
+		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/xl.css"> <!-- sp -->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/lg.css"> <!-- lg -->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/md.css"> <!-- md -->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/sm.css"> <!-- sm -->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/xs.css"> <!-- xs -->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/sp.css"> <!-- sp -->
+
 
 		<script>
 		$(document).ready(function () {
