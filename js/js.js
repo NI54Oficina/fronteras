@@ -294,7 +294,7 @@ $(document).ready(function(){
 	var ancho = $('.square').outerWidth();
   $('.square').css('height', ancho+"px");
 
-  $(".box-producir-2 > div > p" ).each(function( index ) {
+  $(".box-producir-2 > div > div > p" ).each(function( index ) {
 
   	 var alto_div = ancho;
   	 var alto_parrafo = $(this).height();

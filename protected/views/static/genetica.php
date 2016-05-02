@@ -2,7 +2,7 @@
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12"  >
 		
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-genetica.svg" alt="Sanidad">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrado-genetica.svg" alt="Genetica">
 		
 	</div>
 		
@@ -29,13 +29,6 @@
 		<div class="box-genetica-inner square ">
 			<p>Asocacion Brangus</p>
 		</div>
-	</div>
-	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 hidden-xs hidden-md hidden-sm ">	
-		<div class="box-relleno square" >
-			
-		</div>
-
 	</div>
 	
 
