@@ -20,6 +20,15 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
 			<h3>- <?php echo $item["Producto"]; ?> - </h3>
+			
+			<div class="col-lg-12 col-md-12 col-sm-12">
+			
+				<button type="button" class="btn-indicadores btn-default">Girasol</button>
+				<button type="button" class="btn-indicadores btn-default">Maíz</button>
+				<button type="button" class="btn-indicadores btn-default">Soja</button>
+				<button type="button" class="btn-indicadores btn-default">Sorgo</button>
+				<button type="button" class="btn-indicadores btn-default">Trigo</button>
+			</div>
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				
@@ -63,7 +72,11 @@
 				</div>	
 				
 			</div>	
-					
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
+			
+				<p>Actualizado: 12-02-2016</p>
+			
+			</div>
 		</div>
 		
 	</div>

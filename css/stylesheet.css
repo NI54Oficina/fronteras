@@ -338,7 +338,6 @@ header{
 	font-weight:300;
 	letter-spacing:2px;
 	text-align:center;
-	text-transform:uppercase;
 	padding-top:200px;
 	margin:0;
 	color:#fff;
@@ -387,7 +386,7 @@ header{
 /* TABLA */
 
 .box-mercado .general-table-mercados{
-    padding-top: 30px;
+    padding-top: 0px;
 }
 	
 .table-mercado{
@@ -508,7 +507,7 @@ header{
 
 .box-mercado  .table-mercado-items .moneda-mercados{
     color: #3F3F3F;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 0;
     margin: 0;
     display: block;
@@ -516,7 +515,6 @@ header{
     vertical-align: -webkit-baseline-middle;
     padding-top: 7px;
     padding-left: 10px;
-    font-weight: 700;
 }
 
 .table-mercado > div:nth-child(4){
@@ -1545,7 +1543,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .red-form >div > form > select:focus {
-	outline:none ;
+	outline:none;
 }
 
 /***********LINKS DE INTERES************/
@@ -1579,7 +1577,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 
-/*************SANIDAD - NUTRICION - MANEJO - GENETICA*************/
+/************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
  #mercado, #contenedor, #mercados, #clima, #hoy, #noticias {
  	padding: 50px 45px;
  }
@@ -1685,11 +1683,12 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 
 .columna-indicadores p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
     text-align: left;
     padding-left: 10px;
+	font-weight:700;
 }
 
 .columna-granos p {
@@ -1728,25 +1727,25 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .btn {
-    display: inline-block;
-    padding: 9px 57px;
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    margin: 0;
+	display: inline-block;
+	padding: 9px 57px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	margin-top:5px;
 }
 
 .btn-default:hover {
@@ -1811,6 +1810,9 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     background-image: none;
     border: 1px solid transparent;
     border-radius: 2px;
-    margin: 0;
+    margin-top:5px;
 }
+
+
+
 /*.hoy-box > div:hover {background-color:rgb(0,153,167)}*/
