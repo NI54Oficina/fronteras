@@ -1,4 +1,4 @@
-<section id="genetica" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<section id="contenedor" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5"  >
 	<div class="square">
@@ -77,7 +77,7 @@
 	</div>
   </div>
 
-  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
+  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
 	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
 			<p></p>
@@ -85,6 +85,48 @@
 	</div>
   </div>
 
+  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
+    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+	<div class="box-genetica">	
+		<div class="box-genetica-inner square">
+			<p></p>
+		</div>
+	</div>
+  </div>
 </section>
 
 
