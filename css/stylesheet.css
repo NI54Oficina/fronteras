@@ -1582,7 +1582,10 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  	padding: 50px 45px;
  }
 
-
+ .square > img {
+ 	max-width: 235px
+ }
+ 
 .box-sanidad {
 	background-color:#6D4A84; 
 }
