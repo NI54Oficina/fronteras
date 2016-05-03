@@ -1185,7 +1185,7 @@ header{
 .box-noticias .container-texto-noticias{
     min-height: 154px;
     border: 2px solid #2ED7AA;
-    height: 170px;
+    
 }
 
 .box-noticias .container-img-noticias img{
@@ -1344,6 +1344,19 @@ header{
     text-align: right;
     padding-right: 10px;
     font-size: 11px;
+}
+
+/*COLORES DISTINTAS NOTICIAS*/
+
+.noticia-tipo-1{
+
+}
+
+.noticia-tipo-2{
+
+}
+.noticia-tipo-3{
+	
 }
 
 

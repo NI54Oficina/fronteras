@@ -3,7 +3,7 @@
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
-	<div class="col-lg-2-5 col-md-2-5 col-sm-14 col-xs-12" id="noticia-box">
+	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" id="noticia-box">
 		<div id="noticia-box-inner">
 		<h1 id="noticia-box-title">Noticias del sector</h1>
 		</div>
@@ -20,7 +20,7 @@
 		
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias">
+			<div  class=" container-texto-noticias noticia-tipo-1">
 				
 				<h2>Fondos especulativos volvieron a apostar fuerte contra la soja</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
@@ -49,7 +49,7 @@
 		
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias">
+			<div  class="container-texto-noticias noticia-tipo-1">
 				<h2>Fondos especulativos volvieron a apostar fuerte contra la soja</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -76,7 +76,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-2">
+			<div  class="container-texto-noticias noticia-tipo-2">
 				
 				<h2>Precipitaciones pueden regresar mañana</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
@@ -102,7 +102,7 @@
 			</div>
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-2">
+			<div  class="container-texto-noticias noticia-tipo-2">
 				<h2>Precipitaciones pueden regresar mañana</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -129,7 +129,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-3">
+			<div  class="container-texto-noticias noticia-tipo-3">
 				<h2>Por la suba en el precio de la carne, aumenta el consumo de pollo </h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -156,7 +156,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-3">
+			<div  class="container-texto-noticias noticia-tipo-3">
 				<h2>Por la suba en el precio de la carne, aumenta el consumo de pollo </h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -183,7 +183,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias">
+			<div  class="container-texto-noticias noticia-tipo-1">
 				<h2>Lechería: afirman que la industria no cumple con los valores</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -211,7 +211,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias">
+			<div  class=" container-texto-noticias noticia-tipo-1">
 				<h2>Lechería: afirman que la industria no cumple con los valores</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -238,7 +238,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-2">
+			<div  class="container-texto-noticias noticia-tipo-2">
 				<h2>Precipitaciones pueden regresar mañana</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -265,7 +265,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-2">
+			<div  class="container-texto-noticias noticia-tipo-2">
 				<h2>Precipitaciones pueden regresar mañana</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
@@ -291,7 +291,7 @@
 
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias-3">
+			<div  class="container-texto-noticias noticia-tipo-3">
 				<h2>Por la suba en el precio de la carne, aumenta el consumo de pollo </h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				

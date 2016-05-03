@@ -22,5 +22,49 @@
 	
 	.columna-ganado p {
 		font-size: 1.5rem;
+
 	}
+	.box-noticias .container-texto-noticias > p, 
+	.box-noticias .container-texto-noticias-3 > p,
+	.box-noticias .container-texto-noticias-2 > p {
+ 		line-height: 100%;
+	}
+
+	.box-noticias .container-texto-noticias,
+	.box-noticias .container-texto-noticias-2,
+	.box-noticias .container-texto-noticias-3{
+		min-height: 185px;
+	}
+
+
+/*Aca termina la llave*/
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+
+
+/*Aca termina la llave*/
+ }
+
+
+
+
+
+
+/*MEDIA QUERY DE IPAD LANDSCAPE & PORTRAIT*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+	#contenedor, #noticias{
+		padding: 100px 45px;
+	}
+
+
+/*Aca termina la llave*/
 }
