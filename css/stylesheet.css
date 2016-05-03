@@ -996,7 +996,7 @@ header{
 	background-color:transparent;
 	color:white;
 	font-family:'arialregular';
-	text-align:left;
+	text-align:center;
 }
 
 
@@ -1027,7 +1027,7 @@ header{
 /* Cajas noticias normales */
 .box-noticias > div > div{
 	background-color:transparent;
-	min-height: 205px;	
+	
 }
 
 .box-noticias  h1{
@@ -1038,7 +1038,7 @@ header{
     margin: 0;
 }
 
-.box-noticias #noticia-box-title{
+#noticia-box-title{
 	color: white;
     text-transform: uppercase;
     padding-top: 85px;
@@ -1046,8 +1046,9 @@ header{
     display: inline-block;
     width: 115px;
 }
+#noticia-box{padding:5px;}
 
-.box-noticias #noticia-box{
+ #noticia-box > #noticia-box-inner {
 	background:#2ED7AA;
 	min-height: 205px;	
 	text-align:center;
@@ -1242,7 +1243,6 @@ header{
 .box-noticias .container-texto-noticias-2{
     min-height: 154px;
     border: 2px solid #2E9DFB;
-    margin-top: 5px;
     height: 170px;
 }
 
@@ -1301,7 +1301,6 @@ header{
 .box-noticias .container-texto-noticias-3{
     min-height: 154px;
     border: 2px solid #2EA982;
-    margin-top: 5px;
     height: 170px;
 }
 
