@@ -2,7 +2,7 @@
 
 
  
-.col-xl-2-5 {
+.col-xl-7 {
 	width: 14%;
 }
 
@@ -23,5 +23,7 @@
 .hidden-xl{
 	display: none;
 }
+
+/*CIERRE DE LLLAVE*/
 }
 

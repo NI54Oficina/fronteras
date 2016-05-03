@@ -1,12 +1,18 @@
 @media screen and (min-width: 1200px) and (max-width:1500px ){
 
 
-
-
-/*ESCRIBIR ADENTRO DE ESTE MEDIA QUERY*/
 .col-lg-2-5 {
 	width: 20%;
 }
 
+.hidden-lg-2{
+	display: none;
+}
+
+
+
+
+
+/*CIERRE DE LLLAVE*/
 }
 
