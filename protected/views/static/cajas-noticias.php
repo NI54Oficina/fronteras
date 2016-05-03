@@ -1,42 +1,71 @@
+<?php 
+//se setea el nombre de clase correspondiente a la sección
+$secciones=[];
+$secciones["Granos"]="noticia-tipo-2";
+$secciones["Clima"]="noticia-tipo-1";
+$secciones["Mercado de granos"]="noticia-tipo-1";
+$secciones["Hacienda"]="noticia-tipo-1";
+$secciones["Interes general"]="noticia-tipo-1";
+$secciones["Insumos"]="noticia-tipo-1";
+
+?>
+
 
 <!-- General cajas noticias-->
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
-	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" id="noticia-box">
+	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" id="noticia-box" hid="1">
 		<div id="noticia-box-inner">
 		<h1 id="noticia-box-title">Noticias del sector</h1>
 		</div>
 	</div>
-	
+	<?php 
+	$options = array(
+	'http'=>array(
+	'method'=>"GET",
+	'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
+	)
+	);
+	$context=stream_context_create($options);
+
+	$data = @file_get_contents('http://www.fyo.com/json/noticias',false,$context);
+
+	if($data){
+		$array = json_decode($data,true);
+		$fecha = $array;
+		foreach($fecha as $f){
+	?>
 	<!-- Noticia 2-->
-	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" hid="1">
+		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?>">
 		
 			<!--Título de sección -->
 			<div  class="">
-				<div class="border-noticias-h1 b-r"></div><h1>Granos</h1><div class="border-noticias-h1 b-l"></div>
+				<div class="border-noticias-h1 b-r"></div><h1><?php echo $f["categoria"]; ?></h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 		
+			<div class="container-imagen-nota" style="background-image:url('<?php echo $f["foto"]; ?>');"></div>
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias noticia-tipo-1">
+			<div  class=" container-texto-noticias">
 				
-				<h2>Fondos especulativos volvieron a apostar fuerte contra la soja</h2>
-				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
+				<h2><?php echo $f["titulo"]; ?></h2>
+				<p><?php echo $f["bajada"]; ?></p>
 				
 				<!-- Fecha -->
-				<div class="">
-					<p>15-02-16 I 07:50</p>
+				<div class="fecha">
+					<p><?php echo $f["publicacion"]; ?></p>
 				</div>
 				
 			</div>
-		
+			
 		</div>
 	</div>	
+	<?php } } ?>
 	
-
-
+	
+	<?php if(false){ ?>
 	<!-- Noticia 3-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
 		
@@ -305,7 +334,7 @@
 			
 		</div>
 		</div>
-	
+	<?php } ?>
 	
 	
 </div>	
