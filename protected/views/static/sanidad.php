@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl7">	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner square">
 				<p>Vademécum</p>
