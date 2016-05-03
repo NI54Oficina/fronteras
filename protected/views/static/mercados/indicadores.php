@@ -20,7 +20,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 		
 			<h3>- <?php echo $item["Nombre"]; ?> - </h3>
-					
+			
 			<div class="col-lg-12 col-md-12 col-sm-12">
 			
 				<button type="button" class="btn-indicadores btn-default">Tasas</button>
@@ -80,6 +80,7 @@
 				<p>Actualizado: 12-02-2016</p>
 			
 			</div>	
+			
 		</div>
 		
 	</div>

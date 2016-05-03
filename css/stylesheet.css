@@ -79,22 +79,34 @@ p{
 /** Header **/
 
 header{
-	width:100vw;
-	min-height:40px;
-	position:fixed;
-	top:0;
-	left:0;
-	background: rgb(252, 252, 251);
-    width: 100vw;
-    min-height: 40px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    -webkit-box-shadow: inset -1px 4px 40px 0px rgba(237, 210, 180, 0.81);
-    -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
-    box-shadow: inset -1px 4px 40px 0px rgb(248, 229, 207);
+
 }
 
+.header-logos{
+	width:100vw;
+	min-height:40px;
+	top:0;
+	left:0;
+	background: rgb(248, 242, 236);
+    width: 100vw;
+    min-height: 40px;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: inset -1px 4px 40px 0px rgb(245, 238, 230);
+    -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
+    box-shadow: inset -1px 4px 40px 0px rgb(243, 234, 226);
+    padding-bottom: 20px;
+}
+
+.ul-nav li{
+	display:inline-block;
+	text-transform:uppercase;
+	padding-left:25px;
+}
+
+.ul-nav li a{
+	color:#8C8C8C;
+}
 
 .headerMobile .navbar-collapse{
 	height:0;
@@ -1451,12 +1463,11 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 /***********************VETERINARIA***************/
 
 .veterinaria { 
-	
 	height: 600px;
 	max-height: 600px;
 }
 
-.veterinaria >div {
+.veterinaria >div{
 	padding: 5px 5px;
 	text-align: left;
 	height: 100%;
@@ -1466,6 +1477,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 	padding: 0px 5px; 
 	margin: 20px; 
 }
+
 .map-box iframe{ 
 	border:2px solid #0078B9;
 	width:100%;
@@ -1530,7 +1542,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
- #mercado, #contenedor, #mercados, #clima, #hoy, #noticias {
+body > section {
  	padding: 50px 45px;
  }
 
@@ -1644,6 +1656,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     text-align: left;
     padding-left: 10px;
 	font-weight:700;
+    color: #8C8C8C;
 }
 
 .columna-granos p {
@@ -1652,6 +1665,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     margin: 0;
     text-align: left;
     padding-left: 10px;
+    color: #8C8C8C;
 }
 
 .columna-ganado p {
@@ -1661,6 +1675,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     text-align: left;
     padding-left: 10px;
     font-weight: 700;
+    color: #8C8C8C;
 }
 
 .table-mercado-items div p {
@@ -1683,7 +1698,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 .btn {
 	display: inline-block;
-	padding: 9px 57px;
+	padding: 9px 0px;
 	margin-bottom: 0;
 	font-size: 14px;
 	line-height: 1.42857143;
@@ -1701,6 +1716,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 	border: 1px solid transparent;
 	border-radius: 2px;
 	margin-top:5px;
+    width: 110px;
 }
 
 .btn-default:hover {
@@ -1709,7 +1725,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     border-color: transparent;
 }
 
-.btn-default:focus {
+.btn-default:focus{
 	outline:none;
 	border:none;
 	color: #FFF;
@@ -1717,7 +1733,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     border-color: transparent;
 }
 
-.btn-default:active {
+.btn-default:active{
 	outline:none;
 	border:none;
 	color: #FFF;
@@ -1730,7 +1746,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .actualizar-ganado{
-	background: #5fc39e!important;
+	background: #C4c6c7!important;
     height: 30px;
     position: absolute;
     bottom: 0;
@@ -1748,7 +1764,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 .btn-indicadores {
     display: inline-block;
-    padding: 9px 24px;
+    padding: 9px 0px;
     margin-bottom: 0;
     font-size: 14px;
     line-height: 1.42857143;
@@ -1766,6 +1782,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     border: 1px solid transparent;
     border-radius: 2px;
     margin-top:5px;
+	width: 110px;
 }
 
 
