@@ -1434,7 +1434,7 @@ header{
 	padding: 1em 0em;
 } 
 
-.home-box > div > div:nth-child(1):hover {
+.home-box:hover > div > div:nth-child(1){
 	box-shadow: 0 15px 10px -2px rgba(95,95,95,0.5); 
 	transition: 1s;
 }
@@ -1585,7 +1585,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
  .square > img {
  	max-width: 235px
  }
- 
+
 .box-sanidad {
 	background-color:#6D4A84; 
 }

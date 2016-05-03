@@ -1,7 +1,11 @@
 @media screen and (max-width: 767px){
 
 
-/*ESCRIBIR ADENTRO DE ESTE MEDIA QUERY*/
+#contenedor { /*Disminucion de padding em mobile*/
+	padding:100px 5px;
+}
 
 
+
+/*CIERRE DE LLAVES*/
 }
