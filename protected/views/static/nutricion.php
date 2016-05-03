@@ -18,7 +18,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">	
 	<div class="box-nutricion">
 		<div class="box-nutricion-inner square">
-			<p>Requerimientos nutricionales por categoria</p>
+			<p>Requerimientos nutricionales por categoría</p>
 		</div>
 	</div>
 	</div>
@@ -26,7 +26,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">
 	<div class="box-nutricion">	
 		<div class="box-nutricion-inner square">
-			<p>Recomendaciones de confeccion de sitio</p>
+			<p>Recomendaciones de confección de sitio</p>
 		</div>
 	</div>
 	</div>
@@ -40,93 +40,48 @@
 	</div>
 
 	
-	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">	
 	<div class="box-nutricion">
-		<div class="box-nutricion-inner squeare">
-			<p>Modelizador de cria</p>
+		<div class="box-nutricion-inner square">
+			<p>Modelizador de cría</p>
 		</div>	
 	</div>
 	</div>
 		
 
-		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
 	<div class="box-nutricion">	
 		<div class="box-nutricion-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+  	</div>
 
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-nutricion">	
 		<div class="box-nutricion-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+ 	</div>
 
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-nutricion">	
 		<div class="box-nutricion-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+  	</div>
 
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-lg ">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-xl ">
 	<div class="box-nutricion">	
 		<div class="box-nutricion-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+  	</div>
 
-    	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-lg ">
-	<div class="box-nutricion">	
-		<div class="box-nutricion-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-
-
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-lg ">
-	<div class="box-nutricion">	
-		<div class="box-nutricion-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-
-
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-lg ">
-	<div class="box-nutricion">	
-		<div class="box-nutricion-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-
-
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-lg ">
-	<div class="box-nutricion">	
-		<div class="box-nutricion-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-
-
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-lg ">
-	<div class="box-nutricion">	
-		<div class="box-nutricion-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-
-  	
+    
 
 
 </section>

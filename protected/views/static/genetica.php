@@ -11,7 +11,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">
 	<div class="box-genetica">
 		<div class="box-genetica-inner square">
-			<p>Protoloco de reproduccion</p>
+			<p>Protoloco de reproducción</p>
 		</div>
 	</div>
 	</div>
@@ -19,7 +19,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">	
 	<div class="box-genetica">
 		<div class="box-genetica-inner square">
-			<p>Asociacion Hereford</p>
+			<p>Asociación Hereford</p>
 		</div>
 	</div>
 	</div>
@@ -27,7 +27,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">
 	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
-			<p>Asociacion Angus</p>
+			<p>Asociación Angus</p>
 		</div>
 	</div>
 	</div>
@@ -35,7 +35,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">	
 	<div class="box-genetica">
 		<div class="box-genetica-inner square ">
-			<p>Asocacion Brangus</p>
+			<p>Asocación Brangus</p>
 		</div>
 	</div>
 	</div>
@@ -44,11 +44,9 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5">	
 	<div class="box-genetica">
 		<div class="box-genetica-inner square">
-			<p>Asoacion Braford</p>
+			<p>Asociación Braford</p>
 		</div>
-		</div>
-
-		
+	</div>
 	</div>
 	
 
@@ -58,75 +56,34 @@
 			<p></p>
 		</div>
 	</div>
-  </div>
+  	</div>
 
 
-<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+  	</div>
 
-  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+  	</div>
 
-  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
 			<p></p>
 		</div>
 	</div>
-  </div>
+ 	 </div>
 
-  <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
-	<div class="box-genetica">	
-		<div class="box-genetica-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
-	<div class="box-genetica">	
-		<div class="box-genetica-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
-	<div class="box-genetica">	
-		<div class="box-genetica-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
-	<div class="box-genetica">	
-		<div class="box-genetica-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
-	<div class="box-genetica">	
-		<div class="box-genetica-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
-    <div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-2-5 hidden-xs hidden-sm hidden-md hidde-lg">
-	<div class="box-genetica">	
-		<div class="box-genetica-inner square">
-			<p></p>
-		</div>
-	</div>
-  </div>
+  
 </section>
 
 
