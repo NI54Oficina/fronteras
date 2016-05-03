@@ -19,6 +19,8 @@
 
  	<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
+ 	<a href="#">
+
  		<div class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
 
 			<div class="hoy-box">
@@ -28,7 +30,9 @@
 				<div id="testing"><p>HOY</p></div>		
 			</div>
 		</div>	
+	</a>
 
+	<a href="">
  		
  		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="estemes-box ">
@@ -41,8 +45,9 @@
  			</div>
 		
 		</div>
+  	</a>
 
-
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
 		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="producir-box ">
  				<div hid="1">
@@ -53,6 +58,9 @@
 		
 		</div>
 
+	</a>
+
+	<a href="">
 		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
  			<div class="ayuda-box">
  				<div hid="1">
@@ -62,7 +70,7 @@
  			</div>
 		
 		</div>
-
+	</a>
 	 </div> 	
 
 

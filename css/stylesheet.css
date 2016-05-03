@@ -1350,7 +1350,7 @@ header{
 
 
 
-/*********************HOME (FALTAN DETALLES DE IMAGEN)*******************/
+/*********************HOME*******************/
 
 #home { 
 	padding: 45px; 
@@ -1396,7 +1396,7 @@ header{
 	margin: 5px;
 }
 
-.home-bottom-box > div {
+.home-bottom-box > a> div {
 	padding: 0px 20px;     
 	margin: 10px 0px;
 }
