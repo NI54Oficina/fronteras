@@ -1175,7 +1175,7 @@ header{
 
 
 /** 1 tipo de noticia */
-.box-noticias .container-img-noticias{
+/*.box-noticias .container-img-noticias{
     min-height: 135px;
     border-top: 3px solid #2ED7AA;
     padding-top: 0;
@@ -1230,58 +1230,53 @@ header{
     padding-right: 10px;
 	font-size:11px;
 }
-
+*/
 /* 2 tipo de noticia */
-.box-noticias .container-img-noticias-2{
+.box-noticias .container-img-noticias{
     min-height: 135px;
-    border-top: 3px solid #2E9DFB;
     padding-top: 0;
     padding: 0;
 }
 
-.box-noticias .container-texto-noticias-2{
+.box-noticias .container-texto-noticias{
     min-height: 154px;
-    border: 2px solid #2E9DFB;
-    height: 170px;
+    height: 185px;
 }
 
-.box-noticias .container-img-noticias-2 img{
+.box-noticias .container-img-noticias img{
     max-width: 100%;
     min-height: 130px;
     height: 130px;
     width: 100%;
 }
 
-.box-noticias .container-texto-noticias-2 h2{
+.box-noticias .container-texto-noticias h2{
     margin: 0;
-    font-size: 1em;
+    font-size: .9em;
     text-align: left;
-    color: #2E9DFB;
     font-weight: 700;
-    letter-spacing: px;
+    height: 55px;
     padding: 5px;
     min-height: 40px;
 }
 
 
-.box-noticias .container-texto-noticias-2 > p{
+.box-noticias .container-texto-noticias > p{
     font-size: 10.5px;
     color: black;
     text-align: left;
     padding: 5px;
     margin: 0;
-	color:#7F7F7F;
     min-height: 100px;
 }
 
-.box-noticias .container-texto-noticias-2 div{
+.box-noticias .container-texto-noticias div{
     padding: 0;
 }
 
 
-.box-noticias .container-texto-noticias-2 div p{
+.box-noticias .container-texto-noticias div p{
 	padding: 0;
-    background: #2E9DFB;
     color: white;
     text-align: right;
     padding-right: 10px;
@@ -1290,7 +1285,7 @@ header{
 
 
 /* 3 tipo de noticia */
-.box-noticias .container-img-noticias-3{
+/*.box-noticias .container-img-noticias-3{
     min-height: 135px;
     border-top: 3px solid #2EA982;
     padding-top: 0;
@@ -1345,20 +1340,42 @@ header{
     padding-right: 10px;
     font-size: 11px;
 }
+*/
+
 
 /*COLORES DISTINTAS NOTICIAS*/
 
-.noticia-tipo-1{
-
+.noticia-tipo-1{ 
+    border: 2px solid #2ED7AA;    
 }
 
 .noticia-tipo-2{
-
+	border: 2px solid #2E9DFB;
 }
 .noticia-tipo-3{
-	
+	border: 2px solid #2EA982;
 }
 
+.noticia-tipo-1 h2 {
+	color:#2ED7AA;
+}
+
+.noticia-tipo-2 h2{
+	color:#2E9DFB;
+}
+.noticia-tipo-3 h2{
+	color:#2EA982;
+}
+
+.noticia-tipo-1 div p {
+	background:#2ED7AA;;
+}
+.noticia-tipo-2 div p {
+	background:#2E9DFB;
+}
+.noticia-tipo-3 div p {
+	background:#2EA982;
+}
 
 
 /*********************HOME*******************/
