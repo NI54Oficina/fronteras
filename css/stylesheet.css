@@ -1038,7 +1038,7 @@ header{
     margin: 0;
 }
 
-#noticia-box-title{
+.box-noticias #noticia-box-title{
 	color: white;
     text-transform: uppercase;
     padding-top: 85px;
@@ -1046,9 +1046,8 @@ header{
     display: inline-block;
     width: 115px;
 }
-#noticia-box{padding:5px;}
 
- #noticia-box > #noticia-box-inner {
+#noticia-box > #noticia-box-inner{
 	background:#2ED7AA;
 	min-height: 205px;	
 	text-align:center;
