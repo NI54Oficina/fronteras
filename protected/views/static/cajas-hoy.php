@@ -62,7 +62,7 @@
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-		<a href="">
+		<a href="javascript:void(0)"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
 				<!--Contenedor título e imágen -->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector">
@@ -77,8 +77,8 @@
 					
 				</div>
 			
-			</a>
-			
+		</a>
+		
 		</div>
 	</div>	
 

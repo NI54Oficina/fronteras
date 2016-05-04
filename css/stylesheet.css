@@ -1049,7 +1049,6 @@ header{
 
 .box-noticias > div > div > div{
 	text-align:center;
-	
 }
 
 
@@ -1119,7 +1118,7 @@ header{
 	padding: 0;
     color: white;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 15px;
     font-size: 11px;
 }
 

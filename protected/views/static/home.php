@@ -3,7 +3,7 @@
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
 
-<body id="home">
+<body class="col-lg-12" id="home">
 <!-- <?php include_once("analytics.php") ?>
  -->
 
