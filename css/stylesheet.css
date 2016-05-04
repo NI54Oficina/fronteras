@@ -52,7 +52,7 @@ html{
 } 
 
 body{
-	background-color: #fff;
+	background-color: #f7f7f7;
 	font-family:'arialregular';
 }
 
@@ -1310,6 +1310,7 @@ header{
 	background-color:  #f4dfd1;
 	padding: 25px;
 	height: auto;
+	background: -webkit-linear-gradient(left, #f4dfd1, #fcf6ef, #f4dfd1);
 
 }
 .home-upper-box img:nth-child(1){
