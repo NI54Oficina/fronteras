@@ -1,15 +1,16 @@
 <?php 
 //se setea el nombre de clase correspondiente a la sección
 $secciones=[];
-$secciones["Granos"]="noticia-tipo-2";
-$secciones["Clima"]="noticia-tipo-1";
-$secciones["Mercado de granos"]="noticia-tipo-1";
+$secciones["Granos"]="noticia-tipo-1";
+$secciones["Clima"]="noticia-tipo-2";
+$secciones["Mercado de granos"]="noticia-tipo-3";
 $secciones["Hacienda"]="noticia-tipo-1";
-$secciones["Interes general"]="noticia-tipo-1";
-$secciones["Insumos"]="noticia-tipo-1";
+$secciones["Interes general"]="noticia-tipo-4";
+$secciones["Insumos"]="noticia-tipo-5";
+$secciones["Mercado de hacienda"]="noticia-tipo-5";
 
 ?>
-
+ <!-- LINEAS DE CODIGO EN CSS 1175 -->
 
 <!-- General cajas noticias-->
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -42,10 +43,14 @@ $secciones["Insumos"]="noticia-tipo-1";
 		
 			<!--Título de sección -->
 			<div  class="">
-				<div class="border-noticias-h1 b-r"></div><h1><?php echo $f["categoria"]; ?></h1><div class="border-noticias-h1 b-l"></div>
+				<div class="border-noticias-h1 b-r">
+				</div>
+				<h1><?php echo $f["categoria"]; ?></h1>
+				<div class="border-noticias-h1 b-l"></div>
 			</div>
 		
-			<div class="container-imagen-nota" style="background-image:url('<?php echo $f["foto"]; ?>');"></div>
+			<div class="container-imagen-nota" style="background-image:url('<?php echo $f["foto"]; ?>');">
+			</div>
 			
 			<!-- Texto noticia -->
 			<div  class=" container-texto-noticias">
@@ -64,12 +69,17 @@ $secciones["Insumos"]="noticia-tipo-1";
 	</div>	
 	<?php } } ?>
 	
-	
+
+
+
+
+<!-- 	TEXTO COMENTADO  -->
+
 	<?php if(false){ ?>
 	<!-- Noticia 3-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
 		
-		<div class="">
+	<div class="">
 		
 			<!--Título de sección -->
 			<div  class="">
@@ -89,7 +99,7 @@ $secciones["Insumos"]="noticia-tipo-1";
 				
 			</div>
 		
-		</div>
+	</div>
 		
 	</div>	
 	

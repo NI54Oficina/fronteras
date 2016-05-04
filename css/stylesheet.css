@@ -1048,7 +1048,7 @@ header{
 
 .box-noticias > div > div > div{
 	text-align:center;
-	padding-bottom: 0;
+	
 }
 
 
@@ -1072,25 +1072,27 @@ header{
 
 
 /* 2 tipo de noticia */
-.box-noticias .container-img-noticias{
+.container-img-noticias{
     min-height: 135px;
     padding-top: 0;
     padding: 0;
 }
 
-.box-noticias .container-texto-noticias{
+.container-texto-noticias{
     min-height: 154px;
     height: auto;
+    padding: 5px;
+    margin-top: 5px;
 }
 
-.box-noticias .container-img-noticias img{
+.container-img-noticias img{
     max-width: 100%;
     min-height: 130px;
     height: 130px;
     width: 100%;
 }
 
-.box-noticias .container-texto-noticias h2{
+ .container-texto-noticias h2{
     margin: 0;
     font-size: .9em;
     text-align: left;
@@ -1101,18 +1103,15 @@ header{
 }
 
 
-.box-noticias .container-texto-noticias > p{
+.container-texto-noticias > p{
     font-size: 10.5px;
     color: black;
     text-align: left;
     padding: 5px 10px;
     margin: 0;
-    min-height: 100px;
+    min-height: 140px;
 }
 
-.box-noticias .container-texto-noticias div{
-    padding: 0;
-}
 
 
 .box-noticias .container-texto-noticias div p{
@@ -1125,10 +1124,11 @@ header{
 
 /*COLORES DISTINTAS NOTICIAS*/
 
-/*NOTICIA TIPO 1*/
+/*NOTICIA TIPO 1 - VERDE AGUA*/
 
 .noticia-tipo-1 .container-texto-noticias{ 
     border: 2px solid #2ED7AA;    
+    padding: 5px;
 }
 
 .noticia-tipo-1 .container-texto-noticias h2 {
@@ -1141,7 +1141,7 @@ header{
 }
 
 
-/*NOTICIA TIPO 2*/
+/*NOTICIA TIPO 2 -COLOR AZUL*/
 
 .noticia-tipo-2 .container-texto-noticias{
 	border: 2px solid #2E9DFB;
@@ -1157,7 +1157,7 @@ header{
 }
 
 
-/*NOTICIA TIPO 3*/
+/*NOTICIA TIPO 3 - VERDE OSCURO*/
 
 .noticia-tipo-3 .container-texto-noticias{
 	border: 2px solid #2EA982;
@@ -1172,121 +1172,35 @@ header{
 	margin-bottom:0;
 }
 
+/*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
 
-/** 1 tipo de noticia */
-/*.box-noticias .container-img-noticias{
-    min-height: 135px;
-    border-top: 3px solid #2ED7AA;
-    padding-top: 0;
-    padding: 0;
+.noticia-tipo-4 .container-texto-noticias{
+	border: 2px solid pink;
 }
 
-.box-noticias .container-texto-noticias{
-    min-height: 154px;
-    border: 2px solid #2ED7AA;
-    
+.noticia-tipo-4 .container-texto-noticias h2{
+	color:pink;
 }
 
-.box-noticias .container-img-noticias img{
-    max-width: 100%;
-    min-height: 130px;
-    height: 130px;
-    width: 100%;
+.noticia-tipo-4 .fecha p{
+	background:pink;
+	margin-bottom:0;
 }
 
-.box-noticias .container-texto-noticias h2{
-    margin: 0;
-    font-size: 1em;
-    text-align: left;
-    color: #2ED7AA;
-    font-weight: 700;
-    letter-spacing: px;
-    padding: 5px;
-    min-height: 40px;
+/*NOTICIA TIPO 5 - MODO PRUEBA NARANJA, SETEAR COLOR*/
+
+.noticia-tipo-5 .container-texto-noticias{
+	border: 2px solid orange;
 }
 
-
-.box-noticias .container-texto-noticias > p{
-    font-size: 10.5px;
-    color: black;
-    text-align: left;
-    padding: 5px;
-    margin: 0;
-	color:#7F7F7F;
-    min-height: 85px;
+.noticia-tipo-5 .container-texto-noticias h2{
+	color:orange;
 }
 
-.box-noticias .container-texto-noticias div{
-    padding: 0;
+.noticia-tipo-5 .fecha p{
+	background:orange;
+	margin-bottom:0;
 }
-
-
-.box-noticias .container-texto-noticias div p{
-	padding: 0;
-    background: #2ED7AA;
-    color: white;
-    text-align: right;
-    padding-right: 10px;
-	font-size:11px;
-}
-*/
-/* 3 tipo de noticia */
-/*.box-noticias .container-img-noticias-3{
-    min-height: 135px;
-    border-top: 3px solid #2EA982;
-    padding-top: 0;
-    padding: 0;
-}
-
-.box-noticias .container-texto-noticias-3{
-    min-height: 154px;
-    border: 2px solid #2EA982;
-    height: 170px;
-}
-
-.box-noticias .container-img-noticias-3 img{
-    max-width: 100%;
-    min-height: 130px;
-    height: 130px;
-    width: 100%;
-}
-
-.box-noticias .container-texto-noticias-3 h2{
-    margin: 0;
-    font-size: 1em;
-    text-align: left;
-    color: #2EA982;
-    font-weight: 700;
-    letter-spacing: px;
-    padding: 5px;
-    min-height: 40px;
-}
-
-
-.box-noticias .container-texto-noticias-3 > p{
-    font-size: 10.5px;
-    color: black;
-    text-align: left;
-    padding: 5px;
-    margin: 0;
-	color:#7F7F7F;
-    min-height: 85px;
-}
-
-.box-noticias .container-texto-noticias-3 div{
-    padding: 0;
-}
-
-
-.box-noticias .container-texto-noticias-3 div p{
-	padding: 0;
-    background: #2EA982;
-    color: white;
-    text-align: right;
-    padding-right: 10px;
-    font-size: 11px;
-}
-*/
 
 
 
