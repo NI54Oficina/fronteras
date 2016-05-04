@@ -1,4 +1,4 @@
-<section id="contenedor" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
+<section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7"  >	
 	<div class="square">
@@ -8,7 +8,7 @@
 		
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
-	<div class="box-nutricion">
+	<div class="box-nutricion border-shadow">
 		<div class="box-nutricion-inner square">
 			<p>Tabla de Valores de Alimentos (NRC)</p>
 		</div>
@@ -16,7 +16,7 @@
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-	<div class="box-nutricion">
+	<div class="box-nutricion border-shadow">
 		<div class="box-nutricion-inner square">
 			<p>Requerimientos nutricionales por categoría</p>
 		</div>
@@ -24,7 +24,7 @@
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
-	<div class="box-nutricion">	
+	<div class="box-nutricion border-shadow">	
 		<div class="box-nutricion-inner square">
 			<p>Recomendaciones de confección de sitio</p>
 		</div>
@@ -32,7 +32,7 @@
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-	<div class="box-nutricion">
+	<div class="box-nutricion border-shadow">
 		<div class="box-nutricion-inner square">
 			<p>Modelizador de tambo</p>
 		</div>
@@ -41,7 +41,7 @@
 
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-	<div class="box-nutricion">
+	<div class="box-nutricion border-shadow">
 		<div class="box-nutricion-inner square">
 			<p>Modelizador de cría</p>
 		</div>	

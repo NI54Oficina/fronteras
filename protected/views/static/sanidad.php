@@ -1,4 +1,4 @@
-<section id="contenedor" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
+<section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7"  >
 		<div class="square">
@@ -8,7 +8,7 @@
 		
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
-		<div class="box-sanidad">
+		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
 				<p>Enfermedades</p>
 			</div>
@@ -16,7 +16,7 @@
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-		<div class="box-sanidad">
+		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
 				<p>Planes Sanitarios</p>
 			</div>
@@ -24,7 +24,7 @@
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-		<div class="box-sanidad">
+		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
 				<p>Vademécum</p>
 			</div>
@@ -33,7 +33,7 @@
 	
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
-		<div class="box-sanidad">
+		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
 				<p>Días de retiro de productos veterinarios</p>
 			</div>
@@ -44,7 +44,7 @@
 
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-		<div class="box-sanidad">
+		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
 				<p>Laboratorios de Diagnóstico</p>
 			</div>
@@ -53,7 +53,7 @@
 
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
-    	<div class="box-sanidad">
+    	<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
 				<p>Toma de muestras</p>
 			</div>
@@ -61,7 +61,7 @@
 	</div>
 
 <div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
-	<div class="box-sanidad">
+	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner square">
 			<p>Valores constantes de animales en producción</p>
 		</div>
