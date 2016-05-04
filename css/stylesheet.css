@@ -1543,7 +1543,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 
 
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
-body > section {
+.section {
  	padding: 50px 45px;
  }
 

@@ -1,4 +1,4 @@
-<section id="contenedor" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<section id="contenedor" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 	<div class="box-interes col-lg-2-5 col-md-6 col-sm-6 col-xs-12 col-xl-7"  >
 		<div class="box-interes-img">

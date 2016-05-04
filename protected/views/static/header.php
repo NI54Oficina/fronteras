@@ -1,4 +1,4 @@
-<header class="headerDesktop" >
+<!--<header class="headerDesktop" >
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-logos">
 
@@ -18,13 +18,19 @@
 
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="    padding-top: 35px;">
-		<img style="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecos-header.png" />
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: -1px;">
+		<img style="width:100vw;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecos-header.png" />
 </div>
 
 <div "col-lg-12 col-md-12 col-sm-12 col-xs-12" style=" padding-top: 60px;">
 <span  class=" glyphicon glyphicon-menu-hamburger navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>	
-	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse" data-toggle="collapse" >
+	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse" data-toggle="collapse" style="width: 100vw;
+    text-align: left;
+    background: white;
+    padding: 10px 0px;
+    z-index: -1;
+    margin-top: -25px;
+    padding-top: 35px;">
 		<ul class="ul-nav col-lg-12 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal" style="">
 	<li class="li-header "><p  class="toggle-dropdown-header" target="#drop1" ></p>
 		
@@ -41,4 +47,4 @@
 	</ul>
 	</div>
 </div>
-</header>
+</header>-->
