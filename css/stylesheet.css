@@ -123,7 +123,7 @@ header{
  }
  
  .headerMobile .dropdown-header-nav{
-	max-height: 0;
+	max-height:0;
 	transition: max-height 0.3s ease-out;
 	display:block;
 	overflow:hidden;
@@ -347,6 +347,7 @@ header{
 .box-mercado > div > div{
 	border:1px solid #28A382;
 	height:100%;
+	background:white;
 }
 
 
@@ -397,7 +398,7 @@ header{
     font-size: 2rem;
 	color:#323232;
 	margin: 0;
-    vertical-align: bottom;
+    vertical-align: sub;
 }
 
 /* TABLA */
@@ -663,7 +664,7 @@ header{
 
 
 .box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(3){
-	color:	#B54D4D;
+	color:#B54D4D;
 	font-weight:700;
 }
 
@@ -1585,12 +1586,13 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 .columna-granos p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
     text-align: left;
     padding-left: 10px;
     color: #8C8C8C;
+	font-weight:700;
 }
 
 .columna-ganado p {
@@ -1625,7 +1627,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 	display: inline-block;
 	padding: 9px 0px;
 	margin-bottom: 0;
-	font-size: 14px;
+	font-size: 1.5rem;
 	line-height: 1.42857143;
 	text-align: center;
 	white-space: nowrap;
@@ -1691,7 +1693,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
     display: inline-block;
     padding: 9px 0px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 1.5rem;
     line-height: 1.42857143;
     text-align: center;
     white-space: nowrap;
