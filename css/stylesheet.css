@@ -80,6 +80,11 @@ p{
 	display:inline-block;
 }
 
+.fadder{
+	opacity: 0;
+	transition: 0.5s;
+}
+
 /** Header **/
 
 header{
@@ -1345,7 +1350,7 @@ header{
 .home-bottom-box p {
 	color: white; 
 	font-size: 1.12em;
-	margin-top: 1em;
+	margin-top: 1.2em;
 	position: relative;
 }
 
@@ -1372,7 +1377,7 @@ header{
 	background-image: url(../img/icono-producir.png);
 	background-repeat: no-repeat;  
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: 101% 101%;
 	background-color: #7067B0;
 }
 
