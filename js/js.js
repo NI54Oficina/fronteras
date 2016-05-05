@@ -310,7 +310,6 @@ $(document).ready(function(){
   });
 }
 
-<<<<<<< HEAD
 	// function AdaptHomeUbication(){
 	// var pad = $('#home ').css('padding-top');
 	// var alto = $('.home-upper-box').height();
@@ -321,7 +320,7 @@ $(document).ready(function(){
  //  $('.home-botom-box').css('margin-top', margintop+"px");
 
  //  };
-=======
+
 });
 
 function CenterToParent(){
@@ -337,7 +336,7 @@ function CenterToParent(){
 	});
 }
 
->>>>>>> origin/master
+
 
 	function AdaptHomeUbication(){
 		var pad = $('#home ').css('padding-top');
