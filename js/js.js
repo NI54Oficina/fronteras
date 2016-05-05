@@ -265,6 +265,7 @@ function checkVisible( elm, evalType ) {
 $(document).ready(function(){
 
 	 AdaptSquare();
+	 AdaptHomeUbication();
 
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
 		if(isMobile){
@@ -308,4 +309,19 @@ $(document).ready(function(){
 
   });
 }
+
+	function AdaptHomeUbication(){
+	var pad = $('#home ').css('padding-top');
+	var alto = $('.home-upper-box').height();
+	var heightScreen = $('.section ').height();
+	var alto2 =$('.home-bottom-box').height();
+	var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
+
+  $('.home-botom-box').css('margin-top', margintop+"px");
+
+  };
+
+
+
+
 });
