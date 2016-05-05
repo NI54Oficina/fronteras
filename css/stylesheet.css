@@ -76,6 +76,10 @@ p{
 	font-family:'arialregular';
 }
 
+.center-to-parent{
+	display:inline-block;
+}
+
 /** Header **/
 
 header{
@@ -184,19 +188,20 @@ header{
 /* Caja mercados*/
 .box-mercado-clima-noticias > div:first-child > div{
 	background-color:#28A382;
-	min-height: 480px;
+	min-height: 100%;
 }
 
 /* Caja clima*/
 .box-mercado-clima-noticias > div:nth-child(2) > div{
 	background-color:#2E9DFB;
-	min-height: 480px;	
+	min-height: 100%;	
 }
 
 /* Caja noticias del sector*/
-.box-mercado-clima-noticias > div:nth-child(3)  div{
+.box-mercado-clima-noticias > div:nth-child(3) > div{
 	background-color:#2ED7AA;
-	min-height: 480px;
+	height:100%;
+	text-align:center;
 }
 
 
@@ -300,7 +305,7 @@ header{
 .box-mercado-clima-noticias  >  div:nth-child(3) .container-noticias-sector{
     min-height: 300px;
     text-align: center;
-    padding-top: 90px;
+    
 }
 
 .box-mercado-clima-noticias >  div:nth-child(3) .container-noticias-sector > img{

@@ -3,6 +3,7 @@ jQuery(window).load(function () {
 		CheckDevice();
 		Header();
 		SameHeight();
+		CenterToParent()
 		ResizeViewportElements();
 		
 
@@ -309,6 +310,7 @@ $(document).ready(function(){
   });
 }
 
+<<<<<<< HEAD
 	// function AdaptHomeUbication(){
 	// var pad = $('#home ').css('padding-top');
 	// var alto = $('.home-upper-box').height();
@@ -319,8 +321,32 @@ $(document).ready(function(){
  //  $('.home-botom-box').css('margin-top', margintop+"px");
 
  //  };
-
-
-
-
+=======
 });
+
+function CenterToParent(){
+	$(".center-to-parent").each(function(){
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("padding-top",0);
+		var parent= $(this).parent();
+		console.log($(this).outerHeight());
+		var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+		$(this).css("padding-top",paddingTop+"px");
+	});
+}
+
+>>>>>>> origin/master
+
+	function AdaptHomeUbication(){
+		var pad = $('#home ').css('padding-top');
+		var alto = $('.home-upper-box').height();
+		var heightScreen = $('#home').height();
+		var alto2 =$('.home-bottom-box').height();
+		var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
+
+	  $('.home-botom-box').css('margin-top', margintop+"px");
+
+	}
+
