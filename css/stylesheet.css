@@ -147,6 +147,20 @@ header{
 
 /**Fin Header**/
 
+
+
+
+/******************SECTION**********/
+.section {
+ 	padding: 50px 45px;
+	opacity:0;
+	transition:0.5s;
+ }
+/*****FIN SECCION******/
+
+
+
+
 /* Tres cajas (mercados, clima. noticias del sector)*/
 
 .box-mercado-clima-noticias{
@@ -1198,6 +1212,106 @@ header{
 }
 
 
+/* FIN NOTICIA*/
+
+/************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
+
+ .square > img {
+ 	max-width: 235px
+ }
+
+.box-sanidad {
+	background-color:#6D4A84; 
+}
+
+.box-producir-2 > div> img{
+	position: relative;
+ 	width: 100%;
+}
+
+
+
+.box-producir-2 {
+	padding: 15px;
+}
+
+.border-shadow{
+    box-shadow: -2px 2px 11px .5px rgba(134, 134, 134, 1);
+}     
+
+.box-producir-2 > div> div > p{
+	
+	font-size: 1.2em;
+	position: relative;
+	width: auto;
+}
+
+
+.box-producir-2 > div> div {
+	padding: 0px 10px;
+ 	text-align: center;
+ 	height: 200px;
+ 	background-color: white;
+ 	border-bottom-right-radius: 100px;
+ 	vertical-align: middle;
+ 	box-shadow: inset -1px -1px 4px 3px rgba(134, 134, 134, 0.65);
+
+}
+
+
+.box-sanidad-inner > p { 
+	color:#6D4A84;
+}
+.box-sanidad {
+	background-color:#6D4A84; 
+	
+}
+
+.box-genetica-inner > p {
+	color: #ED7C28;
+}
+
+.box-genetica {
+	background-color:#ED7C28; 
+}
+
+.box-genetica-inner {
+ 	border:2px solid #ED7C28 ;
+}
+.box-sanidad-inner {
+ 	border:2px solid #6D4A84 ;
+ 	
+}
+.box-nutricion {
+	background-color:#BAA200; 
+}
+
+.box-nutricion-inner > p {
+	color: #BAA200;
+}
+
+.box-relleno{
+	opacity: .1;
+}
+
+.box-nutricion-inner {
+ 	border:2px solid #BAA200 ;
+}
+
+.box-manejo-inner > p {
+	color: #003D6A;
+}
+
+.box-manejo {
+	background-color:#003D6A;
+}
+
+.box-manejo-inner {
+ 	border:2px solid #003D6A ;
+}
+
+/**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
+
 
 /*********************HOME*******************/
 
@@ -1311,49 +1425,7 @@ header{
 }
 
 
-/*****************PRODUCIR (FALTAN DETALLES DE IMAGEN)******************/
 
-
-/*ESTAS SON LAS GOTAS DEL MENU PRODUCIR SIN EL TEXTO EN LA PROPIA IMAGEN, NAZA
-DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
-*/
-
-/*#btn-sanidad { 
-	background-image: url(../img/sanidad.png); 
-}
-
-#btn-manejo { 
-	background-image: url(../img/manejo.png); 
-}
-
-#btn-genetica { 
-	background-image: url(../img/genetica.png); 
-}
-
-#btn-nutricion { 
-	background-image: url(../img/nutricion.png); 
-}
-
-#btn-fronteras { 
-	background-image: url(../img/nutricion.png); 
-}
-
-#btn-veterinaria { 
-	background-image: url(../img/nutricion.png); 
-}
-
-#btn-intereses { 
-	background-image: url(../img/nutricion.png); 
-}*/
-
-
-/*.gota-producir > div > p {
-	width: auto; 
-	padding: 0;
-	margin:0; 
-	color: white; 
-	font-size: 15px; 
-}*/
 
 
 .gota-producir > div > a > img {
@@ -1449,108 +1521,7 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 }
 
 
-/************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
-.section {
- 	padding: 50px 45px;
-	opacity:0;
-	transition:0.5s;
- }
 
- .square > img {
- 	max-width: 235px
- }
-
-.box-sanidad {
-	background-color:#6D4A84; 
-}
-
-.box-producir-2 > div> img{
-	position: relative;
- 	width: 100%;
-}
-
-
-
-.box-producir-2 {
-	padding: 15px;
-}
-
-.border-shadow{
-    box-shadow: -2px 2px 11px .5px rgba(134, 134, 134, 1);
-}     
-
-.box-producir-2 > div> div > p{
-	
-	font-size: 1.2em;
-	position: relative;
-	width: auto;
-}
-
-
-.box-producir-2 > div> div {
-	padding: 0px 10px;
- 	text-align: center;
- 	height: 200px;
- 	background-color: white;
- 	border-bottom-right-radius: 100px;
- 	vertical-align: middle;
- 	box-shadow: inset -1px -1px 4px 3px rgba(134, 134, 134, 0.65);
-
-}
-
-
-.box-sanidad-inner > p { 
-	color:#6D4A84;
-}
-.box-sanidad {
-	background-color:#6D4A84; 
-	
-}
-
-.box-genetica-inner > p {
-	color: #ED7C28;
-}
-
-.box-genetica {
-	background-color:#ED7C28; 
-}
-
-.box-genetica-inner {
- 	border:2px solid #ED7C28 ;
-}
-.box-sanidad-inner {
- 	border:2px solid #6D4A84 ;
- 	
-}
-.box-nutricion {
-	background-color:#BAA200; 
-}
-
-.box-nutricion-inner > p {
-	color: #BAA200;
-}
-
-.box-relleno{
-	opacity: .1;
-}
-
-.box-nutricion-inner {
- 	border:2px solid #BAA200 ;
-}
-
-.box-manejo-inner > p {
-	color: #003D6A;
-}
-
-.box-manejo {
-	background-color:#003D6A;
-}
-
-.box-manejo-inner {
- 	border:2px solid #003D6A ;
-}
-
-/**********************HASTA ACA***************/
 
 #clima form select::-webkit-scrollbar {
     width: 1em;
