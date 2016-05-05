@@ -3,6 +3,7 @@ jQuery(window).load(function () {
 		CheckDevice();
 		Header();
 		SameHeight();
+		CenterToParent()
 		ResizeViewportElements();
 		
 
@@ -309,3 +310,16 @@ $(document).ready(function(){
   });
 }
 });
+
+function CenterToParent(){
+	$(".center-to-parent").each(function(){
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("padding-top",0);
+		var parent= $(this).parent();
+		console.log($(this).outerHeight());
+		var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+		$(this).css("padding-top",paddingTop+"px");
+	});
+}

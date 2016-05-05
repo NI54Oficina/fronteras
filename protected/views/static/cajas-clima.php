@@ -1,25 +1,4 @@
-<?php
-$options = array(
-  'http'=>array(
-    'method'=>"GET",
-    'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
-  )
-);
-$context=stream_context_create($options);
 
-
-$localidad= "962";
-if(isset($_POST["localidad"])){
-	$_SESSION["localidad"]= $_POST["localidad"];
-}
-if(isset($_SESSION["localidad"])){
-	$localidad= $_SESSION["localidad"];
-}
-
-$data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/'.$localidad,false,$context);
-
-
-?>
 <!-- General cajas clima-->
 <div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
