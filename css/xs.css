@@ -1,10 +1,13 @@
 @media screen and (max-width: 767px){
 
 
-#contenedor { /*Disminucion de padding em mobile*/
+.section { /*Disminucion de padding em mobile*/
 	padding:100px 2px;
 }
 
+#home{
+	padding: 0;
+}
 
 
 /*CIERRE DE LLAVES*/

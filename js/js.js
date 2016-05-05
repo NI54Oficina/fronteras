@@ -313,7 +313,7 @@ $(document).ready(function(){
 	function AdaptHomeUbication(){
 	var pad = $('#home ').css('padding-top');
 	var alto = $('.home-upper-box').height();
-	var heightScreen = $('.section ').height();
+	var heightScreen = $('#home').height();
 	var alto2 =$('.home-bottom-box').height();
 	var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
 
