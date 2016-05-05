@@ -28,13 +28,9 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProced
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			
-				<h1><?php
-					if(isset( $localidades[$localidad])){
-						echo $localidades[$localidad];
-					} ?></h1>
-				<form method="post">
+				
+				<form method="post" id="formClima">
 				<?php include("selector-localidades.php"); ?>
-				<button>submit</button>
 			</form>
 		</div>
 		
@@ -95,3 +91,8 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProced
 		<?php
 	} ?>
 </div>
+<script>
+$( "#localidad" ).change(function() {
+  $("#formClima").submit();
+});
+</script>
