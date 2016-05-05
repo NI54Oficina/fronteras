@@ -172,8 +172,12 @@ header{
 
 /* Tres cajas (mercados, clima. noticias del sector)*/
 
-
-
+.maxbox-noticias,
+.max-box-clima,
+.maxbox-mercados{
+ 
+ padding: 15px;
+}
 
 .box-mercado-clima-noticias{
 	padding:0 25px;
