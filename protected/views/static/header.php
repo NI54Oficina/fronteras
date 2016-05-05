@@ -1,4 +1,4 @@
-<!--<header class="headerDesktop" >
+<header class="headerDesktop" >
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-logos">
 
@@ -36,7 +36,7 @@
 		
 						<li><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/hoy">Hoy</a></li>
 						<li><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/link2">Este mes</a></li>
-						<li><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/link2">Producir +</a></li>
+						<li><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/producir">Producir +</a></li>
 						<li><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/link2">Ayuda</a></li>
 		
 		<ul id="drop1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dropdown-header-nav">
@@ -47,4 +47,4 @@
 	</ul>
 	</div>
 </div>
-</header>-->
+</header>

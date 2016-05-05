@@ -3,9 +3,15 @@
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
 
+<<<<<<< HEAD
 <body class="col-lg-12" id="home">
 <!-- <?php include_once("analytics.php") ?>
  -->
+=======
+<body id="home">
+<?php include_once("analytics.php") ?>
+
+>>>>>>> origin/master
 
 
 	<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12">

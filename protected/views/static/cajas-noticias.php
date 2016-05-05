@@ -8,6 +8,7 @@ $secciones["Hacienda"]="noticia-tipo-1";
 $secciones["Interes general"]="noticia-tipo-4";
 $secciones["Insumos"]="noticia-tipo-5";
 $secciones["Mercado de hacienda"]="noticia-tipo-5";
+$secciones["Financiero"]="noticia-tipo-5";
 
 ?>
  <!-- LINEAS DE CODIGO EN CSS 1175 -->
@@ -49,11 +50,11 @@ $secciones["Mercado de hacienda"]="noticia-tipo-5";
 				<div class="border-noticias-h1 b-l"></div>
 			</div>
 		
-			<div class="container-imagen-nota" style="background-image:url('<?php echo $f["foto"]; ?>');">
+			<div class="container-imagen-nota " style="background-image:url('<?php echo $f["foto"]; ?>');">
 			</div>
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias">
+			<div  class=" container-texto-noticias ">
 				
 				<h2><?php echo $f["titulo"]; ?></h2>
 				<p><?php echo $f["bajada"]; ?></p>
@@ -88,7 +89,7 @@ $secciones["Mercado de hacienda"]="noticia-tipo-5";
 		
 			
 			<!-- Texto noticia -->
-			<div  class="container-texto-noticias noticia-tipo-1">
+			<div  class="container-texto-noticias noticia-tipo-1 square">
 				<h2>Fondos especulativos volvieron a apostar fuerte contra la soja</h2>
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				

@@ -79,19 +79,14 @@ p{
 /** Header **/
 
 header{
-
+	top:0;
 }
 
 .header-logos{
 	width:100vw;
-	min-height:40px;
-	top:0;
-	left:0;
 	background: rgb(248, 242, 236);
-    width: 100vw;
     min-height: 40px;
-    top: 0;
-    left: 0;
+    
     -webkit-box-shadow: inset -1px 4px 40px 0px rgb(245, 238, 230);
     -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
     box-shadow: inset -1px 4px 40px 0px rgb(243, 234, 226);
@@ -315,7 +310,7 @@ header{
 .container-imagen-nota{
 	width:100%;
 	height:100px;
-	background-size: 100% auto;
+	background-size:  auto 100%;
 }
 
 
@@ -1216,7 +1211,7 @@ header{
 
 .home-upper-box { 
 	padding: 20px 20px;
-	margin-bottom:10em;
+	
 }
 
 .home-upper-box > div {
@@ -1294,10 +1289,6 @@ header{
 	padding: 3em 0em;
 } 
 
-.home-box:hover > div > div:nth-child(1){
-	box-shadow: 0 15px 10px -2px rgba(95,95,95,0.5); 
-	transition: .5s;
-}
 
 .home-box:hover > .hoy-box{
 	background-color:#36ACB7;
@@ -1460,6 +1451,8 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
 .section {
  	padding: 50px 45px;
+	opacity:0;
+	transition:0.5s;
  }
 
  .square > img {
