@@ -10,7 +10,9 @@ jQuery(window).load(function () {
 		if(!isHome){
 			
 			$(".fadder").css('opacity',1);
+			$("section").css('opacity',1);
 			$(".fadder").css('animation-play-state',"running");
+			$("section").css('animation-play-state',"running");
 		}
 		if(isMobile){
 			  

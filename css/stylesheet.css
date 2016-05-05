@@ -79,19 +79,14 @@ p{
 /** Header **/
 
 header{
-
+	top:0;
 }
 
 .header-logos{
 	width:100vw;
-	min-height:40px;
-	top:0;
-	left:0;
 	background: rgb(248, 242, 236);
-    width: 100vw;
     min-height: 40px;
-    top: 0;
-    left: 0;
+    
     -webkit-box-shadow: inset -1px 4px 40px 0px rgb(245, 238, 230);
     -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
     box-shadow: inset -1px 4px 40px 0px rgb(243, 234, 226);
@@ -1461,6 +1456,8 @@ DIJO QUE VA A MANDAR LAS GOTAS CON LOS NOMBRES YA PUESTOS.
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
 .section {
  	padding: 50px 45px;
+	opacity:0;
+	transition:0.5s;
  }
 
  .square > img {

@@ -1,4 +1,4 @@
-<!--<header class="headerDesktop" >
+<header class="headerDesktop" >
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-logos">
 
@@ -47,4 +47,4 @@
 	</ul>
 	</div>
 </div>
-</header>-->
+</header>
