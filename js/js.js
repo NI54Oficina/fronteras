@@ -310,7 +310,7 @@ $(document).ready(function(){
 
   });
 }
-<<<<<<< HEAD
+
 });
 
 function CenterToParent(){
@@ -325,21 +325,16 @@ function CenterToParent(){
 		$(this).css("padding-top",paddingTop+"px");
 	});
 }
-=======
+
 
 	function AdaptHomeUbication(){
-	var pad = $('#home ').css('padding-top');
-	var alto = $('.home-upper-box').height();
-	var heightScreen = $('#home').height();
-	var alto2 =$('.home-bottom-box').height();
-	var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
+		var pad = $('#home ').css('padding-top');
+		var alto = $('.home-upper-box').height();
+		var heightScreen = $('#home').height();
+		var alto2 =$('.home-bottom-box').height();
+		var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
 
-  $('.home-botom-box').css('margin-top', margintop+"px");
+	  $('.home-botom-box').css('margin-top', margintop+"px");
 
-  };
+	}
 
-
-
-
-});
->>>>>>> origin/master
