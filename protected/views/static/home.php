@@ -3,12 +3,15 @@
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
 
-<body id="home">
+
+<body class="col-lg-12" id="home">
 <!-- <?php include_once("analytics.php") ?>
  -->
+<body id="home">
+<?php include_once("analytics.php") ?>
 
 
-	<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
 		<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
  			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
 
@@ -17,11 +20,11 @@
  		</div>
  	</div>
 
- 	<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ 	<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 
  	<a href="#">
 
- 		<div class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
+ 		<div class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12 .col-xl-4">
 
 			<div class="hoy-box square">
 				<div hid="1">
@@ -34,7 +37,7 @@
 
 	<a href="">
  		
- 		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
+ 		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12 col-xl-4">	
  			<div class="estemes-box square ">
  				<div hid="1">
  					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
@@ -48,7 +51,7 @@
   	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
-		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
+		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12 col-xl-4">	
  			<div class="producir-box square">
  				<div hid="1">
  					<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
@@ -61,7 +64,7 @@
 	</a>
 
 	<a href="">
-		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12">	
+		<div  class="home-box col-lg-3 col-md-3 col-sm-6 col-xs-12 col-xl-4">	
  			<div class="ayuda-box square">
  				<div hid="1">
  					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />

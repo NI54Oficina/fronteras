@@ -42,7 +42,7 @@
 			</div>
 			
 			<!-- Ampliar -->
-			<h5><a href="">Ampliar</a></h5>
+			<h5><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados">Ampliar</a></h5>
 			
 		</div>
 	</div>
@@ -89,9 +89,19 @@
 	<!-- Noticias del sector -->
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		
+<<<<<<< HEAD
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 		<div class="center-to-parent">
 		<a href="" class="">
+=======
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		
+<<<<<<< HEAD
+		<a href="javascript:void(0)"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+=======
+		<a href=" <?php echo Yii::app()->getBaseUrl(true); ?>/noticias">
+>>>>>>> origin/master
+>>>>>>> origin/master
 				
 				<!--Contenedor título e imágen -->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector ">
@@ -106,8 +116,8 @@
 					
 				</div>
 			
-			</a>
-			
+		</a>
+		
 		</div>
 		</div>
 	</div>	
