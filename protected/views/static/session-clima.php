@@ -17,6 +17,8 @@ if(isset($_POST["localidad"])){
 }
 if(isset($_SESSION["localidad"])){
 	$localidad= $_SESSION["localidad"];
+}else{
+	$_SESSION["localidad"]=$localidad;
 }
 
 $data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/'.$localidad,false,$context);
