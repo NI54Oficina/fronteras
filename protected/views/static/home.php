@@ -4,8 +4,8 @@
 
 
 <body id="home">
-<!-- <?php include_once("analytics.php") ?>
- -->
+<?php include_once("analytics.php") ?>
+
 
 
 	<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12">

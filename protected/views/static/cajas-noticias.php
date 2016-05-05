@@ -8,6 +8,7 @@ $secciones["Hacienda"]="noticia-tipo-1";
 $secciones["Interes general"]="noticia-tipo-4";
 $secciones["Insumos"]="noticia-tipo-5";
 $secciones["Mercado de hacienda"]="noticia-tipo-5";
+$secciones["Financiero"]="noticia-tipo-5";
 
 ?>
  <!-- LINEAS DE CODIGO EN CSS 1175 -->

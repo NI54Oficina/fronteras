@@ -26,7 +26,7 @@
 			</div>
 			
 			<!-- Ampliar -->
-			<h5><a href="">Ampliar</a></h5>
+			<h5><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados">Ampliar</a></h5>
 			
 		</div>
 	</div>
@@ -53,7 +53,7 @@
 				
 			</div>			
 			<!-- Ampliar -->
-			<h5><a href="">Ampliar</a></h5>
+			<h5><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima">Ampliar</a></h5>
 		</div>
 	</div>	
 	
@@ -62,7 +62,7 @@
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-		<a href="">
+		<a href=" <?php echo Yii::app()->getBaseUrl(true); ?>/noticias">
 				
 				<!--Contenedor título e imágen -->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector">
