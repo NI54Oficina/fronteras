@@ -50,7 +50,7 @@ $secciones["Financiero"]="noticia-tipo-5";
 				<div class="border-noticias-h1 b-l"></div>
 			</div>
 		
-			<div class="container-imagen-nota " style="background-image:url('<?php echo $f["foto"]; ?>');">
+			<div class="container-imagen-nota  square" style="background-image:url('<?php echo $f["foto"]; ?>');">
 			</div>
 			
 			<!-- Texto noticia -->

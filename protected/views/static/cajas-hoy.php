@@ -19,7 +19,7 @@
 	$array = json_decode($data,true);
 	$item= $array[0];
 	?>
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	<div class="maxbox-mercados col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<p>Mercados</p>
 			<h3>Dólar oficial</h3>
@@ -59,7 +59,7 @@
 		if(count($f)>1){
 		foreach($f as $f2){
 	 ?>
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	<div class=" maxbox-clima col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
 			<h4><?php echo $f2["FechaDescripcion"] ?></h4>
@@ -85,9 +85,11 @@
 	</div>	
 	<?php break; ?>
 	<?php } } }}?>
+
+
 	
 	<!-- Noticias del sector -->
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	<div class=" maxbox-noticias col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">

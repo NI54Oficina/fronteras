@@ -167,6 +167,9 @@ header{
 
 /* Tres cajas (mercados, clima. noticias del sector)*/
 
+
+
+
 .box-mercado-clima-noticias{
 	padding:0 25px;
 }
@@ -209,7 +212,7 @@ header{
 .box-mercado-clima-noticias > div:first-child div h3, div:nth-child(2) div h3, div:nth-child(3) div h3{
 	color:#fff;
 	text-align: left;
-    padding-left: 20px;
+    
 	font-size: 2.5rem;
 }
 
@@ -227,8 +230,6 @@ header{
 
 /*Mercados: Titulo "mercados"*/
 .box-mercado-clima-noticias > div:first-child > div > p{
-	padding-left:20px;
-    padding-top: 50px;
     font-size: 1.3em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -260,11 +261,10 @@ header{
 *********** CLIMA ***********
 ******************************/
 .box-mercado-clima-noticias >  div:nth-child(2) h3{
-	padding-top:50px;
 	margin:0;
 	font-weight:700;
 	text-align:center;
-	padding-left:0;
+	
 	font-size: 2.5em;
 }
 
@@ -279,7 +279,6 @@ header{
 
 .box-mercado-clima-noticias  >  div:nth-child(2) .small-boxes-mercado p:first-child{
     font-size: 2.5em;
-	padding-top: 20px;
 }
 
 .box-mercado-clima-noticias  >  div:nth-child(2) .small-boxes-mercado p:nth-child(2){
@@ -1135,7 +1134,9 @@ header{
     padding-right: 15px;
     font-size: 11px;
 }
-
+.fecha p{
+	background-color:  #C4c6c7;
+}
 /*COLORES DISTINTAS NOTICIAS*/
 
 /*NOTICIA TIPO 1 - VERDE AGUA*/
@@ -1149,10 +1150,6 @@ header{
 	color:#2ED7AA;
 }
 
-.noticia-tipo-1 .fecha p{
-	background:#2ED7AA;
-	margin-bottom:0;
-}
 
 
 /*NOTICIA TIPO 2 -COLOR AZUL*/
@@ -1165,10 +1162,6 @@ header{
 	color:#2E9DFB;
 }
 
-.noticia-tipo-2 .fecha p{
-	background:#2E9DFB;
-	margin-bottom:0;
-}
 
 
 /*NOTICIA TIPO 3 - VERDE OSCURO*/
@@ -1181,10 +1174,6 @@ header{
 	color:#2EA982;
 }
 
-.noticia-tipo-3 .fecha p{
-	background:#2EA982;
-	margin-bottom:0;
-}
 
 /*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
 
@@ -1196,10 +1185,6 @@ header{
 	color:pink;
 }
 
-.noticia-tipo-4 .fecha p{
-	background:pink;
-	margin-bottom:0;
-}
 
 /*NOTICIA TIPO 5 - MODO PRUEBA NARANJA, SETEAR COLOR*/
 
@@ -1211,10 +1196,6 @@ header{
 	color:orange;
 }
 
-.noticia-tipo-5 .fecha p{
-	background:orange;
-	margin-bottom:0;
-}
 
 
 /* FIN NOTICIA*/
