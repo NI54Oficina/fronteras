@@ -56,5 +56,5 @@
 	<?php 
 	}
 	?>
-	<div class="item" src="/webBago/site/logout" style="background-color:black;color:white;">Logout</div>
+	<div class="item" src="/webBago/site/logout" style="">Logout</div>
 </div>
