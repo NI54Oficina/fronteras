@@ -12,6 +12,9 @@
 	padding: 0;
 }
 
+.box-noticias #noticia-box {
+	height: auto !important;
+}
 
-/*hasta aca la llave principal*/
+/*FIN DE LLAVES PRINCIPALES*/
 }

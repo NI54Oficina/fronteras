@@ -37,9 +37,10 @@
 	}
 
 
-/*Aca termina la llave*/
+/*fin ipad landscape*/
 }
 
+/*MEDIA QUERY PARA IPAD PORTRAIT*/
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -48,7 +49,7 @@ and (orientation : portrait) {
 
 
 
-/*Aca termina la llave*/
+/*IPAD portrait*/
  }
 
 
@@ -56,7 +57,7 @@ and (orientation : portrait) {
 
 
 
-/*MEDIA QUERY DE IPAD LANDSCAPE & PORTRAIT*/
+/*IPAD LANDSCAPE & PORTRAIT*/
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
@@ -64,7 +65,20 @@ and (max-device-width : 1024px)  {
 	#contenedor, #noticias{
 		padding: 100px 45px;
 	}
-
-
-/*Aca termina la llave*/
 }
+
+
+/*media query resoluciones 360x240*/
+
+@media only screen 
+and(max-device-width: 300px)
+and(min-device-width: 150px;)
+{
+	
+	.long-word {
+		font-size: 0.8em !important;
+	}
+
+} /*FIN MEDIA QUERY 360x240px*/
+
+

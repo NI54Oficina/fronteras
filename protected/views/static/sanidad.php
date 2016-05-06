@@ -10,7 +10,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
-				<p>Enfermedades</p>
+				<p class="long-word">Enfermedades</p>
 			</div>
 		</div>	
 	</div>
@@ -35,7 +35,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
-				<p>Días de retiro de productos veterinarios</p>
+				<p class="long-word">Días de retiro de productos veterinarios</p>
 			</div>
 
 		</div>
@@ -46,7 +46,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">	
 		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
-				<p>Laboratorios de Diagnóstico</p>
+				<p class="long-word">Laboratorios de Diagnóstico</p>
 			</div>
 		</div>	
 	</div>
@@ -63,7 +63,7 @@
 <div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner square">
-			<p>Valores constantes de animales en producción</p>
+			<p class="long-word">Valores constantes de animales en producción</p>
 		</div>
 	</div>
 </div>
