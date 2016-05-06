@@ -18,6 +18,7 @@ class WebController extends Controller
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
 			'postOnly + contacto', // we only allow deletion via POST requesty
+			'postOnly + testAjax', // we only allow deletion via POST requesty
 		);
 	}
 
@@ -30,7 +31,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto"),
+				'actions'=>array('index','view',"get","contacto","testAjax"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -138,6 +139,15 @@ class WebController extends Controller
 		echo "enviado";
 
 		
+	}
+	
+	
+	public function actionTestajax(){
+		header("Access-Control-Allow-Origin: *");
+		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
+		$model=null;
+		$data=1;
+		$this->renderPartial("//static/testAjax",$model);
 	}
 	
 	protected function beforeAction($event)
