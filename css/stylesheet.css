@@ -1379,14 +1379,14 @@ header{
 .home-bottom-box p {
 	color: white; 
 	font-size: 1.12em;
-	margin-top: 1.2em;
+	margin-bottom: 0px;
 	position: relative;
 }
 
 .home-bottom-box > a> div {
 	padding: 0px 20px;     
 	margin: 10px 0px;
-	max-width: 320px;
+	
 	min-height: 250px;
 }
 
