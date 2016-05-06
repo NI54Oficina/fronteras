@@ -59,5 +59,46 @@
 	height: auto !important;
 }
 
+.ul-nav{
+    width: 100vw;
+    text-align: center;
+}
+
+.ul-nav li {
+    padding-left: 0;
+	height:200px;
+    margin-top: -6px;
+}
+
+.ul-nav li:nth-child(2){
+	text-align: center;
+    padding-right: 0px;
+}
+
+.ul-nav li a {
+    padding-top: 100px;
+	color:white;
+}
+
+.ul-nav .li-header li:first-child {
+	background:red;
+}
+
+#hoy-header-m{
+	background:#40CEDB;
+} 
+
+#mes-header-m{
+	background:#0093D4;
+} 
+
+#producir-header-m{
+	background:#7067B0;
+} 
+
+#ayuda-header-m{
+	background:#79BEFE;
+} 
+
 /*FIN DE LLAVE PRINCIPAL*/
 }
