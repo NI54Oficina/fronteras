@@ -9,6 +9,7 @@ $secciones["Interes general"]="noticia-tipo-4";
 $secciones["Insumos"]="noticia-tipo-5";
 $secciones["Mercado de hacienda"]="noticia-tipo-5";
 $secciones["Financiero"]="noticia-tipo-5";
+$secciones["Institucionales"]="noticia-tipo-5";
 
 ?>
  <!-- LINEAS DE CODIGO EN CSS 1175 -->
@@ -18,10 +19,13 @@ $secciones["Financiero"]="noticia-tipo-5";
 
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
 	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" id="noticia-box" hid="1">
+	<div class="noticia-box-2">
 		<div id="noticia-box-inner">
 		<h1 id="noticia-box-title">Noticias del sector</h1>
 		</div>
+	</div>	
 	</div>
+
 	<?php 
 	$options = array(
 	'http'=>array(
@@ -50,7 +54,7 @@ $secciones["Financiero"]="noticia-tipo-5";
 				<div class="border-noticias-h1 b-l"></div>
 			</div>
 		
-			<div class="container-imagen-nota " style="background-image:url('<?php echo $f["foto"]; ?>');">
+			<div class="container-imagen-nota square" style="background-image:url('<?php echo $f["foto"]; ?>');">
 			</div>
 			
 			<!-- Texto noticia -->

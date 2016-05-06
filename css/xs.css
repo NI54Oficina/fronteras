@@ -2,13 +2,33 @@
 
 
 .section { /*Disminucion de padding em mobile*/
-	padding:100px 2px;
+	padding:150px 2px;
 }
 
 #home{
 	padding: 0;
 }
 
+.box-producir p {
+	font-size: .8em;
+}
 
-/*CIERRE DE LLAVES*/
+.box-noticias #noticia-box {
+	height: auto !important;
+}
+
+
+ .long-word {
+ 	font-size: .95em !important;
+ }
+
+ .box-mercado-title {
+ 	height: auto !important;
+ }
+ 
+.box-mercado > div:first-child > div h1 {
+	padding: 10px 0;
+}
+
+/*CIERRE DE LLAVES PRINCIPALES*/
 }

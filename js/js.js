@@ -1,8 +1,14 @@
 var isHome=false;
-jQuery(window).load(function () {
+$(window).on("load",function () {
+		LoadFunction();
+	});
+
+function LoadFunction(){
+	console.log("entra load");
 		CheckDevice();
 		Header();
 		SameHeight();
+		CenterToParent()
 		ResizeViewportElements();
 		
 
@@ -65,9 +71,7 @@ jQuery(window).load(function () {
 		
 		},500);
 		//$("#vademecum-loading").fadeIn(1000);
-	});
-
-
+}
 	
 	$( window ).resize(function() {
 		var lastOrientation= currentOrientation;
@@ -262,10 +266,9 @@ function checkVisible( elm, evalType ) {
 }
 
 
-$(document).ready(function(){
+$(document).on("ready",function(){
 
 	 AdaptSquare();
-	 AdaptHomeUbication();
 
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
 		if(isMobile){
@@ -310,18 +313,42 @@ $(document).ready(function(){
   });
 }
 
-	function AdaptHomeUbication(){
-	var pad = $('#home ').css('padding-top');
-	var alto = $('.home-upper-box').height();
-	var heightScreen = $('#home').height();
-	var alto2 =$('.home-bottom-box').height();
-	var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
+	// function AdaptHomeUbication(){
+	// var pad = $('#home ').css('padding-top');
+	// var alto = $('.home-upper-box').height();
+	// var heightScreen = $('#home').height();
+	// var alto2 =$('.home-bottom-box').height();
+	// var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
 
-  $('.home-botom-box').css('margin-top', margintop+"px");
+ //  $('.home-botom-box').css('margin-top', margintop+"px");
 
-  };
-
-
-
+ //  };
 
 });
+
+function CenterToParent(){
+	$(".center-to-parent").each(function(){
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("padding-top",0);
+		var parent= $(this).parent();
+		console.log($(this).outerHeight());
+		var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+		$(this).css("padding-top",paddingTop+"px");
+	});
+}
+
+
+
+	function AdaptHomeUbication(){
+		var pad = $('#home ').css('padding-top');
+		var alto = $('.home-upper-box').height();
+		var heightScreen = $('#home').height();
+		var alto2 =$('.home-bottom-box').height();
+		var margintop = ((heightScreen - (pad + alto))/2)- (alto2/2)
+
+	  $('.home-botom-box').css('margin-top', margintop+"px");
+
+	}
+

@@ -52,7 +52,7 @@ return array(
 			'class'=>'ext.DbUrlManager.EDbUrlManager',
 			'connectionID'=>'db',
 			'rules'=>array(
-				
+				"ar/testAjax"=>array("web/testAjax"),
 				"paises"=>array("web/get/data/paises"	),
 				"contacto"=>array("web/contacto"),
 			

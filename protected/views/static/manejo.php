@@ -1,6 +1,6 @@
 <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 	<div class="square">
 
 		
@@ -9,15 +9,15 @@
 	</div>
 		
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner square">
-			<p>Cubicación de bañaderos</p>
+			<p class="long-word">Cubicación de bañaderos</p>
 		</div>
 	</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">	
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner square ">
 			<p>Bienestar animal</p>
@@ -25,15 +25,15 @@
 	</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">	
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner square">
-			<p>Buenas prácticas de uso de  productos veterinarios</p>
+			<p class="long-word">Buenas prácticas de uso de  productos veterinarios</p>
 		</div>
 	</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner square">
 			<p>Tipo de destete</p>
@@ -43,7 +43,7 @@
 
 		
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">	
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner square">
 			<p>Tabla de estado corporal</p>
@@ -53,15 +53,15 @@
 	
 	
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">
 	<div class="box-manejo border-shadow">	
 		<div class="box-manejo-inner square">
-			<p>Reglamentaciones agropecuarias</p>
+			<p class="long-word">Reglamentaciones agropecuarias</p>
 		</div>
 	</div>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-manejo">	
 		<div class="box-manejo-inner square">
 			<p></p>
@@ -69,7 +69,7 @@
 	</div>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-manejo">	
 		<div class="box-manejo-inner square">
 			<p></p>
@@ -77,7 +77,7 @@
 	</div>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-12 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-manejo">	
 		<div class="box-manejo-inner square">
 			<p></p>

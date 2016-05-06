@@ -54,5 +54,10 @@
 	padding: 0;
 }
 
-/*HASTA ACA LA LLAVE PRINCIPAL*/
+
+.box-noticias #noticia-box {
+	height: auto !important;
+}
+
+/*FIN DE LLAVE PRINCIPAL*/
 }

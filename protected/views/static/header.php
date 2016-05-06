@@ -3,10 +3,19 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-logos">
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<<<<<<< HEAD
 		<img style="    width: 112px;
     float: left;
     padding-left: 50px;
     padding-top: 10px;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" />
+=======
+		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/home">
+		<img style="    width: 150px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 25px;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" />
+    </a>
+>>>>>>> origin/master
 	</div>
 	
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
