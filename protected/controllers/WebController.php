@@ -147,7 +147,9 @@ class WebController extends Controller
 		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
 		$model=null;
 		$data=1;
-		$this->renderPartial("//static/testAjax",$model);
+		
+		$this->renderPartial("//static/stylesheet-code",$model);
+		$this->renderPartial("//static/home",$model);
 	}
 	
 	protected function beforeAction($event)

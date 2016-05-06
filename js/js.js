@@ -1,5 +1,10 @@
 var isHome=false;
-jQuery(window).load(function () {
+$(window).on("load",function () {
+		LoadFunction();
+	});
+
+function LoadFunction(){
+	console.log("entra load");
 		CheckDevice();
 		Header();
 		SameHeight();
@@ -66,9 +71,7 @@ jQuery(window).load(function () {
 		
 		},500);
 		//$("#vademecum-loading").fadeIn(1000);
-	});
-
-
+}
 	
 	$( window ).resize(function() {
 		var lastOrientation= currentOrientation;
@@ -263,7 +266,7 @@ function checkVisible( elm, evalType ) {
 }
 
 
-$(document).ready(function(){
+$(document).on("ready",function(){
 
 	 AdaptSquare();
 
