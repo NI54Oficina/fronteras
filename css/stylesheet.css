@@ -1166,7 +1166,9 @@ header{
 	color:#2ED7AA;
 }
 
-
+.noticia-tipo-1 .container-imagen-nota {
+	border-top: 7px solid #2ED7AA;
+}
 
 /*NOTICIA TIPO 2 -COLOR AZUL*/
 
@@ -1176,6 +1178,10 @@ header{
 
 .noticia-tipo-2 .container-texto-noticias h2{
 	color:#2E9DFB;
+}
+
+.noticia-tipo-2 .container-imagen-nota {
+	border-top: 7px solid #2E9DFB;
 }
 
 
@@ -1190,6 +1196,11 @@ header{
 	color:#2EA982;
 }
 
+.noticia-tipo-3 .container-imagen-nota {
+	border-top: 7px solid #2EA982;
+}
+
+
 
 /*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
 
@@ -1199,6 +1210,10 @@ header{
 
 .noticia-tipo-4 .container-texto-noticias h2{
 	color:pink;
+}
+
+.noticia-tipo-4 .container-imagen-nota {
+	border-top: 7px solid pink;
 }
 
 
@@ -1212,6 +1227,9 @@ header{
 	color:orange;
 }
 
+.noticia-tipo-5 .container-imagen-nota {
+	border-top: 7px solid orange;
+}
 
 
 /* FIN NOTICIA*/
