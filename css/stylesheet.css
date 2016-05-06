@@ -365,9 +365,9 @@ header{
 }
 
 
-.box-mercado > div:first-child > div{
+.box-mercado > .box-mercado-title > div{
 	background-color:#28A382;
-	
+	min-height: 205px;
 	height:100%;
 	border:none;
 }
@@ -385,14 +385,15 @@ header{
 	font-weight:300;
 	letter-spacing:2px;
 	text-align:center;
-	padding-top:200px;
 	margin:0;
 	color:#fff;
+
 }
 
 /* Primer div sin borde */
 .box-mercado > div:first-child{
 	border:none;
+
 }
 
 
@@ -1061,6 +1062,10 @@ header{
     margin: 0;
 }
 
+.noticia-box-2 {
+	padding-top: 20px;
+}
+
 .box-noticias #noticia-box-title{
 	color: white;
     text-transform: uppercase;
@@ -1070,7 +1075,7 @@ header{
     width: 115px;
 }
 
-#noticia-box > #noticia-box-inner{
+#noticia-box >div > #noticia-box-inner{
 	background:#2ED7AA;
 	min-height: 205px;	
 	text-align:center;

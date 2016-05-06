@@ -21,5 +21,14 @@
  .long-word {
  	font-size: .95em !important;
  }
+
+ .box-mercado-title {
+ 	height: auto !important;
+ }
+ 
+.box-mercado > div:first-child > div h1 {
+	padding: 10px 0;
+}
+
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
