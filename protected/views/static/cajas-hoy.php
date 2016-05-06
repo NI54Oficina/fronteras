@@ -19,13 +19,13 @@
 	$array = json_decode($data,true);
 	$item= $array[0];
 	?>
-	<div class="maxbox-mercados col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<p>Mercados</p>
 			<h3>Dólar oficial</h3>
 			
 			<!-- Compra & venta -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="mercados-moneda col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
 				<!--Compra-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
@@ -42,7 +42,9 @@
 			</div>
 			
 			<!-- Ampliar -->
-			<h5><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados">Ampliar</a></h5>
+			<div class="maxbox-ampliar">
+			<h5 class="center-to-parent"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados">Ampliar</a></h5>
+			</div>
 			
 		</div>
 	</div>
@@ -59,13 +61,13 @@
 		if(count($f)>1){
 		foreach($f as $f2){
 	 ?>
-	<div class=" maxbox-clima col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
-			<h4><?php echo $f2["FechaDescripcion"] ?></h4>
+			<h4>-  <?php echo $f2["FechaDescripcion"] ?>  -</h4>
 			
 			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="clima-pronostico  col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
 				<!--Clima imágen-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
@@ -80,7 +82,10 @@
 				
 			</div>			
 			<!-- Ampliar -->
-			<h5><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima">Ampliar</a></h5>
+			<div class="maxbox-ampliar" >
+			<h5 class="center-to-parent"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima">Ampliar</a></h5>
+			</div>
+
 		</div>
 	</div>	
 	<?php break; ?>
@@ -89,10 +94,10 @@
 
 	
 	<!-- Noticias del sector -->
-	<div class=" maxbox-noticias col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+		<div class="maxbox-noticias maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 		<div class="center-to-parent">
 		<a href="" class="">
 

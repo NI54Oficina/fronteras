@@ -172,11 +172,8 @@ header{
 
 /* Tres cajas (mercados, clima. noticias del sector)*/
 
-.maxbox-noticias,
-.max-box-clima,
-.maxbox-mercados{
- 
- padding: 15px;
+.maxboxes-inner{
+ 	padding: 25px 25px;
 }
 
 .box-mercado-clima-noticias{
@@ -184,7 +181,7 @@ header{
 }
 
 
-.box-mercado-clima-noticias div{
+.box-mercado-clima-noticias > .maxboxes{
 	padding:5px;
 	background-color:transparent;
 	color:white;
@@ -198,19 +195,19 @@ header{
 
 
 /* Caja mercados*/
-.box-mercado-clima-noticias > div:first-child > div{
+.box-mercado-clima-noticias > div> .maxbox-mercados{
 	background-color:#28A382;
 	min-height: 100%;
 }
 
 /* Caja clima*/
-.box-mercado-clima-noticias > div:nth-child(2) > div{
+.box-mercado-clima-noticias > div> .maxbox-clima{
 	background-color:#2E9DFB;
 	min-height: 100%;	
 }
 
 /* Caja noticias del sector*/
-.box-mercado-clima-noticias > div:nth-child(3) > div{
+.box-mercado-clima-noticias > div> .maxbox-noticias {
 	background-color:#2ED7AA;
 	height:100%;
 	text-align:center;
@@ -218,11 +215,10 @@ header{
 
 
 /* Tres cajas (mercados, clima. noticias del sector) H3 TITULO*/
-.box-mercado-clima-noticias > div:first-child div h3, div:nth-child(2) div h3, div:nth-child(3) div h3{
+.maxbox-mercado h3, .maxbox-clima h3, .maxbox-noticias h3{
 	color:#fff;
 	text-align: left;
-    
-	font-size: 2.5rem;
+  	font-size: 2.5rem;
 }
 
 
@@ -234,13 +230,12 @@ header{
 
 /* Mercados: cajas (compra,venta)*/
 .box-mercado-clima-noticias .small-boxes-mercado{
-	min-height:220px;
+	/*min-height:220px;*/
 }
 
 /*Mercados: Titulo "mercados"*/
-.box-mercado-clima-noticias > div:first-child > div > p{
+.maxbox-mercados p{
     font-size: 1.3em;
-    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -256,25 +251,37 @@ header{
     font-size: 2.2em;
 }
 
-.box-mercado-clima-noticias  h5{
+.maxbox-ampliar{
+	height: 90px;
+	text-align: center;
+}
+
+.maxbox-ampliar > h5 > a{
 	text-align:center;
 	text-transform:uppercase;
     font-size: 2.2em;
 	letter-spacing:1px;
 }
 
-
+.mercados-moneda {
+	margin:10px 10px;
+	min-height: 132px;
+}
 
 
 /******************************
 *********** CLIMA ***********
 ******************************/
-.box-mercado-clima-noticias >  div:nth-child(2) h3{
+.clima-pronostico{
+	margin: 10px 10px;
+}
+
+.maxbox-clima h3{
 	margin:0;
 	font-weight:700;
 	text-align:center;
 	
-	font-size: 2.5em;
+	font-size: 2.4em;
 }
 
 .box-mercado-clima-noticias >  div:nth-child(2) h4{
@@ -290,8 +297,8 @@ header{
     font-size: 2.5em;
 }
 
-.box-mercado-clima-noticias  >  div:nth-child(2) .small-boxes-mercado p:nth-child(2){
-    font-size: 1.7em;
+.clima-pronostico >.small-boxes-mercado p:nth-child(2){
+    font-size: 1.6em;
 }
 
 .box-clima option,.box-clima select{
@@ -328,7 +335,7 @@ header{
 .box-mercado-clima-noticias  >  div:nth-child(3) .container-noticias-sector > h4{
     text-align: center;
     text-transform: uppercase;
-    font-size: 2.1em;
+    font-size: 1.9em;
     line-height: 1.3em;
     max-width: 200px;
     display: inline-block;
