@@ -143,7 +143,7 @@ class WebController extends Controller
 	
 	
 	public function actionTestajax(){
-		header("Access-Control-Allow-Origin: *");
+		//header("Access-Control-Allow-Origin: *");
 		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
 		$model=null;
 		$data=1;

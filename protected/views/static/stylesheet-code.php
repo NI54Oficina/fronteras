@@ -1,14 +1,14 @@
 <!--FAV ICON-->
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" rel="shortcut icon" />
+	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" rel="shortcut icon" />
 
 		
 		<!--CSS-->
-		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css">
+		<link type="text/css"  rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css">
 		
 
 		<!--JS-->
-		<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
-		<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
 		
 
 
@@ -18,7 +18,7 @@
 		
 	
 		<!--JS-->
-		<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
 		 
 
 		
