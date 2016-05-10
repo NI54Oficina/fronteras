@@ -43,7 +43,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-12 col-xs-6 col-xl-7">	
 	<div class="box-nutricion border-shadow">
 		<div class="box-nutricion-inner square">
-			<p>Modelizador de cría</p>
+			<p >Modelizador de cría</p>
 		</div>	
 	</div>
 	</div>

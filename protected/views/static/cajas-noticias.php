@@ -58,9 +58,9 @@ $secciones["Institucionales"]="noticia-tipo-5";
 			</div>
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias ">
+			<div  class=" container-texto-noticias " >
 				
-				<h2><?php echo $f["titulo"]; ?></h2>
+				<h2 hid="2"><?php echo $f["titulo"]; ?></h2>
 				<p><?php echo $f["bajada"]; ?></p>
 				
 				<!-- Fecha -->

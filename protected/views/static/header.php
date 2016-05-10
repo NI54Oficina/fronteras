@@ -30,9 +30,20 @@
 			<li class="li-header "><p  class="toggle-dropdown-header" target="#drop1" ></p>
 		
 						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-6 col-xs-6"><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/hoy">Hoy</a></li>
-						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-6 col-xs-6"><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/link2">Este mes</a></li>
-						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-6 col-xs-6"><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/producir">Producir +</a></li>
-						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-6 col-xs-6"><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/link2">Ayuda</a></li>
+
+						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-6 col-xs-6">	
+							<a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/estemes">Este mes
+							</a>
+						</li>
+
+						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-6 col-xs-6">
+							<a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/producir">Producir +
+							</a>
+						</li>
+
+						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-6 col-xs-6">
+							<a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/ayuda">Ayuda</a>
+						</li>
 		
 				<ul id="drop1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dropdown-header-nav">
 

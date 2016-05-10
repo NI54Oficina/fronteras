@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 
 
 /*ESCRIBIR ADENTRO DE ESTE MEDIA QUERY*/
@@ -100,5 +100,16 @@
 	background:#79BEFE;
 } 
 
+.home-box > div > div >img {
+	width:45%;
+}
+
+
+
 /*FIN DE LLAVE PRINCIPAL*/
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) and(orientation:portrait){
+
 }

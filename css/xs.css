@@ -18,10 +18,10 @@
 }
 
 
- .long-word {
- 	font-size: .95em !important;
+/* .long-word {
+ 	font-size: .95em !important ;
  }
-
+*/
  .box-mercado-title {
  	height: auto !important;
  }
@@ -29,6 +29,15 @@
 .box-mercado > div:first-child > div h1 {
 	padding: 10px 0;
 }
+
+.home-box > div > div >img {
+	width:45%;
+}
+
+.box-producir-2  p{
+	font-size: 1em;
+}
+
 
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

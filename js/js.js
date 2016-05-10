@@ -74,6 +74,7 @@ function LoadFunction(){
 }
 	
 	$( window ).resize(function() {
+		
 		var lastOrientation= currentOrientation;
 		CheckDevice();
 		Header();
@@ -86,8 +87,9 @@ function LoadFunction(){
 		ResetHeight();
 		SetDistanceHeader();
 		ResizeViewportElements();
+		
 		setTimeout(function(){
-		SameHeight()},1000);
+		SameHeight(); AdaptSquare();},1000);
 	});
 	
 	function ResizeViewportElements(){
@@ -296,23 +298,7 @@ $(document).on("ready",function(){
 	});
 
 
-	function AdaptSquare(){
-	var ancho = $('.square').outerWidth();
-  $('.square').css('height', ancho+"px");
-
-  $(".box-producir-2 > div > div > p" ).each(function( index ) {
-
-  	 var alto_div = ancho;
-  	 var alto_parrafo = $(this).height();
-
-  	 var alto=((alto_div/2)-(alto_parrafo/2));
-
-  	 console.log("alto "+alto);
-   	$(this).css("margin-top", alto+"px" );
-
-  });
-}
-
+	
 	// function AdaptHomeUbication(){
 	// var pad = $('#home ').css('padding-top');
 	// var alto = $('.home-upper-box').height();
@@ -351,3 +337,21 @@ function CenterToParent(){
 	  $('.home-botom-box').css('margin-top', margintop+"px");
 
 	}
+
+
+function AdaptSquare(){
+	var ancho = $('.square').outerWidth();
+  $('.square').css('height', ancho+"px");
+
+  $(".box-producir-2 > div > div > p" ).each(function( index ) {
+
+  	 var alto_div = ancho;
+  	 var alto_parrafo = $(this).height();
+
+  	 var alto=((alto_div/2)-(alto_parrafo/2));
+
+  	 console.log("alto "+alto);
+   	$(this).css("margin-top", alto+"px" );
+
+  });
+}

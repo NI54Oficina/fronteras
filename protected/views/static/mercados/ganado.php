@@ -82,7 +82,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 			
-				<p>Actualizado: 12-02-2016</p>
+				<p class="center-to-parent">Actualizado: 12-02-2016</p>
 			
 			</div>
 			

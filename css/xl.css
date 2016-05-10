@@ -26,6 +26,9 @@
 
 .col-xl-12 { width: 100%; }
 
+.home-bottom-box p {
+	margin-top: 5%;
+}
 /*CIERRE DE LLLAVE*/
 }
 

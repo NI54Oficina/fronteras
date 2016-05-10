@@ -103,6 +103,8 @@ header{
     padding-bottom: 0px;
     height: 74px;
 }
+	
+
 
 .flecos-header div{
 	background-image:url(../img/fleco-header-01.png);
@@ -119,6 +121,11 @@ header{
 .ul-nav li a{
 	color:#8C8C8C;
 }
+
+.ul-nav li a:hover {
+	color: #5D5A5A;
+}
+
 
 .ul-nav li:nth-child(2){
 	text-align: right;
@@ -208,6 +215,13 @@ header{
 
 
 /* Tres cajas (mercados, clima. noticias del sector)*/
+
+.clima-title h1 {
+	text-align: center;
+	display: inline-block;
+
+}
+
 
 .maxboxes-inner{
  	padding: 25px 25px;
@@ -628,6 +642,12 @@ header{
 ********************************/
 
 /* Cajas clima general */
+
+
+.form-clima{
+	text-align: left;
+}
+
 .box-clima{
 	padding:0 25px;
 }
@@ -637,7 +657,7 @@ header{
 	background-color:transparent;
 	color:white;
 	font-family:'arialregular';
-	text-align:left;
+	
 }
 
 
@@ -654,7 +674,7 @@ header{
 
 .box-clima  > div:first-child > div:nth-child(2){
 	background-color:#2E9DFB;
-	min-height: 290px;
+	min-height: 235px;
 	border:none;
 }
 
@@ -680,13 +700,13 @@ header{
 /* Cajas clima normales */
 .box-clima  > div > div{
 	background-color:transparent;
-	min-height: 345px;	
+	padding:20px;
 	border:2px solid #2E9DFB;
 }
 
 
 .box-clima >  div:nth-child(2) h3{
-	padding-top:30px;
+	
 	margin:0;
 	font-weight:700;
 	text-align:center;
@@ -701,6 +721,7 @@ header{
 }
 .box-clima >  div:nth-child(2) h4{
 	text-align:left;
+	font-weight: bold;
     font-size: 2rem;
 	color:#36464E;
 	margin:0;
@@ -741,8 +762,7 @@ header{
 
 /* Información del clima */
 .box-clima .info-clima{
-	padding: 0 30px; 
-	margin: 0;
+	text-align: left;
 }
 
 
@@ -760,7 +780,7 @@ header{
 
 /********* Clima 2 ************/
 .box-clima >  div:nth-child(3) h3{
-	padding-top:30px;
+	
 	margin:0;
 	font-weight:700;
 	text-align:center;
@@ -811,7 +831,7 @@ header{
 
 /********* Clima 3 ************/
 .box-clima >  div:nth-child(4) h3{
-	padding-top:30px;
+	
 	margin:0;
 	font-weight:700;
 	text-align:center;
@@ -1163,7 +1183,6 @@ header{
     font-size: .9em;
     text-align: left;
     font-weight: 700;
-    height: 55px;
     padding: 5px 10px;
     min-height: 40px;
 }
@@ -1296,7 +1315,7 @@ header{
     box-shadow: -2px 2px 11px .5px rgba(134, 134, 134, 1);
 }     
 
-.box-producir-2 > div> div > p{
+.box-producir-2  p{
 	font-size: 1.2em;
 	position: relative;
 	width: auto;
@@ -1417,13 +1436,13 @@ header{
 	font-size: 1.12em;
 	margin-bottom: 0px;
 	position: relative;
+	margin-top: 2%;
 }
 
 .home-bottom-box > a> div {
 	padding: 0px 20px;     
 	margin: 10px 0px;
 	
-	min-height: 250px;
 }
 
 .hoy-box > div, .hoy-box  {
@@ -1456,6 +1475,10 @@ header{
 }
 */
 
+.home-box > .square >div:nth-child(1) {
+	position: relative;
+	height: 80%;
+}
 
 .home-box > div > div:nth-child(1) {
 	box-shadow: 0 5px 10px -2px rgba(95,95,95,.5); 
@@ -1502,7 +1525,7 @@ header{
 }
 
 .veterinaria >div{
-	padding: 5px 5px;
+	padding:20px;
 	text-align: left;
 	height: 100%;
 }
@@ -1521,6 +1544,10 @@ header{
 
 }
 
+/*.map-box, .red-box{
+	padding-top: 20px
+}
+*/
 .red-box img { 
 	width: 40%; 
 }
@@ -1574,6 +1601,8 @@ header{
 	position: relative; 
 	width: 100%; 
 }
+
+/********FIN LINKS DE INTERESES********/
 
 
 
@@ -1703,7 +1732,6 @@ header{
 	color: white!important;
     font-size: 1.2rem!important;
     font-weight: 400!important;
-    padding-left: 5px!important;
 }
 
 .btn-indicadores {
@@ -1732,3 +1760,5 @@ header{
 
 
 /*.hoy-box > div:hover {background-color:rgb(0,153,167)}*/
+
+
