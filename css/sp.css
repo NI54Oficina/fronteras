@@ -98,6 +98,9 @@ and (max-device-width : 1024px)  {
 		font-size: 2em;
 	}
 
+	.box-clima > div > div{
+		padding: 20px 2px;
+	}
 	
 }
 /*FIN MEDIA QUERY 360x240px*/
