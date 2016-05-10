@@ -21,9 +21,14 @@
 	?>
 	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<p>Mercados</p>
 			<h3>Dólar oficial</h3>
-			
+		</div>	
+
+
 			<!-- Compra & venta -->
 			<div class="mercados-moneda col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
@@ -34,7 +39,7 @@
 				</div>
 			
 				<!--Venta-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado" hid="3">
 					<h4>Venta</h4>	
 					<p>$<?php echo $item["Items"][0]["Venta"]; ?></p>				
 				</div>
@@ -42,7 +47,7 @@
 			</div>
 			
 			<!-- Ampliar -->
-			<div class="maxbox-ampliar">
+			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<h5 class="center-to-parent"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados">Ampliar</a></h5>
 			</div>
 			
@@ -63,11 +68,15 @@
 	 ?>
 	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
 			<h4>-  <?php echo $f2["FechaDescripcion"] ?>  -</h4>
-			
+		</div>
+
 			<!-- Clima datos & clima imágen -->
-			<div class="clima-pronostico  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="clima-pronostico  col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="3">
 				
 				<!--Clima imágen-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
@@ -82,7 +91,7 @@
 				
 			</div>			
 			<!-- Ampliar -->
-			<div class="maxbox-ampliar" >
+			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 			<h5 class="center-to-parent"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima">Ampliar</a></h5>
 			</div>
 

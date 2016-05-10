@@ -33,7 +33,8 @@
 	 ?>
 	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
-			<h3><?php echo $f2["FechaDescripcion"] ?></h3>
+			<h3 class="fecha-descripcion"><?php echo $f2["FechaDescripcion"] ?>
+			</h3>
 			
 			<!-- Clima datos & clima imágen -->
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

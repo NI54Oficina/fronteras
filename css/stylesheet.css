@@ -706,7 +706,7 @@ header{
 }
 
 
-.box-clima >  div:nth-child(2) h3{
+.box-clima  .fecha-descripcion{
 	
 	margin:0;
 	font-weight:700;
@@ -714,13 +714,15 @@ header{
 	padding-left:0;
 	font-size: 2.5em;
 	color:#2E9DFB;
+
+
 }
 
 .box-clima p {
 	color:#36464E;
 	margin:0;
 }
-.box-clima >  div:nth-child(2) h4{
+.box-clima  h4{
 	text-align:left;
 	font-weight: bold;
     font-size: 2rem;
@@ -780,23 +782,8 @@ header{
 
 
 /********* Clima 2 ************/
-.box-clima >  div:nth-child(3) h3{
-	
-	margin:0;
-	font-weight:700;
-	text-align:center;
-	padding-left:0;
-	font-size: 2.5em;
-	color:#2E9DFB;
-}
 
 
-.box-clima >  div:nth-child(3) h4{
-	text-align:left;
-    font-size: 2rem;
-	color:#36464E;
-	margin:0;
-}
 
 .box-clima >  div:nth-child(3) .small-boxes-mercado p{
     font-size: 1.7em;
@@ -831,23 +818,7 @@ header{
 
 
 /********* Clima 3 ************/
-.box-clima >  div:nth-child(4) h3{
-	
-	margin:0;
-	font-weight:700;
-	text-align:center;
-	padding-left:0;
-	font-size: 2.5em;
-	color:#2E9DFB;
-}
 
-
-.box-clima >  div:nth-child(4) h4{
-	text-align:left;
-    font-size: 2rem;
-	color:#36464E;
-	margin:0;
-}
 
 .box-clima >  div:nth-child(4) .small-boxes-mercado p{
     font-size: 1.7em;
@@ -881,23 +852,8 @@ header{
 
 
 /********* Clima 4 ************/
-.box-clima >  div:nth-child(5) h3{
-	padding-top:30px;
-	margin:0;
-	font-weight:700;
-	text-align:center;
-	padding-left:0;
-	font-size: 2.5em;
-	color:#2E9DFB;
-}
 
 
-.box-clima >  div:nth-child(5) h4{
-	text-align:left;
-    font-size: 2rem;
-	color:#36464E;
-	margin:0;
-}
 
 .box-clima >  div:nth-child(5) .small-boxes-mercado p{
     font-size: 1.7em;
@@ -932,23 +888,7 @@ header{
 
 
 /********* Clima 5 ************/
-.box-clima >  div:nth-child(6) h3{
-	padding-top:30px;
-	margin:0;
-	font-weight:700;
-	text-align:center;
-	padding-left:0;
-	font-size: 2.5em;
-	color:#2E9DFB;
-}
 
-
-.box-clima >  div:nth-child(6) h4{
-	text-align:left;
-    font-size: 2rem;
-	color:#36464E;
-	margin:0;
-}
 
 .box-clima >  div:nth-child(6) .small-boxes-mercado p{
     font-size: 1.7em;
@@ -985,23 +925,7 @@ header{
 
 
 /********* Clima 6 ************/
-.box-clima >  div:nth-child(7) h3{
-	padding-top:30px;
-	margin:0;
-	font-weight:700;
-	text-align:center;
-	padding-left:0;
-	font-size: 2.5em;
-	color:#2E9DFB;
-}
 
-
-.box-clima >  div:nth-child(7) h4{
-	text-align:left;
-    font-size: 2rem;
-	color:#36464E;
-	margin:0;
-}
 
 .box-clima >  div:nth-child(7) .small-boxes-mercado p{
     font-size: 1.7em;
@@ -1034,23 +958,6 @@ header{
 
 
 /********* Clima 7 ************/
-.box-clima >  div:nth-child(8) h3{
-	padding-top:30px;
-	margin:0;
-	font-weight:700;
-	text-align:center;
-	padding-left:0;
-	font-size: 2.5em;
-	color:#2E9DFB;
-}
-
-
-.box-clima >  div:nth-child(8) h4{
-	text-align:left;
-    font-size: 2rem;
-	color:#36464E;
-	margin:0;
-}
 
 .box-clima >  div:nth-child(8) .small-boxes-mercado p{
     font-size: 1.7em;

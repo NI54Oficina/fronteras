@@ -63,7 +63,7 @@
 
 	</a>
 
-	<a href="">
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
 		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
  			<div class="ayuda-box square">
  				<div hid="1">

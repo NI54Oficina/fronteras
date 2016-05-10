@@ -10,6 +10,7 @@ $secciones["Insumos"]="noticia-tipo-5";
 $secciones["Mercado de hacienda"]="noticia-tipo-5";
 $secciones["Financiero"]="noticia-tipo-5";
 $secciones["Institucionales"]="noticia-tipo-5";
+$secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 
 ?>
  <!-- LINEAS DE CODIGO EN CSS 1175 -->

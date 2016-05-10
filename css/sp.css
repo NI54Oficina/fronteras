@@ -76,11 +76,16 @@ and (max-device-width : 1024px)  {
 
 @media only screen and (max-width: 240px)
 {
-	
+	/***********PRODUCIR +*************/
+
+
 	.box-producir-2 p {
 		font-size: 0.8em ;
 		word-wrap: break-word;
 	}
+
+
+	/*********HOME*******/
 
 	.home-box > div > div >img {
 		width:40%;
@@ -90,6 +95,9 @@ and (max-device-width : 1024px)  {
 		font-size: 0.8em;
 	}
 
+
+	/*******MERCADOS******/
+	
 	.box-mercado > div > div {
 		height: auto;
 	}
@@ -98,10 +106,41 @@ and (max-device-width : 1024px)  {
 		font-size: 2em;
 	}
 
+
+
 	.box-clima > div > div{
 		padding: 20px 2px;
 	}
 	
+	/***********HOY********/
+
+
+	#clima [hid="1"], #mercados [hid="1"]  {
+		height: auto !important;
+	}
+
+	.maxboxes-inner {
+		padding: 25px 5px;
+	}
+	.clima-pronostico >.small-boxes-mercado p:nth-child(2) {
+		font-size: 1em;
+	}
+	.maxbox-clima h3{
+		font-size: 2em;
+	}
+
+	.box-mercado-clima-noticias .small-boxes-mercado p {
+		font-size: 1.3em;
+	}
+	.box-mercado-clima-noticias .small-boxes-mercado h4 {
+		font-size: 1.1em;
+	}
+
+	.maxbox-clima .small-boxes-mercado p:first-child {
+    	font-size: 2em;
+    	padding-left: 10px;
+	}
+
 }
 /*FIN MEDIA QUERY 360x240px*/
 
