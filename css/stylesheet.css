@@ -1066,10 +1066,6 @@ header{
     width: 20%;
 }
 
-
-
-
-
 /* 2 tipo de noticia */
 .container-img-noticias{
     min-height: 135px;
@@ -1122,6 +1118,11 @@ header{
 .fecha p{
 	background-color:  #C4c6c7;
 }
+
+.box-noticias .container-h1-noticias{
+	height: 35px;
+}
+
 /*COLORES DISTINTAS NOTICIAS*/
 
 /*NOTICIA TIPO 1 - VERDE AGUA*/

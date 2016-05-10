@@ -38,6 +38,9 @@
 	font-size: 1em;
 }
 
+.navbar-toggle {
+	margin-right:0px;
+}
 
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

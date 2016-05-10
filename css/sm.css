@@ -41,7 +41,7 @@
 
 .columna-ganado p {
     font-size: 1.6rem;
-    padding-left: 5px;
+    padding-left:5px;
 }
 
 
@@ -100,10 +100,9 @@
 	background:#79BEFE;
 } 
 
-.home-box > div > div >img {
+.home-box > div > div > img {
 	width:45%;
 }
-
 
 
 /*FIN DE LLAVE PRINCIPAL*/

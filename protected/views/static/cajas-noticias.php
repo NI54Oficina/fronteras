@@ -51,7 +51,9 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 			<div  class="">
 				<div class="border-noticias-h1 b-r">
 				</div>
-				<h1><?php echo $f["categoria"]; ?></h1>
+				<div class="container-h1-noticias">
+					<h1><?php echo $f["categoria"]; ?></h1>
+				</div>
 				<div class="border-noticias-h1 b-l"></div>
 			</div>
 		
