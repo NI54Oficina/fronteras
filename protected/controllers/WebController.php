@@ -148,8 +148,16 @@ class WebController extends Controller
 		$model=null;
 		$data=1;
 		
-		$this->renderPartial("//static/stylesheet-code",$model);
-		$this->renderPartial("//static/home",$model);
+		if($_POST["url"]=="header"){
+			$this->renderPartial("//static/stylesheet-code",$model);
+			$this->renderPartial("//static/header",$model);
+		}else{
+		
+		/*if($_POST["url"]!="home"){
+			$this->renderPartial("//static/header",$model);
+		}*/
+		$this->renderPartial("//static/".$_POST["url"],$model);
+		}
 	}
 	
 	protected function beforeAction($event)

@@ -132,21 +132,22 @@ header{
     padding-right: 45px;
 }
 
-.headerMobile .navbar-collapse{
+.headermobile .navbar-collapse{
 	height:0;
 }
-.headerMobile .navbar-collapse.in{
+.headermobile .navbar-collapse.in{
 	min-height:100vh !important;
+	height:auto;
 	overflow:visible;
 }
 
-.headerMobile .navbar-collapse{
+.headermobile .navbar-collapse{
 	background-color:#f2f2f2;
 	width:100vw;
 	height:100vh;
  }
  
- .headerMobile .dropdown-header-nav{
+ .headermobile .dropdown-header-nav{
 	max-height:0;
 	transition: max-height 0.3s ease-out;
 	display:block;
@@ -156,7 +157,7 @@ header{
 	padding-top:0;
  }
  
- .headerMobile .dropdown-header-nav.opened{
+ .headermobile .dropdown-header-nav.opened{
 	max-height: 50000px;
 	transition: max-height 0.3s ease-in;
 	padding-left:0;

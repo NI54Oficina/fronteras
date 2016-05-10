@@ -186,12 +186,17 @@ function LoadFunction(){
 			if(!$("#inner-header").hasClass("in")){
 				$("#inner-header").height(0);
 			}
-			var rule = getStyleRule('.headerMobile .navbar-collapse.in');
+			var rule = getStyleRule('.headermobile .navbar-collapse.in');
+			if(rule){
 			//var auxH= screen.height-$("#navbar-main").height();
 			auxH= screen.height-auxH+10;
 			rule.height= "auto";
 			rule['min-height']= auxH+"px";
 			console.log(rule.height);;
+			}else{
+				console.log("no entró rule");
+				$("body").append("<style>.headermobile .navbar-collapse.in{height:auto;min-height:"+auxH+"px;}</style>");
+			}
 		}
 		
 	}
@@ -239,9 +244,11 @@ $("body").on("touchstart",".navbar-toggle",function(){
 function getStyleRule(name) {
 	for(var i=0; i<document.styleSheets.length; i++) {
 		var ix, sheet = document.styleSheets[i];
+		if(sheet.cssRules){
 		for (ix=0; ix<sheet.cssRules.length; ix++) {
 			if (sheet.cssRules[ix].selectorText === name)
 				return sheet.cssRules[ix].style;
+		}
 		}
 	}
 	return null;
