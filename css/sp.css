@@ -108,7 +108,7 @@ and (max-device-width : 1024px)  {
 
 
 
-	.box-clima > div > div{
+	.box-clima .box-clima-inner{
 		padding: 20px 2px;
 	}
 	

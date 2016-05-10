@@ -217,6 +217,11 @@ header{
 
 /* Tres cajas (mercados, clima. noticias del sector)*/
 
+
+.clima-title{
+	padding: 0;
+}
+
 .clima-title h1 {
 	text-align: center;
 	display: inline-block;
@@ -317,7 +322,6 @@ header{
 
 .mercados-moneda {
 	margin:10px 10px;
-	min-height: 132px;
 }
 
 
@@ -675,9 +679,11 @@ header{
 
 .box-clima  > div:first-child > div:nth-child(2){
 	background-color:#2E9DFB;
-	min-height: 235px;
+	min-height: 245px;
 	border:none;
+	padding: 0;
 }
+
 
 /* Título ZONA */
 .box-clima  > div:first-child > div:first-child h1{
@@ -699,7 +705,7 @@ header{
 
 
 /* Cajas clima normales */
-.box-clima  > div > div{
+.box-clima  .box-clima-inner{
 	background-color:transparent;
 	padding:20px;
 	border:2px solid #2E9DFB;
@@ -1029,7 +1035,6 @@ header{
 .box-noticias #noticia-box-title{
 	color: white;
     text-transform: uppercase;
-    padding-top: 85px;
     text-align: center;
     display: inline-block;
     width: 115px;
@@ -1348,9 +1353,7 @@ header{
 }
 
 .home-bottom-box > a> div {
-	padding: 0px 20px;     
-	margin: 10px 0px;
-	
+	padding: 20px 20px;     	
 }
 
 .hoy-box > div, .hoy-box  {

@@ -19,10 +19,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
-	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" id="noticia-box" hid="1">
+	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" id="noticia-box" hid="1">
 	<div class="noticia-box-2">
-		<div id="noticia-box-inner">
-		<h1 id="noticia-box-title">Noticias del sector</h1>
+		<div id="noticia-box-inner" class="square">
+		<h1 id="noticia-box-title" class="center-to-parent">Noticias del sector</h1>
 		</div>
 	</div>	
 	</div>
@@ -44,7 +44,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 		foreach($fecha as $f){
 	?>
 	<!-- Noticia 2-->
-	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12" hid="1">
+	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" hid="1">
 		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?>">
 		
 			<!--Título de sección -->

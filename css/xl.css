@@ -6,29 +6,27 @@
 	width: 14%;
 }
 
-.col-xl-1{
-	width: 100%;
+.col-xl-5 {
+	width: 20%
 }
 
-.col-xl-2 {
-	width: 50%;
-}
-.col-xl-3{
-	width: 35%;
-}
-
-.col-xl-4 {
-	width: 25%
-}
 .hidden-xl{
 	display: none;
 }
 
-.col-xl-12 { width: 100%; }
-
 .home-bottom-box p {
 	margin-top: 5%;
 }
+
+/*******HOME*******/
+
+.home-bottom-box > a> div {
+	padding: 60px 40px;     	
+}
+
+
+
+
 /*CIERRE DE LLLAVE*/
 }
 
