@@ -216,8 +216,6 @@ header{
 
 
 /* Tres cajas (mercados, clima. noticias del sector)*/
-
-
 .clima-title{
 	padding: 0;
 }
@@ -326,8 +324,8 @@ header{
 
 .boxhoy-mercados > h3{
 	font-size: 1.9em;
-
 }
+
 
 /******************************
 *********** CLIMA ***********
@@ -651,8 +649,6 @@ header{
 ********************************/
 
 /* Cajas clima general */
-
-
 .form-clima{
 	text-align: left;
 }
@@ -662,17 +658,16 @@ header{
 }
 
 .box-clima div{
-	padding:5px;
+	padding:0px 5px;
 	background-color:transparent;
 	color:white;
 	font-family:'arialregular';
-	
 }
 
 
 /* CAJA CLIMA PRIMERA*/
 .box-clima  > div:first-child > div:first-child{
-	background-color:#F7F7F7;
+	background-color:#F1EFEF;
 	min-height: 50px;
     border-bottom: 4px solid #0078B9;
     border-top: none;
@@ -717,19 +712,16 @@ header{
 
 
 .box-clima  .fecha-descripcion{
-	
 	margin:0;
 	font-weight:700;
 	text-align:center;
 	padding-left:0;
-	font-size: 2.5em;
+	font-size: 1.9em;
 	color:#2E9DFB;
-
-
 }
 
 .box-clima p {
-	color:#36464E;
+	color:#8C8C8C;
 	margin:0;
 }
 .box-clima  h4{
@@ -776,6 +768,7 @@ header{
 /* Información del clima */
 .box-clima .info-clima{
 	text-align: left;
+    padding-top: 10px;
 }
 
 
@@ -785,15 +778,22 @@ header{
 }
 
 .box-clima .info-clima > p{
-	padding: 5px 0; 
+	padding: 4px 0; 
 	margin: 0;
+}
+
+.clima-datos {
+    padding-bottom:5px;
+	text-align:left;
+}
+
+.clima-datos p {
+    text-align: left;
 }
 
 
 
 /********* Clima 2 ************/
-
-
 
 .box-clima >  div:nth-child(3) .small-boxes-mercado p{
     font-size: 1.7em;
@@ -815,7 +815,7 @@ header{
 
 
 .box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(3){
-	color:	#B54D4D;
+	color:#B54D4D;
 	font-weight:700;
 }
 
@@ -828,8 +828,6 @@ header{
 
 
 /********* Clima 3 ************/
-
-
 .box-clima >  div:nth-child(4) .small-boxes-mercado p{
     font-size: 1.7em;
 	padding-top: 30px;
@@ -862,9 +860,6 @@ header{
 
 
 /********* Clima 4 ************/
-
-
-
 .box-clima >  div:nth-child(5) .small-boxes-mercado p{
     font-size: 1.7em;
 	padding-top:30px;
@@ -935,8 +930,6 @@ header{
 
 
 /********* Clima 6 ************/
-
-
 .box-clima >  div:nth-child(7) .small-boxes-mercado p{
     font-size: 1.7em;
 	padding-top: 30px;
@@ -983,7 +976,7 @@ header{
 }
 
 .box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(2){
-	color:	#4C4C4C;
+	color:#4C4C4C;
 	padding:0 5px;
 }
 
@@ -1026,7 +1019,7 @@ header{
 
 .box-noticias  h1{
     color: #999999;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
     display: inline-block;
     margin: 0;
@@ -1041,7 +1034,7 @@ header{
     text-transform: uppercase;
     text-align: center;
     display: inline-block;
-    width: 115px;
+    width: 90px;
 }
 
 #noticia-box >div > #noticia-box-inner{
@@ -1093,17 +1086,17 @@ header{
 
  .container-texto-noticias h2{
     margin: 0;
-    font-size: .9em;
+    font-size: 1.3em;
     text-align: left;
     font-weight: 700;
     padding: 5px 10px;
-    min-height: 40px;
+    min-height: 110px;
 }
 
 
 .container-texto-noticias > p{
-    font-size: 10.5px;
-    color: black;
+	font-size: 0.9em;
+    color: #8c8c8c;
     text-align: left;
     padding: 5px 10px;
     margin: 0;
@@ -1116,10 +1109,11 @@ header{
 	padding: 0;
     color: white;
     text-align: right;
-    padding-right: 15px;
+    padding-right:15px;
     font-size: 11px;
     margin: 0;
 }
+
 .fecha p{
 	background-color:  #C4c6c7;
 }
@@ -1133,16 +1127,16 @@ header{
 /*NOTICIA TIPO 1 - VERDE AGUA*/
 
 .noticia-tipo-1 .container-texto-noticias{ 
-    border: 2px solid #2ED7AA;    
-    padding: 5px;
+    border: 2px solid  #25CDDB;    
+    padding:5px;
 }
 
 .noticia-tipo-1 .container-texto-noticias h2 {
-	color:#2ED7AA;
+	color:#25CDDB;
 }
 
 .noticia-tipo-1 .container-imagen-nota {
-	border-top: 7px solid #2ED7AA;
+	border-top: 7px solid  #25CDDB;
 }
 
 /*NOTICIA TIPO 2 -COLOR AZUL*/
@@ -1164,15 +1158,15 @@ header{
 /*NOTICIA TIPO 3 - VERDE OSCURO*/
 
 .noticia-tipo-3 .container-texto-noticias{
-	border: 2px solid #2EA982;
+	border: 2px solid #FFA621;
 }
 
 .noticia-tipo-3 .container-texto-noticias h2{
-	color:#2EA982;
+	color: #FFA621;
 }
 
 .noticia-tipo-3 .container-imagen-nota {
-	border-top: 7px solid #2EA982;
+	border-top: 7px solid #FFA621;
 }
 
 
@@ -1180,30 +1174,44 @@ header{
 /*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
 
 .noticia-tipo-4 .container-texto-noticias{
-	border: 2px solid pink;
+	border: 2px solid #2ED7AA;
 }
 
 .noticia-tipo-4 .container-texto-noticias h2{
-	color:pink;
+	color:#2ED7AA;
 }
 
 .noticia-tipo-4 .container-imagen-nota {
-	border-top: 7px solid pink;
+	border-top: 7px solid #2ED7AA;
 }
 
 
 /*NOTICIA TIPO 5 - MODO PRUEBA NARANJA, SETEAR COLOR*/
 
 .noticia-tipo-5 .container-texto-noticias{
-	border: 2px solid orange;
+	border: 2px solid #E29D9C;
 }
 
 .noticia-tipo-5 .container-texto-noticias h2{
-	color:orange;
+	color:#E29D9C;
 }
 
 .noticia-tipo-5 .container-imagen-nota {
-	border-top: 7px solid orange;
+	border-top: 7px solid #E29D9C;
+}
+
+/*NOTICIA TIPO 6 - CELESTE CLIMA*/
+
+.noticia-tipo-6 .container-texto-noticias{
+	border: 2px solid #2E9DFB;
+}
+
+.noticia-tipo-6 .container-texto-noticias h2{
+	color:#2E9DFB;
+}
+
+.noticia-tipo-6 .container-imagen-nota{
+	border-top: 7px solid #2E9DFB;
 }
 
 
@@ -1215,7 +1223,7 @@ header{
  	max-width: 235px
  }
 
-.box-sanidad {
+.box-sanidad{
 	background-color:#6D4A84; 
 }
 
@@ -1224,9 +1232,7 @@ header{
  	width: 100%;
 }
 
-
-
-.box-producir-2 {
+.box-producir-2{
 	padding: 15px;
 }
 
@@ -1274,13 +1280,12 @@ header{
 }
 .box-sanidad-inner {
  	border:2px solid #6D4A84 ;
- 	
 }
 .box-nutricion {
 	background-color:#BAA200; 
 }
 
-.box-nutricion-inner > p {
+.box-nutricion-inner > p{
 	color: #BAA200;
 }
 
@@ -1309,7 +1314,7 @@ header{
 
 /*********************HOME*******************/
 
-#home { 
+#home{ 
 	padding: 45px; 
 	background-image: url(../img/bg-index.png); 
 	width: 100%;  
@@ -1320,22 +1325,20 @@ header{
 
 .home-upper-box { 
 	padding: 20px 20px;
-	
 }
 
 .home-upper-box > div {
 	box-shadow: 5px 5px 10px rgba(136,136,136,0.5);
-	background-color:  #f4dfd1;
+	background-color: #f4dfd1;
 	padding: 25px;
 	height: auto;
 	background: -webkit-linear-gradient(left, #f4dfd1, #fcf6ef, #f4dfd1);
-
 }
+
 .home-upper-box img:nth-child(1){
 	float: left;  
 	width: 10em;
-	position: relative;
-	
+	position: relative;	
 }
 
 .home-upper-box img:nth-child(2){
@@ -1430,7 +1433,7 @@ header{
 	max-width: 235px;
 }
 
-.gota-producir {
+.gota-producir{
 	padding: 25px 10px;
 }
 
@@ -1459,23 +1462,18 @@ header{
 	height:100%;
 	max-height:595px; 
 	position: relative;
-
 }
 
-/*.map-box, .red-box{
-	padding-top: 20px
-}
-*/
+
 .red-box img { 
 	width: 40%; 
 }
 
 .red-form {
 	margin-top: 40px;
-	
 }
 
-.red-form >div > form > select {
+.red-form > div > form > select{
 	border:none; 
 	color: gray; 
 	width: 100%;
@@ -1486,7 +1484,7 @@ header{
 	border-bottom: 2px solid #0078B9;
 }
 
-.red-form >div > form > select:focus {
+.red-form > div > form > select:focus {
 	outline:none;
 }
 
@@ -1521,10 +1519,6 @@ header{
 }
 
 /********FIN LINKS DE INTERESES********/
-
-
-
-
 #clima form select::-webkit-scrollbar {
     width: 1em;
 }
@@ -1534,12 +1528,12 @@ header{
 }
  
 #clima form select::-webkit-scrollbar-thumb {
-  background-color: blue;
-  outline: 1px solid blue;
+	background-color: blue;
+	outline: 1px solid blue;
 }
 
 
-.columna-indicadores p {
+.columna-indicadores p{
     font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
@@ -1633,7 +1627,7 @@ header{
 }
 
 .btn:focus {
-    outline: none!important;
+    outline:none!important;
 }
 
 .actualizar-ganado{

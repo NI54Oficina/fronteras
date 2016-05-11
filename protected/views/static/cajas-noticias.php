@@ -7,10 +7,11 @@ $secciones["Mercado de granos"]="noticia-tipo-3";
 $secciones["Hacienda"]="noticia-tipo-1";
 $secciones["Interes general"]="noticia-tipo-4";
 $secciones["Insumos"]="noticia-tipo-5";
-$secciones["Mercado de hacienda"]="noticia-tipo-5";
-$secciones["Financiero"]="noticia-tipo-5";
-$secciones["Institucionales"]="noticia-tipo-5";
-$secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
+$secciones["Mercado de hacienda"]="noticia-tipo-1";
+$secciones["Financiero"]="noticia-tipo-4";
+$secciones["Institucionales"]="noticia-tipo-4";
+$secciones["Necesidades hídricas y humedad"]="noticia-tipo-6";
+$secciones["Empresas"]="noticia-tipo-4";
 
 ?>
  <!-- LINEAS DE CODIGO EN CSS 1175 -->
@@ -87,10 +88,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	<!-- Noticia 3-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
 		
-	<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Granos</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 		
@@ -101,23 +102,23 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
 			</div>
 		
-	</div>
+		</div>
 		
 	</div>	
 	
 	<!-- Noticia 4-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
 		
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -129,7 +130,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -144,7 +145,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 		<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
 		  <div>
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 			
@@ -154,7 +155,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -167,10 +168,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 		<!-- Noticia 6-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Mercado</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -181,7 +182,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -189,15 +190,15 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 		
 			
 		</div>
-		</div>
+	</div>
 	
 	
 		<!-- Noticia 7-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Mercado</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -208,7 +209,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -221,10 +222,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 	<!-- Noticia 8-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Hacienda</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -235,7 +236,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -249,7 +250,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 	<!-- Noticia 9-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
 			<div  class="">
@@ -276,10 +277,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 	<!-- Noticia 10-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -290,7 +291,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -303,10 +304,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 	<!-- Noticia 11-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Clima</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -317,7 +318,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -329,10 +330,10 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 		<!-- Noticia 12-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12">
-		<div class="">
+		<div>
 		
 			<!--Título de sección -->
-			<div  class="">
+			<div>
 				<div class="border-noticias-h1 b-r"></div><h1>Mercado</h1><div class="border-noticias-h1 b-l"></div>
 			</div>
 
@@ -343,7 +344,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				<p>Los administradores de fondos especulativos que operan en el mercado de Chicago comenzaron nuevamente a realizar apuestas bajistas en soja al tiempo que...</p>
 				
 				<!-- Fecha -->
-				<div class="">
+				<div>
 					<p>15-02-16 I 07:50</p>
 				</div>
 				
@@ -351,7 +352,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 		
 			
 		</div>
-		</div>
+	</div>
 	<?php } ?>
 	
 	
