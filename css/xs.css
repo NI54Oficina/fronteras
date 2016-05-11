@@ -42,5 +42,17 @@
 	margin-right:0px;
 }
 
+#hoy p,#hoy h1, #hoy h2, #hoy h3,  #hoy h4,#hoy div{
+	margin-bottom:0;
+}
+ #hoy img{
+ 	padding: 0;
+ }
+
+ .maxboxes, .maxbox-ampliar, .mercados-moneda, .small-boxes-mercado, .maxbox-mercados{
+ 	height: auto !important;
+ }
+
+
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
