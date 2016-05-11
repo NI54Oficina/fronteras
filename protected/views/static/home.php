@@ -2,12 +2,10 @@
 
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
+<body class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 " >
 
+<section id="home" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 fadder">
 
-<body class="col-lg-12" id="home">
-<!-- <?php include_once("analytics.php") ?>
- -->
-<body id="home">
 <?php include_once("analytics.php") ?>
 
 
@@ -15,7 +13,7 @@
 		<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
  			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
 
- 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-bago.png" alt="Logo Bago " />
+ 			<img class="hidden-xs" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-bago.png" alt="Logo Bago " />
 
  		</div>
  	</div>
@@ -77,8 +75,7 @@
 	 </div> 	
 
 
-
-
+</section>
 	
 </body>
 
