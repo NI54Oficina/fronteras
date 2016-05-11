@@ -1227,6 +1227,59 @@ header{
 }
 
 
+
+/*************** INTERIOR NOTICIA ******************/
+.container-inside-noticia{
+    padding: 100px;
+    text-align: left;
+	color:#7F7F7F;
+}
+
+.container-inside-noticia .fecha{
+	text-align:right;
+	color:#7F7F7F;
+    display: inline-block;
+	float:right;
+}
+
+.container-inside-noticia .border-fecha div{
+    background-image: url(../img/dash.png);
+    background-repeat: repeat-x;
+    width: 75vw;
+    height: 4px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.container-inside-noticia .titulo{
+	color:#2ED7AA;
+}
+
+.container-inside-noticia .categoria{
+	color:#7F7F7F;
+}
+
+.container-inside-noticia .bajada{
+    font-size: 1.5em;
+    color: #7F7F7F;
+}
+
+.container-inside-noticia .cuerpo{
+	color: #7F7F7F;
+}
+
+.container-inside-noticia .fuente{
+    color: #7F7F7F;
+}
+
+.container-inside-noticia img{
+    border: 3px solid #2ED7AA;
+}
+
+.container-inside-noticia a{
+    color:#2ED7AA;
+}
+
 /* FIN NOTICIA*/
 
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
