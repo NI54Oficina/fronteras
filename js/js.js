@@ -8,8 +8,8 @@ function LoadFunction(){
 		CheckDevice();
 		Header();
 		SameHeight();
-		CenterToParent()
 		ResizeViewportElements();
+		CenterToParent()
 		
 
 
