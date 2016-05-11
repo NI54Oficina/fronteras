@@ -21,8 +21,8 @@
 	$item= $array[0];
 	?>
 
-	<a href="">
-	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	<a href="" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
 		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
 		<div class="hoy-box-upper" hid="5">
@@ -50,7 +50,7 @@
 			</div>
 			</div>
 			<!-- Ampliar -->
-			
+
 			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
 			<h5 class="center-to-parent">+</h5>
 			</div>
@@ -74,8 +74,8 @@
 		if(count($f)>1){
 		foreach($f as $f2){
 	 ?>
-	 <a href="">
-	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	 <a href="" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
 		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
 		<div class="hoy-box-upper" hid="5">
@@ -117,8 +117,8 @@
 
 	
 	<!-- Noticias del sector -->
-<a href="">
-	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+<a href="" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
 		
 
 		<div class="maxbox-noticias maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12 " hid="6">

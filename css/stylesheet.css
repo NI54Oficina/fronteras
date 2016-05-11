@@ -233,10 +233,12 @@ header{
  	padding: 25px 25px;
 }
 
-.box-mercado-clima-noticias{
-	padding:0 25px;
+.box-mercado-clima-noticias {
+	padding:0px 25px;
 }
-
+.box-mercado-clima-noticias> a {
+	padding:10px 0px;
+}
 
 .box-mercado-clima-noticias >a> .maxboxes{
 	padding:5px;
