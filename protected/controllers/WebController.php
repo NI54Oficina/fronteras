@@ -31,7 +31,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -158,6 +158,10 @@ class WebController extends Controller
 		}*/
 		$this->renderPartial("//static/".$_POST["url"],$model);
 		}
+	}
+	
+	public function actionCheckFeeds(){
+		echo FeedNoticias::model()->CheckFeed();
 	}
 	
 	protected function beforeAction($event)
