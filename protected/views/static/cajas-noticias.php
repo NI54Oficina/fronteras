@@ -28,20 +28,11 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	</div>
 
 	<?php 
-	$options = array(
-	'http'=>array(
-	'method'=>"GET",
-	'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
-	)
-	);
-	$context=stream_context_create($options);
-
-	$data = @file_get_contents('http://www.fyo.com/json/noticias',false,$context);
-
-	if($data){
-		$array = json_decode($data,true);
-		$fecha = $array;
-		foreach($fecha as $f){
+	$notas=FeedNoticias::model()->GetLast();
+	
+	if($notas){
+		
+		foreach($notas as $f){
 	?>
 	<!-- Noticia 2-->
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" hid="1">
@@ -68,7 +59,7 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 				
 				<!-- Fecha -->
 				<div class="fecha">
-					<p><?php echo $f["publicacion"]; ?></p>
+					<p><?php echo $f["fecha"]; ?></p>
 				</div>
 				
 			</div>
@@ -357,4 +348,12 @@ $secciones["Necesidades hídricas y humedad"]="noticia-tipo-3";
 	
 </div>	
 
-	
+
+ <script>
+ $.post( "/fronteras/web/checkFeeds", function( data ) {
+  console.log(data);
+  if(data=="1"){
+	  location.reload();
+  }
+});
+ </script>

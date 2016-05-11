@@ -55,7 +55,9 @@ return array(
 				"ar/testAjax"=>array("web/testAjax"),
 				"paises"=>array("web/get/data/paises"	),
 				"contacto"=>array("web/contacto"),
-			
+				
+				"<pais>/noticia/<id>"=>"web/get/data/noticia/id/<id>",
+				
 				'<pais>/<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<pais>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				
