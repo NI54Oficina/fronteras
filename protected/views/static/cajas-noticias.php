@@ -61,6 +61,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 				<!-- Fecha -->
 				<div class="fecha">
 					<p><?php echo $f["fecha"]; ?></p>
+					<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>">asda</a>
 				</div>
 				
 			</div>
