@@ -3,6 +3,7 @@
 <div class="box-mercado-clima-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<!-- Mercado -->
+	
 	<?php
 	
 	$options = array(
@@ -19,10 +20,12 @@
 	$array = json_decode($data,true);
 	$item= $array[0];
 	?>
+
+	<a href="">
 	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
-		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
-
+		<div class="hoy-box-upper" hid="5">
 		<div class="boxhoy-mercados col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<p>Mercados</p>
 			<h3>Dólar oficial</h3>
@@ -45,14 +48,19 @@
 				</div>
 				
 			</div>
-			
-			<!-- Ampliar -->
-			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h5 class="center-to-parent"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados">Ampliar</a></h5>
 			</div>
+			<!-- Ampliar -->
 			
+			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
+			<h5 class="center-to-parent">+</h5>
+			</div>
+
 		</div>
+
 	</div>
+	</a>
+
+	
 	
 	<?php } ?>
 	<?php include("session-clima.php"); ?>
@@ -66,10 +74,11 @@
 		if(count($f)>1){
 		foreach($f as $f2){
 	 ?>
+	 <a href="">
 	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
-		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
-
+		<div class="hoy-box-upper" hid="5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
 			<h4>-  <?php echo $f2["FechaDescripcion"] ?>  -</h4>
@@ -89,52 +98,53 @@
 					<p><?php echo $f2['Valores'][0]["TipoClima"]; ?></p>				
 				</div>
 				
+			</div>
 			</div>			
 			<!-- Ampliar -->
-			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-			<h5 class="center-to-parent"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima">Ampliar</a></h5>
+			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
+			<h5 class="center-to-parent">+</h5>
 			</div>
 
 		</div>
 	</div>	
+	</a>
+	
+
+
 	<?php break; ?>
 	<?php } } }}?>
 
 
 	
 	<!-- Noticias del sector -->
+<a href="">
 	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
 		
 
-		<div class="maxbox-noticias maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-		<div class="center-to-parent">
-		<a href="" class="">
+		<div class="maxbox-noticias maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12 " hid="6">
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		
+		
 		
 
-		<a href="javascript:void(0)"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-		<a href=" <?php echo Yii::app()->getBaseUrl(true); ?>/noticias">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector " hid="5">
+		
 
 				
-				<!--Contenedor título e imágen -->
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector ">
-					
 					<!-- Imágen-->
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
 					
 					<br />
-					
+		</div>
 					<!--Título-->
-					<h4>Noticias del sector</h4>
-					
-				</div>
-			
-		</a>
-		
-		</div>
-		</div>
-	</div>	
 
+	
+					<h4 hid="4" >
+					Noticias del sector
+					</h4>
+		
+
+	</div>	
+	</div>
+</a>
 </div>
