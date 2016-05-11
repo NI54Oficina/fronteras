@@ -23,7 +23,7 @@
 		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
+		<div class="boxhoy-mercados col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<p>Mercados</p>
 			<h3>Dólar oficial</h3>
 		</div>	
