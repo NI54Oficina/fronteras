@@ -6,12 +6,12 @@ $Criteria = new CDbCriteria();
 
 ?>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-inside-noticia">
+<div id="noticia-art" class="col-lg-9 col-md-9 col-sm-8 col-xs-12 container-inside-noticia">
 
-	<div class="border-fecha">
-		<div></div>
-		<p 	class="fecha"><?php echo $nota->fecha; ?></p>
-	</div>
+	
+	
+	<p 	class="fecha"><?php echo $nota->fecha; ?></p>
+	
 	
 	<h1  class="titulo"><?php echo $nota->titulo; ?></h1>
 	
@@ -23,4 +23,11 @@ $Criteria = new CDbCriteria();
 	
 	<p	class="fuente"><?php echo $nota->fuente; ?></p>
 	
+
+
+
 </div>
+<?php 
+include("columna-noticia.php")
+?>	
+

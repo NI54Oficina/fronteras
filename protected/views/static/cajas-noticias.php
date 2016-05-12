@@ -36,6 +36,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 		foreach($notas as $f){
 	?>
 	<!-- Noticia 2-->
+	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>"> 
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" hid="1">
 		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?>">
 		
@@ -61,13 +62,15 @@ $secciones["Empresas"]="noticia-tipo-4";
 				<!-- Fecha -->
 				<div class="fecha">
 					<p><?php echo $f["fecha"]; ?></p>
-					<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>">asda</a>
+					
 				</div>
 				
 			</div>
 			
 		</div>
-	</div>	
+	</div>
+
+	</a>	
 	<?php } } ?>
 	
 
