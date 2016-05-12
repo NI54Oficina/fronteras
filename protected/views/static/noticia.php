@@ -10,7 +10,7 @@ $Criteria = new CDbCriteria();
 
 	
 	
-	<p 	class="fecha"><?php echo $nota->fecha; ?></p>
+	<p 	class="fecha-not-inner"><?php echo $nota->fecha; ?></p>
 	
 	
 	<h1  class="titulo"><?php echo $nota->titulo; ?></h1>
@@ -31,3 +31,7 @@ $Criteria = new CDbCriteria();
 include("columna-noticia.php")
 ?>	
 
+
+
+
+	

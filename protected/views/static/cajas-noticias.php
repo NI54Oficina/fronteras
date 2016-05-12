@@ -33,7 +33,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	
 	if($notas){
 		
-		foreach($notas as $f){
+		foreach($notas as $f ){
 	?>
 	<!-- Noticia 2-->
 	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>"> 

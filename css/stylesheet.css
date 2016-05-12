@@ -1116,7 +1116,7 @@ header{
 
 
 
-.box-noticias .container-texto-noticias div p{
+.box-noticias .container-texto-noticias div p, .noticia-columna .container-texto-noticias div p{
 	padding: 0;
     color: white;
     text-align: right;
@@ -1146,7 +1146,7 @@ header{
 	color:#25CDDB;
 }
 
-.noticia-tipo-1 .container-imagen-nota {
+.noticia-tipo-1 .container-imagen-nota, .noticia-tipo-1 .container-imagen-nota-col {
 	border-top: 7px solid  #25CDDB;
 }
 
@@ -1234,12 +1234,20 @@ header{
 	color:#7F7F7F;
 }
 
-.container-inside-noticia .fecha{
+.container-inside-noticia .fecha-not-inner{
 	text-align:right;
 	color:#7F7F7F;
     display: inline-block;
 	float:right;
 }
+
+/*.noticia-columna .fecha-col{
+	text-align:right;
+    display: inline-block;
+    background-color: #C4c6c7;
+    width: 100%;
+	
+*/}
 
 
 /*COMENTADA PORQUE DEBERIAN IR EN TODAS LAS PÁGINAS.
