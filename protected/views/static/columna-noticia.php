@@ -21,9 +21,11 @@ $secciones["Empresas"]="noticia-tipo-4";
 <p class="titulo-seccion-columna">MÁS NOTICIAS</p>
 
 <?php 
-	$notas=FeedNoticias::model()->GetLast();
-	$contador=0;
-
+	if(!isset($categoria)){
+		$categoria="all";
+	}
+	$notas=FeedNoticias::model()->GetLast(2,$categoria);
+	
 	if($notas){
 		
 		foreach($notas as $f){
@@ -65,7 +67,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	</div>
 
 	</a>	
-	<?php  if (++$contador == 2) break;  } }?>
+		<?php }  }?>
 	
 
 

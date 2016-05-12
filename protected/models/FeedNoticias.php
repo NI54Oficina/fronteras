@@ -117,12 +117,15 @@ class FeedNoticias extends CActiveRecord
 		return parent::model($className);
 	}
 	
-	public function GetLast($number=10){
+	public function GetLast($number=10,$category="all"){
 		//$this->model()->find
 		$Criteria = new CDbCriteria();
 		//$Criteria->condition = "price > 30";
 		$Criteria->order = "nid desc";
 		$Criteria->limit = $number;
+		if($category!="all"){
+			$Criteria->condition = "categoria = '".$category."'";
+		}
 		$notas = $this->model()->findAll($Criteria);
 		return $notas;
 	}

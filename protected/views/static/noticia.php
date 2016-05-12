@@ -3,7 +3,7 @@
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "nid = ".$data;
 				$nota = FeedNoticias::model()->find($Criteria);
-
+$categoria=$nota["categoria"];
 ?>
 <section  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
