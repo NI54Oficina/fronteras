@@ -19,14 +19,14 @@
 
 				<form method="post">
          			 <select name="provincias">
-         			 <option value="provincia">Provincia </option>
-           			<option value="baires">Buenos Aires </option>
-           			<option value="tucuman">Tucuman </option>
-           			<option value="santiagoDelEstero"> Santiago del Estero </option>
-           			<option value="baires">Buenos Aires </option>
-           			<option value="salta"> Salta</option>
-          			<option value="entreRios">Entre Rios</option>
-          			<option value="laPampa">La Pampa</option>
+					 <option value="" selected disabled>Seleccione provincia</option>
+					 <?php 
+					 $provincias= Provincia::model()->findAll();
+					 foreach($provincias as $provincia){
+					 ?>
+					 <option value="<?php echo $provincia->id; ?>"><?php echo $provincia->nombre; ?> </option>
+					 <?php } ?>
+         			 
           			</select>
           			
 				</form>
