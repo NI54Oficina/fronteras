@@ -1078,21 +1078,20 @@ header{
 
 /* 2 tipo de noticia */
 .container-img-noticias{
-    min-height: 135px;
+    
     padding-top: 0;
     padding: 0;
 }
 
 .container-texto-noticias{
-    min-height: 154px;
-    height: auto;
-    padding: 5px;
+    
+    
+    padding:10px 5px;
     margin-top: 5px;
 }
 
 .container-img-noticias img{
     max-width: 100%;
-    min-height: 130px;
     height: 130px;
     width: 100%;
 }
@@ -1103,7 +1102,7 @@ header{
     text-align: left;
     font-weight: 700;
     padding: 5px 10px;
-    min-height: 110px;
+    
 }
 
 

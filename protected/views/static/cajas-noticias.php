@@ -22,7 +22,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
 	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" id="noticia-box" hid="1">
 	<div class="noticia-box-2">
-	<div hid="3"></div>
+	<div hid="2"></div>
 		<div id="noticia-box-inner" class="square">
 		<h1 id="noticia-box-title" class="center-to-parent">Noticias del sector</h1>
 		</div>
@@ -45,7 +45,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 			
 				<div class="border-noticias-h1 b-r">
 				</div>
-				<div class="container-h1-noticias" hid="3">
+				<div class="container-h1-noticias" hid="2">
 					<h1 ><?php echo $f["categoria"]; ?></h1>
 				</div>
 				<div class="border-noticias-h1 b-l"></div>
@@ -55,13 +55,13 @@ $secciones["Empresas"]="noticia-tipo-4";
 			</div>
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias "  >
+			<div  class=" container-texto-noticias " hid="3" >
 				
-				<h2 hid="2"><?php echo $f["titulo"]; ?></h2>
-				<p><?php echo $f["bajada"]; ?></p>
+				<h2 hid="4"><?php echo $f["titulo"]; ?></h2>
+				<p hid="5"><?php echo $f["bajada"]; ?></p>
 				
 				<!-- Fecha -->
-				<div class="fecha">
+				<div class="fecha" hid="6">
 					<p><?php echo $f["fecha"]; ?></p>
 					
 				</div>
