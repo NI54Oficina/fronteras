@@ -1,13 +1,12 @@
-<<<<<<< HEAD
+
 <?php include("clases-noticias.php"); ?> <!-- LINEAS DE CODIGO EN CSS 1175 -->
-=======
+
 <?php 
 //se setea el nombre de clase correspondiente a la sección
 $secciones=[];
 $secciones["Granos"]="noticia-tipo-7";
 $secciones["Clima"]="noticia-tipo-2";
-$secciones["Mercado de granos"]="noticia-tipo-7
-";
+$secciones["Mercado de granos"]="noticia-tipo-7";
 $secciones["Hacienda"]="noticia-tipo-1";
 $secciones["Interes general"]="noticia-tipo-4";
 $secciones["Insumos"]="noticia-tipo-5";
@@ -19,7 +18,6 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 ?>
  <!-- LINEAS DE CODIGO EN CSS 1175 -->
->>>>>>> origin/master
 
 <!-- General cajas noticias-->
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
