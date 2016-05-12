@@ -64,7 +64,7 @@ and (orientation : portrait) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
 
-	#contenedor, #noticias, .section, #noticia-art, #noticia-col{
+	#contenedor, #noticias, .section{
 		padding: 150px 45px;
 	}
 }

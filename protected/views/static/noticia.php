@@ -5,6 +5,7 @@ $Criteria = new CDbCriteria();
 				$nota = FeedNoticias::model()->find($Criteria);
 
 ?>
+<section  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 <div id="noticia-art" class="col-lg-9 col-md-9 col-sm-8 col-xs-12 container-inside-noticia">
 
@@ -30,7 +31,7 @@ $Criteria = new CDbCriteria();
 <?php 
 include("columna-noticia.php")
 ?>	
-
+</section>
 
 
 

@@ -16,7 +16,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 ?>
 
 
-<div id="noticia-col" class="col-lg-3 col-md-3 col-sm-4 hidden-xs container-inside-noticia noticia-columna">
+<div id="noticia-col" class="col-lg-3 col-md-3 col-sm-4 hidden-xs  noticia-columna">
  
 <p class="titulo-seccion-columna">MÁS NOTICIAS</p>
 
