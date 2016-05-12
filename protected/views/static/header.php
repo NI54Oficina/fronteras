@@ -5,7 +5,7 @@
 		<!--Logo fronteras -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/home">
-			<img class="logo-fronteras" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" />
+			<img class="logo-fronteras" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras-horizontal.png" />
 
 		</a>
 
@@ -13,7 +13,7 @@
 	
 		<!-- Logo bagó -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-			<img class="logo-bago-header"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/100x100.png" />
+			<img class="logo-bago-header"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-BB-horizontal.png" />
 		</div>
 
 	</div>
