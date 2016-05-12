@@ -258,10 +258,11 @@ header{
 .box-mercado-clima-noticias >a> div> .maxbox-clima{
 	background-color:#2E9DFB;
 	min-height: 100%;	
+
 }
 
 /* Caja noticias del sector*/
-.box-mercado-clima-noticias >a> div> .maxbox-noticias {
+.box-mercado-clima-noticias > a> div> .maxbox-noticias {
 	background-color:#2ED7AA;
 	height:100%;
 	text-align:center;
@@ -385,9 +386,7 @@ header{
 *********** NOTICIAS SECTOR ***********
 *********************************************/
 .maxbox-noticias .container-noticias-sector{
-    
     text-align: center;
-    
 }
 
 .maxbox-noticias .container-noticias-sector > img{
