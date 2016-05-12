@@ -1,9 +1,10 @@
 <?php 
 //se setea el nombre de clase correspondiente a la sección
 $secciones=[];
-$secciones["Granos"]="noticia-tipo-1";
+$secciones["Granos"]="noticia-tipo-7";
 $secciones["Clima"]="noticia-tipo-2";
-$secciones["Mercado de granos"]="noticia-tipo-3";
+$secciones["Mercado de granos"]="noticia-tipo-7
+";
 $secciones["Hacienda"]="noticia-tipo-1";
 $secciones["Interes general"]="noticia-tipo-4";
 $secciones["Insumos"]="noticia-tipo-5";

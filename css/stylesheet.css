@@ -107,9 +107,9 @@ header{
 
 
 .flecos-header div{
-	background-image:url(../img/fleco-header-01.png);
+	background-image:url(../img/fleco-h.png);
     width: 100vw;
-    height: 30px;
+    height:25px;
     background-repeat: repeat-x;
 }
 
@@ -179,15 +179,15 @@ header{
 .logo-bago-header{
 	float: right;  
 	padding-right: 50px;  
-	padding-top: 13px;  
-	width: 100px;
+	padding-top: 19px;  
+	width: 270px;
 }
 
 .logo-fronteras{
-	width: 112px;
+	width: 270px;
     float: left;
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
  
 .header-palabras-menu{
@@ -229,6 +229,7 @@ header{
 
 .maxboxes-inner{
  	padding: 25px 25px;
+	padding-top: 70px;
 }
 
 .box-mercado-clima-noticias {
@@ -246,10 +247,6 @@ header{
 	text-align:center;
 }
 
-/*.box-mercado-clima-noticias a{
-	color:white;
-}
-*/
 
 /* Caja mercados*/
 .box-mercado-clima-noticias > a> div> .maxbox-mercados{
@@ -334,8 +331,8 @@ header{
 }
 
 .maxbox-ampliar > h5:hover{
-	 text-shadow: 3px 3px rgba(0,0,0,.5);
-	 transition: .3s;
+	text-shadow: 3px 3px rgba(0,0,0,.5);
+	transition: .3s;
 }
 
 
@@ -375,7 +372,7 @@ header{
     font-size: 1.6rem;
     background: transparent;
     border: none;
-    width: 70%;
+    width: 100%;
     font-family: 'arialregular';
 }
 
@@ -606,7 +603,7 @@ header{
 .box-mercado > div:nth-child(3) > div > div img{
     display: inline-block;
     width: auto;
-    max-width: 100%;
+    max-width:100%;
 }
 
 /* Número */
@@ -780,7 +777,7 @@ header{
 /* Información del clima */
 .box-clima .info-clima{
 	text-align: left;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 
@@ -803,7 +800,9 @@ header{
     text-align: left;
 }
 
-
+#formClima{
+    padding-top: 13px;
+}
 
 /********* Clima 2 ************/
 
@@ -821,7 +820,7 @@ header{
 }
 
 .box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(2){
-	color:	#4C4C4C;
+	color:#4C4C4C;
 	padding:0 5px;
 }
 
@@ -854,13 +853,13 @@ header{
 }
 
 .box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(2){
-	color:	#4C4C4C;
+	color:#4C4C4C;
 	padding:0 5px;
 }
 
 
 .box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(3){
-	color:	#B54D4D;
+	color:#B54D4D;
 	font-weight:700;
 }
 
@@ -1044,7 +1043,7 @@ header{
 
 .box-noticias #noticia-box-title{
 	color: white;
-    text-transform: uppercase;
+    font-size: 1.3em;
     text-align: center;
     display: inline-block;
     width: 90px;
@@ -1226,6 +1225,20 @@ header{
 	border-top: 7px solid #2E9DFB;
 }
 
+/*NOTICIA TIPO 7 - CELESTE CLIMA*/
+
+.noticia-tipo-7 .container-texto-noticias{
+	border: 2px solid #FFA621;
+}
+
+.noticia-tipo-7 .container-texto-noticias h2{
+	color:#FFA621;
+}
+
+.noticia-tipo-7 .container-imagen-nota{
+	border-top: 7px solid #FFA621;
+}
+
 
 
 /*************** INTERIOR NOTICIA ******************/
@@ -1248,7 +1261,7 @@ header{
     background-color: #C4c6c7;
     width: 100%;
 	
-*/}
+}*/
 
 
 /*COMENTADA PORQUE DEBERIAN IR EN TODAS LAS PÁGINAS.
