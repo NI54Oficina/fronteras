@@ -3,18 +3,20 @@
 }
 
 .side-bar{
-	background:#03587F;
-	min-height:800px;
+	background:#00173B;
+	
 	text-align:center;
 	padding:0;
 	position:fixed;
+	min-height:100vh;
+	padding-top:15vh;
 }
 
 .side-bar .item{
 	width:90%;
 	display:inline-block;
-	border: solid rgba(0,0,0,0.1) 1px;
-	padding:5px;
+	
+	padding:8px 12px;
 	cursor:pointer;
 	 -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -23,6 +25,14 @@
     -ms-user-select: none;
     user-select: none;
 	color:white;
+	background:transparent;
+	text-align:right;
+	opacity:0.5;
+	
+}
+
+.item:hover{
+opacity:1;
 }
 
 .side-bar .item:hover{
@@ -36,8 +46,15 @@
 
 .item-list{
 	display:none;
-	width:90%;
-	padding-left:20%;
+	width:99%;
+	padding-left:15px;
+}
+
+.item-list .item{
+	font-size:11px;
+}
+.item-list .item:last-child{
+margin-bottom:15px;
 }
 
 .loading{
@@ -59,4 +76,179 @@
 
 #footer{
 	padding-bottom:40px;
+}
+
+thead th{
+	background-color:#012e58;
+	color:white;
+	border:none;
+}
+#tablePais table, #tablePais th{
+	border:none;
+	padding:10px;
+	padding-right:40px;
+}
+#tablePais td{
+	border:none;
+	color:#9f9f9f;
+	padding:6px;
+	border-bottom: solid 1px #c2c2c2;
+}
+#tablePais td:first-child{
+	color:#95c9f0;
+}
+body{
+	background-color:#ebebeb;
+}
+
+.delete{
+	display:inline-block;
+}
+.btn-tablas{
+	text-align:center;
+}
+.btn-tablas .glyphicon{
+	padding:5px;
+	border:solid #b8b8b8 1px;
+	border-radius:50%;
+	color:#032e58;
+}
+
+.pagination > li > a, .pagination > li > span{
+	background:transparent;
+	border:none;
+	color:#cecece;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background:transparent;
+	border-radius:50%;
+	border: #a9d1eb solid 1px;
+	font-size:16px;
+	color:#a4a4a4;
+	outline-color:transparent;
+}
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+	background:transparent;
+}
+.pagination > li > a, .pagination > li > span{
+outline-color:transparent;
+}
+
+.pagination > li{
+outline:none;
+}
+
+.pagination > li .glyphicon{
+color:#95c9ee;	
+}
+
+.pagination > li .glyphicon:hover{
+color:#00163b;	
+}
+li.disabled .glyphicon,li.disabled .glyphicon:hover{
+color:#cecece;
+}
+
+div.dataTables_wrapper div.dataTables_length select{
+background-color:transparent;
+border:none;
+box-shadow:none;
+color:#9f9f9f;
+}
+div.dataTables_wrapper div.dataTables_length select option,.form-control option{
+background:#97c9ee;
+color:white;
+}
+
+.form-control[value='']{
+	color:#c7c7c7 !important;
+}
+
+#tablePais_wrapper .col-sm-6{
+width:auto;
+}
+div.dataTables_wrapper div.dataTables_filter input{
+background:transparent;
+color:#9f9f9f;
+border-top:none;
+border-left:none;
+border-right:none;
+box-shadow:none;
+}
+div.dataTables_wrapper div.dataTables_filter label{
+color:transparent;
+}
+
+div.dataTables_wrapper div.dataTables_length label{
+	color:#8c8c8c;
+}
+h1{
+color:#8c8c8c;
+}
+div.dataTables_wrapper div.dataTables_info{
+color:#8c8c8c;
+}
+
+.input-group-addon{
+	border:none;
+	background:transparent;
+	color:#8d8d8d;
+}
+
+.formCreate label{
+color:#8d8d8d;
+}
+.formCreate input.form-control,.formCreate select.form-control{
+border:none;
+box-shadow:none;
+background-color:transparent;
+border-bottom: 1px solid #cfcfcf;
+color:#8c8c8c;
+}
+.formCreate textarea.form-control{
+	background:transparent;
+	color:#8c8c8c;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #c7c7c7 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #c7c7c7 !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #c7c7c7 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #c7c7c7 !important;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable{
+min-height:300px;
+}
+
+.btn-form{
+	padding:7px 50px;
+	background:#65cced;
+	border:none;
+	border-radius:5px;
+	max-width:300px;
+}
+
+div.form .note{
+	color:#9f9f9f;
+}
+
+div.form span.required{
+	color:#f0ae11;
+}
+
+.fadder{
+opacity:0;
+transition:0.5s;
+}
+*:focus{
+	outline: none;
 }

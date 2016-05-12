@@ -55,13 +55,13 @@ $secciones["Empresas"]="noticia-tipo-4";
 			</div>
 			
 			<!-- Texto noticia -->
-			<div  class=" container-texto-noticias " hid="3" >
+			<div  class=" container-texto-noticias " hid="6" >
 				
 				<h2 hid="4"><?php echo $f["titulo"]; ?></h2>
 				<p hid="5"><?php echo $f["bajada"]; ?></p>
-				
+					
 				<!-- Fecha -->
-				<div class="fecha" hid="6">
+				<div class="fecha" hid="3">
 					<p><?php echo $f["fecha"]; ?></p>
 					
 				</div>
@@ -356,7 +356,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 
  <script>
- $.post( "/fronteras/web/checkFeeds", function( data ) {
+ $.post( "/<?php echo $_SESSION['webRoot'] ?>web/checkFeeds", function( data ) {
   console.log(data);
   if(data=="1"){
 	  location.reload();

@@ -20,7 +20,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/dropzone.css">
 	
+	
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/datatables/datatables.min.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap-datetimepicker.css">
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/summernote/summernote.css">
  
 	
 	
@@ -31,13 +34,18 @@
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.validate.min.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/dropzone.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/summernote.min.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/ckeditor/ckeditor.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/js.js"></script>
+	
+	
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/summernote/summernote.min.js"></script>
+	
+	<!--<script src="<?php echo Yii::app()->request->baseUrl; ?>/ckeditor/ckeditor.js"></script>!-->
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap-datetimepicker.js"></script>
 	
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/datatables/datatables.js"></script>
 
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<title>Biogénesis Bagó</title>
 </head>
 
 <body >
@@ -50,7 +58,7 @@
 <div class="col-md-2"></div>
 
 
-<div class="col-md-10" style="display:inline-block;">
+<div class="col-md-10 fadder" style="display:inline-block;padding-left:40px;padding-right:40px;">
 
 	
 

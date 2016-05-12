@@ -10,9 +10,10 @@ class SiteController extends Controller
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page
 			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
-			),
+                 'class'=>'CaptchaExtendedAction',
+                // if needed, modify settings
+                'mode'=>CaptchaExtendedAction::MODE_WORDS,
+            ),
 			// page action renders "static" pages stored under 'protected/views/site/pages'
 			// They can be accessed via: index.php?r=site/page&view=FileName
 			'page'=>array(
@@ -32,7 +33,7 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','error',"contact","login","logout"),
+				'actions'=>array('index','error',"contact","login","logout","captcha","forbidden"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -115,6 +116,14 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+		if(Yii::app()->user->getId()){
+			$this->redirect('/'.$_SESSION['webRoot']."site/admin");
+		}
+		if(!isset($_SESSION["short"])){
+			$_SESSION["short"]= "ar";
+			$_SESSION["pais"]= "1";
+			$_SESSION["lng"]= "es";
+		}
 		$model=new LoginForm;
 		
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form'){
@@ -122,10 +131,10 @@ class SiteController extends Controller
 		}else if(isset($_POST['LoginForm'])){
 					
 			$identity=new UserIdentity( $_POST["LoginForm"]["username"], $_POST["LoginForm"]["password"]);
-			echo $identity->authenticate();
+			//echo $identity->authenticate();
 			if($identity->authenticate()){
 				Yii::app()->user->login($identity);
-				$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect('/'.$_SESSION['webRoot']."site/admin");
 			}else{
 				echo $identity->errorMessage;
 			}
@@ -164,5 +173,11 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+	
+	public function actionForbidden(){
+		$this->renderPartial('//static/forbidden');
+		
+		
 	}
 }

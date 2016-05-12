@@ -8,7 +8,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima">
 			
 				
-				<form method="post" id="formClima">
+				<form method="post" id="formClima" class="center-to-parent">
 				<?php include("selector-localidades.php"); ?>
 			</form>
 		</div>
@@ -72,7 +72,7 @@
 	} ?>
 </div>
 <script>
-$( "#localidad" ).change(function() {
+$( "#localidad-clima" ).change(function() {
   $("#formClima").submit();
 });
 </script>
