@@ -37,21 +37,12 @@
 
 				<form method="post">
          			 <select name="localidad" >
-<<<<<<< HEAD
-         			 <option value="localidad" selected disabled>Seleccione localidad</option>
 					
-					 </select>
-=======
+
          			 <option value=""selected disabled>Localidad </option>
-         		     <option value="baires">Buenos Aires </option>
-           			<option value="tucuman">Tucuman </option>
-           			<option value="santiagoDelEstero"> Santiago del Estero </option>
-          			 <option value="baires">Buenos Aires </option>
-           			<option value="salta"> Salta</option>
-          			<option value="entreRios">Entre Rios</option>
-          			<option value="laPampa">La Pampa</option>
+         		   
          			 </select>
->>>>>>> origin/master
+
 
 				</form>
 
@@ -59,12 +50,12 @@
 
 		 	 </div>
 
-		 	 <div class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-		 	 <h1>Nombre de la Red veterinaria</h1>
-		 	 <p>Provincia, Ciudad</p>
-		 	 <p>Direccion (con altura incluida)</p>
-		 	 <p>Telefono principal (sin celulares)</p>
+		 	 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
+					<!--- El html se genera por php, no se le pueden agregar clases aca, queda el code solo de ejemplo para ver la estructura !--->
+				 <h1>Nombre de la Red veterinaria</h1>
+				 <p>Provincia, Ciudad</p>
+				 <p>Direccion (con altura incluida)</p>
+				 <p>Telefono principal (sin celulares)</p>
 		 	 
 		 	 </div>
 		 	 	
@@ -76,9 +67,19 @@
 	$( "#provincia form select" ).change(function() {
 		console.log("change");
 		$("#localidad").hide();
+		$("#info-veterinaria").hide();
 		$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/getLocalidades/id/"+$(this).val(), function( data ) {
 			$("#localidad form select").html(data);
 			$("#localidad").show();
+		});
+	});
+	
+	$( "#localidad form select" ).change(function() {
+		
+		$("#info-veterinaria").hide();
+		$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/getVeterinaria/id/"+$(this).val(), function( data ) {
+			$("#info-veterinaria").html(data);
+			$("#info-veterinaria").show();
 		});
 	});
 	</script>
