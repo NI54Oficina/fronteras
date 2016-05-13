@@ -33,14 +33,14 @@ $secciones["Empresas"]="noticia-tipo-4";
 	</div>
 
 	<?php 
-	$notas=FeedNoticias::model()->GetLast();
+	$notas=FeedNoticias::model()->GetLast(9);
 	
 	if($notas){
 		
 		foreach($notas as $f ){
 	?>
 	<!-- Noticia 2-->
-	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>"> 
+	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>" > 
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" hid="1">
 		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?>">
 		

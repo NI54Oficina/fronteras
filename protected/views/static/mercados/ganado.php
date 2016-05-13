@@ -42,6 +42,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				<!-- Tabla ( Categoría, Precio, Var día)-->
+
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 				
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
@@ -61,6 +62,8 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				<?php foreach($categorias as $c){ ?>
 				<!-- Primer item -->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
+
+				
 				
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 						<p><?php echo $c["Nombre"]; ?></p>
@@ -75,6 +78,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 				
 				</div>
+				
 				<?php } ?>
 					
 				

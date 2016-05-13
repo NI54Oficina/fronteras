@@ -27,7 +27,7 @@
 
 		<div class="hoy-box-upper" hid="5">
 		<div class="boxhoy-mercados col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
-			<p>Mercados</p>
+			<p>- Mercados -</p>
 			<h3>Dólar oficial</h3>
 		</div>	
 
@@ -80,8 +80,9 @@
 
 		<div class="hoy-box-upper" hid="5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
-			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
 			<h4>-  <?php echo $f2["FechaDescripcion"] ?>  -</h4>
+			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
+			
 		</div>
 
 			<!-- Clima datos & clima imágen -->
