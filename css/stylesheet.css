@@ -1550,6 +1550,8 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 /***********************VETERINARIA***************/
 
 .veterinaria { 
+	max-width: 1500px;
+	text-align: center;
 }
 
 .veterinaria >div{
@@ -1559,8 +1561,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 #provincia, #localidad {
-	padding: 0px 5px; 
-	margin: 20px; 
+	margin: 20px 0px; 
 }
 
 .map-box iframe{ 
@@ -1576,22 +1577,35 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .red-form {
 	margin-top: 40px;
+	padding-left: 20px;
 }
 
 .red-form > div > form > select{
 	border:none; 
-	color: gray; 
+	color: rgba(158,158,158,.5); 
 	width: 100%;
 	background-color: #f7f7f7;
 }
 
-.red-form > div {
+.red-form > #localidad, .red-form > #provincia {
 	padding:0; 
-	border-bottom: 2px solid #0078B9;
+	border-bottom: 2px solid rgba(0,120,185,.6);
 }
+
 
 .red-form > div > form > select:focus {
 	outline:none;
+}
+
+.info-mapa > h1 {
+	color: #0078B9;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.info-mapa > p {
+	color: #8c8c8c;
+	text-align: left;
 }
 
 /***********LINKS DE INTERES************/

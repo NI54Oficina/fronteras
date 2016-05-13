@@ -1,4 +1,4 @@
-<section id="contenedor" class=" veterinaria col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
+<section id="contenedor" class=" veterinaria col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 	<div class="map-box  col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
 
@@ -19,7 +19,7 @@
 
 				<form method="post">
          			 <select name="provincias">
-					 <option value="" selected disabled>Seleccione provincia</option>
+					 <option value="" selected disabled>Provincia</option>
 					 <?php 
 					 $provincias= Provincia::model()->findAll();
 					 foreach($provincias as $provincia){
@@ -37,7 +37,7 @@
 
 				<form method="post">
          			 <select name="localidad" >
-         			 <option value="localidad">Localidad </option>
+         			 <option value=""selected disabled>Localidad </option>
          		     <option value="baires">Buenos Aires </option>
            			<option value="tucuman">Tucuman </option>
            			<option value="santiagoDelEstero"> Santiago del Estero </option>
@@ -49,8 +49,19 @@
 
 				</form>
 
+
+
 		 	 </div>
 
+		 	 <div class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+		 	 <h1>Nombre de la Red veterinaria</h1>
+		 	 <p>Provincia, Ciudad</p>
+		 	 <p>Direccion (con altura incluida)</p>
+		 	 <p>Telefono principal (sin celulares)</p>
+		 	 
+		 	 </div>
+		 	 	
 		 </div>
 
 	</div>
