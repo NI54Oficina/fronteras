@@ -23,25 +23,25 @@
 		<div></div>
 	</div>
 
-<div "col-lg-12 col-md-12 col-sm-12 col-xs-12" style=" padding-top: 60px;">
+<div "col-lg-12 col-md-12 col-sm-12 col-xs-12" style="">
 <span  class=" glyphicon glyphicon-menu-hamburger navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>	
 	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
 		<ul class="ul-nav col-lg-12 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal">
 			<li class="li-header "><p  class="toggle-dropdown-header" target="#drop1" ></p>
 		
-						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-6 col-xs-6"><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/hoy">Hoy</a></li>
+						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-3 col-xs-6"><a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/hoy">Hoy</a></li>
 
-						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-6 col-xs-6">	
+						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">	
 							<a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/estemes">Este mes
 							</a>
 						</li>
 
-						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-6 col-xs-6">
+						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/producir">Producir +
 							</a>
 						</li>
 
-						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-6 col-xs-6">
+						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a class="a-sub link-menu col-lg-12 col-md-12 col-sm-12 col-xs-12"	href="<?php echo Yii::app()->paisChecker->getBaseUrl(true); ?>/ayuda">Ayuda</a>
 						</li>
 		

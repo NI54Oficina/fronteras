@@ -48,9 +48,12 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { 
 
 	.home-box > div > div >img {
-	width:45%;
+		width:45%;
 	}
 
+	.ul-nav li {
+		text-align: center;
+	}
 /*IPAD portrait*/
  }
 
@@ -76,7 +79,7 @@ and (max-device-width : 1024px)  {
 
 @media only screen and (max-width: 240px)
 {
-	/***********PRODUCIR +*************/
+	/***********PRODUCIR *************/
 
 
 	.box-producir-2 p {
@@ -106,10 +109,18 @@ and (max-device-width : 1024px)  {
 		font-size: 2em;
 	}
 
-
+	 /**********CLIMA**********/
 
 	.box-clima .box-clima-inner{
-		padding: 20px 2px;
+		padding: 20px 5px;
+	}
+
+	.box-clima .small-boxes-mercado > img {
+		width: 80%;
+	}
+
+	.box-clima .fecha-descripcion{
+		margin-bottom: 10px;
 	}
 	
 	/***********HOY********/
@@ -154,3 +165,68 @@ and (max-device-width : 1024px)  {
 
 /*FIN MEDIA QUERY 360x240px portrait*/
 
+
+
+
+
+
+
+/** NOKIA LUMIA 320x533 PORTRAIT**/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 533px) 
+and (orientation : portrait){
+
+	/*Cajas clima */
+	.box-clima-sp{
+		margin-top: 50px;
+	}
+	
+	/* Imágenes interior noticias */
+	.container-inside-noticia img {
+		width: 80vw;
+		height: 27vh;
+	}
+
+}
+
+/** FIN**/
+
+
+
+/** IPHONE 5 320x568 PORTRAIT**/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait){
+
+	/* Mercados */
+	.box-mercado-clima-noticias .small-boxes-mercado p {
+		text-align: center;
+		font-size: 1.7em;
+	}
+	
+	.columna-indicadores p {
+		font-size: 1.1rem;
+		padding-left: 7px;
+	}
+}
+
+/** FIN**/
+
+
+
+/** IPHONE 6 375x667 PORTRAIT**/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait){
+
+	/* Noticias interior img*/
+	.container-inside-noticia img {
+		width: 80vw;
+		height: 25vh;
+	}
+}
+
+/** FIN**/

@@ -96,6 +96,17 @@
  	height: auto !important;
  }
 
+.flecos-header div{
+	display:none;
+}
+
+.navbar-toggle {
+    float: left;
+}
+
+.header-palabras-menu {
+    height: 100vh;
+}
 
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
