@@ -42,7 +42,7 @@
          			 <option value="" selected disabled>Seleccione localidad</option>
 					
 					 </select>
-
+					
 
 
 
@@ -51,7 +51,9 @@
 
 
 		 	 </div>
-
+				<div id="noVeterinarias" class=" col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
+					<p  >No hay veterinarias adheridas en esta provincia.</p>
+				</div>
 		 	 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
 					<!--- El html se genera por php, no se le pueden agregar clases aca, queda el code solo de ejemplo para ver la estructura !--->
 				 <h1>Nombre de la Red veterinaria</h1>
@@ -70,9 +72,24 @@
 		console.log("change");
 		$("#localidad").hide();
 		$("#info-veterinaria").hide();
+		$("#noVeterinarias").hide();
 		$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/getLocalidades/id/"+$(this).val(), function( data ) {
-			$("#localidad form select").html(data);
-			$("#localidad").show();
+			console.log(data);
+			if(data=="-1"){
+				$("#localidad").hide();
+				$("#noVeterinarias").show();
+				//$("#localidad form select").html("No hay veterinarias adheridas en esta localidad.");
+			}else if(data=="1"){
+				$("#localidad").hide();
+				$("#info-veterinaria").hide();
+				$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/getVeterinariaByProvincia/id/"+$( "#provincia form select" ).val(), function( data ) {
+					$("#info-veterinaria").html(data);
+					$("#info-veterinaria").show();
+				});
+			}else{
+				$("#localidad form select").html(data);
+				$("#localidad").show();
+			}
 		});
 	});
 	

@@ -31,7 +31,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","getLocalidades","getVeterinaria"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","getLocalidades","getVeterinaria","getVeterinariaByProvincia"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -171,6 +171,13 @@ class WebController extends Controller
 		}else{
 			$localidades = Ciudad::model()->findAll(array("condition"=>"provincia = ".$id));
 		}
+		if(count($localidades)==0||!$localidades){
+			echo "-1";
+			return;
+		}else if(count($localidades)==1){
+			echo "1";
+			return;
+		}
 		?>
 		 <option value="localidad" selected disabled>Seleccione localidad</option>
 		<?php
@@ -196,6 +203,27 @@ class WebController extends Controller
 		 	 <p><?php echo $veterinaria->telefono; ?></p>
 		<?php
 			}
+		}
+	}
+	
+	public function actionGetVeterinariaByProvincia($id){
+		//buscar id de provincia, recorrer todas las localidades e imprimir data de veterinarias
+		$localidades = Ciudad::model()->findAll(array("condition"=>"provincia = ".$id));
+		foreach($localidades as $localidad){
+			$Criteria = new CDbCriteria();
+			$Criteria->condition = "ciudad = '".$localidad->nombre."'";
+					
+			$veterinarias= Veterinarias::model()->findAll($Criteria);
+			if($veterinarias){
+			foreach($veterinarias as $veterinaria){
+			?>
+				<h1><?php echo $veterinaria->cuenta; ?></h1>
+				 <p><?php echo $veterinaria->provincia; ?>, <?php echo $veterinaria->ciudad; ?></p>
+				 <p><?php echo $veterinaria->direccion; ?> <?php echo $veterinaria->altura; ?></p>
+				 <p><?php echo $veterinaria->telefono; ?></p>
+			<?php
+			}
+		}
 		}
 	}
 	

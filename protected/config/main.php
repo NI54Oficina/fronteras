@@ -63,6 +63,7 @@ return array(
 				"ar/testAjax"=>array("web/testAjax"),
 				"<pais>/getLocalidades/id/<id>"=>array("web/getLocalidades/id/<id>"),
 				"<pais>/getVeterinaria/id/<id>"=>array("web/getVeterinaria/id/<id>"),
+				"<pais>/getVeterinariaByProvincia/id/<id>"=>array("web/getVeterinariaByProvincia/id/<id>"),
 				"paises"=>array("web/get/data/paises"	),
 				"contacto"=>array("web/contacto"),
 				
