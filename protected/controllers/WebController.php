@@ -31,7 +31,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","getLocalidades"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -162,6 +162,23 @@ class WebController extends Controller
 	
 	public function actionCheckFeeds(){
 		echo FeedNoticias::model()->CheckFeed();
+	}
+	
+	public function actionGetLocalidades($id){
+		
+		if($id==-1){
+			$localidades = Ciudad::model()->findAll();
+		}else{
+			$localidades = Ciudad::model()->findAll(array("condition"=>"provincia = ".$id));
+		}
+		?>
+		 <option value="localidad" selected disabled>Seleccione localidad</option>
+		<?php
+		foreach($localidades as $localidad){
+		?>        
+			<option value="<?php $localidad->id; ?>"><?php echo $localidad->nombre; ?></option>
+		<?php 
+		}
 	}
 	
 	protected function beforeAction($event)
