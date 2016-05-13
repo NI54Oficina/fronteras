@@ -359,7 +359,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 
  <script>
- $.post( "/<?php echo $_SESSION['webRoot'] ?>web/checkFeeds", function( data ) {
+ $.post( "/<?php echo $_SESSION['webRoot'] ?>web/checkFeeds",{provincia:"19"}, function( data ) {
   console.log(data);
   if(data=="1"){
 	  location.reload();

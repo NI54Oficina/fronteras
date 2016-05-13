@@ -33,19 +33,13 @@
 
 			 </div>
 
-			 <div id="localidad">
+			 <div id="localidad" style="display:none;">
 
 				<form method="post">
          			 <select name="localidad" >
-         			 <option value="localidad">Localidad </option>
-         		     <option value="baires">Buenos Aires </option>
-           			<option value="tucuman">Tucuman </option>
-           			<option value="santiagoDelEstero"> Santiago del Estero </option>
-          			 <option value="baires">Buenos Aires </option>
-           			<option value="salta"> Salta</option>
-          			<option value="entreRios">Entre Rios</option>
-          			<option value="laPampa">La Pampa</option>
-         			 </select>
+         			 <option value="localidad" selected disabled>Seleccione localidad</option>
+					
+					 </select>
 
 				</form>
 
@@ -55,6 +49,15 @@
 
 	</div>
 
-
+	<script>
+	$( "#provincia form select" ).change(function() {
+		console.log("change");
+		$("#localidad").hide();
+		$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/getLocalidades/id/"+$(this).val(), function( data ) {
+			$("#localidad form select").html(data);
+			$("#localidad").show();
+		});
+	});
+	</script>
 	
 </section>

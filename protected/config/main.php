@@ -61,6 +61,7 @@ return array(
 				"admin"=>"site/login",
 				
 				"ar/testAjax"=>array("web/testAjax"),
+				"<pais>/getLocalidades/id/<id>"=>array("web/getLocalidades/id/<id>"),
 				"paises"=>array("web/get/data/paises"	),
 				"contacto"=>array("web/contacto"),
 				
