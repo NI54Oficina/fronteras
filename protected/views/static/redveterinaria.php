@@ -37,11 +37,11 @@
 
 				<form method="post">
          			 <select name="localidad" >
-<<<<<<< HEAD
+
          			 <option value="localidad" selected disabled>Seleccione localidad</option>
 					
 					 </select>
-=======
+
          			 <option value=""selected disabled>Localidad </option>
          		     <option value="baires">Buenos Aires </option>
            			<option value="tucuman">Tucuman </option>
@@ -51,7 +51,7 @@
           			<option value="entreRios">Entre Rios</option>
           			<option value="laPampa">La Pampa</option>
          			 </select>
->>>>>>> origin/master
+
 
 				</form>
 
