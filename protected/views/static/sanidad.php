@@ -23,6 +23,7 @@
 		</div>
 	</div>
 	
+	<a href="http://www.biogenesisbago.com/ar/vademecum/id1/" >
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
@@ -30,7 +31,7 @@
 			</div>
 		</div>
 	</div>
-	
+	</a>
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 		<div class="box-sanidad border-shadow">
