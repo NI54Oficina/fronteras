@@ -35,8 +35,8 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 			<div class="col-lg-12 col-md-12 col-sm-12 subtablesNav" id="navMercados">
 			
-				<button type="button" class="btn btn-default subtablesButton">Liniers</button>
-				<button type="button" class="btn btn-default subtablesButton">Rosario</button>
+				<button type="button" class="btn btn-default subtablesButton defaultSubtable" target="tablaLiniers">Liniers</button>
+				<button type="button" class="btn btn-default subtablesButton" target="tablaRosario">Rosario</button>
 			
 			</div>
 		
@@ -118,6 +118,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 	<?php //} ?>
 	
+	<?php if(false){ ?>
 	<!-- rosario-->
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados" hid="1">
 		
@@ -171,14 +172,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 		
 	</div>
 	<?php } ?>
+	<?php } ?>
 	
 	
-	<script>
-	$(document).ready(function(){
-			$(".subtablesNav").each(function(){
-				$(this).find(".subtablesButton").each(function(){
-					console.log("poyooyoyoyo");
-				});
-			});
-	});
-	</script>
+	

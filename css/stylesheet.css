@@ -338,6 +338,10 @@ header{
 	transition: .3s;
 }
 
+.subtablesNav > .selectedSubTable{
+	background-color:#D0CFCF;
+}
+
 
 /******************************
 *********** CLIMA ***********

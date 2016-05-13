@@ -19,3 +19,37 @@
 	<?php include("mercados/indicadores.php") ?>
 	<?php include("mercados/grano.php") ?>
 	</div>
+	
+	<script>
+	$(document).ready(function(){
+			$(".subtablesNav").each(function(){
+				var idParent= $(this).attr("id");
+				
+				$(this).find(".subtablesButton").each(function(){
+					$(this).attr("parent",idParent);
+					if($(this).hasClass("defaultSubtable")){
+						$("#"+$(this).attr("target")).show();
+						$(this).addClass("selectedSubTable")
+					}else{
+						$("#"+$(this).attr("target")).hide();
+					}
+					
+				});
+				/*$(this).find(".subtablesButton").each(function(){
+					$("#"+$(this).attr("target")).show();
+					return;
+				});*/
+			});
+			$("body").on("click",".subtablesButton",function(){
+				HideAllSubTables($(this).attr("parent"));
+				$(this).addClass("selectedSubTable");
+				$("#"+$(this).attr("target")).show();
+			});
+			function HideAllSubTables(parent){
+				$('#'+parent).find(".subtablesButton").each(function(){
+					$("#"+$(this).attr("target")).hide();
+					$(this).removeClass("selectedSubTable");
+				});
+			}
+	});
+	</script>

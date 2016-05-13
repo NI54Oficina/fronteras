@@ -12,25 +12,30 @@
 	$col=0;
 	if($data){
 	 $array = json_decode($data,true);
-	 foreach($array[0]["Productos"] as $item){
+	
 	?>
 	
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container-items-mercados" hid="1">
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		
-			<h3>- <?php echo $item["Producto"]; ?> - </h3>
+			<h3>- Granos - </h3>
 			
-			<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 subtablesNav" id="navGranos" >
 			
-				<button type="button" class="btn-indicadores btn-default">Girasol</button>
-				<button type="button" class="btn-indicadores btn-default">Maíz</button>
-				<button type="button" class="btn-indicadores btn-default">Soja</button>
-				<button type="button" class="btn-indicadores btn-default">Sorgo</button>
-				<button type="button" class="btn-indicadores btn-default">Trigo</button>
+				<button type="button" class="btn-indicadores btn-default subtablesButton defaultSubtable" target="tablaGranos0">Girasol</button>
+				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaGranos1">Maíz</button>
+				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaGranos2">Soja</button>
+				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaGranos3">Sorgo</button>
+				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaGranos4">Trigo</button>
 			</div>
-		
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
+			
+			<?php 
+			$idLoop=0;
+			 foreach($array[0]["Productos"] as $item){ 
+			 if(strpos($item["Producto"],'art.') ){return;}
+			 ?>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados" id="tablaGranos<?php echo $idLoop; ?>">
 				
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 				<?php 
@@ -77,9 +82,10 @@
 				<p >Actualizado: 12-02-2016</p>
 			
 			</div>
+			<?php $idLoop++; } ?>
 		</div>
 		
 	</div>
 	
 	
-<?php } } ?>
+<?php  } ?>
