@@ -148,7 +148,7 @@ and (max-device-width : 1024px)  {
 	}
 
 	.maxbox-clima .small-boxes-mercado p:first-child {
-    	font-size: 2em;
+    	font-size: 1.5em;
     	padding-left: 10px;
 	}
 
@@ -167,6 +167,34 @@ and (max-device-width : 1024px)  {
 
 
 
+/** SMALL PHONE 240x320 PORTRAIT**/
+@media only screen 
+and (min-device-width : 240px) 
+and (max-device-width : 320px) 
+and (orientation : portrait){
+
+	.container-inside-noticia .titulo{
+		color: #2ED7AA;
+		font-size: 30px;
+	}
+	
+	.container-inside-noticia, .noticia-columna {
+		padding: 0px 20px;
+	}
+	
+	.ul-nav li a {
+		padding-top: 60px;
+		color: white;
+	}
+	
+	.ul-nav li {
+		padding-left: 0;
+		height: 135px;
+		margin-top: -6px;
+	}
+}
+
+/** FIN**/
 
 
 
@@ -186,6 +214,7 @@ and (orientation : portrait){
 	.container-inside-noticia img {
 		width: 80vw;
 		height: 27vh;
+		
 	}
 
 }

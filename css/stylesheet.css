@@ -1523,7 +1523,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .home-box:hover > .producir-box{
-	 background-color:#615A98;
+	background-color:#615A98;
 	transition: .5s;
 }
 
@@ -1788,6 +1788,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     border-radius: 2px;
     margin-top:5px;
 	width: 110px;
+	
 }
 
 

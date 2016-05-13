@@ -88,6 +88,7 @@
 #hoy p,#hoy h1, #hoy h2, #hoy h3,  #hoy h4,#hoy div{
 	margin-bottom:0;
 }
+
  #hoy img{
  	padding: 0;
  }
@@ -104,7 +105,7 @@
     float: left;
 }
 
-.header-palabras-menu {
+.header-palabras-menu{
     height: 100vh;
 }
 
