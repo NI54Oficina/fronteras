@@ -8,9 +8,9 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima">
 			
 				
-				<form method="post" id="formClima" class="center-to-parent">
+				<form method="post" id="formClima" >
 				<?php include("selector-localidades.php"); ?>
-			</form>
+				</form>
 		</div>
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title">
@@ -21,6 +21,7 @@
 		
 	</div>
 	
+
 	<!-- Clima 2-->
 	<?php 
 	if($data){
@@ -31,8 +32,9 @@
 		if(count($f)>1){
 		foreach($f as $f2){
 	 ?>
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 square" >
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-clima-inner" hid="1">
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 " hid="1" >
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-clima-inner" >
 			<h3 class="fecha-descripcion"><?php echo $f2["FechaDescripcion"] ?>
 			</h3>
 			
@@ -46,8 +48,12 @@
 			
 				<!--Clima datos-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado clima-datos">
-					<p><?php echo $f2['Valores'][0]["Tmin"]; ?></p><p> | </p><p><?php echo $f2['Valores'][0]["Tmax"]; ?></p>	
-					<p><?php echo $f2['Valores'][0]["VelViento"]; ?></p>				
+					<p><?php echo $f2['Valores'][0]["Tmin"]; ?></p>
+					<p> | </p>
+					<p><?php echo $f2['Valores'][0]["Tmax"]; ?>
+					</p>	
+					<p><?php echo $f2['Valores'][0]["VelViento"]; ?>
+					</p>				
 				</div>
 				
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-clima">				
@@ -62,14 +68,18 @@
 	</div>	
 		<?php } } } }else{
 		?>
+
 		<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<p>No se han encontrado informes del clima para la ciudad solicitada. Por favor intente más tarde.</p>
+			<p>No se han encontrado informes del clima para la ciudad solicitada. Por favor intente más tarde.
+			</p>
 			
-			</div>
+		</div>
 		</div>
 		<?php
 	} ?>
+
+
 </div>
 <script>
 $( "#localidad-clima" ).change(function() {

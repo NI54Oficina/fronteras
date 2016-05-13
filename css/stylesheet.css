@@ -218,6 +218,8 @@ header{
 /* Tres cajas (mercados, clima. noticias del sector)*/
 .clima-title{
 	padding: 0;
+	background-color: #2E9DFB;
+	height:78%;
 }
 
 .clima-title h1 {
@@ -667,8 +669,9 @@ header{
 	padding:0 25px;
 }
 
-.box-clima div{
+.box-clima > div{
 	padding:0px 5px;
+	padding-top: 10px;
 	background-color:transparent;
 	color:white;
 	font-family:'arialregular';
@@ -676,7 +679,7 @@ header{
 
 
 /* CAJA CLIMA PRIMERA*/
-.box-clima  > div:first-child > div:first-child{
+.box-clima  .form-clima{
 	background-color:#F1EFEF;
 	min-height: 50px;
     border-bottom: 4px solid #0078B9;
@@ -684,13 +687,6 @@ header{
     border-left: none;
     border-right: none;
 	margin-bottom:4px;
-}
-
-.box-clima  > div:first-child > div:nth-child(2){
-	background-color:#2E9DFB;
-	min-height: 245px;
-	border:none;
-	padding: 0;
 }
 
 
@@ -716,7 +712,7 @@ header{
 /* Cajas clima normales */
 .box-clima  .box-clima-inner{
 	background-color:transparent;
-	padding:20px;
+	padding:10px 20px;
 	border:2px solid #2E9DFB;
 }
 
@@ -748,7 +744,6 @@ header{
 
 .box-clima >  div:nth-child(2) .small-boxes-mercado p{
     font-size: 1.7em;
-	padding-top: 30px;
 	display: inline-block;
 	color:#36464E;
 }
@@ -778,7 +773,7 @@ header{
 /* Información del clima */
 .box-clima .info-clima{
 	text-align: left;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 
@@ -809,7 +804,6 @@ header{
 
 .box-clima >  div:nth-child(3) .small-boxes-mercado p{
     font-size: 1.7em;
-	padding-top: 30px;
 	display: inline-block;
 	color:#36464E;
 }
@@ -842,7 +836,6 @@ header{
 /********* Clima 3 ************/
 .box-clima >  div:nth-child(4) .small-boxes-mercado p{
     font-size: 1.7em;
-	padding-top: 30px;
 	display: inline-block;
 	color:#36464E;
 }
@@ -1428,7 +1421,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-image: url(../img/bg-index.png); 
 	width: 100%;  
 	text-align: center; 
-	background-size: auto;
+	background-size:auto 100% ;
 	min-height: 100vh;
 }
 
