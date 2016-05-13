@@ -106,10 +106,18 @@ and (max-device-width : 1024px)  {
 		font-size: 2em;
 	}
 
-
+	 /**********CLIMA**********/
 
 	.box-clima .box-clima-inner{
-		padding: 20px 2px;
+		padding: 20px 5px;
+	}
+
+	.box-clima .small-boxes-mercado > img {
+		width: 80%;
+	}
+
+	.box-clima .fecha-descripcion{
+		margin-bottom: 10px;
 	}
 	
 	/***********HOY********/
