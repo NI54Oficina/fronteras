@@ -37,18 +37,13 @@
 
 				<form method="post">
          			 <select name="localidad" >
-<<<<<<< HEAD
-					
-=======
 
-         			 <option value="localidad" selected disabled>Seleccione localidad</option>
+
+         			 <option value="" selected disabled>Seleccione localidad</option>
 					
 					 </select>
->>>>>>> origin/master
 
-         			 <option value=""selected disabled>Localidad </option>
-         		   
-         			 </select>
+
 
 
 				</form>
