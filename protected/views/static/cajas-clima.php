@@ -86,6 +86,8 @@
 
 
 </div>
+</div>
+</div>
 <script>
 $( "#localidad-clima" ).change(function() {
   $("#formClima").submit();
