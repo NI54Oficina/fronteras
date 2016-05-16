@@ -52,7 +52,8 @@
 			<!-- Ampliar -->
 
 			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
-			<h5 class="center-to-parent">+</h5>
+			
+			<h5 class="center-to-parent"><br />+</h5>
 			</div>
 
 		</div>
@@ -103,7 +104,7 @@
 			</div>			
 			<!-- Ampliar -->
 			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
-			<h5 class="center-to-parent">+</h5>
+			<h5 class="center-to-parent"><br />+</h5>
 			</div>
 
 		</div>

@@ -192,6 +192,38 @@ and (orientation : portrait){
 		height: 135px;
 		margin-top: -6px;
 	}
+	
+	.box-mercado {
+		padding: 0 5px;
+		border: none;
+		font-family: 'arialregular';
+	}
+	
+	.columna-ganado p {
+		font-size: 1.2rem;
+		padding-left: 5px;
+	}
+	
+	.table-mercado-items div p {
+		padding-left: 5px;
+		font-size: .7em;
+	}
+	
+	.columna-indicadores p {
+		font-size: 1rem;
+		padding-left: 4px;
+	}
+	
+	.box-mercado .table-mercado-items .moneda-mercados {
+		font-size: .7rem;
+		padding-left: 5px;
+	}
+	
+	.columna-granos p {
+		font-size: 1rem;
+		padding-left: 5px;
+	}
+	
 }
 
 /** FIN**/

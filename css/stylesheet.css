@@ -107,7 +107,7 @@ header{
 
 
 .flecos-header div{
-	background-image:url(../img/fleco-h.png);
+	background-image:url(../img/fleco-nuevo.png);
     width: 100vw;
     height:25px;
     background-repeat: repeat-x;
@@ -230,8 +230,7 @@ header{
 
 
 .maxboxes-inner{
- 	padding: 25px 25px;
-	padding-top: 70px;
+ 	padding: 35px 25px;
 }
 
 .box-mercado-clima-noticias {
@@ -670,7 +669,7 @@ header{
 }
 
 .box-clima{
-	padding:0 25px;
+	padding:30px 25px;
 }
 
 .box-clima > div{
@@ -1000,8 +999,69 @@ header{
 	font-size:1.8rem;
 }
 
+.mapa-clima h3{
+	margin:0;
+	color: #2E9DFB;
+    font-size: 1.1em;
+	padding-top: 15px; 
+}
+.border-mapa{
+	border: 2px solid #2E9DFB;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
 
+#lluvias-temperaturas-h1{
+	text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 12px;
+    width: 200px;
+}
 
+.box-clima-mapas-inner{
+	background-color: white;
+    padding: 10px 20px;
+}
+
+.form-clima-mapa{ 
+    background-color: #F1EFEF;
+    min-height: 163px;
+    margin-bottom: 4px;
+}
+
+.form-clima-mapa p{ 
+	padding-top:30px;
+}
+
+.btn-mapas{ 
+	display: inline-block;
+    padding: 9px 0px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top: 85px;
+    width: 100%;
+    background: #2E9DFB;
+    color: #FFF;
+    letter-spacing: 1px;
+    font-family: 'arialregular';
+}
 /************************************
 ************* NOTICIAS ***********
 ************************************/
