@@ -3,5 +3,7 @@
 	<?php include_once("cajas-clima.php") ?>
 	
 	<?php include_once("mapas-clima.php") ?>
+	
+	<?php include_once("mapas-hidricas.php") ?>
 
 </section>
