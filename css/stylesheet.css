@@ -1804,6 +1804,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	width: 100%;
 	height: 100%;
 	margin: 20% auto;
+	top:0;
 	right: 0;
 	left: 0;
 	z-index: 9999;
@@ -1814,3 +1815,35 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
+/*SPLASH HOME*/
+
+.splash{
+	padding: 90px 10px;
+}
+
+.img-1-splash{
+	text-align: center;
+	margin: 2em auto;
+}
+
+.img-2-splash{
+	text-align: right;
+	margin: 7em auto;
+
+	
+}
+
+
+.img-1-splash > img{
+	width: 10em;
+}
+
+.img-2-splash > img{
+	width: 7em;
+	
+}
+
+.slogan-splash{
+	color: gray ;
+	text-align: center;
+}

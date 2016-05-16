@@ -1,6 +1,9 @@
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
+ <?php include ('splash-home.php'); ?> 
+
 <body class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 " >
+
 
 <section id="home" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 fadder">
 
@@ -74,11 +77,21 @@
 
 
 </section>
+
+<script>
+
+$( document ).ready(function() {
+    $(".splash").delay(1500).fadeOut("slow");
+});
+	
+</script>
 	
 </body>
 
 	<!-- FOOT -->
 	<?php include ('foot.php'); ?>
+	<?php include('loading.php'); ?>
+
 
 	
 

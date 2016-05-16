@@ -54,3 +54,4 @@
 	</div>
 </div>
 </header>
+	<?php include('loading.php'); ?>

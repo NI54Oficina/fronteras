@@ -36,5 +36,5 @@
 	
 
 	<?php include("stylesheet-code.php"); ?>
-	<?php include('loading.php'); ?>
+
 	
