@@ -85,29 +85,37 @@
 	
 
 
-#hoy p,#hoy h1, #hoy h2, #hoy h3,  #hoy h4,#hoy div{
+	#hoy p,#hoy h1, #hoy h2, #hoy h3,  #hoy h4,#hoy div{
 	margin-bottom:0;
-}
+	}
 
- #hoy img{
+ 	#hoy img{
  	padding: 0;
- }
+ 	}
 
- .maxboxes, .maxbox-ampliar, .mercados-moneda, .small-boxes-mercado, .maxbox-mercados{
+ 	.maxboxes, .maxbox-ampliar, .mercados-moneda, .small-boxes-mercado, .maxbox-mercados{
  	height: auto !important;
- }
+ 	}
 
-.flecos-header div{
+	.flecos-header div{
 	display:none;
-}
+	}
 
-.navbar-toggle {
+	.navbar-toggle {
     float: left;
-}
+	}
 
-.header-palabras-menu{
+	.header-palabras-menu{
     height: 100vh;
-}
+	}
+
+
+	/*	LOADING PAGE*/
+
+	.loading-gif {	
+	margin: 50% auto;
+	}
+
 
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

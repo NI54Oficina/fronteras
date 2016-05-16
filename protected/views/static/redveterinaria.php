@@ -55,7 +55,7 @@
 					<p  >No hay veterinarias adheridas en esta provincia.</p>
 				</div>
 		 	 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
-					<!--- El html se genera por php, no se le pueden agregar clases aca, queda el code solo de ejemplo para ver la estructura !--->
+					<!--- El html se genera por php, no se le pueden agregar clases aca, queda el code solo de ejemplo para ver la estructura !-->
 				 <h1>Nombre de la Red veterinaria</h1>
 				 <p>Provincia, Ciudad</p>
 				 <p>Direccion (con altura incluida)</p>
