@@ -78,13 +78,20 @@
 
 </section>
 
-<script>
+<!-- <script>
 
-$( document ).ready(function() {
-    $(".splash").delay(1500).fadeOut("slow");
-});
-	
-</script>
+function showSplash() {
+  document.getElementByClass("splash").css("visibility", hidden)
+}
+setTimeout("showSplash()", 0); // after 1 sec
+
+function showHome() {
+  document.getElementById("home").css("visibility", visible)
+   document.getElementByClass("splash").css("visibility", hidden)
+}
+setTimeout("showHome", 1000); //	
+
+</script> -->
 	
 </body>
 

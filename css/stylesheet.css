@@ -1879,6 +1879,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .splash{
 	padding: 90px 10px;
+	/*visibility: hidden;*/
 }
 
 .img-1-splash{
@@ -1907,3 +1908,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	color: gray ;
 	text-align: center;
 }
+
+/*#home{
+	visibility: hidden;
+}*/
