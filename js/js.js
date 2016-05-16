@@ -1,7 +1,18 @@
 var isHome=false;
 $(window).on("load",function () {
+		LoaderGif();
 		LoadFunction();
+		
 	});
+
+// LOADING GIF FUNCTION
+
+function LoaderGif() {
+	$(".loader").fadeOut("slow");
+}
+
+// ENDS LOADING GIF FUNCTION
+
 
 function LoadFunction(){
 	console.log("entra load");
@@ -72,6 +83,9 @@ function LoadFunction(){
 		},500);
 		//$("#vademecum-loading").fadeIn(1000);
 }
+
+
+
 	
 	$( window ).resize(function() {
 		

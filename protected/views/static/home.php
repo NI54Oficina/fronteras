@@ -1,5 +1,3 @@
-<?php include('head-index.php'); ?>
-
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
 <body class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 " >
@@ -82,5 +80,8 @@
 	<!-- FOOT -->
 	<?php include ('foot.php'); ?>
 
+	
+
 
 </html>
+
