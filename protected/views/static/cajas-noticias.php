@@ -33,7 +33,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	</div>
 
 	<?php 
-	$notas=FeedNoticias::model()->GetLast(9);
+	$notas=FeedNoticias::model()->GetLast(14);
 	
 	if($notas){
 		
