@@ -2021,6 +2021,13 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	width: 20em;
 }
 
+.loader-home{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+
+}
 
 /*SPLASH HOME*/
 
