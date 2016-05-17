@@ -1436,6 +1436,8 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
+
+
 .box-sanidad-inner > p { 
 	color:#6D4A84;
 }
@@ -1489,6 +1491,140 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
 
+.box-producir-3 > div> div {
+	padding: 0px 10px;
+ 	text-align: center;
+ 	height: 50px;
+ 	background-color: white;
+ 	border-bottom-right-radius: 100px;
+ 	vertical-align: middle;
+	width:89.5vw;
+	margin-top:70px;
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+
+
+.box-sanidad-inner #planes-h1 { 
+    color: #6D4A84;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.box-sanidad-2 {
+    background-color: #6D4A84;
+    width: 89.5vw;
+}
+
+.planes{ 
+	margin-top: 70px;
+    margin-right: 3%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: #6D4A84;
+	box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.52);
+}
+
+.planes *,
+.planes *:before,
+.planes *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.planes .planes-descarga{
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateY(430%);
+  transform: translateY(430%);
+  background-color:white;
+  -webkit-transition:  all 0.5s ease;
+  transition:  all 0.5s ease;
+}
+
+.planes .planes-box {
+	vertical-align:top;
+}
+
+
+.planes:hover .planes-box {
+  zoom: 1;
+  -webkit-transform: translateY(-60px);
+  transform: translateY(-60px);
+}
+
+.planes:hover .planes-descarga{
+  -webkit-transform: translateY(-200);
+  transform: translateY(-200);
+  opacity: 1;
+}
+
+.planes:hover .planes-descarga{
+  -webkit-transition:  all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+.planes-box{ 
+
+}
+
+.planes-descarga{ 
+	height:6vh;
+	background:white;
+}
+
+.planes-descarga img{ 
+	height:40px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+.planes-box p{ 
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 90px;
+    width: 130px;
+}
+
+.planes:hover .border-planes{ 
+	position: relative;
+	transition: all 0.5s ease;
+	margin-bottom:5px;
+}
+
+ .border-planes{
+	width:0%;
+	height:0px;
+	transition-delay:0s;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	opacity:0;
+
+}
+
+
+
+.planes:hover .border-planes{
+	width:12%;
+	height:3px;
+	background:#6D4A84;
+	transition-delay:0.3s;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	opacity: 1;
+}
+
 /*********************HOME*******************/
 
 #home{ 
@@ -1540,7 +1676,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .home-bottom-box > a> div {
-	padding: 20px 20px;     	
+	padding: 20px 20px;    
 }
 
 .hoy-box > div, .hoy-box  {
