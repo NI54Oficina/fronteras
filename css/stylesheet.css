@@ -2024,9 +2024,15 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .loader-home{
 	display: none;
 	position: fixed;
-	bottom: 0;
+	bottom: 50px;
+	left:auto;
+	right: auto;
 	text-align: center;
+}
 
+.loader-home img {
+ width: 100px;
+ margin-top: 25%;
 }
 
 /*SPLASH HOME*/
@@ -2047,7 +2053,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .img-2-splash{
 	text-align: right;
-	margin: 7em auto;
+position: fixed;
+bottom:20px;
+right: 20px;
+	/*margin: 7em auto;*/
 
 	
 }
@@ -2065,5 +2074,14 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .slogan-splash{
 	color: gray ;
 	text-align: center;
+	margin-top: 15px;
 }
 
+.puntitos-splash{
+	background-image: url('../img/puntos-menu.png');
+	margin: 30px auto;
+	width: 90%;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}

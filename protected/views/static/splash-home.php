@@ -2,6 +2,11 @@
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 img-1-splash">
 		<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
 	</div>
+
+	<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 puntitos-splash">
+		
+	</div>
+
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 slogan-splash">
 		<p>SLOGAN FRONTERAS</p>
 	</div>

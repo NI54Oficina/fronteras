@@ -402,12 +402,12 @@ function splash() {
 var finishDelayHome=false;
 function FadeHome(){
 	if(loadHome&&finishDelayHome){
-		// $(".fadder").css('opacity',1);
-		// $("section").css('opacity',1);
-		// $(".fadder").css('animation-play-state',"running");
-		// $("section").css('animation-play-state',"running");
-		//  $(".loader-home").css('display',"none");
-		// console.log("TEST1");
+		$(".fadder").css('opacity',1);
+		$("section").css('opacity',1);
+		$(".fadder").css('animation-play-state',"running");
+		$("section").css('animation-play-state',"running");
+		 $(".loader-home").css('display',"none");
+		console.log("TEST1");
 	}else if(finishDelayHome && !loadHome){
 		 $(".loader-home").css('display',"block");
 		console.log("TEST2");
