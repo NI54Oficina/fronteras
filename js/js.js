@@ -2,6 +2,7 @@ var isHome=false;
 $(window).on("load",function () {
 		LoaderGif();
 		LoadFunction();
+
 		
 	});
 
@@ -13,7 +14,7 @@ function LoaderGif() {
 
 // ENDS LOADING GIF FUNCTION
 
-
+var loadHome=false;
 function LoadFunction(){
 	console.log("entra load");
 		CheckDevice();
@@ -30,6 +31,9 @@ function LoadFunction(){
 			$("section").css('opacity',1);
 			$(".fadder").css('animation-play-state',"running");
 			$("section").css('animation-play-state',"running");
+		}else{
+			loadHome=true;
+			FadeHome();
 		}
 		if(isMobile){
 			  
@@ -290,8 +294,8 @@ function checkVisible( elm, evalType ) {
 
 
 $(document).on("ready",function(){
-
-	 AdaptSquare();
+		splash();
+		 AdaptSquare();
 
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
 		if(isMobile){
@@ -378,9 +382,28 @@ function AdaptSquare(){
 }
 
 
-$( document ).ready(function() {
-    $(".splash").delay(1500).fadeOut("slow");
+function splash() {
+     $(".splash").delay(3000).queue(function(){
+     	finishDelayHome=true;   	
+ 		FadeHome();
+
+
+     });
+     console.log("Entro delay");
     
-});
+}
 
-
+var finishDelayHome=false;
+function FadeHome(){
+	if(loadHome&&finishDelayHome){
+		$(".fadder").css('opacity',1);
+		$("section").css('opacity',1);
+		$(".fadder").css('animation-play-state',"running");
+		$("section").css('animation-play-state',"running");
+		$(".loader").css('display',"none");
+		console.log("TEST1")
+	}else if(finishDelayHome && !loadHome){
+		$(".loader").css('display',"block");
+		console.log("TEST2")
+	}
+}

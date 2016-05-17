@@ -1879,6 +1879,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .splash{
 	padding: 90px 10px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	height: 100vh;
 	/*visibility: hidden;*/
 }
 
@@ -1909,6 +1913,3 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	text-align: center;
 }
 
-/*#home{
-	visibility: hidden;
-}*/

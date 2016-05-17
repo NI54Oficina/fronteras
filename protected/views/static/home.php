@@ -1,3 +1,6 @@
+<script>
+isHome=true;
+</script>
 <?php $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); ?>
 
  <?php include ('splash-home.php'); ?> 
@@ -77,28 +80,19 @@
 
 
 </section>
-
-<!-- <script>
-
-function showSplash() {
-  document.getElementByClass("splash").css("visibility", hidden)
-}
-setTimeout("showSplash()", 0); // after 1 sec
-
-function showHome() {
-  document.getElementById("home").css("visibility", visible)
-   document.getElementByClass("splash").css("visibility", hidden)
-}
-setTimeout("showHome", 1000); //	
-
-</script> -->
 	
 </body>
 
+	
 	<!-- FOOT -->
 	<?php include ('foot.php'); ?>
+
+	<?php if(false) { ?>
+		
 	<?php include('loading.php'); ?>
 
+
+	<?php } ?>
 
 	
 
