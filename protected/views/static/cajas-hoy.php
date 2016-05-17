@@ -22,10 +22,10 @@
 	?>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12 square" hid="1">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
 		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
-		<div class="hoy-box-upper" hid="5">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hoy-box-upper" hid="5">
 		<div class="boxhoy-mercados col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<p>- Mercados -</p>
 			<h3>Dólar oficial</h3>
@@ -53,7 +53,7 @@
 
 			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
 			
-			<h5 class="center-to-parent"><br />+</h5>
+			<h5><br>+</h5>
 			</div>
 
 		</div>
@@ -79,7 +79,7 @@
 	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
 		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
-		<div class="hoy-box-upper" hid="5">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hoy-box-upper" hid="5">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
 			<h4>-  <?php echo $f2["FechaDescripcion"] ?>  -</h4>
 			<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
@@ -104,7 +104,7 @@
 			</div>			
 			<!-- Ampliar -->
 			<div class="maxbox-ampliar col-lg-12 col-md-12 col-sm-12 col-xs-12"hid="4"  >
-			<h5 class="center-to-parent"><br />+</h5>
+			<h5>+</h5>
 			</div>
 
 		</div>
@@ -134,7 +134,7 @@
 
 				
 					<!-- Imágen-->
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
+					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
 					
 					<br />
 		</div>

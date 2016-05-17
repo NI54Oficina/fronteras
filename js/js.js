@@ -173,6 +173,7 @@ function LoadFunction(){
 	
 	function SameHeight(){
 		//console.log("entra same height");
+		
 		var auxId=1;
 		while($( "[hid="+auxId+"]" ).length){
 			var hidHeight=0;
