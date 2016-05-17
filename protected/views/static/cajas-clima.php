@@ -3,9 +3,9 @@
 <div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12 fadder">
 
 	<!-- Clima -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box-clima-title" hid="1" >
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box-clima-title fill-element" hid="1" >
 		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima fixedChildren">
 			
 				
 				<form method="post" id="formClima" >
@@ -13,7 +13,7 @@
 				</form>
 		</div>
 		
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title fadder">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title fillerChildren">
 			
 				<h1 class="center-to-parent">Clima</h1>
 			
@@ -33,15 +33,15 @@
 		foreach($f as $f2){
 	 ?>
 
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 " >
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 " hid="1">
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-clima-inner" hid="1"  >
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-clima-inner"   >
 
 			<h3 class="fecha-descripcion"><?php echo $f2["FechaDescripcion"] ?>
 			</h3>
 			
 			<!-- Clima datos & clima imágen -->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-data">
 				
 				<!--Clima imágen-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">

@@ -20,8 +20,9 @@ function LoadFunction(){
 		CheckDevice();
 		Header();
 		SameHeight();
+		FillParent();
 		ResizeViewportElements();
-		CenterToParent()
+		CenterToParent();
 		
 
 
@@ -406,4 +407,18 @@ function FadeHome(){
 		$(".loader").css('display',"block");
 		console.log("TEST2")
 	}
+}
+
+function FillParent(){
+	$(".fill-element").each(function(){
+		var heightOccupied=0;
+		$(this).children(".fixedChildren").each(function(){
+			heightOccupied+= $(this).outerHeight(true);
+		});
+		
+		var parentHeight= parseInt($(this).innerHeight());
+		var fillerHeight= parentHeight-heightOccupied-10;
+		console.log("filler"+fillerHeight);
+		$(this).children(".fillerChildren").css("height",fillerHeight+"px");
+	});
 }

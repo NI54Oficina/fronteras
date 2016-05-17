@@ -703,6 +703,10 @@ header{
     padding-left: 10px;
 }
 
+.box-clima .box-clima-title{
+	/*background-color:#2E9DFB;*/
+}
+
 /* Título CLIMA */
 .box-clima  > div:first-child > div:nth-child(2) h1{
 	text-align:center;
@@ -715,10 +719,14 @@ header{
 /* Cajas clima normales */
 .box-clima  .box-clima-inner{
 	background-color:transparent;
-	padding:10px 20px;
+	padding:20px 20px;
 	border:2px solid #2E9DFB;
+	height:100%;
 }
 
+.box-clima .inner-data{
+	padding-top:25px;
+}
 
 .box-clima  .fecha-descripcion{
 	margin:0;
@@ -776,7 +784,7 @@ header{
 /* Información del clima */
 .box-clima .info-clima{
 	text-align: left;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 
