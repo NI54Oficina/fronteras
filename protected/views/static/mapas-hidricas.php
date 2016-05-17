@@ -1,22 +1,26 @@
 <?php
 
-$options = array(
+/*$options = array(
   'http'=>array(
     'method'=>"GET",
     'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
   )
-);
-$context=stream_context_create($options);
+);*/
+//$context=stream_context_create($options);
 
-$dataH = @file_get_contents('http://www.fyo.com/clima/views/vista_necesidades_hidricas',false,$context);
+//$dataH = @file_get_contents('http://www.fyo.com/clima/views/vista_necesidades_hidricas',false,$context);
+
+/*$dahtaH= HidricaMapa::model()->GetLast()->content;	
 
 if($dataH){
 
     $array = json_decode($dataH,true);
 
 	$fecha = $array;
-	$f=$fecha[0];
-	
+	$f=$fecha[0];*/
+	//$f=HidricaMapa::model()->GetLast()->content;	
+	$f= json_decode(HidricaMapa::model()->GetLast()[0]->content,true);
+	if(true){
 ?>
 	<div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12 fadder">
 	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 2 box-clima-title" hid="1" >

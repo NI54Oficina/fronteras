@@ -31,7 +31,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","getLocalidades","getVeterinaria","getVeterinariaByProvincia"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -162,6 +162,16 @@ class WebController extends Controller
 	
 	public function actionCheckFeeds(){
 		echo FeedNoticias::model()->CheckFeed();
+	}
+	
+	public function actionCheckClima(){
+		if($mapaClima= ClimaMapas::model()->CheckFeed()||$mapaHidrica= HidricaMapa::model()->CheckFeed()){
+			return true;
+		}
+		return false;
+		//$clima= FeedNoticias::model()->CheckFeed();
+		;
+		
 	}
 	
 	public function actionGetLocalidades($id){

@@ -1,6 +1,6 @@
 <?php
 
-$options = array(
+/*$options = array(
   'http'=>array(
     'method'=>"GET",
     'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
@@ -8,14 +8,16 @@ $options = array(
 );
 $context=stream_context_create($options);
 
-$data = @file_get_contents('http://www.fyo.com/clima/views/vista_temperaturas',false,$context);
+$data = @file_get_contents('http://www.fyo.com/clima/views/vista_temperaturas',false,$context);*/
 
-if($data){
+$f= json_decode(ClimaMapas::model()->GetLast()[0]->content,true);
 
-    $array = json_decode($data,true);
+if(true){
+
+  /*  $array = json_decode($data,true);
 
 	$fecha = $array;
-	$f=$fecha[0];
+	$f=$fecha[0];*/
 	
 ?>
 	<div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12 fadder">
