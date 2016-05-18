@@ -2088,6 +2088,39 @@ right: 20px;
 }
 
 
+/*TITULO MOBILE*/
+
+.titulo-mobile {
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 1;
+}
+
+.titulo-mobile > p {
+	padding:6px 6px;
+	margin:0;
+	color: white;
+}
+.titulo-mobile-producir {
+	background-color: #7067B0;
+}
+
+.titulo-mobile-clima {
+	background-color: #2E9DFB;
+}
+
+.titulo-mobile-mercados {
+	background-color: #28A382;
+}
+
+.titulo-mobile-noticias {
+	background-color: #2ED7AA;
+}
+
+
+
+
 
 
 
@@ -2125,6 +2158,7 @@ right: 20px;
 
 .maxboxes-inner-estemes .estemes-img{
     width: 50%;
+<<<<<<< HEAD
 }
 
 
@@ -2149,4 +2183,7 @@ right: 20px;
     font-size: 2rem;
     text-align: center;
     padding-top: 55px;
+=======
+
+>>>>>>> 144f220a3e8097342bdcf6becf26a3169fba1f82
 }

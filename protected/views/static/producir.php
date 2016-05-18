@@ -1,5 +1,7 @@
 <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Producir + </p> </div>
+
  <div class="gota-producir col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
 	 <div id="btn-sanidad">
  		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/sanidad">

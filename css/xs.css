@@ -5,10 +5,27 @@
 		padding:100px 2px;
 	}
 	
+
+	/*HOME*/
 	#home{
-		padding: 0;
+		padding: 20px 20px;
+	}
+	 .home-upper-box{
+	 	padding:  7px 7px 20px 7px;
+	}
+
+	.home-upper-box > div {
+		padding: 10px;
 	}
 	
+	.home-upper-box img:nth-child(1) {
+	    float: none;
+	    width: 6em;
+	}
+	.home-bottom-box > a> div {
+    	padding: 7px 7px;
+	}
+
 	.box-producir p {
 		font-size: .8em;
 	}
@@ -32,9 +49,13 @@
 	.box-producir-2  p{
 		font-size: 1em;
 	}
+
+	/*TERMINA HOME*/
 	
 	.navbar-toggle {
 		margin-right:0px;
+		margin-top: 0;
+		color: #5F5F5F;
 	}
 	
 	.ul-nav{
@@ -120,6 +141,13 @@
     margin-top: 0px;
     height: 0px;
 }
+
+
+
+	/*CLIMA*/
+	.box-clima-title{
+		height: auto !important;
+	}
 
 
 /*CIERRE DE LLAVES PRINCIPALES*/
