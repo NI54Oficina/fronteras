@@ -61,7 +61,24 @@ $secciones["Empresas"]="noticia-tipo-4";
 			<div  class=" container-texto-noticias " hid="6" >
 				
 				<h2 hid="4"><?php echo $f["titulo"]; ?></h2>
-				<p hid="5"><?php echo $f["bajada"]; ?></p>
+				<p hid="5">
+					
+				<?php  
+				$text=$f["bajada"];
+				$maxlength=140;
+				$espacio=" ";
+
+				if(strlen($text) <= $maxlength){
+					echo $text;
+
+					}else{
+
+   				$newText=substr($text,0,$maxlength) . '...';
+   				$posicion = strripos($newText, $espacio);
+    			echo substr($newText,0,$posicion)."...";
+				}
+				?>
+				</p>
 					
 				<!-- Fecha -->
 				<div class="fecha" hid="3">
