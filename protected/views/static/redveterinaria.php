@@ -42,10 +42,7 @@
          			 <option value="" selected disabled>Seleccione localidad</option>
 					
 					 </select>
-					
-
-
-
+					 
 				</form>
 
 

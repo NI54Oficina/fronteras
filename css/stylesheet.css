@@ -2005,9 +2005,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .loading {
 	background-color: transparent;
 }
-.loading-gif {	
 
-	background-color: transparent;;
+
+.loading-gif {	
+	background-color: transparent;
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -2054,12 +2055,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .img-2-splash{
 	text-align: right;
-position: fixed;
-bottom:20px;
-right: 20px;
-	/*margin: 7em auto;*/
-
-	
+	position: fixed;
+	bottom:20px;
+	right: 20px;
 }
 
 
@@ -2068,8 +2066,7 @@ right: 20px;
 }
 
 .img-2-splash > img{
-	width: 7em;
-	
+	width: 7em;	
 }
 
 .slogan-splash{
@@ -2171,6 +2168,7 @@ right: 20px;
 .checkbox-box{
 	display:inline-block;
 	border: 1px solid #189dbf;
+	
 }
 
 #nombre-checkbox{
@@ -2182,8 +2180,5 @@ right: 20px;
     font-size: 2rem;
     text-align: center;
     padding-top: 55px;
-
-	
-	
 	
 }
