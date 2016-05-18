@@ -115,6 +115,11 @@
 	.loading-gif {	
 	margin: 50% auto;
 	}
+	
+	.navbar-toggle {
+    margin-top: 0px;
+    height: 0px;
+}
 
 
 /*CIERRE DE LLAVES PRINCIPALES*/
