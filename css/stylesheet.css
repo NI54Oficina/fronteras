@@ -2085,3 +2085,31 @@ right: 20px;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
+
+/*TITULO MOBILE*/
+
+.titulo-mobile {
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 1;
+}
+
+.titulo-mobile-producir {
+	background-color: #7067B0;
+}
+
+.titulo-mobile-clima {
+	background-color: #2E9DFB;
+}
+
+.titulo-mobile-mercados {
+	background-color: #28A382;
+}
+
+
+.titulo-mobile > p {
+	padding:6px 6px;
+	margin:0;
+	color: white;
+}

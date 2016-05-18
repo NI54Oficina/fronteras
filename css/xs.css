@@ -35,6 +35,8 @@
 	
 	.navbar-toggle {
 		margin-right:0px;
+		margin-top: 0;
+		color: #5F5F5F;
 	}
 	
 	.ul-nav{
@@ -114,6 +116,13 @@
 
 	.loading-gif {	
 	margin: 50% auto;
+	}
+
+
+
+	/*CLIMA*/
+	.box-clima-title{
+		height: auto !important;
 	}
 
 
