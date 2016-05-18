@@ -21,8 +21,61 @@
 		<!-- Caja general: modalidad, consignatorio, lugar, provincia, cabezas -->
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
 		
+			<!-- Modalidad -->
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-2-5">
+			
+				<!-- Titulo -->
+				<div class="">Modalidad</div>
+				<!--Contenido -->
+				<div class=""></div>
+			
+			</div>
 		
 		
+			<!-- Consignatorio-->
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-2-5">
+			
+				<!-- Titulo -->
+				<div class="">Consignatorio</div>
+				<!--Contenido -->
+				<div class=""></div>
+			
+			</div>
+		
+		
+			<!-- Lugar-->
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-2-5">
+			
+				<!-- Titulo -->
+				<div class="">Lugar</div>
+				<!--Contenido -->
+				<div class=""></div>
+			
+			</div>
+			
+		
+			<!-- Provincia -->
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-2-5">
+			
+				<!-- Titulo -->
+				<div class="">Provincia</div>
+				<!--Contenido -->
+				<div class=""></div>
+			
+			</div>
+		
+		
+			<!-- Cabezas-->
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-2-5">
+			
+				<!-- Titulo -->
+				<div class="">Cabezas</div>
+				<!--Contenido -->
+				<div class=""></div>
+			
+			</div>
+			
+			
 		</div>
 	
 	</div>
