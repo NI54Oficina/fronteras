@@ -2186,8 +2186,133 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	
 }
 
+
+
+/************ REMATES **************/
+.remates h1{
+    font-size: 2.3rem;
+    color: #A3A3A3;
+	padding-bottom:30px;
+}
+
+.title-remates{
+	height: 35px;
+}
+
+
+.title-remates h2{
+    color: white;
+    font-size: 1.6rem;
+    padding-top: 10px;
+	margin:0;
+}
+
+.container-fecha-remates{
+    margin-top: 5%;
+}
+
+.container-fecha-remates p {
+	color:white;
+}
+
+.container-fecha-remates p:first-child {
+    margin-top: 50px;
+    font-size: 1.8rem;
+}
+
+.container-fecha-remates p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 4rem;
+}
+
+.container-fecha-remates p:nth-child(3) {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+
+/** Container modadlidad, consignatorio, lugar, provincia, cabezas **/
+/*Modalidad*/
+.container-modalidad{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+/*Consignatorio*/
+.container-consignatorio{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+
+.container-consignatorio p{
+    color: #8F8F8F;
+    padding-top: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/*Lugar*/
+.container-lugar{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+
+.container-lugar p{
+    color: #8F8F8F;
+    letter-spacing: 1px;
+	margin:0;
+}
+
+.container-lugar p:first-child{
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+/*Provincia */
+
+.container-provincia{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+/*Cabezas */
+
+.container-cabezas{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+.container-cabezas p{
+    color: #8F8F8F;
+    padding-top: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+
 /**************** REMATES GENERALES ****************/
+.title-generales{
+    background: #005fb5;
+}
 
-.container-remgenerales{
+.container-fecha-remates-generales{
+	background: #005FB5;
+}
 
+
+/**************** REMATES CABAÑA****************/
+.title-cabania{
+    background: #f9b95a;
+}
+
+.container-fecha-remates-cabania{
+	background: #f9b95a;
 }
