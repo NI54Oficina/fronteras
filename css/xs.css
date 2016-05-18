@@ -6,9 +6,16 @@
 	}
 	
 	#home{
-		padding: 0;
+		padding: 20px 20px;
 	}
+	 .home-upper-box{
+	 	padding:  7px 7px 20px 7px;
+	 }
 	
+	.home-bottom-box > a> div {
+    	padding: 7px 7px;
+	}
+
 	.box-producir p {
 		font-size: .8em;
 	}
