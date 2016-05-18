@@ -2043,9 +2043,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding: 90px 10px;
 	position: fixed;
 	top: 0;
-	background-color: white;
+	background:radial-gradient(circle,white,#f4dfd1);
 	height: 100vh;
-	/*visibility: hidden;*/
+
 }
 
 .img-1-splash{
@@ -2085,12 +2085,14 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
-/*TITULO MOBILE*/
+/***************TITULO MOBILE**********/
 
 .titulo-mobile {
 	position: fixed;
 	width: 100%;
 	top:0;
+	left: 0;
+	right: 0;
 	z-index: 1;
 }
 
@@ -2115,6 +2117,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color: #2ED7AA;
 }
 
+/**********FIN TITULO MOBILE**************/
 
 
 
