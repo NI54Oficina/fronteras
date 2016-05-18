@@ -630,7 +630,7 @@ header{
 
 .box-mercado  .table-mercado-items .moneda-mercados{
     color:  #8c8c8c;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 0;
     margin: 0;
     display: block;
@@ -1892,6 +1892,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	text-align:left;
 	padding-left:10px;
 	color:  #8c8c8c;
+	font-size:1.2rem;
 }
 
 .container-items-mercados{
@@ -2086,6 +2087,7 @@ right: 20px;
 	background-size: 100% auto;
 }
 
+
 /*TITULO MOBILE*/
 
 .titulo-mobile {
@@ -2112,4 +2114,44 @@ right: 20px;
 	padding:6px 6px;
 	margin:0;
 	color: white;
+
+
+
+
+
+
+/********************* ESTE MES ****************************/
+
+/* Caja remates generales */
+.maxbox-remgenerales{
+	background-color: #005fb5;
+    min-height: 100%;
+}
+
+/* Caja remates cabaña */
+.maxbox-remcabania{
+	background-color: #f9b95a;
+    min-height: 100%;
+}
+
+/* Caja checkbox */
+.maxbox-checkbox{
+	background-color: #189dbf;
+    min-height: 100%;
+}
+
+.maxboxes-inner-estemes{
+	padding: 35px 25px;
+	padding-top:80px;
+}
+
+
+.maxboxes-inner-estemes h2{
+    padding-top: 65%;
+	font-size: 1.9em;
+}
+
+.maxboxes-inner-estemes .estemes-img{
+    width: 50%;
+
 }
