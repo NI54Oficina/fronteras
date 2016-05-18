@@ -2097,6 +2097,11 @@ right: 20px;
 	z-index: 1;
 }
 
+.titulo-mobile > p {
+	padding:6px 6px;
+	margin:0;
+	color: white;
+}
 .titulo-mobile-producir {
 	background-color: #7067B0;
 }
@@ -2109,11 +2114,11 @@ right: 20px;
 	background-color: #28A382;
 }
 
+.titulo-mobile-noticias {
+	background-color: #2ED7AA;
+}
 
-.titulo-mobile > p {
-	padding:6px 6px;
-	margin:0;
-	color: white;
+
 
 
 
