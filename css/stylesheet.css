@@ -2126,3 +2126,27 @@ right: 20px;
 .maxboxes-inner-estemes .estemes-img{
     width: 50%;
 }
+
+
+/******** CHECKBOX ************/
+#checkbox h1{
+    font-size: 2.3rem;
+    color: #A3A3A3;
+	padding-bottom:30px;
+}
+
+.checkbox-box{
+	display:inline-block;
+	border: 1px solid #189dbf;
+}
+
+#nombre-checkbox{
+	background:#189dbf;
+}
+
+#nombre-checkbox h2{
+	color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 55px;
+}

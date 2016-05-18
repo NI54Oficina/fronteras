@@ -16,6 +16,8 @@
 	height: auto !important;
 }
 
-
+.col-md-2-6{
+	width:16%;
+}
 /*FIN DE LLAVES PRINCIPALES*/
 }
