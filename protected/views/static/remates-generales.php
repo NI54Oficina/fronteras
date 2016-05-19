@@ -1,3 +1,10 @@
+<?php
+$remates= Remates::model()->findAll();
+
+?>
+<?php foreach($remates as $remate){ ?>
+<?php echo $remate["fecha"]; ?>
+<?php } ?>
 
 <!-- REMATES GENERALES -->
 <div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Cabañas </p> </div>
@@ -16,13 +23,16 @@
 			<div class="title-remates color-generales hidden-xs"> <h2>Fecha</h2></div>
 		
 			<!-- Caja fecha particular -->
+			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-generales hidden-xs">
 				
 				<p>Miércoles</p>
 				<p>18</p>
 				<p>Mayo del 2016</p>
+				
 			
 			</div>
+			
 		
 		</div>
 		
