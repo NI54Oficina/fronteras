@@ -1,10 +1,10 @@
 <?php
 $remates= Remates::model()->findAll();
-
 ?>
-<?php foreach($remates as $remate){ ?>
-<?php echo $remate["fecha"]; ?>
-<?php } ?>
+
+
+
+
 
 <!-- REMATES GENERALES -->
 <div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Cabañas </p> </div>
@@ -29,20 +29,20 @@ $remates= Remates::model()->findAll();
 			<!-- Caja fecha particular -->
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-generales hidden-xs">
-			
-			<div class=" center-to-parent">	
-				<p>Miércoles</p>
-				<p>18</p>
-				<p>Mayo del 2016</p>
 				
-			
+				<div class=" center-to-parent ">
+					
+					<p>Miércoles</p>
+					<p>18</p>
+					<p>Mayo del 2016</p>
+					</div>
+					
+					
 			</div>
-<<<<<<< HEAD
 			
-=======
 
-		</div>	
->>>>>>> origin/master
+			</div>	
+
 		
 		</div>
 		
@@ -52,40 +52,46 @@ $remates= Remates::model()->findAll();
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
 		
 			<!-- Modalidad -->
+			
 			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Modalidad</h2></div>
 				<!--Contenido -->
-				<div class="container-modalidad"></div>
-			
+				<?php foreach($remates as $remate){ ?>
+				<div class="container-modalidad"><?php echo $remate["modalidad"]; ?></div>
+				<?php } ?>
 			</div>
-		
+			
 		
 			<!-- Consignatorio-->
+			
 			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Consignatorio</h2></div>
 				<!--Contenido -->
+				<?php foreach($remates as $remate){ ?>
 				<div class="container-consignatorio">
-					<p>Néstor Hugo Fuentes S.A</p>
+					<p><?php echo $remate["consignatario"]; ?></p>
 				</div>
-			
+				<?php } ?>	
 			</div>
-		
+			
 		
 			<!-- Lugar-->
+			
 			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Lugar</h2></div>
 				<!--Contenido -->
+				<?php foreach($remates as $remate){ ?>
 				<div class="container-lugar">
-					<p>Bernasconi</p>
-					<p>Néstor Hugo Fuentes S.A</p>
+					<p><?php echo $remate["lugar"]; ?></p>
+					<p><?php echo $remate["detalle"]; ?></p>
 				</div>
-			
+				<?php } ?>
 			</div>
 			
 		
@@ -95,21 +101,23 @@ $remates= Remates::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Provincia</h2></div>
 				<!--Contenido -->
-				<div class="container-provincia"></div>
-			
+				<?php foreach($remates as $remate){ ?>
+				<div class="container-provincia"><?php echo $remate["provincia"]; ?></div>
+				<?php } ?>
 			</div>
 		
-		
 			<!-- Cabezas-->
+			
 			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Cabezas</h2></div>
 				<!--Contenido -->
+				<?php foreach($remates as $remate){ ?>
 				<div class="container-cabezas">
-					<p>900</p>
+					<p><?php echo $remate["cabezas"]; ?></p>
 				</div>
-			
+				<?php } ?>
 			</div>
 			
 			
