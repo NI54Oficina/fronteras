@@ -26,7 +26,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5 hidden-xs" id="noticia-box" hid="10">
 	<div class="noticia-box-2">
 
-	<div hid="2" style="margin-bottom:5px;"></div>
+	<div hid="7" style="margin-bottom:5px;"></div>
 
 	<div hid="1"></div>
 
