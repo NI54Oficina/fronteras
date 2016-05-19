@@ -2219,17 +2219,17 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .container-fecha-remates p:first-child {
-    margin-top: 50px;
+   
     font-size: 1.8rem;
 }
 
 .container-fecha-remates p:nth-child(2) {
-    margin-top: 10px;
+    
     font-size: 4rem;
 }
 
 .container-fecha-remates p:nth-child(3) {
-    margin-top: 30px;
+    
     font-size: 2rem;
 }
 
@@ -2305,6 +2305,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	color: white;
 	font-size: 1.2em;
 }
+
 
 /**************** REMATES GENERALES ****************/
 

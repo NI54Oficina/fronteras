@@ -2,7 +2,7 @@
 
 
 	.section { /*Disminucion de padding en mobile*/
-		padding:100px 2px;
+		padding:50px 2px;
 	}
 	
 	.col-xs-5{
@@ -166,6 +166,11 @@
 	.container-fechas-remates {
 		height: auto !important;
 	}
+
+	.remates-box{
+	padding: 1px 0.5px;
+	}
+
 
 
 /*CIERRE DE LLAVES PRINCIPALES*/

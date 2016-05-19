@@ -12,14 +12,17 @@
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
 			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-cabanias">Miercoles 18 Mayo del 2016</p>
 			<!-- Titulo FECHA -->
-			<div class="title-remates title-cabanias hidden-xs"> <h2>Fecha</h2></div>
+			<div class="title-remates color-cabanias hidden-xs"> <h2>Fecha</h2></div>
 		
 			<!-- Caja fecha particular -->
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-cabanias hidden-xs">
 				
+			<div class="center-to-parent">	
 				<p>Miércoles</p>
 				<p>18</p>
 				<p>Mayo del 2016</p>
+			
+			</div>
 			
 			</div>
 		
@@ -30,7 +33,7 @@
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
 		
 			<!-- Modalidad -->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2>Modalidad</h2></div>
@@ -41,7 +44,7 @@
 		
 		
 			<!-- Consignatorio-->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2>Consignatorio</h2></div>
@@ -54,7 +57,7 @@
 		
 		
 			<!-- Lugar-->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2>Lugar</h2></div>
@@ -68,7 +71,7 @@
 			
 		
 			<!-- Provincia -->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2>Provincia</h2></div>
@@ -79,7 +82,7 @@
 		
 		
 			<!-- Cabezas-->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 remates-box">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2>Cabezas</h2></div>
