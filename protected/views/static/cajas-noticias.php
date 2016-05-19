@@ -71,11 +71,11 @@ $secciones["Empresas"]="noticia-tipo-4";
 				if(strlen($text) <= $maxlength){
 					echo $text;
 
-					}else{
+				}else{
 
-   				$newText=substr($text,0,$maxlength) . '...';
-   				$posicion = strripos($newText, $espacio);
-    			echo substr($newText,0,$posicion)."...";
+					$newText=substr($text,0,$maxlength) . '...';
+					$posicion = strripos($newText, $espacio);
+					echo substr($newText,0,$posicion)."...";
 				}
 				?>
 				</p>
