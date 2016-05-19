@@ -14,12 +14,12 @@ $remates= Remates::model()->findAll();
 <h1 class="hidden-xs">Remates generales</h1>
 	
 	<!-- Caja general -->
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"c>
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
 
 	
 	
 		<!-- Caja general fecha -->
-		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-generales">Miercoles 18 Mayo del 2016</p>
 
 
@@ -125,4 +125,39 @@ $remates= Remates::model()->findAll();
 	
 	</div>
 
+
+	<div class="div-de-prueba">
+		
+
+<li style="display:none;">hola1</li>
+<li style="display:none;" >hola2</li>
+<li style="display:none;" >hola3</li>
+<li style="display:none;" >hola4</li>
+<li style="display:none;" >hola5</li>
+
+<button class="boton-prueba">
+	PRUEBA
+</button>
+
+
+	</div>
+
 </section>
+
+<script>
+
+$(document).ready(function () {
+	index=0;
+
+ $('.div-de-prueba li').eq(index).css("display","block");
+    console.log("esto funciona");
+    $(".boton-prueba").click(function(){
+    	$('.div-de-prueba li').css("display","none");
+		$('.div-de-prueba li').eq(++index).css("display","block");
+	})
+
+});
+
+
+
+</script>
