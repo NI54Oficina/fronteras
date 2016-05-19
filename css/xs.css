@@ -5,6 +5,9 @@
 		padding:100px 2px;
 	}
 	
+	.col-xs-5{
+		width: 20%;
+	}
 
 	/*HOME*/
 	#home{
@@ -146,6 +149,21 @@
 
 	/*CLIMA*/
 	.box-clima-title{
+		height: auto !important;
+	}
+
+
+
+
+   /*REMATES TEST*/
+
+
+	.title-remates h2{
+    	font-size: 1.2rem;
+    
+	}
+
+	.container-fechas-remates {
 		height: auto !important;
 	}
 

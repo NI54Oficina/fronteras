@@ -2105,17 +2105,19 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color: #7067B0;
 }
 
-.titulo-mobile-clima {
-	background-color: #2E9DFB;
+.titulo-mobile-estemes {
+	background-color: #0093D4;
 }
 
-.titulo-mobile-mercados {
-	background-color: #28A382;
+.titulo-mobile-ayuda {
+	background-color: #79BEFE;
 }
 
-.titulo-mobile-noticias {
-	background-color: #2ED7AA;
+.titulo-mobile-hoy {
+	background-color: #40CEDB;
 }
+
+
 
 /**********FIN TITULO MOBILE**************/
 
@@ -2209,6 +2211,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .container-fecha-remates{
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .container-fecha-remates p {
@@ -2297,22 +2300,21 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     margin: 0;
 }
 
-
-/**************** REMATES GENERALES ****************/
-.title-generales{
-    background: #005fb5;
+.fecha-remates-mobile{
+	padding:20px 0px;
+	color: white;
+	font-size: 1.2em;
 }
 
-.container-fecha-remates-generales{
+/**************** REMATES GENERALES ****************/
+
+.color-generales{
 	background: #005FB5;
 }
 
 
 /**************** REMATES CABAÑA****************/
-.title-cabania{
-    background: #f9b95a;
-}
 
-.container-fecha-remates-cabania{
+.color-cabanias{
 	background: #f9b95a;
 }
