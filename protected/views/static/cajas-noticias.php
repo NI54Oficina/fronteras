@@ -23,11 +23,13 @@ $secciones["Empresas"]="noticia-tipo-4";
 <div class="box-noticias col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
-	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5 hidden-xs" id="noticia-box" hid="1">
+	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5 hidden-xs" id="noticia-box" hid="10">
 	<div class="noticia-box-2">
-	<div hid="2"></div>
+	<div hid="1"></div>
+
 		<div id="noticia-box-inner" class="square">
-		<h1 id="noticia-box-title" class="center-to-parent">Noticias del sector</h1>
+		<h1 id="noticia-box-title" class="center-to-parent">Noticias del sector
+		</h1>
 		</div>
 	</div>	
 	</div>
@@ -41,14 +43,14 @@ $secciones["Empresas"]="noticia-tipo-4";
 	?>
 	<!-- Noticia 2-->
 	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>" > 
-	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" hid="1">
+	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5" hid="10">
 		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?>">
 		
 			<!--Título de sección -->
 			
 				<div class="border-noticias-h1 b-r">
 				</div>
-				<div class="container-h1-noticias" hid="2">
+				<div class="container-h1-noticias" hid="7">
 					<h1 ><?php echo $f["categoria"]; ?></h1>
 				</div>
 				<div class="border-noticias-h1 b-l"></div>
@@ -60,8 +62,8 @@ $secciones["Empresas"]="noticia-tipo-4";
 			<!-- Texto noticia -->
 			<div  class=" container-texto-noticias " hid="6" >
 				
-				<h2 hid="4"><?php echo $f["titulo"]; ?></h2>
-				<p hid="5">
+				<h2 hid="2"><?php echo $f["titulo"]; ?></h2>
+				<p hid="3">
 					
 				<?php  
 				$text=$f["bajada"];
@@ -73,7 +75,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 				}else{
 
-					$newText=substr($text,0,$maxlength) . '...';
+					$newText=substr($text,0,$maxlength);
 					$posicion = strripos($newText, $espacio);
 					echo substr($newText,0,$posicion)."...";
 				}
@@ -81,7 +83,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 				</p>
 					
 				<!-- Fecha -->
-				<div class="fecha" hid="3">
+				<div class="fecha" hid="4">
 					<p><?php echo $f["fecha"]; ?></p>
 					
 				</div>
