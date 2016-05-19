@@ -2,7 +2,7 @@
 
 
 	.section { /*Disminucion de padding en mobile*/
-		padding:100px 2px;
+		padding:50px 2px;
 	}
 	
 	.col-xs-5{
