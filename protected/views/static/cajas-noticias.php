@@ -25,7 +25,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	<!-- TÍTULO NOTICIAS DEL SECTOR -->
 	<div class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5 hidden-xs" id="noticia-box" hid="1">
 	<div class="noticia-box-2">
-	<div hid="2"></div>
+	<div hid="2" style="margin-bottom:5px;"></div>
 		<div id="noticia-box-inner" class="square">
 		<h1 id="noticia-box-title" class="center-to-parent">Noticias del sector</h1>
 		</div>
