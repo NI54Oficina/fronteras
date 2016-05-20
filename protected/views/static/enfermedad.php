@@ -1,5 +1,5 @@
 <?php
-$nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"));
+$nota = Notas::model()->findByAttributes(array("id"=>$data,"seccion"=>"enfermedad"));
 
 ?>
 

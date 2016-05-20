@@ -73,6 +73,7 @@ return array(
 				),
 				
 				"<pais>/noticia/<id>"=>"web/get/data/noticia/id/<id>",
+				"<pais>/enfermedad/<id>"=>"web/get/data/enfermedad/id/<id>",
 
 				'<controller:\w+>/<action:\w+>/id/<id>'=>'<controller>/<action>/id/<id>',
 				
