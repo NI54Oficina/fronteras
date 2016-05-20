@@ -1,4 +1,8 @@
-
+<?php 
+$iconDown='<span class="glyphicon glyphicon-chevron-down"></span>';
+$iconUp=' <span class="glyphicon glyphicon-chevron-up"></span>';
+$iconEqual='<span class="glyphicon glyphicon-align-justify"></span>';
+?>
 <!--MERCADOS-->
 
 <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 box-mercado">

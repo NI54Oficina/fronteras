@@ -49,11 +49,15 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 						<p>Categoría</p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
+					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3   columna-ganado">
 						<p>Precio $ </p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 columna-ganado">
+					<p>&nbsp;</p>
+					</div>
+					
+					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3   columna-ganado">
 						<p>Var Día $</p>
 					</div>
 				
@@ -70,11 +74,22 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 						<p><?php echo $c["Nombre"]; ?></p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<p><?php echo $c["Precios"][0]["PrecioLiniers"]; ?></p><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecha-mercado.png" alt="Flecha arriba" />!-->
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+						<?php $variacion=floatval(str_replace(',','.',$c["Precios"][0]["VariacionLiniers"]));
+						 if($variacion<0){
+							echo $iconDown;
+						}else if($variacion>0){
+							echo $iconUp;
+						}else{ 
+							echo $iconEqual;
+						} ?>
+					</div>
+					
+					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<p><?php echo $c["Precios"][0]["VariacionLiniers"]; ?></p>
 					</div>
 				
@@ -91,11 +106,22 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 						<p><?php echo $c["Nombre"]; ?></p>
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="precio-ganado">
+					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="precio-ganado">
 						<p><?php echo $c["Precios"][0]["PrecioRosario"]; ?></p><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/flecha-mercado.png" alt="Flecha arriba" />!-->
 					</div>
 					
-					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+						<?php $variacion=floatval(str_replace(',','.',$c["Precios"][0]["VariacionRosario"]));
+						 if($variacion<0){
+							echo $iconDown;
+						}else if($variacion>0){
+							echo $iconUp;
+						}else{ 
+							echo $iconEqual;
+						} ?>
+					</div>
+					
+					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<p><?php echo $c["Precios"][0]["VariacionRosario"]; ?></p>
 					</div>
 				
@@ -107,7 +133,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 			
-				<p>Actualizado: 12-02-2016</p>
+				<p>Actualizado: <?php echo $categorias[0]["FechaActualizacion"]; ?></p>
 			
 			</div>
 			

@@ -67,7 +67,20 @@
 							<?php foreach($order as $key){ 
 								if(array_key_exists($key,$c)){ ?>
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<p class="moneda-mercados"><?php echo $c[$key]; ?></p>
+										<p class="moneda-mercados"><?php if($key=="Indicador"){
+															
+										$variacion=$c[$key];
+										if($variacion=="<"){
+											echo $iconDown;
+										}else if($variacion>0){
+											echo $iconUp;
+										}else{ 
+											echo $iconEqual;
+										}
+											
+										}else{
+											echo $c[$key];
+										} ?></p>
 									</div>
 								<?php } 
 							} ?>
@@ -79,7 +92,7 @@
 			</div>	
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 			
-				<p >Actualizado: 12-02-2016</p>
+				<p >Actualizado: <?php echo $array[0]["FechaCarga"]; ?></p>
 			
 			</div>
 			<?php $idLoop++; } ?>

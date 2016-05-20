@@ -59,7 +59,19 @@
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
 								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<p class="moneda-mercados"><?php echo $c[$key]; ?></p>
+										
+										<p class="moneda-mercados"><?php echo $c[$key]; ?> <?php if($key=="Variacion"){
+															
+										$variacion=floatval(str_replace(',','.',$c[$key]));
+										if($variacion<0){
+											echo $iconDown;
+										}else if($variacion>0){
+											echo $iconUp;
+										}else{ 
+											echo $iconEqual;
+										}
+											
+										} ?></p>
 									</div>
 								<?php } 
 							} ?>
@@ -72,7 +84,7 @@
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 			
-				<p >Actualizado: 12-02-2016</p>
+				<p >Actualizado: <?php echo $item["UltimaFechaActualizacion"]; ?></p>
 			
 			</div>	
 			
@@ -132,7 +144,18 @@
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
 								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<p class="moneda-mercados"><?php echo $c[$key]; ?></p>
+										<p class="moneda-mercados"><?php echo $c[$key]; ?> <?php if($key=="Variacion"){
+															
+										$variacion=floatval(str_replace(',','.',$c[$key]));
+										if($variacion<0){
+											echo $iconDown;
+										}else if($variacion>0){
+											echo $iconUp;
+										}else{ 
+											echo $iconEqual;
+										}
+											
+										} ?></p>
 									</div>
 								<?php } 
 							} ?>
@@ -145,7 +168,7 @@
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 			
-				<p >Actualizado: 12-02-2016</p>
+				<p >Actualizado: <?php echo array_shift($array)["UltimaFechaActualizacion"]; ?></p>
 			
 			</div>	
 			<?php 
