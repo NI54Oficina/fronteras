@@ -1532,20 +1532,21 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .planes *,
 .planes *:before,
 .planes *:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.25s linear;
-  transition: all 0.25s linear;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.25s linear;
+	transition: all 0.25s linear;
 }
 
 .planes .planes-descarga{
-  position: absolute;
-  top: 0;
-  -webkit-transform: translateY(430%);
-  transform: translateY(430%);
-  background-color:white;
-  -webkit-transition:  all 0.5s ease;
-  transition:  all 0.5s ease;
+	position: absolute;
+	top: 0;
+	-webkit-transform: translateY(430%);
+	transform: translateY(430%);
+	background-color:white;
+	-webkit-transition:  all 0.5s ease;
+	transition:  all 0.5s ease;
+	marign:2px 
 }
 
 .planes .planes-box {
@@ -1554,15 +1555,15 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 .planes:hover .planes-box {
-  zoom: 1;
-  -webkit-transform: translateY(-60px);
-  transform: translateY(-60px);
+	zoom: 1;
+	-webkit-transform: translateY(-60px);
+	transform: translateY(-60px);
 }
 
 .planes:hover .planes-descarga{
-  -webkit-transform: translateY(-200);
-  transform: translateY(-200);
-  opacity: 1;
+	-webkit-transform: translateY(-200);
+	transform: translateY(-200);
+	opacity: 1;
 }
 
 .planes:hover .planes-descarga{

@@ -67,7 +67,7 @@
 	
 		
 		
-		<!-- Ovino central y norte -->
+		<!-- Ovino central y norte --> 
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/ovinoscentralynorte.pdf" download="ovino" class="">
 			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box">
