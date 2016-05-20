@@ -22,7 +22,7 @@
 	
 					<p>Cría</p>
 
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga" >
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
 						<div class="border-planes"></div>
 					</div>	
@@ -96,7 +96,7 @@
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
 						<div class="border-planes"></div>
 					</div>
-		
+	
 				</div>
 			</div>
 		</a>
