@@ -37,8 +37,8 @@ function LoadFunction(){
 			FadeHome();
 		}
 		if(isMobile){
-			  
-
+			lengthRemates=    $('.container-cabezas').length;
+			initializeRemates();
 			$('#iconos-institucional div').each(function(i) {
 				$(this).addClass('notransition'); 
 				
@@ -94,6 +94,7 @@ function LoadFunction(){
 	
 	$( window ).resize(function() {
 		
+		initializeRemates();
 		var lastOrientation= currentOrientation;
 		CheckDevice();
 		Header();
@@ -296,6 +297,11 @@ function checkVisible( elm, evalType ) {
 }
 	
 
+
+
+var indexRemates=0;
+var lengthRemates = 0;
+
 $(document).on("ready",function(){
 	CheckDevice();
 	if(isMobile){
@@ -425,5 +431,79 @@ function FillParent(){
 		var fillerHeight= parentHeight-heightOccupied-10;
 		console.log("filler"+fillerHeight);
 		$(this).children(".fillerChildren").css("height",fillerHeight+"px");
+	});
+}
+
+
+function checkNavigationButton(){
+
+	if( indexRemates == 0){
+    		$(".boton-prueba-atras").css("display", "none");
+    		$(".boton-prueba").css("display", "block");
+    	}else if( indexRemates == lengthRemates -1){
+    		$(".boton-prueba").css("display", "none");
+    		$(".boton-prueba-atras").css("display", "block");
+    	}else{
+    		$(".boton-prueba-atras").css("display", "block");
+			$(".boton-prueba").css("display", "block");    	
+		}
+
+
+}
+
+
+
+function initializeRemates(){
+	checkNavigationButton();
+
+    $(".containerColumnas").find('.info-remates-mobile').css("display","none");
+
+ $(".containerColumnas").each(function(){
+
+ 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+ 	console.log("esto funciona");
+ });
+    
+}
+
+function turnOnButtonRemates(){
+
+    $(".boton-prueba").click(function(){
+
+    	
+
+    	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+
+
+    	++indexRemates;
+    	 $(".containerColumnas").each(function(){
+    	 	console.log("entra indicie"+indexRemates);
+		 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+		 	console.log("esto funciona");
+		 });
+
+    	 console.log("lengthRemates "+lengthRemates);
+    	 checkNavigationButton();
+		
+    	
+
+    	
+	});
+
+
+	$(".boton-prueba-atras").click(function(){
+
+    	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+
+    	--indexRemates;
+    	 $(".containerColumnas").each(function(){
+    	 	console.log("entra indicie"+indexRemates);
+		 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+		 	console.log("esto funciona");
+		 });
+
+		checkNavigationButton();
+    
+    	
 	});
 }

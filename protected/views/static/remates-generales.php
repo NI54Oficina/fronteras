@@ -20,7 +20,12 @@ $remates= Remates::model()->findAll();
 	
 		<!-- Caja general fecha -->
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-generales">Miercoles 18 Mayo del 2016</p>
+
+		
+			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-generales"> 
+			<button class="boton-prueba-atras"> < </button>Miercoles 18 Mayo del 2016
+			<button class="boton-prueba"> > </button></p>
+		
 
 
 			<!-- Titulo FECHA -->
@@ -35,7 +40,7 @@ $remates= Remates::model()->findAll();
 					<p>Miércoles</p>
 					<p>18</p>
 					<p>Mayo del 2016</p>
-					</div>
+				</div>
 					
 					
 			</div>
@@ -53,27 +58,27 @@ $remates= Remates::model()->findAll();
 		
 			<!-- Modalidad -->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Modalidad</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-modalidad"><?php echo $remate["modalidad"]; ?></div>
+				<div class="container-modalidad info-remates-mobile"><?php echo $remate["modalidad"]; ?></div>
 				<?php } ?>
 			</div>
 			
 		
 			<!-- Consignatorio-->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Consignatorio</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-consignatorio">
-					<p><?php echo $remate["consignatario"]; ?></p>
+				<div class="container-consignatorio info-remates-mobile">
+					<p class=" "><?php echo $remate["consignatario"]; ?></p>
 				</div>
 				<?php } ?>	
 			</div>
@@ -81,41 +86,41 @@ $remates= Remates::model()->findAll();
 		
 			<!-- Lugar-->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Lugar</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-lugar">
-					<p><?php echo $remate["lugar"]; ?></p>
-					<p><?php echo $remate["detalle"]; ?></p>
+				<div class="container-lugar info-remates-mobile">
+					<p class=""><?php echo $remate["lugar"]; ?></p>
+					<p class=""><?php echo $remate["detalle"]; ?></p>
 				</div>
 				<?php } ?>
 			</div>
 			
 		
 			<!-- Provincia -->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Provincia</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-provincia"><?php echo $remate["provincia"]; ?></div>
+				<div class="container-provincia  info-remates-mobile"><?php echo $remate["provincia"]; ?></div>
 				<?php } ?>
 			</div>
 		
 			<!-- Cabezas-->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 remates-box">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Cabezas</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-cabezas">
-					<p><?php echo $remate["cabezas"]; ?></p>
+				<div class="container-cabezas info-remates-mobile">
+					<p class=""><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>
 			</div>
@@ -125,39 +130,19 @@ $remates= Remates::model()->findAll();
 	
 	</div>
 
-
-	<div class="div-de-prueba">
-		
-
-<li style="display:none;">hola1</li>
-<li style="display:none;" >hola2</li>
-<li style="display:none;" >hola3</li>
-<li style="display:none;" >hola4</li>
-<li style="display:none;" >hola5</li>
-
-<button class="boton-prueba">
-	PRUEBA
-</button>
-
-
-	</div>
-
 </section>
 
 <script>
 
-$(document).ready(function () {
-	index=0;
 
- $('.div-de-prueba li').eq(index).css("display","block");
-    console.log("esto funciona");
-    $(".boton-prueba").click(function(){
-    	$('.div-de-prueba li').css("display","none");
-		$('.div-de-prueba li').eq(++index).css("display","block");
-	})
+$(document).ready(function () {
+
+	
+	turnOnButtonRemates();
+	
+
 
 });
-
 
 
 </script>

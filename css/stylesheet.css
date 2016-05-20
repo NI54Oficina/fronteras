@@ -1822,6 +1822,48 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .box-interes-inner {
 	border-top: 4px solid #5771B0;
+	background-size: auto 100%;
+}
+
+a:nth-child(2) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-crea.png');
+
+}
+
+ a:nth-child(3)> .box-interes >.box-interes-inner {
+	background-image: url('../img/link-cra.png');
+}
+
+a:nth-child(4) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-sra.png');
+
+}
+
+a:nth-child(5) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-inta.png');
+
+}
+
+a:nth-child(6) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-senasa.png');
+
+}
+
+a:nth-child(7) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-feedlot.png');
+
+}
+
+a:nth-child(8) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-ipcva.png');
+
+}
+
+
+
+.box-interes-inner-relleno {
+	border: 4px solid #5771B0;
+	
 }
 
 .box-interes > p {
@@ -1838,12 +1880,12 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	position: relative;
 }
 
-.box-interes-inner > img { 
-	position: relative; 
-	width: 100%; 
-}
 
 /********FIN LINKS DE INTERESES********/
+
+
+/*dar detalle de esta seccion*/
+
 #clima form select::-webkit-scrollbar {
     width: 1em;
 }
@@ -2319,4 +2361,17 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .color-cabanias{
 	background: #f9b95a;
+}
+
+/********REMATES EN MOBILE - SLIDE & ELSE*******/
+
+.info-remates-mobile, {
+	display: none;
+}
+
+.fecha-remates-mobile > button {
+	background-color: rgba(99,99,99,.5);
+	border-radius: 10px;
+	border: 0.5px solid white;
+
 }
