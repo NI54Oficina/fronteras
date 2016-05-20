@@ -1,5 +1,9 @@
 <?php
-$remates= Remates::model()->findAll();
+
+$Criteria = new CDbCriteria();
+$Criteria->condition = "categoria = 'general'";
+$remates= Remates::model()->findAll($Criteria);
+
 ?>
 
 
@@ -107,7 +111,7 @@ $remates= Remates::model()->findAll();
 				<div class="title-remates color-generales"><h2>Provincia</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-provincia  info-remates-mobile"><?php echo $remate["provincia"]; ?></div>
+				<div class="container-provincia  info-remates-mobile"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?></div>
 				<?php } ?>
 			</div>
 		
@@ -135,13 +139,8 @@ $remates= Remates::model()->findAll();
 <script>
 
 
-$(document).ready(function () {
-
-	
+$(document).ready(function () {	
 	turnOnButtonRemates();
-	
-
-
 });
 
 
