@@ -443,6 +443,7 @@ function checkNavigationButton(){
     	}else if( indexRemates == lengthRemates -1){
     		$(".boton-prueba").css("display", "none");
     		$(".boton-prueba-atras").css("display", "block");
+
     	}else{
     		$(".boton-prueba-atras").css("display", "block");
 			$(".boton-prueba").css("display", "block");    	
@@ -457,11 +458,14 @@ function initializeRemates(){
 	checkNavigationButton();
 
     $(".containerColumnas").find('.info-remates-mobile').css("display","none");
+    
 
  $(".containerColumnas").each(function(){
 
  	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+ 	
  	console.log("esto funciona");
+
  });
     
 }
@@ -470,17 +474,25 @@ function turnOnButtonRemates(){
 
     $(".boton-prueba").click(function(){
 
+
     	
+    	$(".fade-in-mobile").fadeOut(400);
+
+    		setTimeout(function(){
 
     	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
-
+    
 
     	++indexRemates;
     	 $(".containerColumnas").each(function(){
     	 	console.log("entra indicie"+indexRemates);
 		 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+		 	$(".fade-in-mobile").fadeIn(400);
+
+		 	
 		 	console.log("esto funciona");
 		 });
+		 }, 400);
 
     	 console.log("lengthRemates "+lengthRemates);
     	 checkNavigationButton();
@@ -494,11 +506,13 @@ function turnOnButtonRemates(){
 	$(".boton-prueba-atras").click(function(){
 
     	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+    	$(".fade-in-mobile").fadeOut(400);
 
     	--indexRemates;
     	 $(".containerColumnas").each(function(){
     	 	console.log("entra indicie"+indexRemates);
 		 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+		 	$(".fade-in-mobile").fadeIn(400);
 		 	console.log("esto funciona");
 		 });
 

@@ -9,7 +9,7 @@
 
 	<a href="http://www.crea.org.ar/">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> Crea </p>
+		<p> CRA</p>
 		<div class="box-interes-inner square">
 			
 			
@@ -20,7 +20,7 @@
 
 	<a href="http://www.cra.org.ar/">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> CRA</p>
+		<p> Crea</p>
 		<div class="box-interes-inner square">
 		</div>
 		

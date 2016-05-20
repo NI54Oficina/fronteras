@@ -2438,5 +2438,12 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	background-color: rgba(99,99,99,.5);
 	border-radius: 10px;
 	border: 0.5px solid white;
+}
 
+.boton-prueba-atras{
+	float:left;
+}
+
+.boton-prueba{
+	float: right;
 }
