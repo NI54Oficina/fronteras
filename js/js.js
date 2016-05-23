@@ -440,14 +440,15 @@ function checkNavigationButton(){
 	if( indexRemates == 0){
     		$(".boton-prueba-atras").css("display", "none");
     		$(".boton-prueba").css("display", "block");
-    	}else{
-    		$(".boton-prueba-atras").css("display", "block");
-			$(".boton-prueba").css("display", "block");    	
-		}else if( indexRemates == lengthRemates -1){
+    	}else if( indexRemates == lengthRemates -1){
     		$(".boton-prueba").css("display", "none");
     		$(".boton-prueba-atras").css("display", "block");
 
-    	}
+    	}else{
+    		$(".boton-prueba-atras").css("display", "block");
+			$(".boton-prueba").css("display", "block");  
+		}  	;
+		
 
 
 }
