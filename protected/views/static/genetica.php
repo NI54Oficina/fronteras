@@ -11,7 +11,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner square">
-			<p>Protoloco de reproducción</p>
+			<p class="p-genetica">Protoloco de reproducción</p>
 		</div>
 	</div>
 	</div>
@@ -19,7 +19,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner square">
-			<p>Asociación Hereford</p>
+			<p class="p-genetica">Asociación Hereford</p>
 		</div>
 	</div>
 	</div>
@@ -27,7 +27,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 	<div class="box-genetica border-shadow">	
 		<div class="box-genetica-inner square">
-			<p>Asociación Angus</p>
+			<p class="p-genetica">Asociación Angus</p>
 		</div>
 	</div>
 	</div>
@@ -35,7 +35,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner square ">
-			<p>Asocación Brangus</p>
+			<p class="p-genetica">Asocación Brangus</p>
 		</div>
 	</div>
 	</div>
@@ -44,7 +44,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner square">
-			<p>Asociación Braford</p>
+			<p  class="p-genetica">Asociación Braford</p>
 		</div>
 	</div>
 	</div>
@@ -53,7 +53,7 @@
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md">
 	<div class="box-genetica">	
 		<div class="box-genetica-inner square">
-			<p></p>
+			<p class="p-genetica"></p>
 		</div>
 	</div>
   	</div>
@@ -62,7 +62,7 @@
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica ">	
 		<div class="box-genetica-inner square">
-			<p></p>
+			<p  class="p-genetica"></p>
 		</div>
 	</div>
   	</div>
@@ -70,7 +70,7 @@
   	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica ">	
 		<div class="box-genetica-inner square">
-			<p></p>
+			<p class="p-genetica"></p>
 		</div>
 	</div>
   	</div>
@@ -78,7 +78,7 @@
   	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica ">	
 		<div class="box-genetica-inner square">
-			<p></p>
+			<p class="p-genetica"></p>
 		</div>
 	</div>
  	 </div>

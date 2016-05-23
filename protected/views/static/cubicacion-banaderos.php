@@ -1,16 +1,18 @@
 <section class="col-lg12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-bañaderos">
 
-<div class="box-producir-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner ">
-			<p>Cubicación de bañaderos</p>
+			<p class="center-to-parent color-manejo">Cubicación de bañaderos</p>
 		</div>
 	</div>
-	</div>
+</div>
 
-<h1 class="title-producir-inside color-manejo">LIMPIEZA Y MANEJO DEL BAÑADERO</h1>
 
-<div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 producir-inside-container" >
+<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">LIMPIEZA Y MANEJO DEL BAÑADERO</h1>
+
+
 
 
 <h2>VACIADO Y LIMPIEZA.</h2>
@@ -47,15 +49,15 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 
 	<li>Se cargara el recipiente “A” con un balde previamente calibrado, hasta llegar a los 500 lt.</li>
 
-	<li>•	Una vez colocado los 500 lt de agua en el recipiente “A” se realizara una marca en dicho recipiente, con una mecha para taladro se perforara el tanque en esta marca, de esta manera cuando se llegue a los 500 lt derramara por el agujero realizado con la mecha. El tanque deberá estar siempre sobre una superficie plana,  volcaremos el agua existente en el mismo al bañadero. De esta manera llenaremos el bañadero con 24 recipientes de 500 lt de agua. Ejemplo con Baño de 12.000 lt </li>
+	<li>Una vez colocado los 500 lt de agua en el recipiente “A” se realizara una marca en dicho recipiente, con una mecha para taladro se perforara el tanque en esta marca, de esta manera cuando se llegue a los 500 lt derramara por el agujero realizado con la mecha. El tanque deberá estar siempre sobre una superficie plana,  volcaremos el agua existente en el mismo al bañadero. De esta manera llenaremos el bañadero con 24 recipientes de 500 lt de agua. Ejemplo con Baño de 12.000 lt </li>
 
-	<li>•	Finalizada la cubicación del Baño, tomaremos una muestra de agua para medir su pH.</li>
+	<li>Finalizada la cubicación del Baño, tomaremos una muestra de agua para medir su pH.</li>
 
-	<li>•	Finalizada la carga de agua, colocaremos el PRODUCTO ELEGIDO  (Aspersin-Cipersin-Garramix )  en el Bañadero de 12.000 lt</li>
+	<li>Finalizada la carga de agua, colocaremos el PRODUCTO ELEGIDO  (Aspersin-Cipersin-Garramix )  en el Bañadero de 12.000 lt</li>
 
 	<li>Utilizaremos una probeta graduada para medir el volumen del PRODUCTO ELEGIDO a utilizar, dicho volumen será volcado en un recipiente”B”, hasta llegar al volumen deseado.</li>
 
-	<li>•	Una vez enrasado el volumen total del PRODUCTO ELEGIDO en el recipiente “B”, se volcara en un balde y se prepara la emulsión con agua proveniente del bañadero recién cubicado, no agregar agua de otro lado, se mezclara con el pasaje de unos 30 animales y posteriormente tomaremos una muestra de la formulación preparada para ver la concentración del principio activo elegido. Dicha muestra se enviara al laboratorio de BIOGENESIS-BAGO S.A. planta de Monte Grande Pcia de Bs As.</li>
+	<li>Una vez enrasado el volumen total del PRODUCTO ELEGIDO en el recipiente “B”, se volcara en un balde y se prepara la emulsión con agua proveniente del bañadero recién cubicado, no agregar agua de otro lado, se mezclara con el pasaje de unos 30 animales y posteriormente tomaremos una muestra de la formulación preparada para ver la concentración del principio activo elegido. Dicha muestra se enviara al laboratorio de BIOGENESIS-BAGO S.A. planta de Monte Grande Pcia de Bs As.</li>
 </ul>
 
 <p>Cuando cubicamos el baño, rasar una regla cada 1000 Lt de agua. De ésta manera tendremos una forma de medir el consumo de la formulación del baño y podremos ajustar, la reposición y el refuerzo de acuerdo al consumo del baño, medido por la regla.</p>

@@ -1427,7 +1427,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .box-producir-2 > div> div {
 	padding: 0px 10px;
  	text-align: center;
- 	height: 200px;
  	background-color: white;
  	border-bottom-right-radius: 100px;
  	vertical-align: middle;
@@ -1436,19 +1435,12 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
-
-
-.box-sanidad-inner > p { 
-	color:#6D4A84;
-}
 .box-sanidad {
 	background-color:#6D4A84; 
 	
 }
 
-.box-genetica-inner > p {
-	color: #ED7C28;
-}
+
 
 .box-genetica {
 	background-color:#ED7C28; 
@@ -1464,9 +1456,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color:#BAA200; 
 }
 
-.box-nutricion-inner > p{
-	color: #BAA200;
-}
 
 .box-relleno{
 	opacity: .1;
@@ -1476,9 +1465,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
  	border:2px solid #BAA200 ;
 }
 
-.box-manejo-inner > p {
-	color: #003D6A;
-}
 
 .box-manejo {
 	background-color:#003D6A;
@@ -1487,6 +1473,25 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .box-manejo-inner {
  	border:2px solid #003D6A ;
 }
+
+.color-sanidad{
+	color:#6D4A84;
+}
+
+.color-manejo{
+	color:#003D6A;
+}
+
+
+.color-nutricion{
+	color: #BAA200;
+}
+
+.color-genetica{
+	color: #ED7C28;
+
+}
+
 
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
@@ -1498,8 +1503,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
  	background-color: white;
  	border-bottom-right-radius: 100px;
  	vertical-align: middle;
-	width:89.5vw;
-	margin-top:70px;
     box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.35);
 }
 
@@ -2405,7 +2408,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     background: white;
 }
 
-.enfermedades-inside-title, {
+.enfermedades-inside-title{
     margin: 0;
     color: #6B4982;
     text-align: left;
@@ -2455,30 +2458,31 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 .title-producir-inside{
 	font-size: 2rem;
 	text-align: left;
+	font-weight: bold;
+	margin-bottom: 50px;
 }
+ 
+.producir-inside-container{
+	text-align: left;
+	color: gray;
+	margin-top: 20px;
+}
+.producir-inside-container > h2{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.producir-inside-container > h3{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
 
 
 /*DISTRIBUCION COLORES DE PRODUCIR
 
 y fondos ubicacion en linea 1441 */
 
-.color-sanidad{
-	color:#6D4A84;
-}
-
-.color-manejo{
-	color:#003D6A;
-}
-
-
-.color-nutricion{
-	color: #BAA200;
-}
-
-.color-genetica{
-	color: #ED7C28;
-
-}
 
 
 

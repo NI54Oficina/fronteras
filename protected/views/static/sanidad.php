@@ -11,7 +11,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner square">
-					<p class="long-word">Enfermedades</p>
+					<p class="long-word p-sanidad">Enfermedades</p>
 				</div>
 			</div>	
 		</div>
@@ -21,7 +21,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner square">
-					<p>Planes Sanitarios</p>
+					<p class=" p-sanidad">Planes Sanitarios</p>
 				</div>
 			</div>
 		</div>
@@ -32,7 +32,7 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner square">
-				<p>Vademécum</p>
+				<p class=" p-sanidad">Vademécum</p>
 			</div>
 		</div>
 	</div>
@@ -42,7 +42,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner square">
-					<p class="long-word">Laboratorios de Diagnóstico</p>
+					<p class="long-word  p-sanidad">Laboratorios de Diagnóstico</p>
 				</div>
 			</div>	
 		</div>
@@ -52,7 +52,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner square">
-					<p>Toma de muestras</p>
+					<p class=" p-sanidad">Toma de muestras</p>
 				</div>
 			</div>
 		</div>
@@ -62,7 +62,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner square">
-					<p class="long-word">Valores constantes de animales en producción</p>
+					<p class="long-word  p-sanidad">Valores constantes de animales en producción</p>
 				</div>
 			</div>
 		</div>	
@@ -72,7 +72,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 			<div class="box-sanidad border-shadow box-relleno">
 				<div class="box-sanidad-inner square">
-					<p class="long-word">Días de retiro de productos veterinarios</p>
+					<p class="long-word p-sanidad">Días de retiro de productos veterinarios</p>
 				</div>
 	
 			</div>
@@ -83,7 +83,7 @@
 		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md">
 			<div class="box-sanidad">
 				<div class="box-sanidad-inner square">
-					<p></p>
+					<p class=" p-sanidad"></p>
 				</div>
 			</div>
 		</div>
@@ -93,7 +93,7 @@
 		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md">
 			<div class="box-sanidad">
 				<div class="box-sanidad-inner  square">
-					<p></p>
+					<p class=" p-sanidad"></p>
 				</div>
 			</div>
 		</div>
@@ -103,7 +103,7 @@
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-lg-2">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner  square">
-				<p></p>
+				<p class=" p-sanidad"></p>
 			</div>
 		</div>
 	</div>
@@ -111,7 +111,7 @@
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-lg-2">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner  square">
-				<p></p>
+				<p class=" p-sanidad"></p>
 			</div>
 		</div>
 	</div>
@@ -119,7 +119,7 @@
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-lg-2">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner  square">
-				<p></p>
+				<p class=" p-sanidad"></p>
 			</div>
 		</div>
 	</div>
@@ -127,7 +127,7 @@
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-lg-2">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner  square">
-				<p></p>
+				<p class=" p-sanidad"></p>
 			</div>
 		</div>
 	</div>

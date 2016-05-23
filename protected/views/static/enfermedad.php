@@ -6,17 +6,18 @@ $nota = Notas::model()->findByAttributes(array("id"=>$data,"seccion"=>"enfermeda
 <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 	
 	
-		<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12" >
-			<div class="box-sanidad-2">
-				<div class="box-sanidad-inner">
-					<p class="long-word" id="planes-h1">Enfermedades</p>
-				</div>
-			</div>
-		</div>	
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="box-sanidad border-shadow">
+		<div class="box-sanidad-inner ">
+			<p class="center-to-parent color-sanidad">Enfermedades</p>
+		</div>
+	</div>
+</div>
+	
 	
 
 	<!-- Título -->
-	<h2 class="enfermedades-inside-title"><?php echo $nota->titulo; ?></h2>
+	<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-sanidad"><?php echo $nota->titulo; ?></h1>
 	
 	
 	<!-- Contenido de la enfermedad -->
