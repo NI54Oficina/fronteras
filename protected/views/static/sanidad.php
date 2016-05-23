@@ -38,7 +38,7 @@
 	</div>
 	</a>
 
-	<a href="">	
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/laboratorios-diagnostico">	
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner square">

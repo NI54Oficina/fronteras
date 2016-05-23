@@ -7,7 +7,7 @@
 		
 	</div>
 
-	<a href="http://www.crea.org.ar/">
+	<a href="http://www.crea.org.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> CRA</p>
 		<div class="box-interes-inner square">
@@ -18,7 +18,7 @@
 	</div>
 	</a>
 
-	<a href="http://www.cra.org.ar/">
+	<a href="http://www.cra.org.ar/" target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> Crea</p>
 		<div class="box-interes-inner square">
@@ -29,7 +29,7 @@
 
 
 
-	<a href="http://www.sra.org.ar/">
+	<a href="http://www.sra.org.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> Sociedad Rural Argentina</p>
 		<div class="box-interes-inner square">
@@ -41,7 +41,7 @@
 	</a>
 
 
-	<a href="http://inta.gob.ar/">
+	<a href="http://inta.gob.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> INTA </p>
 		<div class="box-interes-inner square">
@@ -52,7 +52,7 @@
 	</div>
 	</a>
 
-	<a href="http://www.senasa.gov.ar/">
+	<a href="http://www.senasa.gov.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> SENASA </p>
 		<div class="box-interes-inner square">
@@ -64,7 +64,7 @@
 	</a>
 
 
-	<a href="http://www.feedlot.com.ar/">
+	<a href="http://www.feedlot.com.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> Cámara Argentina de Feedlot </p>
 		<div class="box-interes-inner square">
@@ -76,7 +76,7 @@
 	</a>
 
 
-	<a href="http://www.ipcva.com.ar/">
+	<a href="http://www.ipcva.com.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
 		<p> IPCVA</p>
 		<div class="box-interes-inner square">

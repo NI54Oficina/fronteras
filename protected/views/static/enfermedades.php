@@ -23,7 +23,6 @@
 
 					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
 						<p id="enfermedades-more">+</p>
-						<div class="border-planes"></div>
 					</div>	
 				</div>
 			</div>
@@ -39,7 +38,6 @@
 				
 					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
 						<p id="enfermedades-more">+</p>
-						<div class="border-planes"></div>
 					</div>
 		
 				</div>
@@ -57,7 +55,6 @@
 				
 					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
 						<p id="enfermedades-more">+</p>
-						<div class="border-planes"></div>
 					</div>
 		
 				</div>
@@ -71,11 +68,9 @@
 			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box enfermedades-box">
 		
-					<p></p>
 				
 					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
 						<p id="enfermedades-more">+</p>
-						<div class="border-planes"></div>
 					</div>
 		
 				</div>
@@ -89,11 +84,9 @@
 			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box enfermedades-box">
 		
-					<p></p>
 				
 					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
 						<p id="enfermedades-more">+</p>
-						<div class="border-planes"></div>
 					</div>
 		
 				</div>

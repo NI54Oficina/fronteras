@@ -1548,7 +1548,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color:white;
 	-webkit-transition:  all 0.5s ease;
 	transition:  all 0.5s ease;
-	marign:2px 
 }
 
 .planes .planes-box {
@@ -1571,11 +1570,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .planes:hover .planes-descarga{
   -webkit-transition:  all 0.5s ease;
   transition: all 0.5s ease;
-}
-
-
-.planes-box{ 
-
 }
 
 .planes-descarga{ 
@@ -1635,6 +1629,40 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     background: white;
     width: 100%;
 }
+
+/************** LABORATORIOS ************************/
+.laboratorios{ 
+	margin-top: 70px;
+    margin-right: 3%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.lab1{
+	background-image: url(../img/link-laboratoiro-azul.png);
+	background-size: 100% 100%;
+}
+
+.lab2{
+	background-image: url(../img/link-inta.png);
+	background-size: 100% 100%;
+}
+
+.lab-box p {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 80%;
+}
+
+.lab-box span {
+	font-weight:700;
+}
+
+
 /*********************HOME*******************/
 
 #home{ 
@@ -1865,14 +1893,12 @@ a:nth-child(7) > .box-interes > .box-interes-inner {
 
 a:nth-child(8) > .box-interes > .box-interes-inner {
 	background-image: url('../img/link-ipcva.png');
-
 }
 
 
 
 .box-interes-inner-relleno {
 	border: 4px solid #5771B0;
-	
 }
 
 .box-interes > p {
@@ -1919,7 +1945,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     color: #8C8C8C;
 }
 
-.columna-granos p {
+.columna-granos p{
     font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
@@ -1929,7 +1955,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	font-weight:700;
 }
 
-.columna-ganado p {
+.columna-ganado p{
 	font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
