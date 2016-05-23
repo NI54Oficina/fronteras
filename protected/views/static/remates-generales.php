@@ -69,7 +69,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-generales"><h2>Modalidad</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-modalidad info-remates-mobile"><?php echo $remate["modalidad"]; ?></div>
+				<div class="container-modalidad info-remates-mobile" hid="1"><?php echo $remate["modalidad"]; ?></div>
 				<?php } ?>
 			</div>
 			
@@ -82,7 +82,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-generales"><h2>Consignatorio</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-consignatorio info-remates-mobile">
+				<div class="container-consignatorio info-remates-mobile" hid="1">
 					<p class=" "><?php echo $remate["consignatario"]; ?></p>
 				</div>
 				<?php } ?>	
@@ -97,7 +97,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-generales"><h2>Lugar</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-lugar info-remates-mobile">
+				<div class="container-lugar info-remates-mobile" hid="1">
 					<p class=""><?php echo $remate["lugar"]; ?></p>
 					<p class=""><?php echo $remate["detalle"]; ?></p>
 				</div>
@@ -112,7 +112,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-generales"><h2>Provincia</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-provincia  info-remates-mobile"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?></div>
+				<div class="container-provincia  info-remates-mobile" hid="1"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?></div>
 				<?php } ?>
 			</div>
 		
@@ -124,7 +124,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-generales"><h2>Cabezas</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-cabezas info-remates-mobile">
+				<div class="container-cabezas info-remates-mobile" hid="1">
 					<p class=""><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>

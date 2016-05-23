@@ -198,7 +198,6 @@ header{
 	z-index: -1; 
 	margin-top: -31px; 
 	padding-top: 35px;
-	padding-left: 20px;
 }
 /**Fin Header**/
 
@@ -2221,9 +2220,11 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .checkbox-box{
-	display:inline-block;
-	border: 1px solid #189dbf;
-	
+	border: 1px solid #189dbf;	
+}
+
+.checkbox-container{
+	padding: 5px 5px;	
 }
 
 #nombre-checkbox{
@@ -2234,7 +2235,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	color: white;
     font-size: 2rem;
     text-align: center;
-    padding-top: 55px;
 	
 }
 

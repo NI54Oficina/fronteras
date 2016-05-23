@@ -9,28 +9,48 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	
 		<!-- Caja  principal nombre -->
-		<div class="col-lg-2-6 checkbox-box square" id="nombre-checkbox">
-			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Nombre <br /> de producción</h2>
+		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container">
+
+		<div id="nombre-checkbox" class="square" >
+			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square center-to-parent">Nombre <br /> de producción
+			</h2>
+		</div>	
+
 		</div>
 	
-		<div class="col-lg-2-6 checkbox-box square">
+		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container">
+			<div class="checkbox-box square">
+				
+			</div>
 
 		</div>
 		
-		<div class="col-lg-2-6 checkbox-box square">
-		
+		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container">
+			<div class="checkbox-box square">
+				
+			</div>
+
 		</div>
 		
-		<div class="col-lg-2-6 checkbox-box square">
-		
+		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container ">
+			<div class="checkbox-box square">
+				
+			</div>
+
 		</div>
 		
-		<div class="col-lg-2-6 checkbox-box square">
-		
+		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container">
+			<div class="checkbox-box square">
+				
+			</div>
+
 		</div>
 		
-		<div class="col-lg-2-6 checkbox-box square">
-		
+		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container ">
+			<div class="checkbox-box square">
+				
+			</div>
+
 		</div>
 		
 	</div>
