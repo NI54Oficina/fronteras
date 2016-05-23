@@ -2370,7 +2370,27 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	background: #f9b95a;
 }
 
-/***************************** ENFERMEDADES ***********************/
+/********REMATES EN MOBILE - SLIDE & ELSE*******/
+
+.info-remates-mobile, {
+	display: none;
+}
+
+.fecha-remates-mobile > button {
+	background-color: rgba(99,99,99,.5);
+	border-radius: 10px;
+	border: 0.5px solid white;
+}
+
+.boton-prueba-atras{
+	float:left;
+}
+
+.boton-prueba{
+	float: right;
+}
+
+/****************** SANIDAD- ENFERMEDADES ***********************/
 
 .enfermedades-box p{
     font-size: 1.5rem;
@@ -2385,7 +2405,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     background: white;
 }
 
-.enfermedades-inside-title{
+.enfermedades-inside-title, {
     margin: 0;
     color: #6B4982;
     text-align: left;
@@ -2428,22 +2448,37 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     margin-top: 10px;
     font-size: 1.5rem;
 }
-/********REMATES EN MOBILE - SLIDE & ELSE*******/
 
-.info-remates-mobile, {
-	display: none;
+
+/****************MANEJO - CUBICACION DE BAÑADEROS******************/
+
+.title-producir-inside{
+	font-size: 2rem;
+	text-align: left;
 }
 
-.fecha-remates-mobile > button {
-	background-color: rgba(99,99,99,.5);
-	border-radius: 10px;
-	border: 0.5px solid white;
+
+/*DISTRIBUCION COLORES DE PRODUCIR
+
+y fondos ubicacion en linea 1441 */
+
+.color-sanidad{
+	color:#6D4A84;
 }
 
-.boton-prueba-atras{
-	float:left;
+.color-manejo{
+	color:#003D6A;
 }
 
-.boton-prueba{
-	float: right;
+
+.color-nutricion{
+	color: #BAA200;
 }
+
+.color-genetica{
+	color: #ED7C28;
+
+}
+
+
+
