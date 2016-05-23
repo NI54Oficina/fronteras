@@ -20,27 +20,19 @@
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner square ">
-			<p>Bienestar animal</p>
+			<p>Bienestar animal y buenas prácticas de uso de  productos veterinarios</p>
 		</div>
 	</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
-	<div class="box-manejo border-shadow">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl box-relleno">
+	<div class="box-manejo border-shadow">	
 		<div class="box-manejo-inner square">
-			<p class="long-word">Buenas prácticas de uso de  productos veterinarios</p>
+			<p class="long-word"></p>
 		</div>
 	</div>
 	</div>
 	
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
-	<div class="box-manejo border-shadow">
-		<div class="box-manejo-inner square">
-			<p>Tipo de destete</p>
-		</div>
-	</div>
-	</div>
-
 		
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
@@ -51,7 +43,14 @@
 	</div>
 	</div>
 	
-	
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+	<div class="box-manejo border-shadow box-relleno">
+		<div class="box-manejo-inner square">
+			<p>Tipo de destete</p>
+		</div>
+	</div>
+	</div>
+
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl box-relleno">
 	<div class="box-manejo border-shadow">	
