@@ -2426,7 +2426,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .widget-enfermedades{
     background: #6C4982;
-    height: 5vh;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.54);
 }
 
@@ -2459,13 +2458,13 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	font-size: 2rem;
 	text-align: left;
 	font-weight: bold;
-	margin-bottom: 50px;
+	margin-top: 50px;
 }
  
 .producir-inside-container{
 	text-align: left;
 	color: gray;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 .producir-inside-container > h2{
 	font-size: 1.8rem;
@@ -2477,7 +2476,10 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	font-weight: bold;
 }
 
-
+.planes-h1{
+	font-weight: 700;
+	font-size:20px;
+}
 
 /*DISTRIBUCION COLORES DE PRODUCIR
 
