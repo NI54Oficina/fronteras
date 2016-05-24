@@ -533,18 +533,20 @@ function turnOnButtonRemates(){
 function fillBackground(){
 
 	var selfheigth= $(".fill-heigth").height();
-	var pheigth= $(".fill-heigth").parent().outterHeight();
+	var pheigth= $(".fill-heigth").parent().outerHeight();
 	var bgheigth= pheigth - selfheigth;
 
 	console.log("check-point-1; " + pheigth);
 	console.log("check-point-2; " + selfheigth);
 	console.log("check-point-2; " + bgheigth);
 
+	$(".fill-heigth").each(function(){
 
-
-	$(".fill-heigth").parent().css({ 'background-size': "100%"+'bgheigth'+px  });
+	$(".fill-heigth").parent().css("background-size", "100%" + bgheigth + "px");
 	
-	console.log("check-point-3; ");
+	console.log("check-point-3; " );
+
+	});
 
 }
 

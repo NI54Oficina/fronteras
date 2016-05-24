@@ -2535,28 +2535,28 @@ y fondos ubicacion en linea 1441 */
 
 .icon-hereford{
 	background-image:url(../img/hereford.png);
-	background-size: 100% auto;
+	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-braford{
 	background-image:url(../img/braford.png);
-	background-size: 100% auto;
+	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-angus{
 	background-image:url(../img/angus.png);
-	background-size: 100% auto;
+	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-brangus{
 	background-image:url(../img/brangus.png);
-	background-size: 100% auto;
+	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
