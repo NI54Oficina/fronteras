@@ -1424,7 +1424,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
-.box-producir-2 > div> div {
+.producir-box-inner {
  	text-align: center;
  	background-color: white;
  	border-bottom-right-radius: 100px;
@@ -2514,11 +2514,11 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	 border-top: 2px solid #003D6A ;
 	 margin-top:10px;
 	 padding:10px;
-	 text-align: center;
+	 text-align: left;
 }
 
 .block-img img {
-	width:100%;
+	width:auto;
 }
 
 .producir-inside-container li { 
