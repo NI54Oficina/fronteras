@@ -76,6 +76,7 @@ return array(
 				"<pais>/enfermedad/<id>"=>"web/get/data/enfermedad/id/<id>",
 
 				'<controller:\w+>/<action:\w+>/id/<id>'=>'<controller>/<action>/id/<id>',
+				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>/id/<id:\d+>',
 				
 				
 				'<pais>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',

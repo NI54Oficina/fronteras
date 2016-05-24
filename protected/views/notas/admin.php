@@ -14,10 +14,7 @@ $this->menu=array(
 ?>
 
 <style>
-#tablePais table,#tablePais th,#tablePais td{
-	border: 1px solid gray;
-	padding:10px;
-}
+
 
 #tablePais td{
 	
@@ -33,14 +30,14 @@ $this->menu=array(
 </style>
 
 
-<h1>Administrar notass</h1>
+<h1>Administrar notas</h1>
 
 
-<table id="tablePais">
+<table id="tablePais" style="width:100%;">
 <thead> <tr>
             <th>id</th>
-            <th>Titulo</th>
-            <th>Botones</th>
+            <th style="min-width:400px;">Título</th>
+            <th style="min-width:70px;"></th>
         </tr>
 	</thead>
 <tbody>
@@ -50,11 +47,11 @@ foreach($model as $notas){
 	
 	echo "<tr> <td>".$notas->id."</td>";
 	echo " <td>".$notas->titulo."</td>";
-	echo " <td><a href='".Yii::app()->getBaseUrl(true)."/ar/notas/".$notas->id."'>Ver </a>";
+	echo " <td class='btn-tablas'><a href='".Yii::app()->getBaseUrl(true)."/ar/notas/".$notas->id."'><span class='glyphicon glyphicon-file'></span> </a>";
 	
-		echo "<a href='".Yii::app()->getBaseUrl(true)."/ar/notas/update/".$notas->id."'>Update </a>";
+		echo "<a href='".Yii::app()->getBaseUrl(true)."/ar/notas/update/".$notas->id."'><span class='glyphicon glyphicon-pencil'></span></a>";
 
-			echo "<p class='delete' href='".Yii::app()->getBaseUrl(true)."/ar/notas/delete/".$notas->id."'>Delete </p>";
+			echo "<p class='delete' href='".Yii::app()->getBaseUrl(true)."/ar/notas/delete/".$notas->id."'><span class='glyphicon glyphicon-trash'></span> </p>";
 	echo "</td></tr>";
 	
 }
@@ -66,7 +63,11 @@ foreach($model as $notas){
 <script>
 var table;
 $(document).ready(function(){
-    table=$('#tablePais').DataTable();
+    table=$('#tablePais').DataTable({"columnDefs": [ {
+"targets": 2,
+"orderable": false
+} ]});
+	$("[type='search']").attr("placeholder","Busqueda");
 });
 
 jQuery(document).on('click','.delete',function() {
@@ -81,6 +82,7 @@ jQuery(document).on('click','.delete',function() {
         .remove()
         .draw();
 		$(".loading").hide();
+		
 	});
 	
 	

@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Notas</h1>
+<h1>Crear Notas</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
