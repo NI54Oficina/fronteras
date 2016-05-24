@@ -76,15 +76,69 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 
 [se adjuntan imagenes]
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-bottom:5px solid red;">
-	 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" style=" padding:30px; text-align:center;" >
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+
+
+
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+	 
+
+	 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block-img" hid="2" >
+
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+	 	<img class="block-img-1" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-01.png">
+	</div>
+
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+	 	<img  class="block-img-2" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-02.png">
+	</div> 
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<p hid="1">Bañadero  seco y limpio  e instalaciones anexas limpias</p>
+	 </div>
+
+
+
+	 </div>
+
+	 
+	 </div>
+
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
 	 <div>
-	 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-01.png">
+	 	<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-03.png">
+	 	<p hid="1">Tiras Reactivas de PH</p>
 	 </div>
+	 </div>	 
+
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
+	 <div>
+	 	<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-04.png">
+	 	<p hid="1">Preparación de emulsión</p>
 	 </div>
-	  
+	 </div>	 	  
 
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
+	 <div>
+	 	<img class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-05.png">
+	 	<p hid="1">Homogeneización del Baño</p>
+	 </div>
+	 </div>	 
 
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img " hid="2">
+	 <div>
+	 	<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-06.png">
+	 	<p hid="1" >Homogeneización del Baño</p>
+	 </div>
+	 </div>	 
+
+	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
+	 <div>
+	 	<img class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-07.png">
+	 	<p hid="1">Escurrido</p>
+	 </div>
+	 </div>	 
 </div>
 
 
