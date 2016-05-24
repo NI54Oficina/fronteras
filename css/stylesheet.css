@@ -1425,7 +1425,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 .box-producir-2 > div> div {
-	padding: 0px 10px;
  	text-align: center;
  	background-color: white;
  	border-bottom-right-radius: 100px;
@@ -1439,8 +1438,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color:#6D4A84; 
 	
 }
-
-
 
 .box-genetica {
 	background-color:#ED7C28; 
@@ -2529,6 +2526,34 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 y fondos ubicacion en linea 1441 */
 
+/*GENETICA MENU, ICONOS, TESTING
+*/
 
+.icon-hereford{
+	background-image:url(../img/hereford.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 
+.icon-braford{
+	background-image:url(../img/braford.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.icon-angus{
+	background-image:url(../img/angus.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.icon-brangus{
+	background-image:url(../img/brangus.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 

@@ -308,6 +308,7 @@ $(document).on("ready",function(){
 		splash();
 	}
 		 AdaptSquare();
+		 fillBackground();
 	
 
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
@@ -523,3 +524,29 @@ function turnOnButtonRemates(){
     	
 	});
 }
+
+
+
+
+////////TESTING FILL
+
+function fillBackground(){
+
+	var pheigth= $(".fill-heigth").parent().height();
+	console.log("check-point-1; " + pheigth);
+
+	
+
+	var url= $(".fill-heigth").parent().css('background-image');
+
+	var bheigth = $("url").height();
+	
+	console.log("check-point-2; " + url);
+	var alturaDefinida= pheigth-bheigth;
+	console.log("check-point-3; " + alturaDefinida);
+
+
+	$(".fill-heigth").css("height", "alturaDefinida");
+
+}
+
