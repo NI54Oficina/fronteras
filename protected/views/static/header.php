@@ -30,7 +30,7 @@
 			<li class="li-header "><p  class="toggle-dropdown-header" target="#drop1" ></p>
 		
 						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-3 col-xs-6">
-							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy" class="col-xs-12">
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy" class="link-menu">
 							
 								<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 .col-xl-4">
 							
@@ -46,7 +46,7 @@
 						</li>
 
 						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">	
-							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
 								
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
 									<div class="estemes-box square ">
@@ -61,7 +61,7 @@
 						</li>
 
 						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">
-							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
 									<div class="producir-box square">
 										<div style="height: 160px; width: 50vw;">
@@ -74,7 +74,7 @@
 						</li>
 
 						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6">
-							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
 									<div class="ayuda-box square">
 										<div style="height: 160px; width: 50vw;">
