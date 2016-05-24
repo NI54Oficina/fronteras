@@ -1433,7 +1433,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
-.box-producir-2 > div> div {
+.producir-box-inner {
  	text-align: center;
  	background-color: white;
  	border-bottom-right-radius: 100px;
@@ -2524,11 +2524,11 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	 border-top: 2px solid #003D6A ;
 	 margin-top:10px;
 	 padding:10px;
-	 text-align: center;
+	 text-align: left;
 }
 
 .block-img img {
-	width:100%;
+	width:auto;
 }
 
 .producir-inside-container li { 
@@ -2545,31 +2545,33 @@ y fondos ubicacion en linea 1441 */
 
 .icon-hereford{
 	background-image:url(../img/hereford.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-braford{
 	background-image:url(../img/braford.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-angus{
 	background-image:url(../img/angus.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-brangus{
 	background-image:url(../img/brangus.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
+<<<<<<< HEAD
 
 
+=======
+.name-genetica{
+	padding:10px 0;
+}
+>>>>>>> origin/master

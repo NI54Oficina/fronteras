@@ -9,7 +9,7 @@
 
 	<a href="http://www.crea.org.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> CRA</p>
+		<p hid="1"> CRA</p>
 		<div class="box-interes-inner square">
 			
 			
@@ -20,7 +20,7 @@
 
 	<a href="http://www.cra.org.ar/" target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> Crea</p>
+		<p hid="1"> Crea</p>
 		<div class="box-interes-inner square">
 		</div>
 		
@@ -31,7 +31,7 @@
 
 	<a href="http://www.sra.org.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> Sociedad Rural Argentina</p>
+		<p hid="1"> Sociedad Rural Argentina</p>
 		<div class="box-interes-inner square">
 			
 			
@@ -43,7 +43,7 @@
 
 	<a href="http://inta.gob.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> INTA </p>
+		<p hid="1"> INTA </p>
 		<div class="box-interes-inner square">
 			
 			
@@ -54,7 +54,7 @@
 
 	<a href="http://www.senasa.gov.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> SENASA </p>
+		<p hid="1"> SENASA </p>
 		<div class="box-interes-inner square">
 			
 			
@@ -66,7 +66,7 @@
 
 	<a href="http://www.feedlot.com.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> Cámara Argentina de Feedlot </p>
+		<p hid="1"> Cámara Argentina de Feedlot </p>
 		<div class="box-interes-inner square">
 			
 			
@@ -78,7 +78,7 @@
 
 	<a href="http://www.ipcva.com.ar/"  target="_blank">
 	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7"   >
-		<p> IPCVA</p>
+		<p hid="1"> IPCVA</p>
 		<div class="box-interes-inner square">
 			
 			
@@ -89,8 +89,8 @@
 
 
 	<a href="#">
-	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno"   >
-		<p> Asociación</p>
+	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno hidden-xs"   >
+		<p hid="1"> Asociación</p>
 		<div class="box-interes-inner-relleno square">
 			
 			
@@ -100,8 +100,8 @@
 	</a>
 
 	<a href="#">
-	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno"   >
-		<p> Asociación</p>
+	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno hidden-xs"   >
+		<p hid="1"> Asociación</p>
 		<div class="box-interes-inner-relleno square">
 			
 			

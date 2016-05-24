@@ -528,11 +528,11 @@ function turnOnButtonRemates(){
 
 
 
-////////TESTING FILL
+
 
 function fillBackground(){
 
-	var selfheigth= $(".fill-heigth").height();
+	var selfheigth= $(".fill-heigth").outerHeight();
 	var pheigth= $(".fill-heigth").parent().outerHeight();
 	var bgheigth= pheigth - selfheigth;
 
@@ -544,7 +544,7 @@ function fillBackground(){
 
 	$(".fill-heigth").parent().css("background-size", "100%" + bgheigth + "px");
 	
-	console.log("check-point-3; " );
+	console.log("check-point-3" );
 
 	});
 
