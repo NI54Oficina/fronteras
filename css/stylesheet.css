@@ -2521,6 +2521,10 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	width:100%;
 }
 
+.producir-inside-container li { 
+	list-style-type: square;
+ }
+
 
 /*DISTRIBUCION COLORES DE PRODUCIR
 

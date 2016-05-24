@@ -1,4 +1,4 @@
-<section class="col-lg12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-bañaderos">
+<section class="col-lg12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-banaderos">
 
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-manejo border-shadow">
