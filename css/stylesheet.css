@@ -103,18 +103,89 @@ header{
     padding-bottom: 0px;
     height: 74px;
 }
-	
-.p-header-mobile{
-    color: white;
-    font-size: 1.12em;
-    margin-bottom: 0px;
-    position: relative;
-    margin-top: 9%;
-    display: block;
-    text-align: center;
-    width: 50vw;
+
+header .home-upper-box > div{
+	display:none;
 }
 
+.cont-section-mobile{
+	display:none;
+}
+
+#hoy-header-m{
+	background:transparent;
+} 
+
+/* Caja menú mes */
+#mes-header-m{
+	background:transparent;
+} 
+
+/* Caja menú producir */
+#producir-header-m{
+	background:transparent;
+} 
+
+/* Caja menú ayuda*/
+#ayuda-header-m{
+	background:transparent;
+} 
+	
+header .home-upper-box {
+   display:none;
+}
+
+header .ayuda-box, .ayuda-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .ayuda-box {
+    background-color:transparent;
+}
+
+header .home-box > div {
+    box-shadow:none;
+}
+
+
+header .producir-box, .producir-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .producir-box {
+    background-color:transparent;
+}
+
+
+header .estemes-box, .estemes-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .estemes-box {
+    background-color:transparent;
+}
+
+header .hoy-box, .hoy-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .hoy-box {
+    background-color:transparent;
+}
+
+.p-header-mobile {
+    color: #8c8c8c;
+    font-size: 1em;
+    margin-bottom: 0px;
+    margin-top: -5%;
+    display: block;
+    text-align: center;
+    width: 6vw;
+}
 
 .flecos-header div{
 	background-image:url(../img/fleco-nuevo.png);

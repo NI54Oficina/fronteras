@@ -13,9 +13,9 @@
 	#home{
 		padding: 15px 15px;
 	}
-	 .home-upper-box{
-	 	padding:  7px 7px 20px 7px;
-	}
+.home-upper-box {
+    padding: 7px 27px 20px 27px;
+}
 
 	.home-upper-box > div {
 		padding: 10px;
@@ -68,8 +68,10 @@
 	
 	.ul-nav li {
 		padding-left: 0;
-		height:200px;
-		margin-top: -6px;
+		height: 140px;
+		width:40vw;
+		margin-left: 15px;
+		margin-bottom: 15px;
 	}
 	
 	.ul-nav li:nth-child(2){
@@ -86,7 +88,10 @@
 		background:red;
 	}
 	
-
+	.cont-menu-mob{
+	    padding-left: 4%;
+		padding-top: 5%;
+	}
 	/* Caja menú hoy */
 	#hoy-header-m{
 		background:#40CEDB;
@@ -107,8 +112,34 @@
 		background:#79BEFE;
 	} 
 	
+.p-header-mobile{
+    color: white;
+    font-size: 1.12em;
+    margin-bottom: 0px;
+    position: relative;
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+    width: 40vw;
+}
 
+.home-upper-box {
+    padding: 20px 20px;
+	display:block;
+}
 
+header .home-upper-box {
+   display:block;
+}
+	.cont-section-mobile{
+		height: 110px!important; 
+		width: 40vw!important;
+		display:block;
+	}
+
+	header .home-upper-box > div{
+		display:block;
+	}
 	#hoy p,#hoy h1, #hoy h2, #hoy h3,  #hoy h4,#hoy div{
 	margin-bottom:0;
 	}
