@@ -1,6 +1,6 @@
 <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 	
-	<a href="">
+	
 		<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12" >
 			<div class="box-sanidad-2">
 				<div class="box-sanidad-inner">
@@ -8,7 +8,7 @@
 				</div>
 			</div>
 		</div>	
-	</a>
+
 
 	
 	
