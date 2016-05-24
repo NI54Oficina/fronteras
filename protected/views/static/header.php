@@ -42,7 +42,7 @@
 							
 								<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-12 col-xl-4">
 							
-									<div class="hoy-box square">
+									<div class="hoy-box square" onlymobile="true">
 										<div  class="cont-section-mobile">
 											<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 										</div>
@@ -57,7 +57,7 @@
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
 								
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-5 col-xl-4">	
-									<div class="estemes-box square ">
+									<div class="estemes-box square " onlymobile="true">
 										<div  class="cont-section-mobile">
 											<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 										</div>
@@ -71,7 +71,7 @@
 						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
-									<div class="producir-box square">
+									<div class="producir-box square" onlymobile="true">
 										<div  class="cont-section-mobile">
 											<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
 										</div>
@@ -84,8 +84,8 @@
 						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
-									<div class="ayuda-box square">
-										<div class="cont-section-mobile">
+									<div class="ayuda-box square" onlymobile="true">
+										<div class="cont-section-mobile" onlymobile="true">
 											<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
 										</div>
 										<p class="p-header-mobile">Ayuda</p>

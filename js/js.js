@@ -379,20 +379,33 @@ function CenterToParent(){
 
 
 function AdaptSquare(){
-	var ancho = $('.square').outerWidth();
-  $('.square').css('height', ancho+"px");
+	//edit by fran, preguntar porque
+	$(".square").each(function(){
+		if($(this).attr("onlymobile")=="true"&&!isMobile){
+			console.log("entra poyo");
+			 $(this).css('height', "auto");
+		}else{
+		var ancho = $(this).outerWidth();
+		console.log("ancho "+ancho);
+	  $(this).css('height', ancho+"px");
+	  
+	   $(".box-producir-2 > div > div > p" ).each(function( index ) {
 
-  $(".box-producir-2 > div > div > p" ).each(function( index ) {
+		 var alto_div = ancho;
+		 var alto_parrafo = $(this).height();
 
-  	 var alto_div = ancho;
-  	 var alto_parrafo = $(this).height();
+		 var alto=((alto_div/2)-(alto_parrafo/2));
 
-  	 var alto=((alto_div/2)-(alto_parrafo/2));
+		 console.log("alto "+alto);
+		$(this).css("margin-top", alto+"px" );
 
-  	 console.log("alto "+alto);
-   	$(this).css("margin-top", alto+"px" );
-
-  });
+	  });
+	  
+	  
+	}
+	});
+	
+	
 }
 
 
