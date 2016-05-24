@@ -2535,29 +2535,28 @@ y fondos ubicacion en linea 1441 */
 
 .icon-hereford{
 	background-image:url(../img/hereford.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-braford{
 	background-image:url(../img/braford.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-angus{
 	background-image:url(../img/angus.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 .icon-brangus{
 	background-image:url(../img/brangus.png);
-	
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
+.name-genetica{
+	padding:10px 0;
+}
