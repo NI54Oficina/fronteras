@@ -78,8 +78,8 @@
 	}
 	
 	.ul-nav li a {
-		padding-top: 100px;
 		color:white;
+		z-index:33333333333;
 	}
 	
 	.ul-nav .li-header li:first-child{
@@ -131,6 +131,7 @@
 
 	.header-palabras-menu{
     height: 100vh;
+	background:#313131
 	}
 
 
@@ -169,6 +170,14 @@
 
 	.remates-box{
 	padding: 1px 0.5px;
+	}
+	
+	.columna-ganado p{
+		font-size: 1.1rem;
+	}
+	
+	.columna-granos p {
+		font-size: 1.1rem;
 	}
 
 

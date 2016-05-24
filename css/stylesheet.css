@@ -104,6 +104,16 @@ header{
     height: 74px;
 }
 	
+.p-header-mobile{
+    color: white;
+    font-size: 1.12em;
+    margin-bottom: 0px;
+    position: relative;
+    margin-top: 9%;
+    display: block;
+    text-align: center;
+    width: 50vw;
+}
 
 
 .flecos-header div{
@@ -409,7 +419,6 @@ header{
 
 .maxbox-noticias  h4{
     text-align: center;
-    text-transform: uppercase;
     font-size: 1.9em;
     line-height: 1.3em;
     max-width: 200px;
@@ -1926,7 +1935,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     -webkit-box-shadow: inset 0 0 6px blue;
 }
  
-#clima form select::-webkit-scrollbar-thumb {
+#clima form select::-webkit-scrollbar-thumb{
 	background-color: blue;
 	outline: 1px solid blue;
 }
@@ -1943,7 +1952,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .columna-granos p{
-    font-size: 1.5rem;
+	font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
     text-align: left;
@@ -2423,12 +2432,13 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     width:100%;
 }
 
-
 #enfermedades-more{
     color: #6D4A84;
     padding: 0;
-    font-size: 4rem;
+    font-size: 3.4rem;
     background: white;
+    min-height: 0;
+    display: inline-block;
 }
 
 .enfermedades-inside-title{
@@ -2560,4 +2570,6 @@ y fondos ubicacion en linea 1441 */
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
+
+
 
