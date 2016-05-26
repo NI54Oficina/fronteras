@@ -1,5 +1,14 @@
 <?php
 
+//$imagen-modalidad[0] = "modalidades-internet";
+//$imagen-modalidad[1] = "modalidades-presencial";
+//$imagen-modalidad[2] = "modalidades-televisado";
+
+//$imagen-provincia[0] = "provincias-buenos-aires";
+//$imagen-provincia[1] = "provincias-la-pampa";
+
+//las imagenes estan en la carpeta publica.
+
 $Criteria = new CDbCriteria();
 $Criteria->condition = "categoria = 'general'";
 $remates= Remates::model()->findAll($Criteria);
@@ -63,20 +72,22 @@ $remates= Remates::model()->findAll($Criteria);
 		
 			<!-- Modalidad -->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Modalidad</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-modalidad info-remates-mobile" hid="1"><?php echo $remate["modalidad"]; ?></div>
+				<div class="container-modalidad info-remates-mobile" hid="1">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+				<?php echo $remate["modalidad"]; ?></div>
 				<?php } ?>
 			</div>
 			
 		
 			<!-- Consignatorio-->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Consignatorio</h2></div>
@@ -91,7 +102,7 @@ $remates= Remates::model()->findAll($Criteria);
 		
 			<!-- Lugar-->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Lugar</h2></div>
@@ -106,19 +117,20 @@ $remates= Remates::model()->findAll($Criteria);
 			
 		
 			<!-- Provincia -->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Provincia</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-provincia  info-remates-mobile" hid="1"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?></div>
+				<div class="container-provincia  info-remates-mobile" hid="1"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?>
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-la-pampa.svg"></div>
 				<?php } ?>
 			</div>
 		
 			<!-- Cabezas-->
 			
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 remates-box containerColumnas">
+			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-remates color-generales"><h2>Cabezas</h2></div>

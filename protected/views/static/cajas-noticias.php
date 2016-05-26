@@ -109,32 +109,6 @@ $secciones["Empresas"]="noticia-tipo-4";
 	<?php if(false){ ?>
 
 
-// TEST FUNCION CORTAR PALABRAS
-
-<?php  
-
-$text="hola como estas";
-$maxlength= 20;
-$lenght=0;
-$lenght = strlen($string) + $lenght;
-
-if($lenght <= $maxlength){
-	echo $text;
-
-	}else{
-		$newText=substr($text,0,$length) . '...';
-    echo $newText;
-	}
-
-
-
-
-?>
-
-
-
-
-// ends
 
 
 

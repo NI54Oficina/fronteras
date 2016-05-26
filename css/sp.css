@@ -266,7 +266,7 @@ and (orientation : portrait){
 
 	/* Mercados */
 	.box-mercado-clima-noticias .small-boxes-mercado p {
-		text-align: center;
+		text-align: left;;
 		font-size: 1.7em;
 	}
 	

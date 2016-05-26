@@ -64,6 +64,7 @@
 	.ul-nav{
 		width: 100vw;
 		text-align: center;
+		
 	}
 	
 	.ul-nav li {
@@ -124,7 +125,7 @@
 }
 
 .home-upper-box {
-    padding: 20px 20px;
+    padding: 20px 7px;
 	display:block;
 }
 
@@ -161,8 +162,8 @@ header .home-upper-box {
 	}
 
 	.header-palabras-menu{
-    height: 100vh;
-	background:#313131
+    height: 100rem;
+	background: radial-gradient(circle,white,#f4dfd1);
 	}
 
 
@@ -217,6 +218,13 @@ header .home-upper-box {
 
 	}
 
+	.box-producir-3{
+	padding: 15px;
+	margin-bottom:10px;
+	}
+	.max-box-planes {
+	padding:15px 15px;
+	}
 
 
 /*CIERRE DE LLAVES PRINCIPALES*/
