@@ -423,8 +423,9 @@ header .home-box:hover > .hoy-box {
 }
 
 .subtablesNav > .selectedSubTable{
-	background-color:#D0CFCF;
+	background-color:#28A382;
 }
+
 
 
 /******************************
@@ -2061,7 +2062,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .btn-default {
     color: #FFF;
-    background-color: #28A382;
+    background-color: #D0CFCF;
     border-color: none;
     font-weight: 700;
     letter-spacing: 1px;
@@ -2101,7 +2102,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	outline:none;
 	border:none;
 	color: #FFF;
-    background-color: #CDCDCD;
+    background-color: #28A382;
     border-color: transparent;
 }
 
@@ -2156,7 +2157,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     border-radius: 2px;
     margin-top:5px;
 	width: 110px;
-	
 }
 
 
@@ -2205,7 +2205,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	top: 0;
 	background:radial-gradient(circle,white,#f4dfd1);
 	height: 100vh;
-
 }
 
 .img-1-splash{
@@ -2436,7 +2435,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 /*Provincia */
-
 .container-provincia{
     min-height: 70px;
     border-bottom: 1px solid grey;
@@ -2592,7 +2590,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .block-img{
 	 padding:20px;
-	 text-align: center;
+	 text-align: left;
 }
 
 .block-img  p {
@@ -2646,4 +2644,31 @@ y fondos ubicacion en linea 1441 */
 
 .name-genetica{
 	padding:10px 0;
+}
+
+
+/** RETIRO DE PRODUCTOS VETERNIARIOS **/
+.color-retiro-productos{
+	background:#5B3E6F;
+}
+
+#retiro-producto-p-1{
+    padding-top: 30px;
+	font-weight:300;
+}
+
+#retiro-producto-p-2{
+    padding-top: 30px;
+    color: #8F8F8F;
+    font-size: 1.5rem;
+}
+
+
+#retiro-producto-p-3{
+	color: #8F8F8F;
+    padding-top: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    margin: 0;
 }
