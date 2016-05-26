@@ -20,7 +20,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 		
-			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-cabanias"> 
+			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-retiro-productos"> 
 			<button class="boton-prueba-atras"> < </button>
 			Argentina
 			<button class="boton-prueba"> > </button></p>

@@ -226,6 +226,19 @@ header .home-upper-box {
 	padding:15px 15px;
 	}
 
+	.planes-h1 {
+		font-weight: 700;
+		font-size: 17px;
+	}
 
+	.planes-box p {
+		padding-top: 50px;
+	}
+	
+	
+	.container-inside-noticia img {
+		width: 100%;
+		height: auto;
+	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

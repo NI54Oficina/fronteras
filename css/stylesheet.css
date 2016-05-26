@@ -2497,6 +2497,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .boton-prueba{
 	float: right;
+    margin-right: 2%;
 }
 
 /****************** SANIDAD- ENFERMEDADES ***********************/

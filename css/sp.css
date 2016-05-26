@@ -11,17 +11,35 @@
 	
 	
 	.columna-indicadores p {
-		font-size: 1.5rem;
-		padding-left: 0px;
+		font-size: 1.3rem;
+		padding-left: 5px;
 	}
 	
+	.p-header-mobile {
+		width: 8vw;
+	}
+	
+	.planes-box p {
+		padding-top: 40px;
+		width: 130px;
+	}
+	
+	.enfermedades-box p {
+		font-size: 1.3rem;
+	}	
+	
+	.title-remates h2 {
+		font-size: 1.3rem;
+	}
+
 	.box-mercado .table-mercado-items .moneda-mercados {
 		font-size: 1rem;
 		padding-left: 0px;
 	}
 	
 	.columna-ganado p {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
+		padding-left: 5px;
 
 	}
 	.box-noticias .container-texto-noticias > p, 
@@ -54,8 +72,60 @@ and (orientation : portrait) {
 	.ul-nav li {
 		text-align: center;
 	}
+
+	.header-palabras-menu {
+		margin-top: -47px;
+	}
+	
+	.p-header-mobile {
+		width: 10vw;
+	}
+	
+	.title-remates h2 {
+		font-size: 1.2rem;
+		padding-top: 6px;
+	}
+	
+	.box-producir-2 p {
+		font-size: 1em;
+	}
+	
+	.planes-box p {
+		color: white;
+		font-size: 22px;
+		margin: 0;
+		text-align: center;
+		min-height: 200px;
+		padding-top: 50px;
+		width: 130px;
+	}
+	
+	.box-mercado-clima-noticias >a> .maxboxes {
+		margin-bottom: 4%;
+	}
+	
+	.container-fecha-remates p:first-child {
+		font-size: 1.3rem;
+	}
+	
+	.container-fecha-remates p:nth-child(2) {
+		font-size: 3rem;
+	}
+	
+	.container-fecha-remates p:nth-child(3) {
+		font-size: 1.5rem;
+	}
+	
+	.columna-ganado p {
+		font-size: 1.4rem;
+		padding-left: 5px;
+	}
+
+	.box-mercado .table-mercado-items .moneda-mercados {
+		font-size: 1rem;
+	}
 /*IPAD portrait*/
- }
+}
 
 
 
@@ -173,6 +243,10 @@ and (min-device-width : 240px)
 and (max-device-width : 320px) 
 and (orientation : portrait){
 
+	.mapa-clima h3 {
+		padding-top: 8px;
+	}
+
 	.container-inside-noticia .titulo{
 		color: #2ED7AA;
 		font-size: 30px;
@@ -189,8 +263,18 @@ and (orientation : portrait){
 	
 	.ul-nav li {
 		padding-left: 0;
-		height: 135px;
+		height: 110px;
 		margin-top: -6px;
+	}
+	
+	.cont-section-mobile {
+		height: 86px!important;
+		width: 40vw!important;
+		display: block;
+	}
+	
+	.header-palabras-menu {	
+		margin-top: -67px;
 	}
 	
 	.box-mercado {
@@ -198,9 +282,22 @@ and (orientation : portrait){
 		border: none;
 		font-family: 'arialregular';
 	}
+
+	.home-upper-box {
+		padding: 2px 7px;
+		display: block;
+	}
 	
+	.home-upper-box img:nth-child(1) {
+		float: none;
+		width: 4.5em;
+	}
+
+	.home-upper-box > div {
+		padding: 3px;
+	}
 	.columna-ganado p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		padding-left: 5px;
 	}
 	
@@ -227,6 +324,34 @@ and (orientation : portrait){
 	.long-word{
 		font-size:.65em;
 	}
+	
+	#lluvias-temperaturas-h1 {
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 23px;
+		margin: 0;
+		padding-top: 70px;
+		width: 140px;
+	}
+	
+	.planes-box p {
+		padding-top: 16px;
+		font-size: 1.2rem;
+	}
+	
+	.planes-box p {
+		width: 62px;
+	}
+	
+	.fecha-remates-mobile {
+		font-size: 1em;
+	}
+	
+	.container-inside-noticia img {
+		width: 100%;
+		padding-top
+		height: auto;
+	}
 }
 
 /** FIN**/
@@ -240,7 +365,7 @@ and (min-device-width : 320px)
 and (max-device-width : 533px) 
 and (orientation : portrait){
 
-	/*Cajas clima */
+	/*Cajas clima*/
 	.box-clima-sp{
 		margin-top: 50px;
 	}
@@ -249,7 +374,6 @@ and (orientation : portrait){
 	.container-inside-noticia img {
 		width: 80vw;
 		height: 27vh;
-		
 	}
 
 }
@@ -266,13 +390,14 @@ and (orientation : portrait){
 
 	/* Mercados */
 	.box-mercado-clima-noticias .small-boxes-mercado p {
-		text-align: left;;
+		text-align: left;
 		font-size: 1.7em;
 	}
 	
 	.columna-indicadores p {
 		font-size: 1.1rem;
 		padding-left: 7px;
+		
 	}
 }
 
