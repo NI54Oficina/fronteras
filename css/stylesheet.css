@@ -1910,7 +1910,8 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	border:none; 
 	color: rgba(158,158,158,.5); 
 	width: 100%;
-	background-color: #f7f7f7;
+	background-color:transparent;
+	-webkit-appearance:button;
 }
 
 .red-form > #localidad, .red-form > #provincia {
@@ -2563,6 +2564,9 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     font-size: 1.5rem;
 }
 
+.container-widget{
+padding-right:30px;
+}
 
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
 
