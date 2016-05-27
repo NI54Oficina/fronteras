@@ -90,8 +90,7 @@
 	}
 	
 	.cont-menu-mob{
-	    padding-left: 4%;
-		padding-top: 5%;
+	    padding:15px 15px;
 	}
 	/* Caja menú hoy */
 	#hoy-header-m{
@@ -111,6 +110,9 @@
 	/* Caja menú ayuda*/
 	#ayuda-header-m{
 		background:#79BEFE;
+	} 
+#inner-header  .home-upper-box{
+		padding:10px 30px;
 	} 
 	
 .p-header-mobile{

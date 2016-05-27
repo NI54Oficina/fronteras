@@ -89,7 +89,7 @@
 
 
 	<a href="#">
-	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno hidden-xs"   >
+	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno hidden-xs hidden-sm hidden-md"   >
 		<p hid="1"> Asociación</p>
 		<div class="box-interes-inner-relleno square">
 			
@@ -100,7 +100,7 @@
 	</a>
 
 	<a href="#">
-	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno hidden-xs"   >
+	<div class="box-interes col-lg-2-5 col-md-4 col-sm-3 col-xs-6 col-xl-7 box-relleno hidden-xs hidden-sm hidden-md"   >
 		<p hid="1"> Asociación</p>
 		<div class="box-interes-inner-relleno square">
 			

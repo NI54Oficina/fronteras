@@ -12,7 +12,7 @@
 		<div class="col-lg-2 col-sm-4 col-md-6 col-xs-6 checkbox-container">
 
 		<div id="nombre-checkbox" class="square" >
-			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square center-to-parent">Nombre <br /> de producción
+			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-to-parent">Nombre <br /> de producción
 			</h2>
 		</div>	
 

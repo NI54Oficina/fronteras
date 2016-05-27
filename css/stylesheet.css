@@ -319,7 +319,7 @@ header .home-box:hover > .hoy-box {
 	padding:0px 25px;
 }
 .box-mercado-clima-noticias> a {
-	padding:10px 0px;
+	padding:5px 0px;
 }
 
 .box-mercado-clima-noticias >a> .maxboxes{
@@ -2339,12 +2339,14 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 #nombre-checkbox{
 	background:#189dbf;
+	
 }
 
 #nombre-checkbox h2{
 	color: white;
     font-size: 2rem;
     text-align: center;
+	margin:0;
 	
 }
 
