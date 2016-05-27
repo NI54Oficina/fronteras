@@ -1911,7 +1911,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	color: rgba(158,158,158,.5); 
 	width: 100%;
 	background-color:transparent;
-	-webkit-appearance:button;
+	-webkit-appearance:normal;
 }
 
 .red-form > #localidad, .red-form > #provincia {
