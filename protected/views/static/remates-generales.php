@@ -20,7 +20,7 @@ $remates= Remates::model()->findAll($Criteria);
 
 
 <!-- REMATES GENERALES -->
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Cabañas </p> </div>
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
 
