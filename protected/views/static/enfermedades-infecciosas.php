@@ -20,7 +20,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 	
 	
 	<!-- Contenido de la enfermedad -->
-	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 enfermedades-inside-container">
+	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 enfermedades-inside-container">
 	
 	<?php echo $nota->texto; ?>
 	
