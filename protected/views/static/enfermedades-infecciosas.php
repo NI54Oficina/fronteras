@@ -16,7 +16,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 
 	<!-- Título -->
-	<h2 class="enfermedades-inside-title"><?php echo $nota->titulo; ?></h2>
+	<h2 class="enfermedades-inside-title col-lg-12 col-md-12 col-sm-12 col-xs-12"><?php echo $nota->titulo; ?></h2>
 	
 	
 	<!-- Contenido de la enfermedad -->

@@ -242,5 +242,18 @@ header .home-upper-box {
 		width: 100%;
 		height: auto;
 	}
+	
+	/* CUBICACION BAÑADEROS */
+	
+	.cubicacion-container{ 
+	padding:15px;
+	}
+
+	.enfermedades-inside-title, .enfermedades-inside-container{
+	padding:0 15px;
+	}
+	
+	
+	
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

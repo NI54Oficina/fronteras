@@ -1,4 +1,4 @@
-<section class="col-lg12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-banaderos">
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-banaderos">
 
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-manejo border-shadow">
@@ -9,8 +9,8 @@
 </div>
 
 
-<div class="col-lg12 col-md-12 col-sm-12 col-xs-12" style="padding:30px;"> 
-<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">LIMPIEZA Y MANEJO DEL BAÑADERO</h1>
+<div class="col-lg12 col-md-12 col-sm-12 col-xs-12 cubicacion-container"> 
+<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">Limpieza y manejo de bañaderos</h1>
 
 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
 

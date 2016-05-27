@@ -2519,18 +2519,19 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .enfermedades-inside-title{
-    margin: 0;
+    margin-top: 50px;
     color: #6B4982;
     text-align: left;
     font-size: 2rem;
     padding-top: 15%;
     font-weight: 700;
     letter-spacing: 0.5px;
+	padding:0 30px;
 }
 
 .enfermedades-inside-container{
     text-align: left;
-    padding-top: 2%;
+    padding:0px 30px;;
     color: grey;
 }
 
@@ -2610,6 +2611,10 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .producir-inside-container li { 
 	list-style-type: square;
+ }
+ 
+.cubicacion-container{ 
+	padding:30px;
  }
 
 
