@@ -4,7 +4,7 @@
 	
 		<!--Logo fronteras -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/home">
+		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ar/home">
 			<img class="logo-fronteras" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras-horizontal.png" />
 
 		</a>
