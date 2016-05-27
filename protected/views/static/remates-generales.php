@@ -128,6 +128,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="container-provincia  info-remates-mobile" hid="1"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-la-pampa.svg"></div>
 				<?php } ?>
+				
 			</div>
 		
 			<!-- Cabezas-->
@@ -142,6 +143,7 @@ $remates= Remates::model()->findAll($Criteria);
 					<p class=""><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>
+				
 			</div>
 			
 			

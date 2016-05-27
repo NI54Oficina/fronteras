@@ -2138,7 +2138,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     padding-top: 5px;
 }
 
-.btn-indicadores {
+.btn-indicadores{
     display: inline-block;
     padding: 9px 0px;
     margin-bottom: 0;
@@ -2195,8 +2195,8 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .loader-home img {
- width: 100px;
- margin-top: 25%;
+	width: 100px;
+	margin-top: 25%;
 }
 
 /*SPLASH HOME*/
@@ -2261,7 +2261,9 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	padding:6px 6px;
 	margin:0;
 	color: white;
+    font-size: 1.4rem;
 }
+
 .titulo-mobile-producir {
 	background-color: #7067B0;
 }
@@ -2491,12 +2493,13 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .fecha-remates-mobile > button {
 	background-color: rgba(99,99,99,.5);
-	border-radius: 10px;
+    border-radius: 30px;
 	border: 0.5px solid white;
 }
 
 .boton-prueba-atras{
 	float:left;
+    margin-left: 2%;
 }
 
 .boton-prueba{
@@ -2533,7 +2536,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .enfermedades-inside-container{
     text-align: left;
-    padding:0px 30px;;
+    padding:0px 30px;
     color: grey;
 }
 
@@ -2565,7 +2568,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .container-widget{
-padding-right:30px;
+	padding-right:30px;
 }
 
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
@@ -2588,6 +2591,7 @@ padding-right:30px;
 }
 
 .producir-inside-container > h3{
+	font-size: 1.6rem;
 	font-size: 1.6rem;
 	font-weight: bold;
 }
@@ -2681,11 +2685,11 @@ y fondos ubicacion en linea 1441 */
 	color: #8F8F8F;
     padding-top: 10px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing:1px;
     font-size: 1.3rem;
     margin: 0;
 }
 
 .retiro-container{
- padding:0 30px;
+	padding:0 30px;
 }

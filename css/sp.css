@@ -243,6 +243,10 @@ and (min-device-width : 240px)
 and (max-device-width : 320px) 
 and (orientation : portrait){
 
+	.home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		padding: 2% 0%;
+	}
 	.mapa-clima h3 {
 		padding-top: 8px;
 	}
@@ -263,14 +267,18 @@ and (orientation : portrait){
 	
 	.ul-nav li {
 		padding-left: 0;
-		height: 110px;
+		height: 100px;
 		margin-top: -6px;
 	}
 	
 	.cont-section-mobile {
-		height: 86px!important;
+		height: 75px!important;
 		width: 40vw!important;
 		display: block;
+	}
+	
+	.titulo-mobile > p {
+		font-size: 1.2rem;
 	}
 	
 	.header-palabras-menu {	
@@ -349,20 +357,67 @@ and (orientation : portrait){
 	
 	.container-inside-noticia img {
 		width: 100%;
-		padding-top
 		height: auto;
 	}
 	
 	
 	.ul-nav li {
-    margin-left: 9px; 
+		margin-left: 9px; 
 	}
 	
 }
 
 /** FIN**/
 
+@media only screen 
+and (min-device-width : 240px) 
+and (max-device-width : 320px) 
+and (orientation : landscape){
 
+	header #inner-header .home-upper-box {
+		padding: 0px 20px;
+	}
+
+	header .home-upper-box > div {
+		padding: 0px;
+	}
+	
+	header .home-upper-box img:nth-child(1) {
+		float: none;
+		width: 4em;
+	}
+	
+	header .cont-menu-mob {
+		padding: 2px 11px;
+	}
+	
+	header .home-box > div > div > img {
+		width: 23%;
+	}
+	
+	header .cont-section-mobile {
+		height: 40px!important;
+		width: 40vw!important;
+		display: block;
+	}
+	
+	.ul-nav li {
+		padding-left: 0;
+		height: 61px;
+		width: 40vw;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+	
+	header .p-header-mobile {
+		font-size: .9em;
+	}
+	
+	header .home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		padding: 2% 0%;
+	}
+}
 
 
 /** NOKIA LUMIA 320x533 PORTRAIT**/
@@ -403,7 +458,6 @@ and (orientation : portrait){
 	.columna-indicadores p {
 		font-size: 1.1rem;
 		padding-left: 7px;
-		
 	}
 }
 
@@ -421,6 +475,158 @@ and (orientation : portrait){
 	.container-inside-noticia img {
 		width: 80vw;
 		height: 25vh;
+	}
+	
+}
+
+/** IPHONE 6 375x667 LANDSCAPE**/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape){
+	
+	header .home-box > div > div > img{
+		width: 24%;
+	}
+	
+	header .home-box > div > div:nth-child(1){
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		padding: 2% 0%;
+	}
+	
+	header .cont-menu-mob {
+		padding: 15px 40px;
+	}
+	
+	header .home-upper-box img:nth-child(1) {
+		float: none;
+		width: 5em;
+	}
+	
+	header .cont-section-mobile {
+		height: 80px!important;
+		width: 40vw!important;
+		display: block;
+	}
+
+	.ul-nav li {
+		padding-left: 0;
+		height: 109px;
+		width: 40vw;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}	
+	
+	header #inner-header .home-upper-box {
+		padding: 0px 30px;
+	}
+
+	header .home-upper-box > div {
+		padding: 5px;
+	}
+	
+}
+
+
+/** IPHONE 6  PLUS 414x736 PORTRAIT**/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait){
+	
+	header .home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		padding: 2% 0%;
+	}
+	
+}
+
+/** IPHONE 6  PLUS 414x736 LANDSCAPE**/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape){
+	
+	header .home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		padding: 0% 0%;
+	}
+	
+	header .home-box > div > div > img {
+		width: 25%;
+	}	
+	
+	.ul-nav li {
+		padding-left: 0;
+		height: 125px;
+		width: 40vw;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+	
+	header .cont-section-mobile {
+		height: 92px!important;
+		width: 40vw!important;
+		display: block;
+	}	
+	
+	header .home-upper-box img:nth-child(1) {
+		float: none;
+		width: 5.5em;
+	}
+	
+	header .home-upper-box > div {
+		padding: 5px;
+	}
+	
+	header #inner-header .home-upper-box {
+		padding: 0px 30px;
+	}
+	
+	header .cont-menu-mob {
+		padding: 11px 50px;
+	}
+	
+}
+
+
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 640px) 
+and (orientation: landscape)  {
+  
+	header .home-box > div > div{
+		padding: 0% 0%!important;
+	}
+	
+	header .home-box > div > div > img {
+		width: 20%;
+	}
+	
+	.cont-section-mobile {
+		height: 65px!important;
+		width: 40vw!important;
+		display: block;
+	}
+	
+	.ul-nav li {
+		padding-left: 0;
+		height: 95px;
+		width: 40vw;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+	
+	.home-upper-box > div {
+		padding: 3px;
+	}
+	
+	.cont-menu-mob {
+		padding: 15px 40px;
+	}
+	
+	#inner-header .home-upper-box {
+		padding: 0px 30px;
 	}
 }
 

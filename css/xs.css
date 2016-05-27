@@ -13,9 +13,10 @@
 	#home{
 		padding: 15px 15px;
 	}
-.home-upper-box {
-    padding: 7px 27px 20px 27px;
-}
+	
+	.home-upper-box {
+		padding: 7px 27px 20px 27px;
+	}
 
 	.home-upper-box > div {
 		padding: 10px;
@@ -111,29 +112,31 @@
 	#ayuda-header-m{
 		background:#79BEFE;
 	} 
-#inner-header  .home-upper-box{
+	
+	#inner-header  .home-upper-box{
 		padding:10px 30px;
 	} 
 	
-.p-header-mobile{
-    color: white;
-    font-size: 1.12em;
-    margin-bottom: 0px;
-    position: relative;
-    margin-top: 2%;
-    display: block;
-    text-align: center;
-    width: 40vw;
-}
+	.p-header-mobile{
+		color: white;
+		font-size: 1.12em;
+		margin-bottom: 0px;
+		position: relative;
+		margin-top: 2%;
+		display: block;
+		text-align: center;
+		width: 40vw;
+	}
 
-.home-upper-box {
-    padding: 20px 7px;
-	display:block;
-}
+	.home-upper-box {
+		padding: 20px 7px;
+		display:block;
+	}
 
-header .home-upper-box {
-   display:block;
-}
+	header .home-upper-box {
+		display:block;
+	}
+	
 	.cont-section-mobile{
 		height: 110px!important; 
 		width: 40vw!important;
@@ -144,11 +147,11 @@ header .home-upper-box {
 		display:block;
 	}
 	#hoy p,#hoy h1, #hoy h2, #hoy h3,  #hoy h4,#hoy div{
-	margin-bottom:0;
+		margin-bottom:0;
 	}
 
  	#hoy img{
- 	padding: 0;
+		padding: 0;
  	}
 
  	.maxboxes, .maxbox-ampliar, .mercados-moneda, .small-boxes-mercado, .maxbox-mercados{
@@ -156,29 +159,29 @@ header .home-upper-box {
  	}
 
 	.flecos-header div{
-	display:none;
+		display:none;
 	}
 
 	.navbar-toggle {
-    float: left;
+		float: left;
 	}
 
 	.header-palabras-menu{
-    height: 100rem;
-	background: radial-gradient(circle,white,#f4dfd1);
+		height: 100rem;
+		background: radial-gradient(circle,white,#f4dfd1);
 	}
 
 
 	/*	LOADING PAGE*/
 
 	.loading-gif {	
-	margin: 50% auto;
+		margin: 50% auto;
 	}
 	
 	.navbar-toggle {
-    margin-top: 0px;
-    height: 0px;
-}
+		margin-top: 0px;
+		height: 0px;
+	}
 
 
 
@@ -187,11 +190,23 @@ header .home-upper-box {
 		height: auto !important;
 	}
 
+	/* CUBICACION BAÑADEROS */
+	
+	.cubicacion-container{ 
+		padding:15px;
+	}
 
+	.enfermedades-inside-title, .enfermedades-inside-container, .retiro-container{
+		padding:0 15px;
+	}
+	
+	.container-widget{
+		padding: 0px 15px;
+	}
+	
 
 
    /*REMATES TEST*/
-
 
 	.title-remates h2{
     	font-size: 1.2rem;
@@ -215,17 +230,16 @@ header .home-upper-box {
 	}
 
 	.producir-box-inner{
-
- 	border-bottom-right-radius: 50px;
-
+		border-bottom-right-radius: 50px;
 	}
 
 	.box-producir-3{
-	padding: 15px;
-	margin-bottom:10px;
+		padding: 15px;
+		margin-bottom:10px;
 	}
+	
 	.max-box-planes {
-	padding:15px 15px;
+		padding:15px 15px;
 	}
 
 	.planes-h1 {
@@ -241,20 +255,6 @@ header .home-upper-box {
 	.container-inside-noticia img {
 		width: 100%;
 		height: auto;
-	}
-	
-	/* CUBICACION BAÑADEROS */
-	
-	.cubicacion-container{ 
-	padding:15px;
-	}
-
-	.enfermedades-inside-title, .enfermedades-inside-container, .retiro-container{
-	padding:0 15px;
-	}
-	
-	.container-widget{
-	padding: 0px 15px;
 	}
 	
 	
