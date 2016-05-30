@@ -336,6 +336,9 @@ header .home-box:hover > .hoy-box {
 	background-color:#28A382;
 	min-height: 100%;
 }
+.mercados-moneda p{
+	text-align:center!important;
+}
 
 /* Caja clima*/
 .box-mercado-clima-noticias >a> div> .maxbox-clima{
