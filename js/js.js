@@ -385,7 +385,8 @@ function AdaptSquare(){
 		var ancho = $(this).outerWidth();
 		console.log("ancho "+ancho);
 	  $(this).css('height', ancho+"px");
-	  
+	 
+/*	 
 	   $(".box-producir-2 > div > div > p" ).each(function( index ) {
 
 		 var alto_div = ancho;
@@ -397,6 +398,7 @@ function AdaptSquare(){
 		$(this).css("margin-top", alto+"px" );
 
 	  });
+	  */
 	  
 	  
 	}
@@ -559,4 +561,5 @@ function fillBackground(){
 	});
 
 }
+
 

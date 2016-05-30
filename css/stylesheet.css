@@ -203,8 +203,9 @@ header .home-box:hover > .hoy-box {
 	font-size: 1em;
 }
 
-.ul-nav li a:hover {
+.p-header-mobile:hover{
 	color: #5D5A5A;
+	z-index:9999;
 }
 
 
@@ -318,7 +319,7 @@ header .home-box:hover > .hoy-box {
 	padding:0px 25px;
 }
 .box-mercado-clima-noticias> a {
-	padding:10px 0px;
+	padding:5px 5px;
 }
 
 .box-mercado-clima-noticias >a> .maxboxes{
@@ -334,6 +335,9 @@ header .home-box:hover > .hoy-box {
 .box-mercado-clima-noticias > a> div> .maxbox-mercados{
 	background-color:#28A382;
 	min-height: 100%;
+}
+.mercados-moneda p{
+	text-align:center!important;
 }
 
 /* Caja clima*/
@@ -384,7 +388,7 @@ header .home-box:hover > .hoy-box {
 
 /* Mercados: cajas (compra,venta) párrafos*/
 .box-mercado-clima-noticias .small-boxes-mercado p{
-	text-align:center;
+	text-align:left;
     font-size: 2.2em;
 	margin-bottom:0;
 }
@@ -422,13 +426,15 @@ header .home-box:hover > .hoy-box {
 }
 
 .subtablesNav > .selectedSubTable{
-	background-color:#D0CFCF;
+	background-color:#28A382;
 }
+
 
 
 /******************************
 *********** CLIMA ***********
 ******************************/
+
 .clima-pronostico{
 	margin: 10px 0px;
 }
@@ -892,6 +898,7 @@ header .home-box:hover > .hoy-box {
 
 #formClima{
     padding-top: 13px;
+	width: 100%;
 }
 
 /********* Clima 2 ************/
@@ -1092,12 +1099,12 @@ header .home-box:hover > .hoy-box {
 
 .mapa-clima h3{
 	margin:0;
-	color: #2E9DFB;
+	color: white;
     font-size: 1.1em;
 	padding-top: 15px; 
 }
 .border-mapa{
-	border: 2px solid #2E9DFB;
+	background-color:#2E9DFB;
     min-height: 50px;
     margin-bottom: 10px;
 }
@@ -1115,6 +1122,8 @@ header .home-box:hover > .hoy-box {
 .box-clima-mapas-inner{
 	background-color: white;
     padding: 10px 20px;
+	border: 2px solid #2E9DFB;
+	box-shadow: -1px 0px 33px -11px rgba(0,0,0,1);
 }
 
 .form-clima-mapa{ 
@@ -1572,6 +1581,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
+.box-producir-3{
+	padding: 0px 30px;
+}
 
 .box-producir-3 > div> div {
 	padding: 0px 10px;
@@ -1599,8 +1611,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .planes{ 
-	margin-top: 70px;
-    margin-right: 3%;
+
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -1615,6 +1626,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	box-sizing: border-box;
 	-webkit-transition: all 0.25s linear;
 	transition: all 0.25s linear;
+}
+
+.max-box-planes {
+	padding:70px 30px;
 }
 
 .planes .planes-descarga{
@@ -1709,8 +1724,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /************** LABORATORIOS ************************/
 .laboratorios{ 
-	margin-top: 70px;
-    margin-right: 3%;
+
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -1735,9 +1749,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     padding-top: 80%;
 }
 
-.lab-box span {
-	font-weight:700;
-}
+
 
 
 /*********************HOME*******************/
@@ -1873,10 +1885,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	text-align: center;
 }
 
-.veterinaria >div{
+.map-box, .red-box{
 	padding:20px;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 #provincia, #localidad {
@@ -1896,14 +1907,15 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .red-form {
 	margin-top: 40px;
-	padding-left: 20px;
+	padding:0px 10px;
 }
 
 .red-form > div > form > select{
 	border:none; 
 	color: rgba(158,158,158,.5); 
 	width: 100%;
-	background-color: #f7f7f7;
+	background-color:transparent;
+	-webkit-appearance:normal;
 }
 
 .red-form > #localidad, .red-form > #provincia {
@@ -1939,36 +1951,36 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-size: auto 100%;
 }
 
-a:nth-child(2) > .box-interes > .box-interes-inner {
-	background-image: url('../img/link-crea.png');
-
-}
-
- a:nth-child(3)> .box-interes >.box-interes-inner {
+.cra-link {
 	background-image: url('../img/link-cra.png');
+
 }
 
-a:nth-child(4) > .box-interes > .box-interes-inner {
+ .crea-link{
+	background-image: url('../img/link-crea.png');
+}
+
+.sra-link {
 	background-image: url('../img/link-sra.png');
 
 }
 
-a:nth-child(5) > .box-interes > .box-interes-inner {
+.inta-link {
 	background-image: url('../img/link-inta.png');
 
 }
 
-a:nth-child(6) > .box-interes > .box-interes-inner {
+.senasa-link {
 	background-image: url('../img/link-senasa.png');
 
 }
 
-a:nth-child(7) > .box-interes > .box-interes-inner {
+.feedlot-link {
 	background-image: url('../img/link-feedlot.png');
 
 }
 
-a:nth-child(8) > .box-interes > .box-interes-inner {
+.ipcva-link {
 	background-image: url('../img/link-ipcva.png');
 }
 
@@ -2056,7 +2068,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .btn-default {
     color: #FFF;
-    background-color: #28A382;
+    background-color: #D0CFCF;
     border-color: none;
     font-weight: 700;
     letter-spacing: 1px;
@@ -2096,7 +2108,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	outline:none;
 	border:none;
 	color: #FFF;
-    background-color: #CDCDCD;
+    background-color: #28A382;
     border-color: transparent;
 }
 
@@ -2130,7 +2142,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     padding-top: 5px;
 }
 
-.btn-indicadores {
+.btn-indicadores{
     display: inline-block;
     padding: 9px 0px;
     margin-bottom: 0;
@@ -2151,7 +2163,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     border-radius: 2px;
     margin-top:5px;
 	width: 110px;
-	
 }
 
 
@@ -2188,8 +2199,8 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .loader-home img {
- width: 100px;
- margin-top: 25%;
+	width: 100px;
+	margin-top: 25%;
 }
 
 /*SPLASH HOME*/
@@ -2200,7 +2211,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	top: 0;
 	background:radial-gradient(circle,white,#f4dfd1);
 	height: 100vh;
-
 }
 
 .img-1-splash{
@@ -2255,7 +2265,9 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 	padding:6px 6px;
 	margin:0;
 	color: white;
+    font-size: 1.4rem;
 }
+
 .titulo-mobile-producir {
 	background-color: #7067B0;
 }
@@ -2304,7 +2316,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .maxboxes-inner-estemes{
 	padding: 35px 25px;
-	padding-top:80px;
 }
 
 
@@ -2335,12 +2346,14 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 #nombre-checkbox{
 	background:#189dbf;
+	
 }
 
 #nombre-checkbox h2{
 	color: white;
     font-size: 2rem;
     text-align: center;
+	margin:0;
 	
 }
 
@@ -2431,7 +2444,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 /*Provincia */
-
 .container-provincia{
     min-height: 70px;
     border-bottom: 1px solid grey;
@@ -2484,19 +2496,36 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .fecha-remates-mobile > button {
 	background-color: rgba(99,99,99,.5);
-	border-radius: 10px;
+    border-radius: 30px;
 	border: 0.5px solid white;
 }
 
 .boton-prueba-atras{
 	float:left;
+    margin-left: 2%;
 }
 
 .boton-prueba{
 	float: right;
+    margin-right: 2%;
 }
 
 /****************** SANIDAD- ENFERMEDADES ***********************/
+
+
+.container-enfermedades{
+	padding:30px 30px;
+}
+
+.enfermedades-select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #6D4A84;
+	width: 100%;
+	margin: 10px 0px;
+	color: rgba(158,158,158,.5);
+}
+}
 
 .enfermedades-box p{
     font-size: 1.5rem;
@@ -2513,18 +2542,23 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .enfermedades-inside-title{
-    margin: 0;
-    color: #6B4982;
-    text-align: left;
-    font-size: 2rem;
-    padding-top: 15%;
+    color:white;
+    text-align:center;
     font-weight: 700;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.5px;	
+	background: #6D4A84;
+}
+
+.enfermedades-inside-title h2{
+    font-size: 2em;
+}
+
+.container-enfermedades > .selector-side {
+	padding-right: 30px;
 }
 
 .enfermedades-inside-container{
     text-align: left;
-    padding-top: 2%;
     color: grey;
 }
 
@@ -2555,6 +2589,9 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
     font-size: 1.5rem;
 }
 
+.container-widget{
+	padding-right:30px;
+}
 
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
 
@@ -2568,7 +2605,6 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 .producir-inside-container{
 	text-align: left;
 	color: gray;
-	margin-top: 50px;
 }
 .producir-inside-container > h2{
 	font-size: 1.8rem;
@@ -2576,6 +2612,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 }
 
 .producir-inside-container > h3{
+	font-size: 1.6rem;
 	font-size: 1.6rem;
 	font-weight: bold;
 }
@@ -2587,7 +2624,7 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .block-img{
 	 padding:20px;
-	 text-align: center;
+	 text-align: left;
 }
 
 .block-img  p {
@@ -2604,6 +2641,10 @@ a:nth-child(8) > .box-interes > .box-interes-inner {
 
 .producir-inside-container li { 
 	list-style-type: square;
+ }
+ 
+.cubicacion-container{ 
+	padding:30px;
  }
 
 
@@ -2641,4 +2682,49 @@ y fondos ubicacion en linea 1441 */
 
 .name-genetica{
 	padding:10px 0;
+}
+
+
+/** RETIRO DE PRODUCTOS VETERNIARIOS **/
+.color-retiro-productos{
+	background:#5B3E6F;
+}
+
+#retiro-producto-p-1{
+    padding-top: 30px;
+	font-weight:300;
+}
+
+#retiro-producto-p-2{
+    padding-top: 30px;
+    color: #8F8F8F;
+    font-size: 1.5rem;
+}
+
+
+#retiro-producto-p-3{
+	color: #8F8F8F;
+    padding-top: 10px;
+    font-weight: 300;
+    letter-spacing:1px;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.retiro-container{
+	padding:0 30px;
+}
+
+
+/** PAGINA DE LLUVIA (lluvias.php) **/
+
+.title-lluvia{
+	color: gray;
+	width:100%;
+	border-bottom: 2px solid gray;
+	padding: 10px 0px;
+}
+
+.map-lluvia{
+	padding :10px 10px;
 }

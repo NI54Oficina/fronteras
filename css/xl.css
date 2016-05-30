@@ -22,11 +22,16 @@
 	margin-top: 5%;
 }
 
-/*******HOME*******/
+#ul-nav-principal {
+		padding-left:15px;
+	}
 
-.home-bottom-box > a> div {
-	padding: 60px 40px;     	
-}
+
+/*******REMATES*******/
+.container-modalidad {
+    margin-left: 10px;
+	}
+
 
 
 

@@ -17,7 +17,9 @@
 	
 		<!-- Cría -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/cria.pdf" download="cria"  class="">
-			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
+		
+		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box">
 	
 					<p>Cría</p>
@@ -28,77 +30,83 @@
 					</div>	
 				</div>
 			</div>
+		</div>	
+			
 		</a>
 	
 	
 		<!-- Tambo -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/tambo.pdf" download="tambo"  class="">
-			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box">
-		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box">
+	
 					<p>Tambo</p>
-				
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+
+					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga" >
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
 						<div class="border-planes"></div>
-					</div>
-		
+					</div>	
 				</div>
 			</div>
+		</div>
 		</a>
 	
 		
 		
 		<!-- Feed-lot -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/feedlot.pdf" download="feed-lot"  class="">
-			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box">
-		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box">
+	
 					<p>Feed-lot</p>
-				
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
-						<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
+
+					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga" >
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
 						<div class="border-planes"></div>
-					</div>
-		
+					</div>	
 				</div>
 			</div>
+		</div>
 		</a>
 	
 		
 		
 		<!-- Ovino central y norte --> 
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/ovinoscentralynorte.pdf" download="ovino" class="">
-			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box">
-		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box">
+	
 					<p>Ovino central y norte</p>
-				
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+
+					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga" >
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
 						<div class="border-planes"></div>
-					</div>
-		
+					</div>	
 				</div>
 			</div>
+		</div>
 		</a>
 	
 		
 		
 		<!-- Recría -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/recria.pdf" download="recria"  class="">
-			<div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box">
-		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  planes-box">
+	
 					<p>Recría</p>
-				
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+
+					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga" >
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/descarga.svg" />
 						<div class="border-planes"></div>
-					</div>
-	
+					</div>	
 				</div>
 			</div>
+		</div>
 		</a>
 	
 		

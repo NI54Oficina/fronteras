@@ -14,6 +14,7 @@ isHome=true;
 
 
 	<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
+	
 		<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
  			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
 
@@ -26,7 +27,7 @@ isHome=true;
 
  	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
- 		<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 .col-xl-4">
+ 		<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">
 
 			<div class="hoy-box square">
 				<div hid="1">

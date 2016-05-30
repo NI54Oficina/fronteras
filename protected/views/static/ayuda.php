@@ -1,4 +1,5 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
+<<<<<<< HEAD
 <?php
 
 $conf = new PermissionChecker;
@@ -25,6 +26,10 @@ $chats= Chat::model()->findAll($Criteria);
 
 </div>
 <?php } ?>
+=======
+
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-ayuda titulo-mobile"> <p> Ayuda </p> </div>
+>>>>>>> origin/master
 	
 	<div class="<?php echo $columnChat; ?>" style="text-align:center;">
 	 <h1>  - AYUDA -</h1>
