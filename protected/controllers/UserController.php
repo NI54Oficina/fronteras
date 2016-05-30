@@ -58,11 +58,7 @@ class UserController extends Controller
 	 */
 	public function actionCreate()
 	{
-		if(!Yii::app()->user->checkAccess('createUser')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$model=new User;
 		
 		// Uncomment the following line if AJAX validation is needed
@@ -96,11 +92,11 @@ class UserController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		if(!Yii::app()->user->checkAccess('updateUser')){
+		/*if(!Yii::app()->user->checkAccess('updateUser')){
 			$this->layout="admin";
 			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
 			exit();
-		}
+		}*/
 		$model=$this->loadModel($id);
 		
 		// Uncomment the following line if AJAX validation is needed
@@ -109,14 +105,25 @@ class UserController extends Controller
 		if(isset($_POST['User']))
 		{
 			$auth=Yii::app()->authManager;
-			$oldModel=$this->loadModel($id);
+			$oldModel=$model->password;
 			$model->attributes=$_POST['User'];
-			if($model->password=""){
-				$model->password=$oldModel->password;
+			if($model->password==""||$model->password=="empty"){
+				$model->password=$oldModel;
 			}else{
 				$model->password= CPasswordHelper::hashPassword($model->password);
 			}
 			if($model->save()){
+				$roles = array();
+                $criteria=new CDbCriteria;
+                $criteria->condition='userid=:id';
+                $criteria->params=array(':id'=>$id);
+                $Rol = Authassignment::model()->findAll($criteria);
+        
+                $auth=Yii::app()->authManager;
+                foreach ($Rol as $item)
+                {
+					$auth->revoke($item->itemname,$id);
+                }
 				if(isset($_POST["roles"])){
 					$operations= explode(";;;",$_POST["roles"]);
 					foreach($operations as $op){
@@ -151,11 +158,7 @@ class UserController extends Controller
 	 */
 	public function actionIndex()
 	{
-		if(!Yii::app()->user->checkAccess('createUser')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$dataProvider=new CActiveDataProvider('User');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -167,11 +170,7 @@ class UserController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		if(!Yii::app()->user->checkAccess('createUser')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$model=new User('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['User']))
@@ -209,4 +208,10 @@ class UserController extends Controller
 			Yii::app()->end();
 		}
 	}
+	protected function beforeAction($event)
+    {
+        $conf = new PermissionChecker;
+        $conf->PermissionCheck();
+        return true;
+    }
 }

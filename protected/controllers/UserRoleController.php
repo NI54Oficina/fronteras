@@ -50,11 +50,7 @@ class UserRoleController extends Controller
 	 */
 	public function actionView($id)
 	{
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 			$this->render('view',array(
 				'model'=>$this->loadModel($id),
 				
@@ -62,11 +58,7 @@ class UserRoleController extends Controller
 	}
 	
 	public function actionOperations(){
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 			$auth=Yii::app()->authManager;
 			if(isset($_POST["Operation"])){
 				if(!$auth->getAuthItem($_POST["Operation"]['name'])){
@@ -82,11 +74,7 @@ class UserRoleController extends Controller
 	}
 	
 	public function actionPermission(){
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 			$auth=Yii::app()->authManager;
 			if(isset($_POST["Permission"])){
 				$permission= new Permission();
@@ -103,11 +91,7 @@ class UserRoleController extends Controller
 	}
 	
 	public function actionAdminPermission(){
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$this->layout="admin";
 		$posts = Permission::model()->findAll();
 		$this->render('adminPermission',array(
@@ -116,11 +100,7 @@ class UserRoleController extends Controller
 	}
 	
 	public function actionAdminOperations(){
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$this->layout="admin";
 		$posts = UserRole::model()->findAll();
 		$this->render('adminOperations',array(
@@ -129,11 +109,7 @@ class UserRoleController extends Controller
 	}
 
 	public function actionDeleteOperations($name){
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		Yii::app()->authManager->removeAuthItem($name);
 		
 		
@@ -141,11 +117,7 @@ class UserRoleController extends Controller
 	}
 	
 	public function actionDeletePermission($id){
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		Permission::model()->findByPk($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
@@ -158,11 +130,7 @@ class UserRoleController extends Controller
 	
 	public function actionCreate()
 	{
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		//if(Yii::app()->user->checkAccess('createUser')){
 			$model=new UserRole;
 			$error="";
@@ -205,11 +173,7 @@ class UserRoleController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$model=$this->loadModel($id);
 		$error="";
 		// Uncomment the following line if AJAX validation is needed
@@ -259,11 +223,7 @@ class UserRoleController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
@@ -276,11 +236,7 @@ class UserRoleController extends Controller
 	 */
 	public function actionIndex()
 	{
-		if(!Yii::app()->user->checkAccess('adminAccess')){
-			$this->layout="admin";
-			$this->render("//site/error",array('error'=>"No tiene permisos para acceder a la siguiente sección.","code"=>"","message"=>"No tiene permisos para acceder a la siguiente sección.",));
-			exit();
-		}
+		
 		$dataProvider=new CActiveDataProvider('UserRole');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -332,4 +288,5 @@ class UserRoleController extends Controller
         $conf->PermissionCheck();
         return true;
     }
+	
 }
