@@ -140,6 +140,10 @@ and (max-device-width : 1024px)  {
 	#contenedor, #noticias, .section{
 		padding: 150px 45px;
 	}
+	
+	#ul-nav-principal {
+		padding-left:30px;
+	}
 }
 
 
