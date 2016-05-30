@@ -10,6 +10,7 @@
 	position:fixed;
 	min-height:100vh;
 	padding-top:15vh;
+	z-index:10000;
 }
 
 .side-bar .item{

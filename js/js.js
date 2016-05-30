@@ -1,13 +1,10 @@
 var isHome=false;
 $(window).on("load",function () {
-		LoaderGif();
-		LoadFunction();
-
-		
-	});
+	LoaderGif();
+	LoadFunction();	
+});
 
 // LOADING GIF FUNCTION
-
 function LoaderGif() {
 	$(".loader").fadeOut("slow");
 }

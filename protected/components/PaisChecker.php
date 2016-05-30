@@ -41,12 +41,13 @@ class PaisChecker extends CApplicationComponent
 					$firstArg= substr($currentUrl,0,$endFirstArg);
 				}
 			}
-			
 			if(strlen($firstArg)==2){
 				$currentPais =Pais::model()->findByAttributes(array('short'=>$firstArg));
-				$_SESSION["short"]= $currentPais->short;
-				$_SESSION["pais"]= $currentPais->id;
-				$_SESSION["lng"]= $currentPais->lng;
+				if($currentPais){
+					$_SESSION["short"]= $currentPais->short;
+					$_SESSION["pais"]= $currentPais->id;
+					$_SESSION["lng"]= $currentPais->lng;
+				}
 				
 			}else if($firstArg!="paises"){
 				
