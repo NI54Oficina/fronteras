@@ -1947,36 +1947,36 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-size: auto 100%;
 }
 
-a:nth-child(2) > .box-interes > .box-interes-inner {
-	background-image: url('../img/link-crea.png');
-
-}
-
- a:nth-child(3)> .box-interes >.box-interes-inner {
+.cra-link {
 	background-image: url('../img/link-cra.png');
+
 }
 
-a:nth-child(4) > .box-interes > .box-interes-inner {
+ .crea-link{
+	background-image: url('../img/link-crea.png');
+}
+
+.sra-link {
 	background-image: url('../img/link-sra.png');
 
 }
 
-a:nth-child(5) > .box-interes > .box-interes-inner {
+.inta-link {
 	background-image: url('../img/link-inta.png');
 
 }
 
-a:nth-child(6) > .box-interes > .box-interes-inner {
+.senasa-link {
 	background-image: url('../img/link-senasa.png');
 
 }
 
-a:nth-child(7) > .box-interes > .box-interes-inner {
+.feedlot-link {
 	background-image: url('../img/link-feedlot.png');
 
 }
 
-a:nth-child(8) > .box-interes > .box-interes-inner {
+.ipvca-link {
 	background-image: url('../img/link-ipcva.png');
 }
 

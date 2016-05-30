@@ -66,7 +66,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 			<!-- Texto noticia -->
 			<div  class=" container-texto-noticias " hid="6" >
 				
-				<h2 hid="2"><?php echo $f["titulo"]; ?></h2>
+				<h2 hid="2" limitline="2" ><?php echo $f["titulo"]; ?></h2>
 				<p hid="3">
 					
 				<?php  
@@ -396,4 +396,17 @@ $secciones["Empresas"]="noticia-tipo-4";
 	  location.reload();
   }
 });
+
+
+function limitarPalabra() {
+
+	var id=1;
+		while($( "[limitline="+id+"]" ).length||id<100){
+			
+			$("[hid="+id+"]").css("height","auto");
+			id++;
+		}
+};
+
+
  </script>
