@@ -1,3 +1,9 @@
+<?php
+
+
+$retiros= Retiro::model()->findAll();
+
+?>
  <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 	
 	
@@ -35,7 +41,6 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-retiro-productos hidden-xs">
 				
 				<div class=" center-to-parent ">
-					
 					<p>Argentina</p>
 				</div>
 					
@@ -60,12 +65,12 @@
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2></h2></div>
 				<!--Contenido -->
-
+				<?php foreach($retiros as $retiro){ ?>
 				<div class="container-modalidad info-remates-mobile" hid="1">
 				
 				<img style="width:80%;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/dias-retiro-aciendelplus.svg">
 				</div>
-				
+				<?php } ?>
 			</div>
 			
 		
@@ -76,11 +81,13 @@
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Producto Senasa</h2></div>
 				<!--Contenido -->
-			
+				<?php foreach($retiros as $retiro){ ?>
 				<div class="container-consignatorio info-remates-mobile" hid="1">
-					<p class=" ">Aciendel (Solución pour-on)</p>
+					
+					<p class=" "><?php echo $retiro->producto; ?></p>
+					
 				</div>
-
+				<?php } ?>
 			</div>
 			
 		
@@ -91,10 +98,13 @@
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Nombre Comercial Reg</h2></div>
 				<!--Contenido -->
+				<?php foreach($retiros as $retiro){ ?>
 				<div class="container-lugar info-remates-mobile" hid="1">
-					<p class="" id="retiro-producto-p-1">Aciendel</p>
+				
+					<p class="" id="retiro-producto-p-1"><?php echo $retiro->nombreComercial; ?></p>
+					
 				</div>
-
+				<?php } ?>
 			</div>
 			
 		
@@ -104,10 +114,12 @@
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en carne</h2></div>
 				<!--Contenido -->
-		
+				<?php foreach($retiros as $retiro){ ?>
 				<div class="container-provincia  info-remates-mobile" hid="1">
-				<p  id="retiro-producto-p-2"> 6 D</p></div>
+					<p  id="retiro-producto-p-2"><?php echo $retiro->retiroCarne; ?></p>
 				
+				</div>
+				<?php } ?>
 
 			</div>
 		
@@ -118,11 +130,13 @@
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en leche</h2></div>
 				<!--Contenido -->
-
+				<?php foreach($retiros as $retiro){ ?>
 				<div class="container-cabezas info-remates-mobile" hid="1">
-					<p class="" id="retiro-producto-p-3">Puede usarse inmediatamente después del ordeñe y hasta 6hs antes del próximo</p>
+					
+					<p class="" id="retiro-producto-p-3"><?php echo $retiro->retiroLeche; ?></p>
+					
 				</div>
-
+				<?php } ?>
 			</div>
 			
 			
