@@ -11,6 +11,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 
 	
 	if($data){
+		$data= str_replace("Variacion","Variación",$data);
 		//echo $data;
 		$array = json_decode($data,true);
 		
@@ -79,7 +80,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 					
 					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-						<?php $variacion=floatval(str_replace(',','.',$c["Precios"][0]["VariacionLiniers"]));
+						<?php $variacion=floatval(str_replace(',','.',$c["Precios"][0]["VariaciónLiniers"]));
 						 if($variacion<0){
 							echo $iconDown;
 						}else if($variacion>0){
@@ -90,7 +91,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 					
 					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<p><?php echo $c["Precios"][0]["VariacionLiniers"]; ?></p>
+						<p><?php echo $c["Precios"][0]["VariaciónLiniers"]; ?></p>
 					</div>
 				
 				</div>
@@ -111,7 +112,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 					
 					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-						<?php $variacion=floatval(str_replace(',','.',$c["Precios"][0]["VariacionRosario"]));
+						<?php $variacion=floatval(str_replace(',','.',$c["Precios"][0]["VariaciónRosario"]));
 						 if($variacion<0){
 							echo $iconDown;
 						}else if($variacion>0){
@@ -122,7 +123,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 					
 					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<p><?php echo $c["Precios"][0]["VariacionRosario"]; ?></p>
+						<p><?php echo $c["Precios"][0]["VariaciónRosario"]; ?></p>
 					</div>
 				
 				</div>
@@ -185,7 +186,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 					
 					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<p><?php echo $c["Precios"][0]["VariacionRosario"]; ?></p>
+						<p><?php echo $c["Precios"][0]["VariaciónRosario"]; ?></p>
 					</div>
 				
 				</div>

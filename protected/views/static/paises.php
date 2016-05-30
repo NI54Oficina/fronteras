@@ -1,4 +1,8 @@
-
+<?php 
+$toGo=$_SERVER['SERVER_NAME']."/".$_SESSION['webRoot'];
+$toGo= str_replace("//","/",$toGo);
+header("Location: http://".$toGo);
+if(false){ ?>
 	<!-- VIDEO-->
 		<!--JS-->
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css">
@@ -13,8 +17,6 @@
 <?php include_once("analytics.php") ?>
    <!-- BigVideo Dependencies -->
     
-	
-	
 	<div style="width:100vw; min-height:100vh; z-index:10; position:relative;"> 
     <!-- BigVideo -->
     <div class="container-background-home" vpelement="1" vphelement="100"></div>
@@ -76,3 +78,4 @@
 </div>
 </div>	
 </body>
+<?php } ?>

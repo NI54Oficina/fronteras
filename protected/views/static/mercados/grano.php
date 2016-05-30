@@ -11,6 +11,7 @@
 	$data = @file_get_contents('http://webservice.fyo.com/PortalPizarraProcedure.svc/agrupado',false,$context);
 	$col=0;
 	if($data){
+		$data= str_replace("Variacion","Variación",$data);
 	 $array = json_decode($data,true);
 	
 	?>

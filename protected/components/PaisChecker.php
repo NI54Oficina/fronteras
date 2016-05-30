@@ -8,7 +8,11 @@ class PaisChecker extends CApplicationComponent
 			$_SESSION["webRoot"]="fronteras/";
 			$webRoot=$_SESSION["webRoot"];
 			$initUrl=$_SERVER['REQUEST_URI'];
-			
+			/*Hardcodeo pais*/
+			$_SESSION["short"]= "ar";
+			$_SESSION["pais"]= "1";
+			$_SESSION["lng"]= "es";
+			/**Fin Hardcodeo pais **/
 			if(substr($initUrl, -1)!="/"){
 						$toGo=$_SERVER['SERVER_NAME']."/".$initUrl."/";
 						$toGo= str_replace("//","/",$toGo);
