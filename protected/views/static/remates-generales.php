@@ -81,7 +81,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-modalidad info-remates-mobile" hid="1">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
 				<?php echo $remate["modalidad"]; ?></div>
 				<?php } ?>
 			</div>
@@ -96,7 +96,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-consignatorio info-remates-mobile" hid="1">
-					<p class=" "><?php echo $remate["consignatario"]; ?></p>
+					<p class="center-to-parent"><?php echo $remate["consignatario"]; ?></p>
 				</div>
 				<?php } ?>	
 			</div>
@@ -126,7 +126,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-provincia  info-remates-mobile" hid="1"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?>
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-la-pampa.svg"></div>
+				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-la-pampa.svg"></div>
 				<?php } ?>
 				
 			</div>
@@ -140,7 +140,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-cabezas info-remates-mobile" hid="1">
-					<p class=""><?php echo $remate["cabezas"]; ?></p>
+					<p class="center-to-parent"><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>
 				

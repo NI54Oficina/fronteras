@@ -77,7 +77,7 @@
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  enfermedades-box">
 	
-					
+					<p>Aborto bovino infeccioso</p>
 
 					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
 						<p id="enfermedades-more">+</p>
