@@ -2508,6 +2508,21 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /****************** SANIDAD- ENFERMEDADES ***********************/
 
+
+.container-enfermedades{
+	padding:30px 30px;
+}
+
+.enfermedades-select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #6D4A84;
+	width: 100%;
+	margin: 10px 0px;
+	color: rgba(158,158,158,.5);
+}
+}
+
 .enfermedades-box p{
     font-size: 1.5rem;
     width:100%;
@@ -2523,19 +2538,23 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .enfermedades-inside-title{
-    margin-top: 50px;
-    color: #6B4982;
-    text-align: left;
-    font-size: 2rem;
-    padding-top: 15%;
+    color:white;
+    text-align:center;
     font-weight: 700;
-    letter-spacing: 0.5px;
-	padding:0 30px;
+    letter-spacing: 0.5px;	
+	background: #6D4A84;
+}
+
+.enfermedades-inside-title h2{
+    font-size: 2em;
+}
+
+.container-enfermedades > .selector-side {
+	padding-right: 30px;
 }
 
 .enfermedades-inside-container{
     text-align: left;
-    padding:0px 30px;
     color: grey;
 }
 
