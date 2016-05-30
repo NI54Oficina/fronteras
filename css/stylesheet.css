@@ -1182,6 +1182,7 @@ header .home-box:hover > .hoy-box {
 	color:white;
 	font-family:'arialregular';
 	text-align:center;
+	padding-bottom:4%;
 }
 
 
@@ -1439,6 +1440,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .container-inside-noticia .titulo{
 	color:#2ED7AA;
+    padding-top: 3%;
 }
 
 .container-inside-noticia .categoria{
@@ -1535,6 +1537,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .box-genetica-inner {
  	border:2px solid #ED7C28 ;
 }
+
 .box-sanidad-inner {
  	border:2px solid #6D4A84 ;
 }
@@ -1633,10 +1636,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .planes .planes-descarga{
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
-	-webkit-transform: translateY(430%);
-	transform: translateY(430%);
+	/*-webkit-transform: translateY(430%);
+	transform: translateY(430%);*/
 	background-color:white;
 	-webkit-transition:  all 0.5s ease;
 	transition:  all 0.5s ease;
@@ -1649,13 +1652,12 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .planes:hover .planes-box {
 	zoom: 1;
-	-webkit-transform: translateY(-60px);
-	transform: translateY(-60px);
+    margin-top: -6vh;
 }
 
 .planes:hover .planes-descarga{
-	-webkit-transform: translateY(-200);
-	transform: translateY(-200);
+	/*-webkit-transform: translateY(-200);
+	transform: translateY(-200);*/
 	opacity: 1;
 }
 
@@ -1682,8 +1684,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     font-size: 22px;
     margin: 0;
     text-align: center;
-    min-height: 200px;
-    padding-top: 90px;
+    padding-top: 35%;
     width: 130px;
 }
 
@@ -2727,4 +2728,11 @@ y fondos ubicacion en linea 1441 */
 
 .map-lluvia{
 	padding :10px 10px;
+}
+
+.line-not{
+    display: inline-block;
+    border: 1px dashed #A5A5A5;
+    margin-top: 1%;
+    width: 52vw;
 }

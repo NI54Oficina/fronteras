@@ -13,7 +13,7 @@ $categoria=$nota["categoria"];
 
 	
 	
-	<p 	class="fecha-not-inner"><?php echo $nota->fecha; ?></p>
+	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 line-not" ></div><p 	class="fecha-not-inner"><?php echo $nota->fecha; ?></p>
 	
 	
 	<h1  class="titulo"><?php echo $nota->titulo; ?></h1>

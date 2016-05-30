@@ -257,6 +257,13 @@
 		height: auto;
 	}
 	
+	.line-not {
+		display: inline-block;
+		border: 1px dashed #A5A5A5;
+		margin-top: 3%;
+		width: 43vw;
+	}
+	
 	
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

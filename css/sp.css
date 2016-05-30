@@ -3,7 +3,12 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape)  {
-	
+	.line-not {
+		display: inline-block;
+		border: 1px dashed #A5A5A5;
+		margin-top: 1%;
+		width: 48vw;
+	}	
 	.columna-granos p {
 		font-size: 1.3rem;
 		padding-left: 0px;
@@ -65,6 +70,14 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
 
+	.line-not {
+		display: inline-block;
+		border: 1px dashed #A5A5A5;
+		margin-top: 2%;
+		width: 32vw;
+	}
+	
+	
 	.home-box > div > div >img {
 		width:45%;
 	}

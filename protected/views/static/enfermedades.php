@@ -19,14 +19,13 @@
 		
 		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  enfermedades-box">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Enfermedades infecciosas</p>
-
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
-						<p id="enfermedades-more">+</p>
-					</div>	
 				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+					<p id="enfermedades-more">+</p>
+				</div>	
 			</div>
 			
 		</div>	
@@ -37,14 +36,14 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  enfermedades-box">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Parásitos externos</p>
-
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
-						<p id="enfermedades-more">+</p>
-					</div>	
+					
 				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+					<p id="enfermedades-more">+</p>
+				</div>	
 			</div>
 			
 		</div>
@@ -56,14 +55,14 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  enfermedades-box">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Parásitos internos</p>
-
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
-						<p id="enfermedades-more">+</p>
-					</div>	
+					
 				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+					<p id="enfermedades-more">+</p>
+				</div>	
 			</div>
 			
 		</div>
@@ -75,15 +74,15 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  enfermedades-box">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Aborto bovino infeccioso</p>
 
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
-						<p id="enfermedades-more">+</p>
-					</div>	
 				</div>
-			</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+					<p id="enfermedades-more">+</p>
+				</div>
+			</div>	
 			
 		</div>
 		</a>
@@ -94,13 +93,12 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  enfermedades-box">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
-					
-
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
-						<p id="enfermedades-more">+</p>
-					</div>	
+						
+				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-descarga">
+					<p id="enfermedades-more">+</p>
 				</div>
 			</div>
 			
