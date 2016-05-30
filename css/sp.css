@@ -4,8 +4,6 @@
   and (max-device-width: 1024px) 
   and (orientation: landscape)  {
 	.line-not {
-		display: inline-block;
-		border: 1px dashed #A5A5A5;
 		margin-top: 1%;
 		width: 48vw;
 	}	
@@ -14,6 +12,9 @@
 		padding-left: 0px;
 	}
 	
+	.box-noticias > a>div {
+		padding-bottom: 3%;
+	}
 	
 	.columna-indicadores p {
 		font-size: 1.3rem;
@@ -24,6 +25,16 @@
 		width: 8vw;
 	}
 	
+	.box-mercado .table-mercado-items .moneda-mercados {
+		font-size: 1rem;
+		padding-left: 0px;
+	}
+	
+	.columna-ganado p {
+		font-size: 1.3rem;
+		padding-left: 5px;
+
+	}
 	.planes-box p {
 		padding-top: 40px;
 		width: 130px;
@@ -37,16 +48,7 @@
 		font-size: 1.3rem;
 	}
 
-	.box-mercado .table-mercado-items .moneda-mercados {
-		font-size: 1rem;
-		padding-left: 0px;
-	}
-	
-	.columna-ganado p {
-		font-size: 1.3rem;
-		padding-left: 5px;
 
-	}
 	.box-noticias .container-texto-noticias > p, 
 	.box-noticias .container-texto-noticias-3 > p,
 	.box-noticias .container-texto-noticias-2 > p {
@@ -71,8 +73,6 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { 
 
 	.line-not {
-		display: inline-block;
-		border: 1px dashed #A5A5A5;
 		margin-top: 2%;
 		width: 32vw;
 	}
@@ -111,10 +111,6 @@ and (orientation : portrait) {
 		min-height: 200px;
 		padding-top: 50px;
 		width: 130px;
-	}
-	
-	.box-mercado-clima-noticias >a> .maxboxes {
-		
 	}
 	
 	.container-fecha-remates p:first-child {
@@ -164,8 +160,7 @@ and (max-device-width : 1024px)  {
 
 /*media query resoluciones 360x240*/
 
-@media only screen and (max-width: 240px)
-{
+@media only screen and (max-width: 240px){
 	/***********PRODUCIR *************/
 
 
