@@ -2714,3 +2714,17 @@ y fondos ubicacion en linea 1441 */
 .retiro-container{
 	padding:0 30px;
 }
+
+
+/** PAGINA DE LLUVIA (lluvias.php) **/
+
+.title-lluvia{
+	color: gray;
+	width:100%;
+	border-bottom: 2px solid gray;
+	padding: 10px 0px;
+}
+
+.map-lluvia{
+	padding :10px 10px;
+}
