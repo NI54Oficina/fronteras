@@ -319,7 +319,7 @@ header .home-box:hover > .hoy-box {
 	padding:0px 25px;
 }
 .box-mercado-clima-noticias> a {
-	padding:5px 0px;
+	padding:5px 5px;
 }
 
 .box-mercado-clima-noticias >a> .maxboxes{
@@ -2312,7 +2312,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .maxboxes-inner-estemes{
 	padding: 35px 25px;
-	padding-top:80px;
 }
 
 
