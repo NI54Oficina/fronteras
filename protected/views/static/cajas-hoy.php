@@ -142,7 +142,7 @@
 
 	
 					<h4 hid="4" >
-					Noticias del sector
+					Noticias </br> del sector
 					</h4>
 		
 
