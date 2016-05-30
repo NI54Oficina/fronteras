@@ -434,6 +434,7 @@ header .home-box:hover > .hoy-box {
 /******************************
 *********** CLIMA ***********
 ******************************/
+
 .clima-pronostico{
 	margin: 10px 0px;
 }
@@ -1098,12 +1099,12 @@ header .home-box:hover > .hoy-box {
 
 .mapa-clima h3{
 	margin:0;
-	color: #2E9DFB;
+	color: white;
     font-size: 1.1em;
 	padding-top: 15px; 
 }
 .border-mapa{
-	border: 2px solid #2E9DFB;
+	background-color:#2E9DFB;
     min-height: 50px;
     margin-bottom: 10px;
 }
@@ -1121,6 +1122,8 @@ header .home-box:hover > .hoy-box {
 .box-clima-mapas-inner{
 	background-color: white;
     padding: 10px 20px;
+	border: 2px solid #2E9DFB;
+	box-shadow: -1px 0px 33px -11px rgba(0,0,0,1);
 }
 
 .form-clima-mapa{ 
