@@ -464,10 +464,11 @@ class CaptchaExtendedAction extends CCaptchaAction{
 		if($this->transparent){
 			imagecolortransparent($image,$backColor);
 		}
-
-		if($this->fontFile === null){
+		
+		
+		//if($this->fontFile === null){
 			$this->fontFile = dirname(__FILE__) . '/Duality.ttf';
-		}
+		//}
 
 		$length = strlen($code);
 		$box = imagettfbbox(25,0,$this->fontFile,$code);
