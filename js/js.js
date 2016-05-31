@@ -142,10 +142,10 @@ function LoadFunction(){
 			isIOS=/iPhone|iPad|iPod/i.test(navigator.platform);
 		}
 		if(isMobile){
-			$("header").addClass("headerMobile");
+			$("header").addClass("headermobile");
 			$("header").removeClass("headerDesktop");
 		}else{
-			$("header").removeClass("headerMobile");
+			$("header").removeClass("headermobile");
 			$("header").addClass("headerDesktop");
 		}
 		/*if(isIOS){
@@ -207,8 +207,10 @@ function LoadFunction(){
 			}
 			var rule = getStyleRule('.headermobile .navbar-collapse.in');
 			if(rule){
+				console.log("entra rule");
 			//var auxH= screen.height-$("#navbar-main").height();
-			auxH= screen.height-auxH+10;
+			//auxH= screen.height-auxH+10;
+			auxH= screen.height;
 			rule.height= "auto";
 			rule['min-height']= auxH+"px";
 			console.log(rule.height);;
@@ -233,30 +235,8 @@ $("body").on("mousedown",".navbar-toggle",function(){
 });
 var scrollTop;
 $("body").on("touchstart",".navbar-toggle",function(){
-	$(this).click();
+	//$(this).click();
 	
-	if(isMobile){
-		setTimeout(function(){
-			if($("#navbarSecciones").hasClass("in")){
-				scrollTop= $(document).scrollTop();
-				$("header").css("position","absolute");
-				//$("#navbarSecciones").css("height","auto");
-				$("header").css("display","block");
-				$(".fadder").hide();
-				$(document).scrollTop(0);
-				//$(".fadder").fadeOut(1000);
-			}else{
-				$("header").css("position","fixed");
-				$(".fadder").css("opacity",0);
-				$(".fadder").show();
-				$(document).scrollTop(scrollTop);
-				setTimeout(function(){ $(".fadder").css("opacity",1); },500);
-				
-				//$(".fadder").fadeIn(1000);
-			}
-			
-		},500);
-	}
 	
 });
 

@@ -1,3 +1,39 @@
+<script>
+$("body").on("touchstart",".navbar-toggle",function(){
+	//console.log("touch start");
+	$(this).click();
+	if(isMobile){
+		setTimeout(function(){
+			if($("#inner-header").hasClass("in")){
+				scrollTop= $(document).scrollTop();
+				$("header").css("position","absolute");
+				//$("#navbarSecciones").css("height","auto");
+				$("header").css("display","block");
+				$("#inner-header").css("position","initial");
+				$(".fadder").hide();
+				$("section").hide();
+				$(document).scrollTop(0);
+				//$(".fadder").fadeOut(1000);
+			}else{
+				$("header").css("position","fixed");
+				$("#inner-header").css("position","static");
+				$(".fadder").css("opacity",0);
+				$("section").css("opacity",0);
+				$(".fadder").show();
+				$("section").show();
+				$(document).scrollTop(scrollTop);
+				setTimeout(function(){ $(".fadder").css("opacity",1); $("section").css("opacity",1); },500);
+				
+				//$(".fadder").fadeIn(1000);
+			}
+			
+		},500);
+	}
+});
+$("body").on("mousedown",".navbar-toggle",function(){
+	
+});
+</script>
 <header class="headerDesktop" >
 
 	<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs header-logos">
@@ -23,7 +59,7 @@
 		<div></div>
 	</div>
 
-<div  style="">
+<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <span  class=" glyphicon glyphicon-menu-hamburger navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>	
 	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
 		<ul class="ul-nav col-lg-12 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal">
@@ -95,9 +131,7 @@
 							</a>
 						</li>
 					</div>
-				<ul id="drop1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dropdown-header-nav">
-
-				</ul>
+				
 		
 		</ul>
 	</div>

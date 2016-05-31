@@ -281,6 +281,11 @@ header .home-box:hover > .hoy-box {
 	margin-top: -31px; 
 	padding-top: 35px;
 }
+
+.headermobile .header-palabras-menu{
+	margin-top:0;
+}
+
 /**Fin Header**/
 
 
@@ -2737,4 +2742,8 @@ y fondos ubicacion en linea 1441 */
     width: 52vw;
 }
 
-	
+
+.navbar-toggle{
+	position:absolute;
+	left:0;
+}
