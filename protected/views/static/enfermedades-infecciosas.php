@@ -74,25 +74,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 	
 <?php } ?>	
 	
-<script>
-$(document).on("ready", function(){
-	changeContent();
-	
-});
 
-
-function changeContent(){
-
-    $('#enfermedades-selector').change(function(){
-        $('.enfermedades-infecciosas').hide();
-        $('#' + $(this).val()).show();
-    });
-	console.log("salida enfermedades");
-
-}
- 
-  
-</script>
 	
 </section>
 
