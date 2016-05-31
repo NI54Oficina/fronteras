@@ -1,6 +1,9 @@
 @media screen and (max-width: 767px){
 
 
+	#bg-square{
+		display:none;
+	}
 	.section { /*Disminucion de padding en mobile*/
 		padding:50px 2px;
 	}
