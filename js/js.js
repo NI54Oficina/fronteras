@@ -286,6 +286,7 @@ $(document).on("ready",function(){
 	}
 		 AdaptSquare();
 		 fillBackground();
+		 changeContent();
 	
 
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
@@ -541,5 +542,17 @@ function fillBackground(){
 	});
 
 }
+
+
+function changeContent(){
+
+    $('#enfermedades-selector').change(function(){
+        $('.enfermedades-infecciosas').hide();
+        $('#' + $(this).val()).show();
+    });
+	console.log("salida enfermedades");
+
+}
+ 
 
 

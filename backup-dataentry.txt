@@ -1,0 +1,778 @@
+<h3>Etiologías <h3>
+
+<p>Las parasitosis externas en el ganado vacuno, varían su aparición e incidencia de  acuerdo a la, época del año, tipo de explotación,  raza bovina y región del mundo, estos son algunos de los factores determinantes de la incidencia y tipo de ectoparasitósis presente. </p>
+
+<p>Los principales parásitos externos del ganado bovino en nuestra región son:</p>
+
+<p><strong>Garrapata</strong> (Común del Bovino) Rhipicephalus (Boophilus) microplus.</p>
+
+<p><strong>Sarna</strong> (Psoroptes bovis).</p>
+
+<p><strong>Piojos</strong>  Piojos masticadores (mordedores)  o piojo cabezón Bovicola (Damalinia) bovis  y chupadores (Anoplura), de estos últimos existen 3 tipos: el Haematopinus eurysternus o piojo de trompa corta, Linognathus vituli, o piojo bovino de trompa larga y el pequeño piojo bovino azul Solenopo¬tes capillatus.</p>
+
+<p><strong>Moscas</strong> Las moscas de los cuernos Haematobia irritans, las moscas domésticas Musca doméstica, Mosca Brava o mosca de los establos (Stomomxys calcitrans) y los Tábanos (Tabanus spp,) </p>
+
+<p><strong>Ura</strong> Miasis fo¬runculosa o Dermatobiasis (Dermatobia hominis) </p>
+
+<p><strong>Bichera </strong> (Cochliomyia hominivorax)</p>
+
+<p><strong>Mosquitos</strong> (Culex, Aedes, Anopheles)</p>
+
+
+<h3>Signos </h3>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+
+<h3>Diagnósticos</h3>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h3>Prevención</h3> se fundamenta en:<p>
+
+<p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+<h3>Tratamientos:</h3>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+<h3>Tratamientos<h3>
+
+<div class="parasitos-externos" id="parasitos-externos-1">
+
+<h3>Garrapatas. <h3>
+
+<p>Considerar siempre anticiparse a la época, de aparición de las garrapatas visibles o Teleoginas. Comenzar con los tratamientos en Julio- Agosto, alternando productos y vías de administración, según tipo de explotación. <a href="#"><strong>Ver programa PEGA</strong></a>. </p>
+
+<p><strong>Aspersin, Cipersín y Garramix </strong> son las diferentes alternativas que ofrecemos como productos con distintos principios activos, emulsiones simples y combinadas para ser utilizadas en baños de inmersión, todos ellos aprobados para utilizarlos en zonas de erradicación.
+<strong>Forbox </strong> es un Pour-On  a base de Fluazuron al 2,5%, con el que vamos a actuar sobre el ciclo parasitario (Estadios sobre el animal) y en el suelo inhibe (estadios no parasitarios) la producción de huevos de las teleoginas en el pasto, de esta manera vamos a tener una menor cantidad de larvas nacidas en el pasto. Aprobado para ser utilizado en zona de erradicación.</p>
+
+<p>Línea Endectocida: </p>
+<p><strong>Flok </strong></p>
+<p><strong>Bovifort </strong></p>
+<p><strong>Bagomectina Star 3,15% </strong></p>
+<p><strong>Bagomectina AD3E Forte </strong></p>
+
+<p>Para ser aplicados de acuerdo a época del año, categorías, y carga parasitaria, salvo la Bagomectina Star 3,15%( está en prueba de erradicación actualmente Febrero 2016)  todos ellos fueron aprobados para ser utilizados en  zona de erradicación.</p>
+
+<p><strong>Flok</strong> posee un rápido poder de volteo, a las 72 hs post aplicación se observan los animales libres de garrapatas, es el producto de elección para ser usado cuando las cargas parasitarias son altas y debemos actuar rápido.</p>
+
+<p><strong>Bovifort </strong> es un producto con un poder de volteo similar al Flok y uno de los productos  líderes en la lucha contra la garrapata Bovina en el NEA y NOA.</p>
+
+<p><strong>Bagomectina Star</strong> es una Ivermectina L.A al 3,15%.</p>
+
+<p><strong>Bagomectina AD3E Forte</strong>.  Es una ivermectina al 1% con vitaminas ideal para ser utilizadas en animales con altas cargas parasitarias y que necesiten un vitaminas para recuperar su condición corporal.</p>
+
+</div>
+
+
+<div class="parasitos-externos" id="parasitos-externos-2">
+
+<h3> Sarna:</h3>
+
+<p>Para los tratamientos Antisárnico Bovinos contamos con, </p>
+<p><strong>Aspersin </strong> 2 baños de aspersión con un intervalo de 10 a 12 días.</p>
+<p><strong>Garramix </strong> 1 baño de inmersión con un intervalo de 8 a 12 días.</p>
+<p><strong>Bagomectina, Bovifort, Ivergen Platinum 3,15, Bagomectina 3,15 La AD3E</strong></p>.
+
+<p>Para tratamientos preventivos recomendamos utilizar Bagomectina 3,15% L.A AD3E, previa a la estación otoñal que es cuando empiezan a aparecer los primeros focos de sarna.
+Para tratamientos curativos, se recomienda elegir cualquiera de los productos mencionados de acuerdo al establecimiento y posibilidad de instaurar distintos métodos de administración. Recordar que para la Sarna al igual que la mayoría de los ectoparásitos debemos rotar los principios activos, de esta manera podemos usar Aspersin y luego Bovifort o en el caso que posean baños de inmersión utilizar Garramix y luego Bagomectina.</p>
+
+</div>
+
+<div class="parasitos-externos" id="parasitos-externos-3">
+
+<h3>Moscas, Tábanos y Mosquitos</h3>
+
+<p>Para el tratamiento de las Moscas poseemos,
+
+<p>Línea de Pour-Ones <strong> Aciendel, Aciendel Plus, y Arrasa.</strong></p>
+
+<p>Línea de Emulsiones para Baños de Aspersión e Inmersión.,<strong> Aspersin, Cipersín y Garramix.</strong></p>
+<p>Línea de Endectocidas, <strong>Bagomectina, Bovifort, Bagomectina AD3E Forte, Ivergen Platinum 3,15 Flok, Bagomectina 3,15 LA AD3E.</strong></p>
+
+<p>Comenzar con los tratamientos contra las moscas cuando la carga parasitaria, llegue al umbral económico,  en explotaciones de cría o engorde cargas superiores a 200 moscas por animal se consideran el punto óptimo para empezar con los tratamientos. No utilizar productos pour-ones o baños si llovió 24 hs antes del tratamiento o si va a llover dentro de las 24 a 48 hs post-tratamiento.</p>
+
+</div>
+
+<div class="parasitos-externos" id="parasitos-externos-4">
+
+<h3>Ura:</h3> 
+
+<p>Tratamientos preventivos combinados con Endectocidas y Pour-ones, en fines de primavera y principios de verano, dan como resultado una menor incidencia de la enfermedad.</p>
+          
+<p>Antiparasitarios: <strong>Galgosantel al 10% </strong>(10mg/Kg) repetir cada 45 días.</p>
+<p>Pour-On <strong>Arrasa</strong>.</p>
+<p>ndectocidas <strong> Bagomectina, Bovifort, Bagomectina AD3E Forte., Flok</strong></p>
+
+
+</div>
+
+<div class="parasitos-externos" id="parasitos-externos-5">
+
+<h3>Piojos:</h3>
+
+<p>Empezar los tratamientos antes de la entrada del invierno y continuarlos posterior a la primavera. Los primeros signos clínicos de la pediculosis bovina es el lamido excesivo en el otoño invierno. La pediculosis bovina causa lesiones en la piel, decaimiento general, menor cantidad de horas de pastoreo por la irritación cutánea.</p>
+
+<p>Línea Antiparasitarios: <strong>Galgosantel</strong> Oral e Inyectable. </p>
+<p>Línea de Pour-Ones<strong> Aciendel, Aciendel Plus, y Arrasa.</strong></p>
+<p>Línea de Emulsiones para Baños de Aspersión e Inmersión.,<strong> Aspersin, Cipersín y Garramix</strong>.</p>
+<p>Línea de Endectocidas,<strong> Bagomectina, Bovifort, Bagomectina AD3E Forte, Ivergen Platinum 3,15 Flok, Bagomectina 3,15 LA AD3E</strong></p>
+
+</div>
+
+<div class="parasitos-externos" id="parasitos-externos-6">
+
+<h3>Bicheras:</h3> 
+
+<p>El tratamiento preventivo de las miasis, post castración,  descorné, etc. puede ser local o sistémico, por ejemplo la utilización de Flok en forma sistémica y la colocación de Galmetrin pomada es de uso rutinaria en la castración de terneros, asimismo la utilización de Arrasa en terneros que van a ser castrados es una buena manera de prevenir las Miasis.</p>
+
+<p>Línea Antiparasitarios: <strong>Galgosantel</strong> Oral e Inyectable</p>
+<p>Línea de Pour-Ones<strong> Arrasa</strong>.</p>
+<p>Línea de Curabicheras:<strong> Galmetrin Polvo, Pomada, Solución y Spray</strong>.</p>
+<p>Línea de Endectocidas,<strong> Bagomectina, Bovifort, Bagomectina AD3E Forte, Ivergen Platinum 3,15 Flok, Bagomectina 3,15 LA AD3E</strong></p>
+
+</div>
+
+<h3>Perdidas económicas</h3>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+<p><strong>Garrapatas</strong> Entre U$$ 250 a 300 M al año por pérdidas directas e indirectas.</p>
+
+<p><strong>Sarna </strong>en ganado de carne se estima que los animales tratados en forma preventiva ganan 1kg por más por semana que los no tratados enfermos, y que los animales enfermos tratados ganan  1 kg por semana post tratamiento.Estimaciones del año 2010 hablan de unos U$$ 20M al año.</p>
+
+<p><strong>Pediculosis o Phthyriasis</strong>, En bovinos se estima que hay pérdidas de hasta el 10% en la producción cárnica y láctea, sumada a esta, la depreciación en el valor de los cueros afectados, que llegan a bajar  su precio hasta un 25%..</p>
+
+<p><strong>Moscas</strong> causan pérdida de peso (entre un 8 y un 22%) en forma práctica se estima que a nivel productivo se pueden perder 10 kg, de peso por animal por año.
+Disminuye la eficiencia alimenticia, reduciendo la ganancia de peso, dando de 7 a 8 kg                      menos de ternero al destete según datos proporcionados por el INTA Colonia Benitez. En  terneros se ha determinado entre un 3 a 16 % de pérdidas dependiendo su condición corporal</p>
+
+<p>En la industria láctea, Se estima que infestaciones no controladas de la mosca de los cuernos llegan a provocar alteraciones digestivas que reducen la utilización del forraje y el alimento consumido, pudiendo originar pérdidas de hasta un litro de leche al día. “Con respecto a la producción láctea, la H. irritans puede producir una merma del orden del 4 al 14%” (Mariategui et al, 2006). Se considera además un factor de riesgo para infecciones intramamarias ya que es portador de Staphylococcus ssp.</p>
+
+<p><strong>Ura:</strong> estimaciones hechas el año 2010 consideran perdidas por más de U$$ 2,5M al año
+De 20 a 40 nódulos originan una disminución del 12% en el peso del animal parasitado y en el ganado de tambo una merma del 20% en la producción de leche. Los cueros enviados a la industria, pueden estar afectados por nódulos parasitarios en un 65% de su superficie</p>
+
+<p><strong>Bicheras</strong> unos  U$$ 2,5M al año, variable según el año, principalmente por factores climáticos</p>
+
+<p><strong>Mosquitos</strong>, en zonas ribereñas causan gran molestia en los animales causando perjuicios similares a las moscas, no hay estimaciones del perjuicio económico.</p>
+
+
+-----TEST ACTUAL-----
+
+
+<div class="parasitos-externos" id="parasitos-externos-1">
+
+<h3>Garrapatas</h3>
+
+<h4>Signos </h4>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h4>Prevención</h47> se fundamenta en:<p>
+
+</p><p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+
+
+<h4>Tratamientos</h4>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+
+<p>Considerar siempre anticiparse a la época, de aparición de las garrapatas visibles o Teleoginas. Comenzar con los tratamientos en Julio- Agosto, alternando productos y vías de administración, según tipo de explotación. <a href="#"><strong>Ver programa PEGA</strong></a>. </p>
+
+<p><strong>Aspersin, Cipersín y Garramix </strong> son las diferentes alternativas que ofrecemos como productos con distintos principios activos, emulsiones simples y combinadas para ser utilizadas en baños de inmersión, todos ellos aprobados para utilizarlos en zonas de erradicación.
+<strong>Forbox </strong> es un Pour-On  a base de Fluazuron al 2,5%, con el que vamos a actuar sobre el ciclo parasitario (Estadios sobre el animal) y en el suelo inhibe (estadios no parasitarios) la producción de huevos de las teleoginas en el pasto, de esta manera vamos a tener una menor cantidad de larvas nacidas en el pasto. Aprobado para ser utilizado en zona de erradicación.</p>
+
+<p>Línea Endectocida: </p>
+<p><strong>Flok </strong></p>
+<p><strong>Bovifort </strong></p>
+<p><strong>Bagomectina Star 3,15% </strong></p>
+<p><strong>Bagomectina AD3E Forte </strong></p>
+
+<p>Para ser aplicados de acuerdo a época del año, categorías, y carga parasitaria, salvo la Bagomectina Star 3,15%( está en prueba de erradicación actualmente Febrero 2016)  todos ellos fueron aprobados para ser utilizados en  zona de erradicación.</p>
+
+<p><strong>Flok</strong> posee un rápido poder de volteo, a las 72 hs post aplicación se observan los animales libres de garrapatas, es el producto de elección para ser usado cuando las cargas parasitarias son altas y debemos actuar rápido.</p>
+
+<p><strong>Bovifort </strong> es un producto con un poder de volteo similar al Flok y uno de los productos  líderes en la lucha contra la garrapata Bovina en el NEA y NOA.</p>
+
+<p><strong>Bagomectina Star</strong> es una Ivermectina L.A al 3,15%.</p>
+
+<p><strong>Bagomectina AD3E Forte</strong>.  Es una ivermectina al 1% con vitaminas ideal para ser utilizadas en animales con altas cargas parasitarias y que necesiten un vitaminas para recuperar su condición corporal.</p>
+
+<h4>Perdidas económicas</h4>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+<p><strong>Garrapatas</strong> Entre U$$ 250 a 300 M al año por pérdidas directas e indirectas.</p>
+
+</div>
+
+------------------------------
+
+<div class="parasitos-externos" id="parasitos-externos-2">
+
+<h3> Sarna:</h3>
+
+<h4>Signos </h4>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h4>Prevención</h4> se fundamenta en:<p>
+
+</p><p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+
+
+<h4>Tratamientos</h4>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+<p>Para los tratamientos Antisárnico Bovinos contamos con, </p>
+<p><strong>Aspersin </strong> 2 baños de aspersión con un intervalo de 10 a 12 días.</p>
+<p><strong>Garramix </strong> 1 baño de inmersión con un intervalo de 8 a 12 días.</p>
+<p><strong>Bagomectina, Bovifort, Ivergen Platinum 3,15, Bagomectina 3,15 La AD3E</strong></p>.
+
+<p>Para tratamientos preventivos recomendamos utilizar Bagomectina 3,15% L.A AD3E, previa a la estación otoñal que es cuando empiezan a aparecer los primeros focos de sarna.
+Para tratamientos curativos, se recomienda elegir cualquiera de los productos mencionados de acuerdo al establecimiento y posibilidad de instaurar distintos métodos de administración. Recordar que para la Sarna al igual que la mayoría de los ectoparásitos debemos rotar los principios activos, de esta manera podemos usar Aspersin y luego Bovifort o en el caso que posean baños de inmersión utilizar Garramix y luego Bagomectina.</p>
+
+<h4>Perdidas económicas</h4>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p><strong>Sarna </strong>en ganado de carne se estima que los animales tratados en forma preventiva ganan 1kg por más por semana que los no tratados enfermos, y que los animales enfermos tratados ganan  1 kg por semana post tratamiento.Estimaciones del año 2010 hablan de unos U$$ 20M al año.</p>
+
+</div>
+
+---------
+
+<div class="parasitos-externos" id="parasitos-externos-3">
+
+<h3>Moscas, Tábanos y Mosquitos</h3>
+
+<h4>Signos </h4>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h4>Prevención</h4> se fundamenta en:<p>
+
+</p><p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+
+
+<h4>Tratamientos</h4>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+<p>Para el tratamiento de las Moscas poseemos,
+
+</p><p>Línea de Pour-Ones <strong> Aciendel, Aciendel Plus, y Arrasa.</strong></p>
+
+<p>Línea de Emulsiones para Baños de Aspersión e Inmersión.,<strong> Aspersin, Cipersín y Garramix.</strong></p>
+<p>Línea de Endectocidas, <strong>Bagomectina, Bovifort, Bagomectina AD3E Forte, Ivergen Platinum 3,15 Flok, Bagomectina 3,15 LA AD3E.</strong></p>
+
+<p>Comenzar con los tratamientos contra las moscas cuando la carga parasitaria, llegue al umbral económico,  en explotaciones de cría o engorde cargas superiores a 200 moscas por animal se consideran el punto óptimo para empezar con los tratamientos. No utilizar productos pour-ones o baños si llovió 24 hs antes del tratamiento o si va a llover dentro de las 24 a 48 hs post-tratamiento.</p>
+
+<h4>Perdidas económicas</h4>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p><strong>Moscas</strong> causan pérdida de peso (entre un 8 y un 22%) en forma práctica se estima que a nivel productivo se pueden perder 10 kg, de peso por animal por año.
+Disminuye la eficiencia alimenticia, reduciendo la ganancia de peso, dando de 7 a 8 kg                      menos de ternero al destete según datos proporcionados por el INTA Colonia Benitez. En  terneros se ha determinado entre un 3 a 16 % de pérdidas dependiendo su condición corporal</p>
+
+<p>En la industria láctea, Se estima que infestaciones no controladas de la mosca de los cuernos llegan a provocar alteraciones digestivas que reducen la utilización del forraje y el alimento consumido, pudiendo originar pérdidas de hasta un litro de leche al día. “Con respecto a la producción láctea, la H. irritans puede producir una merma del orden del 4 al 14%” (Mariategui et al, 2006). Se considera además un factor de riesgo para infecciones intramamarias ya que es portador de Staphylococcus ssp.</p>
+
+<p><strong>Mosquitos</strong>, en zonas ribereñas causan gran molestia en los animales causando perjuicios similares a las moscas, no hay estimaciones del perjuicio económico.</p>
+
+</div>
+
+----------------------
+
+<div class="parasitos-externos" id="parasitos-externos-4">
+
+<h3>Ura:</h3> 
+
+<h4>Signos </h4>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h4>Prevención</h4> se fundamenta en:<p>
+
+</p><p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+
+<h4>Tratamientos</h4>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+
+<p>Tratamientos preventivos combinados con Endectocidas y Pour-ones, en fines de primavera y principios de verano, dan como resultado una menor incidencia de la enfermedad.</p>
+          
+<p>Antiparasitarios: <strong>Galgosantel al 10% </strong>(10mg/Kg) repetir cada 45 días.</p>
+<p>Pour-On <strong>Arrasa</strong>.</p>
+<p>ndectocidas <strong> Bagomectina, Bovifort, Bagomectina AD3E Forte., Flok</strong></p>
+
+<h4>Perdidas económicas</h4>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p><strong>Ura:</strong> estimaciones hechas el año 2010 consideran perdidas por más de U$$ 2,5M al año
+De 20 a 40 nódulos originan una disminución del 12% en el peso del animal parasitado y en el ganado de tambo una merma del 20% en la producción de leche. Los cueros enviados a la industria, pueden estar afectados por nódulos parasitarios en un 65% de su superficie</p>
+
+</div>
+
+-----------------------
+
+<div class="parasitos-externos" id="parasitos-externos-5">
+
+<h3>Piojos:</h3>
+
+<h4>Signos </h4>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h4>Prevención</h4> se fundamenta en:<p>
+
+</p><p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+
+<h4>Tratamientos</h4>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+<p>Empezar los tratamientos antes de la entrada del invierno y continuarlos posterior a la primavera. Los primeros signos clínicos de la pediculosis bovina es el lamido excesivo en el otoño invierno. La pediculosis bovina causa lesiones en la piel, decaimiento general, menor cantidad de horas de pastoreo por la irritación cutánea.</p>
+
+<p>Línea Antiparasitarios: <strong>Galgosantel</strong> Oral e Inyectable. </p>
+<p>Línea de Pour-Ones<strong> Aciendel, Aciendel Plus, y Arrasa.</strong></p>
+<p>Línea de Emulsiones para Baños de Aspersión e Inmersión.,<strong> Aspersin, Cipersín y Garramix</strong>.</p>
+<p>Línea de Endectocidas,<strong> Bagomectina, Bovifort, Bagomectina AD3E Forte, Ivergen Platinum 3,15 Flok, Bagomectina 3,15 LA AD3E</strong></p>
+
+<h4>Perdidas económicas</h4>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p><strong>Pediculosis o Phthyriasis</strong>, En bovinos se estima que hay pérdidas de hasta el 10% en la producción cárnica y láctea, sumada a esta, la depreciación en el valor de los cueros afectados, que llegan a bajar  su precio hasta un 25%.</p>
+
+
+</div>
+
+-------------------
+<div class="parasitos-externos" id="parasitos-externos-6">
+
+<h3>Bicheras:</h3> 
+
+<h4>Signos </h4>
+
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, época del año, etc .Podemos agrupar y sintetizar la sintomatología de los ectoparásitos en:</p>
+
+<p>•	Irritación cutánea.</p>
+<p>•	Prurito, rascado (por lamido piloso, contra alambrados, tranqueras etc.)</p>
+<p>•	Caída del pelo. Alopecia.</p>
+<p>•	Heridas. (Posteriores apariciones de infecciones, abscesos y miasis)</p>
+<p>•	Inquietud y malestar general, irritabilidad, caída de la producción, pérdida de peso y baja en la producción láctea.</p>
+<p>•	Anemias y  enfermedades asociadas , como Babesiosis  y Anaplasmosis</p>
+
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc.  nos da una idea de cuál de las ectoparásitos puede estar aquejando a nuestros animales. Los métodos complementarios como microscopia  o la observación con Lupa para distinguir  ácaros de la sarna y piojos  son un buen método que no debemos dejar de lado.</p>
+
+<p><h4>Prevención</h4> se fundamenta en:<p>
+
+</p><p>Conocimiento de la estacionalidad de las ectoparasitósis, época del año en que aparecen estos parásitos, categorías  susceptibles que primero se ven afectadas y conocimiento del historial del campo. </p>
+
+<p>Tratamientos estratégicos (cuando tratar, conque tratar, que categorías tratar, cuando repetir las tratamientos y como constatar la eficacia y persistencia de estos tratamientos)</p>
+
+
+<p>Rotación de productos en los tratamientos preventivos y curativos del establecimiento.</p>
+
+
+<p>Comprobación del buen funcionamiento del programa preventivo, por medio de observaciones periódicas (Recorrida) de potreros y visualización de la aparición de ectoparásitos sobre los animales tratados, esto nos dará una idea de cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos.</p>
+
+
+
+<h4>Tratamientos</h4>
+
+<p><strong>Preventivos:</strong> de acuerdo al conocimiento de la época del año (estacionalidad de la enfermedad) que aparece cada una de las afecciones es que podemos anticiparnos en algunos casos en hacer tratamientos preventivos, así por ejemplo  si sabemos que en los meses de invierno es cuando encontramos mayor cantidad de piojos en nuestro ganado podríamos utilizar Lactonas Macrocíclicas previas a la entrada de la estación invernal para así de  esta manera disminuir la cantidad de piojos  o en el caso de las garrapatosis Bovina , conociendo la estacionalidad de las ondas de garrapatas y el poder residual de los endectocidas , Pour-ones o baños de inmersión sabremos cuando empezar a tratar y conque frecuencia hacerlo( Ver programa PEGA)</p>
+
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, en las bicheras la elección del tipo de Curabicheras  aerosol, pastas o soluciones debe ir acompañada de acuerdo al tipo de lesión y frecuencia del tratamiento; en miasis superficiales la elección de pastas (Galmetrin Pasta)  es la adecuada,  mientras que en miasis cavitarias (miasis del ombligo o post castraciones) la elección de soluciones o aerosoles quizás sea la acertada. Muchas veces la utilización de tratamientos combinados para miasis cavitarias, sea una buena elección, la utilización de Doramectina (Flok) y Aerosoles( Galmetrin Spray)  el Galmetrin Spray eliminara rápidamente a las larvas , mientras que  el Flok tendrá un tiempo de permanencia en sangre que nos dará la eliminación de aquellas larvas que puedan quedar .</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, baños etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+
+<p>El tratamiento preventivo de las miasis, post castración,  descorné, etc. puede ser local o sistémico, por ejemplo la utilización de Flok en forma sistémica y la colocación de Galmetrin pomada es de uso rutinaria en la castración de terneros, asimismo la utilización de Arrasa en terneros que van a ser castrados es una buena manera de prevenir las Miasis.</p>
+
+<p>Línea Antiparasitarios: <strong>Galgosantel</strong> Oral e Inyectable</p>
+<p>Línea de Pour-Ones<strong> Arrasa</strong>.</p>
+<p>Línea de Curabicheras:<strong> Galmetrin Polvo, Pomada, Solución y Spray</strong>.</p>
+<p>Línea de Endectocidas,<strong> Bagomectina, Bovifort, Bagomectina AD3E Forte, Ivergen Platinum 3,15 Flok, Bagomectina 3,15 LA AD3E</strong></p>
+
+<h4>Perdidas económicas</h4>
+
+<p>Todos los ectoparásitos mencionados, son causantes de mermas económicas en mayor o menor medida. Causan pérdidas directas por acción parasitaria sobre los animales por ejemplo anemias en el caso de garrapatas o Haematobia irritans e indirectas, por ejemplo los índices reproductivos se ven disminuidos en caso de ectoparásitos severas.</p>
+
+
+<p><strong>Bicheras</strong> unos  U$$ 2,5M al año, variable según el año, principalmente por factores climáticos</p>
+
+</div>
+
+
+-------------
+
+<div class="parasitos-externos" id="parasitos-externos-6">
+<h4>Etiologías</h4>
+
+<p>Las parasitosis externas en el ganado vacuno, varían su aparición e incidencia de  acuerdo a la, época del año, tipo de explotación,  raza bovina y región del mundo, estos son algunos de los factores determinantes de la incidencia y tipo de ectoparasitósis presente. </p>
+
+<p>Los principales parásitos externos del ganado bovino en nuestra región son:</p>
+
+<p><strong>Garrapata</strong> (Común del Bovino) Rhipicephalus (Boophilus) microplus.</p>
+
+<p><strong>Sarna</strong> (Psoroptes bovis).</p>
+
+<p><strong>Piojos</strong>  Piojos masticadores (mordedores)  o piojo cabezón Bovicola (Damalinia) bovis  y chupadores (Anoplura), de estos últimos existen 3 tipos: el Haematopinus eurysternus o piojo de trompa corta, Linognathus vituli, o piojo bovino de trompa larga y el pequeño piojo bovino azul Solenopo¬tes capillatus.</p>
+
+<p><strong>Moscas</strong> Las moscas de los cuernos Haematobia irritans, las moscas domésticas Musca doméstica, Mosca Brava o mosca de los establos (Stomomxys calcitrans) y los Tábanos (Tabanus spp,) </p>
+
+<p><strong>Ura</strong> Miasis fo¬runculosa o Dermatobiasis (Dermatobia hominis) </p>
+
+<p><strong>Bichera </strong> (Cochliomyia hominivorax)</p>
+
+<p><strong>Mosquitos</strong> (Culex, Aedes, Anopheles)</p>
+
+<div>
+
+
+--------
+
+
+PARASITOS INTERNOS
+
+
+<div class="parasitos-externos" id="parasitos-internos-0">
+
+<h4>Etiologías</h4>
+
+<p>Las parasitosis internas en el ganado vacuno, varían su aparición e incidencia de  acuerdo a la época del año, tipo de explotación y región del mundo.</p>
+
+<p>Los principales parásitos internos del ganado bovino se pueden dividir en:</p>
+
+<p><strong>Nematodes (gusanos redondos) </strong></p>
+
+<p><strong>Cestodes Tenias (gusanos cinta)</strong></p>
+
+<p><strong>Trematodes Duelas (gusanos planos)</strong</p>
+
+<p><strong>Protozoos (Coccideos)</strong></p>
+
+<p>De acuerdo a su género y localización </p>
+
+<p><strong>Nematodes Gastrointestinales </strong></p>
+
+
+<p>•	Cooperia Spp  habita en el Intestino delgado</p>
+<p>•	Ostertagia Spp  habita en el cuajo e intestino delgado</p>
+<p>•	Trichostrongylus axei   habita en el Intestino delgado</p>
+<p>•	Haemonchus placei  habita en el cuajo   </p>              
+<p>•	Nematodirus habita en el Intestino delgado</p>
+<p>•	Oesophagostomun spp habita en el Intestino grueso</p>
+<p>•	Trichuris spp habita en el Intestino grueso</p>
+<p>•	Toxocara vitulorum habita en el Intestino delgado.</p>
+<p>•	Strongyloides spp. habita en el Intestino delgado</p>
+
+<p><strong>Nematodes Pulmonares </strong></p>
+
+<p>•	Dictyocaulus Viviparus. Tráquea, bronquios y bronquiolos.</p>
+
+<p><strong>Cestodes (gusanos cinta, tenias)</strong></p>
+
+<p>•	Echinococcus granulosus  habita en hígado y pulmones</p>
+<p>•	Moniezia spp habita en el Intestino delgado</p>
+<p>•	Cysticercus bovis (Taenia Saginata) habita en músculo.</p>
+
+<p><strong>Trematodes (gusanos planos, duelas)</strong></p>
+
+<p>•	Fasciola Hepática Habita en el hígado</p>
+
+<p><strong>Protozoos (Coccideos)(Habitan principalmente el Intestino)</strong></p>
+
+<p>•	Cryptosporidium</p>
+<p>•	Eimeria </p>
+<p>•	Isospora.</p>
+
+<h4>Signos</h4>
+ 
+<p>La sintomatología clínica de cada una de estas parasitosis va a depender del tipo de parasito,  grado de infestación, edad del individuo afectado, etc. Podemos agrupar y sintetizar la sintomatología de los endoparásitos en: </p>
+<p>Sintomatología Subclínica (Está ocurriendo, pero no se ve) disminución de la producción de leche o de la ganancia de peso, alteración de la composición de la media Res, reducción de la tasa de concepción, etc.</p>
+<p>Sintomatología Clínica (se ve en el animal). Diarrea, pica,  malacia, pelo ralo, caquexia, neumonía,  etc.</p>
+
+<h4>Diagnósticos</h4>
+
+<p>El diagnostico se basa en los Signos clínicos y  subclínicos en algunas ocasiones en estudios complementarios para confirmar la enfermedad. </p>
+
+<p>El conocimiento de la Epidemiologia, estacionalidad de las enfermedades, edad de los animales afectados, ciclo biológico de los parásitos etc., nos da una idea de cuál de las endoparásitos pueden estar aquejando a nuestros animales. Los métodos complementarios como hpg y tipificación de géneros parasitarios, son algunos de los métodos  diagnósticos que nos confirmara que parasitosis está afectando nuestro rodeo. Debemos considerar también realizar el conteo de huevos en las pasturas, de esta manera tendremos una correlación entre lo que ocurre dentro del animal y lo que ocurre con su alimento.</p>
+
+<h4>Prevención</h4>
+<p>Para poder prevenir ciertas parasitosis, debemos conocer  la epidemiologia de los parásitos, estacionalidad, categorías de mayor susceptibilidad  y conocimiento del historial del campo, son algunos de los puntos a tener en cuenta.</p>
+
+<p>Podemos prevenir realizando manejo de  pasturas, saber que categoría puede ir a una pastura de alto riesgo (Pasturas viejas o pastizales con altas cargas parasitarias) y que categorías pueden ir a pasturas de bajo riesgo (verdeos o rastrojos) y a esto  debemos agregarle un correcto  manejo terapéutico.</p>
+
+
+<h4>Tratamientos:</h4>
+
+<p><strong> Preventivos </strong> Antes de cualquier  tratamiento, debemos resolvernos ciertas  incógnitas </p>
+
+<p>¿Contra qué endoparásito tratar?</p>
+<p>¿Cuándo tratar?</p>
+<p>¿Conque producto tratar?</p>
+<p>¿Qué categorías tratar? </p>
+<p>¿Cuándo repetir los tratamientos?</p> 
+<p>¿Qué medida de manejo utilizaremos para mejorar nuestros tratamientos? </p>
+<p>¿Cómo constatar la eficacia y duración de estos tratamientos?</p>
+<p>¿Qué rotación de productos en los tratamientos debemos tener, para no generar resistencias?</p>
+
+<p>El asesor veterinario, es el profesional adecuado para manejar toda esta información y obtener de todas estas preguntas la mejor respuesta, para una correcta decisión.</p>
+
+<p>El  constatara el buen funcionamiento del programa preventivo, con métodos de estudios complementarios (hpg) nos dirá cuando volver a realizar un tratamiento y considerar  la rotación de productos, métodos de aplicación, cambio de potreros y cualquier maniobra que nos ayude a hacer más eficaz nuestros tratamientos; así por ejemplo  si sabemos que en los meses de Otoño-Invierno  vamos a realizar un destete y las cargas parasitarias en nuestras pasturas son muy altas, debemos realizar un control de hpg sobre las pasturas y  los animales, de manera tal de saber que parasito existe y como debemos tratarlo ¿ Qué principio activo?  ¿A qué dosis? y ¿Conque frecuencia? son preguntas que resolverá su asesor veterinario.</p>
+
+<p><strong>Curativos:</strong> Estos tratamientos se realizan una vez que detectamos las parasitosis en los animales. En las endoparasitósis, no debemos fiarnos solamente del diagnóstico macroscópico o sea lo que vemos en la materia fecal o lo que sospechamos que pueda tener nuestro rodeo, ya que existen parasitosis asociadas y nos puede llevar a un diagnostico errado. La mejor manera de realizar un buen diagnóstico es por medio de un hpg, con tipificación de géneros, de esta manera sabremos cómo tratar y conque tratar. Conociendo los antecedentes del campo, sabremos si existen géneros resistentes a ciertos principios activos y tomaremos la decisión adecuada.</p>
+
+<p>Debemos seleccionar el tipo de producto,  vía de administración, frecuencia en el tratamiento y respetar la dosis a administrar. Ejemplo de estos tratamientos, son una vez diagnosticada una helmintiasis en nuestro rodeo por medio de un hpg, seleccionamos un principio activo, como un benzimidazol, al poder residual del mismo le sumamos el ciclo biológico del parasito (21 días promedio) esto quiere decir que cada 3 o 4 semanas debemos desparasitar con este principio activo, hasta que los recuentos en materia fecal sean bajos o negativos, para los endectocidas serían cada 5-8 semanas)</p>
+
+<p>Tener en cuenta que los materiales que vamos a utilizar para la administración de antiparasitarios, deben estar limpios y bien calibrados para una correcta utilización, Jeringas , pistolas , dosificadores, etc se deben acondicionar antes de la utilización de cualquier maniobra y luego de su utilización deben ser lavadas y guardadadas correctamente para su próxima utilización. </p>
+
+
+<h4>Tratamientos </h4> 
+
+<p>“El control de las parasitosis es una tecnología de bajo costo y alto impacto económico”</p>
+
+<p>Condiciones climáticas y de manejo condicionan los diferentes tratamientos en cada establecimiento. Se puede decir que las etapas de riesgo parasitario son el otoño-invierno y que la categoría susceptible por excelencia es del destete en adelante, en el caso del tambo, destete y todas las etapas de estaca y recria.</p>
+Tradicionalmente en los sistemas pastoriles se establecen 2 tratamientos prefijados los del destete y el de fin de año. El del destete por la susceptibilidad dela categoría y el aumento de las cargas parasitarias en las pasturas, el de fin de año para eliminar larvas hipobióticas de Ostertagia y evitar su desinhibición posterior.</p>
+
+<p>1.Tratamientos antihelmínticos epidemiológicos.</p>
+
+<p>Tratamiento  Preventivo: Tratamientos a partir del destete cubriendo otoño primavera, de esta manera disminuiremos la siembra huevos de parásitos en las pasturas, limitaremos la cantidad de lombrices en los pastos del invierno en adelante.
+El intervalo en el tratamiento se hará de acuerdo al poder residual del principio activo y al ciclo biológico del parasito.</p>
+
+<p>2.Tratamientos basados en el diagnóstico.</p>
+
+<p>Tratamiento Táctico: se basa en 4 pilares, hpg en materia fecal, identificación de  L3 en pasturas, diferencias en GDP y epidemiologia local.  Con esta información realizaremos nuestros tratamientos, reduciendo el número de tratamientos anuales y verificando su efectividad con los controles de GDP, hpg etc.</p>
+
+<p>3.Tratamientos combinados con manejo de rodeos y de  poblaciones parasitarias.</p>
+
+<p>Tratamiento Integrado de control Parasitario: Combina el tratamiento estratégico, con medidas de manejo que brindaran pasturas poco contaminadas.
+Se clasifican las pasturas en:</p>
+<p>Pasturas de alto Riesgo: Pasturas Viejas o pajonales donde pastoreen categorías jóvenes (Recría-Invernada), altas cargas parasitarias y casos clínicos presentes.
+Pasturas de Riesgo medio: Pasturas nuevas, con animales adultos en pastoreo o animales jóvenes con un buen plan antiparasitario.
+Pasturas de bajo riesgo: Rastrojos y verdeos </p>
+
+
+
+<p><h4>Perdidas económicas</h4>
+
+<p>Los endoparásitos son considerados una de las principales limitantes productivas en nuestros sistemas pastoriles de producción de carne, entre un 10 y 12% es debido a muertes (Neumonías, gastroenteritis verminosas, coccidiosis etc.)</p>
+
+<p>Las pérdidas económicas las podemos clasificar según :</p>
+
+<p>Infestaciones Bajas (Subclínicas) 25-30 Kg por animal</p>
+
+<p>Infestaciones Moderadas (Clínicas) 40-60 Kg por animal</p>
+
+<p>Infestaciones graves (Con muertes) 80-100kg</p>
+
+<p>Las perdidas principales son por mermas de ganancia diaria de peso, problemas de desarrollo de vaquillonas de reposición, mermas en la producción láctea, etc.</p>
+
+<p>La inversión en el control de las endoparasitósis, es siempre una inversión favorable a la rentabilidad final del sistema de producción.</p>
+
+<p> Algunos ejemplos de estudios que demuestran las pérdidas son,</br>
+
+Comparando grupos de animales tratados vs grupos de animales no tratados con infestación de Ostertagia Inhibida, los valores  varían entre el 5 y 30% promedio del incremento total de peso para el grupo tratado, según el grado de contaminación del campo, la oferta forrajera y el desarrollo del animal. (C.Fiel et al, INTA Balcarce)</p>
+
+<p>Impacto de pérdidas económicas por menor calidad de la media res, el peso de los distintos cortes, su terneza y caracteres organolépticos) se han demostrado en estudios realizados (Departamento de Carnes, INTA Castelar)</p>
+
+<p>Diferencias en hembras desde terneras hasta el primer par¬to, en el desarrollo del canal pélvico, determinándose diferencias - principalmente por desarrollo y peso - en los índices de preñez y distocias (B.Beckwith y G.M.Bulman) en vaquillonas 3/8 Brahman sobre Hereford, en Mercedes, Corrientes.</p>
+
+
+
+<div>
+
+
+
+-----TERMINA TESTING
+

@@ -19,12 +19,12 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 selector-side" > 
 		<form method="post">
-         	<select name="enfermedades-select" class="enfermedades-select">
+         	<select name="enfermedades-select" class="enfermedades-select" id="enfermedades-selector">
 				<option value="" selected disabled>Enfermedades</option>
-				<option value="">Enfermedad 1</option>
-				<option value="">Enfermedad 2</option>	
-				<option value="">Enfermedad 3</option>	
-				<option value="">Enfermedad 4</option>	
+				<option value="enfermedades-infecciosas-1">Diarrea Neonatal</option>
+				<option value="enfermedades-infecciosas-2">Enfermedades clostridiales</option>	
+				<option value="enfermedades-infecciosas-3">Complejo Respiratorio Bovino</option>	
+				<option value="enfermedades-infecciosas-4">Queraconjuntivitis infecciosa bovina</option>	
 			</select>
 					 
 		</form>
@@ -38,13 +38,12 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 	<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12"> 
 	
-
-	<!-- Contenido de la enfermedad -->
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enfermedades-inside-container">
 	
 	<?php echo $nota->texto; ?>
 	
 	</div>
+	
 	</div>
 
 </div>
@@ -75,5 +74,18 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 	
 <?php } ?>	
 	
+
 	
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
