@@ -2743,7 +2743,11 @@ y fondos ubicacion en linea 1441 */
 
 /** ENFERMEDADES-INFECCIOSAS **/
 
-.enfermedades-infecciosas{
+.enfermedades-infecciosas-1{
+	display:block;
+}
+
+.enfermedades-infecciosas-2,.enfermedades-infecciosas-4,.enfermedades-infecciosas-3 {
 	display:none;
 }
 
