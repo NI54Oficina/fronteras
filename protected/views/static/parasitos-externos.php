@@ -26,7 +26,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 				<option value="enfermedades-infecciosas-3">Complejo Respiratorio Bovino</option>	
 				<option value="enfermedades-infecciosas-4">Queraconjuntivitis infecciosa bovina</option>	
 			</select>
-					 
+		
 		</form>
 		
 		<div class="enfermedades-inside-title square">
@@ -37,7 +37,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 	</div>
 
 	<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12"> 
-	
+
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enfermedades-inside-container">
 	
 	<?php echo $nota->texto; ?>

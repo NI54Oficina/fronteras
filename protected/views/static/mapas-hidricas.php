@@ -33,7 +33,7 @@ if($dataH){
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima-mapa">
 		<p>Fecha: 27-04-2016 | 12:45</p>
-		<button type="button" class="btn-mapas subtablesButton">Ver más</button>
+		<!--<button type="button" class="btn-mapas subtablesButton">Ver más</button>-->
 		</div>
 	</div>
 	
@@ -114,6 +114,7 @@ if($dataH){
 		</div>
 	</div>	
 	<?php } ?>
+	<button type="button" class="btn-mapas subtablesButton">Ver más</button>
 	</div>	
 <?php
 }

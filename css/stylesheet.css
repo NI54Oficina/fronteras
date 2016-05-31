@@ -117,9 +117,11 @@ header .home-upper-box > div{
 
 #bg-square{
     background-image: url(../img/cuadrado-botonera.png);
-    min-height: 6px;
+    min-height: 5px;
     background-size: auto;
 	display:block;
+    width: 90vw;
+    margin-left: 5.5vw;
 }
 
 
@@ -207,6 +209,15 @@ header .home-box:hover > .hoy-box {
 
 .ul-nav li{
 	display:inline-block;
+    width: auto;
+    padding: 0px 10px;
+	float: initial;
+}
+
+.cont-menu-mob{
+    text-align: right;
+    display: inline-block;
+	padding-right: 4vw;
 }
 
 .ul-nav li a{
@@ -220,14 +231,11 @@ header .home-box:hover > .hoy-box {
 }
 
 
-.ul-nav li:nth-child(2){
-	text-align: right;
-    padding-right: 45px;
-}
 
 .headermobile .navbar-collapse{
 	height:0;
 }
+
 .headermobile .navbar-collapse.in{
 	min-height:100vh !important;
 	height:auto;
@@ -1120,7 +1128,7 @@ header .home-box:hover > .hoy-box {
 	padding-top: 15px; 
 }
 .border-mapa{
-	background-color:#2E9DFB;
+	background-color:#76BDF0;
     min-height: 50px;
     margin-bottom: 10px;
 }
@@ -1144,17 +1152,17 @@ header .home-box:hover > .hoy-box {
 
 .form-clima-mapa{ 
     background-color: #F1EFEF;
-    min-height: 163px;
+    min-height: 40px;
     margin-bottom: 4px;
 }
 
 .form-clima-mapa p{ 
-	padding-top:30px;
+	padding-top:11px;
 }
 
 .btn-mapas{ 
-	display: inline-block;
-    padding: 9px 0px;
+	display: block;
+    padding: 8px 0px;
     margin-bottom: 0;
     font-size: 1.5rem;
     line-height: 1.42857143;
@@ -1171,12 +1179,14 @@ header .home-box:hover > .hoy-box {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 2px;
-    margin-top: 85px;
-    width: 100%;
+    margin-top: 20px;
+    width: 23.5%;
     background: #2E9DFB;
     color: #FFF;
     letter-spacing: 1px;
     font-family: 'arialregular';
+    float: right;
+    margin-right: 1%;
 }
 /************************************
 ************* NOTICIAS ***********
@@ -2088,7 +2098,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     background-color: #D0CFCF;
     border-color: none;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.4px;
     font-family: 'arialregular';
 }
 
@@ -2133,7 +2143,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	outline:none;
 	border:none;
 	color: #FFF;
-    background-color: #CDCDCD;
+    background-color: #28A382;
     border-color: transparent;
 }
 

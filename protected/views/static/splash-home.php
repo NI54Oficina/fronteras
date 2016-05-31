@@ -3,8 +3,9 @@
 		<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
 	</div>
 
-	<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 puntitos-splash">
-		
+	<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="bg-square-2"></div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="bg-square-2"></div>
 	</div>
 
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 slogan-splash">

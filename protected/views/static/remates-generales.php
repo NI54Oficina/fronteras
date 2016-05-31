@@ -38,9 +38,9 @@ $remates= Remates::model()->findAll($Criteria);
 
 		
 			<p class="hidden-lg  fecha-remates-mobile color-generales"> 
-			<button class="boton-prueba-atras"> < </button>
+			<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 			Miercoles 18 Mayo del 2016
-			<button class="boton-prueba"> > </button></p>
+			<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></p>
 		
 
 
@@ -56,6 +56,7 @@ $remates= Remates::model()->findAll($Criteria);
 					<p>Miércoles</p>
 					<p>18</p>
 					<p>Mayo del 2016</p>
+					
 				</div>
 					
 					
