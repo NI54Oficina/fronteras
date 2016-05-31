@@ -26,10 +26,18 @@
 			<h3>- Indicadores - </h3>
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 subtablesNav" id="navIndicadores">
-			
-				<button type="button" class="btn-indicadores btn-default subtablesButton defaultSubtable" target="tablaIndicadores1">Bolsas</button>
+				
+				<?php
+				$idLoop=0;
+				$firstLoop=true;
+				$array=array_reverse($array,true );
+				foreach($array as $item){ ?>
+				<button type="button" class="btn-indicadores btn-default subtablesButton <?php if($firstLoop){echo  'defaultSubtable';$firstLoop=false;} ?>" target="tablaIndicadores<?php echo $idLoop; ?>"><?php echo $item["Nombre"]; ?></button>
+				<?php $idLoop++; } ?>
+				
+				<!--<button type="button" class="btn-indicadores btn-default subtablesButton defaultSubtable" target="tablaIndicadores1">Bolsas</button>
 				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaIndicadores0">Tasas</button>
-				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaIndicadores2">Commodities</button>
+				<button type="button" class="btn-indicadores btn-default subtablesButton" target="tablaIndicadores2">Commodities</button>!-->
 			
 			</div>
 			<?php 
@@ -113,7 +121,7 @@
 		
 			<h3>- <?php echo $item["Nombre"]; ?> - </h3>
 			
-			
+			<br>
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-table-mercados">
 				
