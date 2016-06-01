@@ -551,11 +551,6 @@ function changeContent(){
         $('#' + $(this).val()).show();
     });
 	console.log("salida enfermedades");
-
-}
- 
-function changeContent(){
-
     $('#parext-selector').change(function(){
         $('.parasitos-externos').hide();
         $('#' + $(this).val()).show();
@@ -563,4 +558,5 @@ function changeContent(){
 	console.log("salida enfermedades");
 
 }
+
 
