@@ -2800,3 +2800,17 @@ y fondos ubicacion en linea 1441 */
 
 }
 	
+
+/***************ESTADO CORPORAL	**********/
+
+.p-estado{
+	color: white;
+}
+
+.p-estado-1{
+	font-size: .8em;
+}
+
+.p-estado-2{
+	font-size: 1.7em;
+}

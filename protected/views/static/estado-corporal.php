@@ -15,10 +15,10 @@
 		
 		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
 	
-					<p>Condición corporal para la raza</p>
-					<p>ANGUS</p>
+					<p class="p-estado-1">Condición corporal para la raza</p>
+					<p class="p-estado-2">ANGUS</p>
 				</div>
 				
 			</div>
@@ -31,10 +31,10 @@
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hereford"   class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
 	
-					<p>Condición corporal para la raza</p>
-					<p>HEREFORD</p>
+					<p class="p-estado-1">Condición corporal para la raza</p>
+					<p class="p-estado-2">HEREFORD</p>
 					
 				</div>
 				
@@ -49,10 +49,10 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
 	
-					<p>Condición corporal para la raza</p>
-					<p>BRANGUS</p>
+					<p class="p-estado-1">Condición corporal para la raza</p>
+					<p class="p-estado-2">BRANGUS</p>
 					
 				</div>
 				
@@ -67,10 +67,10 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
 	
-					<p>Condición corporal para la raza</p>
-					<p>BRAFORD</p>
+					<p class="p-estado-1">Condición corporal para la raza</p>
+					<p class="p-estado-2">BRAFORD</p>
 
 				</div>
 				
@@ -85,7 +85,7 @@
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
 	
 						
 				</div>
