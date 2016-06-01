@@ -39,6 +39,10 @@
 		font-size: 1.5rem!important;
 	}
 	
+	.container-items-mercados{
+		height:auto !important;
+	}
+	
 	.columna-ganado p {
 		font-size: 1.6rem;
 		padding-left:5px;
