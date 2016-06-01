@@ -2814,3 +2814,15 @@ y fondos ubicacion en linea 1441 */
 .p-estado-2{
 	font-size: 1.7em;
 }
+
+.img-ganado{
+	width: 90%;
+}
+
+.img-ganado-info {
+	width: 25%;
+}
+
+.ganado-col-1, .ganado-col-2{
+	text-align: left;
+}
