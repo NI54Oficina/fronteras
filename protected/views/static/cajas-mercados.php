@@ -1,7 +1,7 @@
 <?php 
-$iconDown='<span class="glyphicon glyphicon-chevron-down"></span>';
-$iconUp=' <span class="glyphicon glyphicon-chevron-up"></span>';
-$iconEqual='<span class=""><strong>=</strong></span>';
+$iconDown='<span class="glyphicon glyphicon-chevron-down" style="color:#bb4544"></span>';
+$iconUp=' <span class="glyphicon glyphicon-chevron-up" style="color:#5e974c"></span>';
+$iconEqual='<span class="font-size:2em;" style="font-size:"><strong>=</strong></span>';
 ?>
 <!--MERCADOS-->
 

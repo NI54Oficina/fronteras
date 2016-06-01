@@ -552,11 +552,6 @@ function changeContent(){
         $('#' + $(this).val()).show();
     });
 	console.log("salida enfermedades");
-
-}
- 
-function changeContent(){
-
     $('#parext-selector').change(function(){
         $('.parasitos-externos').hide();
         $('#' + $(this).val()).show();
@@ -564,6 +559,7 @@ function changeContent(){
 	console.log("salida enfermedades");
 
 }
+
 
 
 function fitBackground(){
@@ -582,7 +578,7 @@ function fitBackground(){
 	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
 
 
-	if( wdWidth > bgWidth ){
+	if( wdWidth < bgWidth ){
 		$("#home").css("background-size", "auto 120%");
 		console.log("Complete.")
 	}else{

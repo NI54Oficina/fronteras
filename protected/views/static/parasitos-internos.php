@@ -1,5 +1,5 @@
 <?php
-$nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"));
+$nota = Notas::model()->findByAttributes(array("id"=>4,"seccion"=>"enfermedad"));
 
 ?>
 
@@ -9,7 +9,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"))
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
-			<p class="center-to-parent color-sanidad planes-h1">Parásitos externos</p>
+			<p class="center-to-parent color-sanidad planes-h1">Parásitos internos</p>
 		</div>
 	</div>
 </div>	
@@ -21,13 +21,13 @@ $nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"))
 		<form method="post">
          	<select name="parext-select" class="parext-select" id="parext-selector">
 				<option value="" selected disabled>Parásitos externos</option>
-				<option value="parasitos-externos-2">Bicheras</option>
-				<option value="parasitos-externos-1">Etiología</option>	
-				<option value="parasitos-externos-3">Garrapatas</option>	
-				<option value="parasitos-externos-4">Moscas, Tábanos y Mosquitos</option>	
-				<option value="parasitos-externos-5">Piojos</option>	
-				<option value="parasitos-externos-6">Sarna</option>	
-				<option value="parasitos-externos-7">Ura</option>	
+				<option value="parasitos-internos-1">Bicheras</option>
+				<option value="parasitos-internos-2">Etiología</option>	
+				<option value="parasitos-internos-3">Garrapatas</option>	
+				<option value="parasitos-internos-4">Moscas, Tábanos y Mosquitos</option>	
+				<option value="parasitos-internos-5">Piojos</option>	
+				<option value="parasitos-internos-6">Sarna</option>	
+				<option value="parasitos-internos-7">Ura</option>	
 			</select>
 		
 		

@@ -1783,7 +1783,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 #home{ 
 	padding: 45px; 
-	background-image: url(../img/bg-index.png); 
+	background-image: url(../img/test-bg.jpg); 
 	width: 100%;  
 	text-align: center; 
 	background-size:auto 100% ;
@@ -2552,6 +2552,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	margin: 10px 0px;
 	color: rgba(158,158,158,.5);
 }
+
+.enfermedades-select:focus {
+	outline:none;
 }
 
 .enfermedades-box p{
@@ -2620,6 +2623,19 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding-right:30px;
 }
 
+/**************** SANIDAD - PARÁSITOS EXTERNOS ************************/
+.parext-select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #6D4A84;
+    width: 100%;
+    margin: 10px 0px;
+    color: rgba(158,158,158,.5);
+}
+
+.parext-select:focus {
+	outline:none;
+}
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
 
 .title-producir-inside{

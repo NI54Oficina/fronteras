@@ -30,7 +30,7 @@ if(true){
 		</div>
 		
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima-mapa">
-		<p>Fecha: 27-04-2016 | 12:45</p>
+		<p>Fecha: <?php echo date("d-m-y | h:i:s",$f["created"]); ?></p>
 		<!---->
 		</div>
 	</div>
