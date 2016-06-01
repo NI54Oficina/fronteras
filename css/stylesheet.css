@@ -2564,13 +2564,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .enfermedades-box p{
-<<<<<<< HEAD
     font-size: 1.5rem;
     width: 98%;
-=======
-    
     width:100%;
->>>>>>> origin/master
+
 }
 
 #enfermedades-more{
