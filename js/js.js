@@ -577,8 +577,8 @@ function fitBackground(){
 
 	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
 
-
-	if( wdWidth < bgWidth ){
+	if (true) {}
+	if( wdWidth > bgWidth ){
 		$("#home").css("background-size", "auto 120%");
 		console.log("Complete.")
 	}else{
