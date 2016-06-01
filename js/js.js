@@ -579,9 +579,10 @@ function fitBackground(){
 
 	if (true) {}
 	if( wdWidth > bgWidth ){
-		$("#home").css("background-size", "auto 120%");
+		$("#home").css("background-size", "120% auto");
 		console.log("Complete.")
 	}else{
+		$("#home").css("background-size", " auto 120%");
 		console.log("not-complete");
 	}
 
