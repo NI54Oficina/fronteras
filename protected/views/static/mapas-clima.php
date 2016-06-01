@@ -107,7 +107,7 @@ if(true){
 			
 		</div>
 	</div>	
-	<button type="button" class="btn-mapas subtablesButton">Ver más</button>
+	<button type="button" class="btn-mapas subtablesButton">Ver anteriores</button>
 	</div>	
 <?php
 }

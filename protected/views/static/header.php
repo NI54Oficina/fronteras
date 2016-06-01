@@ -54,10 +54,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 	</div>
 
-	<!--Flecos-->
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 flecos-header" style="margin-top: -1px;">
-		<div></div>
-	</div>
+
 
 <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <span  class=" glyphicon glyphicon-th-large navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>	

@@ -554,5 +554,13 @@ function changeContent(){
 
 }
  
+function changeContent(){
 
+    $('#parext-selector').change(function(){
+        $('.parasitos-externos').hide();
+        $('#' + $(this).val()).show();
+    });
+	console.log("salida enfermedades");
+
+}
 

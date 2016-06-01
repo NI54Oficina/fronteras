@@ -21,9 +21,9 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 		<form method="post">
          	<select name="enfermedades-select" class="enfermedades-select" id="enfermedades-selector">
 				<option value="" selected disabled>Enfermedades</option>
-				<option value="enfermedades-infecciosas-1">Diarrea Neonatal</option>
-				<option value="enfermedades-infecciosas-2">Enfermedades clostridiales</option>	
-				<option value="enfermedades-infecciosas-3">Complejo Respiratorio Bovino</option>	
+				<option value="enfermedades-infecciosas-1">Complejo Respiratorio Bovino</option>
+				<option value="enfermedades-infecciosas-2">Diarrea Neonatal</option>	
+				<option value="enfermedades-infecciosas-3">Enfermedades clostridiales</option>	
 				<option value="enfermedades-infecciosas-4">Queraconjuntivitis infecciosa bovina</option>	
 			</select>
 					 

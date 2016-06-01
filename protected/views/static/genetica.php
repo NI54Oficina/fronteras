@@ -9,37 +9,45 @@
 	</div>
 		
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
-	<div class="box-genetica border-shadow">
-		<div class="box-genetica-inner producir-box-inner square icon-braford">
-			<div  class="color-genetica long-word fill-heigth name-genetica">Asociación Braford</div>
-		</div>
-	</div>
+		<a href="http://www.angus.org.ar/" target="_blank">
+			<div class="box-genetica border-shadow">
+				<div class="box-genetica-inner producir-box-inner square icon-angus">
+					<div  class="color-genetica long-word fill-heigth name-genetica">Asociación Angus</div>
+				</div>
+			</div>
+		</a>
 	</div>
 
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
-	<div class="box-genetica border-shadow">
-		<div class="box-genetica-inner producir-box-inner square icon-hereford">
-			<div class="color-genetica long-word fill-heigth name-genetica">Asociación Hereford</div>
-		</div>
-	</div>
+		<a href="http://www.brangus.org.ar/inicio/category/home/" target="_blank">
+			<div class="box-genetica border-shadow">
+				<div class="box-genetica-inner producir-box-inner square icon-brangus">
+					<div class="color-genetica long-word fill-heigth name-genetica"> Asociación Brangus</div>
+				</div>
+			</div>
+		</a>
 	</div>
 
 
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
-	<div class="box-genetica border-shadow">
-		<div class="box-genetica-inner producir-box-inner square icon-brangus">
-			<div class="color-genetica long-word fill-heigth name-genetica">Asociación Brangus</div>
-		</div>
-	</div>
+		<a href="http://www.hereford.org.ar/web/" target="_blank">
+			<div class="box-genetica border-shadow">
+				<div class="box-genetica-inner producir-box-inner square  icon-hereford">
+					<div class="color-genetica long-word fill-heigth name-genetica">Asociación Hereford</div>
+				</div>
+			</div>
+		</a>
 	</div>
 	
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
-	<div class="box-genetica border-shadow">	
-		<div class="box-genetica-inner producir-box-inner square icon-angus">
-			<div class="color-genetica long-word fill-heigth name-genetica">Asociación Angus</div>
-		</div>
-	</div>
+		<a href="http://www.braford.org.ar/" target="_blank">
+			<div class="box-genetica border-shadow">	
+				<div class="box-genetica-inner producir-box-inner square icon-braford">
+					<div class="color-genetica long-word fill-heigth name-genetica">Asociación Braford</div>
+				</div>
+			</div>
+		</a>
 	</div>
 	
 

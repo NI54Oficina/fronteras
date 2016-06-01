@@ -1,5 +1,5 @@
 <?php
-$nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"));
+$nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"));
 
 ?>
 
@@ -19,13 +19,19 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 selector-side" > 
 		<form method="post">
-         	<select name="enfermedades-select" class="enfermedades-select" id="enfermedades-selector">
-				<option value="" selected disabled>Parásitos</option>
-				<option value="enfermedades-infecciosas-1">Diarrea Neonatal</option>
-				<option value="enfermedades-infecciosas-2">Enfermedades clostridiales</option>	
-				<option value="enfermedades-infecciosas-3">Complejo Respiratorio Bovino</option>	
-				<option value="enfermedades-infecciosas-4">Queraconjuntivitis infecciosa bovina</option>	
+         	<select name="parext-select" class="parext-select" id="parext-selector">
+				<option value="" selected disabled>Parásitos externos</option>
+				<option value="parasitos-externos-1">Bicheras</option>
+				<option value="parasitos-externos-2">Etiología</option>	
+				<option value="parasitos-externos-3">Garrapatas</option>	
+				<option value="parasitos-externos-4">Moscas, Tábanos y Mosquitos</option>	
+				<option value="parasitos-externos-5">Piojos</option>	
+				<option value="parasitos-externos-6">Sarna</option>	
+				<option value="parasitos-externos-7">Ura</option>	
 			</select>
+		
+		
+		
 		
 		</form>
 		
