@@ -19,7 +19,7 @@
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/cria.pdf" download="cria"  class="">
 		
 		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 	
 					<p>Cría</p>	
@@ -38,7 +38,7 @@
 		<!-- Tambo -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/tambo.pdf" download="tambo"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes-box">
 	
 					<p>Tambo</p>
@@ -56,7 +56,7 @@
 		<!-- Feed-lot -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/feedlot.pdf" download="feed-lot"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 	
 					<p>Feed-lot</p>
@@ -74,7 +74,7 @@
 		<!-- Ovino central y norte --> 
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/ovinoscentralynorte.pdf" download="ovino" class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 	
 					<p>Ovino central y norte</p>
@@ -92,7 +92,7 @@
 		<!-- Recría -->
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/recria.pdf" download="recria"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes" >
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 	
 					<p>Recría</p>

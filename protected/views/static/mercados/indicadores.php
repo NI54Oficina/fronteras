@@ -78,7 +78,7 @@
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
 								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<p class="moneda-mercados"><?php echo $c[$key]; ?> <?php if($key=="Variación"){
+										<p class="moneda-mercados"> <?php if($key=="Variación"){
 															
 										$variacion=floatval(str_replace(',','.',$c[$key]));
 										if($variacion<0){
@@ -89,7 +89,7 @@
 											echo $iconEqual;
 										}
 											
-										} ?></p>
+										} ?><span><?php if(strpos($c[$key],'-')===false){echo "&nbsp;";} echo $c[$key]; ?></span></p>
 									</div>
 								<?php } 
 							} ?>
@@ -159,7 +159,7 @@
 								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
 										
-										<p class="moneda-mercados"><?php echo $c[$key]; ?> <?php if($key=="Variación"){
+										<p class="moneda-mercados"><?php if($key=="Variación"){
 															
 										$variacion=floatval(str_replace(',','.',$c[$key]));
 										if($variacion<0){
@@ -170,10 +170,12 @@
 											echo $iconEqual;
 										}
 											
-										} ?></p>
+										} ?><span><?php if(strpos($c[$key],'-')){echo "&nbsp;";} echo $c[$key];  ?></span></p>
 									</div>
-								<?php } 
-							} ?>
+								<?php }else if($key=="Venta"){?>
+									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">	<p class="moneda-mercados">-</p></div>
+								<?php } ?>
+							<?php } ?>
 						</div>
 				<?php } ?>
 					
@@ -193,3 +195,13 @@
 	</div>
 	
 <?php  } ?>
+
+<style>
+.moneda-mercados .glyphicon{
+	float:left;
+	padding-right:20px;
+}
+.moneda-mercados {
+	
+}
+</style>

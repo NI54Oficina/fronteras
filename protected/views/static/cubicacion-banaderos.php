@@ -1,4 +1,4 @@
-<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-banaderos">
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="estado-corporal">
 
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-manejo border-shadow">
