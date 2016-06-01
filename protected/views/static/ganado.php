@@ -12,7 +12,7 @@
 	<button class="boton-ganado-prev" ><</button>
 	<button class="boton-ganado-next">></button>
 
-<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cubicacion-container" style="display:none;">
+<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cubicacion-container" >
 
 
 
@@ -43,8 +43,8 @@
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1>ASDASKDNASKD</h1>
-		<p>HOLA hola hola hola hola hola hola hola hola hola HOLA hola hola hola hola hola hola hola hola hola HOLA hola hola hola hola hola hola hola hola hola </p>
+		<h1>BEBEBEBEBBEBEBEBE</h1>
+		<p>CHAU CHUA CHUA CHAUCHASJAS ASDNKASD CHAU CHAU </p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
 
@@ -54,57 +54,24 @@
 </div>
 
 
-<script >
-
-$(document).on("ready", function(){
-	slide();
-	console.log("test-slider");
-});
+<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cubicacion-container" style="display:none;">
 
 
-function slide(){
 
-var currentIndex = 0,
-  items = $('.cubicacion-container'),
-  itemAmt = items.length;
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
+		
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
+	</div>
 
-	function cycleItems() {
-  var item = $('.cubicacion-container').eq(currentIndex);
-  items.hide();
-  item.fadeIn("slow");
-}
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
+		<h1>CCCCCCCCCCCCCCCCCCCCCCCCCCCC</h1>
+		<p>CHAU CHUA CHUA CHAUCHASJAS ASDNKASD CHAU CHAU </p>
 
-var autoSlide = setInterval(function() {
-  currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
-    currentIndex = 0;
-  }
-  cycleItems();
-}, 3000);
+		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
 
-$('#boton-ganado-next').click(function() {
-  clearInterval(autoSlide);
-  currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
-    currentIndex = 0;
-  }
-  cycleItems();
-});
+		
+	</div>
 
-$('#boton-ganado-prev').click(function() {
-  clearInterval(autoSlide);
-  currentIndex -= 1;
-  if (currentIndex < 0) {
-    currentIndex = itemAmt - 1;
-  }
-  cycleItems();
-});
-
- 
-
-}
-
-
-</script>	
+</div>
 
 </section>
