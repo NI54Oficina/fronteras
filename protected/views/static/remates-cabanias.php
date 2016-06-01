@@ -80,7 +80,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="container-modalidad info-remates-mobile" hid="1">
 				
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-internet.svg">
-				<?php echo $remate["modalidad"]; ?></div>
+				</div>
 				<?php } ?>
 			</div>
 			
@@ -123,7 +123,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-cabanias"><h2>Provincia</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-provincia  info-remates-mobile" hid="1"><?php echo Provincia::model()->findByPk( $remate["provincia"])->nombre; ?>
+				<div class="container-provincia  info-remates-mobile" hid="1">
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-buenos-aires.svg"></div>
 				
 				<?php } ?>

@@ -2522,9 +2522,16 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .fecha-remates-mobile > button {
-	background-color: rgba(99,99,99,.5);
-    border-radius: 30px;
-	border: 0.5px solid white;
+    background-color: rgba(99, 99, 99, 0);
+    border: none;
+}
+
+.fecha-remates-mobile > button:focus {
+	outline:none;
+}
+
+.fecha-remates-mobile > button:active {
+	outline:none;
 }
 
 .boton-prueba-atras{
@@ -2559,7 +2566,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .enfermedades-box p{
     font-size: 1.5rem;
-    width:100%;
+    width: 98%;
 }
 
 #enfermedades-more{
@@ -2787,6 +2794,14 @@ y fondos ubicacion en linea 1441 */
 }
 
 /** ENFERMEDADES-INFECCIOSAS **/
+
+.enfermedades-infecciosas a{
+	color:#744295
+}
+
+.enfermedades-inside-container a{
+	color:#744295
+}
 
 .enfermedades-infecciosas-1{
 	display:block;

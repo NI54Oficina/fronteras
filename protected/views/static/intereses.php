@@ -1,6 +1,6 @@
 <section id="contenedor" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section link-intereses">
 
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Producir + > Links de intereses </p> </div>
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Producir + > Links de interés </p> </div>
 
 	<div class="box-interes col-lg-2-5 col-md-3 col-sm-3 col-xs-6 col-xl-7"  >
 		<div class="box-interes-img square">
