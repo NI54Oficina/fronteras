@@ -287,6 +287,7 @@ $(document).on("ready",function(){
 		 AdaptSquare();
 		 fillBackground();
 		 changeContent();
+		 fitBackground();
 	
 
 	$("body").on("mousedown",".toggle-dropdown-header",function(){
@@ -564,3 +565,33 @@ function changeContent(){
 
 }
 
+
+function fitBackground(){
+
+	var img = new Image ;
+	img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
+	$(img).load(function() {
+    var bgWidth = img.width;
+    var bgHeight = img.height;
+
+    console.log("wbg:"+bgWidth+"  hbg:"+bgHeight) ;
+
+    var wdHeight = $(window).height();
+	var wdWidth = $(window).width();
+
+	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
+
+
+	if( wdWidth > bgWidth ){
+		$("#home").css("background-size", "auto 120%");
+		console.log("Complete.")
+	}else{
+		console.log("not-complete");
+	}
+
+    
+	}) ;
+	
+
+	
+}
