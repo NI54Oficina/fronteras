@@ -18,7 +18,7 @@
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/enfermedades-infecciosas"  class="">
 		
 		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
-			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Enfermedades infecciosas</p>
@@ -35,7 +35,7 @@
 		<!-- Parásitos externos -->
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
-			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Parásitos externos</p>
@@ -54,7 +54,7 @@
 		<!-- Parásitos internos -->
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
-			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Parásitos internos</p>
@@ -73,7 +73,7 @@
 		<!--  -->
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
-			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 					<p>Aborto bovino infeccioso</p>
@@ -92,7 +92,7 @@
 		<!--  -->
 		<a href="#"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
-			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes">
+			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 planes-box  square enfermedades-box">
 	
 						
