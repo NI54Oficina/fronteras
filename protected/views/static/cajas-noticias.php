@@ -52,11 +52,9 @@ $secciones["Empresas"]="noticia-tipo-4";
 		
 			<!--Título de sección -->
 			
-				<div class="border-noticias-h1 b-r">
-				</div>
 				<div class="container-h1-noticias" hid="7">
-					<div style="width:100%;position:absolute;height:1.3rem;padding:0 5px;left:0;z-index:2;margin-top:2px;"><div class="center-to-parent-m" style="width:100%;height:2px;background-color:red;"></div></div>
-					<h1 style="background-color:#f7f7f7;position:relative;z-index:3;display:inline-block;width:80%;"><?php echo $f["categoria"]; ?></h1>
+					<div class="border-noticias-h1"><div class="center-to-parent-m"></div></div>
+					<h1 ><?php echo $f["categoria"]; ?></h1>
 					
 				</div>
 				<div class="border-noticias-h1 b-l"></div>

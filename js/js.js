@@ -358,6 +358,19 @@ function CenterToParent(){
 		
 		$(this).css("top",'-'+paddingTop+"px");
 	});
+	$(".center-to-parent-t").each(function(){
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("padding-top",0);
+		var parent= $(this).parent();
+		console.log($(this).outerHeight());
+		var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+		$(this).css("display","inline-block");
+		$(this).css("position","relative");
+		
+		$(this).css("top",paddingTop+"px");
+	});
 }
 
 
@@ -742,7 +755,7 @@ $('#prev').click(function() {
 
 // FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
 function backButton(){
-	$('#back-header').click(function(){
+	$('.boton-volver-header').click(function(){
 		history.back();
 	});
 
