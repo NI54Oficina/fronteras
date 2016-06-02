@@ -512,7 +512,7 @@ header .home-box:hover > .hoy-box {
 }
 
 .box-clima select{
-	background-image:url(arrow-down.svg);
+	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
 	background-repeat:no-repeat;
@@ -2011,7 +2011,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	width: 100%;
 	background-color:transparent;
 	-webkit-appearance:normal;
-	background-image:url(arrow-down.svg);
+	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
 	background-repeat:no-repeat;
