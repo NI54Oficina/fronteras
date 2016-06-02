@@ -57,8 +57,16 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 
 <div  class="">
-<span  class=" glyphicon glyphicon-th-large navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>	
+<span  class=" glyphicon glyphicon-th-large navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>
+
+
+
 	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
+
+
+
+
+
 		<ul class="ul-nav col-lg-12 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal">
 			<p  class="toggle-dropdown-header" target="#drop1" ></p>
 			
@@ -69,7 +77,20 @@ $("body").on("mousedown",".navbar-toggle",function(){
 				</div>
 			</div>
 			
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob">
+
+	<!-- BOTON VOLVER -->
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header " >
+	<button class="boton-header"  id="back-header" hid="10" ></button><p class="back-p center-to-parent" hid="10" >Volver</p>
+	</div>
+
+	<!-- TERMINA BOTON VOLVER -->
+
+					<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 cont-menu-mob">
+	
+
+
+
+
 						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-3 col-xs-3">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy" class="link-menu">
 							

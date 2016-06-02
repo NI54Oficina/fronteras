@@ -2887,3 +2887,29 @@ y fondos ubicacion en linea 1441 */
 }
 */
 
+
+
+/*BOTON VOLVER EN EL HEADER*/
+#back-header{
+	background-image: url(../img/back-header.png);
+	
+}
+
+
+.boton-header{
+	width:30px;
+	height: 30px;
+	border: none;
+	background: transparent;
+	background-size: 100% 100%;
+	outline:none;
+}
+
+.boton-volver-header{
+	
+}
+
+.back-p{
+	
+	margin:  auto 5px;
+}
