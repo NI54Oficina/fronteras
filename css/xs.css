@@ -320,6 +320,10 @@
 		
 	}
 		
+	.img-ganado{
+		width: 100%;
+		margin-bottom: 20px;
+	}	
 /* NO BORRRAR
 	.container-boton-ganado{
 		height: auto !important;

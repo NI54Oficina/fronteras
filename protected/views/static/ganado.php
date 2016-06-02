@@ -9,18 +9,18 @@
 	</div>
 </div>
 
-<!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+ <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md ">
 	<button class="boton-ganado" id="prev" ></button>
 </div>
 
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">	
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md ">	
 	<button class="boton-ganado" id="next"></button>
-</div> -->
+</div>
 
 
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs container-boton-ganado center-to-parent"  hid="1">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm container-boton-ganado center-to-parent"  hid="1">
 	<button class="boton-ganado" id="prev" ></button>
 </div>
 
@@ -109,7 +109,7 @@
 </div>
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs center-to-parent container-boton-ganado"  hid="1">	
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado"  hid="1">	
 	<button class="boton-ganado" id="next"></button>
 </div>
 
