@@ -288,7 +288,9 @@ $(document).on("ready",function(){
 		 fillBackground();
 		 changeContent();
 		 slider();
+		 backButton();
 		 fitBackground();
+		 
 		 
 	
 
@@ -723,4 +725,13 @@ $('#prev').click(function() {
 
  
 
+}
+
+
+function backButton(){
+	$('#back-header').click(function(){
+		history.back();
+	});
+
+	console.log("volver");
 }
