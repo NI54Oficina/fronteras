@@ -349,6 +349,22 @@
 	}
 */
 
+	.container-enfermedades > .selector-side {
+		padding-right: 0px; 
+	}
+
+	.enfermedades-inside-container{
+		padding: 0; 
+	}
 	
+	.color-title-prod {
+		background: #ED7C28;
+		margin-left: -1%;
+	}
+	
+	.number-protocolo {
+		padding-top: 9%;
+		text-align: center;
+	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

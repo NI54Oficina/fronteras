@@ -2682,16 +2682,16 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .block-img{
-	 padding:20px;
-	 text-align: left;
+	padding:20px;
+	text-align: left;
 }
 
 .block-img  p {
-	 width:100%;
-	 border-top: 2px solid #003D6A ;
-	 margin-top:10px;
-	 padding:10px;
-	 text-align: left;
+	width:100%;
+	border-top: 2px solid #003D6A ;
+	margin-top:10px;
+	padding:10px;
+	text-align: left;
 }
 
 .block-img img {
@@ -2896,7 +2896,9 @@ y fondos ubicacion en linea 1441 */
 }
 */
 
-
+.titulo-mobile-enfermedades{
+    background-color: #6D4A84;
+}
 
 /*BOTON VOLVER EN EL HEADER*/
 #back-header{
@@ -2919,6 +2921,72 @@ y fondos ubicacion en linea 1441 */
 }
 
 .back-p{
-	
 	margin:  auto 5px;
+}
+
+/*************************** PROTOCOLOS ********************************/
+.box-protocolo-inner{
+    border: 2px solid #ED7C28;
+}
+
+.box-protocolo{
+    background-color: #ED7C28;
+	margin-bottom: 5%;
+}
+
+.color-protocolo{
+	color: #ED7C28;
+}
+
+.color-title-prod{
+    background: #ED7C28;
+    margin-left: 4%;
+}
+
+.title-prot h2{
+	color: white;
+    font-size: 1.4rem;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.title-prot {
+    height: 35px;
+}
+
+#dias-prot{
+	font-weight: 700;
+}
+
+.container-prot{
+	color: #8F8F8F;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 1.3rem;
+	min-height: 110px;
+    border-bottom: 1px solid grey;
+}
+
+.padd-prot{
+	padding-top: 7%;
+}
+
+.orange{
+    margin: 0;
+    background: rgba(239, 201, 158, 0.4);
+    margin-bottom: 6px;
+    margin-left: 6px;
+    font-size: 1.2rem;
+}
+
+.number-protocolo{
+	display: inline-block;
+    font-size: 4rem;
+    color: #ED7C28;
+    font-weight: 700;
+    padding-top: 13%;
+}
+
+.titulo-mobile-prot{
+	background-color: #ED7C28;
 }

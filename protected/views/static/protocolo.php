@@ -1,0 +1,164 @@
+
+
+<!-- REMATES GENERALES -->
+
+
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
+
+<div class="col-xs-12 hidden-lg hidden-xl titulo-mobile-prot titulo-mobile"> <p> Genética > Protocolo de reproducción  </p> </div>
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="box-protocolo border-shadow">
+		<div class="box-protocolo-inner">
+			<p class="center-to-parent color-protocolo planes-h1">Protocolo de reproducción</p>
+		</div>
+	</div>
+</div>
+
+	
+	<!-- Caja general -->
+	<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+
+	
+	
+		<!-- Caja general fecha -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+		
+			<p class="hidden-lg  fecha-remates-mobile  color-title-prod"> 
+			<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
+			Prioridad
+			<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></p>
+		
+
+
+			<!-- Titulo FECHA -->
+			<div class="title-prot color-title-prod hidden-xs hidden-sm hidden-md"> <h2>Prioridad</h2></div>
+		
+			<!-- Caja fecha particular -->
+			
+				<!--Contenido -->
+			
+				<div class="container-prot info-remates-mobile" hid="1">
+					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;">
+					<p class="number-protocolo">2</p>
+				</div>
+			
+
+			</div>	
+
+		
+		</div>
+		
+		
+		
+		<!-- Caja general: modalidad, consignatorio, lugar, provincia, cabezas -->
+		<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
+		
+			<!-- Modalidad -->
+			
+			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2>Nombre del producto</h2></div>
+				<!--Contenido -->
+			
+				<div class="container-prot info-remates-mobile"  id="dias-prot" hid="1">
+					<p class="center-to-parent">7 días con cipionato - Vaquillona</p>
+				</div>
+
+			</div>
+			
+		
+			<!-- Consignatorio-->
+			
+			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2>Día 0</h2></div>
+				<!--Contenido -->
+		
+				<div class="container-prot info-remates-mobile" hid="1">
+					<p class="padd-prot">Colocar CRONIPRES MONODOSIS</p>
+					<p class="orange">2 ml BIOESTROGEN</p>
+					
+				</div>
+		
+			</div>
+			
+		
+			<!-- Lugar-->
+			
+			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2>Día 7</h2></div>
+				<!--Contenido -->
+
+				<div class="container-prot info-remates-mobile" hid="1">
+					<p class="padd-prot">Retirar CRONIPRES MONODOSIS</p>
+					<p class="orange">1 ml CRONI-CIP</p>
+					<p class="orange">2 ml ENZAPROST D-C</p>
+					
+				</div>
+			
+			</div>
+			
+		
+			<!-- Provincia -->
+			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2>Día 8</h2></div>
+				<!--Contenido -->
+				<div class="container-prot info-remates-mobile" hid="1">
+
+					
+				</div>
+				
+				
+			</div>
+		
+			<!-- Cabezas-->
+			
+			<div class="col-lg-2-6 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
+			
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2>Día 9</h2></div>
+				<!--Contenido -->
+				<div class="container-prot info-remates-mobile" hid="1">
+					<p class="padd-prot">IATF (48 hr)</p>
+					
+				</div>
+				
+				
+			</div>
+			
+			<!-- Cabezas-->
+			
+			<div class="col-lg-2-6 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
+			
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2>Día 10</h2></div>
+				<!--Contenido -->
+			
+				<div class="container-prot info-remates-mobile" hid="1">
+
+				</div>
+				
+			</div>
+			
+		</div>
+	
+	</div>
+
+</section>
+
+<script>
+
+
+$(document).ready(function () {	
+	turnOnButtonRemates();
+});
+
+
+</script>
