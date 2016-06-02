@@ -238,7 +238,12 @@ header .home-box:hover > .hoy-box {
 	z-index:9999;
 }
 
-
+#ul-nav-principal{
+	margin:0;
+	/*padding-top:10px;
+	padding-bottom:10px;*/
+	height:100%;
+}
 
 .headermobile .navbar-collapse{
 	height:0;
@@ -1324,6 +1329,18 @@ header .home-box:hover > .hoy-box {
 
 .box-noticias .container-h1-noticias{
 	padding: 10px 0px;
+	padding-bottom:3px;
+}
+
+.box-noticias .container-h1-noticias h1{
+	background-color:#f7f7f7;position:relative;z-index:3;display:inline-block;width:80%;
+}
+.border-noticias-h1{
+	width:100%;position:absolute;height:1.3rem;padding:0 5px;left:0;z-index:2;margin-top:2px;
+}
+
+.border-noticias-h1 > div{
+	width:100%;height:2px;
 }
 
 /*COLORES DISTINTAS NOTICIAS*/
@@ -1343,6 +1360,10 @@ header .home-box:hover > .hoy-box {
 	border-top: 7px solid  #25CDDB;
 }
 
+.noticia-tipo-1 .border-noticias-h1 > div{
+	background-color:#25CDDB;
+}
+
 /*NOTICIA TIPO 2 -COLOR AZUL*/
 
 .noticia-tipo-2 .container-texto-noticias{
@@ -1355,6 +1376,11 @@ header .home-box:hover > .hoy-box {
 
 .noticia-tipo-2 .container-imagen-nota {
 	border-top: 7px solid #2E9DFB;
+}
+
+
+.noticia-tipo-2 .border-noticias-h1 > div{
+	background-color:#2E9DFB;
 }
 
 
@@ -1374,6 +1400,11 @@ header .home-box:hover > .hoy-box {
 }
 
 
+.noticia-tipo-3 .border-noticias-h1 > div{
+	background-color:#FFA621;
+}
+
+
 
 /*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
 
@@ -1387,6 +1418,11 @@ header .home-box:hover > .hoy-box {
 
 .noticia-tipo-4 .container-imagen-nota {
 	border-top: 7px solid #2ED7AA;
+}
+
+
+.noticia-tipo-4 .border-noticias-h1 > div{
+	background-color:#2ED7AA;
 }
 
 
@@ -1404,6 +1440,11 @@ header .home-box:hover > .hoy-box {
 	border-top: 7px solid #E29D9C;
 }
 
+
+.noticia-tipo-5 .border-noticias-h1 > div{
+	background-color:#E29D9C;
+}
+
 /*NOTICIA TIPO 6 - CELESTE CLIMA*/
 
 .noticia-tipo-6 .container-texto-noticias{
@@ -1415,7 +1456,12 @@ header .home-box:hover > .hoy-box {
 }
 
 .noticia-tipo-6 .container-imagen-nota{
-	border-top: 7px solid #2E9DFB;
+	border-top: 7px solid #;
+}
+
+
+.noticia-tipo-6 .border-noticias-h1 > div{
+	background-color:#2E9DFB;
 }
 
 /*NOTICIA TIPO 7 - CELESTE CLIMA*/
@@ -1430,6 +1476,10 @@ header .home-box:hover > .hoy-box {
 
 .noticia-tipo-7 .container-imagen-nota{
 	border-top: 7px solid #FFA621;
+}
+
+.noticia-tipo-7 .border-noticias-h1 > div{
+	background-color:#FFA621;
 }
 
 
@@ -2902,14 +2952,14 @@ y fondos ubicacion en linea 1441 */
 
 /*BOTON VOLVER EN EL HEADER*/
 #back-header{
-	background-image: url(../img/back-header.png);
+	background-image: url(ic_arrow_back.svg);
 	
 }
 
 
 .boton-header{
 	width:30px;
-	height: 30px;
+	height: 2em;
 	border: none;
 	background: transparent;
 	background-size: 100% 100%;
@@ -2921,6 +2971,10 @@ y fondos ubicacion en linea 1441 */
 }
 
 .back-p{
+<<<<<<< HEAD
+=======
+		cursor:pointer;
+>>>>>>> origin/master
 	margin:  auto 5px;
 }
 
