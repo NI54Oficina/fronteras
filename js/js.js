@@ -592,21 +592,117 @@ function fitBackground(){
 
 	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
 
-	if (true) {}
-	if( wdWidth > bgWidth ){
-		$("#home").css("background-size", "120% auto");
-		console.log("Complete.")
-	}else{
-		$("#home").css("background-size", " auto 120%");
-		console.log("not-complete");
-	}
+if( (wdWidth-wdHeight) > 0 ){
+     // if que determina si la pantalla es mas ancha que alta
+    console.log("pantalla mas ancha que alta");
 
-    
-	}) ;
-	
+    if( wdHeight > bgHeight){
+         var aux = ((100/wdHeight) * bgHeight)+100;
+ 
+         $("body").css("background-size", aux+"% auto");
 
-	
-}
+         console.log(aux);
+ 
+     }else{
+         var aux = ((100/bgHeight) * wdHeight)+100;
+ 
+         $("body").css("background-size", aux+"% auto");
+ 
+     };
+  
+   }else{ 
+       console.log("pantalla mas alta que ancha");
+
+        if( wdWidth > bgWidth){
+         var aux = ((100/wdWidth) * bgWidth)+100;
+         $('body').css("background-size", "auto"+ aux + "%" );
+         console.log("se ajusto alto1");
+ 
+         }else{
+         var aux = ((100/bgWidth) * wdWidth)+100;
+         $('body').css("background-size", "auto"+ aux +"%" );
+         console.log("se ajusto alto2");
+     };
+   }
+     
+   }) ;
+ 
+   
+ };
+ 
+ 
+
+
+// 
+
+function fitBackground(){
+
+	var img = new Image ;
+	img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
+	$(img).load(function() {
+    var bgWidth = img.width;
+    var bgHeight = img.height;
+
+    console.log("wbg:"+bgWidth+"  hbg:"+bgHeight) ;
+
+    var wdHeight = $(window).height();
+	var wdWidth = $(window).width();
+
+	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
+
+if( (wdWidth-wdHeight) > 0 ){
+     // if que determina si la pantalla es mas ancha que alta
+    console.log("pantalla mas ancha que alta");
+
+    if( (wdHeight- wdHeight) > (bgWidth-bgHeight) ){
+
+    	$("#home").css("background-size","100% auto");
+
+         // var aux = ((100/wdHeight) * bgHeight)+100;
+ 	
+         // $("body").css("background-size", aux+"% auto");
+
+         console.log(aux);
+ 
+     }else{
+         // var aux = ((100/bgHeight) * wdHeight)+100;
+ 
+         // $("body").css("background-size", aux+"% auto");
+
+         $("#home").css("background-size"," auto  100%");
+ 
+     };
+  
+   }else{ 
+       console.log("pantalla mas alta que ancha");
+
+        if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
+
+        $("#home").css("background-size","100% auto");
+
+         // var aux = ((100/wdWidth) * bgWidth)+100;
+         // $('body').css("background-size", "auto"+ aux + "%" );
+         console.log("se ajusto alto1");
+ 
+         }else{
+
+         // var aux = ((100/bgWidth) * wdWidth)+100;
+         // $('body').css("background-size", "auto"+ aux +"%" );
+
+         console.log("se ajusto alto2");
+     };
+   }
+     
+   }) ;
+ 
+   
+ };
+
+ // TERMINA TEST2	
+
+
+
+
 
 
 function slider(){
@@ -622,14 +718,6 @@ var currentIndex = 0,
   items.hide();
   item.fadeIn("slow");
 }
-
-// var autoSlide = setInterval(function() {
-//   currentIndex += 1;
-//   if (currentIndex > itemAmt - 1) {
-//     currentIndex = 0;
-//   }
-//   cycleItems();
-// }, 3000);
 
 $('.boton-ganado-next').click(function() {
   
