@@ -505,11 +505,22 @@ header .home-box:hover > .hoy-box {
 .box-clima option,.box-clima select{
 	color: #B2B2B2;
     font-size: 1.6rem;
-    background: transparent;
     border: none;
     width: 100%;
     font-family: 'arialregular';
+	
 }
+
+.box-clima select{
+	background-image:url(arrow-down.svg);
+	background-position:right;
+	-webkit-appearance:none;
+	background-repeat:no-repeat;
+	background-size: auto 100%;
+	background-color:#F1EFEF;
+}
+
+
 
 
 .box-clima option:focus,.box-clima select:focus{
@@ -2000,6 +2011,16 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	width: 100%;
 	background-color:transparent;
 	-webkit-appearance:normal;
+	background-image:url(arrow-down.svg);
+	background-position:right;
+	-webkit-appearance:none;
+	background-repeat:no-repeat;
+	background-size: auto 100%;
+}
+
+
+.box-clima select{
+	
 }
 
 .red-form > #localidad, .red-form > #provincia {
