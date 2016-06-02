@@ -635,7 +635,7 @@ if( (wdWidth-wdHeight) > 0 ){
 
 // 
 
-function fitBackground(){
+function fitBackground-test(){
 
 	var img = new Image ;
 	img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
