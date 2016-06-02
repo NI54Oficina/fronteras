@@ -577,7 +577,7 @@ function changeContent(){
 
 
 
-function fitBackground(){
+function fitBackgroundtest(){
 
 	var img = new Image ;
 	img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
@@ -635,6 +635,7 @@ if( (wdWidth-wdHeight) > 0 ){
 
 // 
 
+
 function fitBackground(){
 
 	var img = new Image ;
@@ -654,7 +655,7 @@ if( (wdWidth-wdHeight) > 0 ){
      // if que determina si la pantalla es mas ancha que alta
     console.log("pantalla mas ancha que alta");
 
-    if( (wdHeight- wdHeight) > (bgWidth-bgHeight) ){
+    if( (wdWidth- wdHeight) > (bgWidth-bgHeight) ){
 
     	$("#home").css("background-size","100% auto");
 
@@ -662,7 +663,7 @@ if( (wdWidth-wdHeight) > 0 ){
  	
          // $("body").css("background-size", aux+"% auto");
 
-         console.log(aux);
+        // console.log(aux);
  
      }else{
          // var aux = ((100/bgHeight) * wdHeight)+100;
@@ -676,28 +677,27 @@ if( (wdWidth-wdHeight) > 0 ){
    }else{ 
        console.log("pantalla mas alta que ancha");
 
-        if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
+        //if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
 
-        $("#home").css("background-size","100% auto");
+        //$("#home").css("background-size","100% auto");
 
          // var aux = ((100/wdWidth) * bgWidth)+100;
          // $('body').css("background-size", "auto"+ aux + "%" );
-         console.log("se ajusto alto1");
+         //console.log("se ajusto alto1");
  
-         }else{
+       //  }else{
 
          // var aux = ((100/bgWidth) * wdWidth)+100;
          // $('body').css("background-size", "auto"+ aux +"%" );
 
-         console.log("se ajusto alto2");
-     };
+     //    console.log("se ajusto alto2");
+     //};
    }
      
    }) ;
  
    
  };
-
  // TERMINA TEST2	
 
 
