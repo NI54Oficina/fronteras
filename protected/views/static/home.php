@@ -5,10 +5,10 @@ isHome=true;
 
  <?php include ('splash-home.php'); ?> 
 
-<body class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 " >
+<body class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 ">
 
 
-<section id="home" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 fadder">
+<section id="home"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 fadder">
 
 <?php include_once("analytics.php") ?>
 
