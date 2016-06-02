@@ -9,21 +9,35 @@
 	</div>
 </div>
 
-	<button class="boton-ganado-prev" ><</button>
-	<button class="boton-ganado-next">></button>
+<!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<button class="boton-ganado" id="prev" ></button>
+</div>
 
-<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cubicacion-container" >
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">	
+	<button class="boton-ganado" id="next"></button>
+</div> -->
+
+
+
+
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs container-boton-ganado center-to-parent"  hid="1">
+	<button class="boton-ganado" id="prev" ></button>
+</div>
+
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container " hid="1" >
 
 
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
+
+
 		
 		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1>ASDASKDNASKD</h1>
-		<p>HOLA hola hola hola hola hola hola hola hola hola HOLA hola hola hola hola hola hola hola hola hola HOLA hola hola hola hola hola hola hola hola hola </p>
+		<h1>SOBREPESO</h1>
+		<p>Aparicion de mayor tejido cubriendo la pelvis, costillas cortas invisibles y dificiles de palpar. Estado ideal aunque seria antieconomico. Vacas cíclicas. Excelente lactancia. Buenos indices de preñez pero es indicativo de baja carga por hectárea.</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
 
@@ -33,7 +47,7 @@
 </div>
 
 
-<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cubicacion-container" style="display:none;">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container slider-ganado" >
 
 
 
@@ -43,8 +57,8 @@
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1>BEBEBEBEBBEBEBEBE</h1>
-		<p>CHAU CHUA CHUA CHAUCHASJAS ASDNKASD CHAU CHAU </p>
+		<h1>SOBREPESO-2</h1>
+		<p>Aparicion de mayor tejido cubriendo la pelvis, costillas cortas invisibles y dificiles de palpar. Estado ideal aunque seria antieconomico. Vacas cíclicas. Excelente lactancia. Buenos indices de preñez pero es indicativo de baja carga por hectárea.</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
 
@@ -54,7 +68,7 @@
 </div>
 
 
-<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cubicacion-container" style="display:none;">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container slider-ganado">
 
 
 
@@ -64,8 +78,8 @@
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1>CCCCCCCCCCCCCCCCCCCCCCCCCCCC</h1>
-		<p>CHAU CHUA CHUA CHAUCHASJAS ASDNKASD CHAU CHAU </p>
+		<h1>SOBREPESO-3</h1>
+		<p>Aparicion de mayor tejido cubriendo la pelvis, costillas cortas invisibles y dificiles de palpar. Estado ideal aunque seria antieconomico. Vacas cíclicas. Excelente lactancia. Buenos indices de preñez pero es indicativo de baja carga por hectárea.</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
 
@@ -73,5 +87,31 @@
 	</div>
 
 </div>
+
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container slider-ganado">
+
+
+
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
+		
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
+	</div>
+
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
+		<h1>SOBREPESO-4</h1>
+		<p>Aparicion de mayor tejido cubriendo la pelvis, costillas cortas invisibles y dificiles de palpar. Estado ideal aunque seria antieconomico. Vacas cíclicas. Excelente lactancia. Buenos indices de preñez pero es indicativo de baja carga por hectárea.</p>
+
+		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.jpg">
+
+		
+	</div>
+
+</div>
+
+
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs center-to-parent container-boton-ganado"  hid="1">	
+	<button class="boton-ganado" id="next"></button>
+</div>
+
 
 </section>

@@ -2834,6 +2834,7 @@ y fondos ubicacion en linea 1441 */
 
 .img-ganado{
 	width: 90%;
+	border: 5px solid #0086CA;
 }
 
 .img-ganado-info {
@@ -2843,3 +2844,46 @@ y fondos ubicacion en linea 1441 */
 .ganado-col-1, .ganado-col-2{
 	text-align: left;
 }
+
+.ganado-col-2 h1{
+	color:#0086CA;
+	font-size: 1.5em;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+
+.ganado-col-2 p{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.slider-ganado{
+	display: none;
+}
+
+#next{
+	background-image: url(../img/next-button.png);
+}
+
+#prev{
+	background-image: url(../img/prev-button.png);
+}
+
+.boton-ganado{
+	width:40px;
+	height: 40px;
+	border: none;
+	background: transparent;
+	background-size: 100% 100%;
+	outline:none;
+}
+.boton-ganado:hover{
+	opacity: 0.5;
+}
+
+/*.boton-preview{
+ margin-top: 10%;
+}
+*/
+

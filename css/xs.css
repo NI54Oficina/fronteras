@@ -311,6 +311,40 @@
 		height:auto !important;
 	}
 	
+
+	.container-boton-ganado{
+		height: auto !important;
+		padding-top: 0 !important;
+		
+		z-index: 2;
+		
+	}
+		
+/* NO BORRRAR
+	.container-boton-ganado{
+		height: auto !important;
+		padding-top: 0 !important;
+		
+		z-index: 2;
+		
+	}
+
+	#prev{
+		left:0;
+		top:25px;
+		margin-left: 10px;
+		position: relative;
+	}
+
+	#next{
+		right:0;
+		top:0px;
+		margin-right: 10px;
+		position: relative;
+
+	}
+*/
+
 	
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

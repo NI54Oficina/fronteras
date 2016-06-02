@@ -697,28 +697,28 @@ var currentIndex = 0,
   items = $('.cubicacion-container'),
   itemAmt = items.length;
 
-	function cycleItems() {
+	function repeatItems() {
   var item = $('.cubicacion-container').eq(currentIndex);
-  items.hide();
+  items.hide(); 
   item.fadeIn("slow");
 }
 
-$('.boton-ganado-next').click(function() {
+$('#next').click(function() {
   
   currentIndex += 1;
   if (currentIndex > itemAmt - 1) {
     currentIndex = 0;
   }
-  cycleItems();
+  repeatItems();
 });
 
-$('.boton-ganado-prev').click(function() {
+$('#prev').click(function() {
  
   currentIndex -= 1;
   if (currentIndex < 0) {
     currentIndex = itemAmt - 1;
   }
-  cycleItems();
+  repeatItems();
 });
 
  
