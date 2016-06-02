@@ -575,6 +575,7 @@ function changeContent(){
 
 }
 
+// VERSION GENERALIZADA DE AJUSTE DEL BACKGROUND
 
 function fitBackgroundtest(){
 
@@ -630,9 +631,8 @@ if( (wdWidth-wdHeight) > 0 ){
  };
  
  
+// TERMINA VERSION GENERALIZADA DE AJUSTE DEL BACKGROUND
 
-
-// 
 
 function fitBackground(){
 
@@ -656,17 +656,9 @@ if( (wdWidth-wdHeight) > 0 ){
     if( (wdWidth- wdHeight) > (bgWidth-bgHeight) ){
 
     	$("#home").css("background-size","100% auto");
-
-         // var aux = ((100/wdHeight) * bgHeight)+100;
- 	
-         // $("body").css("background-size", aux+"% auto");
-
-        // console.log(aux);
  
      }else{
-         // var aux = ((100/bgHeight) * wdHeight)+100;
- 
-         // $("body").css("background-size", aux+"% auto");
+
 
          $("#home").css("background-size"," auto  100%");
  
@@ -675,29 +667,23 @@ if( (wdWidth-wdHeight) > 0 ){
    }else{ 
        console.log("pantalla mas alta que ancha");
 
-        //if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
+       if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
 
-        //$("#home").css("background-size","100% auto");
-
-         // var aux = ((100/wdWidth) * bgWidth)+100;
-         // $('body').css("background-size", "auto"+ aux + "%" );
-         //console.log("se ajusto alto1");
+    	$("#home").css("background-size"," auto 100%");
  
-       //  }else{
+     }else{
 
-         // var aux = ((100/bgWidth) * wdWidth)+100;
-         // $('body').css("background-size", "auto"+ aux +"%" );
 
-     //    console.log("se ajusto alto2");
-     //};
+         $("#home").css("background-size","100%  auto");
+ 
+     };
+
    }
      
    }) ;
  
    
  };
-
- // TERMINA TEST2	
 
 
 
