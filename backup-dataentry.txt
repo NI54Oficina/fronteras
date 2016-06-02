@@ -1,4 +1,4 @@
-<h3>Etiologías <h3>
+﻿<h3>Etiologías <h3>
 
 <p>Las parasitosis externas en el ganado vacuno, varían su aparición e incidencia de  acuerdo a la, época del año, tipo de explotación,  raza bovina y región del mundo, estos son algunos de los factores determinantes de la incidencia y tipo de ectoparasitósis presente. </p>
 
@@ -595,8 +595,8 @@ De 20 a 40 nódulos originan una disminución del 12% en el peso del animal para
 
 -------------
 
-<div class="parasitos-externos" id="parasitos-externos-6">
-<h4>Etiologías</h4>
+<div class="parasitos-externos" id="parasitos-externos-7">
+<h3>Etiologías</h3>
 
 <p>Las parasitosis externas en el ganado vacuno, varían su aparición e incidencia de  acuerdo a la, época del año, tipo de explotación,  raza bovina y región del mundo, estos son algunos de los factores determinantes de la incidencia y tipo de ectoparasitósis presente. </p>
 
@@ -625,7 +625,7 @@ De 20 a 40 nódulos originan una disminución del 12% en el peso del animal para
 PARASITOS INTERNOS
 
 
-<div class="parasitos-externos" id="parasitos-internos-0">
+<div class="parasitos-externos" id="parasitos-internos-1">
 
 <h4>Etiologías</h4>
 
