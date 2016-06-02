@@ -446,7 +446,7 @@ function FillParent(){
 	});
 }
 
-
+// FUNCION QUE HACE DESAPARECER EL BOTON SIGUIENTE O ATRAS DE ACUERDO SI QUEDAN ITEM 
 function checkNavigationButton(){
 
 	if( indexRemates == 0){
@@ -465,9 +465,12 @@ function checkNavigationButton(){
 
 }
 
+// FIN FUNCION QUE HACE DESAPARECER EL BOTON SIGUIENTE O ATRAS DE ACUERDO SI QUEDAN ITEM 
 
+// MANTIENE UNA SOLA FILA DE DATOS EN MOBILE
 
 function initializeRemates(){
+
 	checkNavigationButton();
 
     $(".containerColumnas").find('.info-remates-mobile').css("display","none");
@@ -483,6 +486,10 @@ function initializeRemates(){
  });
     
 }
+
+// FIN MANTIENE UNA SOLA FILA DE DATOS EN MOBILE
+
+// FUNCION ITERATIVA QUE MUESTRA LA COLA DE ITEMS
 
 function turnOnButtonRemates(){
 
@@ -537,8 +544,10 @@ function turnOnButtonRemates(){
 }
 
 
+// FIN FUNCION ITERATIVA QUE MUESTRA LA COLA DE ITEMS 
 
 
+// FUNCION QUE  AJUSTA EL FONDO CON EL ESPACIO SOBRANTE DEL PADRE
 
 
 function fillBackground(){
@@ -561,6 +570,7 @@ function fillBackground(){
 
 }
 
+// FIN FUNCION QUE AJUSTA EL FONDO CON EL ESPACIO SOBRANTE DEL PADRE
 
 function changeContent(){
 
@@ -635,7 +645,7 @@ if( (wdWidth-wdHeight) > 0 ){
  
 // TERMINA VERSION GENERALIZADA DE AJUSTE DEL BACKGROUND
 
-
+// FUNCION QUE AJUSTA EL ANCHO DEL BACKGROUND SIN DEFORMAR
 function fitBackground(){
 
 	var img = new Image ;
@@ -687,8 +697,9 @@ if( (wdWidth-wdHeight) > 0 ){
    
  };
 
+// TERMINA FUNCION 
 
-
+// FUNCION QUE MUESTRA ITEM EN UNA COLA ITERATIVA
 
 
 function slider(){
@@ -727,7 +738,9 @@ $('#prev').click(function() {
 
 }
 
+// FIN FUNCION QUE MUESTRA ITEM EN UNA COLA ITERATIVA
 
+// FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
 function backButton(){
 	$('#back-header').click(function(){
 		history.back();
@@ -735,3 +748,5 @@ function backButton(){
 
 	console.log("volver");
 }
+
+// FIN FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
