@@ -176,6 +176,7 @@ class FeedNoticias extends CActiveRecord
 				
 			}
 		}
+		echo "fin";
 		return $newContent;	
 	}
 }

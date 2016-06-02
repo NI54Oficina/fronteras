@@ -130,16 +130,16 @@ class HidricaMapa extends CActiveRecord
 				}
 				$notaNew= new HidricaMapa();
 				$newContent=true;
-				echo $nota["nid"];
-				echo "<br>";
+				
 				$notaNew["nid"]= $nota["nid"];
 				$notaNew["content"]= json_encode($nota);
 				echo $notaNew->validate();
 				echo $notaNew->save();
-				echo "<br>";
+				
 			
 			}
 		}
+		echo "termina mapa hidrica<br>";
 		return $newContent;	
 	}
 }

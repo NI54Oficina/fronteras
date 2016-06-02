@@ -118,7 +118,7 @@ class Clima extends CActiveRecord
 				$Criteria = new CDbCriteria();
 				$Criteria->condition = "localidad = ".$localidad->idClima;
 				$auxNota = $this->model()->find($Criteria);
-				
+				echo $localidad->idClima."<br>";
 				if($auxNota){
 					
 				}else{
@@ -152,6 +152,7 @@ class Clima extends CActiveRecord
 				}*/
 			}
 		}
+		echo "<hr>termina clima <br>";
 		
 	}
 }

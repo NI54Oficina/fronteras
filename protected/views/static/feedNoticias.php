@@ -5,9 +5,9 @@ $provincia= new Provincia();
 $provincia->nombre="poyo2";
 $provincia->save();*/
 
-FeedNoticias::model()->CheckFeed()
-Clima::model()->CheckFeed();
+FeedNoticias::model()->CheckFeed();
+//
 ClimaMapas::model()->CheckFeed();
 HidricaMapa::model()->CheckFeed();
-
+//Clima::model()->CheckFeed();
 ?>

@@ -137,6 +137,7 @@ class ClimaMapas extends CActiveRecord
 			
 			}
 		}
+		echo "termina mapa<br>";
 		return $newContent;	
 	}
 }

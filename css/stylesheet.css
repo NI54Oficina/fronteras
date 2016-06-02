@@ -100,11 +100,18 @@ header{
 	width: 100vw;
     background: rgb(248, 242, 236);
     min-height: 30px;
-    -webkit-box-shadow: inset -1px 4px 40px 0px rgb(245, 238, 230);
-    -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
-    box-shadow: inset -1px 4px 40px 0px rgb(243, 234, 226);
+    -webkit-box-shadow: -1px 4px 4px 0px rgba(0, 0, 0,0.05);
+    -moz-box-shadow: -1px 4px 4px 0px rgba(0, 0, 0,0.05);
+    box-shadow: -1px 4px 4px 0px rgba(0, 0, 0,0.05);
     padding-bottom: 0px;
     height: 74px;
+}
+
+#inner-header{
+	
+	margin:0;
+	padding:0;
+	background-color:rgb(230, 230, 230);
 }
 
 header .home-upper-box > div{
@@ -116,7 +123,7 @@ header .home-upper-box > div{
 }
 
 #bg-square{
-    background-image: url(../img/cuadrado-botonera.png);
+    /*background-image: url(../img/cuadrado-botonera.png);*/
     min-height: 5px;
     background-size: auto;
 	display:block;
@@ -191,7 +198,8 @@ header .home-box:hover > .hoy-box {
 }
 
 .p-header-mobile {
-    color: #8c8c8c;
+    /*color: #8c8c8c;*/
+    color: white;
     font-size: 1em;
     margin-bottom: 0px;
     margin-top: -5%;
@@ -226,7 +234,7 @@ header .home-box:hover > .hoy-box {
 }
 
 .p-header-mobile:hover{
-	color: #5D5A5A;
+	/*color: #5D5A5A;*/
 	z-index:9999;
 }
 
@@ -2792,6 +2800,7 @@ y fondos ubicacion en linea 1441 */
 .navbar-toggle{
 	position:absolute;
 	left:0;
+	z-index:200;
 }
 
 /** ENFERMEDADES-INFECCIOSAS **/

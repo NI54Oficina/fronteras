@@ -19,5 +19,11 @@
 .col-md-2-6{
 	width:16%;
 }
+
+
+	#inner-header{
+		height:2.5em !important;
+	}
+
 /*FIN DE LLAVES PRINCIPALES*/
 }
