@@ -85,7 +85,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 	<!-- TERMINA BOTON VOLVER -->
 
-					<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 cont-menu-mob center-to-parent">
+					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cont-menu-mob center-to-parent">
 	
 
 
