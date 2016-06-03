@@ -1,5 +1,5 @@
  <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-enfermedades titulo-mobile"> <p> Enfermedades</p> </div>	
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-enfermedades titulo-mobile"> <p>Sanidad > Enfermedades</p> </div>	
 	
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-sanidad border-shadow">

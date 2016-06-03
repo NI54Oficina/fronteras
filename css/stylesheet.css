@@ -198,14 +198,18 @@ header .home-box:hover > .hoy-box {
 }
 
 .p-header-mobile {
-    /*color: #8c8c8c;*/
-    color: white;
+    color:#adadad;
     font-size: 1em;
     margin-bottom: 0px;
     margin-top: -5%;
     display: block;
     text-align: center;
     width: 6vw;
+}
+
+.square-separador{
+	display: inline-block;
+    vertical-align: top;
 }
 
 .flecos-header div{
@@ -375,6 +379,12 @@ header .home-box:hover > .hoy-box {
 }
 .mercados-moneda p{
 	text-align:center!important;
+}
+
+ .h3-merc{
+	margin: 10px;
+    font-weight: 700;
+    font-size: 1.9em;
 }
 
 /* Caja clima*/
@@ -2871,6 +2881,12 @@ y fondos ubicacion en linea 1441 */
 
 
 .navbar-toggle{
+	position:absolute;
+	left:0;
+	z-index:200;
+}
+
+.boton-volver-header{
 	position:absolute;
 	left:0;
 	z-index:200;

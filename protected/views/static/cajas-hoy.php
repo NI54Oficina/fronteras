@@ -26,26 +26,28 @@
 		<div class="maxbox-mercados maxboxes-inner col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hoy-box-upper" hid="5">
-		<div class="boxhoy-mercados col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="2">
+		<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="4">
 			<p>- Mercados -</p>
-			<h3>Dólar oficial</h3>
 		</div>	
 
-
+		
 			<!-- Compra & venta -->
 			<div class="mercados-moneda col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
+			<h3 class="h3-merc">Indicadores</h3>
+			<h3 class="h3-merc">Ganado</h3>
+			<h3 class="h3-merc">Monedas</h3>
+			<h3 class="h3-merc">Granos</h3>
 				<!--Compra-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
+				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
 					<h4>Compra</h4>
 					<p>$<?php echo $item["Items"][0]["Compra"]; ?></p>
-				</div>
+				</div>-->
 			
 				<!--Venta-->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado" hid="3">
+				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado" hid="3">
 					<h4>Venta</h4>	
 					<p>$<?php echo $item["Items"][0]["Venta"]; ?></p>				
-				</div>
+				</div>-->
 				
 			</div>
 			</div>

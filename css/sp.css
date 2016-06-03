@@ -257,7 +257,6 @@ and (orientation : portrait){
 
 	.home-box > div > div:nth-child(1) {
 		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
-		padding: 2% 0%;
 	}
 	.mapa-clima h3 {
 		padding-top: 8px;

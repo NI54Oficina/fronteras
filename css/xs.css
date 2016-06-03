@@ -203,6 +203,8 @@
 	.navbar-toggle {
 		margin-top: 0px;
 		height: 0px;
+		padding-left: 93vw;
+		padding-top: 5px;
 	}
 
 
@@ -374,6 +376,16 @@
 	.number-protocolo {
 		padding-top: 9%;
 		text-align: center;
+	}
+	
+	.square-separador{
+		display: none;
+	}
+	
+	.boton-header {
+		width: 22px;
+		margin-top: 6%;
+		padding: 0;
 	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

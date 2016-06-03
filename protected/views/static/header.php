@@ -57,6 +57,9 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 
 <div  class="">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header" style="height:100%;">
+		<button class="boton-header"  id="back-header" style="display:inline-block;overflow:hidden;" type="button"></button>
+	</div> 
 <span  class=" glyphicon glyphicon-th-large navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>
 
 
@@ -80,7 +83,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 	<!-- BOTON VOLVER -->
 	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="height:100%;">
-	<button class="boton-header center-to-parent-t"  id="back-header" style="display:inline-block;overflow:hidden;" type="button"></button><p class="back-p center-to-parent-m" style="display:inline-block;" >Volver</p>
+		<button class="boton-header center-to-parent-t"  id="back-header" style="display:inline-block;overflow:hidden;" type="button"></button><p class="back-p center-to-parent-m" style="display:inline-block;" >Volver</p>
 	</div>
 
 	<!-- TERMINA BOTON VOLVER -->
@@ -106,6 +109,8 @@ $("body").on("mousedown",".navbar-toggle",function(){
 							</a>
 
 						</li>
+						
+						<div class="square-separador"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-5">	
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
@@ -121,7 +126,9 @@ $("body").on("mousedown",".navbar-toggle",function(){
 								</div>
 							</a>							
 						</li>
-
+						
+						<div class="square-separador"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						
 						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
@@ -134,7 +141,9 @@ $("body").on("mousedown",".navbar-toggle",function(){
 								</div>
 							</a>
 						</li>
-
+						
+						<div class="square-separador"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						
 						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">	
