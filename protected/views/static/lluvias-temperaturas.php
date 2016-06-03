@@ -23,7 +23,7 @@ echo date("d",$f["created"]);
  ?> </h1>
 
 <!-- tres mapas -->
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 map-lluvia ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 		
@@ -37,12 +37,13 @@ echo date("d",$f["created"]);
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 				<!--Clima imágen-->
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-img" >
-					<img src='<?php $foto= $f['field_map_max_temperature']["und"][0]["uri"];
+				
+				
+				<img class="mapa-img" src='<?php $foto= $f['field_map_max_temperature']["und"][0]["uri"];
 		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
 				
-					
-				</div>
+				<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/esc-temp-max.gif' />
+				
 				
 			</div>
 
@@ -52,7 +53,7 @@ echo date("d",$f["created"]);
 	
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  map-lluvia ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12  map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 		
@@ -66,11 +67,12 @@ echo date("d",$f["created"]);
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 				<!--Clima imágen-->
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-img" >
-					<img src='<?php $foto= $f['field_map_min_temperature']["und"][0]["uri"];
-					$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+			
 					
-				</div>
+					<img class="mapa-img" src='<?php $foto= $f['field_map_min_temperature']["und"][0]["uri"];
+					$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-temp-min.gif' />
+			
 				
 			</div>
 
@@ -80,7 +82,7 @@ echo date("d",$f["created"]);
 	
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  map-lluvia ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12  map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 		
@@ -94,10 +96,11 @@ echo date("d",$f["created"]);
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 				<!--Clima imágen-->
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-img" >
-					<img src='<?php $foto= $f['field_rain_map']["und"][0]["uri"]; $foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>'>
+				
 					
-				</div>
+					<img class="mapa-img" src='<?php $foto= $f['field_rain_map']["und"][0]["uri"]; $foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>'>
+					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-lluvia.gif'/>
+				
 				
 			</div>
 

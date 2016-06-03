@@ -20,6 +20,7 @@ function LoadFunction(){
 		FillParent();
 		ResizeViewportElements();
 		CenterToParent();
+		ScrollHome();
 		
 
 
@@ -516,34 +517,34 @@ function turnOnButtonRemates(){
 
     	if(!tableAnimating){
     		tableAnimating=true;
-    	$(".fade-in-mobile").fadeOut(400);
+			$(".fade-in-mobile").fadeOut(400);
 
-		setTimeout(function(){
+			setTimeout(function(){
 
-	    	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
-	    
+				$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+			
 
-	    	++indexRemates;
-	    	 $(".containerColumnas").each(function(){
-	    	 	console.log("entra indicie"+indexRemates);
-			 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
-			 	$(".fade-in-mobile").fadeIn(400);
-			 	checkNavigationButton();
+				++indexRemates;
+				 $(".containerColumnas").each(function(){
+					console.log("entra indicie"+indexRemates);
+					$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					$(".fade-in-mobile").fadeIn(400);
+					checkNavigationButton();
 
-			 	
-			 	console.log("esto funciona");
-			 });
+					
+					console.log("esto funciona");
+				 });
 
-    	 	setTimeout(function(){
+				setTimeout(function(){
 
-			 	tableAnimating=false;
-	 		},400);
+					tableAnimating=false;
+				},400);
 
-	 	}, 400);
+			}, 400);
 
-    	 console.log("lengthRemates "+lengthRemates);
-    	 checkNavigationButton();
-		
+			 console.log("lengthRemates "+lengthRemates);
+			 checkNavigationButton();
+			
     	
 
     	}
@@ -787,3 +788,11 @@ function backButton(){
 }
 
 // FIN FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
+
+function ScrollHome(){
+	if(isHome){
+		if ($("body").height() > $(window).height()) {
+			$("section").css("padding-bottom","0");
+		}
+	}
+}

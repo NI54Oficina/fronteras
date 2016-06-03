@@ -1180,7 +1180,7 @@ header .home-box:hover > .hoy-box {
 
 .box-clima-mapas-inner{
 	background-color: white;
-    padding: 10px 20px;
+    padding: 10px 5px;
 	border: 2px solid #2E9DFB;
 	box-shadow: -1px 0px 33px -11px rgba(0,0,0,1);
 }
@@ -2033,6 +2033,13 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .box-clima select{
 	
+}
+
+.mapa-img {
+	width:75%;
+}
+.escala{
+	width:20%;
 }
 
 .red-form > #localidad, .red-form > #provincia {
