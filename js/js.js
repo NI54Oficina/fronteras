@@ -743,40 +743,37 @@ if( (wdWidth-wdHeight) > 0 ){
 
 
 function slider(){
-
-	console.log("entra-slider");
+	console.log("entra slider");
 
 var currentIndex = 0,
-  items = $('.cubicacion-container'),
+  items = $('.general-container-producir'),
   itemAmt = items.length;
 
-	function repeatItems() {
-  var item = $('.cubicacion-container').eq(currentIndex);
-  items.hide(); 
+function cycleItems() {
+  var item = $('.general-container-producir').eq(currentIndex);
+  items.hide();
   item.fadeIn("slow");
 }
 
-$('#next').click(function() {
-  
+$('.next-ganado').click(function() {
   currentIndex += 1;
   if (currentIndex > itemAmt - 1) {
     currentIndex = 0;
   }
-  repeatItems();
+  cycleItems();
 });
 
-$('#prev').click(function() {
- 
+$('.preview-ganado').click(function() {
   currentIndex -= 1;
   if (currentIndex < 0) {
     currentIndex = itemAmt - 1;
   }
-  repeatItems();
+  cycleItems();
 });
 
- 
-
+ console.log("sale slider");
 }
+
 
 // FIN FUNCION QUE MUESTRA ITEM EN UNA COLA ITERATIVA
 

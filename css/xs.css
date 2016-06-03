@@ -23,7 +23,7 @@
 	}
 
 	.col-xs-2-7 {
-	width: 14%;
+	width: 14.28%;
 }
 
 
@@ -216,10 +216,7 @@
 
 	/* CUBICACION BAÑADEROS */
 	
-	.cubicacion-container{ 
-		padding:15px;
-	}
-
+	
 	.enfermedades-inside-title, .enfermedades-inside-container, .retiro-container{
 		padding:0 15px;
 	}
@@ -242,9 +239,12 @@
 	}
 
 	.remates-box{
-	padding: 1px 0.5px;
+	padding: 1px 1px;
 	}
 	
+	.remates-box-2{
+		padding:2px 2px;
+	}
 	.columna-ganado p{
 		font-size: 1.1rem;
 	}
@@ -360,7 +360,7 @@
 	}
 */
 
-	.container-enfermedades > .selector-side {
+	.general-container-producir > .selector-side {
 		padding-right: 0px; 
 	}
 
@@ -377,6 +377,7 @@
 		padding-top: 9%;
 		text-align: center;
 	}
+<<<<<<< HEAD
 	
 	.square-separador{
 		display: none;
@@ -386,6 +387,11 @@
 		width: 22px;
 		margin-top: 6%;
 		padding: 0;
+=======
+
+	.general-container-producir{
+		padding:15px;
+>>>>>>> origin/master
 	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }

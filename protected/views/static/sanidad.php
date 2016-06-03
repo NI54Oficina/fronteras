@@ -60,15 +60,6 @@
 		</div>
 	</a>
 
-	<a href="#">
-		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
-			<div class="box-sanidad border-shadow">
-				<div class="box-sanidad-inner producir-box-inner square">
-					<p class="long-word color-sanidad center-to-parent">Valores constantes de animales en producción</p>
-				</div>
-			</div>
-		</div>	
-	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/retiro-productos">
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
@@ -80,6 +71,18 @@
 			</div>
 		</div>
 	</a>	
+
+
+	<a href="#">
+		<div class="box-producir-2  box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+			<div class="box-sanidad border-shadow">
+				<div class="box-sanidad-inner producir-box-inner square">
+					<p class="long-word color-sanidad center-to-parent">Valores constantes de animales en producción</p>
+				</div>
+			</div>
+		</div>	
+	</a>
+
 
 	<a href="">	
 		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md">

@@ -2637,9 +2637,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 /****************** SANIDAD- ENFERMEDADES ***********************/
 
 
-.container-enfermedades{
-	padding:30px 30px;
-}
 
 .enfermedades-select {
     background: transparent;
@@ -2689,6 +2686,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .enfermedades-inside-container{
     text-align: left;
     color: grey;
+    padding: 0px 30px;
 }
 
 .widget-enfermedades{
@@ -2789,6 +2787,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding:30px;
  }
 
+.general-container-producir{
+	padding: 30px 30px;
+}
 
 /*DISTRIBUCION COLORES DE PRODUCIR
 
@@ -2853,9 +2854,6 @@ y fondos ubicacion en linea 1441 */
     margin: 0;
 }
 
-.retiro-container{
-	padding:30px 30px;
-}
 
 
 /** PAGINA DE LLUVIA (lluvias.php) **/
@@ -2936,7 +2934,7 @@ y fondos ubicacion en linea 1441 */
 }
 
 .img-ganado-info {
-	width: 25%;
+	width: 35%;
 }
 
 .ganado-col-1, .ganado-col-2{
@@ -3015,18 +3013,7 @@ y fondos ubicacion en linea 1441 */
 }
 
 /*************************** PROTOCOLOS ********************************/
-.box-protocolo-inner{
-    border: 2px solid #ED7C28;
-}
 
-.box-protocolo{
-    background-color: #ED7C28;
-	margin-bottom: 5%;
-}
-
-.color-protocolo{
-	color: #ED7C28;
-}
 
 .color-title-prod{
     background: #ED7C28;
@@ -3078,4 +3065,9 @@ y fondos ubicacion en linea 1441 */
 
 .titulo-mobile-prot{
 	background-color: #ED7C28;
+}
+
+
+.remates-box-2{
+	padding: 0px 5px;
 }
