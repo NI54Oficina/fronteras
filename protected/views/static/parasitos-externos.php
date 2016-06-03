@@ -15,7 +15,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"))
 </div>	
 
 
-<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-enfermedades">
+<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 
 	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 selector-side" > 
 		<form method="post">

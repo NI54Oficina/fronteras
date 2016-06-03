@@ -24,7 +24,7 @@
 	<button class="boton-ganado" id="prev" ></button>
 </div>
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container " hid="1" >
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir " hid="1" >
 
 
 
@@ -47,7 +47,7 @@
 </div>
 
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container slider-ganado" >
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir slider-ganado" >
 
 
 
@@ -68,7 +68,7 @@
 </div>
 
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container slider-ganado">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado">
 
 
 
@@ -88,7 +88,7 @@
 
 </div>
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 cubicacion-container slider-ganado">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado">
 
 
 

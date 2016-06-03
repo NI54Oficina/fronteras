@@ -747,19 +747,19 @@ function slider(){
 	console.log("entra-slider");
 
 var currentIndex = 0,
-  items = $('.cubicacion-container'),
-  itemAmt = items.length;
+  items = $('.general-container-producir '),
+  itemAnt = items.length;
 
 	function repeatItems() {
-  var item = $('.cubicacion-container').eq(currentIndex);
+  var item = $('.general-container-producir ').eq(currentIndex);
   items.hide(); 
-  item.fadeIn("slow");
+  itemAnt.fadeIn("slow");
 }
 
 $('#next').click(function() {
   
   currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
+  if (currentIndex > itemAnt - 1) {
     currentIndex = 0;
   }
   repeatItems();
@@ -769,9 +769,11 @@ $('#prev').click(function() {
  
   currentIndex -= 1;
   if (currentIndex < 0) {
-    currentIndex = itemAmt - 1;
+    currentIndex = itemAnt - 1;
   }
   repeatItems();
+
+  console.log("sale slider")
 });
 
  
