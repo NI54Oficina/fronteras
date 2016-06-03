@@ -462,10 +462,10 @@ function FillParent(){
 // FUNCION QUE HACE DESAPARECER EL BOTON SIGUIENTE O ATRAS DE ACUERDO SI QUEDAN ITEM 
 function checkNavigationButton(){
 
-	if( indexRemates == 0){
+	if( indexRemates <= 0){
     		$(".boton-prueba-atras").css("display", "none");
     		$(".boton-prueba").css("display", "block");
-    	}else if( indexRemates == lengthRemates -1){
+    	}else if( indexRemates >= lengthRemates -1){
     		$(".boton-prueba").css("display", "none");
     		$(".boton-prueba-atras").css("display", "block");
 
@@ -492,6 +492,7 @@ function initializeRemates(){
  $(".containerColumnas").each(function(){
 
  	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+ 	checkNavigationButton();
  	
  	console.log("esto funciona");
  	
@@ -504,54 +505,80 @@ function initializeRemates(){
 
 // FUNCION ITERATIVA QUE MUESTRA LA COLA DE ITEMS
 
+var tableAnimating = false;
+
 function turnOnButtonRemates(){
+
+
 
     $(".boton-prueba").click(function(){
 
 
-    	
+    	if(!tableAnimating){
+    		tableAnimating=true;
     	$(".fade-in-mobile").fadeOut(400);
 
-    		setTimeout(function(){
+		setTimeout(function(){
 
-    	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
-    
+	    	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+	    
 
-    	++indexRemates;
-    	 $(".containerColumnas").each(function(){
-    	 	console.log("entra indicie"+indexRemates);
-		 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
-		 	$(".fade-in-mobile").fadeIn(400);
+	    	++indexRemates;
+	    	 $(".containerColumnas").each(function(){
+	    	 	console.log("entra indicie"+indexRemates);
+			 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+			 	$(".fade-in-mobile").fadeIn(400);
+			 	checkNavigationButton();
 
-		 	
-		 	console.log("esto funciona");
-		 });
-		 }, 400);
+			 	
+			 	console.log("esto funciona");
+			 });
+
+    	 	setTimeout(function(){
+
+			 	tableAnimating=false;
+	 		},400);
+
+	 	}, 400);
 
     	 console.log("lengthRemates "+lengthRemates);
     	 checkNavigationButton();
 		
     	
 
-    	
+    	}
 	});
 
 
 	$(".boton-prueba-atras").click(function(){
 
-    	$(".containerColumnas").find('.info-remates-mobile').css("display","none");
-    	$(".fade-in-mobile").fadeOut(400);
+		if(!tableAnimating){
+			tableAnimating=true;
+	    	
+	    	$(".fade-in-mobile").fadeOut(400);
 
-    	--indexRemates;
-    	 $(".containerColumnas").each(function(){
-    	 	console.log("entra indicie"+indexRemates);
-		 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
-		 	$(".fade-in-mobile").fadeIn(400);
-		 	console.log("esto funciona");
-		 });
+	    	setTimeout(function(){
+	    		$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+		    	--indexRemates;
+		    	 $(".containerColumnas").each(function(){
+		    	 	console.log("entra indicie"+indexRemates);
+				 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+				 	$(".fade-in-mobile").fadeIn(400);
+				 	console.log("esto funciona");
+				 	checkNavigationButton();
+				 	
+				 });
 
-		checkNavigationButton();
-    
+			 	setTimeout(function(){
+				 	tableAnimating=false;
+		 		},400);
+
+	    	},400);
+			checkNavigationButton();
+    	
+
+    	}
+
     	
 	});
 }
