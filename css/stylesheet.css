@@ -518,6 +518,7 @@ header .home-box:hover > .hoy-box {
 	background-repeat:no-repeat;
 	background-size: auto 100%;
 	background-color:#F1EFEF;
+	padding:0 10px;
 }
 
 
@@ -2016,6 +2017,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	-webkit-appearance:none;
 	background-repeat:no-repeat;
 	background-size: auto 100%;
+	padding:0 10px;
 }
 
 

@@ -65,12 +65,14 @@ $retiros= Retiro::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2></h2></div>
 				<!--Contenido -->
-				<?php foreach($retiros as $retiro){ ?>
-				<div class="container-modalidad info-remates-mobile" hid="1">
+				<?php 
+				$loopIndex=5;
+				foreach($retiros as $retiro){ ?>
+				<div class="container-modalidad info-remates-mobile" hid="<?php echo $loopIndex; ?>">
 				
 				<img style="width:80%;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/dias-retiro-aciendelplus.svg">
 				</div>
-				<?php } ?>
+				<?php $loopIndex++; } ?>
 			</div>
 			
 		
@@ -81,13 +83,15 @@ $retiros= Retiro::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Producto Senasa</h2></div>
 				<!--Contenido -->
-				<?php foreach($retiros as $retiro){ ?>
-				<div class="container-consignatorio info-remates-mobile" hid="1">
+				<?php 
+				$loopIndex=5;
+				foreach($retiros as $retiro){ ?>
+				<div class="container-consignatorio info-remates-mobile" hid="<?php echo $loopIndex; ?>">
 					
 					<p class=" "><?php echo $retiro->producto; ?></p>
 					
 				</div>
-				<?php } ?>
+				<?php $loopIndex++; } ?>
 			</div>
 			
 		
@@ -98,13 +102,15 @@ $retiros= Retiro::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Nombre Comercial Reg</h2></div>
 				<!--Contenido -->
-				<?php foreach($retiros as $retiro){ ?>
-				<div class="container-lugar info-remates-mobile" hid="1">
+				<?php 
+				$loopIndex=5;
+				foreach($retiros as $retiro){ ?>
+				<div class="container-lugar info-remates-mobile" hid="<?php echo $loopIndex; ?>">
 				
 					<p class="" id="retiro-producto-p-1"><?php echo $retiro->nombreComercial; ?></p>
 					
 				</div>
-				<?php } ?>
+				<?php $loopIndex++; } ?>
 			</div>
 			
 		
@@ -114,12 +120,14 @@ $retiros= Retiro::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en carne</h2></div>
 				<!--Contenido -->
-				<?php foreach($retiros as $retiro){ ?>
-				<div class="container-provincia  info-remates-mobile" hid="1">
+				<?php
+				$loopIndex=5;
+				foreach($retiros as $retiro){ ?>
+				<div class="container-provincia  info-remates-mobile" hid="<?php echo $loopIndex; ?>">
 					<p  id="retiro-producto-p-2"><?php echo $retiro->retiroCarne; ?></p>
 				
 				</div>
-				<?php } ?>
+				<?php $loopIndex++; } ?>
 
 			</div>
 		
@@ -130,13 +138,15 @@ $retiros= Retiro::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en leche</h2></div>
 				<!--Contenido -->
-				<?php foreach($retiros as $retiro){ ?>
-				<div class="container-cabezas info-remates-mobile" hid="1">
+				<?php 
+				$loopIndex=5;
+				foreach($retiros as $retiro){ ?>
+				<div class="container-cabezas info-remates-mobile" hid="<?php echo $loopIndex; ?>">
 					
 					<p class="" id="retiro-producto-p-3"><?php echo $retiro->retiroLeche; ?></p>
 					
 				</div>
-				<?php } ?>
+				<?php $loopIndex++; } ?>
 			</div>
 			
 			
@@ -146,3 +156,14 @@ $retiros= Retiro::model()->findAll();
 	</div>
 	
 </section>
+
+
+<script>
+
+
+$(document).ready(function () {	
+	turnOnButtonRemates();
+});
+
+
+</script>

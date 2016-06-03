@@ -25,9 +25,10 @@
 					 <?php 
 					 $provincias= Provincia::model()->findAll();
 					 foreach($provincias as $provincia){
+						 if($provincia->veterinarias==1){
 					 ?>
 					 <option value="<?php echo $provincia->id; ?>"><?php echo $provincia->nombre; ?> </option>
-					 <?php } ?>
+					 <?php }} ?>
          			 
           			</select>
           			

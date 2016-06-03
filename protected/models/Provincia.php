@@ -7,6 +7,7 @@
  * @property integer $id
  * @property string $nombre
  * @property integer $pais
+ * @property integer $veterinarias
  */
 class Provincia extends CActiveRecord
 {
@@ -27,11 +28,11 @@ class Provincia extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('nombre', 'required'),
-			array('pais', 'numerical', 'integerOnly'=>true),
+			array('pais, veterinarias', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, pais', 'safe', 'on'=>'search'),
+			array('id, nombre, pais, veterinarias', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,6 +56,7 @@ class Provincia extends CActiveRecord
 			'id' => 'ID',
 			'nombre' => 'Nombre',
 			'pais' => 'Pais',
+			'veterinarias' => 'Veterinarias',
 		);
 	}
 
@@ -79,6 +81,7 @@ class Provincia extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('pais',$this->pais);
+		$criteria->compare('veterinarias',$this->veterinarias);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
