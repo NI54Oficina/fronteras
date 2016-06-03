@@ -10,7 +10,7 @@
 	</div>	
 	</div>
 	
-	<a href=<?php echo Yii::app()->getBaseUrl(true); ?>/cubicacion-banaderos>
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/cubicacion-banaderos">
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
 		<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner producir-box-inner  square">
@@ -20,7 +20,7 @@
 	</div>
 	</a>
 	
-	<a href=<?php echo Yii::app()->getBaseUrl(true); ?>/bienestar-animal>
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/bienestar-animal">
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 			<div class="box-manejo border-shadow">
 				<div class="box-manejo-inner producir-box-inner square ">
@@ -32,7 +32,7 @@
 	
 	
 
-	<a href="">
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estado-corporal">
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">	
 		<div class="box-manejo border-shadow">
 			<div class="box-manejo-inner producir-box-inner square">

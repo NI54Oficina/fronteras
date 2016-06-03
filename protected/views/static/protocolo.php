@@ -5,18 +5,21 @@
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
 
-<div class="col-xs-12 hidden-lg hidden-xl titulo-mobile-prot titulo-mobile"> <p> Genética > Protocolo de reproducción  </p> </div>
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-	<div class="box-protocolo border-shadow">
-		<div class="box-protocolo-inner">
-			<p class="center-to-parent color-protocolo planes-h1">Protocolo de reproducción</p>
+<div class="col-xs-12 hidden-lg hidden-xl titulo-mobile-producir titulo-mobile"> <p> Genética > Protocolo de reproducción  </p> </div>
+
+
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+	<div class="box-genetica border-shadow">
+		<div class="box-genetica-inner ">
+			<p class="center-to-parent color-genetica planes-h1">Protocolo de reproducción} </p>
 		</div>
 	</div>
 </div>
+	
 
 	
 	<!-- Caja general -->
-	<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+	<div class="col-lg-7-2 col-md-12 col-sm-12 col-xs-12">
 
 	
 	
@@ -52,11 +55,11 @@
 		
 		
 		<!-- Caja general: modalidad, consignatorio, lugar, provincia, cabezas -->
-		<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
+	<!-- 	<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile"> -->
 		
 			<!-- Modalidad -->
 			
-			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-7-2 col-md-7-2 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2>Nombre del producto</h2></div>
@@ -71,7 +74,7 @@
 		
 			<!-- Consignatorio-->
 			
-			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-7-2 col-md-7-2 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2>Día 0</h2></div>
@@ -88,7 +91,7 @@
 		
 			<!-- Lugar-->
 			
-			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-7-2 col-md-7-2 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2>Día 7</h2></div>
@@ -105,7 +108,7 @@
 			
 		
 			<!-- Provincia -->
-			<div class="col-lg-2-6 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-7-2 col-md-7-2 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2>Día 8</h2></div>
@@ -120,7 +123,7 @@
 		
 			<!-- Cabezas-->
 			
-			<div class="col-lg-2-6 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-7-2 col-md-7-2 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2>Día 9</h2></div>
@@ -135,7 +138,7 @@
 			
 			<!-- Cabezas-->
 			
-			<div class="col-lg-2-6 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-7-2 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
 			
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2>Día 10</h2></div>
@@ -147,7 +150,7 @@
 				
 			</div>
 			
-		</div>
+		<!-- </div> -->
 	
 	</div>
 

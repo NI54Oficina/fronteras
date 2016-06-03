@@ -7,7 +7,7 @@ $retiros= Retiro::model()->findAll();
  <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 	
 	
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 5%;">
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
 			<p class="center-to-parent color-sanidad planes-h1">Días de retiro de productos veterinarios </p>

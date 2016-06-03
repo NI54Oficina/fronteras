@@ -2844,7 +2844,7 @@ y fondos ubicacion en linea 1441 */
 }
 
 .retiro-container{
-	padding:0 30px;
+	padding:30px 30px;
 }
 
 
@@ -3014,7 +3014,6 @@ y fondos ubicacion en linea 1441 */
 
 .color-title-prod{
     background: #ED7C28;
-    margin-left: 4%;
 }
 
 .title-prot h2{

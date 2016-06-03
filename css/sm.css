@@ -2,6 +2,11 @@
 
 
 /*ESCRIBIR ADENTRO DE ESTE MEDIA QUERY*/
+.col-xl-2-7 {
+	width: 14%;
+}
+
+
 	.table-mercado > div:first-child > h3 {
 		font-size: 1.3rem;
 		padding-left: 0px;

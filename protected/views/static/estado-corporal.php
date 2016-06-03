@@ -11,7 +11,7 @@
 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" align="center">
 	
 		<!-- Enfermedades infecciosas  -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/angus"  class="">
+		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ganado"  class="">
 		
 		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
@@ -28,7 +28,7 @@
 	
 	
 		<!-- Parásitos externos -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hereford"   class="">
+		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ganado"   class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
@@ -46,7 +46,7 @@
 		
 		
 		<!-- Parásitos internos -->
-		<a href="#"  class="">
+		<a href="?php echo Yii::app()->getBaseUrl(true); ?>/ganado"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
@@ -64,7 +64,7 @@
 		
 		
 		<!--  -->
-		<a href="#"  class="">
+		<a href="?php echo Yii::app()->getBaseUrl(true); ?>/ganado"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
