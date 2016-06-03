@@ -2984,14 +2984,12 @@ y fondos ubicacion en linea 1441 */
 	background-size: 100% 100%;
 	outline:none;
 }
+
 .boton-ganado:hover{
 	opacity: 0.5;
 }
 
-/*.boton-preview{
- margin-top: 10%;
-}
-*/
+
 
 .titulo-mobile-enfermedades{
     background-color: #6D4A84;
@@ -3000,7 +2998,10 @@ y fondos ubicacion en linea 1441 */
 /*BOTON VOLVER EN EL HEADER*/
 #back-header{
 	background-image: url(ic_arrow_back.svg);
-	
+}
+
+#back-header2{
+	background-image: url(ic_arrow_back_m.svg);
 }
 
 
@@ -3013,9 +3014,6 @@ y fondos ubicacion en linea 1441 */
 	outline:none;
 }
 
-.boton-volver-header{
-	
-}
 
 .back-p{
 	cursor:pointer;
