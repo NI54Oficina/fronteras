@@ -1183,6 +1183,7 @@ header .home-box:hover > .hoy-box {
     padding: 10px 5px;
 	border: 2px solid #2E9DFB;
 	box-shadow: -1px 0px 33px -11px rgba(0,0,0,1);
+	text-align:left;
 }
 
 .form-clima-mapa{ 
@@ -2043,6 +2044,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 .escala{
 	width:20%;
+	position:absolute;
+	top:0;
+	right:0;
 }
 
 .red-form > #localidad, .red-form > #provincia {
