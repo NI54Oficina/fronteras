@@ -377,7 +377,6 @@
 		padding-top: 9%;
 		text-align: center;
 	}
-<<<<<<< HEAD
 	
 	.square-separador{
 		display: none;
@@ -387,11 +386,11 @@
 		width: 22px;
 		margin-top: 6%;
 		padding: 0;
-=======
-
+	}
+	
+	
 	.general-container-producir{
 		padding:15px;
->>>>>>> origin/master
 	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
