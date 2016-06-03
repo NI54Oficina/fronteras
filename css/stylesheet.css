@@ -2006,6 +2006,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	max-width:600px; 
 }
 
+.map-box{
+	background-image:url(../img/cuadrado-fondo-mapa.svg);
+}
 
 .red-box img { 
 	width: 40%; 
