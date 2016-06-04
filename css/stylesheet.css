@@ -1868,6 +1868,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	text-align: center; 
 	background-size:auto 100% ;
 	min-height: 100vh;
+	background-position: center;
 }
 
 .home-upper-box { 
