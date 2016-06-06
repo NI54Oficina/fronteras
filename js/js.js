@@ -750,23 +750,39 @@ var currentIndex = 0,
   items = $('.general-container-producir'),
   itemAmt = items.length;
 
+
 function cycleItems() {
   var item = $('.general-container-producir').eq(currentIndex);
   items.hide();
   item.fadeIn("slow");
 }
 
+
 $('.next-ganado').click(function() {
+
+
+
   currentIndex += 1;
+	$(".nav-dot").css("background-color", "pink");
+	$(".nav-dot").eq(currentIndex).css("background-color", "black");
+
   if (currentIndex > itemAmt - 1) {
+
     currentIndex = 0;
+
+
   }
   cycleItems();
 });
 
 $('.preview-ganado').click(function() {
+
   currentIndex -= 1;
+	$(".nav-dot").css("background-color", "pink");
+		$(".nav-dot").eq(currentIndex).css("background-color", "black");
+
   if (currentIndex < 0) {
+
     currentIndex = itemAmt - 1;
   }
   cycleItems();
