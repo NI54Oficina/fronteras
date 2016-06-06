@@ -3007,6 +3007,11 @@ y fondos ubicacion en linea 1441 */
 	cursor: pointer;
 }
 
+.dot-nav-slider > ul{
+    padding: 0;
+    text-align: center;
+}
+
 input#vaca-tipo-1:checked ~ .nav-dots label#vaca-dot-1,
 input#vaca-tipo-2:checked ~ .nav-dots label#vaca-dot-2,
 input#vaca-tipo-3:checked ~ .nav-dots label#vaca-dot-3,
