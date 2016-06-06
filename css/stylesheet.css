@@ -2990,10 +2990,13 @@ y fondos ubicacion en linea 1441 */
 	background-size: 100% 100%;
 	outline:none;
 }
+
 .boton-ganado:hover{
 	opacity: 0.5;
 }
 
+<<<<<<< HEAD
+=======
 .nav-dots .nav-dot {
 
 	width: 8px;
@@ -3016,6 +3019,7 @@ y fondos ubicacion en linea 1441 */
 
 
 /*fin estado corporal*/
+>>>>>>> origin/master
 
 
 .titulo-mobile-enfermedades{
@@ -3025,7 +3029,14 @@ y fondos ubicacion en linea 1441 */
 /*BOTON VOLVER EN EL HEADER*/
 #back-header{
 	background-image: url(ic_arrow_back.svg);
+<<<<<<< HEAD
+}
 
+#back-header2{
+	background-image: url(ic_arrow_back_m.svg);
+=======
+
+>>>>>>> origin/master
 }
 
 
@@ -3038,9 +3049,12 @@ y fondos ubicacion en linea 1441 */
 	outline:none;
 }
 
+<<<<<<< HEAD
+=======
 .boton-volver-header{
 
 }
+>>>>>>> origin/master
 
 .back-p{
 	cursor:pointer;
