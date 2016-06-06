@@ -3001,12 +3001,10 @@ y fondos ubicacion en linea 1441 */
 	position: relative;
 	border-radius: 100%;
 	display: inline-block;
-	background-color: rgba(0, 106, 160, 0.6);
 }
 
 .nav-dots .nav-dot:hover {
 	cursor: pointer;
-	background-color: rgba(0, 106, 160, 1);
 }
 
 input#vaca-tipo-1:checked ~ .nav-dots label#vaca-dot-1,

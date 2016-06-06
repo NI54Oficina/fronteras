@@ -750,8 +750,11 @@ var currentIndex = 0,
   items = $('.general-container-producir'),
   itemAmt = items.length;
 
+	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+	$(".nav-dot").eq(currentIndex).css("background-color",  "rgba(0,0,0,.8)");
 
 function cycleItems() {
+
   var item = $('.general-container-producir').eq(currentIndex);
   items.hide();
   item.fadeIn("slow");
@@ -760,16 +763,15 @@ function cycleItems() {
 
 $('.next-ganado').click(function() {
 
-
-
-  currentIndex += 1;
-	$(".nav-dot").css("background-color", "pink");
-	$(".nav-dot").eq(currentIndex).css("background-color", "black");
+	currentIndex += 1;
+	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+	$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
 
   if (currentIndex > itemAmt - 1) {
 
     currentIndex = 0;
-
+		$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
 
   }
   cycleItems();
@@ -778,8 +780,8 @@ $('.next-ganado').click(function() {
 $('.preview-ganado').click(function() {
 
   currentIndex -= 1;
-	$(".nav-dot").css("background-color", "pink");
-		$(".nav-dot").eq(currentIndex).css("background-color", "black");
+	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
 
   if (currentIndex < 0) {
 
