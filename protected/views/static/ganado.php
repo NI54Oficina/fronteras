@@ -26,7 +26,7 @@
 
 
       <!-- Tipo de vaca 1 -->
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir " hid="1" >
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir " hid="1" id="vaca-tipo-1">
 
 
 
@@ -53,7 +53,7 @@
 
 
       <!-- Tipo de vaca 2 -->
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir slider-ganado" >
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir slider-ganado" id="vaca-tipo-2">
 
 
 
@@ -77,7 +77,7 @@
 
 		<!-- Tipo de vaca 3 -->
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-3">
 
 
 
@@ -100,7 +100,7 @@
 
 		<!-- Tipo de vaca 4 -->
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-4">
 
 
 
@@ -121,9 +121,9 @@
 </div>
 
 
-		<!-- Tipo de vaca 4 -->
+		<!-- Tipo de vaca 5 -->
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado">
+<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-5">
 
 
 
@@ -141,6 +141,7 @@
 
 	</div>
 
+
 </div>
 
 
@@ -150,7 +151,17 @@
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
-
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+	<ul>
+		<li class="nav-dots">
+			<label for="vaca-tipo-1" class="nav-dot" id="vaca-dot-1"></label>
+			<label for="vaca-tipo-2" class="nav-dot" id="vaca-dot-2"></label>
+			<label for="vaca-tipo-3" class="nav-dot" id="vaca-dot-3"></label>
+			<label for="vaca-tipo-4" class="nav-dot" id="vaca-dot-4"></label>
+			<label for="vaca-tipo-5" class="nav-dot" id="vaca-dot-5"></label>
+		</li>
+</ul>
+</div>
 
 
 </section>
