@@ -796,9 +796,3 @@ function ScrollHome(){
 		}
 	}
 }
-
-// TESTING LIMITED WORDS
-
-function limitLines(){
-	var totalHeight= $("p").outerHeight
-}

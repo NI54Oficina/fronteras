@@ -13,7 +13,7 @@
 	<button class="boton-ganado preview-ganado" id="prev" ></button>
 </div>
 
-<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md ">	
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md ">
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
@@ -33,19 +33,19 @@
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
 
 
-		
+
 		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 		<h1>FLACA</h1>
-		<p>Profunda cavidad alrededor del nacimiento de la cola. Huesos pelvianos y coxales facilmente palpables. Ausencia total del tejido adiposo. Marcada depresión pelviana y lumbar.</br>
+		<p hid="2">Profunda cavidad alrededor del nacimiento de la cola. Huesos pelvianos y coxales facilmente palpables. Ausencia total del tejido adiposo. Marcada depresión pelviana y lumbar.</br>
 		Las vacas en este estado corporal no son funcionales. Estan en anestro profundo. Capacidad de lactacion comprometida.
 		</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test-2.png">
 
-		
+
 	</div>
 
 </div>
@@ -58,19 +58,19 @@
 
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
-		
+
 		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 		<h1>REGULAR</h1>
-		<p>Cavidad menos pronunciada alrededor de la encoladura.</br>
+		<p hid="2">Cavidad menos pronunciada alrededor de la encoladura.</br>
 		Presencia de algo de tejido adiposo. Extremos de costillas algo redondeados. Insuficientes reservas corporales. Luego del parto bajará su estado corporal y se comprometeras su performance reproductiva y lactancia. Anestro superficial.
 		</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test-2.png">
 
-		
+
 	</div>
 
 </div>
@@ -82,18 +82,18 @@
 
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
-		
+
 		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 		<h1>IDEAL AL PARTO</h1>
-		<p>Desaparece cavidad alderedor de la cola. Presencia de tejido adiposo no exagerado en esa superficie. </br>
+		<p hid="2">Desaparece cavidad alderedor de la cola. Presencia de tejido adiposo no exagerado en esa superficie. </br>
 		Extremos de costillas cortas cubiertas, aunque palpables con leve presión.</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test-2.png">
 
-		
+
 	</div>
 
 </div>
@@ -105,17 +105,17 @@
 
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
-		
+
 		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 		<h1>SOBREPESO</h1>
-		<p>Aparicion de mayor tejido cubriendo la pelvis, costillas cortas invisibles y dificiles de palpar. Estado ideal aunque seria antieconomico. Vacas cíclicas. Excelente lactancia. Buenos indices de preñez pero es indicativo de baja carga por hectárea.</p>
+		<p hid="2">Aparicion de mayor tejido cubriendo la pelvis, costillas cortas invisibles y dificiles de palpar. Estado ideal aunque seria antieconomico. Vacas cíclicas. Excelente lactancia. Buenos indices de preñez pero es indicativo de baja carga por hectárea.</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test-2.png">
 
-		
+
 	</div>
 
 </div>
@@ -128,17 +128,17 @@
 
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
-		
+
 		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 		<h1>OBESA</h1>
-		<p>Engrasamiento exagerado. Desaparece toda la forma de la pelvis. Costillas cortas no palpables. Totalmente exedida de gordura. Antieconómica e incluso con reisgos reproductivos por esceso de grasa.</p>
+		<p hid="2" >Engrasamiento exagerado. Desaparece toda la forma de la pelvis. Costillas cortas no palpables. Totalmente exedida de gordura. Antieconómica e incluso con reisgos reproductivos por esceso de grasa.</p>
 
 		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test-2.png">
 
-		
+
 	</div>
 
 </div>
@@ -146,7 +146,7 @@
 
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado"  hid="1">	
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado"  hid="1">
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
