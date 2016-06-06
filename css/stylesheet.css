@@ -3012,13 +3012,6 @@ y fondos ubicacion en linea 1441 */
     text-align: center;
 }
 
-input#vaca-tipo-1:checked ~ .nav-dots label#vaca-dot-1,
-input#vaca-tipo-2:checked ~ .nav-dots label#vaca-dot-2,
-input#vaca-tipo-3:checked ~ .nav-dots label#vaca-dot-3,
-input#vaca-tipo-4:checked ~ .nav-dots label#vaca-dot-4,
-input#vaca-tipo-5:checked ~ .nav-dots label#vaca-dot-5{
-  background-color: (0,0,0,.8);
-}
 
 
 /*fin estado corporal*/
