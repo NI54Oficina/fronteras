@@ -3051,6 +3051,14 @@ y fondos ubicacion en linea 1441 */
 .back-p{
 	cursor:pointer;
 	margin:  auto 5px;
+    display: inline-block;
+    top: -6.5px!important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+	color:#8c8c8c;
 }
 
 /*************************** PROTOCOLOS ********************************/
