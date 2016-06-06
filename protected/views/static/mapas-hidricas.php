@@ -114,7 +114,7 @@ if($dataH){
 		</div>
 	</div>	
 	<?php } ?>
-	<button type="button" class="btn-mapas subtablesButton">Ver anteriores</button>
+	<a href="<?php echo Yii::app()->request->baseUrl; ?>/hidricas"><button type="button" class="btn-mapas subtablesButton">Ver anteriores</button></a>
 	</div>	
 <?php
 }

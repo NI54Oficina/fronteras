@@ -37,7 +37,7 @@ html{
 /*FONTS*/
 @font-face {
     font-family: 'arialregular';
-    src: 
+    src:
         url('../fonts/DaxlinePro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -54,7 +54,7 @@ html{
          url('../fonts/arial-webfont.svg#arialregular') format('svg');
     font-weight: normal;
     font-style: normal;
-} 
+}
 
 body{
 	background-color: #f7f7f7;
@@ -108,7 +108,7 @@ header{
 }
 
 #inner-header{
-	
+
 	margin:0;
 	padding:0;
 	background-color:rgb(230, 230, 230);
@@ -134,23 +134,23 @@ header .home-upper-box > div{
 
 #hoy-header-m{
 	background:transparent;
-} 
+}
 
 /* Caja menú mes */
 #mes-header-m{
 	background:transparent;
-} 
+}
 
 /* Caja menú producir */
 #producir-header-m{
 	background:transparent;
-} 
+}
 
 /* Caja menú ayuda*/
 #ayuda-header-m{
 	background:transparent;
-} 
-	
+}
+
 header .home-upper-box {
    display:none;
 }
@@ -264,7 +264,7 @@ header .home-box:hover > .hoy-box {
 	width:100vw;
 	height:100vh;
  }
- 
+
  .headermobile .dropdown-header-nav{
 	max-height:0;
 	transition: max-height 0.3s ease-out;
@@ -274,30 +274,30 @@ header .home-box:hover > .hoy-box {
 	padding-left:0;
 	padding-top:0;
  }
- 
+
  .headermobile .dropdown-header-nav.opened{
 	max-height: 50000px;
 	transition: max-height 0.3s ease-in;
 	padding-left:0;
 	margin:0;
  }
- 
+
  .headerDesktop .dropdown-header-nav{
 	display:none;
 	background-color:white;
 	border: black solid 1px;
  }
- 
+
  .li-header:hover > .dropdown-header-nav{
 	display:block;
 	position:absolute;
  }
 
- 
+
 .logo-bago-header{
-	float: right;  
-	padding-right: 50px;  
-	padding-top: 19px;  
+	float: right;
+	padding-right: 50px;
+	padding-top: 19px;
 	width: 270px;
 }
 
@@ -307,14 +307,14 @@ header .home-box:hover > .hoy-box {
     padding-left: 50px;
     padding-top: 20px;
 }
- 
+
 .header-palabras-menu{
 	width: 100vw;
 	text-align: left;
-	background: #F7F7F7; 
+	background: #F7F7F7;
 	padding: 0px 0px;
-	z-index: -1; 
-	margin-top: -31px; 
+	z-index: -1;
+	margin-top: -31px;
 	padding-top: 35px;
 }
 
@@ -390,7 +390,7 @@ header .home-box:hover > .hoy-box {
 /* Caja clima*/
 .box-mercado-clima-noticias >a> div> .maxbox-clima{
 	background-color:#2E9DFB;
-	min-height: 100%;	
+	min-height: 100%;
 
 }
 
@@ -441,7 +441,7 @@ header .home-box:hover > .hoy-box {
 }
 
 .maxbox-ampliar{
-	
+
 	text-align: center;
 }
 
@@ -518,7 +518,7 @@ header .home-box:hover > .hoy-box {
     border: none;
     width: 100%;
     font-family: 'arialregular';
-	
+
 }
 
 .box-clima select{
@@ -619,7 +619,7 @@ header .home-box:hover > .hoy-box {
 
 
 /* TÍTULOS divs 2,3,4,5,6 */
-.container-items-mercados h3{ 
+.container-items-mercados h3{
 	color:#2EA982!important;
 	text-align:center!important;
     font-weight: 700;
@@ -656,7 +656,7 @@ header .home-box:hover > .hoy-box {
 .box-mercado .general-table-mercados{
     padding-top: 0px;
 }
-	
+
 .table-mercado{
 	min-height:30px!important;
 	padding:0!important;
@@ -937,12 +937,12 @@ header .home-box:hover > .hoy-box {
 
 
 .box-clima .info-clima > h4{
-	padding: 0; 
+	padding: 0;
 	margin: 0;
 }
 
 .box-clima .info-clima > p{
-	padding: 4px 0; 
+	padding: 4px 0;
 	margin: 0;
 }
 
@@ -1160,7 +1160,7 @@ header .home-box:hover > .hoy-box {
 	margin:0;
 	color: white;
     font-size: 1.1em;
-	padding-top: 7px; 
+	padding-top: 7px;
 }
 .border-mapa{
 	background-color:#76BDF0;
@@ -1183,19 +1183,20 @@ header .home-box:hover > .hoy-box {
     padding: 10px 5px;
 	border: 2px solid #2E9DFB;
 	box-shadow: -1px 0px 33px -11px rgba(0,0,0,1);
+	text-align:left;
 }
 
-.form-clima-mapa{ 
+.form-clima-mapa{
     background-color: #F1EFEF;
     min-height: 40px;
     margin-bottom: 4px;
 }
 
-.form-clima-mapa p{ 
+.form-clima-mapa p{
 	padding-top:11px;
 }
 
-.btn-mapas{ 
+.btn-mapas{
 	display: block;
     padding: 8px 0px;
     margin-bottom: 0;
@@ -1250,7 +1251,7 @@ header .home-box:hover > .hoy-box {
 /* Cajas noticias normales */
 .box-noticias > div > div{
 	background-color:transparent;
-	
+
 }
 
 .box-noticias  h1, .noticia-columna h1{
@@ -1271,7 +1272,7 @@ header .home-box:hover > .hoy-box {
 
 #noticia-box >div > #noticia-box-inner{
 	background:#2ED7AA;
-	min-height: 205px;	
+	min-height: 205px;
 	text-align:center;
 }
 
@@ -1297,14 +1298,14 @@ header .home-box:hover > .hoy-box {
 
 /* 2 tipo de noticia */
 .container-img-noticias{
-    
+
     padding-top: 0;
     padding: 0;
 }
 
 .container-texto-noticias{
-    
-    
+
+
     padding:10px 5px;
     margin-top: 5px;
 }
@@ -1321,7 +1322,7 @@ header .home-box:hover > .hoy-box {
     text-align: left;
     font-weight: 700;
     padding: 5px 10px;
-    
+
 }
 
 
@@ -1369,8 +1370,8 @@ header .home-box:hover > .hoy-box {
 
 /*NOTICIA TIPO 1 - VERDE AGUA*/
 
-.noticia-tipo-1 .container-texto-noticias{ 
-    border: 2px solid  #25CDDB;    
+.noticia-tipo-1 .container-texto-noticias{
+    border: 2px solid  #25CDDB;
 
 }
 
@@ -1525,7 +1526,7 @@ header .home-box:hover > .hoy-box {
     display: inline-block;
     background-color: #C4c6c7;
     width: 100%;
-	
+
 }*/
 
 
@@ -1598,7 +1599,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
  }
 
 .box-sanidad{
-	background-color:#6D4A84; 
+	background-color:#6D4A84;
 }
 
 .box-producir-2 > div> img{
@@ -1612,7 +1613,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .border-shadow{
     box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.55);
-}     
+}
 
 .box-producir-2  p{
 	font-size: 1.2em;
@@ -1632,12 +1633,12 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 .box-sanidad {
-	background-color:#6D4A84; 
-	
+	background-color:#6D4A84;
+
 }
 
 .box-genetica {
-	background-color:#ED7C28; 
+	background-color:#ED7C28;
 }
 
 .box-genetica-inner {
@@ -1648,7 +1649,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
  	border:2px solid #6D4A84 ;
 }
 .box-nutricion {
-	background-color:#BAA200; 
+	background-color:#BAA200;
 }
 
 
@@ -1706,7 +1707,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 
-.box-sanidad-inner #planes-h1 { 
+.box-sanidad-inner #planes-h1 {
     color: #6D4A84;
     font-weight: 700;
     font-size: 20px;
@@ -1719,7 +1720,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     width: 89.5vw;
 }
 
-.planes{ 
+.planes{
 
 	position: relative;
 	float: left;
@@ -1771,12 +1772,12 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
   transition: all 0.5s ease;
 }
 
-.planes-descarga{ 
+.planes-descarga{
 	height:6vh;
 	background:white;
 }
 
-.planes-descarga img{ 
+.planes-descarga img{
 	height:40px;
 	padding-top:5px;
 	padding-bottom:5px;
@@ -1784,7 +1785,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 
-.planes-box p{ 
+.planes-box p{
     color: white;
     font-size: 22px;
     margin: 0;
@@ -1793,7 +1794,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     width: 130px;
 }
 
-.planes:hover .border-planes{ 
+.planes:hover .border-planes{
 	position: relative;
 	transition: all 0.5s ease;
 	margin-bottom:5px;
@@ -1829,7 +1830,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 /************** LABORATORIOS ************************/
-.laboratorios{ 
+.laboratorios{
 
 	position: relative;
 	float: left;
@@ -1860,16 +1861,17 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /*********************HOME*******************/
 
-#home{ 
-	padding: 45px; 
-	background-image: url(../img/bg-index.png); 
-	width: 100%;  
-	text-align: center; 
+#home{
+	padding: 45px;
+	background-image: url(../img/bg-index.png);
+	width: 100%;
+	text-align: center;
 	background-size:auto 100% ;
 	min-height: 100vh;
+	background-position: center;
 }
 
-.home-upper-box { 
+.home-upper-box {
 	padding: 20px 20px;
 }
 
@@ -1882,26 +1884,26 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .home-upper-box img:nth-child(1){
-	float: left;  
+	float: left;
 	width: 10em;
-	position: relative;	
+	position: relative;
 }
 
 .home-upper-box img:nth-child(2){
-	float: right; 
+	float: right;
 	position: relative;
 	width: 15em;
 	margin-top: 20px;
 }
 
-.home-bottom-box { 
-	padding: 0; 
-	margin:0; 
+.home-bottom-box {
+	padding: 0;
+	margin:0;
 	text-align:center;
 }
 
 .home-bottom-box p {
-	color: white; 
+	color: white;
 	font-size: 1.12em;
 	margin-bottom: 0px;
 	position: relative;
@@ -1909,7 +1911,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .home-bottom-box > a> div {
-	padding: 20px 20px;    
+	padding: 20px 20px;
 }
 
 .hoy-box > div, .hoy-box  {
@@ -1924,9 +1926,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color: #7067B0;
 }
 
-.producir-box > div:nth-child(1) { 
+.producir-box > div:nth-child(1) {
 	background-image: url(../img/icono-producir.png);
-	background-repeat: no-repeat;  
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 101% 101%;
 	background-color: #7067B0;
@@ -1935,7 +1937,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .ayuda-box, .ayuda-box >div{
 	background-color:#79BEFE;
 }
- 
+
 
 .home-box > div {
 	box-shadow: 3px 2px 5px 0px rgba(0,0,0,.3);
@@ -1948,9 +1950,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .home-box > div > div:nth-child(1) {
-	box-shadow: 0 5px 10px -2px rgba(95,95,95,.5); 
+	box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
 	padding: 15% 0%;
-} 
+}
 
 
 .home-box:hover > .hoy-box{
@@ -1986,32 +1988,32 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /***********************VETERINARIA***************/
 
-.veterinaria { 
+.veterinaria {
 	max-width: 1500px;
 	text-align: center;
 }
 
 .map-box, .red-box{
 	padding:20px;
-	text-align: center;	
+	text-align: center;
 }
 
 #provincia, #localidad {
-	margin: 20px 0px; 
+	margin: 20px 0px;
 }
 
-.map-box iframe{ 
+.map-box iframe{
 	border:2px solid #0078B9;
 	width:100%;
-	max-width:600px; 
+	max-width:600px;
 }
 
 .map-box{
 	background-image:url(../img/cuadrado-fondo-mapa.svg);
 }
 
-.red-box img { 
-	width: 40%; 
+.red-box img {
+	width: 40%;
 }
 
 .red-form {
@@ -2020,8 +2022,8 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .red-form > div > form > select{
-	border:none; 
-	color: rgba(158,158,158,.5); 
+	border:none;
+	color: rgba(158,158,158,.5);
 	width: 100%;
 	background-color:transparent;
 	-webkit-appearance:normal;
@@ -2035,7 +2037,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 .box-clima select{
-	
+
 }
 
 .mapa-img {
@@ -2043,10 +2045,13 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 .escala{
 	width:20%;
+	position:absolute;
+	top:0;
+	right:0;
 }
 
 .red-form > #localidad, .red-form > #provincia {
-	padding:0; 
+	padding:0;
 	border-bottom: 2px solid rgba(0,120,185,.6);
 }
 
@@ -2119,7 +2124,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .box-interes > p {
 	color:#999999;
-	margin:2px; 
+	margin:2px;
 }
 
 .box-interes-img {
@@ -2140,11 +2145,11 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 #clima form select::-webkit-scrollbar {
     width: 1em;
 }
- 
+
 #clima form select::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px blue;
 }
- 
+
 #clima form select::-webkit-scrollbar-thumb{
 	background-color: blue;
 	outline: 1px solid blue;
@@ -2300,7 +2305,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
-.loading-gif {	
+.loading-gif {
 	background-color: transparent;
 	position: fixed;
 	width: 100%;
@@ -2358,7 +2363,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .img-2-splash > img{
-	width: 7em;	
+	width: 7em;
 }
 
 .slogan-splash{
@@ -2464,16 +2469,16 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .checkbox-box{
-	border: 1px solid #189dbf;	
+	border: 1px solid #189dbf;
 }
 
 .checkbox-container{
-	padding: 5px 5px;	
+	padding: 5px 5px;
 }
 
 #nombre-checkbox{
 	background:#189dbf;
-	
+
 }
 
 #nombre-checkbox h2{
@@ -2481,7 +2486,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     font-size: 2rem;
     text-align: center;
 	margin:0;
-	
+
 }
 
 
@@ -2515,17 +2520,17 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .container-fecha-remates p:first-child {
-   
+
     font-size: 1.8rem;
 }
 
 .container-fecha-remates p:nth-child(2) {
-    
+
     font-size: 4rem;
 }
 
 .container-fecha-remates p:nth-child(3) {
-    
+
     font-size: 2rem;
 }
 
@@ -2681,7 +2686,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     color:white;
     text-align:center;
     font-weight: 700;
-    letter-spacing: 0.5px;	
+    letter-spacing: 0.5px;
 	background: #6D4A84;
 }
 
@@ -2751,7 +2756,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	font-weight: bold;
 	margin-top: 50px;
 }
- 
+
 .producir-inside-container{
 	text-align: left;
 	color: gray;
@@ -2789,11 +2794,11 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	width:auto;
 }
 
-.producir-inside-container li { 
+.producir-inside-container li {
 	list-style-type: square;
  }
- 
-.cubicacion-container{ 
+
+.cubicacion-container{
 	padding:30px;
  }
 
@@ -2922,9 +2927,9 @@ y fondos ubicacion en linea 1441 */
 .glyphicon-menu-hamburger{
 
 }
-	
 
-/***************ESTADO CORPORAL	**********/
+
+/***************ESTADO CORPORAL	& SLIDER**********/
 
 .p-estado{
 	color: white;
@@ -2989,6 +2994,31 @@ y fondos ubicacion en linea 1441 */
 	opacity: 0.5;
 }
 
+<<<<<<< HEAD
+=======
+.nav-dots .nav-dot {
+
+	width: 8px;
+	height: 8px;
+	margin: 0 2px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+}
+
+.dot-nav-slider > ul{
+    padding: 0;
+    text-align: center;
+}
+
+
+
+/*fin estado corporal*/
+>>>>>>> origin/master
 
 
 .titulo-mobile-enfermedades{
@@ -2998,10 +3028,14 @@ y fondos ubicacion en linea 1441 */
 /*BOTON VOLVER EN EL HEADER*/
 #back-header{
 	background-image: url(ic_arrow_back.svg);
+<<<<<<< HEAD
 }
 
 #back-header2{
 	background-image: url(ic_arrow_back_m.svg);
+=======
+
+>>>>>>> origin/master
 }
 
 
@@ -3014,6 +3048,12 @@ y fondos ubicacion en linea 1441 */
 	outline:none;
 }
 
+<<<<<<< HEAD
+=======
+.boton-volver-header{
+
+}
+>>>>>>> origin/master
 
 .back-p{
 	cursor:pointer;
