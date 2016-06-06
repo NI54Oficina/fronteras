@@ -796,3 +796,18 @@ function ScrollHome(){
 		}
 	}
 }
+
+function dotSlider(){
+
+	$(".nav-dots .nav-dot").on("click",function(){
+
+		var index = $(this).index() + 1;
+
+		$(".slider-ganado").fadeOut(300);
+
+		// $("#slide_" + index).fadeIn(300);
+		// $(".slider-ganado").removeClass(".slider-ganado");
+		// $("#slide_" + index).addClass("active");
+
+	});
+}

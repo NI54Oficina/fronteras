@@ -2994,19 +2994,27 @@ y fondos ubicacion en linea 1441 */
 }
 
 .nav-dots .nav-dot {
-	top: -5px;
-	width: 11px;
-	height: 11px;
-	margin: 0 4px;
+
+	width: 8px;
+	height: 8px;
+	margin: 0 2px;
 	position: relative;
 	border-radius: 100%;
 	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 106, 160, 0.6);
 }
 
 .nav-dots .nav-dot:hover {
 	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 106, 160, 1);
+}
+
+input#vaca-tipo-1:checked ~ .nav-dots label#vaca-dot-1,
+input#vaca-tipo-2:checked ~ .nav-dots label#vaca-dot-2,
+input#vaca-tipo-3:checked ~ .nav-dots label#vaca-dot-3,
+input#vaca-tipo-4:checked ~ .nav-dots label#vaca-dot-4,
+input#vaca-tipo-5:checked ~ .nav-dots label#vaca-dot-5{
+  background-color: (0,0,0,.8);
 }
 
 
