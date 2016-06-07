@@ -588,7 +588,6 @@ header .home-box:hover > .hoy-box {
 
 .box-mercado > .box-mercado-title > div{
 	background-color:#28A382;
-	min-height: 205px;
 	height:100%;
 	border:none;
 }
@@ -1272,7 +1271,6 @@ header .home-box:hover > .hoy-box {
 
 #noticia-box >div > #noticia-box-inner{
 	background:#2ED7AA;
-	min-height: 205px;
 	text-align:center;
 }
 
