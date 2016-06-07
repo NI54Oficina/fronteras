@@ -4,7 +4,7 @@
 	#bg-square{
 		display:none;
 	}
-	
+
 	#bg-square-2{
 		background-image: url(../img/cuadrado-botonera.png);
 		min-height: 5px;
@@ -17,7 +17,7 @@
 	.section { /*Disminucion de padding en mobile*/
 		padding:50px 2px;
 	}
-	
+
 	.col-xs-5{
 		width: 20%;
 	}
@@ -32,7 +32,7 @@
 	#home{
 		padding: 15px 15px;
 	}
-	
+
 	.home-upper-box {
 		padding: 7px 27px 20px 27px;
 	}
@@ -40,7 +40,7 @@
 	.home-upper-box > div {
 		padding: 10px;
 	}
-	
+
 	.home-upper-box img:nth-child(1) {
 	    float: none;
 	    width: 6em;
@@ -52,94 +52,94 @@
 	.box-producir p {
 		font-size: .8em;
 	}
-	
+
 	.box-noticias #noticia-box {
 		height: auto !important;
 	}
-	
+
 	.box-mercado-title {
 		height: auto !important;
 	}
-	
+
 	.box-mercado > div:first-child > div h1 {
 		padding: 10px 0;
 	}
-	
+
 	.home-box > div > div > img{
 		width:45%;
 	}
-	
+
 	.box-producir-2  p{
 		font-size: 1em;
 	}
 
 	/*TERMINA HOME*/
-	
+
 	.navbar-toggle {
 		margin-right:0px;
 		margin-top: 0;
 		color: #5F5F5F;
 	}
-	
+
 	.ul-nav{
 		width: 100vw;
 		text-align: center;
-		
+
 	}
-	
+
 	.ul-nav li {
 		padding-left: 0;
 		height: 140px;
 		/*width:40vw;*/
-		
+
 		/*margin-left: 15px;*/
 		margin-bottom: 15px;
 		padding:0;
 	}
-	
+
 	.ul-nav li:nth-child(2){
 		text-align: center;
 		padding-right:0px;
 	}
-	
+
 	.ul-nav li a {
 		color:white;
 		z-index:33333333333;
 	}
-	
+
 	.ul-nav .li-header li:first-child{
 		background:red;
 	}
-	
+
 	.cont-menu-mob{
 	    padding:15px 15px;
 	    text-align: center;
 	}
-	
+
 	/* Caja menú hoy */
 	#hoy-header-m{
 		background:#40CEDB;
-	} 
-	
+	}
+
 	/* Caja menú mes */
 	#mes-header-m{
 		background:#0093D4;
-	} 
-	
+	}
+
 	/* Caja menú producir */
 	#producir-header-m{
 		background:#7067B0;
-	} 
-	
+	}
+
 	/* Caja menú ayuda*/
 	#ayuda-header-m{
 		background:#79BEFE;
-	} 
-	
+	}
+
 	#inner-header  .home-upper-box{
 		padding:10px 30px;
-	} 
-	
+	}
+
 	.p-header-mobile{
 		color: white;
 		font-size: 1.12em;
@@ -159,9 +159,9 @@
 	header .home-upper-box {
 		display:block;
 	}
-	
+
 	.cont-section-mobile{
-		height: 110px!important; 
+		height: 110px!important;
 		width: 40vw!important;
 		display:block;
 	}
@@ -196,10 +196,10 @@
 
 	/*	LOADING PAGE*/
 
-	.loading-gif {	
+	.loading-gif {
 		margin: 50% auto;
 	}
-	
+
 	.navbar-toggle {
 		margin-top: 0px;
 		height: 0px;
@@ -215,23 +215,23 @@
 	}
 
 	/* CUBICACION BAÑADEROS */
-	
-	
+
+
 	.enfermedades-inside-title, .enfermedades-inside-container, .retiro-container{
 		padding:0 15px;
 	}
-	
+
 	.container-widget{
 		padding: 0px 15px;
 	}
-	
+
 
 
    /*REMATES TEST*/
 
 	.title-remates h2{
     	font-size: 1.2rem;
-    
+
 	}
 
 	.container-fechas-remates {
@@ -241,14 +241,14 @@
 	.remates-box{
 	padding: 1px 1px;
 	}
-	
+
 	.remates-box-2{
 		padding:2px 2px;
 	}
 	.columna-ganado p{
 		font-size: 1.1rem;
 	}
-	
+
 	.columna-granos p {
 		font-size: 1.1rem;
 	}
@@ -261,7 +261,7 @@
 		padding: 15px;
 		margin-bottom:10px;
 	}
-	
+
 	.max-box-planes {
 		padding:15px 15px;
 	}
@@ -274,74 +274,74 @@
 	.planes-box p {
 		padding-top: 50px;
 	}
-	
-	
+
+
 	.container-inside-noticia img{
 		width: 100%;
 		height: auto;
 	}
-	
-	
+
+
 	.line-not {
 		margin-top: 3%;
 		width: 43vw;
 	}
-	
+
 	.planes-box p {
 		color: white;
 		font-size: 20px;
 	}
-	
+
 	.box-mercado-clima-noticias .small-boxes-mercado p{
 	    font-size: 2.1rem;
 	}
-	
+
 	.clima-pronostico >.small-boxes-mercado p:nth-child(2) {
 		font-size: 1.1em;
 		width: 114%;
 	}
-	
+
 	.glyphicon-triangle-right{
 		font-size: 1.3rem;
 	}
-	
+
 	.glyphicon-triangle-left{
 		font-size: 1.3rem;
 	}
-	
+
 	.box-mercado > div > div {
 		height: auto;
 	}
-	
+
 	.container-inside-noticia .titulo {
 		display: inline-block;
 	}
-	
-	
+
+
 	.container-items-mercados{
 		height:auto !important;
 	}
-	
+
 
 	.container-boton-ganado{
 		height: auto !important;
 		padding-top: 0 !important;
-		
+
 		z-index: 2;
-		
+
 	}
-		
+
 	.img-ganado{
 		width: 100%;
 		margin-bottom: 20px;
-	}	
+	}
 /* NO BORRRAR
 	.container-boton-ganado{
 		height: auto !important;
 		padding-top: 0 !important;
-		
+
 		z-index: 2;
-		
+
 	}
 
 	#prev{
@@ -361,38 +361,42 @@
 */
 
 	.general-container-producir > .selector-side {
-		padding-right: 0px; 
+		padding-right: 0px;
 	}
 
 	.enfermedades-inside-container{
-		padding: 0; 
+		padding: 0;
 	}
-	
+
 	.color-title-prod {
 		background: #ED7C28;
 		margin-left: -1%;
 	}
-	
+
 	.number-protocolo {
 		padding-top: 9%;
 		text-align: center;
 	}
-	
+
 	.square-separador{
 		display: none;
 	}
-	
+
 	.boton-header {
 		width: 22px;
 		margin-top: 6%;
 		padding: 0;
 	}
-	
-	
+
+
 	.general-container-producir{
 		padding:15px;
 	}
 
-	
+
+/*RED VETERINARIA*/
+	.red-form{
+		margin-top: 0;
+	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
