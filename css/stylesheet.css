@@ -1238,7 +1238,7 @@ header .home-box:hover > .hoy-box {
 	padding-bottom: 20px;
 }
 
-.box-noticias > a>div{
+.box-noticias > a>div, #noticia-box {
 	padding:5px;
 	background-color:transparent;
 	color:white;
@@ -3045,7 +3045,7 @@ y fondos ubicacion en linea 1441 */
 
 
 .boton-volver-header{
-    padding-left: 50px;
+
 }
 
 .back-p{
