@@ -629,6 +629,8 @@ function changeContent(){
 
 }
 
+
+
 // VERSION GENERALIZADA DE AJUSTE DEL BACKGROUND
 
 function fitBackgroundtest(){
