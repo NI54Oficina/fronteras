@@ -10,15 +10,25 @@ $retiros= Retiro::model()->findAll();
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
-			<p class="center-to-parent color-sanidad planes-h1">Días de retiro de productos veterinarios </p>
+
+
+			<p class="center-to-parent color-sanidad planes-h1">
+
+        Días de retiro de productos veterinarios </p>
+
 		</div>
 	</div>
 </div>
 
 
+<!-- <button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
+<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"  ></span></button> -->
+
+
+
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 	<!-- Caja general -->
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+	<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
 
 
 
@@ -26,7 +36,7 @@ $retiros= Retiro::model()->findAll();
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
-			<p class="hidden-lg hidden-sm hidden-md fecha-remates-mobile color-retiro-productos">
+			<p class="hidden-lg fecha-remates-mobile color-retiro-productos">
 			<button class="boton-prueba-atras"> < </button>
 			Argentina
 			<button class="boton-prueba"> > </button></p>
@@ -34,11 +44,11 @@ $retiros= Retiro::model()->findAll();
 
 
 			<!-- Titulo -->
-			<div class="title-remates color-retiro-productos hidden-xs"> <h2></h2></div>
+			<div class="title-remates color-retiro-productos hidden-xs hidden-sm hidden-md"> <h2></h2></div>
 
 			<!-- Caja país particular -->
 
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-retiro-productos hidden-xs">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-retiro-productos hidden-xs  hidden-sm hidden-md">
 
 				<div class=" center-to-parent ">
 					<p>Argentina</p>
@@ -56,7 +66,7 @@ $retiros= Retiro::model()->findAll();
 
 
 		<!-- Caja general: img producto, prodcutos senasa, nombre comercial, retiro en carne,  retiro en leche -->
-		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 fade-in-mobile">
+		<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
 
 			<!-- Img producto-->
 
