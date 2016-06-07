@@ -90,7 +90,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 	<!-- BOTON VOLVER -->
 	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="height:100%;">
-		<button class="boton-header center-to-parent-t"  id="back-header" style="display:inline-block;overflow:hidden;" type="button"></button><p class="back-p center-to-parent-m" style="display:inline-block;" >Volver</p>
+		<button class="boton-header center-to-parent-t"  id="back-header" style="" type="button"></button><p class="back-p center-to-parent-m" style="" >Volver</p>
 	</div>
 
 	<!-- TERMINA BOTON VOLVER -->

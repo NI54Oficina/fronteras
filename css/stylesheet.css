@@ -3028,6 +3028,8 @@ y fondos ubicacion en linea 1441 */
 /*BOTON VOLVER EN EL HEADER*/
 #back-header{
 	background-image: url(ic_arrow_back.svg);
+  display:inline-block;
+  overflow:hidden;
 }
 
 #back-header2{
@@ -3052,6 +3054,7 @@ y fondos ubicacion en linea 1441 */
 .back-p{
 	cursor:pointer;
 	margin:  auto 5px;
+  display:inline-block;
 }
 
 /*************************** PROTOCOLOS ********************************/

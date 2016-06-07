@@ -1,35 +1,35 @@
 /* IPAD  Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (orientation: landscape)  {
 	.line-not {
 		margin-top: 1%;
 		width: 48vw;
-	}	
+	}
 	.columna-granos p {
 		font-size: 1.3rem;
 		padding-left: 0px;
 	}
-	
+
 	.box-noticias > a>div {
 		padding-bottom: 3%;
 	}
-	
+
 	.columna-indicadores p {
 		font-size: 1.3rem;
 		padding-left: 5px;
 	}
-	
+
 	.p-header-mobile {
 		width: 8vw;
 	}
-	
+
 	.box-mercado .table-mercado-items .moneda-mercados {
 		font-size: 1rem;
 		padding-left: 0px;
 	}
-	
+
 	.columna-ganado p {
 		font-size: 1.3rem;
 		padding-left: 5px;
@@ -39,17 +39,17 @@
 		padding-top: 40px;
 		width: 130px;
 	}
-	
+
 	.enfermedades-box p {
 		font-size: 1.3rem;
-	}	
-	
+	}
+
 	.title-remates h2 {
 		font-size: 1.3rem;
 	}
 
 
-	.box-noticias .container-texto-noticias > p, 
+	.box-noticias .container-texto-noticias > p,
 	.box-noticias .container-texto-noticias-3 > p,
 	.box-noticias .container-texto-noticias-2 > p {
  		line-height: 100%;
@@ -67,17 +67,17 @@
 
 /*MEDIA QUERY PARA IPAD PORTRAIT*/
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
 
 	.line-not {
 		margin-top: 2%;
 		width: 32vw;
 	}
-	
-	
+
+
 	.home-box > div > div >img {
 		width:45%;
 	}
@@ -89,20 +89,20 @@ and (orientation : portrait) {
 	.header-palabras-menu {
 		margin-top: -47px;
 	}
-	
+
 	.p-header-mobile {
 		width: 10vw;
 	}
-	
+
 	.title-remates h2 {
 		font-size: 1.2rem;
 		padding-top: 6px;
 	}
-	
+
 	.box-producir-2 p {
 		font-size: 1em;
 	}
-	
+
 	.planes-box p {
 		color: white;
 		font-size: 22px;
@@ -112,19 +112,19 @@ and (orientation : portrait) {
 		padding-top: 50px;
 		width: 130px;
 	}
-	
+
 	.container-fecha-remates p:first-child {
 		font-size: 1.3rem;
 	}
-	
+
 	.container-fecha-remates p:nth-child(2) {
 		font-size: 3rem;
 	}
-	
+
 	.container-fecha-remates p:nth-child(3) {
 		font-size: 1.5rem;
 	}
-	
+
 	.columna-ganado p {
 		font-size: 1.4rem;
 		padding-left: 5px;
@@ -133,6 +133,12 @@ and (orientation : portrait) {
 	.box-mercado .table-mercado-items .moneda-mercados {
 		font-size: 1rem;
 	}
+
+  .back-p{
+    top:3px !important;
+    float: right;
+    left:-35px;
+  }
 /*IPAD portrait*/
 }
 
@@ -142,14 +148,14 @@ and (orientation : portrait) {
 
 
 /*IPAD LANDSCAPE & PORTRAIT*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
 
 	#contenedor, #noticias, .section{
 		padding: 150px 45px;
 	}
-	
+
 	#ul-nav-principal {
 		padding-left:30px;
 	}
@@ -182,7 +188,7 @@ and (max-device-width : 1024px)  {
 
 
 	/*******MERCADOS******/
-	
+
 	.box-mercado > div > div {
 		height: auto;
 	}
@@ -204,7 +210,7 @@ and (max-device-width : 1024px)  {
 	.box-clima .fecha-descripcion{
 		margin-bottom: 10px;
 	}
-	
+
 	/***********HOY********/
 
 
@@ -241,8 +247,8 @@ and (max-device-width : 1024px)  {
 /*media query resoluciones 360x240 portrait*/
 @media only screen and (max-width: 370px) and (orientation: portrait)
 {
-	
-	
+
+
 }
 
 /*FIN MEDIA QUERY 360x240px portrait*/
@@ -250,9 +256,9 @@ and (max-device-width : 1024px)  {
 
 
 /** SMALL PHONE 240x320 PORTRAIT**/
-@media only screen 
-and (min-device-width : 240px) 
-and (max-device-width : 320px) 
+@media only screen
+and (min-device-width : 240px)
+and (max-device-width : 320px)
 and (orientation : portrait){
 
 	.home-box > div > div:nth-child(1) {
@@ -266,36 +272,36 @@ and (orientation : portrait){
 		color: #2ED7AA;
 		font-size: 30px;
 	}
-	
+
 	.container-inside-noticia, .noticia-columna {
 		padding: 0px 20px;
 	}
-	
+
 	.ul-nav li a {
 		padding-top: 60px;
 		color: white;
 	}
-	
+
 	.ul-nav li {
 		padding-left: 0;
 		height: 100px;
 		margin-top: -6px;
 	}
-	
+
 	.cont-section-mobile {
 		height: 75px!important;
 		width: 40vw!important;
 		display: block;
 	}
-	
+
 	.titulo-mobile > p {
 		font-size: 1.2rem;
 	}
-	
-	.header-palabras-menu {	
+
+	.header-palabras-menu {
 		margin-top: 0;
 	}
-	
+
 	.box-mercado {
 		padding: 0 5px;
 		border: none;
@@ -306,7 +312,7 @@ and (orientation : portrait){
 		padding: 2px 7px;
 		display: block;
 	}
-	
+
 	.home-upper-box img:nth-child(1) {
 		float: none;
 		width: 4.5em;
@@ -319,31 +325,31 @@ and (orientation : portrait){
 		font-size: 1rem;
 		padding-left: 5px;
 	}
-	
+
 	.table-mercado-items div p {
 		padding-left: 5px;
 		font-size: .7em;
 	}
-	
+
 	.columna-indicadores p {
 		font-size: 1rem;
 		padding-left: 4px;
 	}
-	
+
 	.box-mercado .table-mercado-items .moneda-mercados {
 		font-size: .7rem;
 		padding-left: 5px;
 	}
-	
+
 	.columna-granos p {
 		font-size: 1rem;
 		padding-left: 5px;
 	}
-	
+
 	.long-word{
 		font-size:.65em;
 	}
-	
+
 	#lluvias-temperaturas-h1 {
 		text-align: center;
 		color: #FFFFFF;
@@ -352,37 +358,37 @@ and (orientation : portrait){
 		padding-top: 70px;
 		width: 140px;
 	}
-	
+
 	.planes-box p {
 		padding-top: 16px;
 		font-size: 1.2rem;
 	}
-	
+
 	.planes-box p {
 		width: 62px;
 	}
-	
+
 	.fecha-remates-mobile {
 		font-size: 1em;
 	}
-	
+
 	.container-inside-noticia img {
 		width: 100%;
 		height: auto;
 	}
-	
+
 	/*
 	.ul-nav li {
-		margin-left: 9px; 
+		margin-left: 9px;
 	}*/
-	
+
 }
 
 /** FIN**/
 
-@media only screen 
-and (min-device-width : 240px) 
-and (max-device-width : 320px) 
+@media only screen
+and (min-device-width : 240px)
+and (max-device-width : 320px)
 and (orientation : landscape){
 
 	header #inner-header .home-upper-box {
@@ -392,26 +398,26 @@ and (orientation : landscape){
 	header .home-upper-box > div {
 		padding: 0px;
 	}
-	
+
 	header .home-upper-box img:nth-child(1) {
 		float: none;
 		width: 4em;
 	}
-	
+
 	header .cont-menu-mob {
 		padding: 2px 11px;
 	}
-	
+
 	header .home-box > div > div > img {
 		width: 23%;
 	}
-	
+
 	header .cont-section-mobile {
 		height: 40px!important;
 		width: 40vw!important;
 		display: block;
 	}
-	
+
 	.ul-nav li {
 		padding-left: 0;
 		height: 61px;
@@ -419,11 +425,11 @@ and (orientation : landscape){
 		margin-left: 15px;
 		margin-bottom: 15px;
 	}
-	
+
 	header .p-header-mobile {
 		font-size: .9em;
 	}
-	
+
 	header .home-box > div > div:nth-child(1) {
 		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
 		padding: 2% 0%;
@@ -432,16 +438,16 @@ and (orientation : landscape){
 
 
 /** NOKIA LUMIA 320x533 PORTRAIT**/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 533px) 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 533px)
 and (orientation : portrait){
 
 	/*Cajas clima*/
 	.box-clima-sp{
 		margin-top: 50px;
 	}
-	
+
 	/* Imágenes interior noticias */
 	.container-inside-noticia img {
 		width: 80vw;
@@ -455,9 +461,9 @@ and (orientation : portrait){
 
 
 /** IPHONE 5 320x568 PORTRAIT**/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
 and (orientation : portrait){
 
 	/* Mercados */
@@ -465,7 +471,7 @@ and (orientation : portrait){
 		text-align: left;
 		font-size: 2.1rem;
 	}
-	
+
 	.columna-indicadores p {
 		font-size: 1.1rem;
 		padding-left: 7px;
@@ -477,9 +483,9 @@ and (orientation : portrait){
 
 
 /** IPHONE 6 375x667 PORTRAIT**/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
 and (orientation : portrait){
 
 	/* Noticias interior img*/
@@ -487,33 +493,33 @@ and (orientation : portrait){
 		width: 80vw;
 		height: 25vh;
 	}
-	
+
 }
 
 /** IPHONE 6 375x667 LANDSCAPE**/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
 and (orientation : landscape){
-	
+
 	header .home-box > div > div > img{
 		width: 24%;
 	}
-	
+
 	header .home-box > div > div:nth-child(1){
 		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
 		padding: 2% 0%;
 	}
-	
+
 	header .cont-menu-mob {
 		padding: 15px 40px;
 	}
-	
+
 	header .home-upper-box img:nth-child(1) {
 		float: none;
 		width: 5em;
 	}
-	
+
 	header .cont-section-mobile {
 		height: 80px!important;
 		width: 40vw!important;
@@ -526,8 +532,8 @@ and (orientation : landscape){
 		width: 40vw;
 		margin-left: 15px;
 		margin-bottom: 15px;
-	}	
-	
+	}
+
 	header #inner-header .home-upper-box {
 		padding: 0px 30px;
 	}
@@ -535,38 +541,38 @@ and (orientation : landscape){
 	header .home-upper-box > div {
 		padding: 5px;
 	}
-	
+
 }
 
 
 /** IPHONE 6  PLUS 414x736 PORTRAIT**/
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
 and (orientation : portrait){
-	
+
 	header .home-box > div > div:nth-child(1) {
 		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
 		padding: 2% 0%;
 	}
-	
+
 }
 
 /** IPHONE 6  PLUS 414x736 LANDSCAPE**/
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
 and (orientation : landscape){
-	
+
 	header .home-box > div > div:nth-child(1) {
 		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
 		padding: 0% 0%;
 	}
-	
+
 	header .home-box > div > div > img {
 		width: 25%;
-	}	
-	
+	}
+
 	.ul-nav li {
 		padding-left: 0;
 		height: 125px;
@@ -574,52 +580,52 @@ and (orientation : landscape){
 		margin-left: 15px;
 		margin-bottom: 15px;
 	}
-	
+
 	header .cont-section-mobile {
 		height: 92px!important;
 		width: 40vw!important;
 		display: block;
-	}	
-	
+	}
+
 	header .home-upper-box img:nth-child(1) {
 		float: none;
 		width: 5.5em;
 	}
-	
+
 	header .home-upper-box > div {
 		padding: 5px;
 	}
-	
+
 	header #inner-header .home-upper-box {
 		padding: 0px 30px;
 	}
-	
+
 	header .cont-menu-mob {
 		padding: 11px 50px;
 	}
-	
+
 }
 
 
-@media only screen 
-and (min-device-width: 360px) 
-and (max-device-width: 640px) 
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 640px)
 and (orientation: landscape)  {
-  
+
 	header .home-box > div > div{
 		padding: 0% 0%!important;
 	}
-	
+
 	header .home-box > div > div > img {
 		width: 20%;
 	}
-	
+
 	.cont-section-mobile {
 		height: 65px!important;
 		width: 40vw!important;
 		display: block;
 	}
-	
+
 	.ul-nav li {
 		padding-left: 0;
 		height: 95px;
@@ -627,15 +633,15 @@ and (orientation: landscape)  {
 		margin-left: 15px;
 		margin-bottom: 15px;
 	}
-	
+
 	.home-upper-box > div {
 		padding: 3px;
 	}
-	
+
 	.cont-menu-mob {
 		padding: 15px 40px;
 	}
-	
+
 	#inner-header .home-upper-box {
 		padding: 0px 30px;
 	}
