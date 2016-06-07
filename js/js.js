@@ -794,11 +794,11 @@ $('.preview-ganado').click(function() {
 $('.nav-dot').click(function() {
 
 	console.log("entro dot Slider");
-	var which = $(this).index();
+	var dotIndex = $(this).index();
 	$(".general-container-producir").hide();
-	$('.general-container-producir').eq(which).fadeIn("slow");
+	$('.general-container-producir').eq(dotIndex).fadeIn("slow");
 
-	currentIndex = which;
+	currentIndex = dotIndex;
 	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
 	$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
 });

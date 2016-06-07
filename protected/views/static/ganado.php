@@ -17,17 +17,18 @@
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
-<!-- <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 hidden-lg hidden-md dot-nav-slider">
+
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
-			<label for="vaca-tipo-1" class="nav-dot" id="vaca-dot-1"></label>
-			<label for="vaca-tipo-2" class="nav-dot" id="vaca-dot-2"></label>
-			<label for="vaca-tipo-3" class="nav-dot" id="vaca-dot-3"></label>
-			<label for="vaca-tipo-4" class="nav-dot" id="vaca-dot-4"></label>
-			<label for="vaca-tipo-5" class="nav-dot" id="vaca-dot-5"></label>
+			<label for="vaca-tipo-1" class="nav-dot" ></label>
+			<label for="vaca-tipo-2" class="nav-dot"></label>
+			<label for="vaca-tipo-3" class="nav-dot" ></label>
+			<label for="vaca-tipo-4" class="nav-dot" ></label>
+			<label for="vaca-tipo-5" class="nav-dot" ></label>
 		</li>
 </ul>
-</div> -->
+</div>
 
 
 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm container-boton-ganado center-to-parent"  hid="1">
@@ -161,14 +162,14 @@
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
-<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 hidden-xs hidden-sm dot-nav-slider">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
-			<label for="vaca-tipo-1" class="nav-dot" id="vaca-dot-1"></label>
-			<label for="vaca-tipo-2" class="nav-dot" id="vaca-dot-2"></label>
-			<label for="vaca-tipo-3" class="nav-dot" id="vaca-dot-3"></label>
-			<label for="vaca-tipo-4" class="nav-dot" id="vaca-dot-4"></label>
-			<label for="vaca-tipo-5" class="nav-dot" id="vaca-dot-5"></label>
+			<label for="vaca-tipo-1" class="nav-dot" ></label>
+			<label for="vaca-tipo-2" class="nav-dot"></label>
+			<label for="vaca-tipo-3" class="nav-dot" ></label>
+			<label for="vaca-tipo-4" class="nav-dot" ></label>
+			<label for="vaca-tipo-5" class="nav-dot" ></label>
 		</li>
 </ul>
 </div>
