@@ -1,6 +1,5 @@
 <?php
-<<<<<<< HEAD
-=======
+
 //se setea el nombre de clase correspondiente a la sección
 $secciones=[];
 $secciones["Granos"]="noticia-tipo-7";
@@ -18,8 +17,8 @@ $secciones["Empresas"]="noticia-tipo-4";
 ?>
 
 
-<?php 
->>>>>>> origin/master
+<?php
+
 
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "nid = ".$data;
