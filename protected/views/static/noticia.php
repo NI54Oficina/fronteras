@@ -26,11 +26,11 @@ $Criteria = new CDbCriteria();
 $categoria=$nota["categoria"];
 
 ?>
+
+
 <section  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section <?php if(isset($secciones[$nota["categoria"]])){ echo $secciones[$nota["categoria"]];} ?>">
 
 <div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-hoy titulo-mobile"> <p> Hoy </p> </div>
-
-<div class="hola-<?php if(isset($categoria[$nota["categoria"]])){ echo $categoria[$nota["categoria"]];} ?>  test"> </div>
 
 <div id="noticia-art" class="col-lg-9 col-md-9 col-sm-8 col-xs-12 container-inside-noticia">
 
