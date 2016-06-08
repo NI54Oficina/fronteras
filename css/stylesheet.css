@@ -359,9 +359,7 @@ header .home-box:hover > .hoy-box {
 .box-mercado-clima-noticias {
 	padding:0px 25px;
 }
-.box-mercado-clima-noticias> a {
-	padding:5px 5px;
-}
+
 
 .box-mercado-clima-noticias >a> .maxboxes{
 	padding:5px;
@@ -369,6 +367,8 @@ header .home-box:hover > .hoy-box {
 	color:white;
 	font-family:'arialregular';
 	text-align:center;
+  padding-bottom:30px;
+  margin-bottom: 10px;
 }
 
 

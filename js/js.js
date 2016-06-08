@@ -190,6 +190,7 @@ function LoadFunction(){
 		}
 	}
 
+
 	function Header(){
 		console.log("entra");
 		var auxH=$("#logo-bago-mobile").outerHeight()+10;
