@@ -2644,11 +2644,17 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .boton-prueba-atras{
 	float:left;
     margin-left: 2%;
+	position:absolute;
+	left:2%;
+	top:25%;
 }
 
 .boton-prueba{
 	float: right;
     margin-right: 2%;
+	position:absolute;
+	right:2%;
+	top:25%;
 }
 
 /****************** SANIDAD- ENFERMEDADES ***********************/
