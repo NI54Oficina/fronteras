@@ -109,11 +109,9 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 						</li>
 
-<<<<<<< HEAD
 						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
-=======
+						
 						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
->>>>>>> origin/master
 
 						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
@@ -130,11 +128,11 @@ $("body").on("mousedown",".navbar-toggle",function(){
 							</a>
 						</li>
 
-<<<<<<< HEAD
+
 						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
-=======
+
 						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
->>>>>>> origin/master
+
 
 						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
@@ -149,11 +147,11 @@ $("body").on("mousedown",".navbar-toggle",function(){
 							</a>
 						</li>
 
-<<<<<<< HEAD
+
 						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
-=======
+
 						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
->>>>>>> origin/master
+
 
 						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
