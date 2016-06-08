@@ -1,5 +1,8 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="estado-corporal">
 
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Manejo > Cubicación de bañaderos </p> </div>
+
+
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner ">
@@ -9,7 +12,7 @@
 </div>
 
 
-<div class="col-lg12 col-md-12 col-sm-12 col-xs-12 general-container-producir"> 
+<div class="col-lg12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">Limpieza y manejo de bañaderos</h1>
 
 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
@@ -22,7 +25,7 @@ Recordar que el bañadero no se puede mantener durante muchos días vacío ya qu
 </p>
 
 <p>Cepilladas las paredes y el piso realizar la misma actividad en las instalaciones externas próximas, pileta de cubicación, escurridero, escalera, postes aledaños, techo etc., no deben quedar restos de formulaciones anteriores. Todos los elementos que se vayan a sumergir en el bañadero (agitadores, horquillas, reglas, baldes etc.) deberán estar limpios y exentos de restos de formulaciones anteriores.
-Después de haber cepillado las instalaciones, utilizar la amoladora para sacar todo aquel material que no fue removido con el cepillo de alambre dentro del bañadero (piso y paredes) 
+Después de haber cepillado las instalaciones, utilizar la amoladora para sacar todo aquel material que no fue removido con el cepillo de alambre dentro del bañadero (piso y paredes)
 Utilizar la amoladora con disco de desbaste, si el bañadero poseía una formulación de Amitraz anteriormente ASEGURARSE QUE NO QUEDEN RESTOS DE LA MISMA.
 </p>
 
@@ -34,7 +37,7 @@ Utilizar la amoladora con disco de desbaste, si el bañadero poseía una formula
 
 <h2>LLENADO</h2>
 
-<p>Previamente al llenado del bañadero  medir el pH del agua que vamos a colocar. El agua deberá poseer un pH que este entre 5,5 y 8 valores superiores o inferiores llevaran a la degradación de los principios activos. 
+<p>Previamente al llenado del bañadero  medir el pH del agua que vamos a colocar. El agua deberá poseer un pH que este entre 5,5 y 8 valores superiores o inferiores llevaran a la degradación de los principios activos.
 Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH, si esta entre los parámetros pedidos, se podrá formular el baño.
 </p>
 
@@ -82,68 +85,68 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-	 
+
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block-img" hid="2" >
-	
+
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" >
 				<img  class="block-img-1" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-01.png">
 			</div>
-	
+
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
 				<img  class="block-img-2" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-02.png">
 			</div>
-			
+
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<p hid="1">Bañadero  seco y limpio  e instalaciones anexas limpias</p>
 			</div>
-	
+
 		</div>
 
-	 
+
 	</div>
-	
-	
+
+
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
 		<div>
 			<img   class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-03.png">
 			<p hid="1">Tiras Reactivas de PH</p>
 		</div>
-	</div>	 
+	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
 		<div>
 			<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-04.png">
 			<p hid="1">Preparación de emulsión</p>
 		</div>
-	</div>	 	  
+	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
 		<div>
 			<img class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-05.png">
 			<p hid="1">Homogeneización del Baño</p>
 		</div>
-	</div>	 
+	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img " hid="2">
 		<div>
 			<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-06.png">
 			<p hid="1" >Homogeneización del Baño</p>
 		</div>
-	</div>	 
+	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
 		<div>
 			<img class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-07.png">
 			<p hid="1">Escurrido</p>
 		</div>
-	</div>	 
-	
+	</div>
+
 </div>
 
 
 
-<!-- 
+<!--
 +++++++++++++++++++++++++++ -->
 
 <h2>Dosifiación Aspersin inmersión</h2>
@@ -178,7 +181,7 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 <p>No sacrificar animales para consumo humano hasta haber transcurrido 17 días del último tratamiento.</p>
 
 
-<!-- 
+<!--
 +++++++++++++++++++++++++++ -->
 
 <h2>Dosificación GARRAMIX</h2>
@@ -208,7 +211,7 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 <p>Entre el último tratamiento y el ordeñe para consumo humano y/o industrialización de la leche deben transcurrir 48 horas.</p>
 
 
-<!-- 
+<!--
 +++++++++++++++++++++++++++ -->
 
 <h2>Dosificación CIPERSIN</h2>
