@@ -2668,6 +2668,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	outline:none;
 }
 
+.enfermedades-box{
+  padding: 5px;
+}
 .enfermedades-box p{
     font-size: 1.5rem;
     width: 98%;
