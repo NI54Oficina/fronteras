@@ -47,7 +47,7 @@ if(true){
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  mapa-img" >
-					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/esc-temp-max.gif' style="position:absolute;right:0;max-width:20%;"/>
+					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/esc-temp-max.gif' style="position:absolute;right:0;max-width:20%; left:100%"/>
 					<img src="<?php $foto= $f['field_map_max_temperature']["und"][0]["uri"];
 		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
 
@@ -72,7 +72,7 @@ if(true){
 
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-img" >
-					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-temp-min.gif' style="position:absolute;right:0;max-width:20%;"/>
+					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-temp-min.gif' style="position:absolute;right:0;max-width:20%; left:100%"/>
 					<img src="<?php $foto= $f['field_map_min_temperature']["und"][0]["uri"];
 					$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
 
@@ -97,7 +97,7 @@ if(true){
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-img">
-					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-lluvia.gif' style="position:absolute;right:0;max-width:20%;"/>
+					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-lluvia.gif' style="position:absolute;right:0;max-width:20%;left:100%"/>
 					<img src="<?php $foto= $f['field_rain_map']["und"][0]["uri"]; $foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
 
 				</div>

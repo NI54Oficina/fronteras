@@ -134,11 +134,11 @@ and (orientation : portrait) {
 		font-size: 1rem;
 	}
 
-  .back-p{
+  /*.back-p{
     top:3px !important;
     float: right;
     left:-35px;
-  }
+  }*/
 /*IPAD portrait*/
 }
 
