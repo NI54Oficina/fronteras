@@ -159,6 +159,12 @@ and (max-device-width : 1024px)  {
 	#ul-nav-principal {
 		padding-left:30px;
 	}
+
+
+  .boton-volver-header{
+    padding-left: 20px;
+  }
+
 }
 
 
