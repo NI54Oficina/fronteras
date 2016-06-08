@@ -41,7 +41,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 		<!--Logo fronteras -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ar/home">
-			<img class="logo-fronteras" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras-horizontal.png" />
+			<img class="logo-fronteras" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-fronteras-horizontal.png" />
 
 		</a>
 
@@ -49,7 +49,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 		<!-- Logo bagó -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-			<img class="logo-bago-header"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-BB-horizontal.png" />
+			<img class="logo-bago-header"  src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-BB-horizontal.png" />
 		</div>
 
 	</div>
@@ -82,8 +82,8 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 			<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
 				<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-fronteras.png" alt="Logo Fronteras">
-					<img class="hidden-xs" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-bago.png" alt="Logo Bago " />
+					<img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-fronteras.png" alt="Logo Fronteras">
+					<img class="hidden-xs" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-bago.png" alt="Logo Bago " />
 				</div>
 			</div>
 
@@ -108,7 +108,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 									<div class="hoy-box square" onlymobile="true">
 										<div  class="cont-section-mobile">
-											<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
+											<img  src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
 										</div>
 										<p class="p-header-mobile">Hoy</p>
 									</div>
@@ -117,7 +117,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 						</li>
 
-						<div class="square-separador"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-5">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
@@ -125,7 +125,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-5 col-xl-4">
 									<div class="estemes-box square " onlymobile="true">
 										<div  class="cont-section-mobile">
-											<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
+											<img  src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
 										</div>
 										<p class="p-header-mobile">Este mes</p>
 									</div>
@@ -134,14 +134,14 @@ $("body").on("mousedown",".navbar-toggle",function(){
 							</a>
 						</li>
 
-						<div class="square-separador"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">
 									<div class="producir-box square" onlymobile="true">
 										<div  class="cont-section-mobile">
-											<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
+											<!-- <img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-producir.png" alt="Chat" /> -->
 										</div>
 										<p class="p-header-mobile">Producir +</p>
 									</div>
@@ -149,14 +149,14 @@ $("body").on("mousedown",".navbar-toggle",function(){
 							</a>
 						</li>
 
-						<div class="square-separador"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">
 									<div class="ayuda-box square" onlymobile="true">
 										<div class="cont-section-mobile" onlymobile="true">
-											<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
+											<img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
 										</div>
 										<p class="p-header-mobile">Ayuda</p>
 									</div>
