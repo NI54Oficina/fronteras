@@ -190,6 +190,7 @@ function LoadFunction(){
 		}
 	}
 
+
 	function Header(){
 		console.log("entra");
 		var auxH=$("#logo-bago-mobile").outerHeight()+10;
@@ -751,8 +752,10 @@ var currentIndex = 0,
   items = $('.general-container-producir'),
   itemAmt = items.length;
 
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-	$(".nav-dot").eq(currentIndex).css("background-color",  "rgba(0,0,0,.8)");
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 
 function cycleItems() {
 
@@ -765,15 +768,18 @@ function cycleItems() {
 $('.next-ganado').click(function() {
 
 	currentIndex += 1;
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-	$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 
   if (currentIndex > itemAmt - 1) {
 
     currentIndex = 0;
-		$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-		$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
-
+		$(".nav-dots").each(function(){
+			$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+			$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+		});
   }
   cycleItems();
 });
@@ -781,8 +787,10 @@ $('.next-ganado').click(function() {
 $('.preview-ganado').click(function() {
 
   currentIndex -= 1;
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-		$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 
   if (currentIndex < 0) {
 

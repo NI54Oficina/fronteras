@@ -359,9 +359,7 @@ header .home-box:hover > .hoy-box {
 .box-mercado-clima-noticias {
 	padding:0px 25px;
 }
-.box-mercado-clima-noticias> a {
-	padding:5px 5px;
-}
+
 
 .box-mercado-clima-noticias >a> .maxboxes{
 	padding:5px;
@@ -369,6 +367,8 @@ header .home-box:hover > .hoy-box {
 	color:white;
 	font-family:'arialregular';
 	text-align:center;
+  padding-bottom:30px;
+  margin-bottom: 10px;
 }
 
 
@@ -418,7 +418,7 @@ header .home-box:hover > .hoy-box {
 
 /* Mercados: cajas (compra,venta)*/
 .box-mercado-clima-noticias .small-boxes-mercado{
-	/*min-height:220px;*/
+	margin-top:20px;
 }
 
 /*Mercados: Titulo "mercados"*/
@@ -560,6 +560,7 @@ header .home-box:hover > .hoy-box {
     max-width: 200px;
     display: inline-block;
 	margin:0;
+  margin-top:20px;
 }
 
 .container-imagen-nota, .container-imagen-nota-col{
@@ -2667,6 +2668,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	outline:none;
 }
 
+.enfermedades-box{
+  padding: 5px;
+}
 .enfermedades-box p{
     font-size: 1.5rem;
     width: 98%;
@@ -3048,7 +3052,7 @@ y fondos ubicacion en linea 1441 */
 
 
 .boton-volver-header{
-
+  padding-left: 35px;
 }
 
 .back-p{

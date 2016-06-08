@@ -80,7 +80,7 @@ $retiros= Retiro::model()->findAll();
 				foreach($retiros as $retiro){ ?>
 				<div class="container-modalidad info-remates-mobile" hid="<?php echo $loopIndex; ?>">
 
-				<img class="center-to-parent" style="width:80%;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/dias-retiro-aciendelplus.svg">
+				<img class="center-to-parent"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/adaptador-min.png">
 				</div>
 				<?php $loopIndex++; } ?>
 			</div>

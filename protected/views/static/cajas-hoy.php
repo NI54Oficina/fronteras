@@ -131,12 +131,12 @@
 
 
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector " hid="5">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-noticias-sector " >
 
 
 				<!-- HARDCODEO DE MOMENTO - HAY QUE EDITARLO -->
 					<!-- Imágen-->
-					<img class="" style="margin-top:10%;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
+					<img class="" style="margin-top:20%;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
 
 					<br />
 		</div>

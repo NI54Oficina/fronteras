@@ -18,7 +18,7 @@
 </div>
 
 
-<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  dot-nav-slider">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 hidden-lg   dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
 			<label for="vaca-tipo-1" class="nav-dot" ></label>
@@ -162,7 +162,7 @@
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
-<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  dot-nav-slider">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  hidden-xs hidden-sm hidden-md  dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
 			<label for="vaca-tipo-1" class="nav-dot" ></label>

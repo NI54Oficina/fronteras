@@ -134,11 +134,11 @@ and (orientation : portrait) {
 		font-size: 1rem;
 	}
 
-  .back-p{
+  /*.back-p{
     top:3px !important;
     float: right;
     left:-35px;
-  }
+  }*/
 /*IPAD portrait*/
 }
 
@@ -159,6 +159,12 @@ and (max-device-width : 1024px)  {
 	#ul-nav-principal {
 		padding-left:30px;
 	}
+
+
+  .boton-volver-header{
+    padding-left: 20px;
+  }
+
 }
 
 
@@ -309,7 +315,7 @@ and (orientation : portrait){
 	}
 
 	.home-upper-box {
-		padding: 2px 7px;
+		padding: 15px 7px;
 		display: block;
 	}
 
@@ -360,12 +366,12 @@ and (orientation : portrait){
 	}
 
 	.planes-box p {
-		padding-top: 16px;
+		/*padding-top: 16px;*/
 		font-size: 1.2rem;
 	}
 
 	.planes-box p {
-		width: 62px;
+		/*width: 62px;*/
 	}
 
 	.fecha-remates-mobile {
