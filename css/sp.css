@@ -366,12 +366,12 @@ and (orientation : portrait){
 	}
 
 	.planes-box p {
-		padding-top: 16px;
+		/*padding-top: 16px;*/
 		font-size: 1.2rem;
 	}
 
 	.planes-box p {
-		width: 62px;
+		/*width: 62px;*/
 	}
 
 	.fecha-remates-mobile {
