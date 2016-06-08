@@ -94,10 +94,7 @@ and (orientation : portrait) {
 		width: 10vw;
 	}
 
-	.title-remates h2 {
-		font-size: 1.2rem;
-		padding-top: 6px;
-	}
+
 
 	.box-producir-2 p {
 		font-size: 1em;
@@ -165,6 +162,10 @@ and (max-device-width : 1024px)  {
     padding-left: 20px;
   }
 
+  .remates-box {
+      padding: 1px 1px;
+
+      }
 }
 
 
