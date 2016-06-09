@@ -384,6 +384,15 @@ and (orientation : portrait){
 		height: auto;
 	}
 
+
+
+  .box-mercado-clima-noticias, .box-clima, .box-noticias {
+    padding: 0px 10px;
+  }
+
+  .maxboxes-inner-estemes h2 {
+  padding-top: 20%
+  }
 	/*
 	.ul-nav li {
 		margin-left: 9px;
