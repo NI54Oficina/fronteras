@@ -128,7 +128,11 @@ and (orientation : portrait) {
 	}
 
 	.box-mercado .table-mercado-items .moneda-mercados {
-		font-size: 1rem;
+    text-align: left;
+padding-left: 10px;
+color: #8c8c8c;
+font-size: 1.2rem;
+
 	}
 
   /*.back-p{
