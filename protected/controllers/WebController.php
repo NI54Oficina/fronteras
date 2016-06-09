@@ -149,7 +149,7 @@ class WebController extends Controller
 		$data=1;
 		
 		if($_POST["url"]=="header"){
-			$this->renderPartial("//static/stylesheet-code",$model);
+			$this->renderPartial("//static/stylesheet-code2",$model);
 			$this->renderPartial("//static/header",$model);
 		}else{
 		
