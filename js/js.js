@@ -17,6 +17,7 @@ function LoadFunction(){
 		CheckDevice();
 		Header();
 		SameHeight();
+		AdaptSquare();
 		FillParent();
 		ResizeViewportElements();
 		CenterToParent();
