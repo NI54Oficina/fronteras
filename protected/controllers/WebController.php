@@ -144,6 +144,7 @@ class WebController extends Controller
 	
 	public function actionTestajax(){
 		//header("Access-Control-Allow-Origin: *");
+		
 		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
 		$model=null;
 		$data=1;
@@ -152,11 +153,19 @@ class WebController extends Controller
 			$this->renderPartial("//static/stylesheet-code2",$model);
 			$this->renderPartial("//static/header",$model);
 		}else{
-		
-		/*if($_POST["url"]!="home"){
-			$this->renderPartial("//static/header",$model);
-		}*/
-		$this->renderPartial("//static/".$_POST["url"],$model);
+			/*if($_POST["url"]!="home"){
+				$this->renderPartial("//static/header",$model);
+			}*/
+			$segments= explode('/',$_POST["url"]);
+			if(count($segments)>2){
+				//echo "<div style='width:100%;height:40px;background-color:red;'>sdasdas</div>";
+				$this->renderPartial("//static/".$segments[1],$segments[2]);
+			}else{
+				//$this->renderPartial("//static/".$segments[1],$segments[2]);
+			//}else{
+				$this->renderPartial("//static/".$_POST["url"],$model);
+			//}		
+			}			
 		}
 	}
 	
