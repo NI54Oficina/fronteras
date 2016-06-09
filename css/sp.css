@@ -135,6 +135,16 @@ font-size: 1.2rem;
 
 	}
 
+  #ul-nav-principal{
+    font-size: 1.2em;
+  }
+  .p-header-mobile {
+    width: 10.1vw;
+}
+  .cont-menu-mob {
+    padding-right:0;
+
+  }
   /*.back-p{
     top:3px !important;
     float: right;
