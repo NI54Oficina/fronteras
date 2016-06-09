@@ -78,7 +78,7 @@
 		foreach($f as $f2){
 	 ?>
 	 <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-	<div class="maxboxes col-lg-4 col-md-4 col-sm-6 col-xs-12" hid="1">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="1">
 		<div class="maxbox-clima maxboxes-inner  col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="6">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hoy-box-upper" hid="5">
