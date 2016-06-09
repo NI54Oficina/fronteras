@@ -704,28 +704,62 @@ function fitBackground(){
 
     var wdHeight = $(window).height();
 	var wdWidth = $(window).width();
+	var docHeight = $(document).height();
+	var docWidth = $(document).width();
 
-	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
+	console.log("WdWin:"+wdWidth+"  heiWin:"+wdHeight ) ;
+	console.log("WdDoc:"+docWidth+"  heiDoc:"+docHeight ) ;
 
 if( (wdWidth-wdHeight) > 0 ){
      // if que determina si la pantalla es mas ancha que alta
     console.log("pantalla mas ancha que alta");
 
-    if( (wdWidth- wdHeight) > (bgWidth-bgHeight) ){
-
-    	$("#home").css("background-size","100% auto");
-
-     }else{
+  if( (wdWidth- wdHeight) > (bgWidth-bgHeight)){
 
 
-         $("#home").css("background-size"," auto  100%");
+					if(docHeight > wdHeight){
 
-     };
+								$("#home").css("background-size"," auto 100%");
+								console.log("DOCUMENTO MAS ALTO")
+					}else {
+								$("#home").css("background-size","100% auto");
+								console.log("DOCUMENTO IGUAL");
+					};
+
+
+    }else{
+
+			// LA PARTE APAISADA TIENE QUE ENTRAR ACA
+
+			 		if(docHeight > wdHeight) {
+
+
+										$("#home").css("background-size","auto 100% ");
+										console.log("pantalla1");
+
+
+					}else{
+
+						if(docHeight > bgHeight){
+								$("#home").css("background-size","auto  100% ");
+								console.log("pantalla3");
+						}else{
+
+								$("#home").css("background-size","100% auto ");
+								console.log("pantalla4");
+						};
+
+				 };
+	};
+
+//  ELSE QUE CALCULA EL ALTO
+
 
    }else{
        console.log("pantalla mas alta que ancha");
 
        if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
+
 
     	$("#home").css("background-size"," auto 100%");
 
