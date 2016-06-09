@@ -16,8 +16,17 @@ a:focus{
 	text-decoration:none;
 }
 
-
-
+/** Correccion selects de toda la pagina, puede de errores **/
+select{
+	background-image:url(arrow-down-gray.svg) !important;
+	background-position:right !important;
+	-webkit-appearance:none;
+	background-repeat:no-repeat !important;
+	background-size: auto 100% !important;
+	background-color:#F1EFEF;
+	padding:0 10px;
+}
+/** Fin correccion **/
 
 
 /*--------------------------------------------------------------------------------- CSS  LAYOUT E INTERIOR ------------------------------------------------------*/
