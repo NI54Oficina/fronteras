@@ -109,8 +109,8 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 						</li>
 
-						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
-						
+						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+
 						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 center-to-parent">
@@ -129,7 +129,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 						</li>
 
 
-						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
@@ -148,7 +148,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 						</li>
 
 
-						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
