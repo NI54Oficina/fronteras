@@ -345,8 +345,10 @@ function CenterToParent(){
 		$(this).css("padding-top",0);
 		var parent= $(this).parent();
 		console.log($(this).outerHeight());
-		var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
-		$(this).css("padding-top",paddingTop+"px");
+		if($(this).outerHeight()>0){
+			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+			$(this).css("padding-top",paddingTop+"px");
+		}
 	});
 	$(".center-to-parent-m").each(function(){
 		$(this).css("margin-top",0);
