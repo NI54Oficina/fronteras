@@ -132,14 +132,22 @@ and (orientation : portrait) {
 padding-left: 10px;
 color: #8c8c8c;
 font-size: 1.2rem;
+font-weight: normal;
 
 	}
 
+  .box-mercado-clima-noticias > a > .maxboxes{
+    padding-bottom: 5px;
+    margin-bottom:10px;
+  }
+.title-remates{
+	height: 50px;
+}
   #ul-nav-principal{
     font-size: 1.2em;
   }
   .p-header-mobile {
-    width: 10.1vw;
+    width: 10.5vw;
 }
   .cont-menu-mob {
     padding-right:0;

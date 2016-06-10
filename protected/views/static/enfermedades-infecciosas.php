@@ -36,7 +36,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 		</div>
 	</div>
 
-	<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+	<div class="col-lg-10 col-md-9 col-sm-9 col-xs-12">
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enfermedades-inside-container">
 
