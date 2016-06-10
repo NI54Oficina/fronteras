@@ -621,11 +621,13 @@ function fillBackground(){
 function changeContent(){
 
     $('#enfermedades-selector').change(function(){
+			$('.relleno-enfermedad').hide();
         $('.enfermedades-infecciosas').hide();
         $('#' + $(this).val()).show();
     });
 	console.log("salida enfermedades");
     $('#parext-selector').change(function(){
+			$('.relleno-enfermedad').hide();
         $('.parasitos-externos').hide();
         $('#' + $(this).val()).show();
     });
@@ -875,3 +877,30 @@ function ScrollHome(){
 		}
 	}
 }
+
+
+
+// FUNCION EN TESTEO DE LIMITAR PALABRAS
+
+function limited(){
+  var id=1;
+  var text= "hola como va";
+  var i=0;
+
+  // PUEDE NO IR PORQUE VA COMO PARAMETROS
+  var array= text.split(" ");
+  var heightFont =  $("[limited="+id+"]").css("font-size");
+  var heightMargins = $("[limited="+id+"]").css("margin-top") + $("[limited="+id+"]").css("margin-top");
+  var totalHeight = heightFont + heightMargins;
+
+  if( array.length =< id ){
+
+    $("[limited="+id+"]").html(text);
+      console.log("deberia mostrar todo el texto");
+  }else{
+      while($("[limited="+id+"]").height =< id*totalHeight){
+        $("[limited="+id+"]").html(text[i++]);
+      }
+  };
+
+};

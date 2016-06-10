@@ -71,7 +71,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 				<h2 hid="2" limitline="2" ><?php
 				$text=$f["titulo"];
-				$maxlength=30;
+				$maxlength=60;
 				$espacio=" ";
 
 				if(strlen($text) <= $maxlength){

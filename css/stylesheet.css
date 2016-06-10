@@ -560,7 +560,7 @@ header .home-box:hover > .hoy-box {
     max-width: 200px;
     display: inline-block;
 	margin:0;
-  margin-top:20px;
+  margin-top:20%;
 }
 
 .container-imagen-nota, .container-imagen-nota-col{
@@ -2542,6 +2542,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .container-modalidad{
     min-height: 70px;
     border-bottom: 1px solid grey;
+    text-align: left;
 }
 
 /*Consignatorio*/
@@ -2758,6 +2759,17 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .parext-select:focus {
 	outline:none;
+}
+
+.parasitos-externos, .enfermedades-infecciosas{
+  display:none;
+}
+
+.relleno-enfermedad{
+  text-align: left;
+  width: 100%;
+  font-size:1em ;
+  margin:15px 15px;
 }
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
 

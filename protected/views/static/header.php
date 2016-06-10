@@ -4,7 +4,9 @@ $("body").on("touchstart",".navbar-toggle",function(){
 	$(this).click();
 	if(isMobile){
 		setTimeout(function(){
+			$(".glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 			if($("#inner-header").hasClass("in")){
+
 				scrollTop= $(document).scrollTop();
 				$("header").css("position","absolute");
 				//$("#navbarSecciones").css("height","auto");
@@ -13,8 +15,10 @@ $("body").on("touchstart",".navbar-toggle",function(){
 				$(".fadder").hide();
 				$("section").hide();
 				$(document).scrollTop(0);
+
 				//$(".fadder").fadeOut(1000);
 			}else{
+				$(".glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(".fadder").css("opacity",0);
@@ -22,6 +26,7 @@ $("body").on("touchstart",".navbar-toggle",function(){
 				$(".fadder").show();
 				$("section").show();
 				$(document).scrollTop(scrollTop);
+
 				setTimeout(function(){ $(".fadder").css("opacity",1); $("section").css("opacity",1); },500);
 
 				//$(".fadder").fadeIn(1000);
@@ -33,6 +38,7 @@ $("body").on("touchstart",".navbar-toggle",function(){
 $("body").on("mousedown",".navbar-toggle",function(){
 
 });
+
 </script>
 <header class="headerDesktop" >
 
@@ -63,7 +69,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 
 
-	<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
+<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
 
 
 
