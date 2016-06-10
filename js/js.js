@@ -292,6 +292,7 @@ $(document).on("ready",function(){
 		 changeContent();
 		 slider();
 		 backButton();
+		 limited();
 		 fitBackground();
 
 
@@ -893,12 +894,12 @@ function limited(){
   var heightMargins = $("[limited="+id+"]").css("margin-top") + $("[limited="+id+"]").css("margin-top");
   var totalHeight = heightFont + heightMargins;
 
-  if( array.length =< id ){
+  if( array.length <= id ){
 
     $("[limited="+id+"]").html(text);
       console.log("deberia mostrar todo el texto");
   }else{
-      while($("[limited="+id+"]").height =< id*totalHeight){
+      while($("[limited="+id+"]").height <= id*totalHeight){
         $("[limited="+id+"]").html(text[i++]);
       }
   };
