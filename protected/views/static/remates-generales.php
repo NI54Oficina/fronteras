@@ -10,7 +10,7 @@
 //las imagenes estan en la carpeta publica.
 
 $Criteria = new CDbCriteria();
-$Criteria->condition = "categoria = 'general'";
+$Criteria->condition = "categoria = 'Generales'";
 $remates= Remates::model()->findAll($Criteria);
 
 ?>
@@ -140,7 +140,7 @@ $remates= Remates::model()->findAll($Criteria);
 				<div class="title-remates color-generales"><h2>Cabezas</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
-				<div class="container-cabezas info-remates-mobile" hid="1">
+				<div class="container-cabezas info-remates-mobile" hid="1" <?php if($remate->suspendido!=""){ ?> style="background-color:red;" <?php } ?> >
 					<p class="center-to-parent"><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>

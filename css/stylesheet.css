@@ -2184,7 +2184,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     margin: 0;
     text-align: left;
     padding-left: 10px;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
     font-weight: 700;
     color: #8C8C8C;
 }
