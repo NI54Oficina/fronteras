@@ -18,14 +18,14 @@ $f= json_decode($f->content,true);
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 n-lluvia ">
 
 <!-- titulo primer fecha -->
-<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-lluvia"> <?php
+<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12  title-lluvia"> <?php
 $currentDia= date("N",$f["created"]);
 echo $dias[$currentDia]." ";
 echo date("d",$f["created"]);
  ?> </h1>
 
 <!-- tres mapas -->
-<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 map-lluvia ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6 map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 
@@ -55,7 +55,7 @@ echo date("d",$f["created"]);
 
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12  map-lluvia ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6 map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 
@@ -84,7 +84,7 @@ echo date("d",$f["created"]);
 
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12  map-lluvia ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6  map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 
