@@ -106,7 +106,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 									<div class="hoy-box square" onlymobile="true">
 										<div  class="cont-section-mobile square">
-											<img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
+											<img class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
 										</div>
 										<p class="p-header-mobile center-to-parent">Hoy</p>
 									</div>
@@ -125,7 +125,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-5 col-xl-4">
 									<div class="estemes-box square " onlymobile="true">
 										<div  class="cont-section-mobile square">
-											<img  class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
+											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
 										</div>
 										<p class="p-header-mobile center-to-parent">Este mes</p>
 									</div>
@@ -164,7 +164,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 								<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4">
 									<div class="ayuda-box square" onlymobile="true">
 										<div class="cont-section-mobile square" onlymobile="true">
-											<img  class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
+											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
 										</div>
 										<p class="p-header-mobile center-to-parent">Ayuda</p>
 									</div>
