@@ -326,12 +326,12 @@ and (orientation : portrait){
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 100px;
+		height: 120px;
 		margin-top: -6px;
 	}
 
 	.cont-section-mobile {
-		height: 75px!important;
+		height: 90px!important;
 		width: 40vw!important;
 		display: block;
 	}

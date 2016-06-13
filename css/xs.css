@@ -161,6 +161,11 @@
 		height: 110px!important;
 		width: 40vw!important;
 		display:block;
+
+	}
+
+	.img-menu-header{
+		margin-top: 5%;
 	}
 
 	header .home-upper-box > div{

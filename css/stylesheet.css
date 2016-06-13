@@ -120,6 +120,7 @@ header .home-upper-box > div{
 
 .cont-section-mobile{
 	display:none;
+
 }
 
 #bg-square{
@@ -321,6 +322,8 @@ header .home-box:hover > .hoy-box {
 .headermobile .header-palabras-menu{
 	margin-top:0;
 }
+
+
 
 /******************FIN HEADER ********************/
 
