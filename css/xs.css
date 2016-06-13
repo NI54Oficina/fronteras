@@ -428,3 +428,15 @@
 
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
+
+
+@media screen and (max-width: 767px) and (orientation:landscape){
+
+	.col-lan-xs-3{
+			width: 25%;
+	}
+
+	.col-lan-xs-6{
+			width: 50%;
+	}
+}

@@ -579,7 +579,7 @@ and (orientation : landscape){
 		padding-left: 0;
 		height: 109px;
 		width: 40vw;
-		margin-left: 15px;
+		margin-left:0;
 		margin-bottom: 15px;
 	}
 
@@ -626,7 +626,7 @@ and (orientation : landscape){
 		padding-left: 0;
 		height: 125px;
 		width: 40vw;
-		margin-left: 15px;
+		margin-left:0;
 		margin-bottom: 15px;
 	}
 
@@ -679,7 +679,7 @@ and (orientation: landscape)  {
 		padding-left: 0;
 		height: 95px;
 		width: 40vw;
-		margin-left: 15px;
+		margin-left:0;
 		margin-bottom: 15px;
 	}
 
