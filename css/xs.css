@@ -439,4 +439,8 @@
 	.col-lan-xs-6{
 			width: 50%;
 	}
+
+	.col-lan-xs-4{
+			width: 33%;
+	}
 }

@@ -2,13 +2,13 @@
 
 <div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Producir + > Genética </p> </div>
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7"  >
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4"  >
 	<div class="square">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-genetica.svg" alt="Genetica">
 	</div>
 	</div>
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 		<a href="http://www.angus.org.ar/" target="_blank">
 			<div class="box-genetica border-shadow">
 				<div class="box-genetica-inner producir-box-inner square icon-angus">
@@ -19,7 +19,7 @@
 	</div>
 
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 		<a href="http://www.brangus.org.ar/inicio/category/home/" target="_blank">
 			<div class="box-genetica border-shadow">
 				<div class="box-genetica-inner producir-box-inner square icon-brangus">
@@ -30,7 +30,7 @@
 	</div>
 
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 		<a href="http://www.hereford.org.ar/web/" target="_blank">
 			<div class="box-genetica border-shadow">
 				<div class="box-genetica-inner producir-box-inner square  icon-hereford">
@@ -40,7 +40,7 @@
 		</a>
 	</div>
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 		<a href="http://www.braford.org.ar/" target="_blank">
 			<div class="box-genetica border-shadow">
 				<div class="box-genetica-inner producir-box-inner square icon-braford">
@@ -55,7 +55,7 @@
 
 
 
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/protocolo" >
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner producir-box-inner square">
@@ -65,7 +65,7 @@
 	</a>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md">
 	<div class="box-genetica">
 		<div class="box-genetica-inner producir-box-inner square">
 			<p class="color-genetica center-to-parent"></p>
@@ -74,7 +74,7 @@
   	</div>
 
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica ">
 		<div class="box-genetica-inner producir-box-inner square">
 			<p  class="color-genetica center-to-parent"></p>
@@ -82,7 +82,7 @@
 	</div>
   	</div>
 
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica ">
 		<div class="box-genetica-inner producir-box-inner square">
 			<p class="color-genetica center-to-parent"></p>
@@ -90,7 +90,7 @@
 	</div>
   	</div>
 
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 hidden-xs hidden-sm hidden-md hidden-xl">
+  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-xl">
 	<div class="box-genetica ">
 		<div class="box-genetica-inner producir-box-inner square">
 			<p class="color-genetica center-to-parent"></p>
