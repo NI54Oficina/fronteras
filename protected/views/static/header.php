@@ -4,7 +4,7 @@ $("body").on("touchstart",".navbar-toggle",function(){
 	$(this).click();
 	if(isMobile){
 		setTimeout(function(){
-			$(".glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
+			$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 			if($("#inner-header").hasClass("in")){
 
 				scrollTop= $(document).scrollTop();
@@ -18,7 +18,7 @@ $("body").on("touchstart",".navbar-toggle",function(){
 
 				//$(".fadder").fadeOut(1000);
 			}else{
-				$(".glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
+				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(".fadder").css("opacity",0);
