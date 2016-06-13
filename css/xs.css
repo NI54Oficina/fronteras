@@ -90,9 +90,6 @@
 	.ul-nav li {
 		padding-left: 0;
 		height: 140px;
-		/*width:40vw;*/
-
-		/*margin-left: 15px;*/
 		margin-bottom: 15px;
 		padding:0;
 	}
@@ -214,6 +211,17 @@
 		height: auto !important;
 	}
 
+	.mapa-clima{
+			margin-top: 25px;
+	}
+
+	.btn-mapas{
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+
 	/* CUBICACION BAÑADEROS */
 
 
@@ -227,7 +235,7 @@
 
 
 
-   /*REMATES TEST*/
+   /*REMATES */
 
 	.title-remates h2{
     	font-size: 1.2rem;
@@ -332,6 +340,7 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
+
 /* NO BORRRAR
 	.container-boton-ganado{
 		height: auto !important;
@@ -397,26 +406,11 @@
 	}
 
 
-
-
 	/*HEADER*/
 
 
 	.boton-volver-header{
 	  padding-left: 5px;
-	}
-
-
-	/*CLIMA*/
-
-	.mapa-clima{
-			margin-top: 25px;
-	}
-
-	.btn-mapas{
-		width: 100%;
-		margin-right: 0;
-		margin-left: 0;
 	}
 
 	/*ESTADO CORPORAL*/
