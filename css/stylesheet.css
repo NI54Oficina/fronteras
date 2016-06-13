@@ -1815,6 +1815,8 @@ header .home-box:hover > .hoy-box {
     background: white;
     width: 100%;
 }
+/********************FIN ALGO QUE NO SE QUE ES******************/
+
 
 /************** LABORATORIOS DE DIAGNOSTICO************************/
 .laboratorios{
@@ -1972,8 +1974,10 @@ header .home-box:hover > .hoy-box {
 	padding: 25px 10px;
 }
 
+/*********************FIN HOME****************/
 
-/***********************VETERINARIA***************/
+
+/*******************RED VETERINARIA***************/
 
 .veterinaria {
 	max-width: 1500px;
@@ -2022,11 +2026,6 @@ header .home-box:hover > .hoy-box {
 	padding:0 10px;
 }
 
-
-.box-clima select{
-
-}
-
 .mapa-img {
   text-align: center;
 	width:75%;
@@ -2059,7 +2058,9 @@ header .home-box:hover > .hoy-box {
 	text-align: left;
 }
 
-/***********LINKS DE INTERES************/
+/*******************FIN RED VETERINARIA*******************/
+
+/**********************LINKS DE INTERES************/
 
 .box-interes {
 	padding: 15px;
@@ -2170,7 +2171,7 @@ header .home-box:hover > .hoy-box {
     margin: 0;
     text-align: left;
     padding-left: 10px;
-    /*padding-bottom: 10px;*/
+    padding-bottom: 10px;
     font-weight: 700;
     color: #8C8C8C;
 }
@@ -2287,7 +2288,7 @@ header .home-box:hover > .hoy-box {
 
 
 
-/* LOADING PAGE*/
+/*****************LOADING PAGE (GIF)*************/
 .loading {
 	background-color: transparent;
 }
@@ -2323,7 +2324,10 @@ header .home-box:hover > .hoy-box {
 	margin-top: 25%;
 }
 
-/*SPLASH HOME*/
+/********************FIN LOADING ***************/
+
+
+/********************SPLASH HOME******************/
 
 .splash{
 	padding: 90px 10px;
@@ -2369,8 +2373,9 @@ header .home-box:hover > .hoy-box {
 	background-size: 100% auto;
 }
 
+/*********************FIN SPASH HOME****************/
 
-/***************TITULO MOBILE**********/
+/*************TITULO QUE APARECE EN TODAS LAS PANTALLAS EN MOBILE********/
 
 .titulo-mobile {
 	position: fixed;
@@ -2407,10 +2412,6 @@ header .home-box:hover > .hoy-box {
 
 
 /**********FIN TITULO MOBILE**************/
-
-
-
-
 
 
 
@@ -2645,6 +2646,8 @@ header .home-box:hover > .hoy-box {
 	top:25%;
 }
 
+/********************TERMINA REMATES EN MOBILE*****************/
+
 /****************** SANIDAD- ENFERMEDADES ***********************/
 
 
@@ -2734,7 +2737,9 @@ header .home-box:hover > .hoy-box {
 	padding-right:30px;
 }
 
-/**************** SANIDAD - PARÁSITOS EXTERNOS ************************/
+/*****************TERMINA ENFERMEDADES -ENFERMEDADES*****************/
+
+/**************** ENFERMEDADES - PARÁSITOS EXTERNOS ************************/
 .parext-select {
     background: transparent;
     border: none;
@@ -2758,6 +2763,36 @@ header .home-box:hover > .hoy-box {
   font-size:1em ;
   margin:15px 15px;
 }
+
+/******************TERMINA ENFERMEDADES -PARÁSITOS EXTERNOS******************/
+
+
+/**************** ENFERMEDADES - ENFERMEDADES INFECCIOSAS****************/
+
+.enfermedades-infecciosas a{
+	color:#744295
+}
+
+.enfermedades-inside-container a{
+	color:#744295
+}
+
+.enfermedades-infecciosas-1{
+	display:block;
+}
+
+.enfermedades-infecciosas-2,.enfermedades-infecciosas-4,.enfermedades-infecciosas-3 {
+	display:none;
+}
+
+.titulo-mobile-enfermedades{
+    background-color: #6D4A84;
+}
+
+
+/********************FIN ENFERMEDADES- ENFERMEDADES INFECCIOSAS*****************/
+
+
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
 
 .title-producir-inside{
@@ -2816,12 +2851,9 @@ header .home-box:hover > .hoy-box {
 	padding: 30px 30px;
 }
 
-/*DISTRIBUCION COLORES DE PRODUCIR
+/********************TERMINA MANEJO - CUBICACION DE BAÑADEROS***************/
 
-y fondos ubicacion en linea 1441 */
-
-/*GENETICA MENU, ICONOS, TESTING
-*/
+/*********************NUTRICION****************/
 
 .icon-hereford{
 	background-image:url(../img/hereford.png);
@@ -2852,8 +2884,10 @@ y fondos ubicacion en linea 1441 */
 	padding:10px 0;
 }
 
+/******************TERMINA NUTRICION**************/
 
-/** RETIRO DE PRODUCTOS VETERNIARIOS **/
+/******************RETIRO DE PRODUCTOS VETERINARIOS****************/
+
 .color-retiro-productos{
 	background:#5B3E6F;
 }
@@ -2882,7 +2916,9 @@ y fondos ubicacion en linea 1441 */
 .retiro-img{
   text-align: left;
 }
-/** PAGINA DE LLUVIA (lluvias.php) **/
+/*********************FIN DIAS DE PRODUCTOS VETERINARIO*******************/
+
+/********************LLUVIAS (clima)******************/
 
 .title-lluvia{
 	color: gray;
@@ -2903,44 +2939,10 @@ y fondos ubicacion en linea 1441 */
 }
 
 
-
-.navbar-toggle{
-	position:absolute;
-	left:0;
-	z-index:200;
-}
-
-.boton-volver-header{
-	position:absolute;
-	left:0;
-	z-index:200;
-}
-
-/** ENFERMEDADES-INFECCIOSAS **/
-
-.enfermedades-infecciosas a{
-	color:#744295
-}
-
-.enfermedades-inside-container a{
-	color:#744295
-}
-
-.enfermedades-infecciosas-1{
-	display:block;
-}
-
-.enfermedades-infecciosas-2,.enfermedades-infecciosas-4,.enfermedades-infecciosas-3 {
-	display:none;
-}
+/********************FIN LLUVIAS (clima)******************/
 
 
-.glyphicon-menu-hamburger{
-
-}
-
-
-/***************ESTADO CORPORAL	& SLIDER**********/
+/*******************ESTADO CORPORAL	& SLIDER***************/
 
 .p-estado{
 	color: white;
@@ -3032,15 +3034,11 @@ y fondos ubicacion en linea 1441 */
 
 
 
-/*fin estado corporal*/
+/**************FIN ESTADO CORPORAL	& SLIDER***************/
 
 
 
-.titulo-mobile-enfermedades{
-    background-color: #6D4A84;
-}
-
-/*BOTON VOLVER EN EL HEADER*/
+/****************BOTON VOLVER EN EL HEADER*************/
 #back-header{
 	background-image: url(ic_arrow_back.svg);
   display:inline-block;
@@ -3072,7 +3070,21 @@ y fondos ubicacion en linea 1441 */
   display:inline-block;
 }
 
-/*************************** PROTOCOLOS ********************************/
+.navbar-toggle{
+	position:absolute;
+	left:0;
+	z-index:200;
+}
+
+.boton-volver-header{
+	position:absolute;
+	left:0;
+	z-index:200;
+}
+
+/*****************FIN BOTON VOLVER DEL HEADER************/
+
+/********************** PROTOCOLOS DE REPRODUCCION **************************/
 
 
 .color-title-prod{
@@ -3131,3 +3143,5 @@ y fondos ubicacion en linea 1441 */
 .remates-box-2{
 	padding: 0px 5px;
 }
+
+/**************FIN PROTOCOLOS DE REPRODUCCION *****************/
