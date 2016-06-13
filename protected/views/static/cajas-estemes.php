@@ -5,7 +5,7 @@
 	<!-- Remates generales -->
 
 
-	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/remates-generales" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/remates-generales" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6">
 	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12 square" hid="1">
 		<div class="maxbox-remgenerales maxboxes-inner-estemes square  col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
@@ -27,7 +27,7 @@
 
 
 	<!-- Remates cabañas -->
-	 <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/remates-cabanias" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	 <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/remates-cabanias" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6">
 	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12 square" hid="1">
 		<div class="maxbox-remcabania maxboxes-inner-estemes square col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 
@@ -50,7 +50,7 @@
 
 
 	<!-- Checkbox -->
-<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/checkbox" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/checkbox" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6">
 	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12 square" hid="1">
 
 		<div class="maxbox-checkbox maxboxes-inner-estemes square col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
