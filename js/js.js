@@ -95,20 +95,50 @@ function LoadFunction(){
 
 		initializeRemates();
 		var lastOrientation= currentOrientation;
+		var prevHeight= viewportHeight;
+		var prevWidth= viewportWidth;
 		CheckDevice();
 		Header();
-		if(isIOS){
-			if(lastOrientation==currentOrientation){
+		//if(isIOS){
+			if(isIOS&&lastOrientation==currentOrientation){
 				return;
 			}
-		}
-
+			if(prevHeight<viewportHeight){
+				prevHeight= viewportHeight-prevHeight;
+			}else{
+				prevHeight= prevHeight-viewportHeight;
+			}
+			
+			if(prevWidth<viewportWidth){
+				prevWidth= viewportWidth-prevWidth;
+			}else{
+				prevWidth= prevWidth-viewportWidth;
+			}
+			
+			
+			if(prevHeight<30||prevWidth<30){
+				return;
+			}
+			
+			$(".fadder").css('transition',"0s");
+			$("section").css('transition',"0s");
+			$(".fadder").css('opacity',0);
+			$("section").css('opacity',0);
+			
+		//}
+		
 		ResetHeight();
 		SetDistanceHeader();
 		ResizeViewportElements();
 
 		setTimeout(function(){
-		SameHeight(); AdaptSquare();},1000);
+			$(".fadder").css('transition',"0.5s");
+			$("section").css('transition',"0.5s");
+			SameHeight(); 	
+			AdaptSquare();
+			$(".fadder").css('opacity',1);
+			$("section").css('opacity',1);
+		},1000);
 	});
 
 	function ResizeViewportElements(){
@@ -124,7 +154,8 @@ function LoadFunction(){
 	var isMobile=false;
 	var isIOS=false;
 	var currentOrientation="";
-
+	var viewportHeight=0;
+	var viewportWidth=0;
 
 	function CheckDevice(){
 		if(window.innerHeight > window.innerWidth){
@@ -133,6 +164,10 @@ function LoadFunction(){
 		}else{
 			currentOrientation= "landscape;"
 		}
+		
+		viewportHeight=window.innerHeight;
+		viewportWidth=window.innerWidth;
+		
 		//$("#logDiv").html("<div>"+currentOrientation+"</div>"+$("#logDiv").html());
 
 		isMobile = /Android|mobi|iPad|Android|webOS|iPhone|iPod|pocket|psp|kindle|Kindle|avantgo|blazer|midori|Tablet|Palm|maemo|plucker|phone|symbian|IEMobile|mobile|ZuneWP7|Windows Phone|Opera Mini|BlackBerry/i.test(navigator.userAgent);
