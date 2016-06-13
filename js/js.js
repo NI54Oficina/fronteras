@@ -884,12 +884,13 @@ function ScrollHome(){
 // FUNCION EN TESTEO DE LIMITAR PALABRAS
 
 function limited(){
-  var id=1;
-  var text= "hola como va";
-  var i=0;
+	var id;
+	var text="hola como va";
+
+	console.log("test limited ");
 
   // PUEDE NO IR PORQUE VA COMO PARAMETROS
-  var array= text.split(" ");
+  var array= text.split(' ');
   var heightFont =  $("[limited="+id+"]").css("font-size");
   var heightMargins = $("[limited="+id+"]").css("margin-top") + $("[limited="+id+"]").css("margin-top");
   var totalHeight = heightFont + heightMargins;
@@ -897,10 +898,11 @@ function limited(){
   if( array.length <= id ){
 
     $("[limited="+id+"]").html(text);
-      console.log("deberia mostrar todo el texto");
+      console.log("hola");
   }else{
       while($("[limited="+id+"]").height <= id*totalHeight){
         $("[limited="+id+"]").html(text[i++]);
+				console.log("chau");
       }
   };
 

@@ -20,7 +20,7 @@ a:focus{
 
 
 
-/*--------------------------------------------------------------------------------- CSS  LAYOUT E INTERIOR ------------------------------------------------------*/
+/*------ CSS  LAYOUT E INTERIOR ----------*/
 
 
 /****************************************
@@ -90,7 +90,7 @@ p{
 	transition: 0.5s;
 }
 
-/** Header **/
+/*********************** HEADER ********************/
 
 header{
 	top:0;
@@ -322,22 +322,22 @@ header .home-box:hover > .hoy-box {
 	margin-top:0;
 }
 
-/**Fin Header**/
+/******************FIN HEADER ********************/
 
 
 
 
-/******************SECTION**********/
+/******************SECTION ********************/
 .section {
  	padding: 50px 45px;
 	opacity:0;
 	transition:0.5s;
  }
-/*****FIN SECCION******/
+/****************FIN SECCION***************/
 
 
 
-
+/*********************** HOY ********************/
 /* Tres cajas (mercados, clima. noticias del sector)*/
 .clima-title{
 	padding: 0;
@@ -412,9 +412,7 @@ header .home-box:hover > .hoy-box {
 
 
 
-/******************************
-******** MERCADOS *******
-******************************/
+/**************Caja mercados(hoy)********************/
 
 /* Mercados: cajas (compra,venta)*/
 .box-mercado-clima-noticias .small-boxes-mercado{
@@ -478,9 +476,7 @@ header .home-box:hover > .hoy-box {
 
 
 
-/******************************
-*********** CLIMA ***********
-******************************/
+/***************Caja clima(hoy)***************/
 
 .clima-pronostico{
 	margin: 10px 0px;
@@ -538,9 +534,7 @@ header .home-box:hover > .hoy-box {
 	outline:none;
 }
 
-/*********************************************
-*********** NOTICIAS SECTOR ***********
-*********************************************/
+/***************Caja noticias del sector(hoy)****************/
 .maxbox-noticias .container-noticias-sector{
     text-align: center;
 }
@@ -569,10 +563,10 @@ header .home-box:hover > .hoy-box {
 	background-size:  auto 100%;
 }
 
+/****************FIN HOY******************/
 
-/**********************************************
-*********** SECCIÓN MERCADO***********
-**********************************************/
+
+/*********************** MERCADOS********************/
 .box-mercado {
 	padding:0 25px;
 	border:none;
@@ -806,10 +800,9 @@ header .home-box:hover > .hoy-box {
     font-size: 1.5rem;
 }
 
+/******************FIN MERCADOS****************/
 
-/********************************
-************* CLIMA ***********
-********************************/
+/***********************CLIMA ********************/
 
 /* Cajas clima general */
 .form-clima{
@@ -1224,9 +1217,11 @@ header .home-box:hover > .hoy-box {
     float: right;
     margin-right: 1%;
 }
-/************************************
-************* NOTICIAS ***********
-************************************/
+
+/*****************FIN CLIMA*****************/
+
+
+/*******************NOTICIAS****************/
 
 /* Cajas noticias general */
 .box-noticias{
@@ -1365,7 +1360,7 @@ header .home-box:hover > .hoy-box {
 	width:100%;height:2px;
 }
 
-/*COLORES DISTINTAS NOTICIAS*/
+/*Colores de los distintos tipos de noticias*/
 
 /*NOTICIA TIPO 1 - VERDE AGUA*/
 
@@ -1430,7 +1425,7 @@ header .home-box:hover > .hoy-box {
 
 
 
-/*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
+/*NOTICIA TIPO 4*/
 
 .noticia-tipo-4 .container-texto-noticias{
 	border: 2px solid #2ED7AA;
@@ -1450,7 +1445,7 @@ header .home-box:hover > .hoy-box {
 }
 
 
-/*NOTICIA TIPO 5 - MODO PRUEBA NARANJA, SETEAR COLOR*/
+/*NOTICIA TIPO 5 */
 
 .noticia-tipo-5 .container-texto-noticias{
 	border: 2px solid #E29D9C;
@@ -1506,7 +1501,7 @@ header .home-box:hover > .hoy-box {
 	background-color:#FFA621;
 }
 
-
+/*****************FIN NOTICIAS******************/
 
 /*************** INTERIOR NOTICIA ******************/
 .container-inside-noticia, .noticia-columna{
@@ -1522,19 +1517,6 @@ header .home-box:hover > .hoy-box {
 	float:right;
 }
 
-/*.noticia-columna .fecha-col{
-	text-align:right;
-    display: inline-block;
-    background-color: #C4c6c7;
-    width: 100%;
-
-}*/
-
-
-/*COMENTADA PORQUE DEBERIAN IR EN TODAS LAS PÁGINAS.
-ESTABA EN EL TITULO DE NOTICIA.PHP*/
-
-
 .container-inside-noticia .border-fecha div{
     background-image: url(../img/dash.png);
     background-repeat: repeat-x;
@@ -1544,7 +1526,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     vertical-align: super;
 }
 
-/*FIN DEL CODIGO NO USADO*/
+
 
 .container-inside-noticia .titulo{
 	/*color:#2ED7AA;*/
@@ -1591,9 +1573,11 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 {
 
 }
-/* FIN NOTICIA*/
+/***************FIN INTERIOR NOTICIA***************/
 
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
+/*Todas tienen el mismo formato en cuanto a la distribucion de las cajas, varian en color*/
+
 
  .square > img {
  	max-width: 235px
@@ -1692,6 +1676,8 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
+
+/********************FALTA COMPLETAR LO QUE ES ESTA LINEA*******************/
 .box-producir-3{
 	padding: 0px 30px;
 }
@@ -1830,7 +1816,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     width: 100%;
 }
 
-/************** LABORATORIOS ************************/
+/************** LABORATORIOS DE DIAGNOSTICO************************/
 .laboratorios{
 
 	position: relative;
@@ -1857,7 +1843,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     padding-top: 80%;
 }
 
-
+/****************FIN LABORATORIOS DE DIAGNOSTICO**************/
 
 
 /*********************HOME*******************/
@@ -2629,9 +2615,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /********REMATES EN MOBILE - SLIDE & ELSE*******/
 
-.info-remates-mobile, {
-	display: none;
-}
 
 .fecha-remates-mobile > button {
     background-color: rgba(99, 99, 99, 0);
@@ -2896,8 +2879,9 @@ y fondos ubicacion en linea 1441 */
     margin: 0;
 }
 
-
-
+.retiro-img{
+  text-align: left;
+}
 /** PAGINA DE LLUVIA (lluvias.php) **/
 
 .title-lluvia{
