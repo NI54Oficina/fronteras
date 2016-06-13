@@ -50,7 +50,7 @@
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 		<h1>FLACA</h1>
-		<p hid="2" limited="2" >Profunda cavidad alrededor del nacimiento de la cola. Huesos pelvianos y coxales facilmente palpables. Ausencia total del tejido adiposo. Marcada depresión pelviana y lumbar.</br>
+		<p hid="2" limited="2" class="ganado" style="line-clamp:3">Profunda cavidad alrededor del nacimiento de la cola. Huesos pelvianos y coxales facilmente palpables. Ausencia total del tejido adiposo. Marcada depresión pelviana y lumbar.</br>
 		Las vacas en este estado corporal no son funcionales. Estan en anestro profundo. Capacidad de lactacion comprometida.
 		</p>
 

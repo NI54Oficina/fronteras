@@ -73,7 +73,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 <?php
 				$text=$f["titulo"];
-				$maxlength=60;
+				$maxlength=30;
 				$espacio=" ";
 
 				if(strlen($text) <= $maxlength){
@@ -85,7 +85,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 					$posicion = strripos($newText, $espacio);
 					echo substr($newText,0,$posicion)."...";
 				}
-				?> 
+				?>
 
 
 			</h2>

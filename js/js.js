@@ -885,25 +885,40 @@ function ScrollHome(){
 
 function limited(){
 	var id;
-	var text="hola como va";
+	var text= []
+	var text= $(".ganado").text().split(" ");
+	var n=2;
+	var i=0;
 
 	console.log("test limited ");
+	console.log(text[2]);
+
 
   // PUEDE NO IR PORQUE VA COMO PARAMETROS
-  var array= text.split(' ');
-  var heightFont =  $("[limited="+id+"]").css("font-size");
-  var heightMargins = $("[limited="+id+"]").css("margin-top") + $("[limited="+id+"]").css("margin-top");
-  var totalHeight = heightFont + heightMargins;
+  var heightFont =  $(".ganado").css("font-size");
+  var heightMargins = $(".ganado").css("margin-top") + $(".ganado").css("margin-top");
+  var totalHeight = parseInt( heightFont + heightMargins);
 
-  if( array.length <= id ){
+	console.log(totalHeight);
 
-    $("[limited="+id+"]").html(text);
-      console.log("hola");
-  }else{
-      while($("[limited="+id+"]").height <= id*totalHeight){
-        $("[limited="+id+"]").html(text[i++]);
-				console.log("chau");
-      }
-  };
+	var altoDiv = $(".ganado").height();
+
+	console.log(altoDiv);
+ if(altoDiv > n*totalHeight){
+  // $(".ganado").text([1]).css("display","none");
+	var nuevoAlto= $(".ganado").height();
+
+	//  while( nuevoAlto <= n*totalHeight){
+	// 	 		console.log(text[i++]);
+	// 		 $(".ganado").text(text[i++]);
+	// 		 var nuevoAlto= $(".ganado").height();
+	 //
+	 //
+	//  };
+ }
+
 
 };
+
+
+// FIN FUNCION DE TESTEO

@@ -43,7 +43,7 @@
 
 				<div class="container-prot info-remates-mobile" hid="1">
 					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;">
-					<p class="number-protocolo">2</p>
+					<p class="number-protocolo center-to-parent">2</p>
 				</div>
 
 		</div>
@@ -77,7 +77,7 @@
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot">Colocar CRONIPRES MONODOSIS</p>
+					<p class="padd-prot center-to-parent">Colocar CRONIPRES MONODOSIS</p>
 					<p class="orange">2 ml BIOESTROGEN</p>
 
 				</div>
@@ -94,7 +94,7 @@
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot">Retirar CRONIPRES MONODOSIS</p>
+					<p class="padd-prot center-to-parent">Retirar CRONIPRES MONODOSIS</p>
 					<p class="orange">1 ml CRONI-CIP</p>
 					<p class="orange">2 ml ENZAPROST D-C</p>
 
@@ -125,7 +125,7 @@
 				<div class="title-prot color-title-prod"><h2>Día 9</h2></div>
 				<!--Contenido -->
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot">IATF (48 hr)</p>
+					<p class="padd-prot center-to-parent">IATF (48 hr)</p>
 
 				</div>
 

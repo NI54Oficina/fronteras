@@ -3041,6 +3041,7 @@ header .home-box:hover > .hoy-box {
 	background-image: url(ic_arrow_back.svg);
   display:inline-block;
   overflow:hidden;
+  opacity: .25;
 }
 
 #back-header2{
@@ -3066,6 +3067,7 @@ header .home-box:hover > .hoy-box {
 	cursor:pointer;
 	margin:  auto 5px;
   display:inline-block;
+  color: #adadad;
 }
 
 .navbar-toggle{
@@ -3111,6 +3113,7 @@ header .home-box:hover > .hoy-box {
     font-size: 1.3rem;
 	min-height: 110px;
     border-bottom: 1px solid grey;
+    padding-bottom:30px;
 }
 
 .padd-prot{
@@ -3120,7 +3123,7 @@ header .home-box:hover > .hoy-box {
 .orange{
     margin: 0;
     background: rgba(239, 201, 158, 0.4);
-    margin-bottom: 6px;
+    margin-top: 6px;
     margin-left: 6px;
     font-size: 1.2rem;
 }
@@ -3130,7 +3133,6 @@ header .home-box:hover > .hoy-box {
     font-size: 4rem;
     color: #ED7C28;
     font-weight: 700;
-    padding-top: 13%;
 }
 
 .titulo-mobile-prot{
