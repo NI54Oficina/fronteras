@@ -3,7 +3,7 @@
 <div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12 fadder">
 
 	<!-- Clima -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box-clima-title fill-element " hid="1" >
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 box-clima-title fill-element " hid="1" >
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima fixedChildren">
 
@@ -12,7 +12,7 @@
 				<?php include("selector-localidades.php"); ?>
 				</form>
 		</div>
-		
+
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title fillerChildren hidden-xs">
 
 				<h1 class="center-to-parent">Clima</h1>
@@ -33,7 +33,7 @@
 		foreach($f as $f2){
 	 ?>
 
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 " hid="1">
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-clima-inner"   >
 

@@ -23,7 +23,7 @@ if($dataH){
 	if(true){
 ?>
 	<div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12 fadder">
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 2 box-clima-title" hid="1" >
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 2 box-clima-title" hid="1" >
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title fadder">
 
@@ -38,7 +38,7 @@ if($dataH){
 	</div>
 
 	<?php if(isset($f['field_hydric_deficit_map'])){?>
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12  mapa-clima" >
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6  mapa-clima" >
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  border-mapa">
 			<h3>Mapa de deficit</h3>
@@ -64,7 +64,7 @@ if($dataH){
 	<?php }  ?>
 
 	<?php if(isset($f['field_hydric_rainy_necessary_map'])){?>
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mapa-clima" >
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 mapa-clima" >
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  border-mapa" >
 			<h3>Mapa posibilidad de lluvias</h3>
@@ -90,7 +90,7 @@ if($dataH){
 	<?php } ?>
 
 	<?php if(isset($f['field_hydric_reverse_deficit_map'])){?>
-	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mapa-clima" >
+	<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 mapa-clima" >
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  border-mapa">
 			<h3>Mapa de necesidades</h3>
