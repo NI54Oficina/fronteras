@@ -800,6 +800,149 @@ header .home-box:hover > .hoy-box {
     font-size: 1.5rem;
 }
 
+
+.columna-indicadores p{
+    font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+	font-weight:700;
+    color: #8C8C8C;
+}
+
+.columna-granos p{
+	font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    color: #8C8C8C;
+	font-weight:700;
+}
+
+.columna-ganado p{
+	font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #8C8C8C;
+}
+
+.table-mercado-items div p {
+	text-align:left;
+	padding-left:10px;
+	color:  #8c8c8c;
+	font-size:1.2rem;
+}
+
+.container-items-mercados{
+	margin-bottom: 10px;
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #D0CFCF;
+    border-color: none;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: 'arialregular';
+}
+
+.btn {
+	display: inline-block;
+	padding: 9px 0px;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	margin-top:5px;
+    width: 110px;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #D0CFCF;
+    border-color: transparent;
+}
+
+.btn-default:focus{
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #28A382;
+    border-color: transparent;
+}
+
+.btn-default:active{
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #28A382;
+    border-color: transparent;
+}
+
+.btn:focus {
+    outline:none!important;
+}
+
+.actualizar-ganado{
+	background: #C4c6c7!important;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	min-height:30px!important;
+}
+
+
+.actualizar-ganado p{
+	color: white!important;
+    font-size: 1.2rem!important;
+    font-weight: 400!important;
+    margin:0;
+    padding-top: 5px;
+}
+
+.btn-indicadores{
+    display: inline-block;
+    padding: 9px 0px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top:5px;
+	width: 110px;
+}
+
+
 /******************FIN MERCADOS****************/
 
 /***********************CLIMA ********************/
@@ -1217,6 +1360,22 @@ header .home-box:hover > .hoy-box {
     float: right;
     margin-right: 1%;
 }
+
+
+#clima form select::-webkit-scrollbar {
+    width: 1em;
+}
+
+#clima form select::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px blue;
+}
+
+#clima form select::-webkit-scrollbar-thumb{
+	background-color: blue;
+	outline: 1px solid blue;
+}
+
+
 
 /*****************FIN CLIMA*****************/
 
@@ -1677,7 +1836,7 @@ header .home-box:hover > .hoy-box {
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
 
-/********************FALTA COMPLETAR LO QUE ES ESTA LINEA*******************/
+/*******************PLANES SANITARIOS***************/
 .box-producir-3{
 	padding: 0px 30px;
 }
@@ -1815,7 +1974,7 @@ header .home-box:hover > .hoy-box {
     background: white;
     width: 100%;
 }
-/********************FIN ALGO QUE NO SE QUE ES******************/
+/********************FIN PLANES SANITARIOS*****************/
 
 
 /************** LABORATORIOS DE DIAGNOSTICO************************/
@@ -2129,165 +2288,6 @@ header .home-box:hover > .hoy-box {
 /********FIN LINKS DE INTERESES********/
 
 
-/*dar detalle de esta seccion*/
-
-#clima form select::-webkit-scrollbar {
-    width: 1em;
-}
-
-#clima form select::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px blue;
-}
-
-#clima form select::-webkit-scrollbar-thumb{
-	background-color: blue;
-	outline: 1px solid blue;
-}
-
-
-.columna-indicadores p{
-    font-size: 1.5rem;
-    padding-top: 3px;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-	font-weight:700;
-    color: #8C8C8C;
-}
-
-.columna-granos p{
-	font-size: 1.5rem;
-    padding-top: 3px;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-    color: #8C8C8C;
-	font-weight:700;
-}
-
-.columna-ganado p{
-	font-size: 1.5rem;
-    padding-top: 3px;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-    color: #8C8C8C;
-}
-
-.table-mercado-items div p {
-	text-align:left;
-	padding-left:10px;
-	color:  #8c8c8c;
-	font-size:1.2rem;
-}
-
-.container-items-mercados{
-	margin-bottom: 10px;
-}
-
-.btn-default {
-    color: #FFF;
-    background-color: #D0CFCF;
-    border-color: none;
-    font-weight: 700;
-    letter-spacing: 0.4px;
-    font-family: 'arialregular';
-}
-
-.btn {
-	display: inline-block;
-	padding: 9px 0px;
-	margin-bottom: 0;
-	font-size: 1.5rem;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 2px;
-	margin-top:5px;
-    width: 110px;
-}
-
-.btn-default:hover {
-    color: #FFF;
-    background-color: #D0CFCF;
-    border-color: transparent;
-}
-
-.btn-default:focus{
-	outline:none;
-	border:none;
-	color: #FFF;
-    background-color: #28A382;
-    border-color: transparent;
-}
-
-.btn-default:active{
-	outline:none;
-	border:none;
-	color: #FFF;
-    background-color: #28A382;
-    border-color: transparent;
-}
-
-.btn:focus {
-    outline:none!important;
-}
-
-.actualizar-ganado{
-	background: #C4c6c7!important;
-    height: 30px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-	min-height:30px!important;
-}
-
-
-.actualizar-ganado p{
-	color: white!important;
-    font-size: 1.2rem!important;
-    font-weight: 400!important;
-    margin:0;
-    padding-top: 5px;
-}
-
-.btn-indicadores{
-    display: inline-block;
-    padding: 9px 0px;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    margin-top:5px;
-	width: 110px;
-}
-
-
-
 /*****************LOADING PAGE (GIF)*************/
 .loading {
 	background-color: transparent;
@@ -2411,7 +2411,7 @@ header .home-box:hover > .hoy-box {
 
 
 
-/**********FIN TITULO MOBILE**************/
+/*****************FIN TITULO MOBILE*******************/
 
 
 
@@ -2649,8 +2649,6 @@ header .home-box:hover > .hoy-box {
 /********************TERMINA REMATES EN MOBILE*****************/
 
 /****************** SANIDAD- ENFERMEDADES ***********************/
-
-
 
 .enfermedades-select {
     background: transparent;
