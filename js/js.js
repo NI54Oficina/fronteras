@@ -319,6 +319,7 @@ var lengthRemates = 0;
 
 $(document).on("ready",function(){
 	CheckDevice();
+	console.log("entra ready jsjs");
 	if(isMobile){
 		splash();
 	}
