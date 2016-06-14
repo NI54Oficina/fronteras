@@ -729,6 +729,9 @@ header .home-box:hover > .hoy-box {
 /* ITEMS INTERIOR TABLA*/
 .table-mercado-items div{
 	background-color:white;
+}
+.table-mercado-items > div {
+
 	border-bottom:1px solid #F2F2F2;
 }
 
@@ -840,6 +843,7 @@ header .home-box:hover > .hoy-box {
 	padding-left:10px;
 	color:  #8c8c8c;
 	font-size:1.2rem;
+  padding-top: 7px;
 }
 
 .container-items-mercados{

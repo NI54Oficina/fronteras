@@ -407,6 +407,10 @@
 		padding:15px;
 	}
 
+	.padd-prot, #dias-prot > p {
+    padding-top: 7% !important;
+ }
+
 
 /*RED VETERINARIA*/
 	.red-form{

@@ -42,7 +42,8 @@
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile" hid="1">
-					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;">
+					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;     position: absolute;
+    left: 0;">
 					<p class="number-protocolo center-to-parent">2</p>
 				</div>
 
@@ -58,7 +59,7 @@
 			<div class=" col-xl-7 col-lg-2-7 col-md-6 col-sm-6 col-xs-6 remates-box-2 containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Nombre del producto</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Nombre del producto</h2></div>
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile"  id="dias-prot" hid="1">
@@ -73,7 +74,7 @@
 			<div class="col-lg-2-7  col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 0</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 0</h2></div>
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile" hid="1">
@@ -90,7 +91,7 @@
 			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 7</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 7</h2></div>
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile" hid="1">
@@ -107,7 +108,7 @@
 			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 8</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 8</h2></div>
 				<!--Contenido -->
 				<div class="container-prot info-remates-mobile" hid="1">
 
@@ -122,7 +123,7 @@
 			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 9</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 9</h2></div>
 				<!--Contenido -->
 				<div class="container-prot info-remates-mobile" hid="1">
 					<p class="padd-prot center-to-parent">IATF (48 hr)</p>
@@ -137,7 +138,7 @@
 			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 10</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 10</h2></div>
 				<!--Contenido -->
 
 				<div class="container-prot info-remates-mobile" hid="1">

@@ -108,25 +108,25 @@ function LoadFunction(){
 			}else{
 				prevHeight= prevHeight-viewportHeight;
 			}
-			
+
 			if(prevWidth<viewportWidth){
 				prevWidth= viewportWidth-prevWidth;
 			}else{
 				prevWidth= prevWidth-viewportWidth;
 			}
-			
-			
+
+
 			if(prevHeight<30||prevWidth<30){
 				return;
 			}
-			
+
 			$(".fadder").css('transition',"0s");
 			$("section").css('transition',"0s");
 			$(".fadder").css('opacity',0);
 			$("section").css('opacity',0);
-			
+
 		//}
-		
+
 		ResetHeight();
 		SetDistanceHeader();
 		ResizeViewportElements();
@@ -134,7 +134,7 @@ function LoadFunction(){
 		setTimeout(function(){
 			$(".fadder").css('transition',"0.5s");
 			$("section").css('transition',"0.5s");
-			SameHeight(); 	
+			SameHeight();
 			AdaptSquare();
 			$(".fadder").css('opacity',1);
 			$("section").css('opacity',1);
@@ -164,10 +164,10 @@ function LoadFunction(){
 		}else{
 			currentOrientation= "landscape;"
 		}
-		
+
 		viewportHeight=window.innerHeight;
 		viewportWidth=window.innerWidth;
-		
+
 		//$("#logDiv").html("<div>"+currentOrientation+"</div>"+$("#logDiv").html());
 
 		isMobile = /Android|mobi|iPad|Android|webOS|iPhone|iPod|pocket|psp|kindle|Kindle|avantgo|blazer|midori|Tablet|Palm|maemo|plucker|phone|symbian|IEMobile|mobile|ZuneWP7|Windows Phone|Opera Mini|BlackBerry/i.test(navigator.userAgent);
@@ -749,6 +749,7 @@ function fitBackground(){
 	console.log("WdDoc:"+docWidth+"  heiDoc:"+docHeight ) ;
 
 if( (wdWidth-wdHeight) > 0 ){
+
      // if que determina si la pantalla es mas ancha que alta
     console.log("pantalla mas ancha que alta");
 
@@ -782,9 +783,14 @@ if( (wdWidth-wdHeight) > 0 ){
 								$("#home").css("background-size","auto  100% ");
 								console.log("pantalla3");
 						}else{
+								if(bgHeight < wdHeight && bgWidth > wdWidth){
+									$("#home").css("background-size","100% auto  ");
+									console.log("pantalla4");
+								}else{
+									$("#home").css("background-size"," auto  100%");
+									console.log("pantalla 5");
+								}
 
-								$("#home").css("background-size","100% auto ");
-								console.log("pantalla4");
 						};
 
 				 };
