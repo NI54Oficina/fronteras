@@ -13,6 +13,9 @@ function LoaderGif() {
 
 var loadHome=false;
 function LoadFunction(){
+	if(!readyExecuted){
+		ReadyFunction();
+	}
 	console.log("entra load");
 		CheckDevice();
 		Header();
@@ -321,6 +324,12 @@ var lengthRemates = 0;
 var readyExecuted=false;
 
 $(document).on("ready",function(){
+	ReadyFunction();
+
+});
+
+
+function ReadyFunction(){
 	readyExecuted=true;
 	CheckDevice();
 	console.log("entra ready jsjs");
@@ -376,8 +385,8 @@ $(document).on("ready",function(){
  //  $('.home-botom-box').css('margin-top', margintop+"px");
 
  //  };
-
-});
+	
+}
 
 function CenterToParent(){
 	$(".center-to-parent").each(function(){
