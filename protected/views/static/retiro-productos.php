@@ -1,3 +1,5 @@
+<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p>Sanidad > Retiro de productos veterinarios</p> </div>
+
 <?php
 
 
@@ -7,7 +9,7 @@ $retiros= Retiro::model()->findAll();
  <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs" >
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
 

@@ -8,7 +8,7 @@
 <div class="col-xs-12 hidden-lg hidden-xl titulo-mobile-producir titulo-mobile"> <p> Genética > Protocolo de reproducción  </p> </div>
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs" >
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner ">
 			<p class="center-to-parent color-genetica planes-h1">Protocolo de reproducción </p>
