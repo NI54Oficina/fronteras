@@ -847,7 +847,7 @@ function slider(){
 	console.log("entra slider");
 
 var currentIndex = 0,
-  items = $('.general-container-producir'),
+  items = $('.general-container-producir');
   itemAmt = items.length;
 
 	$(".nav-dots").each(function(){
