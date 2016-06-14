@@ -9,7 +9,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
-			<p class="center-to-parent color-sanidad planes-h1">Enfermedades</p>
+			<p class="center-to-parent color-sanidad planes-h1">Enfermedades infecciosas</p>
 		</div>
 	</div>
 </div>
