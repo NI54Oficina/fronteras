@@ -833,7 +833,6 @@ header .home-box:hover > .hoy-box {
     margin: 0;
     text-align: left;
     padding-left: 10px;
-    padding-bottom: 10px;
     font-weight: 700;
     color: #8C8C8C;
 }
@@ -2062,7 +2061,7 @@ header .home-box:hover > .hoy-box {
 	font-size: 1.12em;
 	margin-bottom: 0px;
 	position: relative;
-	margin-top: 2%;
+	margin-top: 5%;
 }
 
 .home-bottom-box > a> div {
