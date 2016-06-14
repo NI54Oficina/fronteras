@@ -2397,7 +2397,7 @@ header .home-box:hover > .hoy-box {
 }
 
 .titulo-mobile-producir {
-	background-color: #7067B0;
+	background-color: #6D4A84;
 }
 
 .titulo-mobile-estemes {
@@ -2844,9 +2844,9 @@ header .home-box:hover > .hoy-box {
 	list-style-type: square;
  }
 
-.cubicacion-container{
+/*.cubicacion-container{
 	padding:30px;
- }
+ }*/
 
 .general-container-producir{
 	padding: 30px 30px;
@@ -2926,6 +2926,7 @@ header .home-box:hover > .hoy-box {
 	width:100%;
 	border-bottom: 2px solid gray;
 	padding: 10px 0px;
+  margin-bottom: 0;
 }
 
 .map-lluvia{
@@ -2938,7 +2939,9 @@ header .home-box:hover > .hoy-box {
     margin-top: 1%;
     width: 52vw;
 }
-
+.n-lluvia{
+  margin-bottom: 35px;
+}
 
 /********************FIN LLUVIAS (clima)******************/
 

@@ -238,6 +238,9 @@
 		padding: 0px 15px;
 	}
 
+	.title-producir-inside {
+  margin-top: 20px;
+  }
 
 
    /*REMATES */
@@ -409,7 +412,10 @@
 	.red-form{
 		margin-top: 0;
 	}
+	.red-box {
+     padding:0;
 
+		 }
 
 	/*HEADER*/
 
