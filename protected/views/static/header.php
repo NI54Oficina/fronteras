@@ -3,10 +3,18 @@ $("body").on("touchstart",".navbar-toggle",function(){
 	//console.log("touch start");
 	$(this).click();
 	if(isMobile){
-		setTimeout(function(){
-			$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
-			if($("#inner-header").hasClass("in")){
+		AdaptMenuContent();
+	}
+});
+$("body").on("mousedown",".navbar-toggle",function(){
 
+});
+
+function AdaptMenuContent(){
+	setTimeout(function(){
+			
+			if($("#inner-header").hasClass("in")){
+				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 				scrollTop= $(document).scrollTop();
 				$("header").css("position","absolute");
 				//$("#navbarSecciones").css("height","auto");
@@ -15,7 +23,7 @@ $("body").on("touchstart",".navbar-toggle",function(){
 				$(".fadder").hide();
 				$("section").hide();
 				$(document).scrollTop(0);
-
+				
 				//$(".fadder").fadeOut(1000);
 			}else{
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
@@ -26,18 +34,22 @@ $("body").on("touchstart",".navbar-toggle",function(){
 				$(".fadder").show();
 				$("section").show();
 				$(document).scrollTop(scrollTop);
-
-				setTimeout(function(){ $(".fadder").css("opacity",1); $("section").css("opacity",1); },500);
+				ResetHeight();
+				SetDistanceHeader();
+				ResizeViewportElements();
+				
+				setTimeout(function(){ 
+					
+					SameHeight(); 	
+					AdaptSquare();
+					$(".fadder").css("opacity",1); $("section").css("opacity",1); 
+				},500);
 
 				//$(".fadder").fadeIn(1000);
 			}
 
 		},500);
-	}
-});
-$("body").on("mousedown",".navbar-toggle",function(){
-
-});
+}
 
 </script>
 <header class="headerDesktop" >
