@@ -799,12 +799,13 @@ if( (wdWidth-wdHeight) > 0 ){
 								$("#home").css("background-size","auto  100% ");
 								console.log("pantalla3");
 						}else{
-								if(bgHeight < wdHeight || bgWidth > wdHeight){
+								if(bgHeight < wdHeight){
 									$("#home").css("background-size","auto 100%  ");
 									console.log("pantalla4");
 								}else{
-									$("#home").css("background-size","100% auto ");
+									$("#home").css("background-size","130% auto ");
 									console.log("pantalla 5");
+
 								}
 
 						};
