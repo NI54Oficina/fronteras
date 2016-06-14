@@ -449,6 +449,8 @@
 
 @media screen and (max-width: 767px) and (orientation:landscape){
 
+
+/*DISTRIBUCION DE COLUMNAS*/
 	.col-lan-xs-3{
 			width: 25%;
 	}
@@ -460,4 +462,11 @@
 	.col-lan-xs-4{
 			width: 33%;
 	}
+
+
+/*FIN DISTRIBUCION DE COLUMNAS*/
+
+
+
+
 }

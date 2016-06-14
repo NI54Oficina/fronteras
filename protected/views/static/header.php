@@ -12,7 +12,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 
 function AdaptMenuContent(){
 	setTimeout(function(){
-			
+
 			if($("#inner-header").hasClass("in")){
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 				scrollTop= $(document).scrollTop();
@@ -23,7 +23,7 @@ function AdaptMenuContent(){
 				$(".fadder").hide();
 				$("section").hide();
 				$(document).scrollTop(0);
-				
+
 				//$(".fadder").fadeOut(1000);
 			}else{
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
@@ -37,12 +37,12 @@ function AdaptMenuContent(){
 				ResetHeight();
 				SetDistanceHeader();
 				ResizeViewportElements();
-				
-				setTimeout(function(){ 
-					
-					SameHeight(); 	
+
+				setTimeout(function(){
+
+					SameHeight();
 					AdaptSquare();
-					$(".fadder").css("opacity",1); $("section").css("opacity",1); 
+					$(".fadder").css("opacity",1); $("section").css("opacity",1);
 				},500);
 
 				//$(".fadder").fadeIn(1000);
@@ -53,7 +53,7 @@ function AdaptMenuContent(){
 
 function AdaptMenuContentApp(){
 	setTimeout(function(){
-			
+
 			if($("#inner-header").hasClass("in")){
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 				scrollTop= $(document).scrollTop();
@@ -62,13 +62,13 @@ function AdaptMenuContentApp(){
 				$("header").css("display","block");
 				$("#inner-header").css("position","initial");
 				$(document).scrollTop(0);
-				
+
 			}else{
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(document).scrollTop(scrollTop);
-				
+
 				//$(".fadder").fadeIn(1000);
 			}
 

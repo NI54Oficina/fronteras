@@ -677,7 +677,7 @@ and (orientation: landscape)  {
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 95px;
+		height:125px;
 		width: 40vw;
 		margin-left:0;
 		margin-bottom: 15px;
