@@ -318,8 +318,10 @@ function checkVisible( elm, evalType ) {
 
 var indexRemates=0;
 var lengthRemates = 0;
+var readyExecuted=false;
 
 $(document).on("ready",function(){
+	readyExecuted=true;
 	CheckDevice();
 	console.log("entra ready jsjs");
 	if(isMobile){
