@@ -14,7 +14,9 @@ function AdaptMenuContent(){
 	setTimeout(function(){
 
 			if($("#inner-header").hasClass("in")){
+				$("#back-header2").css("display","none");
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
+
 				scrollTop= $(document).scrollTop();
 				$("header").css("position","absolute");
 				//$("#navbarSecciones").css("height","auto");
@@ -26,7 +28,9 @@ function AdaptMenuContent(){
 
 				//$(".fadder").fadeOut(1000);
 			}else{
+
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
+				$("#back-header2").css("display","block");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(".fadder").css("opacity",0);
@@ -56,6 +60,7 @@ function AdaptMenuContentApp(){
 
 			if($("#inner-header").hasClass("in")){
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
+
 				scrollTop= $(document).scrollTop();
 				$("header").css("position","absolute");
 				//$("#navbarSecciones").css("height","auto");
@@ -68,6 +73,7 @@ function AdaptMenuContentApp(){
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(document).scrollTop(scrollTop);
+
 
 				//$(".fadder").fadeIn(1000);
 			}
@@ -99,7 +105,10 @@ function AdaptMenuContentApp(){
 
 
 
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header hidden-lg hidden-md hidden-sm"  style="height:100%;">
 
+	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
+	  	</div>
 
 <span  class=" glyphicon glyphicon-th-large navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>
 

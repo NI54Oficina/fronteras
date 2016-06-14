@@ -139,6 +139,8 @@ function LoadFunction(){
 			$(".fadder").css('opacity',1);
 			$("section").css('opacity',1);
 		},1000);
+
+		fitBackground();
 	});
 
 	function ResizeViewportElements(){
@@ -759,8 +761,13 @@ if( (wdWidth-wdHeight) > 0 ){
 
 					if(docHeight > wdHeight){
 
-								$("#home").css("background-size"," auto 100%");
-								console.log("DOCUMENTO MAS ALTO")
+						if(bgHeight < wdHeight){
+							$("#home").css("background-size","auto 100%  ");
+							console.log("pantalla0");
+						}else{
+							$("#home").css("background-size","100% auto ");
+							console.log("pantalla 0.5");
+						}
 					}else {
 								$("#home").css("background-size","100% auto");
 								console.log("DOCUMENTO IGUAL");
@@ -773,9 +780,15 @@ if( (wdWidth-wdHeight) > 0 ){
 
 			 		if(docHeight > wdHeight) {
 
-
-										$("#home").css("background-size","auto 100% ");
-										console.log("pantalla1");
+						if(bgHeight < wdHeight){
+							$("#home").css("background-size","auto 100%  ");
+							console.log("pantalla1");
+						}else{
+							$("#home").css("background-size","100% auto ");
+							console.log("pantalla 2");
+						}
+										// $("#home").css("background-size","auto 100% ");
+										// console.log("pantalla1");
 
 
 					}else{
@@ -784,11 +797,11 @@ if( (wdWidth-wdHeight) > 0 ){
 								$("#home").css("background-size","auto  100% ");
 								console.log("pantalla3");
 						}else{
-								if(bgHeight < wdHeight && bgWidth > wdWidth){
-									$("#home").css("background-size","100% auto  ");
+								if(bgHeight < wdHeight || bgWidth > wdHeight){
+									$("#home").css("background-size","auto 100%  ");
 									console.log("pantalla4");
 								}else{
-									$("#home").css("background-size"," auto  100%");
+									$("#home").css("background-size","100% auto ");
 									console.log("pantalla 5");
 								}
 
