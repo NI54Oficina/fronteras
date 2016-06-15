@@ -929,10 +929,13 @@ $('.nav-dot').click(function() {
 
 // FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
 function backButton(){
-	$('.boton-volver-header').click(function(){
-		history.back();
-	});
-
+	if (typeof BackApp == 'function'){
+		
+	}else{
+		$('.boton-volver-header').click(function(){
+			history.back();
+		});
+	}
 	console.log("volver");
 }
 
