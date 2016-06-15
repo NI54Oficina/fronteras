@@ -65,7 +65,7 @@
 		<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner producir-box-inner square">
-					<p class="long-word color-sanidad center-to-parent">Días de retiro de productos veterinarios</p>
+					<p class="long-word color-sanidad center-to-parent">Días de retiro de </br> productos veterinarios</p>
 				</div>
 
 			</div>
