@@ -3012,8 +3012,17 @@ header .home-box:hover > .hoy-box {
 	background-image: url(../img/next-button.png);
 }
 
+#next:hover{
+	background-image: url(../img/next-buttonover.png);
+}
+
+
 #prev{
 	background-image: url(../img/prev-button.png);
+}
+
+#prev:hover{
+	background-image: url(../img/prev-buttonover.png);
 }
 
 .boton-ganado{
