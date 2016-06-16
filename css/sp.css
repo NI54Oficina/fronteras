@@ -379,7 +379,7 @@ and (orientation : portrait){
 	}
 
 	.box-mercado .table-mercado-items .moneda-mercados {
-		font-size: .7rem;
+		font-size: .7em;
 		padding-left: 5px;
 	}
 
@@ -420,10 +420,11 @@ and (orientation : portrait){
 	}
 
 
-
-  .box-mercado-clima-noticias, .box-clima, .box-noticias {
+/*.box-clima, */
+  .box-mercado-clima-noticias, .box-noticias {
     padding: 0px 10px;
   }
+
 
 
 	/*

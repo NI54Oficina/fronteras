@@ -227,6 +227,15 @@
 	}
 
 
+	.box-clima :first-child{
+    padding-top: 0px;
+}
+
+.box-clima:nth-child(2),  .box-clima:nth-child(3){
+	padding-top: 30px ;
+}
+
+
 	/* CUBICACION BAÑADEROS */
 
 
@@ -442,8 +451,14 @@
 	}
 
 	.boton-ganado {
-    margin-top: 0;			
+    margin-top: 0;
 		}
+
+		.boton-ganado {
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+}
 
 	/*LINK DE INTERESES*/
 
@@ -470,6 +485,12 @@
 	.col-lan-xs-4{
 			width: 33%;
 	}
+
+	/*CLIMA*/
+
+	.mapa-clima {
+    margin-top: 0px;
+}
 
 
 /*FIN DISTRIBUCION DE COLUMNAS*/
