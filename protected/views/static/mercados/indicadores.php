@@ -78,7 +78,7 @@
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
 								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<p class="moneda-mercados"> <?php if($key=="Variación"){
+										<p class="moneda-mercados"><?php if($key=="Variación"){
 
 										$variacion=floatval(str_replace(',','.',$c[$key]));
 										if($variacion<0){
@@ -116,7 +116,7 @@
 	<?php $item=$monedas; ?>
 
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 container-items-mercados " hid="1">
-		
+
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
 
 			<h3>- <?php echo $item["Nombre"]; ?> - </h3>
