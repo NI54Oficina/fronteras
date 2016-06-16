@@ -15,7 +15,7 @@
 		margin-bottom: 5px;
 	}
 	.section { /*Disminucion de padding en mobile*/
-		padding:50px 2px;
+		padding:20px 2px;
 	}
 
 	.col-xs-5{
@@ -440,6 +440,10 @@
 		text-align: left;
 		padding:0 10px;
 	}
+
+	.boton-ganado {
+    margin-top: 0;			
+		}
 
 	/*LINK DE INTERESES*/
 
