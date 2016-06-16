@@ -60,7 +60,7 @@ function AdaptMenuContentApp(){
 
 			if($("#inner-header").hasClass("in")){
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
-
+				$("#back-header2").css("display","none");
 				scrollTop= $(document).scrollTop();
 				$("header").css("position","absolute");
 				//$("#navbarSecciones").css("height","auto");
@@ -70,6 +70,7 @@ function AdaptMenuContentApp(){
 
 			}else{
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
+				$("#back-header2").css("display","block");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(document).scrollTop(scrollTop);
