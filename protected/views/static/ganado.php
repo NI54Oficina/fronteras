@@ -47,7 +47,7 @@
 
 
 
-		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/angus-1.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
@@ -72,7 +72,7 @@
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
 
-		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/angus-2.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
@@ -119,7 +119,7 @@
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
 
-		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/angus-4.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
@@ -142,7 +142,7 @@
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
 
-		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/img-test.png">
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/braford-2.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
