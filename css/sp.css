@@ -326,7 +326,6 @@ and (orientation : portrait){
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 120px;
 		margin-top: -6px;
 	}
 
@@ -470,10 +469,6 @@ and (orientation : landscape){
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 61px;
-		/*width: 40vw;
-		margin-left: 15px;
-		margin-bottom: 15px;*/
 	}
 
 	header .p-header-mobile {
@@ -578,8 +573,7 @@ and (orientation : landscape){
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 109px;
-		/*width: 40vw;*/
+		
 		margin-left:0;
 		margin-bottom: 15px;
 	}
@@ -625,8 +619,7 @@ and (orientation : landscape){
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 125px;
-		/*width: 40vw;*/
+		
 		margin-left:0;
 		margin-bottom: 15px;
 	}
@@ -679,8 +672,7 @@ and (orientation: landscape)  {
 
 	.ul-nav li {
 		padding-left: 0;
-		height:125px;
-		/*width: 40vw;*/
+		
 		margin-left:0;
 		margin-bottom: 15px;
 	}

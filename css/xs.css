@@ -89,7 +89,6 @@
 
 	.ul-nav li {
 		padding-left: 0;
-		height: 140px;
 		margin-bottom: 10px !important;
 		padding:0;
 	}
@@ -484,12 +483,6 @@
 
 	.col-lan-xs-4{
 			width: 33%;
-	}
-
-	.ul-nav li{
-
-	    width: 25%;
-
 	}
 
 	.p-header-mobile {
