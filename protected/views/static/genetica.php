@@ -65,38 +65,4 @@
 	</a>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md">
-	<div class="box-genetica">
-		<div class="box-genetica-inner producir-box-inner square">
-			<p class="color-genetica center-to-parent"></p>
-		</div>
-	</div>
-  	</div>
-
-
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-xl">
-	<div class="box-genetica ">
-		<div class="box-genetica-inner producir-box-inner square">
-			<p  class="color-genetica center-to-parent"></p>
-		</div>
-	</div>
-  	</div>
-
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-xl">
-	<div class="box-genetica ">
-		<div class="box-genetica-inner producir-box-inner square">
-			<p class="color-genetica center-to-parent"></p>
-		</div>
-	</div>
-  	</div>
-
-  	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-xl">
-	<div class="box-genetica ">
-		<div class="box-genetica-inner producir-box-inner square">
-			<p class="color-genetica center-to-parent"></p>
-		</div>
-	</div>
- 	 </div>
-
-
 </section>

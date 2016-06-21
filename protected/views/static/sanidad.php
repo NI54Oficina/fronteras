@@ -74,7 +74,7 @@
 
 
 	<a href="#">
-		<div class="box-producir-2  box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
+		<div class="box-producir-2  box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-lg hidden-xl hidden-xs hidden-sm hidden-lg hidden-md">
 			<div class="box-sanidad border-shadow">
 				<div class="box-sanidad-inner producir-box-inner square">
 					<p class="long-word color-sanidad center-to-parent">Valores constantes de animales en producción</p>
@@ -85,7 +85,7 @@
 
 
 	<a href="">
-		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md">
+		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg hidden-xl">
 			<div class="box-sanidad">
 				<div class="box-sanidad-inner producir-box-inner square">
 					<p class="color-sanidad center-to-parent"></p>
@@ -95,7 +95,7 @@
 	</a>
 
 	<a href="">
-		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md">
+		<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg hidden-xl">
 			<div class="box-sanidad">
 				<div class="box-sanidad-inner producir-box-inner square">
 					<p class="color-sanidad center-to-parent"></p>
@@ -105,7 +105,7 @@
 	</a>
 
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2 hidden-lg hidden-xl">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner producir-box-inner square">
 				<p class="color-sanidad center-to-parent"></p>
@@ -113,7 +113,7 @@
 		</div>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2 hidden-lg hidden-xl">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner producir-box-inner  square">
 				<p class="color-sanidad center-to-parent"></p>
@@ -121,7 +121,7 @@
 		</div>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2 hidden-lg hidden-xl">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner producir-box-inner square">
 				<p class="color-sanidad center-to-parent"></p>
@@ -129,7 +129,7 @@
 		</div>
 	</div>
 
-	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md hidden-lg-2">
+	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-lg hidden-xl hidden-sm hidden-md hidden-lg-2">
 		<div class="box-sanidad">
 			<div class="box-sanidad-inner producir-box-inner square">
 				<p class="color-sanidad center-to-parent"></p>

@@ -67,7 +67,7 @@ isHome=true;
 	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
-		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">	
+		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
  			<div class="ayuda-box square">
  				<div hid="1">
  					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
