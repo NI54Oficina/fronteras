@@ -471,9 +471,9 @@ and (orientation : landscape){
 	.ul-nav li {
 		padding-left: 0;
 		height: 61px;
-		width: 40vw;
+		/*width: 40vw;
 		margin-left: 15px;
-		margin-bottom: 15px;
+		margin-bottom: 15px;*/
 	}
 
 	header .p-header-mobile {
@@ -572,14 +572,14 @@ and (orientation : landscape){
 
 	header .cont-section-mobile {
 		height: 80px!important;
-		width: 40vw!important;
+		/*width: 40vw!important;*/
 		display: block;
 	}
 
 	.ul-nav li {
 		padding-left: 0;
 		height: 109px;
-		width: 40vw;
+		/*width: 40vw;*/
 		margin-left:0;
 		margin-bottom: 15px;
 	}
@@ -620,20 +620,20 @@ and (orientation : landscape){
 	}
 
 	header .home-box > div > div > img {
-		width: 25%;
+		width: 40%;
 	}
 
 	.ul-nav li {
 		padding-left: 0;
 		height: 125px;
-		width: 40vw;
+		/*width: 40vw;*/
 		margin-left:0;
 		margin-bottom: 15px;
 	}
 
 	header .cont-section-mobile {
 		height: 92px!important;
-		width: 40vw!important;
+		/*width: 40vw!important;*/
 		display: block;
 	}
 
@@ -651,7 +651,7 @@ and (orientation : landscape){
 	}
 
 	header .cont-menu-mob {
-		padding: 11px 50px;
+		padding: 30px 30px;
 	}
 
 }
@@ -664,6 +664,7 @@ and (orientation: landscape)  {
 
 	header .home-box > div > div{
 		padding: 0% 0%!important;
+    width: 100%;
 	}
 
 	header .home-box > div > div > img {
@@ -672,14 +673,14 @@ and (orientation: landscape)  {
 
 	.cont-section-mobile {
 		height: 65px!important;
-		width: 40vw!important;
+		/*width: 40vw!important;*/
 		display: block;
 	}
 
 	.ul-nav li {
 		padding-left: 0;
 		height:125px;
-		width: 40vw;
+		/*width: 40vw;*/
 		margin-left:0;
 		margin-bottom: 15px;
 	}

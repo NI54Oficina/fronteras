@@ -90,7 +90,7 @@
 	.ul-nav li {
 		padding-left: 0;
 		height: 140px;
-		margin-bottom: 15px;
+		margin-bottom: 10px !important;
 		padding:0;
 	}
 
@@ -159,14 +159,14 @@
 
 	.cont-section-mobile{
 		height: 110px!important;
-		width: 40vw!important;
+		/*width: 40vw!important;*/
 		display:block;
 
 	}
 
-	.img-menu-header{
+	/*.img-menu-header{
 		margin-top: 5%;
-	}
+	}*/
 
 	header .home-upper-box > div{
 		display:block;
@@ -484,6 +484,16 @@
 
 	.col-lan-xs-4{
 			width: 33%;
+	}
+
+	.ul-nav li{
+
+	    width: 25%;
+
+	}
+
+	.p-header-mobile {
+		width: auto;
 	}
 
 	/*CLIMA*/
