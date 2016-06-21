@@ -12,9 +12,9 @@ $localidades["910"]="9 de Julio";$localidades["32861"]="Adelia María";$localida
 
 
 $localidad= "41396";
-if(isset($_POST["localidad"])){
+/*if(isset($_POST["localidad"])){
 	$_SESSION["localidad"]= $_POST["localidad"];
-}
+}*/
 if(isset($_SESSION["localidad"])){
 	$localidad= $_SESSION["localidad"];
 }else{

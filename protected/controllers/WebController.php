@@ -31,7 +31,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia","setClima"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -205,6 +205,11 @@ class WebController extends Controller
 			<option value="<?php echo $localidad->id; ?>"><?php echo $localidad->nombre; ?></option>
 		<?php 
 		}
+	}
+	
+	public function actionSetClima($id){
+		$_SESSION["localidad"]= $id;
+		echo 1;
 	}
 	
 	public function actionGetVeterinaria($id){
