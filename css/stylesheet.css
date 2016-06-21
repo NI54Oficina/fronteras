@@ -114,9 +114,9 @@ header{
 	background-color:rgb(230, 230, 230);
 }
 
-/*header .home-upper-box > div{
+header .home-upper-box > div{
 	display:none;
-}*/
+}
 
 .cont-section-mobile{
 	display:none;
@@ -156,26 +156,26 @@ header .home-upper-box {
    display:none;
 }
 
-/*header .ayuda-box, .ayuda-box >div {
+header .ayuda-box, .ayuda-box >div {
     background-color: transparent;
-}*/
+}
 
 
-/*header .home-box:hover > .ayuda-box {
+header .home-box:hover > .ayuda-box {
     background-color:transparent;
-}*/
+}
 
 header .home-box > div {
     box-shadow:none;
 }
 
 
-/*header .producir-box, .producir-box >div {
+header .producir-box, .producir-box >div {
     background-color: transparent;
-}*/
+}
 
 
-/*header .home-box:hover > .producir-box {
+header .home-box:hover > .producir-box {
     background-color:transparent;
 }
 
@@ -191,14 +191,11 @@ header .home-box:hover > .estemes-box {
 
 header .hoy-box, .hoy-box >div {
     background-color: transparent;
-}*/
+}
 
 
-/*header .home-box:hover > .hoy-box {
+header .home-box:hover > .hoy-box {
     background-color:transparent;
-}*/
-header .home-box > div > div:nth-child(1){
- height: 117px;
 }
 
 .p-header-mobile {
@@ -327,6 +324,7 @@ header .home-box > div > div:nth-child(1){
 }
 
 
+<<<<<<< HEAD
 .header-mobb {
 
     padding: 20px 25px !important;
@@ -339,6 +337,8 @@ header .home-box > div > div:nth-child(1){
 .nav-pc{
 	background:transparent !important;
 }
+=======
+>>>>>>> origin/master
 
 /******************FIN HEADER ********************/
 
@@ -564,6 +564,11 @@ header .home-box > div > div:nth-child(1){
     display: inline-block;
     max-width: 50%;
 }
+
+.container-noticias-sector{
+  margin-top: 15%;
+}
+
 
 .maxbox-noticias  h4{
     text-align: center;
@@ -1431,7 +1436,7 @@ header .home-box > div > div:nth-child(1){
 
 .box-noticias  h1, .noticia-columna h1{
     color: #999999;
-    font-size: 1.2em;
+    font-size: 0.9em;
     text-align: center;
     margin: 5px 0px;;
 }
@@ -2092,16 +2097,16 @@ header .home-box > div > div:nth-child(1){
 	padding: 20px 20px;
 }
 
-.hoy-box > div, .hoy-box , .p-header-hoy {
+.hoy-box > div, .hoy-box  {
 	background-color: #40CEDB;
 }
 
-.estemes-box, .estemes-box >div , .p-header-estemes {
+.estemes-box, .estemes-box >div {
 	background-color: #0093D4
 }
 
-.producir-box, .p-header-producir{
-	background-color: #7067B0;
+.producir-box{
+	background-color: #917fb5;
 }
 
 .producir-box > div:nth-child(1) {
@@ -2112,7 +2117,7 @@ header .home-box > div > div:nth-child(1){
 	background-color: #7067B0;
 }
 
-.ayuda-box, .ayuda-box >div  .p-header-ayuda{
+.ayuda-box, .ayuda-box >div{
 	background-color:#79BEFE;
 }
 
@@ -2424,7 +2429,7 @@ header .home-box > div > div:nth-child(1){
 }
 
 .titulo-mobile-producir {
-	background-color: #6D4A84;
+	background-color: #917fb5;
 }
 
 .titulo-mobile-estemes {

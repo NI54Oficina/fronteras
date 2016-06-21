@@ -50,7 +50,7 @@
 	</div>
 	</div>
 
-
+<!--
 	<div class="box-producir-2 box-relleno col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-sm hidden-md">
 	<div class="box-nutricion">
 		<div class="box-nutricion-inner producir-box-inner square">
@@ -83,7 +83,7 @@
 	</div>
   	</div>
 
-
+ -->
 
 
 </section>
