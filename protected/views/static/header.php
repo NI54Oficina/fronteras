@@ -149,7 +149,7 @@ function AdaptMenuContentApp(){
 
 								<div class="home-box col-lg-3 ">
 
-									<div class="hoy-box square" onlymobile="true">
+									<div class="hoy-box square nav-pc" onlymobile="true" >
 										<div  class="cont-section-mobile square">
 											<img class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
 										</div>
@@ -167,7 +167,7 @@ function AdaptMenuContentApp(){
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
 
 								<div  class="home-box col-lg-3">
-									<div class="estemes-box square " onlymobile="true">
+									<div class="estemes-box square nav-pc" onlymobile="true">
 										<div  class="cont-section-mobile square">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
 										</div>
@@ -185,7 +185,7 @@ function AdaptMenuContentApp(){
 						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 col-lan-xs-3 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3">
-									<div class="producir-box square" onlymobile="true">
+									<div class="producir-box square nav-pc" onlymobile="true">
 										<div  class="cont-section-mobile square">
 											<!-- <img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-producir.png" alt="Chat" /> -->
 										</div>
@@ -202,7 +202,7 @@ function AdaptMenuContentApp(){
 						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6  col-lan-xs-3 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3">
-									<div class="ayuda-box square" onlymobile="true">
+									<div class="ayuda-box square nav-pc" onlymobile="true">
 										<div class="cont-section-mobile square" onlymobile="true">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
 										</div>

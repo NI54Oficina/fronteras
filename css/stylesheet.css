@@ -336,6 +336,9 @@ header .home-box > div > div:nth-child(1){
   margin-top: 0 !important;
 }
 
+.nav-pc{
+	background:transparent !important;
+}
 
 /******************FIN HEADER ********************/
 
