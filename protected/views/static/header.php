@@ -104,7 +104,6 @@ function AdaptMenuContentApp(){
 	</div>
 
 
-<!-- hola nose donde estoy -->
 
 	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header hidden-lg hidden-md hidden-sm"  style="height:100%;">
 
@@ -133,8 +132,8 @@ function AdaptMenuContentApp(){
 
 
 
-
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob ">
+						<!-- Header que se muestra solamente en pc - XL - MD -->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs hidden-sm ">
 
 						<!-- BOTON VOLVER -->
 						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="margin-top:.3%">
@@ -214,6 +213,66 @@ function AdaptMenuContentApp(){
 							</a>
 						</li>
 					</div>
+
+
+
+					<!-- Header que se muestra solamente en SM , XS -->
+
+				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-xl  hidden-md header-mobb">
+
+						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
+
+							<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+
+							<div class="hoy-box">
+								<div >
+									<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
+								</div>
+								<p class="p-header-mobb p-header-hoy">Hoy</p>
+							</div>
+						</div>
+						</a>
+
+					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
+
+							<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+								<div class="estemes-box ">
+									<div >
+										<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
+									</div>
+									<p class="p-header-mobb p-header-estemes " >Este mes</p>
+								</div>
+						</div>
+					</a>
+
+						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
+						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+								<div class="producir-box ">
+									<div>
+										<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
+									</div>
+								<p class="p-header-mobb p-header-producir">Producir +</p>
+								</div>
+
+						</div>
+
+						</a>
+
+						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
+									<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+										<div class="ayuda-box">
+											<div >
+												<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
+											</div>
+											<p class="p-header-mobb p-header-ayuda">Ayuda</p>
+										</div>
+
+									</div>
+						</a>
+
+			</div>
+
+
 
 
 		</ul>

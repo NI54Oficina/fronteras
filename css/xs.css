@@ -485,9 +485,10 @@
 			width: 33%;
 	}
 
-	.p-header-mobile {
-		width: auto;
-	}
+
+	header .home-box > div > div:nth-child(1) {
+    height: 85px;
+}
 
 	/*CLIMA*/
 
