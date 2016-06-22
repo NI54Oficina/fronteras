@@ -39,7 +39,7 @@ function LoadFunction(){
 			FadeHome();
 		}
 		if(isMobile){
-			lengthRemates=    $('.container-cabezas').length;
+			lengthRemates=    $('.table-indexer').length;
 			initializeRemates();
 			$('#iconos-institucional div').each(function(i) {
 				$(this).addClass('notransition');

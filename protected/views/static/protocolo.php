@@ -41,7 +41,7 @@ $protocolos= Protocolo::model()->findAll();
 
 				<!--Contenido -->
 				<?php foreach($protocolos as $p){ ?>
-				<div class="container-prot info-remates-mobile" hid="1">
+				<div class="container-prot info-remates-mobile table-indexer" hid="1">
 					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;position: absolute;left: 0;">
 							<div class="number-protocolo center-to-parent prot-po">
 									<?php echo $p["prioridad"]; ?>
