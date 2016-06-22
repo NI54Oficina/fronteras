@@ -1,9 +1,6 @@
-<?php 
+<?php
 $protocolos= Protocolo::model()->findAll();
 
-foreach($protocolos as $p){
-	echo $p->nombre;
-}
 ?>
 
 <!-- REMATES GENERALES -->
@@ -46,12 +43,16 @@ foreach($protocolos as $p){
 			<!-- Caja fecha particular -->
 
 				<!--Contenido -->
-
+				<?php foreach($protocolos as $p){ ?>
 				<div class="container-prot info-remates-mobile" hid="1">
 					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;     position: absolute;
     left: 0;">
-					<p class="number-protocolo center-to-parent">2</p>
+					<p class="number-protocolo center-to-parent">
+						<?php echo $p["prioridad"]; ?>
+					</p>
 				</div>
+
+				<?php } ?>
 
 		</div>
 
