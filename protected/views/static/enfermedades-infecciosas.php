@@ -40,7 +40,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enfermedades-inside-container">
 
-		<p class="relleno-enfermedad">
+		<p class="relleno-enfermedad" >
 			Seleccione una enfermedad
 		</p>
 
