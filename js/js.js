@@ -385,7 +385,7 @@ function ReadyFunction(){
  //  $('.home-botom-box').css('margin-top', margintop+"px");
 
  //  };
-	
+
 }
 
 function CenterToParent(){
@@ -585,7 +585,6 @@ function turnOnButtonRemates(){
 					$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
 					$(".fade-in-mobile").fadeIn(400);
 					checkNavigationButton();
-
 
 					console.log("esto funciona");
 				 });
@@ -930,7 +929,7 @@ $('.nav-dot').click(function() {
 // FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
 function backButton(){
 	if (typeof BackApp == 'function'){
-		
+
 	}else{
 		$('.boton-volver-header').click(function(){
 			history.back();

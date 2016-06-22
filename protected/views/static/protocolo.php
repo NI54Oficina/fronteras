@@ -20,13 +20,14 @@ $protocolos= Protocolo::model()->findAll();
 </div>
 
 
+
 	<!-- Caja general -->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:20px 30px; text-align:center;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile" style="padding:20px 30px; text-align:center;">
 
 	<p class="hidden-lg  fecha-remates-mobile  color-title-prod">
-	<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
+	<button class="boton-prueba-atras b-prot-at"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 	Prioridad
-	<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button>
+	<button class="boton-prueba b-prot-ad"><span class="glyphicon glyphicon-triangle-right"></span></button>
 	</p>
 
 		<!-- Caja general fecha -->
@@ -41,8 +42,7 @@ $protocolos= Protocolo::model()->findAll();
 				<!--Contenido -->
 				<?php foreach($protocolos as $p){ ?>
 				<div class="container-prot info-remates-mobile" hid="1">
-					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;     position: absolute;
-    left: 0;">
+					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;position: absolute;left: 0;">
 							<div class="number-protocolo center-to-parent prot-po">
 									<?php echo $p["prioridad"]; ?>
 						</div>
@@ -52,12 +52,7 @@ $protocolos= Protocolo::model()->findAll();
 
 		</div>
 
-
-
-		<!-- Caja general: modalidad, consignatorio, lugar, provincia, cabezas -->
-	<!-- 	<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile"> -->
-
-			<!-- Modalidad -->
+		<!-- Modalidad -->
 
 			<div class=" col-xl-7 col-lg-2-7 col-md-6 col-sm-6 col-xs-6 remates-box-2 containerColumnas">
 

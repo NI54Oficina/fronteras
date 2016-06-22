@@ -1436,8 +1436,7 @@ header .home-box:hover > .hoy-box {
     color: #999999;
     font-size: 0.9em;
     text-align: center;
-    margin: 5px 0px;
-	margin-top:0px;
+    margin: 5px 0px;;
 }
 
 
@@ -1745,7 +1744,6 @@ header .home-box:hover > .hoy-box {
 
 .container-inside-noticia img{
     border: 3px solid #2ED7AA;
-	margin:15px 0;
 }
 
 .container-inside-noticia a{
@@ -2682,6 +2680,15 @@ header .home-box:hover > .hoy-box {
 	top:25%;
 }
 
+.b-prot-at {
+    top:5% !important;
+    left: auto;
+}
+
+.b-prot-ad{
+  top:5% !important;
+      right: 8%;
+}
 /********************TERMINA REMATES EN MOBILE*****************/
 
 /****************** SANIDAD- ENFERMEDADES ***********************/
