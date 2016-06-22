@@ -1,3 +1,11 @@
+<?php
+$data="angus";
+$Criteria = new CDbCriteria();
+				$Criteria->condition = "raza = '".$data."'";
+$ganado= EstadoCorporal::model()->findAll($Criteria);
+
+?>
+
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="ganado">
 
 	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Tabla estado corporal</p> </div>
@@ -39,6 +47,8 @@
 
 
       <!-- Tipo de vaca 1 -->
+	<?php foreach($ganado as $g){ ?>
+
 <div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir " hid="1" id="vaca-tipo-1">
 
 
@@ -47,26 +57,27 @@
 
 
 
-		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/angus-1.png">
+		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-<?php echo $g["indice"]; ?>.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1>FLACA</h1>
-		<p hid="2" class="text-ganado">Profunda cavidad alrededor del nacimiento de la cola. Huesos pelvianos y coxales facilmente palpables. Ausencia total del tejido adiposo. Marcada depresión pelviana y lumbar.</br>
-		Las vacas en este estado corporal no son funcionales. Estan en anestro profundo. Capacidad de lactacion comprometida.
+		<h1><?php echo $g["estado"]; ?></h1>
+		<p hid="2" class="text-ganado">
+			<?php echo $g["info"]; ?>
 		</p>
 
-		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/angus-info-1.png">
+		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-info-<?php echo $g["indice"]; ?>.png">
 
 
 	</div>
 
 </div>
 
+	<?php } ?>
 
 
       <!-- Tipo de vaca 2 -->
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir slider-ganado" id="vaca-tipo-2">
+<!-- <div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir slider-ganado" id="vaca-tipo-2">
 
 
 
@@ -86,11 +97,11 @@
 
 	</div>
 
-</div>
+</div> -->
 
 		<!-- Tipo de vaca 3 -->
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-3">
+<!-- <div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-3">
 
 
 
@@ -109,10 +120,10 @@
 
 	</div>
 
-</div>
+</div> -->
 
 		<!-- Tipo de vaca 4 -->
-
+<!--
 <div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-4">
 
 
@@ -131,12 +142,12 @@
 
 	</div>
 
-</div>
+</div> -->
 
 
 		<!-- Tipo de vaca 5 -->
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-5">
+<!-- <div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir  slider-ganado" id="vaca-tipo-5">
 
 
 
@@ -155,9 +166,9 @@
 	</div>
 
 
-</div>
+</div> -->
 
-
+<!-- TERMINA TIPO VACA 5 -->
 
 
 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado"  hid="1">
