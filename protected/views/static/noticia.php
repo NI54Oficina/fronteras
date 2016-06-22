@@ -36,28 +36,20 @@ $categoria=$nota["categoria"];
 
 	
 	<br>
-	<p 	class="categoria" style="position:absolute;" style="margin-bottom:0;"><?php echo $nota->categoria; ?></p>
+	<p 	class="categoria" ><?php echo $nota->categoria; ?></p>
 	<!-- sacar hora !-->
-	<p 	class="fecha-not-inner" style="margin-bottom:0;"><?php echo $nota->fecha; ?></p>
-<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 line-not" style="width:100%;"></div>
+	<p 	class="fecha-not-inner" ><?php echo $nota->fecha; ?></p>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 line-not"></div>
 	<br>
 	<h1  class="titulo"><?php echo $nota->titulo; ?></h1>
 
-	<h3	class="bajada" style="margin-top:0px;margin-bottom:20px;font-size:1.3em;"><?php echo $nota->bajada; ?></h3>
+	<h3	class="bajada" ><?php echo $nota->bajada; ?></h3>
 
-	<p	class="cuerpo"><?php echo $nota->body; ?></p>
+	<div	class="cuerpo"><?php echo $nota->body; ?></div>
 
 	<p	class="fuente"><?php echo $nota->fuente; ?></p>
 
 
-<style>
-#noticia-art h2{
-	font-size:1.7em;
-}
-#noticia-art p{
-	font-size:1em;
-}
-</style>
 
 </div>
 <?php

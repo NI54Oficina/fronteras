@@ -34,7 +34,8 @@
 
 	<br>
 	
-	<?php if(CCaptcha::checkRequirements()): ?>
+	<?php //if(CCaptcha::checkRequirements()): ?>
+	<?php if(false): ?>
 	<div class="row">
 		<label>Código de seguridad</label>
 		<div id="codeCaptcha">
