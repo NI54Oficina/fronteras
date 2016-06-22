@@ -2694,13 +2694,19 @@ header .home-box:hover > .hoy-box {
 /****************** SANIDAD- ENFERMEDADES ***********************/
 
 .enfermedades-select {
-    background: transparent;
+    background: #f7f7f7;
     border: none;
     border-bottom: 2px solid #6D4A84;
 	width: 100%;
 	margin: 10px 0px;
 	color: rgba(158,158,158,.5);
+	background-image:url(arrow-down-gray.svg);
+	background-position:right;
+	-webkit-appearance:none;
+	background-repeat:no-repeat;
+	background-size: auto 100%;
 }
+
 
 .enfermedades-select:focus {
 	outline:none;
