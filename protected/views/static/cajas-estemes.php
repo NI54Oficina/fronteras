@@ -62,7 +62,7 @@
 
 
 			<!--Título-->
-			<h2 >Checkbox</h2>
+			<h2 >Recomendaciones técnicas</h2>
 				</div>
 
 		</div>

@@ -104,7 +104,7 @@
 	</a>
 
 
-	<a href="#">
+	<!-- <a href="#">
 	<div class="box-interes col-lg-2-5 col-md-3 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 box-relleno hidden-xs hidden-sm hidden-md"   >
 		<div hid="1"> <p class="center-to-parent p-title">
 			Asociación
@@ -128,7 +128,7 @@
 		</div>
 
 	</div>
-	</a>
+	</a> -->
 
 
 

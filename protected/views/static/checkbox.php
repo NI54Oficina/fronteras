@@ -5,7 +5,7 @@
 
 <div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Checkbox </p> </div>
 
-	<h1>Checkbox</h1>
+	<h1>Recomendaciones técnicas</h1>
 
 	<!-- Cajas de la sección -->
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
