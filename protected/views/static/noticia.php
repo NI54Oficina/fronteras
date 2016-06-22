@@ -35,11 +35,11 @@ $currentId= $nota["id"];
 <div id="noticia-art" class="col-lg-9 col-md-9 col-sm-8 col-xs-12 container-inside-noticia">
 
 
-	
+
 	<br>
 	<p 	class="categoria" ><?php echo $nota->categoria; ?></p>
-	
-	<p 	class="fecha-not-inner" ><?php 
+
+	<p 	class="fecha-not-inner" ><?php
 	$utime= strtotime($nota->fecha);
 					echo date("d-m-Y",$utime);
 	?></p>

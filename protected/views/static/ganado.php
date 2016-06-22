@@ -1,5 +1,5 @@
 <?php
-$data="angus";
+$data="braford";
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "raza = '".$data."'";
 $ganado= EstadoCorporal::model()->findAll($Criteria);
@@ -53,15 +53,15 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 
 
 
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1 ">
 
 
 
-		<img class="img-ganado" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-<?php echo $g["indice"]; ?>.png">
+		<img class="img-ganado borde-<?php echo $g["raza"]; ?> " src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-<?php echo $g["indice"]; ?>.png">
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1><?php echo $g["estado"]; ?></h1>
+		<h1 class="color-<?php echo $g["raza"]; ?>"><?php echo $g["estado"]; ?></h1>
 		<p hid="2" class="text-ganado">
 			<?php echo $g["info"]; ?>
 		</p>
