@@ -102,7 +102,19 @@
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 
-				<p >Actualizado: <?php echo array_shift($array)["UltimaFechaActualizacion"]; ?></p>
+				<p>Actualizado: 
+				<?php
+					$auxDate=array_shift($array)["UltimaFechaActualizacion"];
+					//echo $auxDate;
+					//echo "<br>";
+					//$utime= strtotime(array_shift($array)["UltimaFechaActualizacion"]);
+					//echo date("d-m-y",$utime);
+					//$t = date_create_from_format("d-m-y | H:i","22-06-16 | 10:01");
+					//echo date_format($t,"d-m-y");
+					echo substr($auxDate,0, strpos($auxDate,"|"));
+
+				?>
+				</p>
 
 			</div>
 			<?php
@@ -185,7 +197,7 @@
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 
-				<p >Actualizado: <?php echo $item["UltimaFechaActualizacion"]; ?></p>
+				<p >Actualizado: <?php echo substr($item["UltimaFechaActualizacion"],0, strpos($item["UltimaFechaActualizacion"],"|")); ?></p>
 
 			</div>
 

@@ -134,7 +134,8 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 
-				<p>Actualizado: <?php echo $categorias[0]["FechaActualizacion"]; ?></p>
+				<p>Actualizado: 
+				<?php echo $categorias[0]["FechaActualizacion"]; ?></p>
 
 			</div>
 
