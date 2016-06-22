@@ -19,7 +19,6 @@ $secciones["Empresas"]="noticia-tipo-4";
 
 <?php
 
-
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "nid = ".$data;
 				$nota = FeedNoticias::model()->find($Criteria);

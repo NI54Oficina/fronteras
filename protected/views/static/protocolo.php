@@ -1,4 +1,10 @@
+<?php 
+$protocolos= Protocolo::model()->findAll();
 
+foreach($protocolos as $p){
+	echo $p->nombre;
+}
+?>
 
 <!-- REMATES GENERALES -->
 
