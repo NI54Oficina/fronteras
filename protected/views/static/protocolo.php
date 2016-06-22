@@ -47,9 +47,9 @@ $protocolos= Protocolo::model()->findAll();
 				<div class="container-prot info-remates-mobile" hid="1">
 					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;     position: absolute;
     left: 0;">
-					<p class="number-protocolo center-to-parent">
+					<div class="number-protocolo center-to-parent prot-po">
 						<?php echo $p["prioridad"]; ?>
-					</p>
+					</div>
 				</div>
 
 				<?php } ?>
@@ -68,10 +68,13 @@ $protocolos= Protocolo::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Nombre del producto</h2></div>
 				<!--Contenido -->
-
+				<?php foreach($protocolos as $p){ ?>
 				<div class="container-prot info-remates-mobile"  id="dias-prot" hid="1">
-					<p class="center-to-parent">7 días con cipionato - Vaquillona</p>
+					<div class="center-to-parent prot-po">
+						<?php echo $p["nombre"]; ?>
+					</div>
 				</div>
+					<?php } ?>
 
 			</div>
 
@@ -83,12 +86,16 @@ $protocolos= Protocolo::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 0</h2></div>
 				<!--Contenido -->
+				<?php foreach($protocolos as $p){ ?>
 
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot center-to-parent">Colocar CRONIPRES MONODOSIS</p>
-					<p class="orange">2 ml BIOESTROGEN</p>
+					<div class="padd-prot center-to-parent prot-po">
+						<?php echo $p["dia0"]; ?>
+					</div>
 
 				</div>
+
+				<?php }?>
 
 			</div>
 
@@ -100,13 +107,16 @@ $protocolos= Protocolo::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 7</h2></div>
 				<!--Contenido -->
+				<?php foreach($protocolos as $p){ ?>
 
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot center-to-parent">Retirar CRONIPRES MONODOSIS</p>
-					<p class="orange">1 ml CRONI-CIP</p>
-					<p class="orange">2 ml ENZAPROST D-C</p>
+					<div class="padd-prot center-to-parent prot-po">
+					<?php echo $p["dia7"]; ?>
+					</div>
+
 
 				</div>
+				<?php }?>
 
 			</div>
 
@@ -117,10 +127,15 @@ $protocolos= Protocolo::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 8</h2></div>
 				<!--Contenido -->
-				<div class="container-prot info-remates-mobile" hid="1">
 
+				<?php foreach($protocolos as $p){ ?>
+				<div class="container-prot info-remates-mobile" hid="1">
+					<div class="center-to-parent prot-po">
+						<?php echo $p["dia8"]; ?>
+				 </div>
 
 				</div>
+					<?php }?>
 
 
 			</div>
@@ -132,11 +147,18 @@ $protocolos= Protocolo::model()->findAll();
 				<!-- Titulo -->
 				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 9</h2></div>
 				<!--Contenido -->
+
+					<?php foreach($protocolos as $p){ ?>
+
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot center-to-parent">IATF (48 hr)</p>
+
+					<div class="center-to-parent prot-po">
+						<?php echo $p["dia9"]; ?>
+					</div>
 
 				</div>
 
+				<?php }?>
 
 			</div>
 
@@ -148,9 +170,16 @@ $protocolos= Protocolo::model()->findAll();
 				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 10</h2></div>
 				<!--Contenido -->
 
+				<?php foreach($protocolos as $p){ ?>
+
 				<div class="container-prot info-remates-mobile" hid="1">
+					<div class="center-to-parent prot-po">
+						<?php echo $p["dia10"]; ?>
+					</div>
 
 				</div>
+
+				<?php }?>
 
 			</div>
 

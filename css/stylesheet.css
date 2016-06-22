@@ -1696,12 +1696,6 @@ header .home-box:hover > .hoy-box {
 /*****************FIN NOTICIAS******************/
 
 /*************** INTERIOR NOTICIA ******************/
-
-.categoria{
-	margin-bottom:0;
-	position:absolute;
-}
-
 .container-inside-noticia, .noticia-columna{
     padding:0px 30px;
     text-align: left;
@@ -1713,7 +1707,6 @@ header .home-box:hover > .hoy-box {
 	color:#7F7F7F;
     display: inline-block;
 	float:right;
-	margin-bottom:0;
 }
 
 .container-inside-noticia .border-fecha div{
@@ -1737,8 +1730,8 @@ header .home-box:hover > .hoy-box {
 }
 
 .container-inside-noticia .bajada{
+    font-size: 1.5em;
     color: #7F7F7F;
-	margin-top:0px;margin-bottom:20px;font-size:1.3em;
 }
 
 .container-inside-noticia .cuerpo{
@@ -1755,13 +1748,6 @@ header .home-box:hover > .hoy-box {
 
 .container-inside-noticia a{
     color:#2ED7AA;
-}
-
-#noticia-art h2{
-	font-size:1.7em;
-}
-#noticia-art p{
-	font-size:1em;
 }
 
 .container-imagen-nota-col{
@@ -2982,7 +2968,7 @@ header .home-box:hover > .hoy-box {
     display: inline-block;
     border: 1px dashed #A5A5A5;
     margin-top: 1%;
-    width: 100%;
+    width: 52vw;
 }
 .n-lluvia{
   margin-bottom: 35px;
@@ -3173,14 +3159,14 @@ header .home-box:hover > .hoy-box {
     font-size: 1.3rem;
 	min-height: 110px;
     border-bottom: 1px solid grey;
-    padding-bottom:30px;
+
 }
 
 .padd-prot{
 	padding-top: 7%;
 }
 
-.orange{
+.prot-po > p{
     margin: 0;
     background: rgba(239, 201, 158, 0.4);
     margin-top: 6px;
