@@ -26,15 +26,11 @@ $protocolos= Protocolo::model()->findAll();
 	<p class="hidden-lg  fecha-remates-mobile  color-title-prod">
 	<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 	Prioridad
-	<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></p>
+	<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button>
+	</p>
 
 		<!-- Caja general fecha -->
-		<div class="col-lg-2-7 col-md-12 col-sm-12 col-xs-12 col-xl-7 remates-box-2">
-
-
-
-
-
+		<div class="col-lg-2-7 col-md-12 col-sm-12 col-xs-12 col-xl-7 remates-box-2  containerColumnas">
 
 			<!-- Titulo FECHA -->
 			<div class="title-prot color-title-prod hidden-xs hidden-sm hidden-md"> <h2>Prioridad</h2>
@@ -47,9 +43,9 @@ $protocolos= Protocolo::model()->findAll();
 				<div class="container-prot info-remates-mobile" hid="1">
 					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;     position: absolute;
     left: 0;">
-					<div class="number-protocolo center-to-parent prot-po">
-						<?php echo $p["prioridad"]; ?>
-					</div>
+							<div class="number-protocolo center-to-parent prot-po">
+									<?php echo $p["prioridad"]; ?>
+						</div>
 				</div>
 
 				<?php } ?>
