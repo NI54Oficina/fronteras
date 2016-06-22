@@ -23,6 +23,7 @@ $Criteria = new CDbCriteria();
 				$Criteria->condition = "nid = ".$data;
 				$nota = FeedNoticias::model()->find($Criteria);
 $categoria=$nota["categoria"];
+$currentId= $nota["id"];
 
 ?>
 
@@ -37,8 +38,11 @@ $categoria=$nota["categoria"];
 	
 	<br>
 	<p 	class="categoria" ><?php echo $nota->categoria; ?></p>
-	<!-- sacar hora !-->
-	<p 	class="fecha-not-inner" ><?php echo $nota->fecha; ?></p>
+	
+	<p 	class="fecha-not-inner" ><?php 
+	$utime= strtotime($nota->fecha);
+					echo date("d-m-Y",$utime);
+	?></p>
 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 line-not"></div>
 	<br>
 	<h1  class="titulo"><?php echo $nota->titulo; ?></h1>

@@ -112,7 +112,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 				<div class="fecha" hid="4">
 					<p><?php
 					$utime= strtotime($f["fecha"]);
-					echo date("d-m-y | h:i:s",$utime);
+					echo date("d-m-Y",$utime);
 					?></p>
 
 				</div>

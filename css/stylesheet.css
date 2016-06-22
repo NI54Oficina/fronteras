@@ -1436,7 +1436,8 @@ header .home-box:hover > .hoy-box {
     color: #999999;
     font-size: 0.9em;
     text-align: center;
-    margin: 5px 0px;;
+    margin: 5px 0px;
+	margin-top:0px;
 }
 
 
@@ -1744,6 +1745,7 @@ header .home-box:hover > .hoy-box {
 
 .container-inside-noticia img{
     border: 3px solid #2ED7AA;
+	margin:15px 0;
 }
 
 .container-inside-noticia a{
