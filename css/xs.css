@@ -232,9 +232,9 @@
 	}
 
 
-	.box-clima :first-child{
+	/*.box-clima :first-child{
     padding-top: 0px;
-}
+}*/
 
 .box-clima:nth-child(2),  .box-clima:nth-child(3){
 	padding-top: 30px ;
