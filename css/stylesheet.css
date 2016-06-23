@@ -3128,8 +3128,14 @@ header .home-box:hover > .hoy-box {
     text-align: center;
 }
 
-.boton-ganado-mobile{
-  margin-top:20px;
+.boton-ganado-mobile-1, .boton-ganado-mobile-2 {
+  position: absolute;
+
+}
+
+.boton-ganado-mobile-2{
+  top:0;
+  right: 0;
 }
 
 

@@ -19,13 +19,9 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 	</div>
 </div>
 
- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md boton-ganado-mobile ">
-	<button class="boton-ganado preview-ganado" id="prev" ></button>
-</div>
 
-<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md boton-ganado-mobile ">
-	<button class="boton-ganado next-ganado" id="next"></button>
-</div>
+
+
 
 
 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 hidden-lg   dot-nav-slider">
@@ -60,7 +56,15 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
-		<h1 class="color-<?php echo $g["raza"]; ?>"><?php echo $g["estado"]; ?></h1>
+
+		<div class="contenedor-botones-mobile col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<button class=" hidden-lg hidden-md boton-ganado-mobile-1  boton-ganado preview-ganado" id="prev" ></button>
+	<h1 class="color-<?php echo $g["raza"]; ?>"><?php echo $g["estado"]; ?></h1>
+
+				<button class=" hidden-lg hidden-md boton-ganado-mobile-2 boton-ganado next-ganado" id="next"></button>
+
+		</div>
+
 		<p hid="2" class="text-ganado">
 			<?php echo $g["info"]; ?>
 		</p>

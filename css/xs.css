@@ -465,6 +465,15 @@
     height: 30px;
 }
 
+
+.ganado-col-2 h1 {
+
+    text-align: center;
+}
+
+.contenedor-botones-mobile{
+	margin: 10px 0;
+}
 	/*LINK DE INTERESES*/
 
 	.box-interes {
