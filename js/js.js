@@ -336,6 +336,7 @@ function ReadyFunction(){
 	if(isMobile){
 		splash();
 	}
+		//ResetHeight();
 		 AdaptSquare();
 		 fillBackground();
 		 changeContent();
@@ -426,6 +427,20 @@ function CenterToParent(){
 		$(this).css("position","relative");
 
 		$(this).css("top",paddingTop+"px");
+	});
+	
+	$(".center-to-parent-d").each(function(){
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("padding-top",0);
+		var parent= $(this).parent();
+		console.log($(this).outerHeight());
+		if($(this).outerHeight()>0){
+			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+			paddingTop= paddingTop/2;
+			$(this).css("padding-top",paddingTop+"px");
+		}
 	});
 }
 

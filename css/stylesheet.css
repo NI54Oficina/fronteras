@@ -403,6 +403,7 @@ header .home-box:hover > .hoy-box {
 	margin: 10px;
     font-weight: 700;
     font-size: 1.9em;
+	margin-top:0;
 }
 
 /* Caja clima*/
@@ -2129,7 +2130,7 @@ header .home-box:hover > .hoy-box {
 
 .home-box > .square >div:nth-child(1) {
 	position: relative;
-	height: 80%;
+	height: 80% !important;
 }
 
 .home-box > div > div:nth-child(1) {

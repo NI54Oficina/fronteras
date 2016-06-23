@@ -31,7 +31,7 @@ isHome=true;
 
 			<div class="hoy-box square">
 				<div hid="1">
-					<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
+					<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 				</div>
 				<p>Hoy</p>
 			</div>
@@ -43,7 +43,7 @@ isHome=true;
  		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
  			<div class="estemes-box square ">
  				<div hid="1">
- 					<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
+ 					<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 
 
  				</div>
@@ -70,7 +70,7 @@ isHome=true;
 		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
  			<div class="ayuda-box square">
  				<div hid="1">
- 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
+ 					<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
  				</div>
 				<p>Ayuda</p>
  			</div>
