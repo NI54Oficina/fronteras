@@ -183,11 +183,9 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  hidden-xs hidden-sm hidden-md  dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
-			<label for="vaca-tipo-1" class="nav-dot" ></label>
-			<label for="vaca-tipo-2" class="nav-dot"></label>
-			<label for="vaca-tipo-3" class="nav-dot" ></label>
-			<label for="vaca-tipo-4" class="nav-dot" ></label>
-			<label for="vaca-tipo-5" class="nav-dot" ></label>
+			<?php foreach($ganado as $g){ ?>
+				<label for="vaca-tipo-1" class="nav-dot" ></label>
+			<?php } ?>
 		</li>
 </ul>
 </div>
