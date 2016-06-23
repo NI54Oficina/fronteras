@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-06-2016 a las 21:36:52
+-- Tiempo de generación: 23-06-2016 a las 18:02:10
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.5.30
 
@@ -41,7 +41,7 @@ CREATE TABLE `tbl_estado_corporal` (
 
 INSERT INTO `tbl_estado_corporal` (`id`, `raza`, `estado`, `indice`, `info`, `grafica`) VALUES
 (2, 'angus', 'Flaca', 1, 'Profunda cavidad alrededor del nacimiento de la cola. Huesos pelvianos y coxales fácilmente palpables. Ausencia total de tejido adiposo. Marcada depresión pelviana y lumbar. </br>\r\nLas vacas en este estado corporal no son funcionales. Están en anestro profundo. Capacidad de lactación comprometida.', 1),
-(3, 'angus', 'Regular', 2, 'Cavidad menos pronunciada alrededor de la encoladura.</br>\r\nPresencia de algo de tejido adiposo. Extremos de costillas algo redondeados. Insuficientes reservas corporales. Luego del parto bajará su estado corporal y se comprometerá su performance reproductiva y lactancia. </br>\r\nAnestro superficial.', 1),
+(3, 'angus', 'Regular', 2, 'Cavidad menos pronunciada alrededor de la encoladura.</br>\nPresencia de algo de tejido adiposo. Extremos de costillas algo redondeados. Insuficientes reservas corporales. Luego del parto bajará su estado corporal y se comprometerá su performance reproductiva y lactancia. </br>\n', 1),
 (4, 'angus', 'Ideal al parto', 3, 'Desaparece cavidad alrededor de la cola. Presencia de tejido adiposo no exagerado en esa superficie. </br>\r\nExtremos de costillas cortas cubiertas, aunque palpables con leve presión.', 1),
 (5, 'angus', 'Sobrepeso', 4, 'Aparición de mayor tejido adiposo cubriendo toda la pelvis, costillas cortas invisibles y difíciles de palpar.</br>\r\nEstado ideal aunque sería antieconómico. Vacas cíclicas. Excelente lactancia. Buenos índices de preñez, pero es indicativo de baja carga por\r\nhectárea.', 1),
 (6, 'angus', 'Obesa', 5, 'Engrasamiento exagerado. Desaparece toda la forma de la pelvis. Costillas cortas no palpables. Totalmente excedida de gordura. Antieconómica e incluso con riesgos reproductivos por exceso de grasa.', 1),
