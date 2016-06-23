@@ -134,22 +134,22 @@ header .home-upper-box > div{
 
 
 #hoy-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 /* Caja menú mes */
 #mes-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 /* Caja menú producir */
 #producir-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 /* Caja menú ayuda*/
 #ayuda-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 header .home-upper-box {
@@ -157,12 +157,12 @@ header .home-upper-box {
 }
 
 header .ayuda-box, .ayuda-box >div {
-    background-color: transparent;
+   /* background-color: transparent;*/
 }
 
 
 header .home-box:hover > .ayuda-box {
-    background-color:transparent;
+   /* background-color:transparent;*/
 }
 
 header .home-box > div {
@@ -171,31 +171,31 @@ header .home-box > div {
 
 
 header .producir-box, .producir-box >div {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 
 header .home-box:hover > .producir-box {
-    background-color:transparent;
+    /*background-color:transparent;*/
 }
 
 
 header .estemes-box, .estemes-box >div {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 
 header .home-box:hover > .estemes-box {
-    background-color:transparent;
+   /* background-color:transparent;*/
 }
 
 header .hoy-box, .hoy-box >div {
-    background-color: transparent;
+   /* background-color: transparent;*/
 }
 
 
 header .home-box:hover > .hoy-box {
-    background-color:transparent;
+   /* background-color:transparent;*/
 }
 
 .p-header-mobile {
@@ -327,6 +327,8 @@ header .home-box:hover > .hoy-box {
 .header-mobb {
 
     padding: 20px 25px !important;
+	opacity:0;
+	transition:0.5s;
 }
 
 .p-header-mobb {

@@ -11,9 +11,18 @@ $("body").on("mousedown",".navbar-toggle",function(){
 });
 
 function AdaptMenuContent(){
+	
 	setTimeout(function(){
-
+		ResetHeight();
+		SameHeight();
+		AdaptSquare();
+		$(".header-mobb").css("opacity",1);
+	},100);
+	
+	setTimeout(function(){
+			
 			if($("#inner-header").hasClass("in")){
+				
 				$("#back-header2").css("display","none");
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 
@@ -25,7 +34,12 @@ function AdaptMenuContent(){
 				$(".fadder").hide();
 				$("section").hide();
 				$(document).scrollTop(0);
-
+				
+				$(".header-mobb").css("opacity",1);
+				
+				//setTimeout(function(){
+					//$(".header-mobb").css("opacity",1);
+				//},500);
 				//$(".fadder").fadeOut(1000);
 			}else{
 
@@ -41,11 +55,15 @@ function AdaptMenuContent(){
 				ResetHeight();
 				SetDistanceHeader();
 				ResizeViewportElements();
-
+				
 				setTimeout(function(){
-
+					
+					ResetHeight();
+					
 					SameHeight();
 					AdaptSquare();
+					
+					$(".header-mobb").css("opacity",0);
 					$(".fadder").css("opacity",1); $("section").css("opacity",1);
 				},500);
 
@@ -67,14 +85,15 @@ function AdaptMenuContentApp(){
 				$("header").css("display","block");
 				$("#inner-header").css("position","initial");
 				$(document).scrollTop(0);
-
+				//ResetHeight();
+				//SameHeight()
 			}else{
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("#back-header2").css("display","block");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(document).scrollTop(scrollTop);
-
+				//$(".header-mobb").css("opacity",1);
 
 				//$(".fadder").fadeIn(1000);
 			}
@@ -224,8 +243,8 @@ function AdaptMenuContentApp(){
 
 							<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
-							<div class="hoy-box">
-								<div >
+							<div class="hoy-box square"  >
+								<div hid="18">
 									<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 								</div>
 								<p class="p-header-mobb p-header-hoy">Hoy</p>
@@ -236,8 +255,8 @@ function AdaptMenuContentApp(){
 					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
 							<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-								<div class="estemes-box ">
-									<div >
+								<div class="estemes-box square">
+									<div hid="18">
 										<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 									</div>
 									<p class="p-header-mobb p-header-estemes " >Este mes</p>
@@ -247,8 +266,8 @@ function AdaptMenuContentApp(){
 
 						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
 						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-								<div class="producir-box ">
-									<div>
+								<div class="producir-box square" >
+									<div hid="18">
 										<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
 									</div>
 								<p class="p-header-mobb p-header-producir">Producir +</p>
@@ -260,8 +279,8 @@ function AdaptMenuContentApp(){
 
 						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
 									<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-										<div class="ayuda-box">
-											<div >
+										<div class="ayuda-box square" >
+											<div hid="18">
 												<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
 											</div>
 											<p class="p-header-mobb p-header-ayuda">Ayuda</p>
