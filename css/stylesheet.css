@@ -2095,7 +2095,7 @@ header .home-box:hover > .hoy-box {
 	padding: 20px 20px;
 }
 
-.hoy-box > div, .hoy-box  {
+ .hoy-box, .hoy-box > div  {
 	background-color: #40CEDB;
 }
 

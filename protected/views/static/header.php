@@ -224,7 +224,7 @@ function AdaptMenuContentApp(){
 
 							<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
-							<div class="hoy-box">
+							<div class="hoy-box hoy-box-header-mobile">
 								<div >
 									<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 								</div>
@@ -236,7 +236,7 @@ function AdaptMenuContentApp(){
 					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
 							<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-								<div class="estemes-box ">
+								<div class="estemes-box estemes-box-header-mobile ">
 									<div >
 										<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 									</div>
@@ -247,7 +247,7 @@ function AdaptMenuContentApp(){
 
 						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
 						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-								<div class="producir-box ">
+								<div class="producir-box producir-box-header-mobile">
 									<div>
 										<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
 									</div>
@@ -260,7 +260,7 @@ function AdaptMenuContentApp(){
 
 						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
 									<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-										<div class="ayuda-box">
+										<div class="ayuda-box ayuda-box-header-mobile">
 											<div >
 												<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
 											</div>
