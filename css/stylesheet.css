@@ -2890,6 +2890,10 @@ header .home-box:hover > .hoy-box {
 	width:auto;
 }
 
+.block-img-2{
+  margin-left: 20px;
+}
+
 .producir-inside-container li {
 	list-style-type: square;
  }
