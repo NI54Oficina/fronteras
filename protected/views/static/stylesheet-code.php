@@ -19,6 +19,7 @@
 	
 		<!--JS-->
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.mobile-events.min.js"></script>
 		 
 
 		

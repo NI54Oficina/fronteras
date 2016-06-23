@@ -277,11 +277,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 	//$("body").css("background","red");
 });
 var scrollTop;
-$("body").on("touchstart",".navbar-toggle",function(){
-	//$(this).click();
 
-
-});
 
 function getStyleRule(name) {
 	for(var i=0; i<document.styleSheets.length; i++) {
@@ -361,7 +357,7 @@ function ReadyFunction(){
 			//$(target).css("max-height","10000000px");
 		}
 	});
-	$("body").on("touchend",".toggle-dropdown-header",function(){
+	$("body").on("tap",".toggle-dropdown-header",function(){
 		//$(this).click();
 		var target= $(this).attr("target");
 			console.log($(this).attr("target"));

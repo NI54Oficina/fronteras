@@ -1,5 +1,5 @@
 <script>
-$("body").on("touchstart",".navbar-toggle",function(){
+$("body").on("tap",".navbar-toggle",function(){
 	//console.log("touch start");
 	$(this).click();
 	if(isMobile){
