@@ -857,6 +857,9 @@ function slider(){
 var currentIndex = 0,
   items = $('.general-container-producir');
   itemAmt = items.length;
+	items.css("display","none");
+	items.eq(currentIndex).css("display", "block");
+
 
 	$(".nav-dots").each(function(){
 		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");

@@ -2097,7 +2097,7 @@ header .home-box:hover > .hoy-box {
 	padding: 20px 20px;
 }
 
-.hoy-box > div, .hoy-box  {
+ .hoy-box, .hoy-box > div  {
 	background-color: #40CEDB;
 }
 
@@ -3010,7 +3010,6 @@ header .home-box:hover > .hoy-box {
 
 .img-ganado{
 	width: 93%;
-	border: 5px solid #0086CA;
 }
 
 .img-ganado-info {
@@ -3027,7 +3026,6 @@ header .home-box:hover > .hoy-box {
 }
 
 .ganado-col-2 h1{
-	color:#0086CA;
 	font-size: 1.5em;
 	margin-top: 0;
 	font-weight: bold;
@@ -3042,6 +3040,41 @@ header .home-box:hover > .hoy-box {
 .slider-ganado{
 	display: none;
 }
+  /*colores de los tipos de raza de vaca*/
+
+  .borde-angus{
+    border: 5px solid #0086CA;
+  }
+  .color-angus{
+    color: #0086CA;
+  }
+
+.borde-braford{
+  border: 5px solid #7e3431;
+}
+
+.color-braford{
+  color: #7e3431;
+}
+
+.borde-hereford{
+  border: 5px solid #00a94f;
+}
+
+.color-hereford{
+  color: #00a94f;
+}
+
+.borde-brangus{
+  border: 5px solid #f4c127;
+}
+
+.color-brangus{
+  color: #f4c127;
+}
+
+
+/*termina colores de razas de vacas*/
 
 #next{
 	background-image: url(../img/next-button.png);
