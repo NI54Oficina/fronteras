@@ -93,7 +93,7 @@ function AdaptMenuContentApp(){
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(document).scrollTop(scrollTop);
-				//$(".header-mobb").css("opacity",1);
+				$(".header-mobb").css("opacity",1);
 
 				//$(".fadder").fadeIn(1000);
 			}
