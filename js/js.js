@@ -336,7 +336,6 @@ function ReadyFunction(){
 	if(isMobile){
 		splash();
 	}
-		//ResetHeight();
 		 AdaptSquare();
 		 fillBackground();
 		 changeContent();
@@ -427,20 +426,6 @@ function CenterToParent(){
 		$(this).css("position","relative");
 
 		$(this).css("top",paddingTop+"px");
-	});
-	
-	$(".center-to-parent-d").each(function(){
-		$(this).css("margin-top",0);
-		$(this).css("margin-bottom",0);
-		$(this).css("padding-bottom",0);
-		$(this).css("padding-top",0);
-		var parent= $(this).parent();
-		console.log($(this).outerHeight());
-		if($(this).outerHeight()>0){
-			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
-			paddingTop= paddingTop/2;
-			$(this).css("padding-top",paddingTop+"px");
-		}
 	});
 }
 
@@ -1014,15 +999,15 @@ function limited(){
 
 ////funcion que multiplica los dot nav del slider
 
-function multiplicateDotNav(quantity){
+//NO ESTA EN USO
 
-	console.log("multiplicateDotNav");
-		console.log(quantity);
+function multiplicateDotNav(quantity){
 		$(".nav-dot").clone().insertAfter(".nav-dot");
-		console.log("paso1");
 
 for(var i=0; i < 9; i++ ){
 			 $(".nav-dot").clone().insertAfter(".nav-dot");
 	 }
-
 }
+
+
+//// fin funcion que multiplica los dot nav del slider

@@ -1,5 +1,5 @@
 <?php
-$data="braford";
+$data="angus";
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "raza = '".$data."'";
 $ganado= EstadoCorporal::model()->findAll($Criteria);
@@ -31,11 +31,10 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 hidden-lg   dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
-			<label for="vaca-tipo-1" class="nav-dot" ></label>
-			<label for="vaca-tipo-2" class="nav-dot"></label>
-			<label for="vaca-tipo-3" class="nav-dot" ></label>
-			<label for="vaca-tipo-4" class="nav-dot" ></label>
-			<label for="vaca-tipo-5" class="nav-dot" ></label>
+			<?php foreach($ganado as $g){ ?>
+				<label for="vaca-tipo-1" class="nav-dot" ></label>
+			<?php } ?>
+
 		</li>
 </ul>
 </div>
@@ -65,8 +64,14 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 		<p hid="2" class="text-ganado">
 			<?php echo $g["info"]; ?>
 		</p>
+     <?php
+		 if($g->grafica== 1){
+			?>
+			<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-info-<?php echo $g["indice"]; ?>.png">
+			<?php
+		 }
+		 ?>
 
-		<img class="img-ganado-info" src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-info-<?php echo $g["indice"]; ?>.png">
 
 
 	</div>
