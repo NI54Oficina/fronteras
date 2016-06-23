@@ -445,13 +445,13 @@ and (orientation : landscape){
 	}
 
 	header .home-upper-box > div {
-		padding: 0px;
+		padding: 5px;
 	}
 
-	header .home-upper-box img:nth-child(1) {
+	/*header .home-upper-box img:nth-child(1) {
 		float: none;
 		width: 4em;
-	}
+	}*/
 
 	header .cont-menu-mob {
 		padding: 2px 11px;
@@ -560,10 +560,17 @@ and (orientation : landscape){
 		padding: 15px 40px;
 	}
 
-	header .home-upper-box img:nth-child(1) {
+  .home-upper-box img:nth-child(1) {
+      width: 15%;
+  }
+
+  .home-upper-box img:nth-child(2) {
+    width:30%;
+}
+	/*header .home-upper-box img:nth-child(1) {
 		float: none;
 		width: 5em;
-	}
+	}*/
 
 	header .cont-section-mobile {
 		height: 80px!important;
@@ -630,10 +637,10 @@ and (orientation : landscape){
 		display: block;
 	}
 
-	header .home-upper-box img:nth-child(1) {
+	/*header .home-upper-box img:nth-child(1) {
 		float: none;
 		width: 5.5em;
-	}
+	}*/
 
 	header .home-upper-box > div {
 		padding: 5px;
@@ -656,7 +663,7 @@ and (max-device-width: 640px)
 and (orientation: landscape)  {
 
 	header .home-box > div > div{
-		padding: 0% 0%!important;
+		/*padding: 0% 0%!important;*/
     width: 100%;
 	}
 
