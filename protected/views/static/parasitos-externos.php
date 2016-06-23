@@ -22,7 +22,6 @@ $nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"))
          	<select name="parext-select" class="parext-select" id="parext-selector">
 				<option value="" selected disabled>Parásitos externos</option>
 				<option value="parasitos-externos-2">Bicheras</option>
-				<option value="parasitos-externos-1">Etiología</option>
 				<option value="parasitos-externos-3">Garrapatas</option>
 				<option value="parasitos-externos-4">Moscas, Tábanos y Mosquitos</option>
 				<option value="parasitos-externos-5">Piojos</option>
