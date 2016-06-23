@@ -42,7 +42,7 @@
 	}
 
 	.home-upper-box img:nth-child(1) {
-	    float: none;
+
 	    width: 6em;
 	}
 	.home-bottom-box > a> div {
@@ -72,6 +72,12 @@
 	.box-producir-2  p{
 		font-size: 1em;
 	}
+
+	.home-upper-box img:nth-child(2) {
+
+    width: 50%;
+
+}
 
 	/*TERMINA HOME*/
 

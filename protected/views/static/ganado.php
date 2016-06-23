@@ -19,11 +19,11 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 	</div>
 </div>
 
- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md ">
+ <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md boton-ganado-mobile ">
 	<button class="boton-ganado preview-ganado" id="prev" ></button>
 </div>
 
-<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md ">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md boton-ganado-mobile ">
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
