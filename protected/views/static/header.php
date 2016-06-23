@@ -11,18 +11,18 @@ $("body").on("mousedown",".navbar-toggle",function(){
 });
 
 function AdaptMenuContent(){
-	
+
 	setTimeout(function(){
 		ResetHeight();
 		SameHeight();
 		AdaptSquare();
 		$(".header-mobb").css("opacity",1);
 	},100);
-	
+
 	setTimeout(function(){
-			
+
 			if($("#inner-header").hasClass("in")){
-				
+
 				$("#back-header2").css("display","none");
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 
@@ -34,9 +34,9 @@ function AdaptMenuContent(){
 				$(".fadder").hide();
 				$("section").hide();
 				$(document).scrollTop(0);
-				
+
 				$(".header-mobb").css("opacity",1);
-				
+
 				//setTimeout(function(){
 					//$(".header-mobb").css("opacity",1);
 				//},500);
@@ -55,14 +55,14 @@ function AdaptMenuContent(){
 				ResetHeight();
 				SetDistanceHeader();
 				ResizeViewportElements();
-				
+
 				setTimeout(function(){
-					
+
 					ResetHeight();
-					
+
 					SameHeight();
 					AdaptSquare();
-					
+
 					$(".header-mobb").css("opacity",0);
 					$(".fadder").css("opacity",1); $("section").css("opacity",1);
 				},500);
@@ -145,7 +145,7 @@ function AdaptMenuContentApp(){
 			<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
 				<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-fronteras.png" alt="Logo Fronteras">
-					<img class="hidden-xs" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-bago.png" alt="Logo Bago " />
+					<img class="" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/logo-bago.png" alt="Logo Bago " />
 				</div>
 			</div>
 
@@ -247,7 +247,7 @@ function AdaptMenuContentApp(){
 							<div class="hoy-box square"  >
 								<div hid="18">
 
-							
+
 
 									<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 								</div>
