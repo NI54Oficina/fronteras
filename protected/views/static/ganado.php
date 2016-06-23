@@ -1,5 +1,5 @@
 <?php
-$data="angus";
+//$data="angus";
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "raza = '".$data."'";
 $ganado= EstadoCorporal::model()->findAll($Criteria);
