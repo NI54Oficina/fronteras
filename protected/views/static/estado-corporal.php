@@ -49,7 +49,7 @@
 
 
 		<!-- Parásitos internos -->
-		<a href="?php echo Yii::app()->getBaseUrl(true); ?>/ganado/brangus"  class="">
+		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ganado/brangus"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
@@ -67,7 +67,7 @@
 
 
 		<!--  -->
-		<a href="?php echo Yii::app()->getBaseUrl(true); ?>/ganado/braford"  class="">
+		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ganado/braford"  class="">
 			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4 max-box-planes">
 			<div class=" col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-manejo">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent p-estado">
