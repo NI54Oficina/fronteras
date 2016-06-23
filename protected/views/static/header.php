@@ -243,13 +243,12 @@ function AdaptMenuContentApp(){
 
 							<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
-<<<<<<< HEAD
+
 							<div class="hoy-box square"  >
 								<div hid="18">
-=======
-							<div class="hoy-box hoy-box-header-mobile">
-								<div >
->>>>>>> origin/master
+
+							
+
 									<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 								</div>
 								<p class="p-header-mobb p-header-hoy">Hoy</p>
@@ -260,13 +259,10 @@ function AdaptMenuContentApp(){
 					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
 							<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-<<<<<<< HEAD
+
 								<div class="estemes-box square">
 									<div hid="18">
-=======
-								<div class="estemes-box estemes-box-header-mobile ">
-									<div >
->>>>>>> origin/master
+
 										<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 									</div>
 									<p class="p-header-mobb p-header-estemes " >Este mes</p>
@@ -276,13 +272,10 @@ function AdaptMenuContentApp(){
 
 						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
 						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-<<<<<<< HEAD
+
 								<div class="producir-box square" >
 									<div hid="18">
-=======
-								<div class="producir-box producir-box-header-mobile">
-									<div>
->>>>>>> origin/master
+
 										<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
 									</div>
 								<p class="p-header-mobb p-header-producir">Producir +</p>
@@ -294,13 +287,10 @@ function AdaptMenuContentApp(){
 
 						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
 									<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-<<<<<<< HEAD
+
 										<div class="ayuda-box square" >
 											<div hid="18">
-=======
-										<div class="ayuda-box ayuda-box-header-mobile">
-											<div >
->>>>>>> origin/master
+
 												<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
 											</div>
 											<p class="p-header-mobb p-header-ayuda">Ayuda</p>
