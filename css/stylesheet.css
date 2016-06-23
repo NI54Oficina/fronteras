@@ -2196,6 +2196,7 @@ header .home-box:hover > .hoy-box {
 
 .map-box{
 	background-image:url(../img/cuadrado-fondo-mapa.svg);
+   box-shadow: 5px 0 8px -2px #cacaca;
 }
 
 .red-box img {
