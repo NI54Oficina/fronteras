@@ -874,6 +874,7 @@ var currentIndex = 0,
   itemAmt = items.length;
 	items.css("display","none");
 	items.eq(currentIndex).css("display", "block");
+	// multiplicateDotNav(itemAmt);
 
 
 	$(".nav-dots").each(function(){
@@ -1009,3 +1010,19 @@ function limited(){
 
 
 // FIN FUNCION DE TESTEO
+
+
+////funcion que multiplica los dot nav del slider
+
+function multiplicateDotNav(quantity){
+
+	console.log("multiplicateDotNav");
+		console.log(quantity);
+		$(".nav-dot").clone().insertAfter(".nav-dot");
+		console.log("paso1");
+
+for(var i=0; i < 9; i++ ){
+			 $(".nav-dot").clone().insertAfter(".nav-dot");
+	 }
+
+}
