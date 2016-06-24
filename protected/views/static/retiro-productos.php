@@ -42,7 +42,7 @@ $retiros= Retiro::model()->findAll();
 			<p class="hidden-lg fecha-remates-mobile color-retiro-productos">
 			<button class="boton-prueba-atras"> < </button>
 			Argentina
-			<button class="boton-prueba"> > </button></p>
+			<button class="boton-prueba boton-prueba-retiro"> > </button></p>
 
 
 

@@ -24,11 +24,13 @@ $protocolos= Protocolo::model()->findAll();
 	<!-- Caja general -->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile" style="padding:20px 30px; text-align:center;">
 
-	<p class="hidden-lg  fecha-remates-mobile  color-title-prod">
+	<div class="hidden-lg  cont-fecha-mobile  color-title-prod">
 	<button class="boton-prueba-atras b-prot-at"><span class="glyphicon glyphicon-triangle-left"></span> </button>
-	Prioridad
-	<button class="boton-prueba b-prot-ad"><span class="glyphicon glyphicon-triangle-right"></span></button>
+	<p class=" fecha-remates-mobile ">
+		Prioridad
 	</p>
+	<button class="boton-prueba b-prot-ad"><span class="glyphicon glyphicon-triangle-right"></span></button>
+</div>
 
 		<!-- Caja general fecha -->
 		<div class="col-lg-2-7 col-md-12 col-sm-12 col-xs-12 col-xl-7 remates-box-2  containerColumnas">

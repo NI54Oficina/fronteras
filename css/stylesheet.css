@@ -2561,6 +2561,15 @@ header .home-box:hover > .hoy-box {
     font-size: 2rem;
 }
 
+.mes-remates{
+  background-color: lightblue;
+  height: 10px;
+}
+
+.mes-remates > h2{
+  color: white;
+  font-size: 1.3em;
+}
 
 /** Container modadlidad, consignatorio, lugar, provincia, cabezas **/
 /*Modalidad*/
@@ -2637,6 +2646,7 @@ header .home-box:hover > .hoy-box {
 	padding:20px 0px;
 	color: white;
 	font-size: 1.2em;
+  margin-top: 5px;
 }
 
 
@@ -2656,16 +2666,16 @@ header .home-box:hover > .hoy-box {
 /********REMATES EN MOBILE - SLIDE & ELSE*******/
 
 
-.fecha-remates-mobile > button {
+.cont-fecha-mobile > button {
     background-color: rgba(99, 99, 99, 0);
     border: none;
 }
 
-.fecha-remates-mobile > button:focus {
+.cont-fecha-mobile > button:focus {
 	outline:none;
 }
 
-.fecha-remates-mobile > button:active {
+.cont-fecha-mobile > button:active {
 	outline:none;
 }
 
@@ -2674,7 +2684,8 @@ header .home-box:hover > .hoy-box {
     margin-left: 2%;
 	position:absolute;
 	left:2%;
-	top:25%;
+  top:55%;
+
 }
 
 .boton-prueba{
@@ -2682,7 +2693,7 @@ header .home-box:hover > .hoy-box {
     margin-right: 2%;
 	position:absolute;
 	right:2%;
-	top:25%;
+	top:55%;
 }
 
 .b-prot-at {
@@ -2976,6 +2987,10 @@ header .home-box:hover > .hoy-box {
 
 .retiro-img{
   text-align: left;
+}
+
+.boton-prueba-retiro{
+  top:35% !important;
 }
 /*********************FIN DIAS DE PRODUCTOS VETERINARIO*******************/
 
