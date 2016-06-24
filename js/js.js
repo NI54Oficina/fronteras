@@ -1007,3 +1007,17 @@ for(var i=0; i < 9; i++ ){
 
 
 //// fin funcion que multiplica los dot nav del slider
+
+
+function ContentFadeIn(){
+	//fader y section mostrar (show), poner height y square y luego opacity 1
+	
+}
+
+function ContentFadeOut(){
+	
+}
+
+function ContentOpacitySet(toSet){
+	
+}

@@ -94,7 +94,8 @@ function AdaptMenuContentApp(){
 				$("#inner-header").css("position","static");
 				$(document).scrollTop(scrollTop);
 				$(".header-mobb").css("opacity",1);
-
+				ResetHeight();
+				SameHeight()
 				//$(".fadder").fadeIn(1000);
 			}
 
@@ -239,7 +240,7 @@ function AdaptMenuContentApp(){
 
 				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-xl  hidden-md header-mobb">
 
-						<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
+						<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
 							<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
@@ -256,7 +257,7 @@ function AdaptMenuContentApp(){
 						</div>
 						</a>
 
-					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
+					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
 							<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
@@ -270,7 +271,7 @@ function AdaptMenuContentApp(){
 						</div>
 					</a>
 
-					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
+					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
 						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 								<div class="producir-box square" >
@@ -285,7 +286,7 @@ function AdaptMenuContentApp(){
 
 					</a>
 
-					<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
+					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
 						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 							<div class="ayuda-box square" >
