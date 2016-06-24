@@ -39,10 +39,12 @@ $retiros= Retiro::model()->findAll();
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
-			<p class="hidden-lg fecha-remates-mobile color-retiro-productos">
-			<button class="boton-prueba-atras"> < </button>
-			Argentina
-			<button class="boton-prueba boton-prueba-retiro"> > </button></p>
+			<div class="hidden-lg cont-fecha-mobile color-retiro-productos">
+			<button class="boton-prueba-atras boton-prueba-retiro"> <span class="glyphicon glyphicon-triangle-left"></span> </button>
+			<p class="fecha-remates-mobile">
+			  Argentina
+			</p>
+			<button class="boton-prueba boton-prueba-retiro"> <span class="glyphicon glyphicon-triangle-right"></span> </button></div>
 
 
 
