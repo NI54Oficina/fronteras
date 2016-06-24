@@ -1,4 +1,5 @@
 var isHome=false;
+var isApp=false;
 $(window).on("load",function () {
 	LoaderGif();
 	LoadFunction();

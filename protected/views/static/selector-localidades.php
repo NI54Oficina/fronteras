@@ -19,7 +19,11 @@ $( "#localidad-clima" ).change(function() {
 		$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/setClima/id/"+$(this).val(), function( data ) {
 			console.log("entra   "+data);
 			if(data=="1"){
-				location.reload();
+				if(isApp){
+					loadPage("/clima");
+				}else{
+					location.reload();
+				}
 			}
 		});
 });
