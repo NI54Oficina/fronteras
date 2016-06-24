@@ -2587,6 +2587,7 @@ header .home-box:hover > .hoy-box {
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0;
+    font-size: 1.3rem;
 }
 
 /*Lugar*/
@@ -2808,6 +2809,10 @@ header .home-box:hover > .hoy-box {
   display:none;
 }
 
+#parasitos-externos-1{
+  display: block;
+}
+
 .relleno-enfermedad{
   text-align: left;
   width: 100%;
@@ -2950,12 +2955,13 @@ header .home-box:hover > .hoy-box {
 #retiro-producto-p-1{
     padding-top: 30px;
 	font-weight:300;
+  font-size: 1.3rem;
 }
 
 #retiro-producto-p-2{
     padding-top: 30px;
     color: #8F8F8F;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 
