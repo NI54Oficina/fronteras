@@ -513,6 +513,7 @@ function FillParent(){
 }
 
 // FUNCION QUE HACE DESAPARECER EL BOTON SIGUIENTE O ATRAS DE ACUERDO SI QUEDAN ITEM
+
 function checkNavigationButton(){
 
 	if( indexRemates <= 0){
@@ -534,6 +535,7 @@ function checkNavigationButton(){
 // FIN FUNCION QUE HACE DESAPARECER EL BOTON SIGUIENTE O ATRAS DE ACUERDO SI QUEDAN ITEM
 
 // MANTIENE UNA SOLA FILA DE DATOS EN MOBILE
+
 
 function initializeRemates(){
 
@@ -608,6 +610,8 @@ function turnOnButtonRemates(){
 			tableAnimating=true;
 
 	    	$(".fade-in-mobile").fadeOut(400);
+				// $(".mes-remates")
+				// $
 
 	    	setTimeout(function(){
 	    		$(".containerColumnas").find('.info-remates-mobile').css("display","none");
@@ -1012,13 +1016,13 @@ for(var i=0; i < 9; i++ ){
 
 function ContentFadeIn(){
 	//fader y section mostrar (show), poner height y square y luego opacity 1
-	
+
 }
 
 function ContentFadeOut(){
-	
+
 }
 
 function ContentOpacitySet(toSet){
-	
+
 }

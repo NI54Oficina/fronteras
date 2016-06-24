@@ -2699,11 +2699,15 @@ header .home-box:hover > .hoy-box {
 .b-prot-at {
     top:5% !important;
     left: auto;
+    background-color: rgba(99, 99, 99, 0);
+    border: none;
 }
 
 .b-prot-ad{
   top:5% !important;
       right: 8%;
+      background-color: rgba(99, 99, 99, 0);
+      border: none;
 }
 /********************TERMINA REMATES EN MOBILE*****************/
 

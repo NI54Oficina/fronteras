@@ -24,7 +24,7 @@ $protocolos= Protocolo::model()->findAll();
 	<!-- Caja general -->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile" style="padding:20px 30px; text-align:center;">
 
-	<div class="hidden-lg  cont-fecha-mobile  color-title-prod">
+	<div class="hidden-lg  cont-fechas-mobile  color-title-prod">
 	<button class="boton-prueba-atras b-prot-at"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 	<p class=" fecha-remates-mobile ">
 		Prioridad
