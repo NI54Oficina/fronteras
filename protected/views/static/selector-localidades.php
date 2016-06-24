@@ -16,15 +16,20 @@ $( "#localidad-clima" ).change(function() {
 
 		$("section").hide();
 		$(".loader").show();
-		$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/setClima/id/"+$(this).val(), function( data ) {
-			console.log("entra   "+data);
-			if(data=="1"){
-				if(isApp){
-					loadPage("/clima/1218");
-				}else{
-					location.reload();
+		if(isApp){
+			localStorage.localidad=$(this).val();
+			loadPage("/clima/"+$(this).val());
+					
+		}else{
+			$.post( "http://<?php echo $_SERVER['SERVER_NAME']; if(isset($_SESSION['webRoot'])){ echo '/'.$_SESSION['webRoot'];}else{ '/';} ?><?php echo $_SESSION["short"] ?>/setClima/id/"+$(this).val(), function( data ) {
+				console.log("entra   "+data);
+				if(data=="1"){
+					
+					
+						location.reload();
+					
 				}
-			}
-		});
+			});
+		}
 });
 </script>

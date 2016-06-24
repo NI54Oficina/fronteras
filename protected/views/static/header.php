@@ -16,6 +16,7 @@ function AdaptMenuContent(){
 		ResetHeight();
 		SameHeight();
 		AdaptSquare();
+		CenterToParent();
 		$(".header-mobb").css("opacity",1);
 	},100);
 
@@ -250,7 +251,7 @@ function AdaptMenuContentApp(){
 
 
 
-									<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
+									<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-hoy.svg" alt="Hoy" />
 								</div>
 								<p class="p-header-mobb p-header-hoy">Hoy</p>
 							</div>
@@ -264,7 +265,7 @@ function AdaptMenuContentApp(){
 								<div class="estemes-box square">
 									<div hid="18">
 
-										<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
+										<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
 									</div>
 									<p class="p-header-mobb p-header-estemes " >Este mes</p>
 								</div>
@@ -292,7 +293,7 @@ function AdaptMenuContentApp(){
 							<div class="ayuda-box square" >
 								<div hid="18">
 
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
+									<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
 								</div>
 								<p class="p-header-mobb p-header-ayuda">Ayuda</p>
 							</div>
