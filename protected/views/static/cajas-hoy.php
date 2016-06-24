@@ -14,10 +14,10 @@
 	);
 	$context=stream_context_create($options);
 
-	$data = @file_get_contents('http://webservice.fyo.com/PortalIndEconomicosHomeProcedure.svc/agrupado',false,$context);
+	$dataMercado = @file_get_contents('http://webservice.fyo.com/PortalIndEconomicosHomeProcedure.svc/agrupado',false,$context);
 	$col=0;
-	if($data){
-	$array = json_decode($data,true);
+	if($dataMercado){
+	$array = json_decode($dataMercado,true);
 	$item= $array[0];
 	?>
 
@@ -69,9 +69,9 @@
 	<?php include("session-clima.php"); ?>
 	<!-- Clima -->
 	<?php
-	if($data){
+	if($dataClima){
 
-		$array = json_decode($data,true);
+		$array = json_decode($dataClima,true);
 		$fecha = $array[0];
 		foreach($fecha as $f){
 		if(count($f)>1){
@@ -90,7 +90,7 @@
 
 			<!-- Clima datos & clima imágen -->
 			<div class="clima-pronostico  col-lg-12 col-md-12 col-sm-12 col-xs-12" hid="3">
-					<h3><?php  echo $localidades[$_SESSION["localidad"]]; ?></h3>
+					<h3><?php  echo $localidades[$localidad]; ?></h3>
 				<!--Clima imágen-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/clima/<?php echo $f2['Valores'][0]["IDTipoClima"]; ?>.svg" alt="Imágen Clima" />

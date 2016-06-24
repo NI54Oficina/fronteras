@@ -20,7 +20,7 @@ $( "#localidad-clima" ).change(function() {
 			console.log("entra   "+data);
 			if(data=="1"){
 				if(isApp){
-					loadPage("/clima");
+					loadPage("/clima/1218");
 				}else{
 					location.reload();
 				}

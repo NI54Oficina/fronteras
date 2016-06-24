@@ -23,10 +23,12 @@
 
 
 	<!-- Clima 2-->
+	
 	<?php
-	if($data){
-
-		$array = json_decode($data,true);
+	//echo $dataClima;
+	if($dataClima){
+		
+		$array = json_decode($dataClima,true);
 		$fecha = $array[0];
 		foreach($fecha as $f){
 		if(count($f)>1){

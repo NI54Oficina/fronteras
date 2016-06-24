@@ -75,6 +75,8 @@ return array(
 				
 				"<pais>/noticia/<id>"=>"web/get/data/noticia/id/<id>",
 				"<pais>/ganado/<id>"=>"web/get/data/ganado/id/<id>",
+				"<pais>/clima/<id>"=>"web/get/data/clima/id/<id>",
+				"<pais>/hoy/<id>"=>"web/get/data/hoy/id/<id>",
 				"<pais>/enfermedad/<id>"=>"web/get/data/enfermedad/id/<id>",
 
 				'<controller:\w+>/<action:\w+>/id/<id>'=>'<controller>/<action>/id/<id>',
