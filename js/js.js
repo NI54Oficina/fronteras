@@ -542,11 +542,16 @@ function initializeRemates(){
 	checkNavigationButton();
 
     $(".containerColumnas").find('.info-remates-mobile').css("display","none");
+		$(".mes-remates").css("display","none");
+		$(".date-remates").css("display", "none");
 
 
  $(".containerColumnas").each(function(){
 
  	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+	$(".mes-remates").css("display","block");
+	$(".date-remates").css("display", "block");
+
  	checkNavigationButton();
 
  	console.log("esto funciona");
@@ -572,17 +577,25 @@ function turnOnButtonRemates(){
     	if(!tableAnimating){
     		tableAnimating=true;
 			$(".fade-in-mobile").fadeOut(400);
+			$(".mes-remates").fadeOut(400);
+			$(".date-remates").fadeOut(400);
 
 			setTimeout(function(){
 
 				$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+				$(".mes-remates").css("display","none");
+				$(".date-remates").css("display", "none");
 
 
 				++indexRemates;
 				 $(".containerColumnas").each(function(){
 					console.log("entra indicie"+indexRemates);
 					$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					$(".mes-remates").css("display","block");
+					$(".date-remates").css("display", "block");
 					$(".fade-in-mobile").fadeIn(400);
+					$(".mes-remates").fadeIn(400);
+					$(".date-remates").fadeIn(400);
 					checkNavigationButton();
 
 					console.log("esto funciona");
@@ -610,16 +623,25 @@ function turnOnButtonRemates(){
 			tableAnimating=true;
 
 	    	$(".fade-in-mobile").fadeOut(400);
+				$(".mes-remates").fadeOut(400);
+				$(".date-remates").fadeOut(400);
 				// $(".mes-remates")
-				// $
+				// $("date-remates")
 
 	    	setTimeout(function(){
 	    		$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+					$(".mes-remates").css("display","none");
+					$(".date-remates").css("display", "none");
 		    	--indexRemates;
 		    	 $(".containerColumnas").each(function(){
 		    	 	console.log("entra indicie"+indexRemates);
 				 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					$(".mes-remates").css("display","block");
+					$(".date-remates").css("display", "block");
 				 	$(".fade-in-mobile").fadeIn(400);
+					$(".mes-remates").fadeIn(400);
+					$(".date-remates").fadeIn(400);
+
 				 	console.log("esto funciona");
 				 	checkNavigationButton();
 
