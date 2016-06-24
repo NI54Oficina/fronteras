@@ -16,7 +16,8 @@ $retiros= Retiro::model()->findAll();
 
 			<p class="center-to-parent color-sanidad planes-h1">
 
-        Días de retiro de productos veterinarios </p>
+        Días de retiro de productos veterinarios
+      </p>
 
 		</div>
 	</div>
@@ -99,7 +100,7 @@ $retiros= Retiro::model()->findAll();
 				<?php
 				$loopIndex=5;
 				foreach($retiros as $retiro){ ?>
-				<div class="container-consignatorio info-remates-mobile" hid="<?php echo $loopIndex; ?>">
+				<div class="container-consignatorio info-remates-mobile table-indexer" hid="<?php echo $loopIndex; ?>">
 
 					<p class="center-to-parent "><?php echo $retiro->producto; ?></p>
 
