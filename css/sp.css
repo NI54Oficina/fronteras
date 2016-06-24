@@ -521,7 +521,19 @@ and (orientation : portrait){
 		font-size: 1.1rem;
 		padding-left: 7px;
 	}
+
+/*CUBICACION BAÑADEROS*/
+
+.block-img-2 {
+   margin-left: 0;
 }
+
+.block-img {
+    padding: 0px;
+
+}
+
+
 
 /** FIN**/
 

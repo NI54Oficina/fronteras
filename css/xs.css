@@ -84,7 +84,7 @@
 	.navbar-toggle {
 		margin-right:0px;
 		margin-top: 0;
-		color: #5F5F5F;
+		color: white;
 	}
 
 	.ul-nav{
@@ -436,6 +436,11 @@
 
 		 }
 
+		 .map-box {
+
+	     box-shadow: none;
+	 }
+
 	/*HEADER*/
 
 
@@ -462,8 +467,8 @@
 
 		.boton-ganado {
     margin-top: 0px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -475,6 +480,11 @@
 .contenedor-botones-mobile{
 	margin: 10px 0;
 }
+
+.img-ganado-info {
+    width: 100%;
+}
+
 	/*LINK DE INTERESES*/
 
 	.box-interes {

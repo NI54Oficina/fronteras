@@ -2091,7 +2091,7 @@ header .home-box:hover > .hoy-box {
 	font-size: 1.12em;
 	margin-bottom: 0px;
 	position: relative;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 .home-bottom-box > a> div {
@@ -3175,6 +3175,10 @@ header .home-box:hover > .hoy-box {
 	outline:none;
 }
 
+
+.glyphicon-remove{
+  color: gray !important;
+}
 
 .boton-volver-header{
   padding-left: 35px;
