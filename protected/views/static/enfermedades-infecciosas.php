@@ -4,7 +4,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 ?>
 
 <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
-	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-enfermedades titulo-mobile"> <p> Enfermedades</p> </div>
+	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-enfermedades titulo-mobile"> <p> Enfermedades infecciosas</p> </div>
 
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
 	<div class="box-sanidad border-shadow">
@@ -29,7 +29,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 		</form>
 
-		<div class="enfermedades-inside-title square">
+		<div class="enfermedades-inside-title square hidden-xs">
 			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-to-parent">
 				<?php echo $nota->titulo; ?>
 			</h2>
