@@ -1,5 +1,11 @@
 @media screen and (max-width: 767px){
 
+	.box-clima {
+    /* padding: 30px 25px; */
+    padding-top: 0;
+    padding-bottom: 30px;
+    padding-left: 3px;
+    padding-right: 3px;}
 
 	#bg-square{
 		display:none;
@@ -221,9 +227,6 @@
 		height: auto !important;
 	}
 
-	/*.mapa-clima{
-			margin-top: 25px;
-	}*/
 
 	.btn-mapas{
 		width: 100%;
@@ -236,9 +239,9 @@
     padding-top: 0px;
 }*/
 
-.box-clima:nth-child(2),  .box-clima:nth-child(3){
+/*.box-clima:nth-child(2),  .box-clima:nth-child(3){
 	padding-top: 30px ;
-}
+}*/
 
 
 	/* CUBICACION BAÑADEROS */
