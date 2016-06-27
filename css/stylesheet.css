@@ -16,6 +16,10 @@ a:focus{
 	text-decoration:none;
 }
 
+a {
+   outline: 0 !important;
+}
+
 
 
 
@@ -540,6 +544,7 @@ header .home-box:hover > .hoy-box {
 	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
+  -moz-appearance: none;
 	background-repeat:no-repeat;
 	background-size: auto 100%;
 	background-color:#F1EFEF;
@@ -2165,6 +2170,10 @@ header .home-box:hover > .hoy-box {
 	max-width: 235px;
 }
 
+.gota-producir > div > a > img:visited{
+outline: none;
+}
+
 .gota-producir{
 	padding: 25px 10px;
 }
@@ -2213,7 +2222,7 @@ header .home-box:hover > .hoy-box {
 	color: rgba(158,158,158,.5);
 	width: 100%;
 	background-color:transparent;
-	-webkit-appearance:normal;
+	-moz-appearance:none;
 	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
@@ -2723,6 +2732,7 @@ header .home-box:hover > .hoy-box {
 	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
+  -moz-appearance: none;
 	background-repeat:no-repeat;
 	background-size: auto 100%;
 }
