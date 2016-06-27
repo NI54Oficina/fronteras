@@ -154,7 +154,7 @@ function AdaptMenuContentApp(){
 
 
 						<!-- Header que se muestra solamente en pc - XL - MD -->
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs hidden-sm ">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs">
 
 						<!-- BOTON VOLVER -->
 						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="margin-top:.3%">
@@ -165,15 +165,17 @@ function AdaptMenuContentApp(){
 
 
 
+
+
 						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-3 col-xs-6 col-lan-xs-3 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy" class="link-menu">
 
 								<div class="home-box col-lg-3 ">
 
 									<div class="hoy-box square nav-pc" onlymobile="true" >
-										<div  class="cont-section-mobile square">
+										<!-- <div  class="cont-section-mobile square">
 											<img class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
-										</div>
+										</div> -->
 										<p class="p-header-mobile center-to-parent">Hoy</p>
 									</div>
 								</div>
@@ -189,9 +191,9 @@ function AdaptMenuContentApp(){
 
 								<div  class="home-box col-lg-3">
 									<div class="estemes-box square nav-pc" onlymobile="true">
-										<div  class="cont-section-mobile square">
+										<!-- <div  class="cont-section-mobile square">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
-										</div>
+										</div> -->
 										<p class="p-header-mobile center-to-parent">Este mes</p>
 									</div>
 
@@ -207,9 +209,9 @@ function AdaptMenuContentApp(){
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3">
 									<div class="producir-box square nav-pc" onlymobile="true">
-										<div  class="cont-section-mobile square">
+										<!-- <div  class="cont-section-mobile square"> -->
 											<!-- <img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-producir.png" alt="Chat" /> -->
-										</div>
+										<!-- </div> -->
 										<p class="p-header-mobile center-to-parent">Producir +</p>
 									</div>
 								</div>
@@ -224,22 +226,25 @@ function AdaptMenuContentApp(){
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3">
 									<div class="ayuda-box square nav-pc" onlymobile="true">
-										<div class="cont-section-mobile square" onlymobile="true">
+										<!-- <div class="cont-section-mobile square" onlymobile="true">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
-										</div>
+										</div> -->
 										<p class="p-header-mobile center-to-parent">Ayuda</p>
 									</div>
 
 								</div>
 							</a>
 						</li>
+
+
+
 					</div>
 
 
 
 					<!-- Header que se muestra solamente en SM , XS -->
 
-				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-xl  hidden-md header-mobb">
+				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-xl  hidden-md header-mobb hidden-sm">
 
 						<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
