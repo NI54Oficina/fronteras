@@ -303,6 +303,11 @@ and (min-device-width : 240px)
 and (max-device-width : 320px)
 and (orientation : portrait){
 
+
+  .gota-producir {
+    padding: 15px 5px;
+  }
+
 	.home-box > div > div:nth-child(1) {
 		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
 	}
@@ -391,6 +396,10 @@ and (orientation : portrait){
 		font-size:.65em;
 	}
 
+  .long-title{
+    font-size: 1.5em !important;
+  }
+
 	#lluvias-temperaturas-h1 {
 		text-align: center;
 		color: #FFFFFF;
@@ -439,6 +448,8 @@ and (orientation : portrait){
 and (min-device-width : 240px)
 and (max-device-width : 320px)
 and (orientation : landscape){
+
+
 
 	header #inner-header .home-upper-box {
 		padding: 0px 20px;
