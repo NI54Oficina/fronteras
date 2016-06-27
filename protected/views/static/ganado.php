@@ -7,9 +7,10 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 ?>
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="ganado">
+<?php foreach($ganado as $g){ ?>
 
-	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Tabla estado corporal</p> </div>
-
+	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p style="text-transform:capitalize;"> <?php echo $g["raza"]; ?></p> </div>
+<?php } ?>
 
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
 	<div class="box-manejo border-shadow">
