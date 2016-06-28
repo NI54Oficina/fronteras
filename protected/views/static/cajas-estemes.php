@@ -50,7 +50,7 @@
 
 
 	<!-- Checkbox -->
-<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/checkbox" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6">
+<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/recomendaciones" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6">
 	<div class="maxboxes col-lg-12 col-md-12 col-sm-12 col-xs-12 square" hid="1">
 
 		<div class="maxbox-checkbox maxboxes-inner-estemes square col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
@@ -62,7 +62,7 @@
 
 
 			<!--Título-->
-			<h2 >Recomendaciones técnicas</h2>
+			<h2 class="long-title">Recomendaciones técnicas</h2>
 				</div>
 
 		</div>

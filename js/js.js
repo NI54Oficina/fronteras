@@ -398,6 +398,7 @@ function CenterToParent(){
 			$(this).css("padding-top",paddingTop+"px");
 		}
 	});
+<<<<<<< HEAD
 	$(".center-to-parent-d").each(function(){
 		$(this).css("margin-top",0);
 		$(this).css("margin-bottom",0);
@@ -411,6 +412,8 @@ function CenterToParent(){
 			$(this).css("padding-top",paddingTop+"px");
 		}
 	});
+=======
+>>>>>>> origin/master
 	$(".center-to-parent-m").each(function(){
 		$(this).css("margin-top",0);
 		$(this).css("margin-bottom",0);
