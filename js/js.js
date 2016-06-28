@@ -196,8 +196,8 @@ function LoadFunction(){
 		}else{
 			$("header").css("position","fixed");
 		}*/
-		console.log(isMobile);
-		console.log(isIOS);
+		//console.log(isMobile);
+		//console.log(isIOS);
 	}
 
 	function ResetHeight(){
@@ -234,7 +234,7 @@ function LoadFunction(){
 
 
 	function Header(){
-		console.log("entra");
+		//console.log("entra");
 		var auxH=$("#logo-bago-mobile").outerHeight()+10;
 		if(!isHome){
 
@@ -257,7 +257,7 @@ function LoadFunction(){
 			auxH= screen.height;
 			rule.height= "auto";
 			rule['min-height']= auxH+"px";
-			console.log(rule.height);;
+			//console.log(rule.height);;
 			}else{
 				console.log("no entró rule");
 				$("body").append("<style>.headermobile .navbar-collapse.in{height:auto;min-height:"+auxH+"px;}</style>");
@@ -329,7 +329,7 @@ $(document).on("ready",function(){
 function ReadyFunction(){
 	readyExecuted=true;
 	CheckDevice();
-	console.log("entra ready jsjs");
+	//console.log("entra ready jsjs");
 	if(isMobile){
 		splash();
 	}
@@ -392,7 +392,7 @@ function CenterToParent(){
 		$(this).css("padding-bottom",0);
 		$(this).css("padding-top",0);
 		var parent= $(this).parent();
-		console.log($(this).outerHeight());
+		//console.log($(this).outerHeight());
 		if($(this).outerHeight()>0){
 			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
 			$(this).css("padding-top",paddingTop+"px");
@@ -404,7 +404,7 @@ function CenterToParent(){
 		$(this).css("padding-bottom",0);
 		$(this).css("padding-top",0);
 		var parent= $(this).parent();
-		console.log($(this).outerHeight());
+		//console.log($(this).outerHeight());
 		if($(this).outerHeight()>0){
 			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
 			paddingTop= paddingTop/2;
@@ -457,11 +457,11 @@ function AdaptSquare(){
 	//edit by fran, preguntar porque
 	$(".square").each(function(){
 		if($(this).attr("onlymobile")=="true"&&!isMobile){
-			console.log("entra poyo");
+			//console.log("entra poyo");
 			 $(this).css('height', "auto");
 		}else{
 		var ancho = $(this).outerWidth();
-		console.log("ancho "+ancho);
+		//console.log("ancho "+ancho);
 	  $(this).css('height', ancho+"px");
 
 /*
@@ -493,7 +493,7 @@ function splash() {
      	finishDelayHome=true;
  		FadeHome();
  		 });
-     console.log("Entro delay");
+     //console.log("Entro delay");
 
 }
 
@@ -567,7 +567,7 @@ function initializeRemates(){
 
  	checkNavigationButton();
 
- 	console.log("esto funciona");
+ 	//console.log("esto funciona");
 
 
  });
@@ -590,28 +590,28 @@ function turnOnButtonRemates(){
     	if(!tableAnimating){
     		tableAnimating=true;
 			$(".fade-in-mobile").fadeOut(400);
-			$(".mes-remates").fadeOut(400);
-			$(".date-remates").fadeOut(400);
+			//$(".mes-remates").fadeOut(400);
+			//$(".date-remates").fadeOut(400);
 
 			setTimeout(function(){
 
 				$(".containerColumnas").find('.info-remates-mobile').css("display","none");
-				$(".mes-remates").css("display","none");
+				//$(".mes-remates").css("display","none");
 				$(".date-remates").css("display", "none");
 
 
 				++indexRemates;
 				 $(".containerColumnas").each(function(){
-					console.log("entra indicie"+indexRemates);
+					//console.log("entra indicie"+indexRemates);
 					$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
-					$(".mes-remates").css("display","block");
-					$(".date-remates").css("display", "block");
+					//$(".mes-remates").css("display","block");
+					//$(".date-remates").css("display", "block");
 					$(".fade-in-mobile").fadeIn(400);
-					$(".mes-remates").fadeIn(400);
-					$(".date-remates").fadeIn(400);
+					//$(".mes-remates").fadeIn(400);
+					//$(".date-remates").fadeIn(400);
 					checkNavigationButton();
 
-					console.log("esto funciona");
+					//console.log("esto funciona");
 				 });
 
 				setTimeout(function(){
@@ -621,7 +621,7 @@ function turnOnButtonRemates(){
 
 			}, 400);
 
-			 console.log("lengthRemates "+lengthRemates);
+			// console.log("lengthRemates "+lengthRemates);
 			 checkNavigationButton();
 
 
@@ -636,26 +636,26 @@ function turnOnButtonRemates(){
 			tableAnimating=true;
 
 	    	$(".fade-in-mobile").fadeOut(400);
-				$(".mes-remates").fadeOut(400);
-				$(".date-remates").fadeOut(400);
+				//$(".mes-remates").fadeOut(400);
+				//$(".date-remates").fadeOut(400);
 				// $(".mes-remates")
 				// $("date-remates")
 
 	    	setTimeout(function(){
 	    		$(".containerColumnas").find('.info-remates-mobile').css("display","none");
-					$(".mes-remates").css("display","none");
-					$(".date-remates").css("display", "none");
+					//$(".mes-remates").css("display","none");
+					//$(".date-remates").css("display", "none");
 		    	--indexRemates;
 		    	 $(".containerColumnas").each(function(){
-		    	 	console.log("entra indicie"+indexRemates);
+		    	 	//console.log("entra indicie"+indexRemates);
 				 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
-					$(".mes-remates").css("display","block");
-					$(".date-remates").css("display", "block");
+					//$(".mes-remates").css("display","block");
+					//$(".date-remates").css("display", "block");
 				 	$(".fade-in-mobile").fadeIn(400);
-					$(".mes-remates").fadeIn(400);
-					$(".date-remates").fadeIn(400);
+					//$(".mes-remates").fadeIn(400);
+					//$(".date-remates").fadeIn(400);
 
-				 	console.log("esto funciona");
+				 	//console.log("esto funciona");
 				 	checkNavigationButton();
 
 				 });
@@ -687,15 +687,15 @@ function fillBackground(){
 	var pheigth= $(".fill-heigth").parent().outerHeight();
 	var bgheigth= pheigth - selfheigth;
 
-	console.log("check-point-1; " + pheigth);
-	console.log("check-point-2; " + selfheigth);
-	console.log("check-point-2; " + bgheigth);
+	//console.log("check-point-1; " + pheigth);
+	//console.log("check-point-2; " + selfheigth);
+	//console.log("check-point-2; " + bgheigth);
 
 	$(".fill-heigth").each(function(){
 
 	$(".fill-heigth").parent().css("background-size", "100%" + bgheigth + "px");
 
-	console.log("check-point-3" );
+	//console.log("check-point-3" );
 
 	});
 
@@ -710,13 +710,13 @@ function changeContent(){
         $('.enfermedades-infecciosas').hide();
         $('#' + $(this).val()).show();
     });
-	console.log("salida enfermedades");
+	//console.log("salida enfermedades");
     $('#parext-selector').change(function(){
 			$('.relleno-enfermedad').hide();
         $('.parasitos-externos').hide();
         $('#' + $(this).val()).show();
     });
-	console.log("salida enfermedades");
+	//console.log("salida enfermedades");
 
 }
 
@@ -782,7 +782,11 @@ if( (wdWidth-wdHeight) > 0 ){
 function fitBackground(){
 
 	var img = new Image ;
-	img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
+	try{
+		img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
+	}catch(err){
+		
+	}
 	$(img).load(function() {
     var bgWidth = img.width;
     var bgHeight = img.height;
@@ -888,7 +892,7 @@ if( (wdWidth-wdHeight) > 0 ){
 
 
 function slider(){
-	console.log("entra slider");
+	//console.log("entra slider");
 
 var currentIndex = 0,
   items = $('.general-container-producir');
@@ -947,7 +951,7 @@ $('.preview-ganado').click(function() {
 
 $('.nav-dot').click(function() {
 
-	console.log("entro dot Slider");
+	//console.log("entro dot Slider");
 	var dotIndex = $(this).index();
 	$(".general-container-producir").hide();
 	$('.general-container-producir').eq(dotIndex).fadeIn("slow");
@@ -961,7 +965,7 @@ $('.nav-dot').click(function() {
 
 
 
- console.log("sale slider");
+// console.log("sale slider");
 }
 
 // FIN FUNCION QUE MUESTRA ITEM EN UNA COLA ITERATIVA + dot nav
@@ -975,7 +979,7 @@ function backButton(){
 			history.back();
 		});
 	}
-	console.log("volver");
+	//console.log("volver");
 }
 
 // FIN FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
@@ -999,8 +1003,8 @@ function limited(){
 	var n=2;
 	var i=0;
 
-	console.log("test limited ");
-	console.log(text[2]);
+	//console.log("test limited ");
+	//console.log(text[2]);
 
 
   // PUEDE NO IR PORQUE VA COMO PARAMETROS
@@ -1008,11 +1012,11 @@ function limited(){
   var heightMargins = $(".ganado").css("margin-top") + $(".ganado").css("margin-top");
   var totalHeight = parseInt( heightFont + heightMargins);
 
-	console.log(totalHeight);
+	//console.log(totalHeight);
 
 	var altoDiv = $(".ganado").height();
 
-	console.log(altoDiv);
+	//console.log(altoDiv);
  if(altoDiv > n*totalHeight){
   // $(".ganado").text([1]).css("display","none");
 	var nuevoAlto= $(".ganado").height();
