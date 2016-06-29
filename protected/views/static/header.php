@@ -136,7 +136,7 @@ function AdaptMenuContentApp(){
 	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
 	  	</div>
 
-<span  class=" glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
+<span  class="hidden-lg hidden-sm hidden-md glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
 
 <span  class="navbar-toggle" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" style="position:absolute;"></span>
 

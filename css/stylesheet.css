@@ -2580,16 +2580,12 @@ outline: none;
   font-size: 1.3em;
 }
 
-
-
 /** Container modadlidad, consignatorio, lugar, provincia, cabezas **/
 /*Modalidad*/
 .container-modalidad{
     min-height: 70px;
     border-bottom: 1px solid grey;
     text-align: left;
-	display:inline-block;
-	width:100%;
 }
 
 .container-modalidad-retiro{
@@ -2600,8 +2596,6 @@ outline: none;
 .container-consignatorio{
     min-height: 70px;
     border-bottom: 1px solid grey;
-	display:inline-block;
-	width:100%;
 }
 
 
@@ -2618,8 +2612,6 @@ outline: none;
 .container-lugar{
     min-height: 70px;
     border-bottom: 1px solid grey;
-	display:inline-block;
-	width:100%;
 }
 
 
@@ -2638,8 +2630,6 @@ outline: none;
 .container-provincia{
     min-height: 70px;
     border-bottom: 1px solid grey;
-	display:inline-block;
-	width:100%;
 }
 
 
@@ -2650,8 +2640,6 @@ outline: none;
 .container-cabezas{
     min-height: 70px;
     border-bottom: 1px solid grey;
-	display:inline-block;
-	width:100%;
 }
 
 .container-cabezas p{
@@ -3232,7 +3220,7 @@ outline: none;
   color: #adadad;
 }
 
-.navbar-toggle2{
+.navbar-toggle{
 	position:absolute;
 	left:0;
 	z-index:200;
