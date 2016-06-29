@@ -183,7 +183,7 @@ function AdaptMenuContentApp(){
 										<!-- <div  class="cont-section-mobile square">
 											<img class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
 										</div> -->
-										<p class="p-header-mobile center-to-parent">Hoy</p>
+										<p class="p-header-mobile center-to-parent p-header-hoy">Hoy</p>
 									</div>
 								</div>
 							</a>
@@ -201,7 +201,7 @@ function AdaptMenuContentApp(){
 										<!-- <div  class="cont-section-mobile square">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
 										</div> -->
-										<p class="p-header-mobile center-to-parent">Este mes</p>
+										<p class="p-header-mobile center-to-parent p-header-estemes">Este mes</p>
 									</div>
 
 								</div>
@@ -219,7 +219,7 @@ function AdaptMenuContentApp(){
 										<!-- <div  class="cont-section-mobile square"> -->
 											<!-- <img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-producir.png" alt="Chat" /> -->
 										<!-- </div> -->
-										<p class="p-header-mobile center-to-parent">Producir +</p>
+										<p class="p-header-mobile center-to-parent p-header-producir">Producir +</p>
 									</div>
 								</div>
 							</a>
@@ -236,7 +236,7 @@ function AdaptMenuContentApp(){
 										<!-- <div class="cont-section-mobile square" onlymobile="true">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
 										</div> -->
-										<p class="p-header-mobile center-to-parent">Ayuda</p>
+										<p class="p-header-mobile center-to-parent p-header-ayuda">Ayuda</p>
 									</div>
 
 								</div>

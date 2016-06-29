@@ -98,7 +98,6 @@ p{
 
 header{
 	top:0;
-	width:100%;
 }
 
 .header-logos{
@@ -1719,6 +1718,9 @@ header .home-box:hover > .hoy-box {
 	background-color:#FFA621;
 }
 
+.noticia-tipo-general:hover{
+  opacity: .8;
+}
 /*****************FIN NOTICIAS******************/
 
 /*************** INTERIOR NOTICIA ******************/
@@ -2589,7 +2591,7 @@ outline: none;
 }
 
 .mes-remates{
-  background-color: lightblue;
+  background-color: #404040;
   height: 10px;
 }
 
@@ -3210,12 +3212,23 @@ outline: none;
 
 #back-header2{
 	background-image: url(ic_arrow_back_m.svg);
-	float:left;
-	margin-top:0;
-	height:2.3em;
-	background-position:center;
 }
 
+.p-header-hoy:hover{
+  color:#40CEDB
+}
+
+.p-header-estemes:hover{
+  color:#0093D4;
+}
+
+.p-header-producir:hover{
+  color: #917fb5;
+}
+
+.p-header-ayuda:hover{
+  color: #79BEFE;
+}
 
 .boton-header{
 	width:30px;
@@ -3242,7 +3255,7 @@ outline: none;
   color: #adadad;
 }
 
-.navbar-toggle2{
+.navbar-toggle{
 	position:absolute;
 	left:0;
 	z-index:200;

@@ -51,7 +51,7 @@ $secciones["Empresas"]="noticia-tipo-4";
 	<!-- Noticia 2-->
 	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>" >
 	<div  class="col-lg-2-5 col-md-2-5 col-sm-4 col-xs-12 col-xl-5 col-lan-xs-6" hid="10">
-		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?>">
+		<div class="<?php if(isset($secciones[$f["categoria"]])){ echo $secciones[$f["categoria"]];} ?> noticia-tipo-general">
 
 			<!--Título de sección -->
 
