@@ -5,7 +5,7 @@
  <div class="gota-producir col-lg-4 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4 ">
 	 <div id="btn-sanidad">
  		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/sanidad">
- 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-sanidad.svg" alt="Sanidad">
+ 			<img class="testing-gota" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-sanidad.svg" alt="Sanidad">
  		</a>
  	 </div>
 
@@ -14,7 +14,7 @@
  <div class="gota-producir col-lg-4 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4">
  	<div id="btn-manejo">
  		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/manejo">
- 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-manejo.svg" alt="Manejo">
+ 			<img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-manejo.svg" alt="Manejo">
  		</a>
  	</div>
 

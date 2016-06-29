@@ -1929,6 +1929,43 @@ header .home-box:hover > .hoy-box {
   color: #79BEFE;
 }
 
+
+
+
+.border-producir-in{
+  margin-top: 0px;
+  width: 0%;
+height: 0px;
+transition-delay: 0s;
+opacity: 0;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+display: inline-block;
+}
+
+.box-producir-2:hover  .border-producir-in{
+  width: 20%;height: 3px;
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: scaleX(2);
+  position: relative;
+    transition: all 0.5s ease;
+}
+
+.box-producir-2:hover  .border-manejo-in{
+  background: #003D6A;
+}
+
+.box-producir-2:hover  .border-sanidad-in{
+  background:#6D4A84;
+}
+
+.box-producir-2:hover  .border-genetica-in{
+  background: #ED7C28;
+}
+
+
+
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
 
@@ -2223,7 +2260,9 @@ header .home-box:hover > .hoy-box {
 	width: 85%;
 	position: relative;
 	max-width: 235px;
+
 }
+
 
 .gota-producir > div > a > img:visited{
 outline: none;
@@ -3360,34 +3399,14 @@ outline: none;
 
 
 
-.border-producir-in{
-  margin-top: 0px;
-  width: 0%;
-height: 0px;
-transition-delay: 0s;
-opacity: 0;
--webkit-transform: scaleX(0);
-transform: scaleX(0);
-display: inline-block;
-}
+@keyframes testing-gota {
+    33%   {width: 85%;}
+    33%  {width: 50%;}
+    33% {width: 85%;}
+    }
 
-.box-producir-2:hover  .border-producir-in{
-  width: 20%;height: 3px;
-  transition-delay: 0.3s;
-  opacity: 1;
-  transform: scaleX(2);
-  position: relative;
-    transition: all 0.5s ease;
-}
+.testing-gota:hover{
 
-.box-producir-2:hover  .border-manejo-in{
-  background: #003D6A;
-}
-
-.box-producir-2:hover  .border-sanidad-in{
-  background:#6D4A84;
-}
-
-.box-producir-2:hover  .border-genetica-in{
-  background: #ED7C28;
+      animation-name: testing-gota !important;
+      animation-duration: 2s !important;
 }
