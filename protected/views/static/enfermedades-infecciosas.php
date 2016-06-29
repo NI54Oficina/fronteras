@@ -82,3 +82,8 @@ $nota = Notas::model()->findByAttributes(array("id"=>1,"seccion"=>"enfermedad"))
 
 
 </section>
+<script>
+setTimeout(function(){
+changeContent();
+},100);
+</script>
