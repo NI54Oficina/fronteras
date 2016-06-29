@@ -87,7 +87,7 @@
 
 	/*TERMINA HOME*/
 
-	.navbar-toggle {
+	.navbar-toggle2 {
 		margin-right:0px;
 		margin-top: 0;
 		color: white;
@@ -198,7 +198,7 @@
 		display:none;
 	}
 
-	.navbar-toggle {
+	.navbar-toggle2 {
 		float: left;
 	}
 
@@ -213,7 +213,7 @@
 		margin: 50% auto;
 	}
 
-	.navbar-toggle {
+	.navbar-toggle2 {
 		margin-top: 0px;
 		height: 0px;
 		left: 90vw;

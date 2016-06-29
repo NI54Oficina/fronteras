@@ -1,7 +1,10 @@
 <script>
-$("body").on("tap",".navbar-toggle",function(){
+$("body").on("tap",".navbar-toggle2",function(){
 	//console.log("touch start");
-	$(this).click();
+	if(!menuReady){
+		return;
+	}
+	$(".navbar-toggle").click();
 	if(isMobile){
 		AdaptMenuContent();
 	}
@@ -11,7 +14,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 });
 
 function AdaptMenuContent(){
-
+	menuReady=false;
 	setTimeout(function(){
 		ResetHeight();
 		SameHeight();
@@ -37,7 +40,7 @@ function AdaptMenuContent(){
 				$(document).scrollTop(0);
 
 				$(".header-mobb").css("opacity",1);
-
+				menuReady=true;
 				//setTimeout(function(){
 					//$(".header-mobb").css("opacity",1);
 				//},500);
@@ -66,6 +69,7 @@ function AdaptMenuContent(){
 
 					$(".header-mobb").css("opacity",0);
 					$(".fadder").css("opacity",1); $("section").css("opacity",1);
+					menuReady=true;
 				},500);
 
 				//$(".fadder").fadeIn(1000);
@@ -96,7 +100,8 @@ function AdaptMenuContentApp(){
 				$(document).scrollTop(scrollTop);
 				$(".header-mobb").css("opacity",1);
 				ResetHeight();
-				SameHeight()
+				SameHeight();
+				AdaptSquare();
 				//$(".fadder").fadeIn(1000);
 			}
 
@@ -131,7 +136,9 @@ function AdaptMenuContentApp(){
 	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
 	  	</div>
 
-<span  class=" glyphicon glyphicon-th-large navbar-toggle collapsed" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" ></span>
+<span  class=" glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
+
+<span  class="navbar-toggle" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" style="position:absolute;"></span>
 
 
 

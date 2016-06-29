@@ -1,5 +1,8 @@
 var isHome=false;
 var isApp=false;
+
+var menuReady=true;
+
 $(window).on("load",function () {
 	LoaderGif();
 	LoadFunction();
@@ -20,6 +23,7 @@ function LoadFunction(){
 	console.log("entra load");
 		CheckDevice();
 		Header();
+		ResetHeight();
 		SameHeight();
 		AdaptSquare();
 		FillParent();
@@ -30,7 +34,11 @@ function LoadFunction(){
 
 
 		if(!isHome || !isMobile){
-
+			if(isApp){
+				ResetHeight();
+				SameHeight();
+				AdaptSquare();
+			}
 			$(".fadder").css('opacity',1);
 			$("section").css('opacity',1);
 			$(".fadder").css('animation-play-state',"running");
@@ -398,7 +406,7 @@ function CenterToParent(){
 			$(this).css("padding-top",paddingTop+"px");
 		}
 	});
-<<<<<<< HEAD
+
 	$(".center-to-parent-d").each(function(){
 		$(this).css("margin-top",0);
 		$(this).css("margin-bottom",0);
@@ -412,8 +420,7 @@ function CenterToParent(){
 			$(this).css("padding-top",paddingTop+"px");
 		}
 	});
-=======
->>>>>>> origin/master
+	
 	$(".center-to-parent-m").each(function(){
 		$(this).css("margin-top",0);
 		$(this).css("margin-bottom",0);
