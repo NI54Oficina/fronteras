@@ -1744,7 +1744,9 @@ header .home-box:hover > .hoy-box {
     vertical-align: super;
 }
 
-
+.noticia-tipo-general:hover{
+  opacity: .8;
+}
 
 .container-inside-noticia .titulo{
 	/*color:#2ED7AA;*/
@@ -1869,8 +1871,27 @@ header .home-box:hover > .hoy-box {
 	background-color:#003D6A;
 }
 
+.box-sanidad-inner:hover{
+  background-color:#fdfdfd;
+}
+.box-nutricion {
+	background-color:#BAA200;
+}
+
+.box-genetica-inner:hover{
+	background-color:#f1e0d3;
+}
+
+
+
+
 .box-manejo-inner {
  	border:2px solid #003D6A ;
+}
+
+.box-manejo-inner:hover{
+  background: #d7e1e8;
+
 }
 
 .color-sanidad{
