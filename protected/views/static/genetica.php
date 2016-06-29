@@ -59,10 +59,16 @@
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/protocolo" >
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner producir-box-inner square">
-			<p class="color-genetica fill-heigth center-to-parent" >Protoloco de reproducción</p>
+			<p class="color-genetica fill-heigth center-to-parent" >Protocolo de reproducción</p>
 		</div>
 	</div>
 	</a>
 	</div>
 
 </section>
+<script>
+setTimeout(function(){
+fillBackground();
+},100);
+
+</script>
