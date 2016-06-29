@@ -85,9 +85,14 @@ $retiros= Retiro::model()->findAll();
         $contImg=1;
 				foreach($retiros as $retiro){ ?>
 				<div class="container-modalidad info-remates-mobile retiro-img" hid="<?php echo $loopIndex; ?>">
-
+          <?php
+     		 if($retiro->id != 14 || $retiro->id != 16 || $retiro->id != 23 || $retiro->id  != 31 ||$retiro->id != 53){
+     			?>
 				<img class="center-to-parent"  src="<?php echo Yii::app()->request->baseUrl; ?>/uploads/retiro-producto/<?php echo $contImg; ?>.png">
-				</div>
+        <?php
+       }
+       ?>
+        </div>
 				<?php $loopIndex++; $contImg++; } ?>
 			</div>
 
