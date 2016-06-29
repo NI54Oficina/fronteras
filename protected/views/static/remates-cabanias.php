@@ -42,7 +42,7 @@ $remates= Remates::model()->findAll($Criteria);
 
 
 			<!-- Titulo FECHA -->
-			<div class="title-remates color-cabanias hidden-xs hidden-sm hidden-md"> <h2>Fecha</h2></div>
+			<div class="title-remates color-cabanias hidden-xs hidden-sm hidden-md"> <h2 class="center-to-parent">Fecha</h2></div>
 
 			<!-- Caja fecha particular -->
 
@@ -74,7 +74,7 @@ $remates= Remates::model()->findAll($Criteria);
 			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias"><h2>Modalidad</h2></div>
+				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Modalidad</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-modalidad info-remates-mobile" hid="1">
@@ -90,7 +90,7 @@ $remates= Remates::model()->findAll($Criteria);
 			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias"><h2>Consignatario</h2></div>
+				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Consignatario</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-consignatorio info-remates-mobile" hid="1">
@@ -105,7 +105,7 @@ $remates= Remates::model()->findAll($Criteria);
 			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias"><h2>Lugar</h2></div>
+				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Lugar</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-lugar info-remates-mobile" hid="1">
@@ -120,7 +120,7 @@ $remates= Remates::model()->findAll($Criteria);
 			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias"><h2>Provincia</h2></div>
+				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Provincia</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-provincia  info-remates-mobile" hid="1">
@@ -134,7 +134,7 @@ $remates= Remates::model()->findAll($Criteria);
 			<div class="col-lg-2-5 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias"><h2>Cabezas</h2></div>
+				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Cabezas</h2></div>
 				<!--Contenido -->
 				<?php foreach($remates as $remate){ ?>
 				<div class="container-cabezas info-remates-mobile table-indexer" hid="1">
