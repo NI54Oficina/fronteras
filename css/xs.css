@@ -518,6 +518,10 @@
 	}
 
 
+	.home-upper-box img:nth-child(2) {
+    width: 25%;
+}
+
 	header .home-box > div > div:nth-child(1) {
     height: 85px;
 }
