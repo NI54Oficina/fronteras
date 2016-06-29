@@ -1853,10 +1853,26 @@ header .home-box:hover > .hoy-box {
 .box-sanidad-inner {
  	border:2px solid #6D4A84 ;
 }
+
+.box-sanidad-inner:hover{
+  background-color:#fdfdfd;
+}
 .box-nutricion {
 	background-color:#BAA200;
 }
 
+.box-genetica-inner:hover{
+	background-color:#f1e0d3;
+}
+
+.box-manejo-inner:hover{
+  background: #d7e1e8;
+}
+
+.box-manejo-inner:hover{
+  background: #d7e1e8;
+
+}
 
 .box-relleno{
 	opacity: .1;
