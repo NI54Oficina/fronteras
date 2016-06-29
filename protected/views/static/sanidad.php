@@ -16,6 +16,7 @@
 					<p class="long-word color-sanidad center-to-parent">Enfermedades</p>
 				</div>
 			</div>
+			<div class="border-producir-in border-sanidad-in" ></div>
 		</div>
 	</a>
 
@@ -26,6 +27,7 @@
 					<p class="color-sanidad center-to-parent">Planes Sanitarios</p>
 				</div>
 			</div>
+			<div class="border-producir-in border-sanidad-in" ></div>
 		</div>
 	</a>
 
@@ -37,6 +39,7 @@
 				<p class="color-sanidad center-to-parent">Vademécum</p>
 			</div>
 		</div>
+		<div class="border-producir-in border-sanidad-in" ></div>
 	</div>
 	</a>
 
@@ -47,6 +50,7 @@
 					<p class="long-word  color-sanidad center-to-parent">Laboratorios de Diagnóstico</p>
 				</div>
 			</div>
+			<div class="border-producir-in border-sanidad-in" ></div>
 		</div>
 	</a>
 
@@ -57,6 +61,7 @@
 					<p class="color-sanidad center-to-parent">Toma de muestras</p>
 				</div>
 			</div>
+			<div class="border-producir-in border-sanidad-in" ></div>
 		</div>
 	</a>
 
@@ -69,6 +74,7 @@
 				</div>
 
 			</div>
+			<div class="border-producir-in border-sanidad-in" ></div>
 		</div>
 	</a>
 
@@ -80,6 +86,7 @@
 					<p class="long-word color-sanidad center-to-parent">Valores constantes de animales en producción</p>
 				</div>
 			</div>
+			<div class="border-producir-in border-sanidad-in" ></div>
 		</div>
 	</a>
 

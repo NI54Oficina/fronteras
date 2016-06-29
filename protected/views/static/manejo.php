@@ -16,12 +16,9 @@
 		<div class="box-manejo-inner producir-box-inner  square">
 			<p class="long-word color-manejo center-to-parent" >Cubicación de bañaderos</p>
 		</div>
+		</div>
+		<div class="border-producir-in border-manejo-in" ></div>
 	</div>
-	</div>
-
-	<!-- <div class="border-box-producir-2" style="width:0%, height:0px; transition-delay:0s; opacity:0">
-
-	</div> -->
 	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/bienestar-animal">
@@ -31,6 +28,7 @@
 					<p class="color-manejo center-to-parent">Bienestar animal y buenas prácticas de uso de  productos veterinarios</p>
 				</div>
 			</div>
+			<div class="border-producir-in border-manejo-in" ></div>
 		</div>
 	</a>
 
@@ -43,6 +41,7 @@
 				<p class="color-manejo center-to-parent">Tabla de estado corporal</p>
 			</div>
 		</div>
+		<div class="border-producir-in border-manejo-in" ></div>
 	</div>
 	</a>
 
@@ -53,6 +52,7 @@
 				<p class="color-manejo center-to-parent">Tipo de destete</p>
 			</div>
 		</div>
+		<div class="border-producir-in border-manejo-in" ></div>
 	</div>
 	</a>
 

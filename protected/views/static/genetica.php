@@ -14,8 +14,11 @@
 				<div class="box-genetica-inner producir-box-inner square icon-angus">
 					<div  class="color-genetica long-word fill-heigth name-genetica">Asociación Angus</div>
 				</div>
+
 			</div>
+			<div class="border-producir-in border-genetica-in" ></div>
 		</a>
+
 	</div>
 
 
@@ -26,7 +29,9 @@
 					<div class="color-genetica long-word fill-heigth name-genetica"> Asociación Brangus</div>
 				</div>
 			</div>
+			<div class="border-producir-in border-genetica-in" ></div>
 		</a>
+
 	</div>
 
 
@@ -37,6 +42,7 @@
 					<div class="color-genetica long-word fill-heigth name-genetica">Asociación Hereford</div>
 				</div>
 			</div>
+			<div class="border-producir-in border-genetica-in" ></div>
 		</a>
 	</div>
 
@@ -47,6 +53,7 @@
 					<div class="color-genetica long-word fill-heigth name-genetica">Asociación Braford</div>
 				</div>
 			</div>
+			<div class="border-producir-in border-genetica-in" ></div>
 		</a>
 	</div>
 
@@ -61,7 +68,9 @@
 		<div class="box-genetica-inner producir-box-inner square">
 			<p class="color-genetica fill-heigth center-to-parent" >Protocolo de reproducción</p>
 		</div>
+
 	</div>
+	<div class="border-producir-in border-genetica-in" ></div>
 	</a>
 	</div>
 

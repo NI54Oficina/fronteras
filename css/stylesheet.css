@@ -3358,8 +3358,36 @@ outline: none;
 
 /*TESTING*/
 
-/*.box-producir-2:hover > .border-box-producir-2{
-  width: 12%;height: 3px;
-  background: red; transition-delay: 0.3s;
+
+
+.border-producir-in{
+  margin-top: 0px;
+  width: 0%;
+height: 0px;
+transition-delay: 0s;
+opacity: 0;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+display: inline-block;
+}
+
+.box-producir-2:hover  .border-producir-in{
+  width: 20%;height: 3px;
+  transition-delay: 0.3s;
   opacity: 1;
-}*/
+  transform: scaleX(2);
+  position: relative;
+    transition: all 0.5s ease;
+}
+
+.box-producir-2:hover  .border-manejo-in{
+  background: #003D6A;
+}
+
+.box-producir-2:hover  .border-sanidad-in{
+  background:#6D4A84;
+}
+
+.box-producir-2:hover  .border-genetica-in{
+  background: #ED7C28;
+}
