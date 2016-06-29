@@ -216,8 +216,9 @@
 	.navbar-toggle2 {
 		margin-top: 0px;
 		height: 0px;
-		left: 90vw;
-		padding-top: 5px;
+		padding-top: 8px;
+		left:initial;
+		right:10px;
 	}
 
 

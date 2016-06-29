@@ -3193,6 +3193,10 @@ outline: none;
 
 #back-header2{
 	background-image: url(ic_arrow_back_m.svg);
+	float:left;
+	margin-top:0;
+	height:2.3em;
+	background-position:center;
 }
 
 
@@ -3221,7 +3225,7 @@ outline: none;
   color: #adadad;
 }
 
-.navbar-toggle{
+.navbar-toggle2{
 	position:absolute;
 	left:0;
 	z-index:200;
