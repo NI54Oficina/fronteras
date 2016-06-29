@@ -107,7 +107,14 @@ if(true){
 
 		</div>
 	</div>
-	<a href="<?php echo Yii::app()->request->baseUrl; ?>/lluvias-temperaturas"><button type="button" class="btn-mapas subtablesButton">Ver anteriores</button></a>
+	<a href="<?php echo Yii::app()->request->baseUrl; ?>/lluvias-temperaturas">
+    <div style="background-color:red">
+      <button type="button" class="btn-mapas subtablesButton"><p class="p-button-clima" style="">
+        Ver anteriores
+      </p></button>
+    </div>
+
+    </a>
 	</div>
 <?php
 }
