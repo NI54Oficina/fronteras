@@ -98,6 +98,7 @@ p{
 
 header{
 	top:0;
+	width:100%;
 }
 
 .header-logos{
@@ -1718,9 +1719,6 @@ header .home-box:hover > .hoy-box {
 	background-color:#FFA621;
 }
 
-.noticia-tipo-general:hover{
-  opacity: .8;
-}
 /*****************FIN NOTICIAS******************/
 
 /*************** INTERIOR NOTICIA ******************/
@@ -1853,26 +1851,10 @@ header .home-box:hover > .hoy-box {
 .box-sanidad-inner {
  	border:2px solid #6D4A84 ;
 }
-
-.box-sanidad-inner:hover{
-  background-color:#fdfdfd;
-}
 .box-nutricion {
 	background-color:#BAA200;
 }
 
-.box-genetica-inner:hover{
-	background-color:#f1e0d3;
-}
-
-.box-manejo-inner:hover{
-  background: #d7e1e8;
-}
-
-.box-manejo-inner:hover{
-  background: #d7e1e8;
-
-}
 
 .box-relleno{
 	opacity: .1;
@@ -1909,6 +1891,22 @@ header .home-box:hover > .hoy-box {
 
 }
 
+
+.p-header-hoy:hover{
+  color:#40CEDB
+}
+
+.p-header-estemes:hover{
+  color:#0093D4;
+}
+
+.p-header-producir:hover{
+  color: #917fb5;
+}
+
+.p-header-ayuda:hover{
+  color: #79BEFE;
+}
 
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
@@ -2607,7 +2605,7 @@ outline: none;
 }
 
 .mes-remates{
-  background-color: #404040;
+  background-color: lightblue;
   height: 10px;
 }
 
@@ -3228,23 +3226,12 @@ outline: none;
 
 #back-header2{
 	background-image: url(ic_arrow_back_m.svg);
+	float:left;
+	margin-top:0;
+	height:2.3em;
+	background-position:center;
 }
 
-.p-header-hoy:hover{
-  color:#40CEDB
-}
-
-.p-header-estemes:hover{
-  color:#0093D4;
-}
-
-.p-header-producir:hover{
-  color: #917fb5;
-}
-
-.p-header-ayuda:hover{
-  color: #79BEFE;
-}
 
 .boton-header{
 	width:30px;
@@ -3271,7 +3258,7 @@ outline: none;
   color: #adadad;
 }
 
-.navbar-toggle{
+.navbar-toggle2{
 	position:absolute;
 	left:0;
 	z-index:200;
@@ -3346,3 +3333,12 @@ outline: none;
 }
 
 /**************FIN PROTOCOLOS DE REPRODUCCION *****************/
+
+
+/*TESTING*/
+
+/*.box-producir-2:hover > .border-box-producir-2{
+  width: 12%;height: 3px;
+  background: red; transition-delay: 0.3s;
+  opacity: 1;
+}*/

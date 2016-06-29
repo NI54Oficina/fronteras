@@ -18,6 +18,10 @@
 		</div>
 	</div>
 	</div>
+
+	<!-- <div class="border-box-producir-2" style="width:0%, height:0px; transition-delay:0s; opacity:0">
+
+	</div> -->
 	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/bienestar-animal">
