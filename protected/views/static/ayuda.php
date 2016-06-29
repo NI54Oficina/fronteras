@@ -1,4 +1,6 @@
+
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
+<?php if(false){ ?>
 <?php
 
 $conf = new PermissionChecker;
@@ -211,3 +213,5 @@ $chats= Chat::model()->findAll($Criteria);
 	background-color:blue;
 }
 </style>
+<?php } ?>
+<h3>Pagina en construcción</h3>
