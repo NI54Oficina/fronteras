@@ -134,6 +134,7 @@ function AdaptMenuContentApp(){
 	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header hidden-lg hidden-md hidden-sm"  style="height:100%;">
 
 	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
+	 <i class="demo-icon icon-logout" style="font-size:1.5em;color:white;"></i>
 	  	</div>
 
 <span  class="hidden-lg hidden-sm hidden-md glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>

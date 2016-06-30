@@ -3341,6 +3341,10 @@ outline: none;
 	z-index:200;
 }
 
+.icon-logout{
+	display:none;
+}
+
 /*****************FIN BOTON VOLVER DEL HEADER************/
 
 /********************** PROTOCOLOS DE REPRODUCCION **************************/

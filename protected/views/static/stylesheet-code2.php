@@ -25,6 +25,7 @@
 		
 	<!-- JS PROPIO -->
 		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/js.js "></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/jsApp.js "></script>
 	
 	<!--CSS PROPIO-->
 		<link type="text/css" rel="stylesheet" href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/stylesheet.css" /> <!-- general / interior pagina -->
