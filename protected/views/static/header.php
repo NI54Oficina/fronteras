@@ -248,7 +248,7 @@ function AdaptMenuContentApp(){
 							</a>
 						</li>
 
-						
+
 					</div>
 
 
