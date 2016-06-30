@@ -175,9 +175,7 @@ font-weight: normal;
     text-align: center;
 }
 
-.nav-dots{
-  margin: 10px 0;
-}
+
 .contenedor-botones-mobile, .text-ganado{
   margin-top: 25px;
   margin-bottom: 10px
@@ -241,6 +239,14 @@ and (max-device-width : 1024px)  {
   }
 
     /* TERMINA PRUEBAS PARA EL HEADER DE IPAD*/
+
+ /*GANADO - LAS VACAS*/
+
+    .nav-dots{
+      margin-top: 10px;
+    }
+
+  /*FIN GANADO - LAS VACAS*/
 }
 
 
