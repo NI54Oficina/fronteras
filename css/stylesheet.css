@@ -3400,9 +3400,9 @@ outline: none;
 
 
 @keyframes testing-gota {
-    33%   {width: 85%;}
-    33%  {width: 50%;}
-    33% {width: 85%;}
+    50%   {width: 50%;}
+    50%  {width:85%;}
+
     }
 
 .testing-gota:hover{
