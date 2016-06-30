@@ -2256,22 +2256,33 @@ display: inline-block;
 }
 
 
-.gota-producir > div > a > img {
+.prod-gota-menu {
 	width: 85%;
 	position: relative;
-	max-width: 235px;
+	/*max-width: 235px;*/
 
 }
 
 
-.gota-producir > div > a > img:visited{
+.prod-gota-menu:visited{
 outline: none;
 }
 
 .gota-producir{
-	padding: 25px 10px;
+	padding: 10px 60px;
 }
 
+@keyframes testing-gota {
+    50%   {width: 70%;}
+    50%  {width:80%;}
+
+    }
+
+.prod-gota-menu:hover{
+
+      animation-name: testing-gota !important;
+      animation-duration: .3s !important;
+}
 /*********************FIN HOME****************/
 
 
@@ -3396,17 +3407,3 @@ outline: none;
 
 
 /*TESTING*/
-
-
-
-@keyframes testing-gota {
-    50%   {width: 50%;}
-    50%  {width:85%;}
-
-    }
-
-.testing-gota:hover{
-
-      animation-name: testing-gota !important;
-      animation-duration: 2s !important;
-}
