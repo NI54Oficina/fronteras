@@ -201,6 +201,25 @@ and (max-device-width : 1024px)  {
       padding: 1px 1px;
 
       }
+
+
+/*PRUEBAS PARA EL HEADER DE IPAD*/
+
+    .square-separador{
+      margin-top: 0px !important;
+      padding-top: 7px !important;
+    }
+
+    .p-header-mobile{
+      margin-top: 0px !important;
+      padding-top: 7px !important;
+    }
+
+    #inner-header {
+    height: 2.5em !important;
+  }
+
+    /* TERMINA PRUEBAS PARA EL HEADER DE IPAD*/
 }
 
 

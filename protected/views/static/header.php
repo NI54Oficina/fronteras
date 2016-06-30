@@ -175,7 +175,9 @@ function AdaptMenuContentApp(){
 
 
 
-						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-3 col-xs-6 col-lan-xs-3 center-to-parent">
+
+
+						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-1 col-xs-6 col-lan-xs-3 center-to-parent">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy" class="link-menu">
 
 								<div class="home-box col-lg-3 ">
@@ -244,8 +246,7 @@ function AdaptMenuContentApp(){
 							</a>
 						</li>
 
-
-
+						
 					</div>
 
 
