@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 10-06-2016 a las 18:38:40
+-- Tiempo de generación: 30-06-2016 a las 12:27:16
 -- Versión del servidor: 5.5.24
 -- Versión de PHP: 5.4.45
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `tbl_remates` (
   `categoria` varchar(100) NOT NULL,
   `suspendido` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=150 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=204 ;
 
 --
 -- Volcado de datos para la tabla `tbl_remates`
@@ -96,7 +96,7 @@ INSERT INTO `tbl_remates` (`id`, `cartelera`, `modalidad`, `consignatario`, `lug
 (45, 38199, '', 'Jauregui Lorda S.R.L.', 'Ranchos', 'Consumo e Invernada', 'Buenos Aires', 'Pampeana', '900', 'destacado', 'Físico', '2016-06-14 03:00:00', 'Generales', ''),
 (46, 38200, '', 'Jauregui Lorda S.R.L.', 'Brandsen', 'Haciendas Generales.', 'Buenos Aires', 'Pampeana', '600', 'destacado', 'Físico', '2016-06-22 03:00:00', 'Generales', ''),
 (47, 38202, '', 'Martin G. Lalor S.A.', 'Mercado de Liniers', 'Remate 30º Aniversario', 'Buenos Aires', 'Pampeana', 'a/c', 'destacado', 'Físico', '2016-06-23 03:00:00', 'Generales', ''),
-(48, 38284, '', 'Martin G. Lalor S.A.', 'Lincoln', 'Gordo,Invernada y Cría', 'Buenos Aires', 'Pampeana', '800', 'destacado', 'Físico', '2016-06-29 03:00:00', 'Generales', ''),
+(48, 38284, '', 'Martin G. Lalor S.A.', 'Lincoln', 'DIFERIDO PARA EL VIERNES 01-07.', 'Buenos Aires', 'Pampeana', '800', 'destacado', 'Físico', '2016-06-29 03:00:00', 'Generales', '.'),
 (49, 38283, '', 'Martin G. Lalor S.A.', 'Union', 'Gordo,Invernada y Cría.', 'San Luis', 'Pampeana', '500', 'destacado', 'Físico', '2016-06-16 03:00:00', 'Generales', ''),
 (50, 38228, '', 'Emilio J. R. Servato y Cía. S.R.L.', 'Oliva.', 'Holando Argentino.', 'Córdoba.', 'Pampeana', '300', 'simple', 'Físico', '2016-06-10 03:00:00', 'Generales', ''),
 (51, 38229, '', 'Pepa, Knubel y Ferrero S.R.L.', 'San Cristobal.', 'Invernada y cría.', 'Santa Fé.', 'Pampeana', '2.000', 'simple', 'Físico', '2016-06-10 03:00:00', 'Generales', ''),
@@ -192,12 +192,66 @@ INSERT INTO `tbl_remates` (`id`, `cartelera`, `modalidad`, `consignatario`, `lug
 (141, 38351, '', 'Lartirigoyen y Oromí S.A.', 'Capital Federal.', 'Remate Televisado.', 'Buenos Aires.', 'Pampeana', 'a-c.', 'simple', 'Televisado', '2016-06-21 03:00:00', 'Generales', ''),
 (142, 38352, '', 'U.M.C. S.A.', 'Corrientes.', 'Remate Televisado.', 'Corrientes.', 'Pampeana', 'a-c.', 'simple', 'Televisado', '2016-06-22 03:00:00', 'Generales', ''),
 (143, 38353, '', 'Coop. La Ganadera de General Ramirez Ltda.', 'General Ramirez.', 'Remate Televisado.', 'Entre Rìos.', 'Pampeana', 'a-c.', 'simple', 'Televisado', '2016-06-24 03:00:00', 'Generales', ''),
-(144, 38354, '', 'M.I.C.', 'Capital Federal.', 'Remate Televisado.', 'Buenos Aires.', 'Pampeana', 'a-c.', 'simple', 'Televisado', '2016-06-29 03:00:00', 'Generales', ''),
+(144, 38354, '', 'M.I.C.', 'Capital Federal.', 'Remate Televisado.', 'Buenos Aires.', 'Pampeana', '2.000', 'simple', 'Televisado', '2016-06-29 03:00:00', 'Generales', ''),
 (145, 38355, '', 'Campos y Ganados S.A.', 'Capital Federal.', 'Remate Televisado.', 'Buenos Aires.', 'Pampeana', 'a-c.', 'simple', 'Televisado', '2016-06-30 03:00:00', 'Generales', ''),
 (146, 38356, '', 'Nestor I. Goenaga y Cía. S.A.', 'Azul.', 'Gordo, invernada y cría.', 'Buenos Aires.', 'Pampeana', '1.500', 'destacado', 'Físico', '2016-06-16 03:00:00', 'Generales', ''),
 (147, 38361, '', 'Ganadera Salliqueló S.A.', 'Coronel Pringles', 'Gordo,Invernada y Cría. 11 hs', 'Buenos Aires', 'Pampeana', '1.100', 'simple', 'Físico', '2016-06-11 03:00:00', 'Generales', ''),
 (148, 38362, '', 'Ganadera Salliqueló S.A.', 'Coronel Pringles', 'Gordo,Invernada y Cría. 11 hs', 'Buenos Aires', 'Pampeana', '1.100', 'simple', 'Físico', '2016-06-11 03:00:00', 'Generales', ''),
-(149, 38363, '', 'Ganadera Salliqueló S.A.', 'Coronel Pringles', 'DIFERIDO PARA MAÑANA SABADO 11', 'Buenos Aires', 'Pampeana', '1.100', 'simple', 'Físico', '2016-06-10 03:00:00', 'Generales', '.');
+(149, 38363, '', 'Ganadera Salliqueló S.A.', 'Coronel Pringles', 'DIFERIDO PARA MAÑANA SABADO 11', 'Buenos Aires', 'Pampeana', '1.100', 'simple', 'Físico', '2016-06-10 03:00:00', 'Generales', '.'),
+(150, 38403, '', 'Ganadera Salliqueló S.A.', 'Laprida', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '1.000', 'simple', 'Físico', '2016-07-06 03:00:00', 'Generales', ''),
+(151, 38402, '', 'Ganadera Salliqueló S.A.', 'Carhue', 'Gordo, invernada y crìa. 11:30 hs.', 'Buenos Aires', 'Pampeana', '800', 'simple', 'Físico', '2016-06-29 03:00:00', 'Generales', ''),
+(152, 38414, '', 'Oregui Cía S.A', 'Saavedra', 'Gordo,Invernada y Cría.', 'Buenos Aires', 'Pampeana', 'a/c', 'destacado', 'Físico', '2016-07-05 03:00:00', 'Generales', ''),
+(153, 38457, '', 'Hugo R. Aristegui y Cía. S.R.L.', 'Cachari', 'Gordo,Invernada y Cría.', 'Buenos Aires', 'Pampeana', '1.500', 'destacado', 'Físico', '2016-07-13 03:00:00', 'Generales', ''),
+(154, 38366, '', 'Consignataria Edgardo Vittori S.A.', 'Bahia Blanca', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '1.500', 'destacado', 'Físico', '2017-07-07 03:00:00', 'Generales', ''),
+(155, 38367, '', 'Bertin y Cía. S.C.A.', '17 de Agosto', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '800', 'destacado', 'Físico', '2016-07-15 03:00:00', 'Generales', ''),
+(156, 38368, '', 'Brandemann Consignataria S.R.L.', 'Eduardo Castex', 'Remate por Pantalla.', 'La Pampa', 'Pampeana', '1.200', 'simple', 'Internet', '2016-07-15 03:00:00', 'Generales', ''),
+(157, 38369, '', 'Ganaderos de General Acha S.A.', 'General Acha', 'Gordo, invernada y crìa.', 'La Pampa', 'Pampeana', '1.200', 'simple', 'Físico', '2016-06-29 03:00:00', 'Generales', ''),
+(158, 38370, '', 'Nestor Hugo Fuentes S.A.', 'Victorica', 'Gordo, invernada y crìa.', 'La Pampa', 'Pampeana', '1.200', 'destacado', 'Físico', '2016-06-29 03:00:00', 'Generales', ''),
+(159, 38398, '', 'Consignataria Edgardo Vittori S.A.', 'Bahia Blanca', 'Gordo,Invernada y Cría.', 'Buenos Aires', 'Pampeana', '1.500', 'destacado', 'Físico', '2016-07-06 03:00:00', 'Generales', ''),
+(160, 38393, '', 'Ganados Remates S.A.', 'San Justo', 'Gordo e invernada. 09:30 hs.', 'Santa Fè', 'Pampeana', '600', 'simple', 'Físico', '2016-06-30 03:00:00', 'Generales', ''),
+(161, 38404, '', 'Ganadera Salliqueló S.A.', 'Salliquelo', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '1.300', 'simple', 'Físico', '2016-07-18 03:00:00', 'Generales', ''),
+(162, 38405, '', 'Martin y Alonso S.R.L.', 'Coronel Suarez', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '1.000', 'destacado', 'Físico', '2016-07-01 03:00:00', 'Generales', ''),
+(163, 38406, '', 'Campos y Ganados S.A.', 'Huinca Renancó.', 'Remate Televisado.', 'Córdoba.', 'Pampeana', 'a-c.', 'destacado', 'Televisado', '2016-09-01 03:00:00', 'Generales', ''),
+(164, 38407, '', 'Campos y Ganados S.A.', 'Capital Federal.', 'Remate Televisado.', 'Buenos Aires.', 'Pampeana', 'a-c.', 'destacado', 'Televisado', '2016-07-07 03:00:00', 'Generales', ''),
+(165, 38408, '', 'Campos y Ganados S.A.', 'Capital Federal.', 'Remate Televisado en el marco de Palermo 2016.', 'Buenos Aires.', 'Pampeana', 'a-c.', 'destacado', 'Televisado', '2016-07-27 03:00:00', 'Generales', ''),
+(166, 38409, '', 'Arribere, Ugarte y Cía. S.R.L. ', 'Rauch.', 'Gordo, invernada y cría.', 'Buenos Aires.', 'Pampeana', '1.200', 'simple', 'Físico', '2016-07-05 03:00:00', 'Generales', ''),
+(167, 38410, '', 'Ferias Rauch S.A.', 'Rauch.', 'Gordo, invernada y cría.', 'Buenos Aires.', 'Pampeana', '1.200', 'destacado', 'Físico', '2016-07-14 03:00:00', 'Generales', ''),
+(168, 38411, '', 'Rocco, Canales y Cía S.R.L.', 'Rauch.', 'Gordo, invernada y cría.', 'Buenos Aires.', 'Pampeana', '800', 'destacado', 'Físico', '2016-07-07 03:00:00', 'Generales', ''),
+(169, 38412, '', 'Martin y Alonso S.R.L.', 'Huanguelén.', 'Gordo, invernada y cría.', 'Buenos Aires.', 'Pampeana', '1.200', 'destacado', 'Físico', '2016-07-20 03:00:00', 'Generales', ''),
+(170, 38419, '', 'Agricultores Federados Argentinos S.C.L.', 'Totoras', 'Gordo, invernada y crìa.', 'Santa Fè', 'Pampeana', '700', 'simple', 'Físico', '2016-06-28 03:00:00', 'Generales', ''),
+(171, 38420, '', 'Pedro Noel Irey S.R.L.', 'Ranchos', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '1.000', 'simple', 'Físico', '2016-06-30 03:00:00', 'Generales', ''),
+(172, 38422, '', 'Agricultores Federados Argentinos S.C.L.', 'Rosario', 'Especial Faena.', 'Santa Fè', 'Pampeana', '700', 'simple', 'Físico', '2016-06-30 03:00:00', 'Generales', ''),
+(173, 38425, '', 'Atreuco Coop.Agrop. Ltda', 'Macachìn', 'Gordo, invernada y crìa.', 'La Pampa', 'Pampeana', '700', 'simple', 'Físico', '2016-06-28 03:00:00', 'Generales', ''),
+(174, 38426, '', 'Carossia y Galcerán S.A.', 'Telèn', 'Gordo, invernada y crìa.\r\n', 'La Pampa', 'Pampeana', '800', 'simple', 'Físico', '2016-06-29 03:00:00', 'Generales', ''),
+(175, 38428, '', 'Fontana y Cía. S.A. ', 'Balcarce', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '500', 'simple', 'Físico', '2016-06-30 03:00:00', 'Generales', ''),
+(176, 38429, '', 'Nestor Hugo Fuentes S.A.', 'Bernasconi', 'Gordo, invernada y crìa.', 'La Pampa', 'Pampeana', 'a-c', 'destacado', 'Físico', '2016-07-01 03:00:00', 'Generales', ''),
+(177, 38430, '', 'Esteban I. Abelenda	', 'Reconquista', 'Remate Televisado.', 'Santa Fè', 'Pampeana', 'a-c', 'simple', 'Televisado', '2016-07-06 03:00:00', 'Generales', ''),
+(178, 38431, '', 'Colombo y Magliano S.A.', 'Corrientes', 'Remate Televisado.', 'Corrientes', 'Pampeana', 'a-c', 'destacado', 'Televisado', '2016-07-10 03:00:00', 'Generales', ''),
+(179, 38432, '', 'U.M.C. S.A.', 'Corrientes', 'Remate Televisado.', 'Corrientes', 'Pampeana', 'a-c', 'simple', 'Televisado', '2016-07-11 03:00:00', 'Generales', ''),
+(180, 38433, '', 'Madelán S.A. ', 'El Colorado.', 'Especial Invernada y cría.', 'Formosa.', 'Pampeana', '1.200', 'destacado', 'Físico', '2016-07-27 03:00:00', 'Generales', ''),
+(181, 38434, '', 'Ivan L. O. Farrell S.R.L.', 'Resistencia', 'Remate Televisado.', 'Chaco', 'Pampeana', 'a-c', 'simple', 'Televisado', '2016-07-12 03:00:00', 'Generales', ''),
+(182, 38435, '', 'Madelán S.A. ', 'Comandante Fontana.', 'Especial Invernada y cría.', 'Formosa.', 'Pampeana', '1.200', 'destacado', 'Físico', '2016-08-24 03:00:00', 'Generales', ''),
+(183, 38436, '', 'Rosgan', 'Rosario', 'Remate Televisado.', 'Santa Fè', 'Pampeana', 'a-c', 'destacado', 'Televisado', '2016-07-13 03:00:00', 'Generales', ''),
+(184, 38437, '', 'Rosgan', 'Rosario', 'Remate Televisado.', 'Santa Fè', 'Pampeana', 'a-c', 'destacado', 'Televisado', '2016-07-14 03:00:00', 'Generales', ''),
+(185, 38438, '', 'Lartirigoyen y Oromí S.A.', 'Capital Federal', 'Remate Televisado.', 'Buenos Aires', 'Pampeana', 'a-c', 'simple', 'Televisado', '2016-07-15 03:00:00', 'Generales', ''),
+(186, 38439, '', 'Talano Hnos S.A.', 'Rio Cuarto', 'Remate Televisado.', 'Cordoba', 'Pampeana', 'a-c', 'simple', 'Televisado', '2016-07-15 03:00:00', 'Generales', ''),
+(187, 38440, '', 'Madelán S.A. ', 'Capital Federal', 'Remate por Internet.', 'Buenos Aires', 'Pampeana', 'a-c', 'destacado', 'Internet', '2016-07-05 03:00:00', 'Generales', ''),
+(188, 38441, '', 'Madelán S.A. ', 'Capital Federal', 'Remate por Internet.', 'Buenos Aires', 'Pampeana', 'a-c', 'destacado', 'Internet', '2016-07-12 03:00:00', 'Generales', ''),
+(189, 38442, '', 'Madelán S.A. ', 'Capital Federal', 'Remate por Internet.', 'Buenos Aires', 'Pampeana', 'a-c', 'destacado', 'Internet', '2016-07-19 03:00:00', 'Generales', ''),
+(190, 38443, '', 'Madelán S.A. ', 'Capital Federal', 'Remate por Internet.', 'Buenos Aires', 'Pampeana', 'a-c', 'destacado', 'Internet', '2016-07-26 03:00:00', 'Generales', ''),
+(191, 38444, '', 'Sivero y Cía. S.A.', 'Saladillo', 'Gordo, invernada y cría.', 'Buenos Aires', 'Pampeana', '1.300', 'simple', 'Físico', '2016-07-05 03:00:00', 'Generales', ''),
+(192, 38445, '', 'Sivero y Cía. S.A.', 'Saladillo', 'Remate de Gordo.', 'Buenos Aires', 'Pampeana', '600', 'simple', 'Físico', '2016-07-12 03:00:00', 'Generales', ''),
+(193, 38446, '', 'Sivero y Cía. S.A.', 'Saladillo', 'Remate de Gordo.', 'Buenos Aires', 'Pampeana', '400', 'simple', 'Físico', '2016-07-19 03:00:00', 'Generales', ''),
+(194, 38447, '', 'Sivero y Cía. S.A.', 'Saladillo', 'Remate de Gordo.', 'Buenos Aires', 'Pampeana', '600', 'simple', 'Físico', '2016-07-26 03:00:00', 'Generales', ''),
+(195, 38448, '', 'Da ? Nes S.R.L. - Antonio de Los Heros', 'Tapalqué.', 'Gordo, invernada y cría.', 'Buenos Aires.', 'Pampeana', '1.200', 'simple', 'Físico', '2016-07-15 03:00:00', 'Generales', ''),
+(196, 38451, '', 'Monasterio Tattersall S.A.', 'Carlos Tejedor.', 'Gordo, invernada y cía.', 'Buenos Aires.', 'Pampeana', '800', 'destacado', 'Físico', '2016-06-28 03:00:00', 'Generales', ''),
+(197, 38452, '', 'Alfredo Sebastian Mondino', 'Buena Esperanza.', 'Gordo, invernada y cría.', 'San Luis.', 'Pampeana', '2.500', 'destacado', 'Físico', '2016-07-06 03:00:00', 'Generales', ''),
+(198, 38453, '', 'Alfredo Sebastian Mondino', 'Del Campillo.', 'Remate televisado.', 'Córdoba.', 'Pampeana', 'a-c.', 'destacado', 'Televisado', '2016-07-25 03:00:00', 'Generales', ''),
+(199, 38454, '', 'Alfredo Sebastian Mondino', 'Villa Huidobro', 'Gordo,Invernada y Cria. - 9.30 Hs', 'Cordoba', 'Pampeana', '1.200', 'destacado', 'Físico', '2016-07-01 03:00:00', 'Generales', ''),
+(200, 38455, '', 'Alfredo Sebastian Mondino', 'Olavarria', 'Gordo,Invernada y Cría.', 'Buenos Aires', 'Pampeana', '1.100', 'destacado', 'Físico', '2016-07-22 03:00:00', 'Generales', ''),
+(201, 38456, '', 'Sivero y Cía. S.A.', 'General Alvear.', 'Invernada y cría.', 'Buenos Aires.', 'Pampeana', '1.500', 'simple', 'Físico', '2016-07-15 03:00:00', 'Generales', ''),
+(202, 38458, '', 'Hourcade Albelo y Cía. S.C.C.', 'Rauch', 'Gordo,Invernada y Cría.', 'Buenos Aires', 'Pampeana', '1.500', 'destacado', 'Físico', '2016-07-26 03:00:00', 'Generales', ''),
+(203, 38459, '', 'Martin G. Lalor S.A.', 'Lincoln', 'Gordo, invernada y crìa.', 'Buenos Aires', 'Pampeana', '800', 'destacado', 'Físico', '2016-07-01 03:00:00', 'Generales', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
