@@ -4,6 +4,7 @@
 		
 		<!--CSS-->
 		<link type="text/css"  rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css">
+		<link type="text/css"  rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom-icons.css">
 		
 
 		<!--JS-->
