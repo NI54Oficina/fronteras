@@ -28,6 +28,7 @@ function AdaptMenuContent(){
 			if($("#inner-header").hasClass("in")){
 
 				$("#back-header2").css("display","none");
+				$(".icon-logout").css("display","block");
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 
 				scrollTop= $(document).scrollTop();
@@ -49,6 +50,7 @@ function AdaptMenuContent(){
 
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("#back-header2").css("display","block");
+				$(".icon-logout").css("display","none");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(".fadder").css("opacity",0);
