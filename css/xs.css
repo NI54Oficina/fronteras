@@ -87,6 +87,12 @@
 
 	/*TERMINA HOME*/
 
+	/*PRODUCIR*/
+	.gota-producir {
+	    padding: 15px 5px;
+	}
+ /*TERAMINA PRODUCIR*/
+
 	.navbar-toggle2 {
 		margin-right:0px;
 		margin-top: 0;
@@ -528,7 +534,11 @@
 
 	/*CLIMA*/
 
+/*PRODUCIR*/
 
+.gota-producir {
+    padding: 10px 25px;
+}
 
 
 /*FIN DISTRIBUCION DE COLUMNAS*/
