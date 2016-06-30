@@ -153,11 +153,6 @@ font-weight: normal;
     padding-right:0;
 
   }
-  /*.back-p{
-    top:3px !important;
-    float: right;
-    left:-35px;
-  }*/
 
   /*ESTADO CORPORAL*/
   .img-ganado{
@@ -171,6 +166,32 @@ font-weight: normal;
     text-align: left;
     padding:0 10px;
   }
+
+  /*FIN ESTADO COPORAL*/
+
+  /*GANADO - LAS VACAS*/
+
+  .ganado-col-2 h1 {
+    text-align: center;
+}
+
+.nav-dots{
+  margin: 10px 0;
+}
+.contenedor-botones-mobile, .text-ganado{
+  margin-top: 25px;
+  margin-bottom: 10px
+}
+
+.boton-ganado{
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
+
+  /*TERMINA GANADO - LAS VACAS*/
+
+
 /*IPAD portrait*/
 }
 
