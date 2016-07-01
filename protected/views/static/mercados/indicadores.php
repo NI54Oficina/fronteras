@@ -61,7 +61,7 @@
 					if($item["Items"][0][$key]&&$item["Items"][0][$key]!="s/c"){ ?>
 						<!--nombre de columna-->
 						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?> columna-indicadores">
-							<p><?php echo $key; ?></p>
+							<p class="center-to-parent"><?php echo $key; ?></p>
 						</div>
 				<?php
 					}
@@ -102,7 +102,7 @@
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 
-				<p>Actualizado: 
+				<p>Actualizado:
 				<?php
 					$auxDate=array_shift($array)["UltimaFechaActualizacion"];
 					//echo $auxDate;
@@ -153,7 +153,7 @@
 					if($item["Items"][0][$key]&&$item["Items"][0][$key]!="s/c"){ ?>
 						<!--nombre de columna-->
 						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?> columna-indicadores">
-							<p><?php echo $key; ?></p>
+							<p class="center-to-parent"><?php echo $key; ?></p>
 						</div>
 				<?php
 					}
@@ -171,7 +171,7 @@
 								<!--columnas-->
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
 
-										<p class="moneda-mercados"><?php if($key=="Variación"){
+										<p class="moneda-mercados" style="word-wrap: break-word;"><?php if($key=="Variación"){
 
 										$variacion=floatval(str_replace(',','.',$c[$key]));
 										if($variacion<0){
@@ -182,7 +182,7 @@
 											echo $iconEqual;
 										}
 
-										} ?><span><?php if(strpos($c[$key],'-')){echo "&nbsp;";} echo $c[$key];  ?></span></p>
+									} ?><span><?php if(strpos($c[$key],'-')){echo "&nbsp;";} echo $c[$key];  ?></span></p>
 									</div>
 								<?php }else if($key=="Venta"){?>
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">	<p class="moneda-mercados">-</p></div>

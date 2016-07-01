@@ -15,7 +15,7 @@
 	 $array = json_decode($data,true);
 
 	?>
-	
+
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 container-items-mercados" hid="1">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -52,7 +52,7 @@
 				foreach($order as $key){
 					if(array_key_exists($key,$item["Mercados"][0])){ ?>
 						<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?> columna-granos">
-							<p><?php echo $key; ?></p>
+							<p class="center-to-parent"><?php echo $key; ?></p>
 						</div>
 				<?php
 					}
@@ -68,7 +68,7 @@
 							<?php foreach($order as $key){
 								if(array_key_exists($key,$c)){ ?>
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">
-										<p class="moneda-mercados"><?php if($key=="Indicador"){
+										<p class="moneda-mercados center-to-parent"><?php if($key=="Indicador"){
 
 										$variacion=$c[$key];
 										if($variacion=="<"){
@@ -96,7 +96,7 @@
 				<p >Actualizado:
 				<?php
 					echo $array[0]["FechaCarga"];
-				
+
 
 				?>
 				</p>

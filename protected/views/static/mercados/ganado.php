@@ -47,11 +47,11 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  columna-ganado">
-						<p>Categoría</p>
+						<p class="center-to-parent">Categoría</p>
 					</div>
 
 					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3   columna-ganado">
-						<p>Precio $ </p>
+						<p class="center-to-parent">Precio $ </p>
 					</div>
 
 					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 columna-ganado">
@@ -59,7 +59,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 					</div>
 
 					<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3   columna-ganado">
-						<p>Var Día $</p>
+						<p class="center-to-parent">Var Día $</p>
 					</div>
 
 				</div>
@@ -134,7 +134,7 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 actualizar-ganado">
 
-				<p>Actualizado: 
+				<p>Actualizado:
 				<?php echo $categorias[0]["FechaActualizacion"]; ?></p>
 
 			</div>
@@ -161,15 +161,15 @@ $data = @file_get_contents('http://webservice.fyo.com/PortalHaciendaHomeProcedur
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-ganado">
-						<p>Categoría</p>
+						<p class="center-to-parent">Categoría</p>
 					</div>
 
 					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-ganado">
-						<p>Precio $</p>
+						<p class="center-to-parent">Precio $</p>
 					</div>
 
 					<div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-ganado">
-						<p>Var Día $</p>
+						<p class="center-to-parent">Var Día $</p>
 					</div>
 
 				</div>

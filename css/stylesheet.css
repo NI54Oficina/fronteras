@@ -696,7 +696,7 @@ header .home-box:hover > .hoy-box {
 /* Categoría */
 .table-mercado div{
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding: 0px;
 }
 
@@ -717,7 +717,7 @@ header .home-box:hover > .hoy-box {
 /*  Precio */
 .table-mercado > div:nth-child(2){
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding: 0px;
 }
 
@@ -737,7 +737,7 @@ header .home-box:hover > .hoy-box {
 /* Var Día */
 .table-mercado > div:nth-child(3){
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding-top: 0px;
 }
 
@@ -814,7 +814,7 @@ header .home-box:hover > .hoy-box {
 
 .table-mercado > div:nth-child(4){
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding-top: 0px;
 }
 
@@ -858,10 +858,10 @@ header .home-box:hover > .hoy-box {
 	font-size: 1.5rem;
     padding-top: 3px;
     margin: 0;
-    text-align: left;
-    padding-left: 10px;
+    text-align: left !important;
     font-weight: 700;
     color: #8C8C8C;
+    padding-left: 12px;
 }
 
 .table-mercado-items div p {
@@ -2283,7 +2283,7 @@ outline: none;
 .prod-gota-menu:hover{
 
       animation-name: testing-gota !important;
-      animation-duration: .8s !important;
+      animation-duration: .5s !important;
 }
 /*********************FIN HOME****************/
 
