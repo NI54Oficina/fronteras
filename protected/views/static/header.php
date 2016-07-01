@@ -28,7 +28,9 @@ function AdaptMenuContent(){
 			if($("#inner-header").hasClass("in")){
 
 				$("#back-header2").css("display","none");
-				$(".icon-logout").css("display","block");
+				if(isApp){
+				$(".icon-logout").css("display","inline-block");
+				}
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 
 				scrollTop= $(document).scrollTop();
@@ -49,8 +51,10 @@ function AdaptMenuContent(){
 			}else{
 
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
-				$("#back-header2").css("display","block");
+				$("#back-header2").css("display","inline-block");
+				if(isApp){
 				$(".icon-logout").css("display","none");
+				}
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
 				$(".fadder").css("opacity",0);
@@ -136,7 +140,7 @@ function AdaptMenuContentApp(){
 	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header hidden-lg hidden-md hidden-sm"  style="height:100%;">
 
 	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
-	 <i class="demo-icon icon-logout" style="font-size:1.5em;color:white;"></i>
+	 <i class="demo-icon icon-logout" style="font-size:1.5em;color:gray;float:left;"></i>
 	  	</div>
 
 <span  class="hidden-lg hidden-sm hidden-md glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
