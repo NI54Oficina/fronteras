@@ -1873,14 +1873,14 @@ header .home-box:hover > .hoy-box {
 	background-color:#003D6A;
 }
 
-.box-sanidad-inner:hover{
-  background-color:#fdfdfd;
+.box-producir-2 .box-sanidad-inner:hover{
+  background-color:#dfcaec;
 }
 .box-nutricion {
 	background-color:#BAA200;
 }
 
-.box-genetica-inner:hover{
+.box-producir-2 .box-genetica-inner:hover{
 	background-color:#f1e0d3;
 }
 
@@ -1891,7 +1891,7 @@ header .home-box:hover > .hoy-box {
  	border:2px solid #003D6A ;
 }
 
-.box-manejo-inner:hover{
+.box-producir-2  .box-manejo-inner:hover{
   background: #d7e1e8;
 
 }
