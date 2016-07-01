@@ -22,7 +22,7 @@ $nota = Notas::model()->findByAttributes(array("id"=>4,"seccion"=>"enfermedad"))
 
 		<div class="enfermedades-inside-title square hidden-xs">
 			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-to-parent">
-			
+
 			</h2>
 		</div>
 	</div>

@@ -420,7 +420,7 @@ function CenterToParent(){
 			$(this).css("padding-top",paddingTop+"px");
 		}
 	});
-	
+
 	$(".center-to-parent-m").each(function(){
 		$(this).css("margin-top",0);
 		$(this).css("margin-bottom",0);
@@ -713,22 +713,42 @@ function fillBackground(){
 
 // FIN FUNCION QUE AJUSTA EL FONDO CON EL ESPACIO SOBRANTE DEL PADRE
 
+
+
+//FUNCION QUE AJUSTA EL SELECT DEPENDIENDO DE LO QUE SE ELIJA
 function changeContent(){
+
+	var id=5;
 
     $('#enfermedades-selector').change(function(){
 			$('.relleno-enfermedad').hide();
+
         $('.enfermedades-infecciosas').hide();
         $('#' + $(this).val()).show();
+
     });
 	//console.log("salida enfermedades");
     $('#parext-selector').change(function(){
 			$('.relleno-enfermedad').hide();
         $('.parasitos-externos').hide();
+				// var test = $(this)
         $('#' + $(this).val()).show();
+				// var selector = test.index();;
+
+				// $(".changed-name li").hide(); //aca se eliminana los datos que aparecen enel cuadrado de la info
+
+				// var selectId = selector.
+				// console.log(selector);
+				//
+				// $(".changed-name li").eq(selector).css("display", "block");
+
+				 //aca se eliminana los datos que aparecen enel cuadrado de la info
     });
 	//console.log("salida enfermedades");
 
 }
+
+// FIN FUNCION QUE AJUSTA EL SELECT DEPENDIENDO DE LO QUE SE ELIJA
 
 // VERSION GENERALIZADA DE AJUSTE DEL BACKGROUND
 
@@ -795,7 +815,7 @@ function fitBackground(){
 	try{
 		img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
 	}catch(err){
-		
+
 	}
 	$(img).load(function() {
     var bgWidth = img.width;

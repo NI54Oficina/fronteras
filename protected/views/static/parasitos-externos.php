@@ -35,8 +35,15 @@ $nota = Notas::model()->findByAttributes(array("id"=>3,"seccion"=>"enfermedad"))
 		</form>
 
 		<div class="enfermedades-inside-title square hidden-xs">
-			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-to-parent">
-				<?php echo $nota->titulo; ?>
+			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-to-parent changed-name">
+
+				Parásitos externos
+				<!-- <li>Bicheras</li>
+				<li>Garrapatas</li>
+				<li>Moscas, Tábanos y Mosquitos</li>
+				<li>Piojos</li>
+				<li>Sarna</li>
+				<li>Ura</li> -->
 			</h2>
 		</div>
 	</div>
