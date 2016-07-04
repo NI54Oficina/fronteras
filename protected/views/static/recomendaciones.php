@@ -16,7 +16,8 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
 
 		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
-			<img  class="img-r-1" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca-r.png" alt="" />
+			<img  class="img-r-1 col-xs-6" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca-r.png" alt="" />
+			<img  class="img-r-1 col-xs-6 hidden-lg hidden-md hidden-sm" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca2-r.png" alt="" />
 		</div>
 
 		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones parrafo-recomendaciones-1">
