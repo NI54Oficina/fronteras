@@ -2643,11 +2643,51 @@ outline: none;
 
 .container-recomendaciones p{
   color: #8C8C8C;
+  text-align: left;
 }
 
+.texto-blue-r {
+  color:#189DBF !important;
+}
 
+.title-side-r{
+  background:#189DBF;
+  width: 100%;
+  padding: 15px 5px;
+  color: white !important;
+  font-size: 1.3em; ;
+  text-transform: uppercase;
+  text-align: center !important;
+}
 
+.parrafo-recomendaciones{
+  padding-left:30px;
+}
 
+.img-recomendaciones{
+  padding-right: 30px;
+}
+
+.box-recomendaciones{
+  padding: 30px 0px;
+}
+.parrafo-recomendaciones-1{
+  padding-top: 20px;
+}
+
+.img-r-2, .img-r-1{
+  width: 80%;
+}
+
+.img-r-3{
+  width: 40%;
+}
+
+.parrafo-recomendaciones li{
+  list-style: url(../img/gotita-item-01.png);
+  text-align: left;
+  color:#8C8C8C;
+}
 
 
 

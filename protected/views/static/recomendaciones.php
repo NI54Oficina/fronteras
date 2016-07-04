@@ -10,24 +10,24 @@
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir container-recomendaciones">
  	<!-- Barra de color -->
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 barra-recomendaciones"></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 barra-recomendaciones">     </div>
 
 	<!-- Primer Caja -->
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
 
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca-r.png" alt="" />
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
+			<img  class="img-r-1" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca-r.png" alt="" />
 		</div>
 
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-			<p class="texto-recomendaciones-blue">
+		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones parrafo-recomendaciones-1">
+			<p class="texto-blue-r">
 				Llega el otoño y nos encontramos, por un lado, con las vacas preñadas atravesando su último
 				tercio de la gestación y por el otro, con los terneros recién destetados que entran en la recría,
 				etapa de transición hacia la invernada o hacia el entore en el caso de los  animales de reposición.
 				Generalmente esta categoría no es considerada prioritaria a nivel sanitario ni nutricional; sin embargo,
 				 es la etapa donde el animal en crecimiento es más eﬁciente para convertir alimento en músculo y hueso.
 			</p>
-			<p class="texto-recomendaciones-blue">
+			<p class="texto-blue-r">
 				Si queremos faenar animales de mayor peso en menor tiempo, llegar al entore a edad más temprana o
 				 que las vacas paran un ternero sano y fuerte, tenemos que implementar planes sanitarios preventivos
 				  y estratégicos acordes a la época, a la oferta forrajera y al destino del animal, para poder seguir
@@ -38,14 +38,14 @@
 	</div>
 
 	<!-- Segunda Caja -->
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
 			<p class="title-side-r">
 				La recría
 			</p>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/productos-r.png" alt="" />
+			<img class="img-r-2" src="<?php echo Yii::app()->request->baseUrl; ?>/img/productos-r.png" alt="" />
 		</div>
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones">
 			<p>
 				EL CONTROL PARASITOLÓGICO es muy importante en esta época (otoño-invierno), dado que el destete y la recría/invernada
 				 son las categorías más sensibles a la acción de los parásitos.En Argentina, las pérdidas estimadas por ciclo productivo
@@ -83,14 +83,14 @@
 
 	<!-- Tercera Caja -->
 
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
 			<p class="title-side-r">
 					Vacas </br>al preparto
 			</p>
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/rotatec-r.png" alt="" />
+				<img class="img-r-3"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/rotatec-r.png" alt="" />
 		</div>
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones">
 			<p>
 				Para prevenir enfermedades en terneros recién nacidos se debe inmunizar (vacunar) a las madres en el último tercio de
 				 gestación. Esto genera defensas en las vacas que son transmitidas al ternero a través del calostro.
@@ -121,10 +121,10 @@
 				Por último, en las vaquillonas en período de preparto, debe realizarse un estricto control parasitológico de manera que lleguen
 				 al parto con peso adecuado y buen estado corporal.
 			</p>
+
+			<p>
 				Como conclusión, el buen asesoramiento profesional de su médico veterinario junto a un Plan Sanitario Preventivo que contemple
 				estos aspectos, nos acercarán a la Frontera Productiva.
-			<p>
-
 			</p>
 		</div>
 
