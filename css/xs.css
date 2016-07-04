@@ -507,6 +507,31 @@
 		padding: 10px;
 	}
 
+
+
+	/*RECOMENDACIONES*/
+
+	.parrafo-recomendaciones{
+	  padding-left:0px;
+	}
+
+	.img-recomendaciones{
+	  padding-right: 0px;
+	}
+
+.img-r-2, .img-r-1{
+	width: 50%;
+}
+
+.img-r-3 {
+    width: 25%;
+}
+.container-recomendaciones{
+	padding: 10px 15px;
+}
+/*FIN RECOMENDACIONES*/
+
+
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
 
@@ -543,6 +568,9 @@
 .gota-producir {
     padding: 10px 25px;
 }
+
+
+
 
 
 /*FIN DISTRIBUCION DE COLUMNAS*/

@@ -2690,6 +2690,11 @@ outline: none;
 }
 
 
+.container-recomendaciones span{
+  font-weight: bold;
+  color:#189DBF;
+}
+
 
 /************ REMATES **************/
 .remates h1{
