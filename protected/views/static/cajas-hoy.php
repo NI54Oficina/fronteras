@@ -136,7 +136,7 @@
 
 				<!-- HARDCODEO DE MOMENTO - HAY QUE EDITARLO -->
 					<!-- Imágen-->
-					<img class="" style="margin-top:20%;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
+					<img class="img-noticias-hoy"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/noticias-sector.png" alt="Noticias Sector" />
 
 					<br />
 		</div>
