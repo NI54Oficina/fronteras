@@ -180,7 +180,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-modalidad info-remates-mobile col-lg-12 col-md-12" hid="1">
-
+				
 				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-internet.svg">
 				</div>
 				<?php } ?>
@@ -253,7 +253,19 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-provincia  info-remates-mobile col-lg-12 col-md-12" hid="1">
-				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-buenos-aires.svg"></div>
+				<?php 
+				$provincia= $remate["provincia"]; 
+				$provincia=strtolower ($remate["provincia"]);
+				$provincia=str_replace(".","",$provincia);
+				$provincia=str_replace(" ","-",$provincia);
+				$provincia=str_replace("á","a",$provincia);
+				$provincia=str_replace("é","e",$provincia);
+				$provincia=str_replace("è","e",$provincia);
+				$provincia=str_replace("í","i",$provincia);
+				$provincia=str_replace("ó","o",$provincia);
+				$provincia=str_replace("ú","u",$provincia);
+				?>
+				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias/provincias-<?php echo $provincia; ?>.svg"></div>
 
 				<?php } ?>
 			</div>
