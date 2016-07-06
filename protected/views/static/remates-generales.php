@@ -172,8 +172,15 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					}
 					?>
 					<div class="container-modalidad table-indexer info-remates-mobile col-lg-12 col-md-12" hid="1">
-						<?php //echo $remate->fecha; ?>
-						<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+						<?php if($remate["cate"]=="Físico"){ ?>
+							<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+						<?php }else if($remate["cate"]=="Televisado"){
+							?><img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-televisado.svg"><?php
+						}else if($remate["cate"]=="Internet"){
+							?><img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-internet.svg"><?php
+						}else{
+							echo $remate["cate"];
+						} ?>
 					</div>
 					<?php
 

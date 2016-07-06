@@ -14,7 +14,7 @@ $Criteria = new CDbCriteria();
 $Criteria->condition = "fecha BETWEEN NOW() AND CAST('2016/".date("m",strtotime('+2 month'))."/01' AS DATE)";
 $Criteria->order = "fecha";
 
-$remates= Remates::model()->findAll($Criteria);
+$remates= Cabanas::model()->findAll($Criteria);
 /*echo "<div style='width:100%;background-color:red;'>".count($remates)."</div>";*/
 
 $auxLastFecha="1";
@@ -181,7 +181,15 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				?>
 				<div class="container-modalidad info-remates-mobile col-lg-12 col-md-12" hid="1">
 				
-				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-internet.svg">
+				<?php if($remate["cate_remate"]=="Físico"){ ?>
+							<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+						<?php }else if($remate["cate_remate"]=="Televisado"){
+							?><img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-televisado.svg"><?php
+						}else if($remate["cate_remate"]=="Internet"){
+							?><img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-internet.svg"><?php
+						}else{
+							echo $remate["cate_remate"];
+						} ?>
 				</div>
 				<?php } ?>
 			</div>
@@ -229,7 +237,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-lugar info-remates-mobile col-lg-12 col-md-12" hid="1">
-					<p class=""><?php echo $remate["lugar"]; ?></p>
+					<p class=""><?php echo $remate["ciudad"]; ?></p>
 					<p class=""><?php echo $remate["detalle"]; ?></p>
 				</div>
 				<?php } ?>
@@ -288,7 +296,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-cabezas info-remates-mobile table-indexer col-lg-12 col-md-12" hid="1">
-					<p class=""><?php echo $remate["cabezas"]; ?></p>
+					<p class=""><?php echo $remate["cantidad"]; ?></p>
 				</div>
 				<?php } ?>
 			</div>
