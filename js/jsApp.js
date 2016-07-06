@@ -41,3 +41,6 @@ ExitFunction= function(){
 		
 	}
 }
+$("body").on("click","a",function(e){
+	e.preventDefault();
+});
