@@ -83,7 +83,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md"> <h2 class="center-to-parent">Fecha</h2></div>
 					<div class="mes-remates hidden-xs" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 					<?php } ?>
-					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md col-lg-12 col-md-12"> <h2 class="center-to-parent">Fecha</h2></div>
+					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md col-lg-12 col-md-12" hid="2"> <h2 class="center-to-parent">Fecha</h2></div>
 					<!-- Caja fecha particular -->
 
 					<?php
@@ -94,6 +94,15 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 						if(!$newDate){
 							?>
 							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm' hid='1' ></div>
+							<div class="info-remates-mobile hidden-lg hidden-md">
+							<div class="mes-remates hidden-lg hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class="hidden-lg cont-fecha-mobile color-generales ">
+							<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
+							<p class="fecha-remates-mobile date-remate ">
+									<?php echo $dias[date("w",strtotime($remate->fecha))]; ?> <?php echo date("d",strtotime($remate->fecha)); ?>
+							</p>
+							<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></div>
+							</div>
 							<?php
 						}else{
 							?>
@@ -162,7 +171,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 						<?php
 					}
 					?>
-					<div class="container-modalidad info-remates-mobile" hid="1">
+					<div class="container-modalidad table-indexer info-remates-mobile col-lg-12 col-md-12" hid="1">
 						<?php //echo $remate->fecha; ?>
 						<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
 					</div>
@@ -190,7 +199,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<?php
 				}
 				?>
-				<div class="container-consignatorio info-remates-mobile" hid="1">
+				<div class="container-consignatorio info-remates-mobile col-lg-12 col-md-12" hid="1">
 					<p class="center-to-parent"><?php echo $remate["consignatario"]; ?></p>
 				</div>
 				<?php
@@ -218,7 +227,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<?php
 				}
 				?>
-				<div class="container-lugar info-remates-mobile" hid="1">
+				<div class="container-lugar info-remates-mobile col-lg-12 col-md-12" hid="1">
 					<p class=""><?php echo $remate["lugar"]; ?></p>
 					<p class=""><?php echo $remate["detalle"]; ?></p>
 				</div>
@@ -244,7 +253,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<?php
 				}
 				?>
-				<div class="container-provincia  info-remates-mobile" hid="1">
+				<div class="container-provincia  info-remates-mobile col-lg-12 col-md-12" hid="1">
 				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-la-pampa.svg"></div>
 				<?php } ?>
 
@@ -268,7 +277,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<?php
 				}
 				?>
-				<div class="container-cabezas info-remates-mobile table-indexer" hid="1" <?php if($remate->suspendido!=""){ ?> style="background-color:red;" <?php } ?> >
+				<div class="container-cabezas info-remates-mobile col-lg-12 col-md-12" hid="1" <?php if($remate->suspendido!=""){ ?> style="background-color:red;" <?php } ?> >
 					<p class="center-to-parent"><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>
