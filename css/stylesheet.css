@@ -2646,6 +2646,10 @@ outline: none;
   text-align: left;
 }
 
+.text-r{
+  margin: 10px 0px;
+}
+
 .texto-blue-r {
   color:#189DBF !important;
 }
