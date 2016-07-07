@@ -68,14 +68,23 @@
 
 			</p>
 
-			<p>
+			<div class="hidden-md hidden-xs hidden-sm hidden-xs text-r ">
 				<span>INMUNIDAD CONTRA ENFERMEDADES INFECCIOSAS:</span>  </br>
-    		<li>Síndrome respiratorio -> <span>BIOPOLIGEN® HS / BIOPOLIGEN® AIR </span> </li>
+    		<li>Síndrome respiratorio -><span>BIOPOLIGEN® HS / BIOPOLIGEN® AIR </span> </li>
     		<li>Síndrome clostridial -> <span>POLICLOSTRIGEN® / BIOCLOSTRIGEN® J5 / TRIPLEpoligen®</span>   </li>
     		<li>Síndrome de queratoconjuntivitis -> <span> BIOQUERATOGEN® OLEO MAX </span>  </li>
     		<li>Es preciso tener en cuenta que deben aplicarse dos dosis para cada síndrome, con un intervalo de 15 a 30 días,
 					cuando no se haya realizado vacunación al destete (primo vacunación).</li>
-			</p>
+			</div>
+
+			<div class=" hidden-xl hidden-lg text-r   ">
+				<span>INMUNIDAD CONTRA ENFERMEDADES INFECCIOSAS:</span>  </br>
+				<li>Síndrome respiratorio</br> <span>BIOPOLIGEN® HS / BIOPOLIGEN® AIR </span> </li>
+				<li>Síndrome clostridial </br> <span>POLICLOSTRIGEN® / BIOCLOSTRIGEN® J5 / TRIPLEpoligen®</span>   </li>
+				<li>Síndrome de queratoconjuntivitis </br> <span> BIOQUERATOGEN® OLEO MAX </span>  </li>
+				<li>Es preciso tener en cuenta que deben aplicarse dos dosis para cada síndrome, con un intervalo de 15 a 30 días,
+					cuando no se haya realizado vacunación al destete (primo vacunación).</li>
+			</div>
 
 
 		</div>
@@ -106,11 +115,18 @@
 				En el caso de las vaquillonas o vacas que no han recibido vacunaciones previas para prevenir estos síndromes, se recomienda
 				 aplicar dos dosis. La primera dosis 60 días antes de la fecha probable de parto y la segunda 30 días antes.
 			</p>
-			<p>
+
+			<div class="hidden-xs hidden-sm hidden-md text-r ">
 				Las vacunas a aplicar según el establecimiento, casuística y tipo de explotación son:  </br>
     		<li>Síndrome de diarrea neonatal -> <span>ROTATEC J5®  </span> </li>
     		<li>Síndrome respiratorio -> <span>BIOPOLIGEN® HS / BIOPOLIGEN® AIR</span></li>
-			</p>
+			</div>
+
+			<div class="hidden-lg hidden-xl text-r ">
+				Las vacunas a aplicar según el establecimiento, casuística y tipo de explotación son:  </br>
+				<li>Síndrome de diarrea neonatal </br> <span>ROTATEC J5®  </span> </li>
+				<li>Síndrome respiratorio </br> <span>BIOPOLIGEN® HS / BIOPOLIGEN® AIR</span></li>
+			</div>
 
 			<p>
 				En las <b>zonas con carencias minerales de cobre y zinc</b>, es vital la suplementación inyectable de <b>SUPLENUT®</b> aplicándolo a las
@@ -123,10 +139,12 @@
 				 al parto con peso adecuado y buen estado corporal.
 			</p>
 
-			<p>
-				Como conclusión, el buen asesoramiento profesional de su médico veterinario junto a un Plan Sanitario Preventivo que contemple
+			<p >
+				Como conclusión, el buen  asesoramiento profesional de su médico veterinario junto a un Plan Sanitario Preventivo que contemple
 				estos aspectos, nos acercarán a la Frontera Productiva.
 			</p>
+
+
 		</div>
 
 	</div>
