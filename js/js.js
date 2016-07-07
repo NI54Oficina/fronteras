@@ -1,5 +1,6 @@
 var isHome=false;
 var isApp=false;
+var importantMobile=false;
 
 var menuReady=true;
 
@@ -183,7 +184,7 @@ function LoadFunction(){
 		viewportWidth=window.innerWidth;
 
 		//$("#logDiv").html("<div>"+currentOrientation+"</div>"+$("#logDiv").html());
-
+		if(!importantMobile){
 		isMobile = /Android|mobi|iPad|Android|webOS|iPhone|iPod|pocket|psp|kindle|Kindle|avantgo|blazer|midori|Tablet|Palm|maemo|plucker|phone|symbian|IEMobile|mobile|ZuneWP7|Windows Phone|Opera Mini|BlackBerry/i.test(navigator.userAgent);
 		if(!isMobile){
 			isMobile=/iPhone|iPad|iPod/i.test(navigator.platform);
@@ -191,6 +192,9 @@ function LoadFunction(){
 		isIOS = /iPad|iPhone|iPod|Opera Mini/i.test(navigator.userAgent);
 		if(!isIOS){
 			isIOS=/iPhone|iPad|iPod/i.test(navigator.platform);
+		}
+		}else{
+			isMobile=true;
 		}
 		if(isMobile){
 			$("header").addClass("headermobile");
