@@ -3278,6 +3278,11 @@ outline: none;
 .slider-ganado{
 	display: none;
 }
+
+.boton-static-ganado{
+  position: absolute;
+  right: 50px;
+}
   /*colores de los tipos de raza de vaca*/
 
   .borde-angus{

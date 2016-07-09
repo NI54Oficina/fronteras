@@ -37,7 +37,7 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 </div>
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm container-boton-ganado center-to-parent"  hid="1">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm container-boton-ganado center-to-parent "  hid="1">
 	<button class="boton-ganado preview-ganado" id="prev" ></button>
 </div>
 
@@ -181,7 +181,7 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 <!-- TERMINA TIPO VACA 5 -->
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado"  hid="1">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado boton-static-ganado"  hid="1">
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
