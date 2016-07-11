@@ -3,7 +3,7 @@
 
 	<p class="title-ayuda-mobile hidden-lg hidden-md hidden-sm hidden-xl">	Ingrese sus datos para comenzar</p>
 
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ayuda-box-side hidden-xs ">
+	<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 ayuda-box-side hidden-xs ">
 		<div class="square box-title-ayuda">
 			<div class="center-to-parent title-inside-ayuda">
 				<h1> Ayuda</h1>
@@ -15,7 +15,7 @@
 	</div>
 
 
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ayuda-form-side">
+	<div class="col-lg-6 col-md-8 col-sm-8 col-xs-12 ayuda-form-side">
 
 
 		<form id="datosUser">
@@ -28,7 +28,7 @@
 		<input type="submit" class="send-button-a" />
 		</form>
 
-		<div class="page-wrap chatUser" chatid="-1" style="display:none">
+		<div class="page-wrap chatUser" chatid="-1" style="display:block">
 
         <div class="chat-wrap"><div class="chat-area"></div></div>
 

@@ -258,6 +258,14 @@ and (max-device-width : 1024px)  {
   padding: 100px 15px;
 }
 
+.ayuda-form-side {
+margin-left: 0px;
+}
+
+
+#ayuda{
+  padding-top:50px;
+}
 
 }
 
