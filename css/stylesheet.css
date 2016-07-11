@@ -3516,5 +3516,38 @@ outline: none;
 
 /**************FIN PROTOCOLOS DE REPRODUCCION *****************/
 
+/**************Inicio Chat******************/
+.chat-area{
+	height:200px;
+	overflow:auto;
+	width:100%;
+	padding:10px;
+	text-align:left;
+	background-color:#ebebeb;
+}
+.chat-area span{
+	padding:10px;background-color:blue;color:white;	display:inline-block;
+	margin-right:10px;
+}
+.chat-area p{
+	margin:10px 0;
+	display:block;	
+}
+.chat-wrap,.page-wrap{
+	width:100%;	
+}
+.sendie{
+	width:100%;	
+}
+
+.unreadChat{
+	background-color:green;
+}
+.activeChat{
+	background-color:blue;
+}
+
+/**************Fin Chat
+
 
 /*TESTING*/

@@ -1,6 +1,6 @@
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
-<?php if(false){ ?>
+<?php if(true){ ?>
 <?php
 
 $conf = new PermissionChecker;
@@ -53,29 +53,7 @@ $chats= Chat::model()->findAll($Criteria);
 		
 	 <?php } }else{ ?>
 		 
-		Ingrese sus datos para comenzar a chatear
-		<form id="datosUser">
-		<label>Nombre:</label>
-		<input name="nombre" required /><br>
-		<label>Email:</label>
-		<input name="email" required /><br>
-		<label>Motivo:</label>
-		<textarea name="motivo" required ></textarea>
-		<input type="submit" />
-		</form>
-		
-		<div class="page-wrap chatUser" chatid="-1" style="display:none">
-    
-        
-        
-        <div class="chat-wrap"><div class="chat-area"></div></div>
-        
-        <form class="send-message-area">
-            <p>Your message: </p>
-            <textarea class="sendie" maxlength="300" ></textarea>
-        </form>
-    
-		</div>
+		<?php include("chat-user.php") ?>
 		
 		 
 	 <?php } ?>
@@ -182,36 +160,7 @@ $chats= Chat::model()->findAll($Criteria);
 		});
     </script>
 	
-<style>
-.chat-area{
-	height:200px;
-	overflow:auto;
-	width:100%;
-	padding:10px;
-	text-align:left;
-	background-color:#ebebeb;
-}
-.chat-area span{
-	padding:10px;background-color:blue;color:white;	display:inline-block;
-	margin-right:10px;
-}
-.chat-area p{
-	margin:10px 0;
-	display:block;	
-}
-.chat-wrap,.page-wrap{
-	width:100%;	
-}
-.sendie{
-	width:100%;	
-}
-
-.unreadChat{
-	background-color:green;
-}
-.activeChat{
-	background-color:blue;
-}
-</style>
 <?php } ?>
+<?php if(false){ ?>
 <h3>Pagina en construcción</h3>
+<?php } ?>
