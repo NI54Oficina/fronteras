@@ -2558,6 +2558,8 @@ outline: none;
 	margin:0;
 	color: white;
   font-size: 1.4rem;
+  text-align: center;
+
 }
 
 .titulo-mobile-producir {
@@ -3531,13 +3533,13 @@ outline: none;
 }
 .chat-area p{
 	margin:10px 0;
-	display:block;	
+	display:block;
 }
 .chat-wrap,.page-wrap{
-	width:100%;	
+	width:100%;
 }
 .sendie{
-	width:100%;	
+	width:100%;
 }
 
 .unreadChat{
