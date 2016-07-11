@@ -28,7 +28,8 @@
 		<input type="submit" class="send-button-a" />
 		</form>
 
-		<div class="page-wrap chatUser" chatid="-1" style="display:block">
+		<div class="page-wrap chatUser" chatid="-1" style="display:none">
+
 
         <div class="chat-wrap"><div class="chat-area"></div></div>
 
