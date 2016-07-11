@@ -3016,7 +3016,7 @@ outline: none;
 /**************** ENFERMEDADES - PARÁSITOS EXTERNOS ************************/
 .parext-select {
     background: transparent;
-    border: none;
+    border: 0px ridge rgb(169, 169, 169);
     border-bottom: 2px solid #6D4A84;
     width: 100%;
     margin: 10px 0px;
