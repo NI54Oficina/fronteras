@@ -3549,6 +3549,64 @@ outline: none;
 	background-color:blue;
 }
 
+.box-title-ayuda{
+  background-color: #79BEFE;
+}
+
+.title-inside-ayuda{
+  color: white;
+  text-align: center;
+}
+
+.title-inside-ayuda h1{
+  font-size: 2.4em;
+}
+
+.title-inside-ayuda p{
+  font-size: .9em;
+}
+
+#datosUser input, #datosUser textarea{
+  border:none;
+  border-bottom: 2px solid  #79BEFE;
+  color:#adadad;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.ayuda-form-side{
+  padding:100px 0px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.ayuda-form-side form{
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.ayuda-box-side{
+  padding: 100px 30px;
+}
+
+.send-button-a{
+  background:#79BEFE;
+  color: white !important;
+  width:50% !important;
+  float: right;
+  margin-right: 50px;
+}
+
+#ayuda{
+  padding: 30px;
+}
+
+.title-ayuda-mobile{
+  color: #79BEFE;
+  font-size: 1em;
+}
+
+
 /**************Fin Chat
 
 

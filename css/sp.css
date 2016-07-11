@@ -251,6 +251,14 @@ and (max-device-width : 1024px)  {
     }
 
   /*FIN GANADO - LAS VACAS*/
+
+/*CHAT DE AYUDA*/
+
+.ayuda-box-side{
+  padding: 100px 15px;
+}
+
+
 }
 
 

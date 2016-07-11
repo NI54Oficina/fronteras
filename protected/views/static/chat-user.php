@@ -1,23 +1,45 @@
-Ingrese sus datos para comenzar a chatear
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ayuda" id="ayuda">
+	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-ayuda titulo-mobile"> <p> Ayuda </p> </div>
+
+	<p class="title-ayuda-mobile hidden-lg hidden-md hidden-sm hidden-xl">	Ingrese sus datos para comenzar</p>
+
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ayuda-box-side hidden-xs ">
+		<div class="square box-title-ayuda">
+			<div class="center-to-parent title-inside-ayuda">
+				<h1> Ayuda</h1>
+				<p>	Ingrese sus datos para comenzar</p>
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ayuda-form-side">
+
+
 		<form id="datosUser">
-		<label>Nombre:</label>
-		<input name="nombre" required /><br>
-		<label>Email:</label>
-		<input name="email" required /><br>
-		<label>Motivo:</label>
-		<textarea name="motivo" required ></textarea>
-		<input type="submit" />
+		<!-- <label>Nombre:</label> -->
+		<input name="nombre" required value="Nombre" /><br>
+		<!-- <label>Email:</label> -->
+		<input name="email" required value="Email" /><br>
+		<!-- <label>Motivo:</label> -->
+		<textarea name="motivo" required value="Motivo" ></textarea> </br>
+		<input type="submit" class="send-button-a" />
 		</form>
-		
+
 		<div class="page-wrap chatUser" chatid="-1" style="display:none">
-    
-        
-        
+
         <div class="chat-wrap"><div class="chat-area"></div></div>
-        
+
         <form class="send-message-area">
             <p>Your message: </p>
             <textarea class="sendie" maxlength="300" ></textarea>
         </form>
-    
+
 		</div>
+
+	</div>
+
+
+</section>
