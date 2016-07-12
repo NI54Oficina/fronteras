@@ -9,25 +9,7 @@ $admin=$conf->CheckUrl("ayuda");
 if($admin ){
 	$columnChat="col-lg-8 col-md-8 col-sm-12 col-xs-12";
 ?>
-<div class="col-lg-4 adminLateral" style="background-color:red;color:white;">Modo Admin
-<a href="<?php echo Yii::app()->getBaseUrl(true)."/ar/chat/admin/"; ?>">Historial</a>
-<?php
-
-$Criteria = new CDbCriteria();
-$Criteria->condition = "abierto = 1";
-
-$chats= Chat::model()->findAll($Criteria);
-
-	foreach($chats as $chat){
-	?>
-		<div class="chatSelector" idChat="<?php echo $chat->id; ?>"><h3><?php echo $chat->nombre; ?></h3>
-		<p><?php echo $chat->motivo; ?></p>
-		<a href="<?php echo Yii::app()->getBaseUrl(true)."/ar/chat/view/".$chat->id; ?>" target="_blank">Ver detalles</a>
-		<button type="button" class="closeChat">Finalizar chat</button>
-		</div>
-	<?php } ?>
-
-</div>
+<?php include("chat-admin.php"); ?>
 <?php } ?>
 
 	<div class="<?php echo $columnChat; ?> chatsContainer" style="text-align:center;">

@@ -9,3 +9,4 @@
 <span>sdasdasd</span>asd 
 <span>sdasdasd</span>asd a
 <span>sdasdasd</span>test 
+<span class='admin-message'>Admin</span>hola 
