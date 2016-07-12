@@ -3527,7 +3527,7 @@ outline: none;
 	text-align:left;
 	background-color:white;
 }
-.chat-area span{
+/*.chat-area span{
 
 	padding:10px;
   color:white;
@@ -3535,14 +3535,16 @@ outline: none;
 	margin-right:10px;
 
 
-}
-.chat-area p{
+}*/
+.chat-area .admin-nick, .chat-area .user-nick{
 	margin:10px 0;
 	display:block;
-  color:white;
-  background-color: #79BEFE;
-  border-radius: 10px;
-  border-top-right-radius: 0;
+  color:#C5C5C5;
+
+}
+
+ .chat-area .user-nick{
+
 }
 
 .chat-area .admin-message{
@@ -3550,11 +3552,21 @@ outline: none;
   border-top-left-radius: 0;
   border: 1px solid #adadad;
   background-color: white;
-  color: #8F8F8F;;
+  color: #8F8F8F;
+  padding: 10px;
+  max-width: 70%;
+  width: auto;
 }
 
-.admin-message span{
-  color:#adadad;
+.chat-area .user-message{
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  background-color: #79BEFE;
+  color: white;
+  padding: 10px;
+  max-width: 70%;
+  width: auto;
+  right: 0;
 }
 .chat-wrap,.page-wrap{
 	width:100%;

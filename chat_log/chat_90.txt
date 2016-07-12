@@ -1,0 +1,2 @@
+
+<p class='user-nick'>Nombre</p> <p class='user-message'> as </p>

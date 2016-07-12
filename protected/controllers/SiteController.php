@@ -254,9 +254,9 @@ class SiteController extends Controller
 					}
 
 					if($admin){
-				 	fwrite(fopen($file, 'a'), "<p class='admin-message'><span >". $nickname . "</span>" . $message = str_replace("\n", " ", $message)."</p>" . "\n");
+				 	fwrite(fopen($file, 'a'), "<p class='admin-nick'>". $nickname . "</p> <p class='admin-message'> " . $message = str_replace("\n", " ", $message)."</p>" . "\n");
 				 }else{
-					 fwrite(fopen($file, 'a'), " <p class='user-message'> <span>". $nickname . "</span>" . $message = str_replace("\n", " ", $message)."</p>" . "\n");
+					 fwrite(fopen($file, 'a'), "<p class='user-nick'>". $nickname . "</p> <p class='user-message'> " . $message = str_replace("\n", " ", $message)."</p>" . "\n");
 				 }
 			 }
 				 break;

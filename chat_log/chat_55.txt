@@ -6,3 +6,8 @@
 <p class='admin-message'><span >Admin</span>asdasdasd </p>
 <p class='admin-message'><span >Admin</span>asdasdasdasdasdasdasdasd </p>
 <p class='admin-message'><span >Admin</span>Probanding </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> Holasss </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> bnvbnv </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> asas </p>

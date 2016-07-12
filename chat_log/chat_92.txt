@@ -1,0 +1,7 @@
+
+<p class='user-nick'>Nombre</p> <p class='user-message'> sd </p>
+<p class='user-nick'>Nombre</p> <p class='user-message'> sdfsfd </p>
+<p class='user-nick'>Nombre</p> <p class='user-message'> sdf </p>
+<p class='user-nick'>Nombre</p> <p class='user-message'> sdf </p>
+<p class='user-nick'>Nombre</p> <p class='user-message'> sdf </p>
+<p class='user-nick'>Nombre</p> <p class='user-message'> sdf </p>
