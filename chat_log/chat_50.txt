@@ -3,3 +3,4 @@
 <span>Admin</span>Hola 
 <span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>
 <span>Nombredfdsfs</span>hgfchfgh 
+<span>Conversación terminada</span>

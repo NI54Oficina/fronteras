@@ -2,3 +2,4 @@
 <span>Nombre</span>asdadadasdasd 
 <span>Nombre</span>asdasdasd 
 <span>Nombre</span>dsfsdfsf 
+<span>Conversación terminada</span>

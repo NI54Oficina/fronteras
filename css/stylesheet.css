@@ -3549,6 +3549,12 @@ outline: none;
   border-radius: 10px;
   border-top-left-radius: 0;
   border: 1px solid #adadad;
+  background-color: white;
+  color: #8F8F8F;;
+}
+
+.admin-message span{
+  color:#adadad;
 }
 .chat-wrap,.page-wrap{
 	width:100%;
@@ -3557,11 +3563,9 @@ outline: none;
 	width:100%;
 }
 
-.unreadChat{
-	background-color:rgba(121,190,257,.2) !important;
-}
+
 .activeChat{
-	background-color:rgba(121,190,257,.4) !important;
+	background-color:#DBE5FF!important;
 }
 
 .box-title-ayuda{
@@ -3661,7 +3665,7 @@ outline: none;
   border-bottom: 1px solid #adadad;
   padding:10px 10px;
   background-color: white;
-  color: #adadad;
+  color: #8F8F8F;
   text-align: left;
 }
 
@@ -3681,6 +3685,26 @@ outline: none;
 
 .motive{
   color: #79BEFE;
+}
+
+.unreadChat .icono-chat-2{
+  display: block !important;
+
+}
+.unreadChat .icono-chat-1{
+  display:none !important;
+
+}
+
+.icono-chat-1,.icono-chat-2 {
+  float: right;
+}
+
+.adminLateral{
+  padding:0px 10px;
+}
+.chatsContainer{
+  padding: 0px 30px;
 }
 
 /**************Fin Chat

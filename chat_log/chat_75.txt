@@ -1,2 +1,3 @@
 
 <span>Nombre</span>sdasdasd 
+<span class='admin-message'>Admin</span>cvxcvxcvxcv 

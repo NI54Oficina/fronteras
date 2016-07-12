@@ -1,1 +1,2 @@
 
+<span>Conversación terminada</span>

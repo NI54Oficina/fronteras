@@ -11,3 +11,4 @@ Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será a
 <span>Nombre</span>f 
 <span>Nombre</span>sf s
 <span>Nombre</span>dfsdfsdf 
+<span>Conversación terminada</span>

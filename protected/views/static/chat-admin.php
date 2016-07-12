@@ -19,6 +19,8 @@ $chats= Chat::model()->findAll($Criteria);
 		<p class="motive"><?php echo $chat->motivo; ?></p>
 		<a class="details-admin" href="<?php echo Yii::app()->getBaseUrl(true)."/ar/chat/view/".$chat->id; ?>" target="_blank">Ver detalles</a>
 		<button type="button" class="closeChat">Finalizar chat</button>
+		<img class="icono-chat-1" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon-chat.svg" alt="chat" />
+		<img class="icono-chat-2" style="display:none" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon-chat-yellow.svg" alt="chat" />
 		</div>
 	<?php } ?>
 

@@ -2,3 +2,4 @@ Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será a
 <span>Nombre</span>asdasdasdasdasd 
 <span>Nombre</span>asdasdasdasda 
 <span>Nombre</span>asdasdasd 
+<span>Conversación terminada</span>
