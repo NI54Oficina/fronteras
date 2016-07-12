@@ -31,7 +31,6 @@ $chats= Chat::model()->findAll($Criteria);
 <?php } ?>
 
 	<div class="<?php echo $columnChat; ?> chatsContainer" style="text-align:center;">
-	 <h1>  - AYUDA -</h1>
 
 	 <?php include("chat-screen.php"); ?>
 	 <?php

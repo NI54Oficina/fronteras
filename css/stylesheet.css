@@ -3525,15 +3525,30 @@ outline: none;
 	width:100%;
 	padding:10px;
 	text-align:left;
-	background-color:#ebebeb;
+	background-color:white;
 }
 .chat-area span{
-	padding:10px;background-color:blue;color:white;	display:inline-block;
+
+	padding:10px;
+  color:white;
+  display:inline-block;
 	margin-right:10px;
+
+
 }
 .chat-area p{
 	margin:10px 0;
 	display:block;
+  color:white;
+  background-color: #79BEFE;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+}
+
+.chat-area .admin-message{
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border: 1px solid #adadad;
 }
 .chat-wrap,.page-wrap{
 	width:100%;
@@ -3594,7 +3609,8 @@ outline: none;
   color: white !important;
   width:50% !important;
   float: right;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
+  padding: 5px;
 }
 
 #ayuda{
@@ -3606,6 +3622,26 @@ outline: none;
   font-size: 1em;
 }
 
+
+.welcome-message{
+  color: #8F8F8F;
+  text-align: center;
+  font-weight: bold;
+}
+.welcome-message span{
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color:#8F8F8F;
+  font-weight: bold;
+}
+
+.hold-message{
+  font-size: .9em;
+  text-align:center;
+  color:#79BEFE !important;
+  margin-top: 15px;
+}
 
 /**************Fin Chat
 

@@ -31,10 +31,19 @@
 		<div class="page-wrap chatUser" chatid="-1" style="display:none">
 
 
-        <div class="chat-wrap"><div class="chat-area"></div></div>
+        <div class="chat-wrap"><div class="chat-area">
+				<div class="welcome-message">
+					<span>Bienvenido</span></br> a la mesa de ayuda de Fronteras 2.0. </br>
+				</div>
+				<div class="hold-message">
+					Aguarde unos instantes y será atendido.
+				</div>
+
+
+			</div></div>
 
         <form class="send-message-area">
-            <p>Your message: </p>
+            <!-- <p>Your message: </p> -->
             <textarea class="sendie" maxlength="300" ></textarea>
         </form>
 
