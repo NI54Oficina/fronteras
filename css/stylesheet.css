@@ -3554,8 +3554,9 @@ outline: none;
   background-color: white;
   color: #8F8F8F;
   padding: 10px;
-  max-width: 70%;
+  max-width: 50%;
   width: auto;
+  box-shadow:9px -9px 9px -7px rgb(216, 213, 216);
 }
 
 .chat-area .user-message{
@@ -3564,10 +3565,11 @@ outline: none;
   background-color: #79BEFE;
   color: white;
   padding: 10px;
-  max-width: 70%;
+  max-width: 50%;
   width: auto;
   right: 0;
 }
+
 .chat-wrap,.page-wrap{
 	width:100%;
 }
