@@ -3659,17 +3659,28 @@ outline: none;
 
 .chatSelector{
   border-bottom: 1px solid #adadad;
-  padding:10px 0px;
+  padding:10px 10px;
   background-color: white;
   color: #adadad;
+  text-align: left;
 }
 
-.chatSelector .details-admin{
-  color: #79BEFE;
-}
+
 
 .unreadChat h3{
   font-weight: bold;
+}
+
+.chatSelector .details-admin, .closeChat{
+  border: none;
+  background-color:  #79BEFE;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.motive{
+  color: #79BEFE;
 }
 
 /**************Fin Chat
