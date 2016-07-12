@@ -29,6 +29,7 @@
 		</form>
 
 		<div class="page-wrap chatUser" chatid="-1" style="display:none">
+			
 
 
         <div class="chat-wrap"><div class="chat-area">

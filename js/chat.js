@@ -1,4 +1,4 @@
-/* 
+/*
 Created by: Kenrick Beckett
 
 Name: Chat Engine
@@ -29,18 +29,18 @@ function getStateOfChat(idChat){
 		 $.ajax({
 			   type: "POST",
 			   url: sendURL+"/id/"+idChat,
-			   data: {  
+			   data: {
 			   			'function': 'getState',
 						'file': file
 						},
 			   dataType: "json",
-			
+
 			   success: function(data){
 				   chats[idChat].state = data.state;
 				   chats[idChat].instanse = false;
 			   },
 			});
-	}	 
+	}
 }
 
 //Updates the chat
@@ -51,7 +51,7 @@ function updateChat(idChat){
 	     $.ajax({
 			   type: "POST",
 			   url: sendURL+"/id/"+idChat,
-			   data: {  
+			   data: {
 			   			'function': 'update',
 						'state': chats[idChat].state,
 						'file': file
@@ -61,7 +61,7 @@ function updateChat(idChat){
 				   if(data.text){
 						for (var i = 0; i < data.text.length; i++) {
                             $('[chatid='+idChat+'] .chat-area').append($("<p>"+ data.text[i] +"</p>"));
-                        }								  
+                        }
 						$('[chatid='+idChat+'] .chat-area').scrollTop(10000000);
 						if(idChat!=activeChat){
 							$('[idChat='+idChat+']').addClass("unreadChat");
@@ -70,7 +70,7 @@ function updateChat(idChat){
 				   //document.getElementById('chat-area').scrollTop = document.getElementById('chat-area').scrollHeight;
 				   chats[idChat].instanse = false;
 				   chats[idChat].state = data.state;
-				   
+
 			   },
 			});
 	 }
@@ -107,7 +107,7 @@ function CheckNewChats(){
 					newChat= newChat.replace("{chatNombre}",chatData[0]);
 					newChat= newChat.replace("{chatMOTIVO}",chatData[1]);
 					$(".adminLateral").append(newChat);
-					
+
 					var auxChat=new Chat();
 					chats[currentLoopId]=auxChat;
 					auxChat.getState(currentLoopId);
@@ -119,12 +119,12 @@ function CheckNewChats(){
 
 //send the message
 function sendChat(message, nickname,idChat)
-{       
+{
     updateChat(idChat);
      $.ajax({
 		   type: "POST",
 		   url: sendURL+"/id/"+idChat,
-		   data: {  
+		   data: {
 		   			'function': 'send',
 					'message': message,
 					'nickname': nickname,
@@ -145,9 +145,9 @@ function UpdateChats(){
 }
 
 $("body").on("click",".chatSelector",function(){
-	 ShowChat($(this).attr("idChat")); 
+	 ShowChat($(this).attr("idChat"));
 });
- 
+
 function ShowChat(idChat){
 	$(".page-wrap").hide();
 	$('.chatSelector').removeClass("activeChat");
@@ -155,12 +155,13 @@ function ShowChat(idChat){
 	activeChat=idChat;
 		$('[idChat='+idChat+']').removeClass("unreadChat");
 		$('[idChat='+idChat+']').addClass("activeChat");
-	
+
 }
 
 $("#datosUser").on('submit', function(e){
 	  e.preventDefault();
 	  console.log("entra user");
+    $(".title-inside-ayuda p").hide();
 	  $("#datosUser").hide();
 	  $.post(registerURL,{nombre:$("#datosUser [name=nombre]").val(),email:$("#datosUser [name=email]").val(),motivo:$("#datosUser [name=motivo]").val()},function(data){
 		  if(data!=""){
@@ -168,7 +169,7 @@ $("#datosUser").on('submit', function(e){
 		  }
 	  });
   });
-  
+
   function InitUserChat(data){
 		$(".chatUser").attr("chatid",data);
 		$(".chatUser").show();
@@ -176,7 +177,7 @@ $("#datosUser").on('submit', function(e){
 		chats[data]=auxChat;
 		auxChat.getState(data);
   }
-  
+
  $("body").on("click",'.closeChat',function(){
 	 console.log("entra close");
 	var idToClose=$(this).parent().attr("idChat");
