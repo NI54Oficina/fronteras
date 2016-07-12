@@ -1,5 +1,5 @@
 
-<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section ayuda">
 <?php if(true){ ?>
 <?php
 
@@ -7,7 +7,7 @@ $conf = new PermissionChecker;
 $columnChat="col-lg-12 col-md-12 col-sm-12 col-xs-12";
 $admin=$conf->CheckUrl("ayuda");
 if($admin ){
-	$columnChat="col-lg-8 col-md-8 col-sm-12 col-xs-12";
+	$columnChat="col-lg-8 col-md-6 col-sm-6 col-xs-12";
 ?>
 <?php include("chat-admin.php"); ?>
 <?php } ?>

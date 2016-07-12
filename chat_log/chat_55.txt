@@ -13,3 +13,4 @@
 <p class='admin-nick'>Admin</p> <p class='admin-message'> asas </p>
 <p class='admin-nick'>Admin</p> <p class='admin-message'> asasasas </p>
 <p class='admin-nick'>Admin</p> <p class='admin-message'> sdsd </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> aasdasdasd </p>

@@ -5,3 +5,4 @@
  <p class='user-message'> <span>Nombre</span>asndkjasnjdkas </p>
  <p class='user-message'> <span>Nombre</span>asdasdkasd </p>
  <p class='user-message'> <span>Nombre</span>asdasd </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p>
