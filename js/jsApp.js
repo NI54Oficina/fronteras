@@ -91,4 +91,37 @@ GoUrlLink= function(toGo,popArray){
 		}		
 	 }
 }
-$("body").append("<style>#inner-header{padding-top:15px;}.boton-volver-header{padding-top:15px;}.navbar-toggle2{padding-top:23px;}.titulo-mobile{padding-top:15px;}</style>");
+
+
+
+LoadResource= function(){
+	console.log("entra load Resource");
+	if (typeof LoadFunction == 'function')
+	{
+		auxLoadResource=0;
+		$(".loading-gif").hide();
+		$("#containerApp").css("opacity","1");
+		console.log("entra opacity app???");
+		isApp=true;
+		LoadFunction();
+		if(isIOS){
+			$("body").append("<style>#inner-header{padding-top:15px;}.boton-volver-header{padding-top:15px;}.navbar-toggle2{padding-top:23px;}.titulo-mobile{padding-top:15px;}</style>");
+		}
+		readyExecuted=false;
+	}else{
+		setTimeout(function(){
+		auxLoadResource++;
+		if(auxLoadResource>30){
+			auxLoadResource=0;
+			if($("#containerErrorLoad").is(":visible")){
+				return;
+			}
+			$("#containerExitApp").show();
+		}else{
+			LoadResource();
+		}
+		
+		},1000);
+	}
+	
+}
