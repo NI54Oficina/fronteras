@@ -105,7 +105,7 @@ LoadResource= function(){
 		isApp=true;
 		LoadFunction();
 		if(isIOS){
-			$("body").append("<style>#inner-header{padding-top:15px;}.boton-volver-header{padding-top:15px;}.navbar-toggle2{padding-top:23px;}.titulo-mobile{padding-top:15px;}</style>");
+			$("body").append("<style>#inner-header{padding-top:15px;}.boton-volver-header{padding-top:15px;}.navbar-toggle2{padding-top:23px;}.titulo-mobile{padding-top:15px;}.section{padding-top:50px !important;}</style>");
 		}
 		readyExecuted=false;
 	}else{

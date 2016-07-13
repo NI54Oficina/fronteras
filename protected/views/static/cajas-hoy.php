@@ -5,7 +5,7 @@
 	<!-- Mercado -->
 
 	<?php
-
+	if(false){
 	$options = array(
 	  'http'=>array(
 		'method'=>"GET",
@@ -19,6 +19,7 @@
 	if($dataMercado){
 	$array = json_decode($dataMercado,true);
 	$item= $array[0];
+	 }}
 	?>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6">
@@ -37,18 +38,7 @@
 			<h3 class="h3-merc">Ganado</h3>
 			<h3 class="h3-merc">Monedas</h3>
 			<h3 class="h3-merc">Granos</h3>
-				<!--Compra-->
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado">
-					<h4>Compra</h4>
-					<p>$<?php echo $item["Items"][0]["Compra"]; ?></p>
-				</div>-->
-
-				<!--Venta-->
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 small-boxes-mercado" hid="3">
-					<h4>Venta</h4>
-					<p>$<?php echo $item["Items"][0]["Venta"]; ?></p>
-				</div>-->
-
+				
 			</div>
 			</div>
 			<!-- Ampliar -->
@@ -65,7 +55,7 @@
 
 
 
-	<?php } ?>
+	
 	<?php include("session-clima.php"); ?>
 	<!-- Clima -->
 	<?php
