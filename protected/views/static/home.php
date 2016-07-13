@@ -8,7 +8,7 @@ isHome=true;
 <body class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 ">
 
 
-<section id="home"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 fadder">
+<section id="home"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 fadder bg-fit">
 
 <?php include_once("analytics.php") ?>
 

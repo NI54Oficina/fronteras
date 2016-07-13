@@ -117,6 +117,7 @@ header{
 	margin:0;
 	padding:0;
 	background-color:rgb(230, 230, 230);
+  /*background: url(../img/bg-index.png)*/
 }
 
 header .home-upper-box > div{
@@ -254,6 +255,7 @@ header .home-box:hover > .hoy-box {
 	padding-bottom:10px;*/
 	height:100%;
 }
+
 
 .headermobile .navbar-collapse{
 	height:0;

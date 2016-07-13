@@ -152,6 +152,17 @@
 
 	#inner-header  .home-upper-box{
 		padding:10px 30px;
+
+
+	}
+
+	#inner-header{
+
+		  background: url(../img/bg-index.png)
+
+	}
+	.navbar-collapse {
+		border:none;
 	}
 
 	.p-header-mobile{
