@@ -66,3 +66,9 @@
 			});
 		});
 		</script>
+		<style>
+		.boton-volver-header{position:absolute;}
+		#inner-header  .home-upper-box{padding:10px 22px;padding-top:45px;}
+		.header-mobb{padding:15px 15px !important;}
+		#inner-header{background-size:auto 100%;}
+		</style>

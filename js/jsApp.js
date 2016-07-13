@@ -7,19 +7,26 @@ lastUrl="/home";
 }*/
 
 BackApp= function(){
+	if($("#back-header2").is(":visible")){
 	var auxGo=urlHistory.pop();
 	console.log("entra hash");
-	if(auxGo==null){
-		if(window.location.hash == "#home"){
-			console.log("exit app");
-			ExitFunction();
-			//return;
+	
+		
+		if(auxGo==null){
+			if(window.location.hash == "#home"){
+				console.log("exit app");
+				ExitFunction();
+				//return;
+			}
+			auxInt=0;
+			window.location.hash = "home";
+			console.log("entra back exit");
+		}else{
+			GoUrlLink(auxGo,false);
 		}
-		auxInt=0;
-		window.location.hash = "home";
-		console.log("entra back exit");
 	}else{
-		GoUrlLink(auxGo,false);
+		console.log("exti desde menu");
+		ExitFunction();
 	}
 	
 }

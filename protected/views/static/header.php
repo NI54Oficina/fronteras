@@ -28,7 +28,7 @@ function AdaptMenuContent(){
 			if($("#inner-header").hasClass("in")){
 
 				$("#back-header2").css("display","none");
-				if(isApp){
+				if(isApp&&!isIOS){
 				$(".icon-logout").css("display","inline-block");
 				}
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
