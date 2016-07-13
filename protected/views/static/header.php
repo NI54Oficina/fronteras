@@ -149,7 +149,7 @@ function AdaptMenuContentApp(){
 
 
 
-<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
+<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu " data-toggle="collapse">
 
 
 

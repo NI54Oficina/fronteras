@@ -333,7 +333,7 @@ header .home-box:hover > .hoy-box {
 
 .header-mobb {
 
-    padding: 20px 25px !important;
+  padding: 5px 15px !important;
 	opacity:0;
 	transition:0.5s;
 }

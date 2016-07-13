@@ -151,16 +151,18 @@
 	}
 
 	#inner-header  .home-upper-box{
-		padding:10px 30px;
+		padding:10px 20px;
+		padding-top: 30px;
 
 
 	}
 
 	#inner-header{
-
-		  background: url(../img/bg-index.png)
-
+		  background: url(../img/bg-index.png);
+			background-size:auto  100% ;
+			background-position: center;
 	}
+
 	.navbar-collapse {
 		border:none;
 	}
