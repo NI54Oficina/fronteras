@@ -20,16 +20,16 @@
 
 		<form id="datosUser">
 		<!-- <label>Nombre:</label> -->
-		<input name="nombre" required value="Nombre" /><br>
+		<input name="nombre" required placeholder="Nombre" /><br>
 		<!-- <label>Email:</label> -->
-		<input name="email" required value="Email" /><br>
+		<input name="email" required placeholder="Email" /><br>
 		<!-- <label>Motivo:</label> -->
-		<textarea name="motivo" required value="Motivo" ></textarea> </br>
+		<textarea name="motivo" required placeholder="Motivo" ></textarea> </br>
 		<input type="submit" class="send-button-a" />
 		</form>
 
 		<div class="page-wrap chatUser" chatid="-1" style="display:none">
-			
+
 
 
         <div class="chat-wrap"><div class="chat-area">
