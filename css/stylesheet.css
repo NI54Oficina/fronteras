@@ -3558,6 +3558,7 @@ outline: none;
   padding: 10px;
   max-width: 50%;
   width: auto;
+  word-wrap: break-word;
   box-shadow:9px -9px 9px -7px rgb(216, 213, 216);
 }
 
@@ -3567,9 +3568,11 @@ outline: none;
   background-color: #79BEFE;
   color: white;
   padding: 10px;
-  max-width: 50%;
+  max-width: 100%;
   width: auto;
   right: 0;
+  display: inline-block;
+  word-wrap: break-word;
 }
 
 .chat-wrap,.page-wrap{
@@ -3721,6 +3724,14 @@ outline: none;
 }
 .chatsContainer{
   padding: 0px 30px;
+}
+
+.user-message-container{
+display:inline-block;
+width:50%;
+float:right;
+margin-left:10%;
+text-align:right;
 }
 
 /**************Fin Chat

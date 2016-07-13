@@ -14,3 +14,7 @@
 <p class='admin-nick'>Admin</p> <p class='admin-message'> asasasas </p>
 <p class='admin-nick'>Admin</p> <p class='admin-message'> sdsd </p>
 <p class='admin-nick'>Admin</p> <p class='admin-message'> aasdasdasd </p>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasdasd </p></div><br>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasdasd </p></div><br>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p></div><br>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasdasdasdasdasdahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh </p></div><br>
