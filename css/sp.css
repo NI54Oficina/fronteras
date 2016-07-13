@@ -406,9 +406,9 @@ and (orientation : portrait){
 		display: block;
 	}
 
-	.titulo-mobile > p {
+	/*.titulo-mobile > p {
 		font-size: 1.2rem;
-	}
+	}*/
 
 	.header-palabras-menu {
 		margin-top: 0;
