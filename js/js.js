@@ -499,10 +499,11 @@ function AdaptSquare(){
 
 }
 
+var delaySplash=3000;
 
 function splash() {
 
-     $(".splash").delay(3000).queue(function(){
+     $(".splash").delay(delaySplash).queue(function(){
 
      	finishDelayHome=true;
  		FadeHome();
