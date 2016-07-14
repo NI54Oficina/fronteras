@@ -37,13 +37,21 @@
 
 			 </div>
 
-			 <div id="localidad" style="display:none;">
+			 <div id="localidad" style="display:none;" >
 
 				<form method="post">
          			 <select name="localidad" >
 
 
          			 <option value="" selected disabled>Seleccione localidad</option>
+					 <?php 
+					 $localidades = Ciudad::model()->findAll();
+					 foreach($localidades as $localidad){
+						 ?>
+						 <option class="localidad" value="<?php echo $localidad->nombre; ?>" provincia="<?php echo $localidad->provincia; ?>"><?php echo $localidad->nombre; ?></option>
+						 <?php
+					 }
+					 ?>
 
 					 </select>
 
@@ -55,14 +63,25 @@
 				<div id="noVeterinarias" class=" col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
 					<p  >No hay veterinarias adheridas en esta provincia.</p>
 				</div>
-		 	 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
-					<!--- El html se genera por php, no se le pueden agregar clases aca, queda el code solo de ejemplo para ver la estructura !-->
-				 <h1>Nombre de la Red veterinaria</h1>
-				 <p>Provincia, Ciudad</p>
-				 <p>Direccion (con altura incluida)</p>
-				 <p>Telefono principal (sin celulares)</p>
+			
+			<?php 
+			$veterinarias= Veterinarias::model()->findAll();
+			if($veterinarias){
+				foreach($veterinarias as $veterinaria){
+			?>
+			 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;" ciudad="<?php echo $veterinaria->ciudad; ?>">
+				<h1><?php echo $veterinaria->cuenta; ?></h1>
+				 <p><?php echo $veterinaria->provincia; ?>, <?php echo $veterinaria->ciudad; ?></p>
+				 <p><?php echo $veterinaria->direccion; ?> <?php echo $veterinaria->altura; ?></p>
+				 <p><?php echo $veterinaria->telefono; ?></p>
+			 </div>
+			<?php
+				}
+			}
+			?>
+		 	
 
-		 	 </div>
+		 	
 
 		 </div>
 
@@ -77,6 +96,7 @@
 
 	</div>
 
+	<?php if(false){ ?>
 	<script>
 	$( "#provincia form select" ).change(function() {
 		console.log("change");
@@ -112,5 +132,26 @@
 		});
 	});
 	</script>
+	<?php } ?>
+	<script>
+	$( "#provincia form select" ).change(function() {
+		console.log("change");
+		$(".info-mapa").hide();
+		$("#localidad").show();
+		$( "#localidad form select" ).val("");
+		$("#info-veterinaria").hide();
+		$("#noVeterinarias").hide();
+		$(".localidad").hide();
+		$("[provincia="+$(this).val()+"]").show();
+		$("#info-veterinaria").hide();
+	});
 
+	$( "#localidad form select" ).change(function() {
+
+		$("#info-veterinaria").show();
+		$(".info-mapa").hide();
+		console.log($(this).val());
+		$("[ciudad='"+$(this).val()+"']").show();
+	});
+	</script>
 </section>
