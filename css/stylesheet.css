@@ -3633,6 +3633,11 @@ outline: none;
   margin: 20px 0px;
 }
 
+#datosUser textarea{
+  height: 120px;
+}
+
+
 .ayuda-form-side{
   padding:60px 0px;
   text-align: left;
