@@ -302,7 +302,7 @@
 		padding:2px 2px;
 	}
 	.columna-ganado p{
-		font-size: 1.1rem;
+		font-size: 1.0rem;
 	}
 
 	.columna-indicadores p{
@@ -431,6 +431,10 @@
 	.color-title-prod {
 		background: #ED7C28;
 		margin-left: -1%;
+	}
+	
+	.container-prot.prioridad-prot{
+		height:4rem !important;
 	}
 
 	.number-protocolo {
@@ -570,6 +574,16 @@
     padding: 15px;
 }
 
+/**Mercados**/
+.moneda-mercados .glyphicon{
+	float:left;
+	padding-right:5px;
+	padding-left:0px;
+}
+.table-mercado-items div p,.table-mercado-items div span,.box-mercado  .table-mercado-items .moneda-mercados,.columna-ganado p {
+padding-left:5px;
+}
+
 
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
@@ -613,7 +627,6 @@
 
 
 /*FIN DISTRIBUCION DE COLUMNAS*/
-
 
 
 

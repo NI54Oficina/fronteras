@@ -145,6 +145,8 @@ function LoadFunction(){
 		ResizeViewportElements();
 
 		setTimeout(function(){
+			Header();
+			fitBackground();
 			$(".fadder").css('transition',"0.5s");
 			$("section").css('transition',"0.5s");
 			SameHeight();
@@ -262,6 +264,8 @@ function LoadFunction(){
 				$("#inner-header").height(0);
 			}
 			var rule = getStyleRule('.headermobile .navbar-collapse.in');
+			auxH= screen.height;
+			console.log("entra screen height "+screen.height);
 			if(rule){
 				console.log("entra rule");
 			//var auxH= screen.height-$("#navbar-main").height();
@@ -815,7 +819,7 @@ if( (wdWidth-wdHeight) > 0 ){
 
 // FUNCION QUE AJUSTA EL ANCHO DEL BACKGROUND SIN DEFORMAR
 function fitBackground(){
-
+	console.log("entra fit");
 	var img = new Image ;
 	try{
 		img.src = $('.bg-fit').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");

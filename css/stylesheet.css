@@ -696,6 +696,7 @@ header .home-box:hover > .hoy-box {
 .table-mercado{
 	min-height:30px!important;
 	padding:0!important;
+	border-bottom:1px solid #F2F2F2;
 }
 
 .table-mercado div{
@@ -703,6 +704,14 @@ header .home-box:hover > .hoy-box {
 	background:#F1F2F3;
 	text-align:left;
 	min-height:30px;
+}
+
+.moneda-mercados .glyphicon{
+	float:left;
+	padding-right:20px;
+}
+.moneda-mercados {
+
 }
 
 /* Categoría */
@@ -771,7 +780,7 @@ header .home-box:hover > .hoy-box {
 }
 .table-mercado-items > div {
 
-	border-bottom:1px solid #F2F2F2;
+	
 }
 
 .table-mercado-items > div:nth-child(2) > h3{
@@ -876,7 +885,7 @@ header .home-box:hover > .hoy-box {
     padding-left: 12px;
 }
 
-.table-mercado-items div p {
+.table-mercado-items div p,.table-mercado-items div span {
 	text-align:left;
 	padding-left:10px;
 	color:  #8c8c8c;
@@ -2909,7 +2918,7 @@ outline: none;
 }
 
 .b-prot-at {
-    top:6% !important;
+    top:5% !important;
     left: auto;
     background-color: rgba(99, 99, 99, 0);
     border: none;
@@ -2917,7 +2926,7 @@ outline: none;
 }
 
 .b-prot-ad{
-  top:6% !important;
+  top:5% !important;
       right: 8%;
       background-color: rgba(99, 99, 99, 0);
       border: none;

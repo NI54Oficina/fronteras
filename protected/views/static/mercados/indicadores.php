@@ -208,12 +208,4 @@
 
 <?php  } ?>
 
-<style>
-.moneda-mercados .glyphicon{
-	float:left;
-	padding-right:20px;
-}
-.moneda-mercados {
 
-}
-</style>

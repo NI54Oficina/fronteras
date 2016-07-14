@@ -22,7 +22,7 @@ $protocolos= Protocolo::model()->findAll();
 
 
 	<!-- Caja general -->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile" style="padding:20px 30px; text-align:center;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile" style="padding:10px 0px; text-align:center;">
 
 	<div class="hidden-lg cont-fechas-mobile color-title-prod">
 	<button class="boton-prueba-atras b-prot-at"><span class="glyphicon glyphicon-triangle-left"></span> </button>
@@ -43,7 +43,7 @@ $protocolos= Protocolo::model()->findAll();
 
 				<!--Contenido -->
 				<?php foreach($protocolos as $p){ ?>
-				<div class="container-prot info-remates-mobile table-indexer" hid="1">
+				<div class="container-prot info-remates-mobile table-indexer prioridad-prot" hid="1">
 					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;position: absolute;left: 0;">
 							<div class="number-protocolo center-to-parent prot-po">
 									<?php echo $p["prioridad"]; ?>

@@ -69,4 +69,5 @@
 		<style>
 		
 		/*.splash{display:none !important;}*/
+		.table-mercado .glyphicon{display:initial;}
 		</style>
