@@ -162,6 +162,7 @@ $("#datosUser").on('submit', function(e){
 	  e.preventDefault();
 	  console.log("entra user");
     $(".title-inside-ayuda p").hide();
+    $(".title-ayuda-mobile").hide();
 	  $("#datosUser").hide();
 	  $.post(registerURL,{nombre:$("#datosUser [name=nombre]").val(),email:$("#datosUser [name=email]").val(),motivo:$("#datosUser [name=motivo]").val()},function(data){
 		  if(data!=""){
