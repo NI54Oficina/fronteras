@@ -546,7 +546,6 @@ header .home-box:hover > .hoy-box {
 
 .box-clima option,.box-clima select{
 	color: #B2B2B2;
-    font-size: 1.6rem;
     border: none;
     width: 100%;
     font-family: 'arialregular';
@@ -2788,7 +2787,7 @@ outline: none;
 .container-modalidad{
     min-height: 70px;
     border-bottom: 1px solid grey;
-    text-align: left;
+    text-align: center;
 }
 
 .container-modalidad-retiro{
@@ -3030,6 +3029,13 @@ outline: none;
     width: 100%;
     margin: 10px 0px;
     color: rgba(158,158,158,.5);
+    background-color: transparent;
+    -moz-appearance: none;
+    background-image: url(arrow-down-gray.svg);
+    background-position: right;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 
 .parext-select:focus {
