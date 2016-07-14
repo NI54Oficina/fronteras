@@ -592,8 +592,8 @@ padding-left:5px;
     padding: 0;
 }
 .send-button-a{
-	margin: 20px 0px !important;
-	float: none;;
+	margin: 40px 0px !important;
+	float: left;
 	width: 100% !important;
 }
 
