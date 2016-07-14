@@ -1,20 +1,3 @@
-<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>
-<span class='admin-message'>Admin</span>dfsdf 
-<p class='admin-message'><span >Admin</span>dasdasd </p>
-<p class='admin-message'><span >Admin</span>sdfsdfsdf </p>
-<p class='admin-message'><span >Admin</span>sdfsdfsdf </p>
-<p class='admin-message'><span >Admin</span>asdasdasd </p>
-<p class='admin-message'><span >Admin</span>asdasdasdasdasdasdasdasd </p>
-<p class='admin-message'><span >Admin</span>Probanding </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> Holasss </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> bnvbnv </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asas </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asasasas </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> sdsd </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> aasdasdasd </p>
-<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasdasd </p></div><br>
-<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasdasd </p></div><br>
-<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p></div><br>
-<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasdasdasdasdasdahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh </p></div><br>
+
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> hola! </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola, bienvenido! </p></div>

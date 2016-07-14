@@ -1,3 +1,0 @@
-
-<span>Nombre</span>asdasd 
-<span>Conversación terminada</span>

@@ -22,6 +22,11 @@ function LoadFunction(){
 		ReadyFunction();
 	}
 	console.log("entra load");
+		if(isHome&&isMobile){
+			$("header").hide();
+		}else{
+			$("header").show();
+		}
 		CheckDevice();
 		Header();
 		ResetHeight();
@@ -35,6 +40,7 @@ function LoadFunction(){
 
 
 		if(!isHome || !isMobile){
+			
 			if(isApp){
 				ResetHeight();
 				SameHeight();
@@ -45,6 +51,7 @@ function LoadFunction(){
 			$(".fadder").css('animation-play-state',"running");
 			$("section").css('animation-play-state',"running");
 		}else{
+			$("header").hide();
 			loadHome=true;
 			FadeHome();
 		}
@@ -170,6 +177,7 @@ function LoadFunction(){
 
 	var isMobile=false;
 	var isIOS=false;
+	var isIpad=false;
 	var currentOrientation="";
 	var viewportHeight=0;
 	var viewportWidth=0;
@@ -192,6 +200,7 @@ function LoadFunction(){
 			isMobile=/iPhone|iPad|iPod/i.test(navigator.platform);
 		}
 		isIOS = /iPad|iPhone|iPod|Opera Mini/i.test(navigator.userAgent);
+		isIpad = /iPad/i.test(navigator.userAgent);
 		if(!isIOS){
 			isIOS=/iPhone|iPad|iPod/i.test(navigator.platform);
 		}
@@ -277,6 +286,11 @@ function LoadFunction(){
 			}else{
 				console.log("no entró rule");
 				$("body").append("<style>.headermobile .navbar-collapse.in{height:auto;min-height:"+auxH+"px;}</style>");
+			}
+			if(isIpad){
+				
+				$(".cont-menu-mob").removeClass("hidden-xs");
+				$(".cont-menu-mob").css("display","inline-block");
 			}
 		}
 

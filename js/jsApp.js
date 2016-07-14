@@ -55,6 +55,7 @@ $("body").on("click","a",function(e){
 
 
 GoUrlLink= function(toGo,popArray){
+	isHome=false;
 	if (toGo == null) {
 		return;
 	}
@@ -112,7 +113,12 @@ LoadResource= function(){
 		isApp=true;
 		LoadFunction();
 		if(isIOS){
-			$("body").append("<style>#inner-header{padding-top:15px;}.boton-volver-header{padding-top:15px;}.navbar-toggle2{padding-top:23px;}.titulo-mobile{padding-top:15px;}.section{padding-top:50px !important;}</style>");
+			$("body").append("<style>#inner-header{padding-top:0.3em;}.navbar-toggle2{padding-top:23px;}.titulo-mobile{padding-top:15px;}</style>");
+			if(isIpad){
+				$("body").append("<style>.section{padding-top:"+$("header").height()+"px !important;}</style>");
+			}else{
+				$("body").append("<style>.section{padding-top:50px !important;}.boton-volver-header{padding-top:15px;}</style>");
+			}
 		}
 		readyExecuted=false;
 	}else{

@@ -73,7 +73,7 @@
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
 				<?php foreach($item["Items"] as $c){ ?>
 				<!--fila-->
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado-items">
 							<?php foreach($order as $key){
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
 								<!--columnas-->
@@ -162,10 +162,10 @@
 				</div>
 
 				<!-- contenido-->
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado ">
 				<?php foreach($item["Items"] as $c){ ?>
 				<!--fila-->
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado-items">
 							<?php foreach($order as $key){
 								if($c[$key]!="s/c"&&$c[$key]!="0"){ ?>
 								<!--columnas-->

@@ -60,11 +60,11 @@
 				?>
 				</div>
 
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado table-mercado-items">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado">
 				<?php foreach($item["Mercados"] as $c){
 					if($c["Precio"]!="s/c"&&$c["Precio"]!="S/C"&&$c["Precio"]!="0"){
 					?>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-mercado-items">
 							<?php foreach($order as $key){
 								if(array_key_exists($key,$c)){ ?>
 									<div class="col-lg-<?php echo $col; ?> col-md-<?php echo $col; ?> col-sm-<?php echo $col; ?> col-xs-<?php echo $col; ?>">

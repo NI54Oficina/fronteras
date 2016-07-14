@@ -1,4 +1,0 @@
-
-<p class='user-nick'>adasdasd</p> <p class='user-message'> sdfsdfsdf </p>
-<p class='user-nick'>adasdasd</p> <p class='user-message'> sdfsdfsdf </p>
-<p class='user-nick'>adasdasd</p> <p class='user-message'> sdfsdfsdf </p>

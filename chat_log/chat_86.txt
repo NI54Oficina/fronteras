@@ -1,3 +1,0 @@
-
-<p class='user-nick'>Nombre</p> <p class='user-message'> asdasd </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asdasdasd </p>

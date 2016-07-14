@@ -1,3 +1,0 @@
-<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>
-<span>Nombre</span>sdfsdfsdf 
-<span>Conversación terminada</span>

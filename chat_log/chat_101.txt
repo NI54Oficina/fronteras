@@ -1,3 +1,0 @@
-
-<div class='user-message-container'><p class='user-nick'>asdas</p> <p class='user-message'> dsfsd </p></div><br>
-<div class='user-message-container'><p class='user-nick'>asdas</p> <p class='user-message'> asdas </p></div><br>

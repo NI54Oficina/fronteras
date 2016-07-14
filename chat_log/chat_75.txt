@@ -1,5 +1,0 @@
-
-<span>Nombre</span>sdasdasd 
-<span class='admin-message'>Admin</span>cvxcvxcvxcv 
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asas </p>
-<p class='admin-nick'>Admin</p> <p class='admin-message'> asas </p>

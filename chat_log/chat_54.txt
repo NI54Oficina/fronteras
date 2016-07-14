@@ -1,2 +1,7 @@
-<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>
+
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> hola? </p></div><br>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola! bienvenido! </p></div><br>
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> que tal? </p></div><br>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola! </p></div><br>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola? </p></div><br>
 <span>Conversación terminada</span>

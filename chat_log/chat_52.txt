@@ -1,4 +1,1 @@
-<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>
-<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>
-<span class='admin-message'>Admin</span>asdasd 
 <span>Conversación terminada</span>

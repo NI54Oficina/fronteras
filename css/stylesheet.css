@@ -695,8 +695,14 @@ header .home-box:hover > .hoy-box {
 .table-mercado{
 	min-height:30px!important;
 	padding:0!important;
-	border-bottom:1px solid #F2F2F2;
+	
 }
+
+.table-mercado .table-mercado-items{
+	border-bottom:1px solid #F2F2F2;
+	background-color:white;
+}
+
 
 .table-mercado div{
 	padding:0;
@@ -3695,7 +3701,7 @@ outline: none;
 
 .info-ayuda-admin {
   color:white;
-  background-color: #79BEFE;
+  background-color: #00173b;
   margin:0 ;
   padding: 5px;
 
@@ -3757,8 +3763,8 @@ outline: none;
 .user-message-container{
 display:inline-block;
 width:50%;
-float:right;
-margin-left:10%;
+
+margin-left:49%;
 text-align:right;
 }
 

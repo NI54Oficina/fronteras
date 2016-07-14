@@ -1,8 +1,11 @@
+<style>
+section,html,body{background-color:#ebebeb;}
+</style>
 <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12 adminLateral" >
 	<div class="info-ayuda-admin">
-		<h1>AYUDA</h1>
+		<h1>ADMIN AYUDA</h1>
 		<p>
-			Modo Admin | <a href="<?php echo Yii::app()->getBaseUrl(true)."/ar/chat/admin/"; ?>">Historial</a>
+			<a href="<?php echo Yii::app()->getBaseUrl(true)."/ar/chat/admin/"; ?>">Historial</a>
 		</div>
 		</p>
 
