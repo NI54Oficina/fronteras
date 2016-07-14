@@ -577,6 +577,14 @@
 	float: none;;
 	width: 100% !important;
 }
+
+.chat-area{
+	min-height: 80vh;
+}
+
+/*FIN CHAT AYUDA*/
+
+
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
 
