@@ -562,8 +562,8 @@
 }
 #datosUser input, #datosUser textarea {
 
-    width: 100% !important;
-    margin: 20px 0px;
+    width: 85% ;
+    margin: 20px 15px;
 }
 
 .title-ayuda-mobile{
@@ -573,6 +573,7 @@
 #ayuda {
     padding: 15px;
 }
+<<<<<<< HEAD
 
 /**Mercados**/
 .moneda-mercados .glyphicon{
@@ -585,6 +586,16 @@ padding-left:5px;
 }
 
 
+=======
+.ayuda-form-side form {
+    padding: 0;
+}
+.send-button-a{
+	margin: 20px 0px !important;
+	float: none;;
+	width: 100% !important;
+}
+>>>>>>> origin/master
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
 

@@ -255,11 +255,12 @@ and (max-device-width : 1024px)  {
 /*CHAT DE AYUDA*/
 
 .ayuda-box-side{
-  padding: 100px 15px;
+  padding: 40px 15px;
 }
 
 .ayuda-form-side {
 margin-left: 0px;
+padding: 40px 0px;
 }
 
 
