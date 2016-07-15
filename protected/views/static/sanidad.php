@@ -32,7 +32,7 @@
 	</a>
 
 
-	<a href="http://www.biogenesisbago.com/ar/vademecum/id1/" >
+	<a href="http://www.biogenesisbago.com/ar/vademecum/" >
 	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
 		<div class="box-sanidad border-shadow">
 			<div class="box-sanidad-inner producir-box-inner square">
