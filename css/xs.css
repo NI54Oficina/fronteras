@@ -577,7 +577,17 @@
 #ayuda {
     padding: 15px;
 }
-
+/*
+.sendie{
+	width: 80%;
+}
+.send-chat{
+	float:right;
+	width:19%;
+	background-color:#79BEFE;
+	color:white; border:none;
+	padding: 10px 0px;
+}*/
 
 /**Mercados**/
 .moneda-mercados .glyphicon{
