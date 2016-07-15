@@ -171,8 +171,8 @@ function AdaptMenuContentApp(){
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs" style="padding-top:0.5em;">
 
 						<!-- BOTON VOLVER -->
-						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="margin-top:.3%">
-							<button class="boton-header  col-lg-1 col-md-1 col-sm-1 col-xs-1"  id="back-header" style="" type="button"></button><p class="back-p col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-top:0.3em;" >Volver</p>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" >
+							<button class="boton-header  col-lg-1 col-md-1 col-sm-1 col-xs-1"  id="back-header" type="button" style="top:-.3em"></button><p class="back-p col-lg-1 col-md-1 col-sm-1 col-xs-1" >Volver</p>
 						</div>
 
 						<!-- TERMINA BOTON VOLVER -->
