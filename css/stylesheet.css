@@ -785,7 +785,7 @@ header .home-box:hover > .hoy-box {
 }
 .table-mercado-items > div {
 
-	
+
 }
 
 .table-mercado-items > div:nth-child(2) > h3{
@@ -3645,7 +3645,7 @@ outline: none;
 
 
 .ayuda-form-side{
-  padding:60px 0px;
+  padding:40px 0px;
   text-align: left;
 }
 
@@ -3655,7 +3655,7 @@ outline: none;
 }
 
 .ayuda-box-side{
-  padding: 60px 30px;
+  padding: 40px 30px;
 }
 
 .send-button-a{
@@ -3670,7 +3670,7 @@ outline: none;
 }
 
 #ayuda{
-  padding: 30px;
+  padding: 0px 30px;
 }
 
 .title-ayuda-mobile{
