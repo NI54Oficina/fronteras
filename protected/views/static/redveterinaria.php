@@ -48,7 +48,7 @@
 					 $localidades = Ciudad::model()->findAll();
 					 foreach($localidades as $localidad){
 						 ?>
-						 <option class="localidad" value="<?php echo $localidad->nombre; ?>" provincia="<?php echo $localidad->provincia; ?>"><?php echo $localidad->nombre; ?></option>
+						 <option class="localidad" value="<?php echo strtolower($localidad->nombre); ?>" provincia="<?php echo strtolower($localidad->provincia); ?>"><?php echo $localidad->nombre; ?></option>
 						 <?php
 					 }
 					 ?>
@@ -69,7 +69,7 @@
 			if($veterinarias){
 				foreach($veterinarias as $veterinaria){
 			?>
-			 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;" ciudad="<?php echo $veterinaria->ciudad; ?>">
+			 <div id="info-veterinaria" class="info-mapa  col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;" ciudad="<?php echo strtolower($veterinaria->ciudad); ?>">
 				<h1><?php echo $veterinaria->cuenta; ?></h1>
 				 <p><?php echo $veterinaria->provincia; ?>, <?php echo $veterinaria->ciudad; ?></p>
 				 <p><?php echo $veterinaria->direccion; ?> <?php echo $veterinaria->altura; ?></p>
@@ -142,11 +142,31 @@
 		$("#info-veterinaria").hide();
 		$("#noVeterinarias").hide();
 		$(".localidad").hide();
-		$("[provincia="+$(this).val()+"]").show();
+		$("[provincia='"+$(this).val()+"']").show();
+		$("#info-veterinaria").hide();
+	});
+	
+	$( "#provincia form select" ).on("blur",function() {
+		console.log("change");
+		$(".info-mapa").hide();
+		$("#localidad").show();
+		$( "#localidad form select" ).val("");
+		$("#info-veterinaria").hide();
+		$("#noVeterinarias").hide();
+		$(".localidad").hide();
+		$("[provincia='"+$(this).val()+"']").show();
 		$("#info-veterinaria").hide();
 	});
 
 	$( "#localidad form select" ).change(function() {
+
+		$("#info-veterinaria").show();
+		$(".info-mapa").hide();
+		console.log($(this).val());
+		$("[ciudad='"+$(this).val()+"']").show();
+	});
+	
+	$( "#localidad form select" ).on("blur",function() {
 
 		$("#info-veterinaria").show();
 		$(".info-mapa").hide();
