@@ -208,10 +208,11 @@ header .home-box:hover > .hoy-box {
     color:#adadad;
     font-size: 1em;
     margin-bottom: 0px;
-    margin-top: -5%;
+    margin-top: 0;
     display: block;
     text-align: center;
     width: 6vw;
+	/*padding-top:0.3em;*/
 }
 
 .square-separador{

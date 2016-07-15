@@ -168,11 +168,11 @@ function AdaptMenuContentApp(){
 
 
 						<!-- Header que se muestra solamente en pc - XL - MD -->
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs" style="padding-top:0.5em;">
 
 						<!-- BOTON VOLVER -->
 						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="margin-top:.3%">
-							<button class="boton-header  col-lg-1 col-md-1 col-sm-1 col-xs-1"  id="back-header" style="" type="button"></button><p class="back-p col-lg-1 col-md-1 col-sm-1 col-xs-1 " style="" >Volver</p>
+							<button class="boton-header  col-lg-1 col-md-1 col-sm-1 col-xs-1"  id="back-header" style="" type="button"></button><p class="back-p col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-top:0.3em;" >Volver</p>
 						</div>
 
 						<!-- TERMINA BOTON VOLVER -->
@@ -183,7 +183,7 @@ function AdaptMenuContentApp(){
 
 
 
-						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-1 col-xs-6 col-lan-xs-3 center-to-parent">
+						<li id="hoy-header-m" class=" col-lg-1 col-md-1 col-sm-1 col-xs-6 col-lan-xs-3" >
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy" class="link-menu">
 
 								<div class="home-box col-lg-3 ">
@@ -192,17 +192,17 @@ function AdaptMenuContentApp(){
 										<!-- <div  class="cont-section-mobile square">
 											<img class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-hoy.svg" alt="Hoy" />
 										</div> -->
-										<p class="p-header-mobile center-to-parent p-header-hoy">Hoy</p>
+										<p class="p-header-mobile p-header-hoy">Hoy</p>
 									</div>
 								</div>
 							</a>
 
 						</li>
 
-						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 
-						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 col-lan-xs-3 center-to-parent">
+						<li  id="mes-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 col-lan-xs-3">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes"  class="link-menu">
 
 								<div  class="home-box col-lg-3">
@@ -210,7 +210,7 @@ function AdaptMenuContentApp(){
 										<!-- <div  class="cont-section-mobile square">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-este-mes.svg" alt="Este Mes" />
 										</div> -->
-										<p class="p-header-mobile center-to-parent p-header-estemes">Este mes</p>
+										<p class="p-header-mobile p-header-estemes">Este mes</p>
 									</div>
 
 								</div>
@@ -218,34 +218,34 @@ function AdaptMenuContentApp(){
 						</li>
 
 
-						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 
-						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 col-lan-xs-3 center-to-parent">
+						<li  id="producir-header-m" class=" col-lg-1 col-md-1  col-sm-3 col-xs-6 col-lan-xs-3">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir" class="link-menu">
 								<div  class="home-box col-lg-3">
 									<div class="producir-box  nav-pc" onlymobile="true">
 										<!-- <div  class="cont-section-mobile square"> -->
 											<!-- <img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-producir.png" alt="Chat" /> -->
 										<!-- </div> -->
-										<p class="p-header-mobile center-to-parent p-header-producir">Producir +</p>
+										<p class="p-header-mobile p-header-producir">Producir +</p>
 									</div>
 								</div>
 							</a>
 						</li>
 
 
-						<div class="square-separador center-to-parent"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
+						<div class="square-separador"><img src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/cuadrados-separadores.svg" alt="cuadrado-separador" /></div>
 
 
-						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6  col-lan-xs-3 center-to-parent">
+						<li  id="ayuda-header-m" class="  col-lg-1 col-md-1  col-sm-3 col-xs-6  col-lan-xs-3">
 							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda" class="link-menu">
 								<div  class="home-box col-lg-3">
 									<div class="ayuda-box  nav-pc" onlymobile="true">
 										<!-- <div class="cont-section-mobile square" onlymobile="true">
 											<img  class="img-menu-header" src="<?php echo Yii::app()->getBaseUrl(true) ?>/img/icono-chat.svg" alt="Chat" />
 										</div> -->
-										<p class="p-header-mobile center-to-parent p-header-ayuda">Ayuda</p>
+										<p class="p-header-mobile p-header-ayuda">Ayuda</p>
 									</div>
 
 								</div>
