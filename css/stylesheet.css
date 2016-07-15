@@ -696,7 +696,7 @@ header .home-box:hover > .hoy-box {
 .table-mercado{
 	min-height:30px!important;
 	padding:0!important;
-	
+
 }
 
 .table-mercado .table-mercado-items{
@@ -3136,6 +3136,10 @@ outline: none;
 	text-align: left;
 }
 
+.bloque-imagenes-cub{
+  margin-top: 25px;
+}
+
 .block-img  p {
 	width:100%;
 	border-top: 2px solid #003D6A ;
@@ -3549,7 +3553,7 @@ outline: none;
 
 /**************Inicio Chat******************/
 .chat-area{
-	height:200px;
+	height:400px;
 	overflow:auto;
 	width:100%;
 	padding:10px;
@@ -3607,7 +3611,10 @@ outline: none;
 }
 .sendie{
 	width:100%;
+  border: none;
+  background-color: white;
 }
+
 
 
 .activeChat{
@@ -3616,6 +3623,7 @@ outline: none;
 
 .box-title-ayuda{
   background-color: #79BEFE;
+  padding: 15px 0px;
 }
 
 .title-inside-ayuda{
@@ -3638,11 +3646,14 @@ outline: none;
   color:#adadad;
   width: 100%;
   margin: 20px 0px;
+  min-height: 40px;
+  outline: none;
 }
 
 #datosUser textarea{
-  height: 120px;
+  height: 140px;
 }
+
 
 
 .ayuda-form-side{
@@ -3660,7 +3671,7 @@ outline: none;
 }
 
 .send-button-a{
-  background:#79BEFE;
+  background:#79BEFE ;
   color: white !important;
   width:50% !important;
   float: right;
@@ -3772,6 +3783,10 @@ text-align:right;
 .atencion-cliente{
   font-size: 0.8em;
   color:  #adadad;
+}
+
+.img-box-ayuda{
+  width:5em;
 }
 
 /**************Fin Chat

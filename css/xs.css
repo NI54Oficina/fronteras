@@ -339,6 +339,9 @@
 		height: auto;
 	}
 
+.container-inside-noticia{
+	padding: 10px 15px;
+}
 
 	.line-not {
 		margin-top: 3%;
@@ -433,7 +436,7 @@
 		background: #ED7C28;
 		margin-left: -1%;
 	}
-	
+
 	.container-prot.prioridad-prot{
 		height:4rem !important;
 	}
@@ -586,11 +589,15 @@
 padding-left:5px;
 }
 
+/*chat*/
 
-
-.ayuda-form-side form {
-    padding: 0;
+.max-box-chat{
+  background-color: rgb(248, 242, 236) !important;
+  padding: 10px;
 }
+
+
+
 .send-button-a{
 	margin: 40px 0px !important;
 	float: left;
@@ -599,7 +606,7 @@ padding-left:5px;
 
 
 .chat-area{
-	min-height: 80vh;
+	min-height: 70vh;
 }
 
 /*FIN CHAT AYUDA*/

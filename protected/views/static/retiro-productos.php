@@ -88,7 +88,8 @@ $retiros= Retiro::model()->findAll();
           <?php
      		 if($contImg != 14 && $contImg != 16 && $contImg != 23 && $contImg != 31 && $contImg != 53){
      			?>
-				<img class="center-to-parent"  src="<?php echo Yii::app()->request->baseUrl; ?>/uploads/retiro-producto/<?php echo $contImg; ?>.png">
+				<img class="center-to-parent hidden-xs hidden-sm"  src="<?php echo Yii::app()->request->baseUrl; ?>/uploads/retiro-producto/<?php echo $contImg; ?>.png">
+        <img class="center-to-parent hidden-lg hidden-md"  src="<?php echo Yii::app()->request->baseUrl; ?>/uploads/retiro-producto/<?php echo $contImg; ?>-mob.png">
         <?php
        }
        ?>

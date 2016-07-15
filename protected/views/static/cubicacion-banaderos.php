@@ -78,7 +78,7 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 </ul>
 
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloque-imagenes-cub">
 
 
 
