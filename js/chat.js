@@ -169,7 +169,22 @@ $("#datosUser").on('submit', function(e){
 			  InitUserChat(data);
 		  }
 	  });
+	  setInterval(function(){UpdateChats();},1000);
+	  return false;
   });
+  
+  function SubmitChat(){
+	  console.log("submit tap");
+	  $(".title-inside-ayuda p").hide();
+    $(".title-ayuda-mobile").hide();
+	  $("#datosUser").hide();
+	  $.post(registerURL,{nombre:$("#datosUser [name=nombre]").val(),email:$("#datosUser [name=email]").val(),motivo:$("#datosUser [name=motivo]").val()},function(data){
+		  if(data!=""){
+			  InitUserChat(data);
+		  }
+	  });
+	  setInterval(function(){UpdateChats();},1000);
+  }
 
   function InitUserChat(data){
 		$(".chatUser").attr("chatid",data);

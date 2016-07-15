@@ -19,7 +19,7 @@
 	<div class="col-lg-6 col-md-8 col-sm-8 col-xs-12 ayuda-form-side">
 
 
-		<form id="datosUser">
+		<form id="datosUser" onsubmit="return false;">
 		<!-- <label>Nombre:</label> -->
 		<input name="nombre" required placeholder="Nombre" /><br>
 		<!-- <label>Email:</label> -->
@@ -29,7 +29,7 @@
 		<p class="hidden-xs atencion-cliente ">
 			La atención es de 8:30h a 17:00h
 		</p>
-		<input type="submit" class="send-button-a" />
+		<input type="submit" class="send-button-a" onclick="SubmitChat();" />
 		</form>
 
 		<div class="page-wrap chatUser" chatid="-1" style="display:none">

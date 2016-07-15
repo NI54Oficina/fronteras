@@ -42,11 +42,11 @@ if($admin ){
 </section>
 
 
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/chat.js"></script>
+	<script type="text/javascript" src="http://fronteras.testni54.com/js/chat.js"></script>
 
     <script type="text/javascript">
-		var sendURL="/<?php echo $_SESSION["webRoot"]; ?>site/chatProcess";
-		var registerURL="/<?php echo $_SESSION["webRoot"]; ?>ar/site/chatInit";
+		var sendURL="http://fronteras.testni54.com/site/chatProcess";
+		var registerURL="http://fronteras.testni54.com/ar/site/chatInit";
 		<?php
 		if($admin){ ?>
 		var deleteURL="/<?php echo $_SESSION["webRoot"]; ?>site/chatFinish/id/";
@@ -133,9 +133,10 @@ if($admin ){
 					$(this).hide();
 				}
 			});
-			setInterval(function(){UpdateChats();},1000);
+			
 			<?php
 			if($admin){ ?>
+			setInterval(function(){UpdateChats();},1000);
 			setInterval(function(){CheckNewChats();},5000);
 			<?php } ?>
 		});

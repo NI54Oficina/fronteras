@@ -37,7 +37,30 @@
 
 			 </div>
 
-			 <div id="localidad" style="display:none;" >
+			 <div id="localidad"  >
+
+				<form method="post">
+         			 <select name="localidad" >
+
+
+         			 <option value="" selected disabled>Seleccione localidad</option>
+					 <?php 
+					 $localidades = Ciudad::model()->findAll();
+					 foreach($localidades as $localidad){
+						 ?>
+						 <option class="localidad" value="<?php echo strtolower($localidad->nombre); ?>" provincia="<?php echo strtolower($localidad->provincia); ?>"><?php echo $localidad->nombre; ?></option>
+						 <?php
+					 }
+					 ?>
+
+					 </select>
+
+				</form>
+
+
+
+		 	 </div>
+			 <div id="localidad2"  style="display:none;">
 
 				<form method="post">
          			 <select name="localidad" >
@@ -133,8 +156,41 @@
 	});
 	</script>
 	<?php } ?>
+	
 	<script>
+	$.fn.quickChange = function(handler) {
+    return this.each(function() {
+        var self = this;
+        self.qcindex = self.selectedIndex;
+        var interval;
+        function handleChange() {
+            if (self.selectedIndex != self.qcindex) {
+                self.qcindex = self.selectedIndex;
+                handler.apply(self);
+            }
+        }
+        $(self).focus(function() {
+            interval = setInterval(handleChange, 100);
+        }).blur(function() { window.clearInterval(interval); })
+        .change(handleChange); //also wire the change event in case the interval technique isn't supported (chrome on android)
+    });
+	};
+	
+	
+	
 	$( "#provincia form select" ).change(function() {
+		$("#localidad").show();
+		//$(".localidad").hide();
+		$("#localidad2").show();
+		$("#localidad select").html(" ");
+		$("#localidad select").append('<option value="" selected disabled>Seleccione localidad</option>');
+		$("#localidad select").append($("#localidad2 [provincia='"+$( "#provincia option:selected" ).attr("value")+"']").show());
+		$("#localidad2").hide();
+						$("#info-veterinaria").hide();
+		/*$("[provincia='"+$( "#provincia option:selected" ).attr("value")+"']").show();
+		$("body").append($( "#provincia option:selected" ).text());
+		$("body").append($( "#provincia option:selected" ).attr("value"));
+		$("body").append($(this).val());
 		console.log("change");
 		$(".info-mapa").hide();
 		$("#localidad").show();
@@ -142,36 +198,22 @@
 		$("#info-veterinaria").hide();
 		$("#noVeterinarias").hide();
 		$(".localidad").hide();
-		$("[provincia='"+$(this).val()+"']").show();
-		$("#info-veterinaria").hide();
+		$("[provincia='"+$( "#provincia option:selected" ).attr("value")+"']").show();
+		$("#info-veterinaria").hide();*/
 	});
 	
-	$( "#provincia form select" ).on("blur",function() {
-		console.log("change");
-		$(".info-mapa").hide();
-		$("#localidad").show();
-		$( "#localidad form select" ).val("");
-		$("#info-veterinaria").hide();
-		$("#noVeterinarias").hide();
-		$(".localidad").hide();
-		$("[provincia='"+$(this).val()+"']").show();
-		$("#info-veterinaria").hide();
-	});
+	
 
 	$( "#localidad form select" ).change(function() {
-
+		//$("body").append($( "#localidad option:selected" ).text());
+		//$("body").append($( "#localidad option:selected" ).attr("value"));
+		//$("body").append($(this).val());
 		$("#info-veterinaria").show();
 		$(".info-mapa").hide();
 		console.log($(this).val());
-		$("[ciudad='"+$(this).val()+"']").show();
+		$("[ciudad='"+$( "#localidad option:selected" ).attr("value")+"']").show();
 	});
 	
-	$( "#localidad form select" ).on("blur",function() {
-
-		$("#info-veterinaria").show();
-		$(".info-mapa").hide();
-		console.log($(this).val());
-		$("[ciudad='"+$(this).val()+"']").show();
-	});
+	
 	</script>
 </section>
