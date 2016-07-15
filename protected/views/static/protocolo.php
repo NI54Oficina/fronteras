@@ -44,7 +44,7 @@ $protocolos= Protocolo::model()->findAll();
 				<!--Contenido -->
 				<?php foreach($protocolos as $p){ ?>
 				<div class="container-prot info-remates-mobile table-indexer prioridad-prot" hid="1">
-					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;position: absolute;left: 0;">
+					<img class="center-to-parent hidden-xs hidden-sm" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;position: absolute;left: 0;">
 							<div class="number-protocolo center-to-parent prot-po">
 									<?php echo $p["prioridad"]; ?>
 						</div>
@@ -187,6 +187,7 @@ $protocolos= Protocolo::model()->findAll();
 
 $(document).ready(function () {
 	turnOnButtonRemates();
+	setTimeout(function(){CenterToParent();},100);
 });
 
 

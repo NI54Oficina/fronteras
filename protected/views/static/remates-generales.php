@@ -315,6 +315,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 $(document).ready(function () {
 	turnOnButtonRemates();
+	setTimeout(function(){CenterToParent();},100);
 });
 
 

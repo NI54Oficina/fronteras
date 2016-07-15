@@ -2925,7 +2925,7 @@ outline: none;
 
 .b-prot-at {
     top:5% !important;
-    left: auto;
+    left: 2%;
     background-color: rgba(99, 99, 99, 0);
     border: none;
 	outline:none;
@@ -2933,7 +2933,7 @@ outline: none;
 
 .b-prot-ad{
   top:5% !important;
-      right: 8%;
+      right: 2%;
       background-color: rgba(99, 99, 99, 0);
       border: none;
 	  outline:none;

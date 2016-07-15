@@ -597,14 +597,14 @@ function initializeRemates(){
  	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
 	$(".mes-remates").css("display","block");
 	$(".date-remates").css("display", "block");
-
+	
  	checkNavigationButton();
 
  	//console.log("esto funciona");
 
 
  });
-
+	setTimeout(function(){CenterToParent()},100);
 }
 
 // FIN MANTIENE UNA SOLA FILA DE DATOS EN MOBILE
@@ -637,6 +637,7 @@ function turnOnButtonRemates(){
 				 $(".containerColumnas").each(function(){
 					//console.log("entra indicie"+indexRemates);
 					$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					CenterToParent();
 					//$(".mes-remates").css("display","block");
 					//$(".date-remates").css("display", "block");
 					$(".fade-in-mobile").fadeIn(400);
@@ -682,6 +683,7 @@ function turnOnButtonRemates(){
 		    	 $(".containerColumnas").each(function(){
 		    	 	//console.log("entra indicie"+indexRemates);
 				 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					CenterToParent();
 					//$(".mes-remates").css("display","block");
 					//$(".date-remates").css("display", "block");
 				 	$(".fade-in-mobile").fadeIn(400);
