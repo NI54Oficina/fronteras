@@ -125,11 +125,25 @@ class HidricaMapa extends CActiveRecord
 				$Criteria->condition = "nid = ".$nota["nid"];
 				$auxNota = $this->model()->find($Criteria);
 				
+				
+				
 				if($auxNota){
 					continue;
 				}
 				$notaNew= new HidricaMapa();
 				$newContent=true;
+				
+								$webroot = Yii::getPathOfAlias('webroot');
+				if(!@copy(str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$nota['field_hydric_deficit_map']["und"][0]["uri"]), $webroot .'/uploads/mapa-hidrica/'. $nota["nid"]."-def.jpg")){
+					
+				}
+				if(!@copy(str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$nota['field_hydric_deficit_map']["und"][0]["uri"]), $webroot .'/uploads/mapa-hidrica/'. $nota["nid"]."-nec.jpg")){
+					
+				}
+				if(!@copy(str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$nota['field_hydric_deficit_map']["und"][0]["uri"]), $webroot .'/uploads/mapa-hidrica/'. $nota["nid"]."-rdef.jpg")){
+					
+				}
+				
 				
 				$notaNew["nid"]= $nota["nid"];
 				$notaNew["content"]= json_encode($nota);

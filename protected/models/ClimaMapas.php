@@ -125,11 +125,25 @@ class ClimaMapas extends CActiveRecord
 				$Criteria->condition = "nid = ".$nota["nid"];
 				$auxNota = $this->model()->find($Criteria);
 				
+				
+				
+				
 				if($auxNota){
 					continue;
 				}
 				$notaNew= new ClimaMapas();
 				$newContent=true;
+				
+				$webroot = Yii::getPathOfAlias('webroot');
+				if(!@copy(str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$nota['field_map_max_temperature']["und"][0]["uri"]), $webroot .'/uploads/mapa-temperaturas/'. $nota["nid"]."-max.jpg")){
+					
+				}
+				if(!@copy(str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$nota['field_map_min_temperature']["und"][0]["uri"]), $webroot .'/uploads/mapa-temperaturas/'. $nota["nid"]."-min.jpg")){
+					
+				}
+				if(!@copy(str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$nota['field_rain_map']["und"][0]["uri"]), $webroot .'/uploads/mapa-temperaturas/'. $nota["nid"]."-lluvia.jpg")){
+					
+				}
 				
 				$notaNew["nid"]= $nota["nid"];
 				$notaNew["content"]= json_encode($nota);

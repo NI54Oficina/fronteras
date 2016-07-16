@@ -63,7 +63,14 @@ $secciones["Empresas"]="noticia-tipo-4";
 				<div class="border-noticias-h1 b-l"></div>
 
 
-			<div class="container-imagen-nota square border-shadow" style="background-image:url('<?php echo $f["foto"]; ?>');">
+			<div class="container-imagen-nota square border-shadow" style="background-image:url('<?php 
+			$webroot = Yii::getPathOfAlias('webroot');
+			if(!file_exists ($webroot .'/uploads/noticias/'. $f["nid"].".jpg")){
+				echo $f["foto"];
+			}else{
+				echo Yii::app()->getBaseUrl(true).'/uploads/noticias/'. $f["nid"].".jpg";
+			}			
+			?>');">
 			</div>
 
 			<!-- Texto noticia -->

@@ -51,8 +51,15 @@ if($dataH){
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 small-boxes-mercado" style="background-color:white; text-align:center;">
 					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/referencia-deficit.png' style="position:absolute;right:0;max-width:20%;"/>
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-hidrica/'. $f["nid"]."-def.jpg")){
+					?>
 					<img src="<?php $foto= $f['field_hydric_deficit_map']["und"][0]["uri"];
 		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
+					<?php }else{ ?>
+					<img src="<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-hidrica/'. $f["nid"]."-def.jpg"; echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
+					<?php } ?>
 
 				</div>
 
@@ -77,8 +84,15 @@ if($dataH){
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 small-boxes-mercado" style="background-color:white; text-align:center;">
 					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-probabilidad-lluvias.jpg' style="position:absolute;right:0;max-width:20%;"/>
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-hidrica/'. $f["nid"]."-nec.jpg")){
+					?>
 					<img src="<?php $foto= $f['field_hydric_rainy_necessary_map']["und"][0]["uri"];
 					$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
+					<?php }else{ ?>
+					<img src="<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-hidrica/'. $f["nid"]."-nec.jpg"; echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
+					<?php } ?>
 
 				</div>
 
@@ -103,9 +117,21 @@ if($dataH){
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 small-boxes-mercado" style="background-color:white; text-align:center;">
 					<img src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-lluvia-nec.jpg' style="position:absolute;right:0;max-width:20%;"/>
-					<img src="<?php $foto= $f['field_hydric_reverse_deficit_map']["und"][0]["uri"];
-		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
-
+					
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-hidrica/'. $f["nid"]."-rdef.jpg")){
+						?>
+						<img src="<?php $foto= $f['field_hydric_reverse_deficit_map']["und"][0]["uri"];
+						$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
+						<?php
+					}else{
+						?>
+						<img src="<?php $foto=  Yii::app()->getBaseUrl(true).'/uploads/mapa-hidrica/'. $f["nid"]."-rdef.jpg"; echo $foto; ?>" alt="Imágen Clima" style="width:80%;"/>
+						<?php
+						
+					}			
+					?>
 				</div>
 
 			</div>

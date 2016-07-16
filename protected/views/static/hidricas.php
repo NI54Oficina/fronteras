@@ -40,8 +40,15 @@ echo date("d",$f["created"]);
 
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-hidrica/'. $f["nid"]."-def.jpg")){
+					?>
 					<img class="mapa-img" src='<?php $foto= $f['field_hydric_deficit_map']["und"][0]["uri"];
 		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+					<?php }else{ ?>
+					<img class="mapa-img" src='<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-hidrica/'. $f["nid"]."-def.jpg"; echo $foto; ?>' >
+					<?php } ?>
 					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/referencia-deficit.png' />
 
 				</div>
@@ -69,9 +76,15 @@ echo date("d",$f["created"]);
 
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-hidrica/'. $f["nid"]."-nec.jpg")){
+					?>
 					<img class="mapa-img" src='<?php $foto= $f['field_hydric_rainy_necessary_map']["und"][0]["uri"];
 					$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+					<?php }else{ ?>
+					<img class="mapa-img" src='<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-hidrica/'. $f["nid"]."-nec.jpg"; echo $foto; ?>' >
+					<?php } ?>
 					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-probabilidad-lluvias.jpg'/>
 				</div>
 
@@ -98,9 +111,16 @@ echo date("d",$f["created"]);
 
 				<!--Clima imágen-->
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-
+					
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-hidrica/'. $f["nid"]."-rdef.jpg")){
+						?>
 					<img class="mapa-img" src='<?php $foto= $f['field_hydric_reverse_deficit_map']["und"][0]["uri"];
 		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>'>
+					<?php }else{ ?>
+					<img class="mapa-img" src='<?php $foto=  Yii::app()->getBaseUrl(true).'/uploads/mapa-hidrica/'. $f["nid"]."-rdef.jpg"; echo $foto; ?>'>
+					<?php } ?>
 					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-lluvia-nec.jpg' />
 				</div>
 

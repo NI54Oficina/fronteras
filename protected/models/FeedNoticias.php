@@ -167,6 +167,12 @@ class FeedNoticias extends CActiveRecord
 				$timestamp = $dtime->getTimestamp();
 				$notaNew["fecha"]= date('Y-m-d H:i:s',$timestamp);
 				$notaNew["foto"]= $nota["foto"];
+				$webroot = Yii::getPathOfAlias('webroot');
+				
+				if(!@copy($nota["foto"], $webroot .'/uploads/noticias/'. $nota["nid"].".jpg")){
+					
+				}
+				
 				$notaNew["ruta"]= $nota["ruta"];
 				$notaNew["categoria"]= $nota["categoria"];
 				$notaNew["bajada"]= $nota["bajada"];

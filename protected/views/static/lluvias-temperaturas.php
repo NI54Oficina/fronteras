@@ -40,9 +40,15 @@ echo date("d",$f["created"]);
 
 				<!--Clima imágen-->
 
-
+				<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-temperaturas/'. $f["nid"]."-max.jpg")){
+						?>
 				<img class="mapa-img" src='<?php $foto= $f['field_map_max_temperature']["und"][0]["uri"];
-		$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+				$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+				<?php }else{ ?>
+				<img class="mapa-img" src='<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-temperaturas/'. $f["nid"]."-max.jpg"; echo $foto; ?>' >
+				<?php } ?>
 
 				<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/esc-temp-max.gif' />
 
@@ -70,9 +76,15 @@ echo date("d",$f["created"]);
 
 				<!--Clima imágen-->
 
-
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-temperaturas/'. $f["nid"]."-min.jpg")){
+						?>
 					<img class="mapa-img" src='<?php $foto= $f['field_map_min_temperature']["und"][0]["uri"];
 					$foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>' >
+					<?php }else{ ?>
+					<img class="mapa-img" src='<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-temperaturas/'. $f["nid"]."-min.jpg"; echo $foto; ?>' >
+					<?php } ?>
 					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-temp-min.gif' />
 
 
@@ -99,8 +111,14 @@ echo date("d",$f["created"]);
 
 				<!--Clima imágen-->
 
-
+					<?php 
+					$webroot = Yii::getPathOfAlias('webroot');
+					if(!file_exists ($webroot .'/uploads/mapa-temperaturas/'. $f["nid"]."-lluvia.jpg")){
+						?>
 					<img class="mapa-img" src='<?php $foto= $f['field_rain_map']["und"][0]["uri"]; $foto= str_replace("public://","http://www.agrofynews.com.ar/sites/default/files/",$foto); echo $foto; ?>'>
+					<?php }else{ ?>
+					<img class="mapa-img" src='<?php $foto= Yii::app()->getBaseUrl(true).'/uploads/mapa-temperaturas/'. $f["nid"]."-lluvia.jpg"; echo $foto; ?>'>
+					<?php } ?>
 					<img class="escala" src='<?php echo Yii::app()->request->baseUrl; ?>/img/clima/referencias/escala-lluvia.gif'/>
 
 
