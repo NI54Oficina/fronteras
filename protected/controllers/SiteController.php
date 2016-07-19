@@ -237,7 +237,7 @@ class SiteController extends Controller
 
 			 case('send'):
 			  //$nickname = htmlentities(strip_tags($_POST['nickname']));
-			  if($chat->abierto==0){
+			  if($chat->abierto==0||trim($_POST['message'])==""){
 				  exit();
 			  }
 			  if($admin){

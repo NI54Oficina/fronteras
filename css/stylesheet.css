@@ -3790,6 +3790,11 @@ text-align:right;
   width:4em;
 }
 
+.max-box-chat{
+  background-color: rgb(248, 242, 236) !important;
+  padding: 10px;
+}
+
 /**************Fin Chat
 
 

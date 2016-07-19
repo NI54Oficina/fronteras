@@ -80,7 +80,7 @@ function updateChat(idChat){
 
 }
 
-var baseChat='<div class="page-wrap" chatid="{chatID}"><div class="chat-wrap"><div class="chat-area"></div></div><form class="send-message-area"><textarea class="sendie" maxlength="300"></textarea></form></div>';
+var baseChat='<div class="page-wrap" chatid="{chatID}"><div class="chat-wrap"><div class="chat-area"></div></div><form class="send-message-area"><textarea placeholder="Escriba su mensaje aqui." class="sendie" maxlength="300"></textarea></form></div>';
 var baseChatButton='<div class="chatSelector" idChat="{chatID}"><h3>{chatNombre}</h3><p>{chatMOTIVO}</p><button type="button" class="closeChat">Finalizar chat</button></div>';
 
 function CheckNewChats(){
@@ -157,9 +157,13 @@ function ShowChat(idChat){
 		$('[idChat='+idChat+']').addClass("activeChat");
 
 }
-
+var alreadySent=false;
 $("#datosUser").on('submit', function(e){
 	  e.preventDefault();
+	  if(alreadySent){
+		  return;
+	  }
+	  alreadySent=true;
 	  console.log("entra user");
     $(".title-inside-ayuda p").hide();
     $(".title-ayuda-mobile").hide();
