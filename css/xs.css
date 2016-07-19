@@ -282,7 +282,20 @@
   margin-top: 20px;
   }
 
+	.block-img-6-p, .block-img-4-p {
+		position: absolute;
+		bottom:0;
+	}
+	.block-img-6, .block-img-4 {
+		position: absolute;
+		right: 0;
+		top:0;
+	}
 
+	.block-img-2 {
+		position: absolute;
+		right: 0;
+	}
 
    /*REMATES */
 

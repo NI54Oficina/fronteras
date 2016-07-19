@@ -116,8 +116,8 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img" hid="2">
 		<div>
-			<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-04.png">
-			<p hid="1">Preparación de emulsión</p>
+			<img  class="block-img-4" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-04.png">
+			<p class="block-img-4-p"  hid="1">Preparación de emulsión</p>
 		</div>
 	</div>
 
@@ -130,8 +130,8 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 block-img " hid="2">
 		<div>
-			<img  class="" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-06.png">
-			<p hid="1" >Homogeneización del Baño</p>
+			<img  class="block-img-6" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-06.png">
+			<p class="block-img-6-p" hid="1" >Homogeneización del Baño</p>
 		</div>
 	</div>
 
