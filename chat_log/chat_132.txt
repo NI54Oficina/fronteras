@@ -1,15 +1,11 @@
 
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sdfsdfsdfsdfs </p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sdfsdfsdfsdf </p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sdf </p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sdf </p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sd s</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sdf s</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> df sd</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'>  fs</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> d f</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'> sd f</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'>  sdf</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'>  sd</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'>  f</p></div>
-<div class='user-message-container'><p class='user-nick'>dfsdfdss</p> <p class='user-message'>  sdf</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Hola! </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> te tiro el mensaje que esta en construccion? </p></div>
+<div class='user-message-container'><p class='user-nick'>Sebastian</p> <p class='user-message'> Hugo </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='user-message-container'><p class='user-nick'>Sebastian</p> <p class='user-message'> Hagan </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> perfecto,  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> se ve bien en tu celu? </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> gracias!! ya esta listo!!!!! </p></div>
+<span>Conversación terminada</span>

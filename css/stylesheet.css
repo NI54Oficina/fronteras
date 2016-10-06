@@ -60,6 +60,20 @@ html{
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'dinpro';
+    src: url('../fonts/DINPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dinpro-bold';
+    src: url('../fonts/DINPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
 	background-color: #f7f7f7;
 	font-family:'arialregular';
@@ -1000,6 +1014,36 @@ header .home-box:hover > .hoy-box {
     border-radius: 2px;
     margin-top:5px;
 	width: 110px;
+}
+
+
+/*Leche mercados */
+
+.table-mercado-items div p.leche-mercados{
+	color:  #8c8c8c;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 10px;
+	margin-bottom:0;
+	width:auto !important;display:inline-block;min-height:auto;
+	
+}
+
+.table-mercado-items div p.leche-desc{
+	padding-bottom:7px;
+}
+.table-mercado-items div p.leche-nombre{
+	color:#2EA982 !important;
+}
+.table-mercado-items div p.leche-nombre span{
+	padding-left:0;
+}
+.table-mercado-items div p.leche-precio{
+	padding-left:0;
 }
 
 
@@ -3525,7 +3569,7 @@ outline: none;
 	padding-top: 7%;
 }
 
-.prot-po > p{
+.prot-po  p{
     margin: 0;
     background: rgba(239, 201, 158, 0.4);
     margin-top: 6px;
@@ -3535,9 +3579,16 @@ outline: none;
 
 .number-protocolo{
 	display: inline-block;
-    font-size: 4rem;
+    font-size: 1.3em;
     color: #ED7C28;
     font-weight: 700;
+}
+
+.number-protocolo .protocolo-dias{
+	font-size:0.9em;
+	font-weight:100;
+	color:#8F8F8F;
+	letter-spacing:0;
 }
 
 .titulo-mobile-prot{
@@ -3624,7 +3675,7 @@ outline: none;
 
 .box-title-ayuda{
   background-color: #79BEFE;
-  padding: 15px 5px;
+  padding: 15px 0px;
 }
 
 .title-inside-ayuda{
@@ -3794,3 +3845,168 @@ text-align:right;
 
 
 /*TESTING*/
+
+
+/** comunicado senasa**/
+.comunicado *,.comunicado{
+font-family:"dinpro";
+text-align:justify;
+color:black;
+font-weight:100;
+}
+.comunicado{
+	max-width:550px;
+	display:inline-block;
+}
+
+.comunicado strong,.comunicado h1,.comunicado h3,.comunicado h4{
+font-family:"dinpro-bold";
+}
+.comunicado h1{
+width:100%;
+background:black;
+padding:10px;
+color:white;
+font-size:70px;
+line-height:50px;
+padding-top:20px;
+}
+.comunicado h2{
+margin-bottom:0;
+}
+.comunicado h3{
+margin-top:0;
+font-size:16px;
+}
+
+.comunicado h4{
+font-size:16px;
+margin-top:20px;
+margin-bottom:5px;
+}
+
+.datos-senasa p{
+margin-top:0px;
+margin-bottom:0px;
+}
+
+.adherirse{
+width:100%;
+}
+
+.adherirse .cabecera{
+background-color:#1ec2de;
+width:100%;
+}
+.adherirse .cabecera h2{
+width:100%;
+background-color:#e31770;
+color:#1ec2de;
+font-size:70px;
+line-height:48px;
+padding-top:40px;
+
+padding-left:30px;
+padding-right:30px;
+font-family:"dinpro-bold";
+}
+
+.adherirse .cabecera p{
+color:white;
+padding-left:30px;
+padding-right:30px;
+font-size:18px;
+padding-top:15px;
+padding-bottom:15px;
+}
+
+.adherirse > h2{
+	padding-top:0px;
+	padding-bottom:10px;
+	padding-left:30px;
+padding-right:30px;
+font-size:19px;
+color:#1ec2de;
+}
+
+.adherirse .caja-paso{
+	padding-left:30px;
+padding-right:30px;
+padding-top:20px;
+padding-bottom:30px;
+}
+
+.adherirse .caja-paso h5{
+width:10%;
+min-width:80px
+display:inline-block;
+font-size:70px;
+font-family:"dinpro-bold";
+float:left;
+line-height:30px;	
+color:#1ec2de;
+}
+
+.adherirse .caja-paso ul{
+width:88%;
+display:inline-block;
+color:white;
+font-size:16px;
+}
+
+.adherirse .caja-paso p{
+	font-size:18px;
+	color:white;
+}
+
+.adherirse .caja-paso ul li{
+color:white;
+}
+
+.adherirse .paso-1{
+background-color:#e31770;
+}
+.adherirse .paso-2{
+background-color:#e54f84;
+}
+.adherirse .paso-3{
+background-color:#ec7699;
+}
+.adherirse .paso-4{
+background-color:#f099b0;
+padding-bottom:45px;
+}
+
+.comunicado .adherirse .datos-senasa p,.comunicado .adherirse .datos-senasa p strong{
+	color:#1ec2de;
+}
+
+.comunicado .adherirse .datos-senasa p.senasa-web strong{
+	font-size:24px;
+	color:#e31770;
+	font-family:"dinpro-bold";
+	line-height:18px;
+}
+
+.comunicado .adherirse .datos-senasa p.senasa-mail strong{
+	font-size:22px;
+	color:#1ec2de;
+	font-family:"dinpro-bold";
+	line-height:18px;
+}
+
+.adherirse .fin-senasa{
+height:40px;
+background-color:#1ec2de;
+width:100%;
+}
+.comunicado .logos-senasa {
+	text-align:center;
+	padding-top:20px;
+	
+}
+.comunicado .logos-senasa img{
+	width:35%;
+}
+
+/**fin comunicado senasa**/

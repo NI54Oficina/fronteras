@@ -1,0 +1,3 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Estimado Gabriel, muchas gracias por su comentario! Quedamos a disposici&oacute;n por cualquier consulta! </p></div>
+<span>Conversación terminada</span>

@@ -1,8 +1,8 @@
 <?php
 class PermissionChecker extends CApplicationComponent
     {
-		public $webRoot="fronteras/";
-		public $webRootO="fronteras";
+		public $webRoot="fronteras2/";
+		public $webRootO="fronteras2";
 		
         public function PermissionCheck()
         {

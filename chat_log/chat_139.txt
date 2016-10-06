@@ -1,2 +1,9 @@
 
-<div class='user-message-container'><p class='user-nick'>sds</p> <p class='user-message'> sdfsdfsdf  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> hola juan </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> esos est&aacute; mal </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> No jodas Jes&uacute;s </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Juanito te lleg&oacute;? ? </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Si llego </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<span>Conversación terminada</span>

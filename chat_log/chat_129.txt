@@ -1,1 +1,12 @@
 
+<div class='user-message-container'><p class='user-nick'>Sol</p> <p class='user-message'> Hola </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> como se ve? </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> respondeme </p></div>
+<div class='user-message-container'><p class='user-nick'>Sol</p> <p class='user-message'> Bien </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='user-message-container'><p class='user-nick'>Sol</p> <p class='user-message'> Como te mande x foto </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> ok gracias! </p></div>
+<span>Conversación terminada</span>

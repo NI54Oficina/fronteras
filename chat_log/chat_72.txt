@@ -1,0 +1,4 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> asd ;D </p></div>
+<div class='user-message-container'><p class='user-nick'>asda</p> <p class='user-message'> asd </p></div>
+<span>Conversación terminada</span>

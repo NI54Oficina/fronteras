@@ -45,11 +45,11 @@
 	</div>
 	</a>
 
-	<a href="">
-	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4 hidden-xs hidden-lg hidden-sm hidden-md hidden-xl">
-		<div class="box-manejo border-shadow box-relleno">
+	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/dte-autogestion">
+	<div class="box-producir-2 col-lg-2-5 col-md-2-5 col-sm-3 col-xs-6 col-xl-7 col-lan-xs-4">
+		<div class="box-manejo border-shadow">
 			<div class="box-manejo-inner producir-box-inner square">
-				<p class="color-manejo center-to-parent">Tipo de destete</p>
+				<p class="color-manejo center-to-parent">DTe Autogestión<br>(SENASA)</p>
 			</div>
 		</div>
 		<div class="border-producir-in border-manejo-in" ></div>

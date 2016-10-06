@@ -1,6 +1,18 @@
 <style>
 section,html,body{background-color:#ebebeb;}
 </style>
+<script>
+if (Notification.permission !== 'denied') {
+ Notification.requestPermission(function (permission) {
+
+        // Whatever the user answers, we make sure Chrome stores the information
+        if(!('permission' in Notification)) {
+          Notification.permission = permission;
+        }
+ });
+}
+
+</script>
 <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12 adminLateral" >
 	<div class="info-ayuda-admin">
 		<h1>ADMIN AYUDA</h1>
@@ -28,3 +40,6 @@ $chats= Chat::model()->findAll($Criteria);
 	<?php } ?>
 
 </div>
+<style>
+.sendie{background-color:#c8c8c8 !important;padding:10px !important;}
+</style>

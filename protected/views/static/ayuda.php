@@ -27,7 +27,7 @@ if($admin ){
 			<div class="chat-wrap"><div class="chat-area"></div></div>
 
 			<form class="send-message-area">
-				<textarea class="sendie" maxlength="300"></textarea>
+				<textarea class="sendie" placeholder="Escriba su mensaje aqui." maxlength="300"></textarea>
 			</form>
 
 		</div>
@@ -47,8 +47,10 @@ if($admin ){
     <script type="text/javascript">
 		var sendURL="http://fronteras.testni54.com/site/chatProcess";
 		var registerURL="http://fronteras.testni54.com/ar/site/chatInit";
+		var admin=false;
 		<?php
 		if($admin){ ?>
+		admin=true;
 		var deleteURL="/<?php echo $_SESSION["webRoot"]; ?>site/chatFinish/id/";
 		var checkURL="/<?php echo $_SESSION["webRoot"]; ?>site/lastChat/id/";
 		var dataURL="/<?php echo $_SESSION["webRoot"]; ?>site/chatData/id/";

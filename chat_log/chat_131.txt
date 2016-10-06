@@ -1,4 +1,4 @@
 
-<div class='user-message-container'><p class='user-nick'>sdf</p> <p class='user-message'> sdfsdfsdf </p></div>
-<div class='user-message-container'><p class='user-nick'>sdf</p> <p class='user-message'> bonjour </p></div>
-<div class='user-message-container'><p class='user-nick'>sdf</p> <p class='user-message'> sdfsdfsdfsdf </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola! </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> test </p></div>
+<span>Conversación terminada</span>

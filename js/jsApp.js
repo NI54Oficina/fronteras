@@ -139,3 +139,7 @@ LoadResource= function(){
 	
 }
 
+$("body").on("tap",".download-link",function(e){
+	populateIframe($(this).attr("href"));
+});
+

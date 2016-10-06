@@ -1,1 +1,4 @@
+
+<p class='user-nick'>Francisco Serante</p> <p class='user-message'> hola? </p>
+<p class='admin-nick'>Admin</p> <p class='admin-message'> hola! </p>
 <span>Conversación terminada</span>

@@ -33,7 +33,7 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','error',"contact","login","logout","captcha","forbidden","chatprocess","chatInit","chatFinish","lastChat","chatData"),
+				'actions'=>array('index','error',"contact","login","logout","captcha","forbidden","chatprocess","chatInit","chatFinish","lastChat","chatData","download"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -134,7 +134,7 @@ class SiteController extends Controller
 			//echo $identity->authenticate();
 			if($identity->authenticate()){
 				Yii::app()->user->login($identity);
-				$this->redirect('/'.$_SESSION['webRoot']."site/admin");
+				$this->redirect('/'.$_SESSION['webRoot']."ar/ayuda");
 			}else{
 				echo $identity->errorMessage;
 			}
@@ -241,7 +241,7 @@ class SiteController extends Controller
 				  exit();
 			  }
 			  if($admin){
-				  $nickname= "Admin";
+				  $nickname= "Biogénesis Bagó";
 			  }else{
 				  $nickname= $chat->nombre;
 			  }
@@ -256,6 +256,7 @@ class SiteController extends Controller
 					if($admin){
 				 	fwrite(fopen($file, 'a'), "<div class='admin-message-container'><p class='admin-nick'>". $nickname . "</p> <p class='admin-message'> " . $message = str_replace("\n", " ", $message)."</p></div>" . "\n");
 				 }else{
+					 //fwrite(fopen($file, 'a'), "<div class='user-message-container'><p class='user-nick'>". $nickname . "</p> <p class='user-message'> " . $message = str_replace("\n", " ", $message)."</p></div>" . "\n");
 					 fwrite(fopen($file, 'a'), "<div class='user-message-container'><p class='user-nick'>". $nickname . "</p> <p class='user-message'> " . $message = str_replace("\n", " ", $message)."</p></div>" . "\n");
 				 }
 			 }
@@ -336,10 +337,14 @@ class SiteController extends Controller
 			return false;
 		}
 		$chat= Chat::model()->findByPk($id);
+		if($chat->abierto==1){
 		$toEcho="";
 		$toEcho.=$chat->nombre.";;;;;";
 		$toEcho.=$chat->motivo;
 		echo $toEcho;
+		}else{
+			echo "no";
+		}
 	}
 
 	public function actionChatFinish($id){
@@ -384,5 +389,15 @@ class SiteController extends Controller
 		$this->renderPartial('//static/forbidden');
 
 
+	}
+	
+	public function actionDownload($link){
+		$link= str_replace(";","/",$link);
+		$fileName=strrpos($link,"/")+1;
+		$fileName=substr ($link,$fileName);
+		
+		header("Content-Type: application/octet-stream");
+		header("Content-Disposition: attachment; filename=".$fileName);
+		readfile(Yii::app()->getBaseUrl(true).'/uploads/'.$link);
 	}
 }

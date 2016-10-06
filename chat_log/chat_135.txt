@@ -1,1 +1,6 @@
 
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Hola </p></div>
+<div class='user-message-container'><p class='user-nick'>Gustavo Lagioia </p> <p class='user-message'> Estas al pedo?  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> chocho </p></div>
+<span>Conversación terminada</span>

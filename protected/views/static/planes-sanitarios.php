@@ -17,9 +17,9 @@
 	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" align="center">
 
 		<!-- Cría -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/cria.pdf" download="cria"  class="">
 
-		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4 max-box-planes" >
+
+		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4 max-box-planes download-link" href="planes-sanitarios;cria.pdf" ios="cria.pdf" download="cria">
 			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 
@@ -33,12 +33,12 @@
 			</div>
 		</div>
 
-		</a>
+
 
 
 		<!-- Tambo -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/tambo.pdf" download="tambo"  class="">
-			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes" >
+		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes download-link"  href="planes-sanitarios;tambo.pdf" ios="tambo.pdf" download="cria">
 			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes-box">
 
@@ -50,13 +50,13 @@
 				</div>
 			</div>
 		</div>
-		</a>
+		
 
 
 
 		<!-- Feed-lot -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/feedlot.pdf" download="feed-lot"  class="">
-			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes" >
+		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes download-link"  href="planes-sanitarios;feedlot.pdf" ios="feedlot.pdf" download="cria"  >
 			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 
@@ -68,13 +68,13 @@
 				</div>
 			</div>
 		</div>
-		</a>
+		
 
 
 
 		<!-- Ovino central y norte -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/ovinoscentralynorte.pdf" download="ovino" class="">
-			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes" >
+		
+			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes download-link"  href="planes-sanitarios;ovinoscentralynorte.pdf" ios="ovinoscentralynorte.pdf" download="cria" >
 			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 
@@ -86,13 +86,13 @@
 				</div>
 			</div>
 		</div>
-		</a>
+		
 
 
 
 		<!-- Recría -->
-		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/uploads/planes-sanitarios/recria.pdf" download="recria"  class="">
-			<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes" >
+		
+		<div class="col-lg-2-5 col-sm-4 col-md-2-5 col-xs-6 col-xl-5 col-lan-xs-4  max-box-planes download-link"  href="planes-sanitarios;recria.pdf" ios="recria.pdf" download="cria" >
 			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 square planes box-sanidad">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  square planes-box">
 
@@ -105,9 +105,88 @@
 				</div>
 			</div>
 		</div>
-		</a>
+		
 
 
 	</div>
 
 </section>
+<script type="text/javascript">
+
+var store;
+
+var $status;
+
+var assetURL = "http://fronteras.testni54.com/uploads/planes-sanitarios/";
+
+var fileName = "";
+
+
+function populateIframe(id,path) 
+{
+    var ifrm = document.getElementById(id);
+    ifrm.src = "http://fronteras.testni54.com/ar/download/link/"+path;
+}
+$("body").on("click",".download-link",function(e){
+	if(isIOS&&isApp){
+		window.open("http://fronteras.testni54.com/uploads/planes-sanitarios/"+$(this).attr("ios"), '_blank', 'location=no,closebuttoncaption=Close,enableViewportScale=yes');
+		//fileName=$(this).attr("download")+".pdf";
+		//checkDownload();
+	}else{
+		if(isIOS){
+			window.open("http://fronteras.testni54.com/uploads/planes-sanitarios/"+$(this).attr("ios"));
+		}else{
+			populateIframe("frame1",$(this).attr("href"));
+		}
+	}
+});
+
+
+function checkDownload() {
+	if(isIOS){
+    store = cordova.file.dataDirectory ;
+	}else{
+		store = cordova.file.externalDataDirectory ;
+	}
+	
+    window.resolveLocalFileSystemURL(store + fileName, appStart, downloadAsset);
+}
+
+function downloadAsset() {
+    var fileTransfer = new FileTransfer();
+    console.log("About to start transfer");
+    fileTransfer.download(assetURL, store + fileName, 
+        function(entry) {
+            console.log("Success!");
+            appStart();
+        }, 
+        function(err) {
+            console.log("Error");
+            console.dir(err);
+        });
+}
+
+function appStart() {  
+	if(isIOS){
+	 window.resolveLocalFileSystemURL(cordova.file.dataDirectory  + fileName, gotFile, fail);
+	}else{
+		window.resolveLocalFileSystemURL(cordova.file.externalDataDirectory  + fileName, gotFile, fail);
+	}
+}
+
+function fail(e) {
+    console.log("FileSystem Error");
+    console.dir(e);
+}
+
+function gotFile(fileEntry) {
+	$("body").append("<a style='display:block;' href='"+fileEntry.toURL()+"'>Abrir</a>");
+	// document.getElementById("smallImage").href = fileEntry.toURL();   
+   //document.getElementById("iframePDF").src = fileEntry.toURL();   
+    
+}
+
+</script>
+<iframe id="frame1" style="display:none"></iframe>
+<style>
+.download-link{cursor:pointer;}</style>

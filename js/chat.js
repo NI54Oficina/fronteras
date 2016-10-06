@@ -59,13 +59,18 @@ function updateChat(idChat){
 			   dataType: "json",
 			   success: function(data){
 				   if(data.text){
+					   //console.log(data.text);
 						for (var i = 0; i < data.text.length; i++) {
                             $('[chatid='+idChat+'] .chat-area').append($("<p>"+ data.text[i] +"</p>"));
                         }
 						$('[chatid='+idChat+'] .chat-area').scrollTop(10000000);
-						if(idChat!=activeChat){
+						if(idChat!=activeChat&&admin||activeWindow==false){
 							$('[idChat='+idChat+']').addClass("unreadChat");
+							var notification = new Notification('Nuevo mensaje', { body: "", icon: "" });
+							var audio = new Audio('http://fronteras.testni54.com/audio/audio1.mp3');
+							audio.play();
 						}
+						
 				   }
 				   //document.getElementById('chat-area').scrollTop = document.getElementById('chat-area').scrollHeight;
 				   chats[idChat].instanse = false;
@@ -79,9 +84,26 @@ function updateChat(idChat){
 	 }
 
 }
+var activeWindow=true;
+$(window).on("blur focus", function(e) {
+    var prevType = $(this).data("prevType");
+
+    if (prevType != e.type) {   //  reduce double fire issues
+        switch (e.type) {
+            case "blur":
+				activeWindow=false;
+                break;
+            case "focus":
+                activeWindow=true;
+                break;
+        }
+    }
+
+    $(this).data("prevType", e.type);
+});
 
 var baseChat='<div class="page-wrap" chatid="{chatID}"><div class="chat-wrap"><div class="chat-area"></div></div><form class="send-message-area"><textarea placeholder="Escriba su mensaje aqui." class="sendie" maxlength="300"></textarea></form></div>';
-var baseChatButton='<div class="chatSelector" idChat="{chatID}"><h3>{chatNombre}</h3><p>{chatMOTIVO}</p><button type="button" class="closeChat">Finalizar chat</button></div>';
+var baseChatButton='<div class="chatSelector" idChat="{chatID}"><h3>{chatNombre}</h3><p>{chatMOTIVO}</p><button type="button" class="closeChat">Finalizar chat</button><img class="icono-chat-1" src="/img/icon-chat.svg" alt="chat"><img class="icono-chat-2" style="display:none" src="/img/icon-chat-yellow.svg" alt="chat"></div>';
 
 function CheckNewChats(){
 	$.post(checkURL+lastId,function(data){
@@ -96,6 +118,7 @@ function CheckNewChats(){
 				lastId=newIDs[a];
 				var currentLoopId=newIDs[a];
 				$.post(dataURL+currentLoopId,function(data){
+					if(data!="no"){
 					console.log("entra data "+data);
 					var chatData=data.split(";;;;;");
 					var newChat= baseChat;
@@ -111,6 +134,7 @@ function CheckNewChats(){
 					var auxChat=new Chat();
 					chats[currentLoopId]=auxChat;
 					auxChat.getState(currentLoopId);
+					}
 				});
 			}
 		}
@@ -179,6 +203,10 @@ $("#datosUser").on('submit', function(e){
   
   function SubmitChat(){
 	  console.log("submit tap");
+	  if(alreadySent){
+		  return;
+	  }
+	  alreadySent=true;
 	  $(".title-inside-ayuda p").hide();
     $(".title-ayuda-mobile").hide();
 	  $("#datosUser").hide();

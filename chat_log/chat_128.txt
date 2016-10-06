@@ -1,1 +1,8 @@
 
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Hola </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> Hola juan </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> como andas? </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> todo bien  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<span>Conversación terminada</span>

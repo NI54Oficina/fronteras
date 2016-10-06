@@ -38,6 +38,7 @@
 			<h3 class="h3-merc">Ganado</h3>
 			<h3 class="h3-merc">Monedas</h3>
 			<h3 class="h3-merc">Granos</h3>
+			<h3 class="h3-merc">Leche</h3>
 				
 			</div>
 			</div>

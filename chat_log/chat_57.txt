@@ -1,0 +1,3 @@
+
+<div class='user-message-container'><p class='user-nick'>Nazarena Gómez Aréchaga</p> <p class='user-message'> hola </p></div>
+<span>Conversación terminada</span>
