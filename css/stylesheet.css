@@ -16,11 +16,15 @@ a:focus{
 	text-decoration:none;
 }
 
+a {
+   outline: 0 !important;
+}
 
 
 
 
-/*--------------------------------------------------------------------------------- CSS  LAYOUT E INTERIOR ------------------------------------------------------*/
+
+/*------ CSS  LAYOUT E INTERIOR ----------*/
 
 
 /****************************************
@@ -52,6 +56,20 @@ html{
          url('../fonts/arial-webfont.woff') format('woff'),
          url('../fonts/arial-webfont.ttf') format('truetype'),
          url('../fonts/arial-webfont.svg#arialregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dinpro';
+    src: url('../fonts/DINPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dinpro-bold';
+    src: url('../fonts/DINPro-Bold.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -90,10 +108,11 @@ p{
 	transition: 0.5s;
 }
 
-/** Header **/
+/*********************** HEADER ********************/
 
 header{
 	top:0;
+	width:100%;
 }
 
 .header-logos{
@@ -112,6 +131,7 @@ header{
 	margin:0;
 	padding:0;
 	background-color:rgb(230, 230, 230);
+  /*background: url(../img/bg-index.png)*/
 }
 
 header .home-upper-box > div{
@@ -120,6 +140,7 @@ header .home-upper-box > div{
 
 .cont-section-mobile{
 	display:none;
+
 }
 
 #bg-square{
@@ -133,22 +154,22 @@ header .home-upper-box > div{
 
 
 #hoy-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 /* Caja menú mes */
 #mes-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 /* Caja menú producir */
 #producir-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 /* Caja menú ayuda*/
 #ayuda-header-m{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 header .home-upper-box {
@@ -156,12 +177,12 @@ header .home-upper-box {
 }
 
 header .ayuda-box, .ayuda-box >div {
-    background-color: transparent;
+   /* background-color: transparent;*/
 }
 
 
 header .home-box:hover > .ayuda-box {
-    background-color:transparent;
+   /* background-color:transparent;*/
 }
 
 header .home-box > div {
@@ -170,41 +191,42 @@ header .home-box > div {
 
 
 header .producir-box, .producir-box >div {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 
 header .home-box:hover > .producir-box {
-    background-color:transparent;
+    /*background-color:transparent;*/
 }
 
 
 header .estemes-box, .estemes-box >div {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 
 header .home-box:hover > .estemes-box {
-    background-color:transparent;
+   /* background-color:transparent;*/
 }
 
 header .hoy-box, .hoy-box >div {
-    background-color: transparent;
+   /* background-color: transparent;*/
 }
 
 
 header .home-box:hover > .hoy-box {
-    background-color:transparent;
+   /* background-color:transparent;*/
 }
 
 .p-header-mobile {
     color:#adadad;
     font-size: 1em;
     margin-bottom: 0px;
-    margin-top: -5%;
+    margin-top: 0;
     display: block;
     text-align: center;
     width: 6vw;
+	/*padding-top:0.3em;*/
 }
 
 .square-separador{
@@ -248,6 +270,7 @@ header .home-box:hover > .hoy-box {
 	padding-bottom:10px;*/
 	height:100%;
 }
+
 
 .headermobile .navbar-collapse{
 	height:0;
@@ -322,22 +345,49 @@ header .home-box:hover > .hoy-box {
 	margin-top:0;
 }
 
-/**Fin Header**/
+
+.header-mobb {
+
+  padding: 5px 15px !important;
+	opacity:0;
+	transition:0.5s;
+}
+
+.p-header-mobb {
+  margin-top: 0 !important;
+}
+
+.nav-pc{
+	background:transparent !important;
+}
+
+.boton-volver-header{position:absolute;}
+#inner-header  .home-upper-box{padding:10px 22px;padding-top:45px;}
+.header-mobb{padding:15px 15px !important;}
+#inner-header{background-size:auto 100%;}
+
+
+/******************FIN HEADER ********************/
 
 
 
 
-/******************SECTION**********/
+/******************SECTION ********************/
 .section {
  	padding: 50px 45px;
 	opacity:0;
 	transition:0.5s;
  }
-/*****FIN SECCION******/
+/****************FIN SECCION***************/
 
 
 
+/*********************** HOY ********************/
 
+
+.img-noticias-hoy{
+  margin-top: 20%;
+}
 /* Tres cajas (mercados, clima. noticias del sector)*/
 .clima-title{
 	padding: 0;
@@ -359,9 +409,7 @@ header .home-box:hover > .hoy-box {
 .box-mercado-clima-noticias {
 	padding:0px 25px;
 }
-.box-mercado-clima-noticias> a {
-	padding:5px 5px;
-}
+
 
 .box-mercado-clima-noticias >a> .maxboxes{
 	padding:5px;
@@ -369,6 +417,8 @@ header .home-box:hover > .hoy-box {
 	color:white;
 	font-family:'arialregular';
 	text-align:center;
+  padding-bottom:30px;
+  margin-bottom: 10px;
 }
 
 
@@ -385,6 +435,7 @@ header .home-box:hover > .hoy-box {
 	margin: 10px;
     font-weight: 700;
     font-size: 1.9em;
+	margin-top:0;
 }
 
 /* Caja clima*/
@@ -412,13 +463,11 @@ header .home-box:hover > .hoy-box {
 
 
 
-/******************************
-******** MERCADOS *******
-******************************/
+/**************Caja mercados(hoy)********************/
 
 /* Mercados: cajas (compra,venta)*/
 .box-mercado-clima-noticias .small-boxes-mercado{
-	/*min-height:220px;*/
+	margin-top:20px;
 }
 
 /*Mercados: Titulo "mercados"*/
@@ -478,9 +527,7 @@ header .home-box:hover > .hoy-box {
 
 
 
-/******************************
-*********** CLIMA ***********
-******************************/
+/***************Caja clima(hoy)***************/
 
 .clima-pronostico{
 	margin: 10px 0px;
@@ -514,7 +561,6 @@ header .home-box:hover > .hoy-box {
 
 .box-clima option,.box-clima select{
 	color: #B2B2B2;
-    font-size: 1.6rem;
     border: none;
     width: 100%;
     font-family: 'arialregular';
@@ -525,6 +571,7 @@ header .home-box:hover > .hoy-box {
 	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
+  -moz-appearance: none;
 	background-repeat:no-repeat;
 	background-size: auto 100%;
 	background-color:#F1EFEF;
@@ -538,9 +585,7 @@ header .home-box:hover > .hoy-box {
 	outline:none;
 }
 
-/*********************************************
-*********** NOTICIAS SECTOR ***********
-*********************************************/
+/***************Caja noticias del sector(hoy)****************/
 .maxbox-noticias .container-noticias-sector{
     text-align: center;
 }
@@ -553,6 +598,11 @@ header .home-box:hover > .hoy-box {
     max-width: 50%;
 }
 
+.container-noticias-sector{
+  /*margin-top: 15%;*/
+}
+
+
 .maxbox-noticias  h4{
     text-align: center;
     font-size: 1.9em;
@@ -560,6 +610,7 @@ header .home-box:hover > .hoy-box {
     max-width: 200px;
     display: inline-block;
 	margin:0;
+  margin-top:20%;
 }
 
 .container-imagen-nota, .container-imagen-nota-col{
@@ -568,10 +619,10 @@ header .home-box:hover > .hoy-box {
 	background-size:  auto 100%;
 }
 
+/****************FIN HOY******************/
 
-/**********************************************
-*********** SECCIÓN MERCADO***********
-**********************************************/
+
+/*********************** MERCADOS********************/
 .box-mercado {
 	padding:0 25px;
 	border:none;
@@ -588,7 +639,6 @@ header .home-box:hover > .hoy-box {
 
 .box-mercado > .box-mercado-title > div{
 	background-color:#28A382;
-	min-height: 205px;
 	height:100%;
 	border:none;
 }
@@ -660,7 +710,14 @@ header .home-box:hover > .hoy-box {
 .table-mercado{
 	min-height:30px!important;
 	padding:0!important;
+
 }
+
+.table-mercado .table-mercado-items{
+	border-bottom:1px solid #F2F2F2;
+	background-color:white;
+}
+
 
 .table-mercado div{
 	padding:0;
@@ -669,10 +726,18 @@ header .home-box:hover > .hoy-box {
 	min-height:30px;
 }
 
+.moneda-mercados .glyphicon{
+	float:left;
+	padding-right:20px;
+}
+.moneda-mercados {
+
+}
+
 /* Categoría */
 .table-mercado div{
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding: 0px;
 }
 
@@ -693,7 +758,7 @@ header .home-box:hover > .hoy-box {
 /*  Precio */
 .table-mercado > div:nth-child(2){
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding: 0px;
 }
 
@@ -713,7 +778,7 @@ header .home-box:hover > .hoy-box {
 /* Var Día */
 .table-mercado > div:nth-child(3){
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding-top: 0px;
 }
 
@@ -732,7 +797,10 @@ header .home-box:hover > .hoy-box {
 /* ITEMS INTERIOR TABLA*/
 .table-mercado-items div{
 	background-color:white;
-	border-bottom:1px solid #F2F2F2;
+}
+.table-mercado-items > div {
+
+
 }
 
 .table-mercado-items > div:nth-child(2) > h3{
@@ -787,7 +855,7 @@ header .home-box:hover > .hoy-box {
 
 .table-mercado > div:nth-child(4){
     min-height: 30px;
-	text-align:center;
+	/*text-align:center;*/
     padding-top: 0px;
 }
 
@@ -807,9 +875,181 @@ header .home-box:hover > .hoy-box {
 }
 
 
-/********************************
-************* CLIMA ***********
-********************************/
+.columna-indicadores p{
+    font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+	font-weight:700;
+    color: #8C8C8C;
+}
+
+.columna-granos p{
+	font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    color: #8C8C8C;
+	font-weight:700;
+}
+
+.columna-ganado p{
+	font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left !important;
+    font-weight: 700;
+    color: #8C8C8C;
+    padding-left: 12px;
+}
+
+.table-mercado-items div p,.table-mercado-items div span {
+	text-align:left;
+	padding-left:10px;
+	color:  #8c8c8c;
+	font-size:1.2rem;
+  padding-top: 7px;
+}
+
+.container-items-mercados{
+	margin-bottom: 10px;
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #D0CFCF;
+    border-color: none;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: 'arialregular';
+}
+
+.btn {
+	display: inline-block;
+	padding: 9px 0px;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	margin-top:5px;
+    width: 110px;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #D0CFCF;
+    border-color: transparent;
+}
+
+.btn-default:focus{
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #28A382;
+    border-color: transparent;
+}
+
+.btn-default:active{
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #28A382;
+    border-color: transparent;
+}
+
+.btn:focus {
+    outline:none!important;
+}
+
+.actualizar-ganado{
+	background: #C4c6c7!important;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	min-height:30px!important;
+}
+
+
+.actualizar-ganado p{
+	color: white!important;
+    font-size: 1.2rem!important;
+    font-weight: 400!important;
+    margin:0;
+    padding-top: 5px;
+}
+
+.btn-indicadores{
+    display: inline-block;
+    padding: 9px 0px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top:5px;
+	width: 110px;
+}
+
+
+/*Leche mercados */
+
+.table-mercado-items div p.leche-mercados{
+	color:  #8c8c8c;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 10px;
+	margin-bottom:0;
+	width:auto !important;display:inline-block;min-height:auto;
+	
+}
+
+.table-mercado-items div p.leche-desc{
+	padding-bottom:7px;
+}
+.table-mercado-items div p.leche-nombre{
+	color:#2EA982 !important;
+}
+.table-mercado-items div p.leche-nombre span{
+	padding-left:0;
+}
+.table-mercado-items div p.leche-precio{
+	padding-left:0;
+}
+
+
+/******************FIN MERCADOS****************/
+
+/***********************CLIMA ********************/
 
 /* Cajas clima general */
 .form-clima{
@@ -1198,7 +1438,7 @@ header .home-box:hover > .hoy-box {
 
 .btn-mapas{
 	display: block;
-    padding: 8px 0px;
+    padding:0px;
     margin-bottom: 0;
     font-size: 1.5rem;
     line-height: 1.42857143;
@@ -1213,7 +1453,7 @@ header .home-box:hover > .hoy-box {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid transparent;
+    border:none;
     border-radius: 2px;
     margin-top: 20px;
     width: 23.5%;
@@ -1224,9 +1464,46 @@ header .home-box:hover > .hoy-box {
     float: right;
     margin-right: 1%;
 }
-/************************************
-************* NOTICIAS ***********
-************************************/
+
+.p-button-clima:hover{
+  background-color:black !important;
+  opacity: .2 !important;
+  transition: 2s !important;
+}
+
+.p-button-clima{
+  border-radius: 2px;
+  padding: 8px 0px;
+  background-color:transparent;
+  width:100%;
+  height:100%;
+  color:white !important;
+}
+
+
+
+
+#clima form select::-webkit-scrollbar {
+    width: 1em;
+}
+
+#clima form select::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px blue;
+}
+
+#clima form select::-webkit-scrollbar-thumb{
+	background-color: blue;
+	outline: 1px solid blue;
+}
+
+#clima{
+  margin-top: 15px;
+}
+
+/*****************FIN CLIMA*****************/
+
+
+/*******************NOTICIAS****************/
 
 /* Cajas noticias general */
 .box-noticias{
@@ -1238,7 +1515,7 @@ header .home-box:hover > .hoy-box {
 	padding-bottom: 20px;
 }
 
-.box-noticias > a>div{
+.box-noticias > a>div, #noticia-box {
 	padding:5px;
 	background-color:transparent;
 	color:white;
@@ -1256,9 +1533,9 @@ header .home-box:hover > .hoy-box {
 
 .box-noticias  h1, .noticia-columna h1{
     color: #999999;
-    font-size: 1.3rem;
+    font-size: 0.9em;
     text-align: center;
-    margin: 0;
+    margin: 5px 0px;;
 }
 
 
@@ -1272,7 +1549,6 @@ header .home-box:hover > .hoy-box {
 
 #noticia-box >div > #noticia-box-inner{
 	background:#2ED7AA;
-	min-height: 205px;
 	text-align:center;
 }
 
@@ -1356,17 +1632,26 @@ header .home-box:hover > .hoy-box {
 }
 
 .box-noticias .container-h1-noticias h1{
-	background-color:#f7f7f7;position:relative;z-index:3;display:inline-block;width:80%;
+	background-color:#f7f7f7;
+  position:relative;
+  z-index:3;
+  display:inline-block;
+  width:80%;
 }
 .border-noticias-h1{
-	width:100%;position:absolute;height:1.3rem;padding:0 5px;left:0;z-index:2;margin-top:2px;
+	width:100%;
+  position:absolute;
+  height:1.3rem;
+  padding:0 5px;
+  left:0;
+  z-index:2;
 }
 
 .border-noticias-h1 > div{
 	width:100%;height:2px;
 }
 
-/*COLORES DISTINTAS NOTICIAS*/
+/*Colores de los distintos tipos de noticias*/
 
 /*NOTICIA TIPO 1 - VERDE AGUA*/
 
@@ -1375,9 +1660,11 @@ header .home-box:hover > .hoy-box {
 
 }
 
-.noticia-tipo-1 .container-texto-noticias h2 {
+.noticia-tipo-1 .container-texto-noticias h2,.noticia-tipo-1 .container-inside-noticia h1 {
 	color:#25CDDB;
 }
+
+
 
 .noticia-tipo-1 .container-imagen-nota, .noticia-tipo-1 .container-imagen-nota-col {
 	border-top: 7px solid  #25CDDB;
@@ -1393,7 +1680,7 @@ header .home-box:hover > .hoy-box {
 	border: 2px solid #2E9DFB;
 }
 
-.noticia-tipo-2 .container-texto-noticias h2{
+.noticia-tipo-2 .container-texto-noticias h2, .noticia-tipo-2 .container-inside-noticia h1{
 	color:#2E9DFB;
 }
 
@@ -1414,7 +1701,7 @@ header .home-box:hover > .hoy-box {
 	border: 2px solid #FFA621;
 }
 
-.noticia-tipo-3 .container-texto-noticias h2{
+.noticia-tipo-3 .container-texto-noticias h2, .noticia-tipo-3 .container-inside-noticia h1{
 	color: #FFA621;
 }
 
@@ -1429,13 +1716,13 @@ header .home-box:hover > .hoy-box {
 
 
 
-/*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
+/*NOTICIA TIPO 4*/
 
 .noticia-tipo-4 .container-texto-noticias{
 	border: 2px solid #2ED7AA;
 }
 
-.noticia-tipo-4 .container-texto-noticias h2{
+.noticia-tipo-4 .container-texto-noticias h2, .noticia-tipo-4 .container-inside-noticia h1{
 	color:#2ED7AA;
 }
 
@@ -1449,13 +1736,13 @@ header .home-box:hover > .hoy-box {
 }
 
 
-/*NOTICIA TIPO 5 - MODO PRUEBA NARANJA, SETEAR COLOR*/
+/*NOTICIA TIPO 5 */
 
 .noticia-tipo-5 .container-texto-noticias{
 	border: 2px solid #E29D9C;
 }
 
-.noticia-tipo-5 .container-texto-noticias h2{
+.noticia-tipo-5 .container-texto-noticias h2, .noticia-tipo-5 .container-inside-noticia h1{
 	color:#E29D9C;
 }
 
@@ -1474,7 +1761,7 @@ header .home-box:hover > .hoy-box {
 	border: 2px solid #2E9DFB;
 }
 
-.noticia-tipo-6 .container-texto-noticias h2{
+.noticia-tipo-6 .container-texto-noticias h2, .noticia-tipo-6 .container-inside-noticia h1{
 	color:#2E9DFB;
 }
 
@@ -1493,7 +1780,7 @@ header .home-box:hover > .hoy-box {
 	border: 2px solid #FFA621;
 }
 
-.noticia-tipo-7 .container-texto-noticias h2{
+.noticia-tipo-7 .container-texto-noticias h2, .noticia-tipo-7 .container-inside-noticia h1{
 	color:#FFA621;
 }
 
@@ -1505,7 +1792,7 @@ header .home-box:hover > .hoy-box {
 	background-color:#FFA621;
 }
 
-
+/*****************FIN NOTICIAS******************/
 
 /*************** INTERIOR NOTICIA ******************/
 .container-inside-noticia, .noticia-columna{
@@ -1521,19 +1808,6 @@ header .home-box:hover > .hoy-box {
 	float:right;
 }
 
-/*.noticia-columna .fecha-col{
-	text-align:right;
-    display: inline-block;
-    background-color: #C4c6c7;
-    width: 100%;
-
-}*/
-
-
-/*COMENTADA PORQUE DEBERIAN IR EN TODAS LAS PÁGINAS.
-ESTABA EN EL TITULO DE NOTICIA.PHP*/
-
-
 .container-inside-noticia .border-fecha div{
     background-image: url(../img/dash.png);
     background-repeat: repeat-x;
@@ -1543,7 +1817,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     vertical-align: super;
 }
 
-/*FIN DEL CODIGO NO USADO*/
+.noticia-tipo-general:hover{
+  opacity: .8;
+}
 
 .container-inside-noticia .titulo{
 	/*color:#2ED7AA;*/
@@ -1590,9 +1866,11 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 {
 
 }
-/* FIN NOTICIA*/
+/***************FIN INTERIOR NOTICIA***************/
 
 /************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
+/*Todas tienen el mismo formato en cuanto a la distribucion de las cajas, varian en color*/
+
 
  .square > img {
  	max-width: 235px
@@ -1666,8 +1944,27 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-color:#003D6A;
 }
 
+.box-producir-2 .box-sanidad-inner:hover{
+  background-color:#dfcaec;
+}
+.box-nutricion {
+	background-color:#BAA200;
+}
+
+.box-producir-2 .box-genetica-inner:hover{
+	background-color:#f1e0d3;
+}
+
+
+
+
 .box-manejo-inner {
  	border:2px solid #003D6A ;
+}
+
+.box-producir-2  .box-manejo-inner:hover{
+  background: #d7e1e8;
+
 }
 
 .color-sanidad{
@@ -1689,8 +1986,63 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
+.p-header-hoy:hover{
+  color:#40CEDB
+}
+
+.p-header-estemes:hover{
+  color:#0093D4;
+}
+
+.p-header-producir:hover{
+  color: #917fb5;
+}
+
+.p-header-ayuda:hover{
+  color: #79BEFE;
+}
+
+
+
+
+.border-producir-in{
+  margin-top: 0px;
+  width: 0%;
+height: 0px;
+transition-delay: 0s;
+opacity: 0;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+display: inline-block;
+}
+
+.box-producir-2:hover  .border-producir-in{
+  width: 20%;height: 3px;
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: scaleX(2);
+  position: relative;
+    transition: all 0.5s ease;
+}
+
+.box-producir-2:hover  .border-manejo-in{
+  background: #003D6A;
+}
+
+.box-producir-2:hover  .border-sanidad-in{
+  background:#6D4A84;
+}
+
+.box-producir-2:hover  .border-genetica-in{
+  background: #ED7C28;
+}
+
+
+
 /**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
 
+
+/*******************PLANES SANITARIOS***************/
 .box-producir-3{
 	padding: 0px 30px;
 }
@@ -1828,8 +2180,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     background: white;
     width: 100%;
 }
+/********************FIN PLANES SANITARIOS*****************/
 
-/************** LABORATORIOS ************************/
+
+/************** LABORATORIOS DE DIAGNOSTICO************************/
 .laboratorios{
 
 	position: relative;
@@ -1856,7 +2210,11 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     padding-top: 80%;
 }
 
+.laboratorios:hover{
+  opacity: 0.8;
+}
 
+/****************FIN LABORATORIOS DE DIAGNOSTICO**************/
 
 
 /*********************HOME*******************/
@@ -1914,7 +2272,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding: 20px 20px;
 }
 
-.hoy-box > div, .hoy-box  {
+ .hoy-box, .hoy-box > div  {
 	background-color: #40CEDB;
 }
 
@@ -1923,7 +2281,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 .producir-box{
-	background-color: #7067B0;
+	background-color: #917fb5;
 }
 
 .producir-box > div:nth-child(1) {
@@ -1946,12 +2304,12 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .home-box > .square >div:nth-child(1) {
 	position: relative;
-	height: 80%;
+	height: 80% !important;
 }
 
 .home-box > div > div:nth-child(1) {
 	box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
-	padding: 15% 0%;
+	padding: 10% 0%;
 }
 
 
@@ -1975,18 +2333,37 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 }
 
 
-.gota-producir > div > a > img {
+.prod-gota-menu {
 	width: 85%;
 	position: relative;
-	max-width: 235px;
+	/*max-width: 235px;*/
+
+}
+
+
+.prod-gota-menu:visited{
+outline: none;
 }
 
 .gota-producir{
-	padding: 25px 10px;
+	padding: 10px 60px;
 }
 
+@keyframes testing-gota {
+    50%   {width: 70%;}
+    50%  {width:80%;}
 
-/***********************VETERINARIA***************/
+    }
+
+.prod-gota-menu:hover{
+
+      animation-name: testing-gota !important;
+      animation-duration: .5s !important;
+}
+/*********************FIN HOME****************/
+
+
+/*******************RED VETERINARIA***************/
 
 .veterinaria {
 	max-width: 1500px;
@@ -2010,6 +2387,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .map-box{
 	background-image:url(../img/cuadrado-fondo-mapa.svg);
+   box-shadow: 5px 0 8px -2px #cacaca;
 }
 
 .red-box img {
@@ -2026,7 +2404,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	color: rgba(158,158,158,.5);
 	width: 100%;
 	background-color:transparent;
-	-webkit-appearance:normal;
+	-moz-appearance:none;
 	background-image:url(arrow-down-gray.svg);
 	background-position:right;
 	-webkit-appearance:none;
@@ -2035,12 +2413,8 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding:0 10px;
 }
 
-
-.box-clima select{
-
-}
-
 .mapa-img {
+  text-align: center;
 	width:75%;
 }
 .escala{
@@ -2071,7 +2445,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	text-align: left;
 }
 
-/***********LINKS DE INTERES************/
+/*******************FIN RED VETERINARIA*******************/
+
+/**********************LINKS DE INTERES************/
 
 .box-interes {
 	padding: 15px;
@@ -2122,9 +2498,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	border: 4px solid #5771B0;
 }
 
-.box-interes > p {
+.p-title {
 	color:#999999;
-	margin:2px;
+	/*margin:2px;*/
 }
 
 .box-interes-img {
@@ -2136,170 +2512,16 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	position: relative;
 }
 
+.box-interes-inner:hover{
+  opacity: .8;
+}
+
+
 
 /********FIN LINKS DE INTERESES********/
 
 
-/*dar detalle de esta seccion*/
-
-#clima form select::-webkit-scrollbar {
-    width: 1em;
-}
-
-#clima form select::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px blue;
-}
-
-#clima form select::-webkit-scrollbar-thumb{
-	background-color: blue;
-	outline: 1px solid blue;
-}
-
-
-.columna-indicadores p{
-    font-size: 1.5rem;
-    padding-top: 3px;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-	font-weight:700;
-    color: #8C8C8C;
-}
-
-.columna-granos p{
-	font-size: 1.5rem;
-    padding-top: 3px;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-    color: #8C8C8C;
-	font-weight:700;
-}
-
-.columna-ganado p{
-	font-size: 1.5rem;
-    padding-top: 3px;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-    color: #8C8C8C;
-}
-
-.table-mercado-items div p {
-	text-align:left;
-	padding-left:10px;
-	color:  #8c8c8c;
-	font-size:1.2rem;
-}
-
-.container-items-mercados{
-	margin-bottom: 10px;
-}
-
-.btn-default {
-    color: #FFF;
-    background-color: #D0CFCF;
-    border-color: none;
-    font-weight: 700;
-    letter-spacing: 0.4px;
-    font-family: 'arialregular';
-}
-
-.btn {
-	display: inline-block;
-	padding: 9px 0px;
-	margin-bottom: 0;
-	font-size: 1.5rem;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 2px;
-	margin-top:5px;
-    width: 110px;
-}
-
-.btn-default:hover {
-    color: #FFF;
-    background-color: #D0CFCF;
-    border-color: transparent;
-}
-
-.btn-default:focus{
-	outline:none;
-	border:none;
-	color: #FFF;
-    background-color: #28A382;
-    border-color: transparent;
-}
-
-.btn-default:active{
-	outline:none;
-	border:none;
-	color: #FFF;
-    background-color: #28A382;
-    border-color: transparent;
-}
-
-.btn:focus {
-    outline:none!important;
-}
-
-.actualizar-ganado{
-	background: #C4c6c7!important;
-    height: 30px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-	min-height:30px!important;
-}
-
-
-.actualizar-ganado p{
-	color: white!important;
-    font-size: 1.2rem!important;
-    font-weight: 400!important;
-    margin:0;
-    padding-top: 5px;
-}
-
-.btn-indicadores{
-    display: inline-block;
-    padding: 9px 0px;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    margin-top:5px;
-	width: 110px;
-}
-
-
-
-/* LOADING PAGE*/
+/*****************LOADING PAGE (GIF)*************/
 .loading {
 	background-color: transparent;
 }
@@ -2335,7 +2557,10 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	margin-top: 25%;
 }
 
-/*SPLASH HOME*/
+/********************FIN LOADING ***************/
+
+
+/********************SPLASH HOME******************/
 
 .splash{
 	padding: 90px 10px;
@@ -2381,8 +2606,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	background-size: 100% auto;
 }
 
+/*********************FIN SPASH HOME****************/
 
-/***************TITULO MOBILE**********/
+/*************TITULO QUE APARECE EN TODAS LAS PANTALLAS EN MOBILE********/
 
 .titulo-mobile {
 	position: fixed;
@@ -2390,18 +2616,20 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	top:0;
 	left: 0;
 	right: 0;
-	z-index: 1;
+	z-index: 20;
 }
 
 .titulo-mobile > p {
 	padding:6px 6px;
 	margin:0;
 	color: white;
-    font-size: 1.4rem;
+  font-size: 1.4rem;
+  text-align: center;
+
 }
 
 .titulo-mobile-producir {
-	background-color: #7067B0;
+	background-color: #917fb5;
 }
 
 .titulo-mobile-estemes {
@@ -2418,11 +2646,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 
-/**********FIN TITULO MOBILE**************/
-
-
-
-
+/*****************FIN TITULO MOBILE*******************/
 
 
 
@@ -2452,8 +2676,9 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 
 .maxboxes-inner-estemes h2{
-    padding-top: 65%;
+    /*padding-top: 65%;*/
 	font-size: 1.9em;
+  margin-top: 15%;
 }
 
 .maxboxes-inner-estemes .estemes-img{
@@ -2465,7 +2690,6 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 #checkbox h1{
     font-size: 2.3rem;
     color: #A3A3A3;
-	padding-bottom:30px;
 }
 
 .checkbox-box{
@@ -2486,9 +2710,72 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     font-size: 2rem;
     text-align: center;
 	margin:0;
-
 }
 
+.barra-recomendaciones{
+  width: 100%;
+  height: 2em;
+  background-color: #189DBF;
+}
+
+.container-recomendaciones p, .container-recomendaciones .text-r{
+  color: #8C8C8C;
+  text-align: left;
+}
+
+.text-r{
+  margin: 10px 0px;
+}
+
+.texto-blue-r {
+  color:#189DBF !important;
+}
+
+.title-side-r{
+  background:#189DBF;
+  width: 100%;
+  padding: 15px 5px;
+  color: white !important;
+  font-size: 1.3em; ;
+  text-transform: uppercase;
+  text-align: center !important;
+}
+
+.parrafo-recomendaciones{
+  padding-left:30px;
+}
+
+.img-recomendaciones{
+  padding-right: 30px;
+}
+
+.box-recomendaciones{
+  padding: 30px 0px;
+}
+.parrafo-recomendaciones-1{
+  padding-top: 20px;
+}
+
+.img-r-2, .img-r-1{
+  width: 80%;
+}
+
+.img-r-3{
+  width: 40%;
+  margin-top: 20px;
+}
+
+.parrafo-recomendaciones li{
+  list-style: url(../img/gotita-item-01.png);
+  text-align: left;
+  color:#8C8C8C;
+}
+
+
+.container-recomendaciones span{
+  font-weight: bold;
+  color:#189DBF;
+}
 
 
 /************ REMATES **************/
@@ -2517,6 +2804,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 .container-fecha-remates p {
 	color:white;
+	margin-bottom:0;
 }
 
 .container-fecha-remates p:first-child {
@@ -2527,6 +2815,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 .container-fecha-remates p:nth-child(2) {
 
     font-size: 4rem;
+	line-height:3.2rem;
 }
 
 .container-fecha-remates p:nth-child(3) {
@@ -2534,12 +2823,35 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     font-size: 2rem;
 }
 
+.mes-remates{
+  background-color: lightblue;
+  height: 10px;
+}
+
+.mes-remates.color-cabanias{
+	background-color:#edc994;
+}
+
+.mes-remates > h2{
+  color: white;
+  font-size: 1.3em;
+}
+
+.info-remates-mobile img{
+	max-height:90%;
+	text-align:center;
+}
 
 /** Container modadlidad, consignatorio, lugar, provincia, cabezas **/
 /*Modalidad*/
 .container-modalidad{
     min-height: 70px;
     border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.container-modalidad-retiro{
+  text-align: left
 }
 
 /*Consignatorio*/
@@ -2555,6 +2867,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0;
+    font-size: 1.3rem;
 }
 
 /*Lugar*/
@@ -2604,6 +2917,7 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding:20px 0px;
 	color: white;
 	font-size: 1.2em;
+  margin-top: 5px;
 }
 
 
@@ -2622,50 +2936,80 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 
 /********REMATES EN MOBILE - SLIDE & ELSE*******/
 
-.info-remates-mobile, {
-	display: none;
-}
 
-.fecha-remates-mobile > button {
+.cont-fecha-mobile > button {
     background-color: rgba(99, 99, 99, 0);
     border: none;
 }
 
-.fecha-remates-mobile > button:focus {
+.cont-fecha-mobile > button:focus {
 	outline:none;
 }
 
-.fecha-remates-mobile > button:active {
+.cont-fecha-mobile > button:active {
 	outline:none;
 }
 
 .boton-prueba-atras{
 	float:left;
     margin-left: 2%;
+	position:absolute;
+	left:2%;
+  top:60%;
+
 }
 
 .boton-prueba{
 	float: right;
     margin-right: 2%;
+	position:absolute;
+	right:2%;
+	top:60%;
 }
+
+.b-prot-at {
+    top:5% !important;
+    left: 2%;
+    background-color: rgba(99, 99, 99, 0);
+    border: none;
+	outline:none;
+}
+
+.b-prot-ad{
+  top:5% !important;
+      right: 2%;
+      background-color: rgba(99, 99, 99, 0);
+      border: none;
+	  outline:none;
+}
+/********************TERMINA REMATES EN MOBILE*****************/
 
 /****************** SANIDAD- ENFERMEDADES ***********************/
 
-
-
 .enfermedades-select {
-    background: transparent;
+    background: #f7f7f7;
     border: none;
     border-bottom: 2px solid #6D4A84;
 	width: 100%;
 	margin: 10px 0px;
 	color: rgba(158,158,158,.5);
+	background-image:url(arrow-down-gray.svg);
+	background-position:right;
+	-webkit-appearance:none;
+  -moz-appearance: none;
+	background-repeat:no-repeat;
+	background-size: auto 100%;
+  border-radius: 0px;
 }
+
 
 .enfermedades-select:focus {
 	outline:none;
 }
 
+.enfermedades-box{
+  padding: 5px;
+}
 .enfermedades-box p{
     font-size: 1.5rem;
     width: 98%;
@@ -2735,19 +3079,73 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	padding-right:30px;
 }
 
-/**************** SANIDAD - PARÁSITOS EXTERNOS ************************/
+/*****************TERMINA ENFERMEDADES -ENFERMEDADES*****************/
+
+/**************** ENFERMEDADES - PARÁSITOS EXTERNOS ************************/
 .parext-select {
     background: transparent;
-    border: none;
+    border: 0px ridge rgb(169, 169, 169);
     border-bottom: 2px solid #6D4A84;
     width: 100%;
     margin: 10px 0px;
     color: rgba(158,158,158,.5);
+    background-color: transparent;
+    -moz-appearance: none;
+    background-image: url(arrow-down-gray.svg);
+    background-position: right;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 
 .parext-select:focus {
 	outline:none;
 }
+
+.parasitos-externos, .enfermedades-infecciosas{
+  display:none;
+}
+
+#parasitos-externos-1{
+  display: block;
+}
+
+.relleno-enfermedad{
+  text-align: left;
+  width: 100%;
+  font-size:1em ;
+  margin:15px 15px;
+}
+
+/******************TERMINA ENFERMEDADES -PARÁSITOS EXTERNOS******************/
+
+
+/**************** ENFERMEDADES - ENFERMEDADES INFECCIOSAS****************/
+
+.enfermedades-infecciosas a{
+	color:#744295
+}
+
+.enfermedades-inside-container a{
+	color:#744295
+}
+
+.enfermedades-infecciosas-1{
+	display:block;
+}
+
+.enfermedades-infecciosas-2,.enfermedades-infecciosas-4,.enfermedades-infecciosas-3 {
+	display:none;
+}
+
+.titulo-mobile-enfermedades{
+    background-color: #6D4A84;
+}
+
+
+/********************FIN ENFERMEDADES- ENFERMEDADES INFECCIOSAS*****************/
+
+
 /****************MANEJO - CUBICACION DE BAÑADEROS******************/
 
 .title-producir-inside{
@@ -2782,11 +3180,15 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	text-align: left;
 }
 
+.bloque-imagenes-cub{
+  margin-top: 25px;
+}
+
 .block-img  p {
 	width:100%;
 	border-top: 2px solid #003D6A ;
 	margin-top:10px;
-	padding:10px;
+	padding:10px 0px;
 	text-align: left;
 }
 
@@ -2794,24 +3196,25 @@ ESTABA EN EL TITULO DE NOTICIA.PHP*/
 	width:auto;
 }
 
+.block-img-2{
+  margin-left: 20px;
+}
+
 .producir-inside-container li {
 	list-style-type: square;
  }
 
-.cubicacion-container{
+/*.cubicacion-container{
 	padding:30px;
- }
+ }*/
 
 .general-container-producir{
 	padding: 30px 30px;
 }
 
-/*DISTRIBUCION COLORES DE PRODUCIR
+/********************TERMINA MANEJO - CUBICACION DE BAÑADEROS***************/
 
-y fondos ubicacion en linea 1441 */
-
-/*GENETICA MENU, ICONOS, TESTING
-*/
+/*********************NUTRICION****************/
 
 .icon-hereford{
 	background-image:url(../img/hereford.png);
@@ -2842,8 +3245,10 @@ y fondos ubicacion en linea 1441 */
 	padding:10px 0;
 }
 
+/******************TERMINA NUTRICION**************/
 
-/** RETIRO DE PRODUCTOS VETERNIARIOS **/
+/******************RETIRO DE PRODUCTOS VETERINARIOS****************/
+
 .color-retiro-productos{
 	background:#5B3E6F;
 }
@@ -2851,12 +3256,13 @@ y fondos ubicacion en linea 1441 */
 #retiro-producto-p-1{
     padding-top: 30px;
 	font-weight:300;
+  font-size: 1.3rem;
 }
 
 #retiro-producto-p-2{
     padding-top: 30px;
     color: #8F8F8F;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 
@@ -2869,15 +3275,23 @@ y fondos ubicacion en linea 1441 */
     margin: 0;
 }
 
+.retiro-img{
+  text-align: left;
+}
 
+.boton-prueba-retiro{
+  top:35% !important;
+}
+/*********************FIN DIAS DE PRODUCTOS VETERINARIO*******************/
 
-/** PAGINA DE LLUVIA (lluvias.php) **/
+/********************LLUVIAS (clima)******************/
 
 .title-lluvia{
 	color: gray;
 	width:100%;
 	border-bottom: 2px solid gray;
 	padding: 10px 0px;
+  margin-bottom: 0;
 }
 
 .map-lluvia{
@@ -2890,46 +3304,14 @@ y fondos ubicacion en linea 1441 */
     margin-top: 1%;
     width: 52vw;
 }
-
-
-
-.navbar-toggle{
-	position:absolute;
-	left:0;
-	z-index:200;
+.n-lluvia{
+  margin-bottom: 35px;
 }
 
-.boton-volver-header{
-	position:absolute;
-	left:0;
-	z-index:200;
-}
-
-/** ENFERMEDADES-INFECCIOSAS **/
-
-.enfermedades-infecciosas a{
-	color:#744295
-}
-
-.enfermedades-inside-container a{
-	color:#744295
-}
-
-.enfermedades-infecciosas-1{
-	display:block;
-}
-
-.enfermedades-infecciosas-2,.enfermedades-infecciosas-4,.enfermedades-infecciosas-3 {
-	display:none;
-}
+/********************FIN LLUVIAS (clima)******************/
 
 
-.glyphicon-menu-hamburger{
-
-}
-
-
-/***************ESTADO CORPORAL	& SLIDER**********/
+/*******************ESTADO CORPORAL	& SLIDER***************/
 
 .p-estado{
 	color: white;
@@ -2944,20 +3326,23 @@ y fondos ubicacion en linea 1441 */
 }
 
 .img-ganado{
-	width: 90%;
-	border: 5px solid #0086CA;
+	width: 93%;
 }
 
 .img-ganado-info {
-	width: 35%;
+	width: 45%;
 }
 
-.ganado-col-1, .ganado-col-2{
+.ganado-col-1{
+  text-align: right;
+  padding-right: 20px;
+}
+  .ganado-col-2{
 	text-align: left;
+  padding-left: 20px;
 }
 
 .ganado-col-2 h1{
-	color:#0086CA;
 	font-size: 1.5em;
 	margin-top: 0;
 	font-weight: bold;
@@ -2965,7 +3350,6 @@ y fondos ubicacion en linea 1441 */
 
 
 .ganado-col-2 p{
-	font-weight: bold;
 	font-size: 1em;
   color:#808080;
 }
@@ -2974,15 +3358,70 @@ y fondos ubicacion en linea 1441 */
 	display: none;
 }
 
+.boton-static-ganado{
+  position: absolute;
+  right: 50px;
+}
+  /*colores de los tipos de raza de vaca*/
+
+  .borde-angus{
+    border: 5px solid #0086CA;
+  }
+  .color-angus{
+    color: #0086CA;
+  }
+
+.borde-braford{
+  border: 5px solid #7e3431;
+}
+
+.color-braford{
+  color: #7e3431;
+}
+
+.borde-hereford{
+  border: 5px solid #00a94f;
+}
+
+.color-hereford{
+  color: #00a94f;
+}
+
+.borde-brangus{
+  border: 5px solid #f4c127;
+}
+
+.color-brangus{
+  color: #f4c127;
+}
+
+
+.max-box-planes .box-manejo:hover{
+  opacity: .8;
+}
+
+
+/*termina colores de razas de vacas*/
+
 #next{
 	background-image: url(../img/next-button.png);
 }
+
+#next:hover{
+	background-image: url(../img/next-buttonover.png);
+}
+
 
 #prev{
 	background-image: url(../img/prev-button.png);
 }
 
+#prev:hover{
+	background-image: url(../img/prev-buttonover.png);
+}
+
 .boton-ganado{
+  margin-top: 30px;
 	width:40px;
 	height: 40px;
 	border: none;
@@ -3014,23 +3453,40 @@ y fondos ubicacion en linea 1441 */
     text-align: center;
 }
 
+.boton-ganado-mobile-1, .boton-ganado-mobile-2 {
+  position: absolute;
 
-
-/*fin estado corporal*/
-
-
-
-.titulo-mobile-enfermedades{
-    background-color: #6D4A84;
 }
 
-/*BOTON VOLVER EN EL HEADER*/
+.boton-ganado-mobile-2{
+  top:0;
+  right: 0;
+}
+
+
+/**************FIN ESTADO CORPORAL	& SLIDER***************/
+
+
+
+/****************BOTON VOLVER EN EL HEADER*************/
 #back-header{
 	background-image: url(ic_arrow_back.svg);
+  display:inline-block;
+  overflow:hidden;
+  opacity: .25;
 }
 
 #back-header2{
 	background-image: url(ic_arrow_back_m.svg);
+	float:left;
+	margin-top:0;
+	height:2.3em;
+	background-position:center;
+	width:50px;
+	height:50px;
+	background-size:1.8em auto;
+	background-repeat: no-repeat;
+	background-position: 0 0.3em;
 }
 
 
@@ -3044,13 +3500,18 @@ y fondos ubicacion en linea 1441 */
 }
 
 
+.glyphicon-remove{
+  color: gray !important;
+}
+
 .boton-volver-header{
-    padding-left: 50px;
+  padding-left: 35px;
 }
 
 .back-p{
 	cursor:pointer;
 	margin:  auto 5px;
+<<<<<<< HEAD
     display: inline-block;
     top: -6.5px!important;
     margin-top: 0px;
@@ -3059,9 +3520,31 @@ y fondos ubicacion en linea 1441 */
     padding-top: 0px;
     position: relative;
 	color:#8c8c8c;
+=======
+  display:inline-block;
+  color: #adadad;
+>>>>>>> origin/master
 }
 
-/*************************** PROTOCOLOS ********************************/
+.navbar-toggle2{
+	position:absolute;
+	left:0;
+	z-index:200;
+}
+
+.boton-volver-header{
+	position:absolute;
+	left:0;
+	z-index:200;
+}
+
+.icon-logout{
+	display:none;
+}
+
+/*****************FIN BOTON VOLVER DEL HEADER************/
+
+/********************** PROTOCOLOS DE REPRODUCCION **************************/
 
 
 .color-title-prod{
@@ -3090,26 +3573,33 @@ y fondos ubicacion en linea 1441 */
     font-size: 1.3rem;
 	min-height: 110px;
     border-bottom: 1px solid grey;
+
 }
 
 .padd-prot{
 	padding-top: 7%;
 }
 
-.orange{
+.prot-po  p{
     margin: 0;
     background: rgba(239, 201, 158, 0.4);
-    margin-bottom: 6px;
+    margin-top: 6px;
     margin-left: 6px;
     font-size: 1.2rem;
 }
 
 .number-protocolo{
 	display: inline-block;
-    font-size: 4rem;
+    font-size: 1.3em;
     color: #ED7C28;
     font-weight: 700;
-    padding-top: 13%;
+}
+
+.number-protocolo .protocolo-dias{
+	font-size:0.9em;
+	font-weight:100;
+	color:#8F8F8F;
+	letter-spacing:0;
 }
 
 .titulo-mobile-prot{
@@ -3120,3 +3610,414 @@ y fondos ubicacion en linea 1441 */
 .remates-box-2{
 	padding: 0px 5px;
 }
+
+/**************FIN PROTOCOLOS DE REPRODUCCION *****************/
+
+/**************Inicio Chat******************/
+.chat-area{
+	height:400px;
+	overflow:auto;
+	width:100%;
+	padding:10px;
+	text-align:left;
+	background-color:white;
+}
+/*.chat-area span{
+
+	padding:10px;
+  color:white;
+  display:inline-block;
+	margin-right:10px;
+
+
+}*/
+.chat-area .admin-nick, .chat-area .user-nick{
+	margin:10px 0;
+	display:block;
+  color:#C5C5C5;
+
+}
+
+ .chat-area .user-nick{
+
+}
+
+.chat-area .admin-message{
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border: 1px solid #adadad;
+  background-color: white;
+  color: #8F8F8F;
+  padding: 10px;
+  max-width: 50%;
+  width: auto;
+  word-wrap: break-word;
+  box-shadow:9px -9px 9px -7px rgb(216, 213, 216);
+}
+
+.chat-area .user-message{
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  background-color: #79BEFE;
+  color: white;
+  padding: 10px;
+  max-width: 100%;
+  width: auto;
+  right: 0;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.chat-wrap,.page-wrap{
+	width:100%;
+}
+.sendie{
+	width:100%;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+
+
+.activeChat{
+	background-color:#DBE5FF!important;
+}
+
+.box-title-ayuda{
+  background-color: #79BEFE;
+  padding: 15px 0px;
+}
+
+.title-inside-ayuda{
+  color: white;
+  text-align: center;
+}
+
+.title-inside-ayuda h1{
+  font-size: 2.4em;
+  margin-top: 10px;
+}
+
+.title-inside-ayuda p{
+  font-size: .9em;
+}
+
+#datosUser input, #datosUser textarea{
+  border:none;
+  border-bottom: 2px solid  #79BEFE;
+  color:#adadad;
+  width: 100%;
+  margin: 20px 0px;
+  min-height: 40px;
+  outline: none;
+}
+
+#datosUser textarea{
+  height: 140px;
+}
+
+
+
+.ayuda-form-side{
+  padding:40px 0px;
+  text-align: left;
+}
+
+.ayuda-form-side form{
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.ayuda-box-side{
+  padding: 40px 30px;
+}
+
+.send-button-a{
+  background:#79BEFE ;
+  color: white !important;
+  width:50% !important;
+  float: right;
+  /*margin-right: 50px;*/
+  padding: 5px;
+  border: none;
+  margin-top: 40px !important;
+}
+
+#ayuda{
+  padding: 0px 30px;
+}
+
+.title-ayuda-mobile{
+  color: #79BEFE;
+  font-size: 1em;
+}
+
+
+.welcome-message{
+  color: #8F8F8F;
+  text-align: center;
+  font-weight: bold;
+}
+.welcome-message span{
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color:#8F8F8F;
+  font-weight: bold;
+}
+
+.hold-message{
+  font-size: .9em;
+  text-align:center;
+  color:#79BEFE !important;
+  margin-top: 15px;
+}
+
+.info-ayuda-admin {
+  color:white;
+  background-color: #00173b;
+  margin:0 ;
+  padding: 5px;
+
+}
+.info-ayuda-admin p a{
+  color: white;
+}
+
+.info-ayuda-admin p a:hover{
+  color: gray;
+}
+
+.chatSelector{
+  border-bottom: 1px solid #adadad;
+  padding:10px 10px;
+  background-color: white;
+  color: #8F8F8F;
+  text-align: left;
+}
+
+
+
+.unreadChat h3{
+  font-weight: bold;
+}
+
+.chatSelector .details-admin, .closeChat{
+  border: none;
+  background-color:  #79BEFE;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.motive{
+  color: #79BEFE;
+}
+
+.unreadChat .icono-chat-2{
+  display: block !important;
+
+}
+.unreadChat .icono-chat-1{
+  display:none !important;
+
+}
+
+.icono-chat-1,.icono-chat-2 {
+  float: right;
+}
+
+.adminLateral{
+  padding:0px 10px;
+}
+.chatsContainer{
+  padding: 0px 30px;
+}
+
+.user-message-container{
+display:inline-block;
+width:50%;
+
+margin-left:49%;
+text-align:right;
+}
+
+.atencion-cliente{
+  font-size: 0.8em;
+  color:  #adadad;
+}
+
+.img-box-ayuda{
+  width:4em;
+}
+
+/**************Fin Chat
+
+
+/*TESTING*/
+
+
+/** comunicado senasa**/
+.comunicado *,.comunicado{
+font-family:"dinpro";
+text-align:justify;
+color:black;
+font-weight:100;
+}
+.comunicado{
+	max-width:550px;
+	display:inline-block;
+}
+
+.comunicado strong,.comunicado h1,.comunicado h3,.comunicado h4{
+font-family:"dinpro-bold";
+}
+.comunicado h1{
+width:100%;
+background:black;
+padding:10px;
+color:white;
+font-size:70px;
+line-height:50px;
+padding-top:20px;
+}
+.comunicado h2{
+margin-bottom:0;
+}
+.comunicado h3{
+margin-top:0;
+font-size:16px;
+}
+
+.comunicado h4{
+font-size:16px;
+margin-top:20px;
+margin-bottom:5px;
+}
+
+.datos-senasa p{
+margin-top:0px;
+margin-bottom:0px;
+}
+
+.adherirse{
+width:100%;
+}
+
+.adherirse .cabecera{
+background-color:#1ec2de;
+width:100%;
+}
+.adherirse .cabecera h2{
+width:100%;
+background-color:#e31770;
+color:#1ec2de;
+font-size:70px;
+line-height:48px;
+padding-top:40px;
+
+padding-left:30px;
+padding-right:30px;
+font-family:"dinpro-bold";
+}
+
+.adherirse .cabecera p{
+color:white;
+padding-left:30px;
+padding-right:30px;
+font-size:18px;
+padding-top:15px;
+padding-bottom:15px;
+}
+
+.adherirse > h2{
+	padding-top:0px;
+	padding-bottom:10px;
+	padding-left:30px;
+padding-right:30px;
+font-size:19px;
+color:#1ec2de;
+}
+
+.adherirse .caja-paso{
+	padding-left:30px;
+padding-right:30px;
+padding-top:20px;
+padding-bottom:30px;
+}
+
+.adherirse .caja-paso h5{
+width:10%;
+min-width:80px
+display:inline-block;
+font-size:70px;
+font-family:"dinpro-bold";
+float:left;
+line-height:30px;	
+color:#1ec2de;
+}
+
+.adherirse .caja-paso ul{
+width:88%;
+display:inline-block;
+color:white;
+font-size:16px;
+}
+
+.adherirse .caja-paso p{
+	font-size:18px;
+	color:white;
+}
+
+.adherirse .caja-paso ul li{
+color:white;
+}
+
+.adherirse .paso-1{
+background-color:#e31770;
+}
+.adherirse .paso-2{
+background-color:#e54f84;
+}
+.adherirse .paso-3{
+background-color:#ec7699;
+}
+.adherirse .paso-4{
+background-color:#f099b0;
+padding-bottom:45px;
+}
+
+.comunicado .adherirse .datos-senasa p,.comunicado .adherirse .datos-senasa p strong{
+	color:#1ec2de;
+}
+
+.comunicado .adherirse .datos-senasa p.senasa-web strong{
+	font-size:24px;
+	color:#e31770;
+	font-family:"dinpro-bold";
+	line-height:18px;
+}
+
+.comunicado .adherirse .datos-senasa p.senasa-mail strong{
+	font-size:22px;
+	color:#1ec2de;
+	font-family:"dinpro-bold";
+	line-height:18px;
+}
+
+.adherirse .fin-senasa{
+height:40px;
+background-color:#1ec2de;
+width:100%;
+}
+.comunicado .logos-senasa {
+	text-align:center;
+	padding-top:20px;
+	
+}
+.comunicado .logos-senasa img{
+	width:35%;
+}
+
+/**fin comunicado senasa**/

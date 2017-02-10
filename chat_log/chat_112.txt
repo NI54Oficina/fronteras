@@ -1,0 +1,8 @@
+
+<div class='user-message-container'><p class='user-nick'>F</p> <p class='user-message'> a </p></div>
+<div class='user-message-container'><p class='user-nick'>F</p> <p class='user-message'>   </p></div>
+<div class='user-message-container'><p class='user-nick'>F</p> <p class='user-message'>     </p></div>
+<div class='user-message-container'><p class='user-nick'>F</p> <p class='user-message'>   </p></div>
+<div class='user-message-container'><p class='user-nick'>F</p> <p class='user-message'> hola! </p></div>
+<div class='user-message-container'><p class='user-nick'>F</p> <p class='user-message'> asd </p></div>
+<span>Conversación terminada</span>

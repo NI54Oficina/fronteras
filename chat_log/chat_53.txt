@@ -1,0 +1,6 @@
+
+<div class='user-message-container'><p class='user-nick'>sdasdasd</p> <p class='user-message'> sdsdfsdf </p></div><br>
+<div class='user-message-container'><p class='user-nick'>sdasdasd</p> <p class='user-message'> sdfsdfsdfsdf </p></div><br>
+<div class='user-message-container'><p class='user-nick'>sdasdasd</p> <p class='user-message'> sdfsdfsdfdsf </p></div><br>
+<div class='user-message-container'><p class='user-nick'>sdasdasd</p> <p class='user-message'> sdfsdfsdfsdf </p></div><br>
+<span>Conversación terminada</span>

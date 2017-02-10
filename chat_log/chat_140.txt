@@ -1,0 +1,10 @@
+
+<div class='user-message-container'><p class='user-nick'>Marisa</p> <p class='user-message'> A mi nadie me responde?! Quiero hablar con el responsable </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Hola mari </p></div>
+<div class='user-message-container'><p class='user-nick'>Marisa</p> <p class='user-message'> Llego </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='user-message-container'><p class='user-nick'>Marisa</p> <p class='user-message'> Va de nuevo </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Hola mari!!!! Probando </p></div>
+<span>Conversación terminada</span>

@@ -1,0 +1,4 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Estimado Franco, gracias por su comentario.  Lo invitamos a conocer nuestra Linea Reproducci&oacute;n y los diferentes protocolos de reproducci&oacute;n ingresando a Producir +  y haciendo click en la gota &quot;Gen&eacute;tica&quot;. </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Quedamos a disposici&oacute;n por cualquier consulta y le ofrecemos el asesoramiento t&eacute;cnico de nuestro equipo de especialistas en el tema. Muchas gracias. </p></div>
+<span>Conversación terminada</span>

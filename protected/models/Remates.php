@@ -5,13 +5,19 @@
  *
  * The followings are the available columns in table 'tbl_remates':
  * @property integer $id
+ * @property integer $cartelera
  * @property string $modalidad
  * @property string $consignatario
  * @property string $lugar
- * @property integer $provincia
- * @property integer $cabezas
+ * @property string $detalle
+ * @property string $provincia
+ * @property string $zona
+ * @property string $cabezas
+ * @property string $tipo
+ * @property string $cate
  * @property string $fecha
  * @property string $categoria
+ * @property string $suspendido
  */
 class Remates extends CActiveRecord
 {
@@ -31,13 +37,15 @@ class Remates extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('modalidad, consignatario, lugar, provincia, cabezas, fecha, categoria', 'required'),
-			array('provincia, cabezas', 'numerical', 'integerOnly'=>true),
-			array('modalidad, categoria', 'length', 'max'=>100),
-			array('consignatario, lugar', 'length', 'max'=>140),
+			//array('cartelera, modalidad, consignatario, lugar, detalle, provincia, zona, cabezas, tipo, cate, fecha, categoria, suspendido', 'required'),
+			array('cartelera', 'numerical', 'integerOnly'=>true),
+			array('modalidad, provincia, cate, categoria, suspendido', 'length', 'max'=>100),
+			array('consignatario, lugar, detalle, zona', 'length', 'max'=>140),
+			array('cabezas', 'length', 'max'=>300),
+			array('tipo', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, modalidad, consignatario, lugar, provincia, cabezas, fecha, categoria', 'safe', 'on'=>'search'),
+			array('id, cartelera, modalidad, consignatario, lugar, detalle, provincia, zona, cabezas, tipo, cate, fecha, categoria, suspendido', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,13 +67,19 @@ class Remates extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'cartelera' => 'Cartelera',
 			'modalidad' => 'Modalidad',
 			'consignatario' => 'Consignatario',
 			'lugar' => 'Lugar',
+			'detalle' => 'Detalle',
 			'provincia' => 'Provincia',
+			'zona' => 'Zona',
 			'cabezas' => 'Cabezas',
+			'tipo' => 'Tipo',
+			'cate' => 'Cate',
 			'fecha' => 'Fecha',
 			'categoria' => 'Categoria',
+			'suspendido' => 'Suspendido',
 		);
 	}
 
@@ -88,13 +102,19 @@ class Remates extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+		$criteria->compare('cartelera',$this->cartelera);
 		$criteria->compare('modalidad',$this->modalidad,true);
 		$criteria->compare('consignatario',$this->consignatario,true);
 		$criteria->compare('lugar',$this->lugar,true);
-		$criteria->compare('provincia',$this->provincia);
-		$criteria->compare('cabezas',$this->cabezas);
+		$criteria->compare('detalle',$this->detalle,true);
+		$criteria->compare('provincia',$this->provincia,true);
+		$criteria->compare('zona',$this->zona,true);
+		$criteria->compare('cabezas',$this->cabezas,true);
+		$criteria->compare('tipo',$this->tipo,true);
+		$criteria->compare('cate',$this->cate,true);
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('categoria',$this->categoria,true);
+		$criteria->compare('suspendido',$this->suspendido,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

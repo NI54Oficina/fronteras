@@ -1,0 +1,3 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> hola! </p></div>
+<span>Conversación terminada</span>

@@ -2,7 +2,7 @@
 	<div class="col-md-12" style="displa:inline-block;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo-blanco.png"  style="width:300px; max-width:80%;padding-top:20px;"/></div>
 	<div class="logo"></div>
 	<!--<div class="item" src="producto/create">Item 1</div>!-->
-	
+	<?php if(false){ ?>
 	<?php if(Yii::app()->permissionChecker->CheckUrl("pais/create")){?>
 	<div class="item" >País</div>
 	<div class="item-list">
@@ -42,6 +42,6 @@
 	</div>
 	<?php } ?>
 	
-	
+	<?php } ?>
 	<div class="item" src="site/logout" >Logout</div>
 </div>

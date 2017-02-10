@@ -1,4 +1,7 @@
+<?php
+$protocolos= Protocolos::model()->findAll();
 
+?>
 
 <!-- REMATES GENERALES -->
 
@@ -8,146 +11,186 @@
 <div class="col-xs-12 hidden-lg hidden-xl titulo-mobile-producir titulo-mobile"> <p> Genética > Protocolo de reproducción  </p> </div>
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs" style="padding:0 5px;">
 	<div class="box-genetica border-shadow">
 		<div class="box-genetica-inner ">
 			<p class="center-to-parent color-genetica planes-h1">Protocolo de reproducción </p>
 		</div>
 	</div>
 </div>
-	
+
+
 
 	<!-- Caja general -->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:20px 30px; text-align:center;">
-
-
-
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile" style="padding:10px 0px; text-align:center;">
+	
+	<div class="hidden-lg cont-fechas-mobile color-title-prod containerColumnas">
+	<?php foreach($protocolos as $p){ ?>
+	<div class="info-remates-mobile">
+	<button class="boton-prueba-atras b-prot-at"><span class="glyphicon glyphicon-triangle-left"></span> </button>
+	<p class=" fecha-remates-mobile ">
+		<?php echo $p["protocolo"]; ?>
+	</p>
+	<button class="boton-prueba b-prot-ad"><span class="glyphicon glyphicon-triangle-right"></span></button>
+	</div>
+	<?php } ?>
+	</div>
 		<!-- Caja general fecha -->
-		<div class="col-lg-2-7 col-md-12 col-sm-12 col-xs-12 col-xl-7 remates-box-2">
-
-		
-			<p class="hidden-lg  fecha-remates-mobile  color-title-prod"> 
-			<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
-			Prioridad
-			<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></p>
-		
-
+		<div class="col-lg-2-7 col-md-12 col-sm-12 col-xs-12 col-xl-7 remates-box-2  containerColumnas">
 
 			<!-- Titulo FECHA -->
-			<div class="title-prot color-title-prod hidden-xs hidden-sm hidden-md"> <h2>Prioridad</h2>
+			<div class="title-prot color-title-prod hidden-xs hidden-sm hidden-md"> <h2>Protocolo</h2>
 			</div>
-		
+
 			<!-- Caja fecha particular -->
-			
+
 				<!--Contenido -->
-			
-				<div class="container-prot info-remates-mobile" hid="1">
-					<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/item-protocolo-01.svg" style="display: block; float: left;display: inline-block;">
-					<p class="number-protocolo">2</p>
+				<?php foreach($protocolos as $p){ ?>
+				<div class="container-prot info-remates-mobile table-indexer prioridad-prot" hid="1">
+					
+							<div class="number-protocolo center-to-parent prot-po">
+									<span class="protocolo-nombre hidden-xs hidden-sm hidden-md"><?php echo $p["protocolo"]; ?><br></span>
+									<span class="protocolo-dias"><?php echo $p["dias"]; ?></span>
+						</div>
 				</div>
-			
+
+				<?php } ?>
+
 		</div>
-		
-		
-		
-		<!-- Caja general: modalidad, consignatorio, lugar, provincia, cabezas -->
-	<!-- 	<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile"> -->
-		
-			<!-- Modalidad -->
-			
+
+		<!-- Modalidad -->
+
 			<div class=" col-xl-7 col-lg-2-7 col-md-6 col-sm-6 col-xs-6 remates-box-2 containerColumnas">
-			
+
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Nombre del producto</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Categoría</h2></div>
 				<!--Contenido -->
-			
+				<?php foreach($protocolos as $p){ ?>
 				<div class="container-prot info-remates-mobile"  id="dias-prot" hid="1">
-					<p class="center-to-parent">7 días con cipionato - Vaquillona</p>
+					<div class="center-to-parent prot-po">
+						<?php echo $p["categorias"]; ?>
+					</div>
 				</div>
+					<?php } ?>
 
 			</div>
-			
-		
+
+
 			<!-- Consignatorio-->
-			
+
 			<div class="col-lg-2-7  col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
-			
+
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 0</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 0</h2></div>
 				<!--Contenido -->
-		
-				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot">Colocar CRONIPRES MONODOSIS</p>
-					<p class="orange">2 ml BIOESTROGEN</p>
-					
-				</div>
-		
-			</div>
-			
-		
-			<!-- Lugar-->
-			
-			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
-			
-				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 7</h2></div>
-				<!--Contenido -->
+				<?php foreach($protocolos as $p){ ?>
 
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot">Retirar CRONIPRES MONODOSIS</p>
-					<p class="orange">1 ml CRONI-CIP</p>
-					<p class="orange">2 ml ENZAPROST D-C</p>
-					
+					<div class="padd-prot center-to-parent prot-po">
+						<?php echo $p["dias0"]; ?>
+					</div>
+
 				</div>
-			
+
+				<?php }?>
+
 			</div>
-			
-		
+
+
+			<!-- Lugar-->
+
+			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
+
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 7</h2></div>
+				<!--Contenido -->
+				<?php foreach($protocolos as $p){ ?>
+				<?php if($p->id==12){ ?>
+				<div class="container-prot info-remates-mobile" hid="1">
+					<div class="prot-po" style="width:100%;">
+					
+					<?php echo $p["dias7"]; ?>
+					
+					</div>
+				
+
+				</div>
+				<?php }else{ ?>
+				<div class="container-prot info-remates-mobile" hid="1">
+					<div class="padd-prot center-to-parent prot-po">
+					<?php echo $p["dias7"]; ?>
+					</div>
+				</div>
+				<?php } ?>
+				<?php }?>
+
+			</div>
+
+
 			<!-- Provincia -->
 			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
-			
-				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 8</h2></div>
-				<!--Contenido -->
-				<div class="container-prot info-remates-mobile" hid="1">
 
-					
-				</div>
-				
-				
-			</div>
-		
-			<!-- Cabezas-->
-			
-			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
-			
 				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 9</h2></div>
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 8</h2></div>
 				<!--Contenido -->
+
+				<?php foreach($protocolos as $p){ ?>
 				<div class="container-prot info-remates-mobile" hid="1">
-					<p class="padd-prot">IATF (48 hr)</p>
-					
-				</div>
-				
-				
-			</div>
-			
-			<!-- Cabezas-->
-			
-			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
-			
-				<!-- Titulo -->
-				<div class="title-prot color-title-prod"><h2>Día 10</h2></div>
-				<!--Contenido -->
-			
-				<div class="container-prot info-remates-mobile" hid="1">
+					<div class="center-to-parent prot-po">
+						<?php echo $p["dias8"]; ?>
+				 </div>
 
 				</div>
-				
+					<?php }?>
+
+
 			</div>
-			
+
+			<!-- Cabezas-->
+
+			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
+
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 9</h2></div>
+				<!--Contenido -->
+
+					<?php foreach($protocolos as $p){ ?>
+
+				<div class="container-prot info-remates-mobile" hid="1">
+
+					<div class="center-to-parent prot-po">
+						<?php echo $p["dias9"]; ?>
+					</div>
+
+				</div>
+
+				<?php }?>
+
+			</div>
+
+			<!-- Cabezas-->
+
+			<div class="col-lg-2-7 col-md-6 col-sm-6 col-xs-6 col-xl-7 remates-box-2 containerColumnas">
+
+				<!-- Titulo -->
+				<div class="title-prot color-title-prod"><h2 class="center-to-parent">Día 10</h2></div>
+				<!--Contenido -->
+
+				<?php foreach($protocolos as $p){ ?>
+
+				<div class="container-prot info-remates-mobile" hid="1">
+					<div class="center-to-parent prot-po">
+						<?php echo $p["dias10"]; ?>
+					</div>
+
+				</div>
+
+				<?php }?>
+
+			</div>
+
 		<!-- </div> -->
-	
+
 	</div>
 
 </section>
@@ -155,8 +198,9 @@
 <script>
 
 
-$(document).ready(function () {	
+$(document).ready(function () {
 	turnOnButtonRemates();
+	setTimeout(function(){CenterToParent();},100);
 });
 
 

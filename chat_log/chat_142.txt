@@ -1,0 +1,6 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> ok </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> a ver? </p></div>
+<div class='user-message-container'><p class='user-nick'>Gustavo Lagioia </p> <p class='user-message'> Veo perfecto  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Actualmente la mesa de ayuda se encuentra en construcción, disculpe las molestias ocasionadas.</p></div>
+<span>Conversación terminada</span>

@@ -13,12 +13,16 @@ include("clases-noticias.php");
 	if(!isset($categoria)){
 		$categoria="all";
 	}
-	$notas=FeedNoticias::model()->GetLast(2,$categoria);
+	$notas=FeedNoticias::model()->GetLast(3,$categoria);
 	
 	if($notas){
-		
+		$contadorNotas=0;
 		foreach($notas as $f){
-			
+			if(isset($currentId)&&$currentId==$f->id){
+				continue;
+			}else{
+				$contadorNotas++;
+			}
 	?>
 	<!-- Noticia 2-->
 	<a href="/<?php if(isset($_SESSION['webRoot'])){echo $_SESSION['webRoot'];} ?>noticia/<?php echo $f["nid"]; ?>"> 
@@ -46,7 +50,11 @@ include("clases-noticias.php");
 				
 				<!-- Fecha -->
 				<div class="fecha">
-					<p><?php echo $f["fecha"]; ?></p>
+					<p><?php 
+					$utime= strtotime($f["fecha"]);
+					echo date("d-m-Y",$utime);
+					
+					?></p>
 					
 				</div>
 				
@@ -56,6 +64,11 @@ include("clases-noticias.php");
 	</div>
 
 	</a>	
+	<?php
+	if($contadorNotas>=2){
+		break;
+	}
+	?>
 		<?php }  }?>
 	
 

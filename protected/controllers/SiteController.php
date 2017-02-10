@@ -21,19 +21,19 @@ class SiteController extends Controller
 			),
 		);
 	}
-	
+
 	public function filters()
 	{
 		return array(
 			'accessControl', // perform access control for CRUD operations
 		);
 	}
-	
+
 	public function accessRules()
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','error',"contact","login","logout","captcha","forbidden","chatprocess","chatInit","chatFinish","lastChat","chatData"),
+				'actions'=>array('index','error',"contact","login","logout","captcha","forbidden","chatprocess","chatInit","chatFinish","lastChat","chatData","download"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -56,7 +56,7 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
-	
+
 	public function actionAdmin()
 	{
 		// renders the view file 'protected/views/site/index.php'
@@ -75,8 +75,8 @@ class SiteController extends Controller
 			if(Yii::app()->request->isAjaxRequest){
 				echo $error['message'];
 			}else{
-				
-			
+
+
 				$this->renderPartial("//static/layout");
 				$this->renderPartial('//static/error', $error);
 				$this->renderPartial("//static/footer");
@@ -125,16 +125,16 @@ class SiteController extends Controller
 			$_SESSION["lng"]= "es";
 		}
 		$model=new LoginForm;
-		
+
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form'){
 			echo $_POST["ajax"];
 		}else if(isset($_POST['LoginForm'])){
-					
+
 			$identity=new UserIdentity( $_POST["LoginForm"]["username"], $_POST["LoginForm"]["password"]);
 			//echo $identity->authenticate();
 			if($identity->authenticate()){
 				Yii::app()->user->login($identity);
-				$this->redirect('/'.$_SESSION['webRoot']."site/admin");
+				$this->redirect('/'.$_SESSION['webRoot']."ar/ayuda");
 			}else{
 				echo $identity->errorMessage;
 			}
@@ -158,47 +158,47 @@ class SiteController extends Controller
 				//Yii::app()->user->login($identity);
 				$this->redirect(Yii::app()->user->returnUrl);
 			else
-				echo $identity->errorMessage;	
-			
-			
+				echo $identity->errorMessage;
+
+
 		}
 		// display the login form
 		*/
 	}
 	public function actionChatprocess($id){
-		
+
 		$admin=true;
 		if(!Yii::app()->user->id){
 			  $admin=false;
 		  }
-		
+
 		$chat= Chat::model()->findByPk($id);
 		if(!$chat){
 			exit();
 		}
-		
+
 		$webroot = Yii::getPathOfAlias('webroot');
 		$file =  $webroot . DIRECTORY_SEPARATOR . 'chat_log' . DIRECTORY_SEPARATOR . "chat_".$id.'.txt';
-		
+
 		$function = $_POST['function'];
-		
+
 		$log = array();
-		
+
 		switch($function) {
-		
+
 			 case('getState'):
-				
+
 				 if(file_exists($file)){
 				   $lines = file($file);
 				 }
 				 /*if(isset($lines)){
-				 $log['state'] = count($lines); 
+				 $log['state'] = count($lines);
 				 }else{
 					 $log['state'] =0;
 				 }*/
 				 $log["state"]=0;
-				 break;	
-			
+				 break;
+
 			 case('update'):
 				if(!isset($_POST["state"])){
 					$state=0;
@@ -216,7 +216,7 @@ class SiteController extends Controller
 				 if($state == $count){
 					 $log['state'] = $state;
 					 $log['text'] = false;
-					 
+
 					 }
 					 else{
 						 if(isset($lines)){
@@ -227,51 +227,55 @@ class SiteController extends Controller
 							   if($line_num >= $state){
 							 $text[] =  $line = str_replace("\n", "", $line);
 							   }
-			 
+
 							}
-						 $log['text'] = $text; 
+						 $log['text'] = $text;
 						 }
 					 }
-				  
+
 				 break;
-			 
+
 			 case('send'):
 			  //$nickname = htmlentities(strip_tags($_POST['nickname']));
-			  if($chat->abierto==0){
+			  if($chat->abierto==0||trim($_POST['message'])==""){
 				  exit();
 			  }
 			  if($admin){
-				  $nickname= "Admin";
+				  $nickname= "Biogénesis Bagó";
 			  }else{
 				  $nickname= $chat->nombre;
 			  }
 				 $reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
 				  $message = htmlentities(strip_tags($_POST['message']));
 			 if(($message) != "\n"){
-				
+
 				 if(preg_match($reg_exUrl, $message, $url)) {
 					$message = preg_replace($reg_exUrl, '<a href="'.$url[0].'" target="_blank">'.$url[0].'</a>', $message);
-					} 
-				 
-				
-				 fwrite(fopen($file, 'a'), "<span>". $nickname . "</span>" . $message = str_replace("\n", " ", $message) . "\n"); 
+					}
+
+					if($admin){
+				 	fwrite(fopen($file, 'a'), "<div class='admin-message-container'><p class='admin-nick'>". $nickname . "</p> <p class='admin-message'> " . $message = str_replace("\n", " ", $message)."</p></div>" . "\n");
+				 }else{
+					 //fwrite(fopen($file, 'a'), "<div class='user-message-container'><p class='user-nick'>". $nickname . "</p> <p class='user-message'> " . $message = str_replace("\n", " ", $message)."</p></div>" . "\n");
+					 fwrite(fopen($file, 'a'), "<div class='user-message-container'><p class='user-nick'>". $nickname . "</p> <p class='user-message'> " . $message = str_replace("\n", " ", $message)."</p></div>" . "\n");
+				 }
 			 }
 				 break;
-			
+
 		}
-		
+
 		echo json_encode($log);
 	}
 	public function actionChatprocess2($id){
 		//chequear ip solo en no admins???
-		
+
 		header('Content-Type: text/event-stream');
 		header('Cache-Control: no-cache');
 		if(isset($_POST['name'])&&isset($_POST['msg'])){
 			$name=strip_tags($_POST['name']);
 			$msg=strip_tags($_POST['msg']);
 		}
-		
+
 		$webroot = Yii::getPathOfAlias('webroot');
 		$file =  $webroot . DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . $id .'.txt';
 
@@ -281,27 +285,27 @@ class SiteController extends Controller
 		  flush();
 		}
 		if(!empty($name) && !empty($msg)){
-			$fp = fopen($file, 'a');  
-			fwrite($fp, '<div class="chatmsg"><b>'.$name.'</b>: '.$msg.'<br/></div>'.PHP_EOL);  
-			fclose($fp);  
+			$fp = fopen($file, 'a');
+			fwrite($fp, '<div class="chatmsg"><b>'.$name.'</b>: '.$msg.'<br/></div>'.PHP_EOL);
+			fclose($fp);
 		}
 			$html="";
-		  if(file_exists($file) && filesize($file) > 0){  
+		  if(file_exists($file) && filesize($file) > 0){
 		   $arrhtml=array_reverse(file($file));
 		   //$html=$arrhtml[0];
 		   foreach(file($file)as $f){
 			   $html.= $f;
 		   }
-			
+
 		  }
 		  /*if(filesize($file) > 100){
 			unlink($file);
 		  }*/
-		  
+
 
 		sendMsg($html);
 	}
-	
+
 	public function actionChatInit(){
 		$newChat= new Chat();
 		$newChat->nombre= $_POST["nombre"];
@@ -314,10 +318,11 @@ class SiteController extends Controller
 		$id= $newChat->id;
 		$webroot = Yii::getPathOfAlias('webroot');
 		$file =  $webroot . DIRECTORY_SEPARATOR . 'chat_log' . DIRECTORY_SEPARATOR . "chat_".$id.'.txt';
-		fwrite(fopen($file, 'a'), "<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>". "\n"); 
+		//fwrite(fopen($file, 'a'), "<span>Bienvenido a la mesa de ayuda de Fronteras 2.0. Aguarde unos instantes y será atendido.</span>". "\n");
+		fwrite(fopen($file, 'a'), "". "\n");
 		echo $id;
 	}
-	
+
 	public function actionLastChat($id){
 		$conf = new PermissionChecker;
 		if(!$conf->CheckUrl("/chat")){
@@ -325,44 +330,48 @@ class SiteController extends Controller
 		}
 		echo Chat::model()->chatList($id);
 	}
-	
+
 	public function actionChatData($id){
 		$conf = new PermissionChecker;
 		if(!$conf->CheckUrl("/chat")){
 			return false;
 		}
 		$chat= Chat::model()->findByPk($id);
+		if($chat->abierto==1){
 		$toEcho="";
 		$toEcho.=$chat->nombre.";;;;;";
 		$toEcho.=$chat->motivo;
 		echo $toEcho;
+		}else{
+			echo "no";
+		}
 	}
-	
+
 	public function actionChatFinish($id){
 		$conf = new PermissionChecker;
 		if(!$conf->CheckUrl("/chat")){
 			return false;
 		}
-		
+
 		$chat= Chat::model()->findByPk($id);
 		if(!$chat){
 			exit();
 		}
-		
+
 		$webroot = Yii::getPathOfAlias('webroot');
 		$file =  $webroot . DIRECTORY_SEPARATOR . 'chat_log' . DIRECTORY_SEPARATOR . "chat_".$id.'.txt';
-		
+
 		if($chat->abierto==0){
 			  exit();
 		  }
-		  
+
 			 $reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
-			 
-			 
-			
-			 fwrite(fopen($file, 'a'), "<span>". "Conversación terminada" . "</span>"); 
-		
-		
+
+
+
+			 fwrite(fopen($file, 'a'), "<span>". "Conversación terminada" . "</span>");
+
+
 		$chat->abierto= 0;
 		echo $chat->save();
 	}
@@ -375,10 +384,20 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-	
+
 	public function actionForbidden(){
 		$this->renderPartial('//static/forbidden');
+
+
+	}
+	
+	public function actionDownload($link){
+		$link= str_replace(";","/",$link);
+		$fileName=strrpos($link,"/")+1;
+		$fileName=substr ($link,$fileName);
 		
-		
+		header("Content-Type: application/octet-stream");
+		header("Content-Disposition: attachment; filename=".$fileName);
+		readfile(Yii::app()->getBaseUrl(true).'/uploads/'.$link);
 	}
 }

@@ -1,0 +1,38 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> buenas! </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> llega el mensaje? </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Hola fran </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> te funca bien? </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Si si  </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> a vos te llega bien? </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> si, perfectamente </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> buen&iacute;simo  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> probamos al reves?  </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Ahora hay que ver como hago yo paea que respondan los t&eacute;cnicos que van a ser quienes se encarguen de esto </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> deberian poder loguearse y responder sin problemas </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> No tengo conect&oacute; o </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> mmm es todo un tema eso </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> ac&aacute; no puedo probar </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> desde el celu el problema es que hay que trabajarle m&aacute;s la interfaz pq no le da el espacio a como esta el layout en pc </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> osea, tengo que hacer un popup, menu desplegable o segunda pantalla con toda la lista de chats </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> ok </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> queres una respuesta automatizada? </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> pongamos en construcci&oacute;n hasta qye definamos todo </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Ma&ntilde;ana tiene que estar listo  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> osea necesitas que lo puedan acceder al admin desde el celular? </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> porque desde pc anda, yo te ando respondiendo desde mi pc </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> ser&iacute;a ideal </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Porque hay gente que a veces est&aacute; afuera  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> mmm oka, dejame ver que puedo armar rapido para que funcione en celular de alguna manera el admin </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> le pongo el mensaje de construcci&oacute;n de mientras? sino puedo poner una respuesta automatica del servidor para que lo vean igual </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> que automatico responda el admin &quot;Actualmente el chat de encuentra en construcci&oacute;n, a partir del 19-07 se encontrar&aacute; funcional&quot; o algo similar? </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Lo del celu tranqui  </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> m&aacute;s adelante </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> dale pone en construcci&oacute;n sin fecha </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> pero lo dejo como mensaje del admin </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> osea, una respuesta, te parece?  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> dame unos mins y te lo muestro si queres </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Si tranqui  </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> cerra la app al completo y volver a abrir la mesa de ayuda. Intenta mandar un mensaje en el chat y te va a aparecer el mensaje de en construcci&oacute;n en respuesta </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> si respondes aca de una tmb te va a aparecer, pero para que veas como ser&iacute;a la experiencia de usuario </p></div>
+<span>Conversación terminada</span>

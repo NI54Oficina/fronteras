@@ -20,8 +20,17 @@ $iconEqual='<span class="glyphicon" style="font-size:1.5em;position:relative;top
 	
 	
 	<?php include("mercados/ganado.php") ?>
+	
 	<?php include("mercados/indicadores.php") ?>
+	
+	
+	<?php 
+	//if($_SERVER['REMOTE_ADDR']=="190.192.167.63"){
+		include("mercados/leche.php");
+	//}
+	?>
 	<?php include("mercados/grano.php") ?>
+	
 	</div>
 	
 	<script>

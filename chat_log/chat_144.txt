@@ -1,0 +1,6 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> hola </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Hola soy Chocho </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> no se ve? </p></div>
+<div class='user-message-container'><p class='user-nick'>Mari</p> <p class='user-message'> Sigue sin llegar </p></div>
+<span>Conversación terminada</span>

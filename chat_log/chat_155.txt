@@ -1,0 +1,9 @@
+
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Hola </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> responde Jes&uacute;s  </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Hola aaaaaa </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> esto es una cagada </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Gracias </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> mmmmm </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> y y y y y </p></div>
+<span>Conversación terminada</span>

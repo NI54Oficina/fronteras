@@ -1,0 +1,2644 @@
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+/**{
+transition:0.5s;
+}*/
+
+a:focus{
+	text-decoration:none;
+}
+
+
+/*--------------------------------------------------------------------------------- CSS  LAYOUT E INTERIOR ------------------------------------------------------*/
+
+
+/****************************************
+************** GENERAL **************/
+
+
+
+html{
+	margin:0;
+	padding:0;
+}
+
+
+/*FONTS*/
+@font-face {
+    font-family: 'arialregular';
+    src: 
+        url('../fonts/DaxlinePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arialregular';
+    src: url('../fonts/arial-webfont.eot');
+    src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial-webfont.woff2') format('woff2'),
+         url('../fonts/arial-webfont.woff') format('woff'),
+         url('../fonts/arial-webfont.ttf') format('truetype'),
+         url('../fonts/arial-webfont.svg#arialregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body{
+	background-color: #f7f7f7;
+	font-family:'arialregular';
+}
+
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+	border:none;
+}
+
+
+
+li{
+	list-style:none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+p{
+	font-family:'arialregular';
+}
+
+.center-to-parent{
+	display:inline-block;
+}
+
+.fadder{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+/** Header **/
+
+header{
+	top:0;
+}
+
+.header-logos{
+	width: 100vw;
+    background: rgb(248, 242, 236);
+    min-height: 30px;
+    -webkit-box-shadow: inset -1px 4px 40px 0px rgb(245, 238, 230);
+    -moz-box-shadow: inset -1px 4px 40px 0px rgba(237,210,180,1);
+    box-shadow: inset -1px 4px 40px 0px rgb(243, 234, 226);
+    padding-bottom: 0px;
+    height: 74px;
+}
+
+header .home-upper-box > div{
+	display:none;
+}
+
+.cont-section-mobile{
+	display:none;
+}
+
+#hoy-header-m{
+	background:transparent;
+} 
+
+/* Caja menú mes */
+#mes-header-m{
+	background:transparent;
+} 
+
+/* Caja menú producir */
+#producir-header-m{
+	background:transparent;
+} 
+
+/* Caja menú ayuda*/
+#ayuda-header-m{
+	background:transparent;
+} 
+	
+header .home-upper-box {
+   display:none;
+}
+
+header .ayuda-box, .ayuda-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .ayuda-box {
+    background-color:transparent;
+}
+
+header .home-box > div {
+    box-shadow:none;
+}
+
+
+header .producir-box, .producir-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .producir-box {
+    background-color:transparent;
+}
+
+
+header .estemes-box, .estemes-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .estemes-box {
+    background-color:transparent;
+}
+
+header .hoy-box, .hoy-box >div {
+    background-color: transparent;
+}
+
+
+header .home-box:hover > .hoy-box {
+    background-color:transparent;
+}
+
+.p-header-mobile {
+    color: #8c8c8c;
+    font-size: 1em;
+    margin-bottom: 0px;
+    margin-top: -5%;
+    display: block;
+    text-align: center;
+    width: 6vw;
+}
+
+.flecos-header div{
+	background-image:url(../img/fleco-nuevo.png);
+    width: 100vw;
+    height:25px;
+    background-repeat: repeat-x;
+}
+
+.ul-nav li{
+	display:inline-block;
+}
+
+.ul-nav li a{
+	color:#8C8C8C;
+	font-size: 1em;
+}
+
+.ul-nav li a:hover {
+	color: #5D5A5A;
+}
+
+
+.ul-nav li:nth-child(2){
+	text-align: right;
+    padding-right: 45px;
+}
+
+.headermobile .navbar-collapse{
+	height:0;
+}
+.headermobile .navbar-collapse.in{
+	min-height:100vh !important;
+	height:auto;
+	overflow:visible;
+}
+
+.headermobile .navbar-collapse{
+	background-color:#f2f2f2;
+	width:100vw;
+	height:100vh;
+ }
+ 
+ .headermobile .dropdown-header-nav{
+	max-height:0;
+	transition: max-height 0.3s ease-out;
+	display:block;
+	overflow:hidden;
+	position:initial;
+	padding-left:0;
+	padding-top:0;
+ }
+ 
+ .headermobile .dropdown-header-nav.opened{
+	max-height: 50000px;
+	transition: max-height 0.3s ease-in;
+	padding-left:0;
+	margin:0;
+ }
+ 
+ .headerDesktop .dropdown-header-nav{
+	display:none;
+	background-color:white;
+	border: black solid 1px;
+ }
+ 
+ .li-header:hover > .dropdown-header-nav{
+	display:block;
+	position:absolute;
+ }
+
+ 
+.logo-bago-header{
+	float: right;  
+	padding-right: 50px;  
+	padding-top: 19px;  
+	width: 270px;
+}
+
+.logo-fronteras{
+	width: 270px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+ 
+.header-palabras-menu{
+	width: 100vw;
+	text-align: left;
+	background: #F7F7F7; 
+	padding: 0px 0px;
+	z-index: -1; 
+	margin-top: -31px; 
+	padding-top: 35px;
+}
+/**Fin Header**/
+
+
+
+
+/******************SECTION**********/
+.section {
+ 	padding: 50px 45px;
+	opacity:0;
+	transition:0.5s;
+ }
+/*****FIN SECCION******/
+
+
+
+
+/* Tres cajas (mercados, clima. noticias del sector)*/
+.clima-title{
+	padding: 0;
+	background-color: #2E9DFB;
+	height:82%;
+}
+
+.clima-title h1 {
+	text-align: center;
+	display: inline-block;
+
+}
+
+
+.maxboxes-inner{
+ 	padding: 35px 25px;
+}
+
+.box-mercado-clima-noticias {
+	padding:0px 25px;
+}
+.box-mercado-clima-noticias> a {
+	padding:10px 0px;
+}
+
+.box-mercado-clima-noticias >a> .maxboxes{
+	padding:5px;
+	background-color:transparent;
+	color:white;
+	font-family:'arialregular';
+	text-align:center;
+}
+
+
+/* Caja mercados*/
+.box-mercado-clima-noticias > a> div> .maxbox-mercados{
+	background-color:#28A382;
+	min-height: 100%;
+}
+
+/* Caja clima*/
+.box-mercado-clima-noticias >a> div> .maxbox-clima{
+	background-color:#2E9DFB;
+	min-height: 100%;	
+
+}
+
+/* Caja noticias del sector*/
+.box-mercado-clima-noticias > a> div> .maxbox-noticias {
+	background-color:#2ED7AA;
+	height:100%;
+	text-align:center;
+}
+
+
+/* Tres cajas (mercados, clima. noticias del sector) H3 TITULO*/
+.maxbox-mercado h3, .maxbox-clima h3, .maxbox-noticias h3{
+	color:#fff;
+	text-align: left;
+  	font-size: 2.5rem;
+}
+
+
+
+
+/******************************
+******** MERCADOS *******
+******************************/
+
+/* Mercados: cajas (compra,venta)*/
+.box-mercado-clima-noticias .small-boxes-mercado{
+	/*min-height:220px;*/
+}
+
+/*Mercados: Titulo "mercados"*/
+.maxbox-mercados p{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+/* Mercados: cajas (compra,venta) H4 TITULOS*/
+.box-mercado-clima-noticias .small-boxes-mercado h4{
+    font-size: 1.3em;
+	text-align:center;
+}
+
+/* Mercados: cajas (compra,venta) párrafos*/
+.box-mercado-clima-noticias .small-boxes-mercado p{
+	text-align:center;
+    font-size: 2.2em;
+	margin-bottom:0;
+}
+
+.maxbox-ampliar{
+	
+	text-align: center;
+}
+
+.maxbox-ampliar > h5 {
+	text-align:center;
+	text-transform:uppercase;
+    font-size: 2.5em;
+	letter-spacing:1px;
+	margin:0;
+	line-height:0.8em;
+}
+
+.mercados-moneda {
+	margin:10px 0px;
+}
+
+.boxhoy-mercados > h3{
+	font-size: 1.9em;
+}
+
+
+.maxboxes:hover{
+	opacity: .8;
+}
+
+.maxbox-ampliar > h5:hover{
+	text-shadow: 3px 3px rgba(0,0,0,.5);
+	transition: .3s;
+}
+
+.subtablesNav > .selectedSubTable{
+	background-color:#D0CFCF;
+}
+
+
+/******************************
+*********** CLIMA ***********
+******************************/
+.clima-pronostico{
+	margin: 10px 0px;
+}
+
+.maxbox-clima h3{
+	margin:0;
+	margin-top: 20px;
+	font-weight:700;
+	text-align:center;
+	font-size: 1.9em;
+}
+
+.maxbox-clima h4{
+	text-align:center;
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+.box-mercado-clima-noticias .small-boxes-mercado > img{
+	width: auto;
+}
+
+.maxbox-clima  .small-boxes-mercado p:first-child{
+    font-size: 2.2em;
+}
+
+.clima-pronostico >.small-boxes-mercado p:nth-child(2){
+    font-size: 1.3em;
+}
+
+.box-clima option,.box-clima select{
+	color: #B2B2B2;
+    font-size: 1.6rem;
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-family: 'arialregular';
+}
+
+
+.box-clima option:focus,.box-clima select:focus{
+	outline:none;
+}
+
+/*********************************************
+*********** NOTICIAS SECTOR ***********
+*********************************************/
+.maxbox-noticias .container-noticias-sector{
+    text-align: center;
+}
+
+.maxbox-noticias .container-noticias-sector > img{
+    text-align: center;
+    padding: 0px 20px;
+    width: auto;
+    display: inline-block;
+    max-width: 50%;
+}
+
+.maxbox-noticias  h4{
+    text-align: center;
+    font-size: 1.9em;
+    line-height: 1.3em;
+    max-width: 200px;
+    display: inline-block;
+	margin:0;
+}
+
+.container-imagen-nota, .container-imagen-nota-col{
+	width:100%;
+	height:100px;
+	background-size:  auto 100%;
+}
+
+
+/**********************************************
+*********** SECCIÓN MERCADO***********
+**********************************************/
+.box-mercado {
+	padding:0 25px;
+	border:none;
+	font-family:'arialregular';
+}
+
+.box-mercado div{
+	padding:5px;
+	background-color:transparent;
+	text-align:center;
+	padding-bottom:30px;
+}
+
+
+.box-mercado > .box-mercado-title > div{
+	background-color:#28A382;
+	min-height: 205px;
+	height:100%;
+	border:none;
+}
+
+/* Mercado de Liniers */
+.box-mercado > div > div{
+	border:1px solid #28A382;
+	height:100%;
+	background:white;
+}
+
+
+/* TÍTULO MERCADOS primer div */
+.box-mercado > div:first-child > div h1{
+	font-weight:300;
+	letter-spacing:2px;
+	text-align:center;
+	margin:0;
+	color:#fff;
+
+}
+
+/* Primer div sin borde */
+.box-mercado > div:first-child{
+	border:none;
+
+}
+
+
+/* TÍTULOS divs 2,3,4,5,6 */
+.container-items-mercados h3{ 
+	color:#2EA982!important;
+	text-align:center!important;
+    font-weight: 700;
+    font-size: 2.1rem!important;
+}
+
+
+/*MERCADO DE LINIERS */
+.box-mercado > div:nth-child(2) > div .icon-number-mercados{
+    min-height: 100px;
+	text-align:center;
+    padding-top: 30px;
+}
+
+
+/* Imágen vaca */
+.box-mercado > div:nth-child(2) > div > div img{
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+}
+
+/* Número */
+.box-mercado > div:nth-child(2) > div > div > p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+	color:#323232;
+	margin: 0;
+    vertical-align: sub;
+}
+
+/* TABLA */
+.box-mercado .general-table-mercados{
+    padding-top: 0px;
+}
+	
+.table-mercado{
+	min-height:30px!important;
+	padding:0!important;
+}
+
+.table-mercado div{
+	padding:0;
+	background:#F1F2F3;
+	text-align:left;
+	min-height:30px;
+}
+
+/* Categoría */
+.table-mercado div{
+    min-height: 30px;
+	text-align:center;
+    padding: 0px;
+}
+
+/* Categoría título */
+.table-mercado > div:first-child > h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+
+/*  Precio */
+.table-mercado > div:nth-child(2){
+    min-height: 30px;
+	text-align:center;
+    padding: 0px;
+}
+
+
+/* Precio título */
+.table-mercado > div:nth-child(2) h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/* Var Día */
+.table-mercado > div:nth-child(3){
+    min-height: 30px;
+	text-align:center;
+    padding-top: 0px;
+}
+
+/* Var Día título */
+.table-mercado > div:nth-child(3) h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/* ITEMS INTERIOR TABLA*/
+.table-mercado-items div{
+	background-color:white;
+	border-bottom:1px solid #F2F2F2;
+}
+
+.table-mercado-items > div:nth-child(2) > h3{
+	color:#388B00;
+}
+
+.table-mercado-items > div:nth-child(2) > img{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+
+/* EL PRECIO DE LA LECHE */
+.box-mercado > div:nth-child(3) > div .icon-number-mercados{
+    min-height: 100px;
+	text-align:center;
+    padding-top: 30px;
+}
+
+
+/* Imágen vaca */
+.box-mercado > div:nth-child(3) > div > div img{
+    display: inline-block;
+    width: auto;
+    max-width:100%;
+}
+
+/* Número */
+.box-mercado > div:nth-child(3) > div > div > p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+	color:#323232;
+	margin: 0;
+    vertical-align: bottom;
+}
+
+
+/*COTIZACIÓN DE  MONEDA EXTRANJERA */
+
+.box-mercado  .table-mercado-items .moneda-mercados{
+    color:  #8c8c8c;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.table-mercado > div:nth-child(4){
+    min-height: 30px;
+	text-align:center;
+    padding-top: 0px;
+}
+
+.table-mercado > div:nth-child(4) h3{
+	color:#3F3F3F;
+    font-size: 1.8rem;
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.box-mercado  .table-mercado-items .fecha-mercados{
+	color:#3F3F3F;
+    font-size: 1.5rem;
+}
+
+
+/********************************
+************* CLIMA ***********
+********************************/
+
+/* Cajas clima general */
+.form-clima{
+	text-align: left;
+}
+
+.box-clima{
+	padding:30px 25px;
+}
+
+.box-clima > div{
+	padding:0px 5px;
+	padding-top: 10px;
+	background-color:transparent;
+	color:white;
+	font-family:'arialregular';
+}
+
+
+/* CAJA CLIMA PRIMERA*/
+.box-clima  .form-clima{
+	background-color:#F1EFEF;
+	min-height: 50px;
+    border-bottom: 4px solid #0078B9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+	margin-bottom:4px;
+}
+
+
+/* Título ZONA */
+.box-clima  > div:first-child > div:first-child h1{
+	text-align:left;
+	color:#B2B2B2;
+	font-size:1.8rem;
+	margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.box-clima .box-clima-title{
+	/*background-color:#2E9DFB;*/
+}
+
+/* Título CLIMA */
+.box-clima  > div:first-child > div:nth-child(2) h1{
+	text-align:center;
+	margin:0;
+    padding-top: 120px;
+}
+
+
+
+/* Cajas clima normales */
+.box-clima  .box-clima-inner{
+	background-color:transparent;
+	padding:20px 20px;
+	border:2px solid #2E9DFB;
+	height:100%;
+}
+
+.box-clima .inner-data{
+	padding-top:25px;
+}
+
+.box-clima  .fecha-descripcion{
+	margin:0;
+	font-weight:700;
+	text-align:center;
+	padding-left:0;
+	font-size: 1.9em;
+	color:#2E9DFB;
+}
+
+.box-clima p {
+	color:#8C8C8C;
+	margin:0;
+}
+.box-clima  h4{
+	text-align:left;
+	font-weight: bold;
+    font-size: 2rem;
+	color:#36464E;
+	margin:0;
+}
+
+.box-clima .small-boxes-mercado > img{
+	width: auto;
+}
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p{
+    font-size: 1.7em;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(3){
+	color:#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(2) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+/* Información del clima */
+.box-clima .info-clima{
+	text-align: left;
+    padding-top: 15px;
+}
+
+
+.box-clima .info-clima > h4{
+	padding: 0; 
+	margin: 0;
+}
+
+.box-clima .info-clima > p{
+	padding: 4px 0; 
+	margin: 0;
+}
+
+.clima-datos {
+    padding-bottom:5px;
+	text-align:left;
+}
+
+.clima-datos p {
+    text-align: left;
+}
+
+#formClima{
+    padding-top: 13px;
+}
+
+/********* Clima 2 ************/
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p{
+    font-size: 1.7em;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(2){
+	color:#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(3){
+	color:#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(3) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+/********* Clima 3 ************/
+.box-clima >  div:nth-child(4) .small-boxes-mercado p{
+    font-size: 1.7em;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(2){
+	color:#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(3){
+	color:#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(4) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+/********* Clima 4 ************/
+.box-clima >  div:nth-child(5) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top:30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(5) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+/********* Clima 5 ************/
+
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(6) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+
+
+
+
+/********* Clima 6 ************/
+.box-clima >  div:nth-child(7) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:nth-child(2){
+	color:	#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(7) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+
+/********* Clima 7 ************/
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p{
+    font-size: 1.7em;
+	padding-top: 30px;
+	display: inline-block;
+	color:#36464E;
+}
+
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:first-child{
+	color:#2E9DFB;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(2){
+	color:#4C4C4C;
+	padding:0 5px;
+}
+
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(3){
+	color:	#B54D4D;
+	font-weight:700;
+}
+
+.box-clima >  div:nth-child(8) .small-boxes-mercado p:nth-child(4){
+	padding-top:10px;
+	font-size:1.8rem;
+}
+
+.mapa-clima h3{
+	margin:0;
+	color: #2E9DFB;
+    font-size: 1.1em;
+	padding-top: 15px; 
+}
+.border-mapa{
+	border: 2px solid #2E9DFB;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+#lluvias-temperaturas-h1{
+	text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 12px;
+    width: 200px;
+}
+
+.box-clima-mapas-inner{
+	background-color: white;
+    padding: 10px 20px;
+}
+
+.form-clima-mapa{ 
+    background-color: #F1EFEF;
+    min-height: 163px;
+    margin-bottom: 4px;
+}
+
+.form-clima-mapa p{ 
+	padding-top:30px;
+}
+
+.btn-mapas{ 
+	display: inline-block;
+    padding: 9px 0px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top: 85px;
+    width: 100%;
+    background: #2E9DFB;
+    color: #FFF;
+    letter-spacing: 1px;
+    font-family: 'arialregular';
+}
+/************************************
+************* NOTICIAS ***********
+************************************/
+
+/* Cajas noticias general */
+.box-noticias{
+	padding:0  25px;
+}
+
+
+.noticia-columna >a > div {
+	padding-bottom: 20px;
+}
+
+.box-noticias > a>div{
+	padding:5px;
+	background-color:transparent;
+	color:white;
+	font-family:'arialregular';
+	text-align:center;
+}
+
+
+/* Cajas noticias normales */
+.box-noticias > div > div{
+	background-color:transparent;
+	
+}
+
+.box-noticias  h1, .noticia-columna h1{
+    color: #999999;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+.box-noticias #noticia-box-title{
+	color: white;
+    font-size: 1.3em;
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+}
+
+#noticia-box >div > #noticia-box-inner{
+	background:#2ED7AA;
+	min-height: 205px;	
+	text-align:center;
+}
+
+.box-noticias > div > div > div{
+	text-align:center;
+}
+
+
+.box-noticias .b-r{
+    margin-right: 10px;
+}
+
+.box-noticias  .b-l{
+    margin-left: 10px;
+}
+
+
+.border-noticia-h1{
+	display: inline-block;
+    vertical-align: text-bottom;
+    width: 20%;
+}
+
+/* 2 tipo de noticia */
+.container-img-noticias{
+    
+    padding-top: 0;
+    padding: 0;
+}
+
+.container-texto-noticias{
+    
+    
+    padding:10px 5px;
+    margin-top: 5px;
+}
+
+.container-img-noticias img{
+    max-width: 100%;
+    height: 130px;
+    width: 100%;
+}
+
+ .container-texto-noticias h2{
+    margin: 0;
+    font-size: 1.3em;
+    text-align: left;
+    font-weight: 700;
+    padding: 5px 10px;
+    
+}
+
+
+.container-texto-noticias > p{
+	font-size: 0.9em;
+    color: #8c8c8c;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 0;
+    min-height: 140px;
+}
+
+
+
+.box-noticias .container-texto-noticias div p, .noticia-columna .container-texto-noticias div p{
+	padding: 0;
+    color: white;
+    text-align: right;
+    padding-right:15px;
+    font-size: 11px;
+    margin: 0;
+}
+
+.fecha p{
+	background-color:  #C4c6c7;
+}
+
+.box-noticias .container-h1-noticias{
+	padding: 10px 0px;
+}
+
+/*COLORES DISTINTAS NOTICIAS*/
+
+/*NOTICIA TIPO 1 - VERDE AGUA*/
+
+.noticia-tipo-1 .container-texto-noticias{ 
+    border: 2px solid  #25CDDB;    
+
+}
+
+.noticia-tipo-1 .container-texto-noticias h2 {
+	color:#25CDDB;
+}
+
+.noticia-tipo-1 .container-imagen-nota, .noticia-tipo-1 .container-imagen-nota-col {
+	border-top: 7px solid  #25CDDB;
+}
+
+/*NOTICIA TIPO 2 -COLOR AZUL*/
+
+.noticia-tipo-2 .container-texto-noticias{
+	border: 2px solid #2E9DFB;
+}
+
+.noticia-tipo-2 .container-texto-noticias h2{
+	color:#2E9DFB;
+}
+
+.noticia-tipo-2 .container-imagen-nota {
+	border-top: 7px solid #2E9DFB;
+}
+
+
+
+/*NOTICIA TIPO 3 - VERDE OSCURO*/
+
+.noticia-tipo-3 .container-texto-noticias{
+	border: 2px solid #FFA621;
+}
+
+.noticia-tipo-3 .container-texto-noticias h2{
+	color: #FFA621;
+}
+
+.noticia-tipo-3 .container-imagen-nota {
+	border-top: 7px solid #FFA621;
+}
+
+
+
+/*NOTICIA TIPO 4 - MODO PRUEBA ROSA, SETEAR COLOR*/
+
+.noticia-tipo-4 .container-texto-noticias{
+	border: 2px solid #2ED7AA;
+}
+
+.noticia-tipo-4 .container-texto-noticias h2{
+	color:#2ED7AA;
+}
+
+.noticia-tipo-4 .container-imagen-nota {
+	border-top: 7px solid #2ED7AA;
+}
+
+
+/*NOTICIA TIPO 5 - MODO PRUEBA NARANJA, SETEAR COLOR*/
+
+.noticia-tipo-5 .container-texto-noticias{
+	border: 2px solid #E29D9C;
+}
+
+.noticia-tipo-5 .container-texto-noticias h2{
+	color:#E29D9C;
+}
+
+.noticia-tipo-5 .container-imagen-nota {
+	border-top: 7px solid #E29D9C;
+}
+
+/*NOTICIA TIPO 6 - CELESTE CLIMA*/
+
+.noticia-tipo-6 .container-texto-noticias{
+	border: 2px solid #2E9DFB;
+}
+
+.noticia-tipo-6 .container-texto-noticias h2{
+	color:#2E9DFB;
+}
+
+.noticia-tipo-6 .container-imagen-nota{
+	border-top: 7px solid #2E9DFB;
+}
+
+/*NOTICIA TIPO 7 - CELESTE CLIMA*/
+
+.noticia-tipo-7 .container-texto-noticias{
+	border: 2px solid #FFA621;
+}
+
+.noticia-tipo-7 .container-texto-noticias h2{
+	color:#FFA621;
+}
+
+.noticia-tipo-7 .container-imagen-nota{
+	border-top: 7px solid #FFA621;
+}
+
+
+
+/*************** INTERIOR NOTICIA ******************/
+.container-inside-noticia, .noticia-columna{
+    padding:0px 30px;
+    text-align: left;
+	color:#7F7F7F;
+}
+
+.container-inside-noticia .fecha-not-inner{
+	text-align:right;
+	color:#7F7F7F;
+    display: inline-block;
+	float:right;
+}
+
+/*.noticia-columna .fecha-col{
+	text-align:right;
+    display: inline-block;
+    background-color: #C4c6c7;
+    width: 100%;
+	
+}*/
+
+
+/*COMENTADA PORQUE DEBERIAN IR EN TODAS LAS PÁGINAS.
+ESTABA EN EL TITULO DE NOTICIA.PHP*/
+
+
+.container-inside-noticia .border-fecha div{
+    background-image: url(../img/dash.png);
+    background-repeat: repeat-x;
+    width: 75vw;
+    height: 4px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+/*FIN DEL CODIGO NO USADO*/
+
+.container-inside-noticia .titulo{
+	color:#2ED7AA;
+}
+
+.container-inside-noticia .categoria{
+	color:#7F7F7F;
+}
+
+.container-inside-noticia .bajada{
+    font-size: 1.5em;
+    color: #7F7F7F;
+}
+
+.container-inside-noticia .cuerpo{
+	color: #7F7F7F;
+}
+
+.container-inside-noticia .fuente{
+    color: #7F7F7F;
+}
+
+.container-inside-noticia img{
+    border: 3px solid #2ED7AA;
+}
+
+.container-inside-noticia a{
+    color:#2ED7AA;
+}
+
+.container-imagen-nota-col{
+	background-image: url(../img/noticias-img.png);
+}
+
+.titulo-seccion-columna{
+	color: white;
+	background-color: #2ED7AA;
+	padding: 5px 0px;
+	text-align: center;
+
+}
+
+{
+
+}
+/* FIN NOTICIA*/
+
+/************* SANIDAD - NUTRICION - MANEJO - GENETICA *************/
+
+ .square > img {
+ 	max-width: 235px
+ }
+
+.box-sanidad{
+	background-color:#6D4A84; 
+}
+
+.box-producir-2 > div> img{
+	position: relative;
+ 	width: 100%;
+}
+
+.box-producir-2{
+	padding: 15px;
+}
+
+.border-shadow{
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.55);
+}     
+
+.box-producir-2  p{
+	font-size: 1.2em;
+	position: relative;
+	width: auto;
+}
+
+
+.producir-box-inner {
+ 	text-align: center;
+ 	background-color: white;
+ 	border-bottom-right-radius: 100px;
+ 	vertical-align: middle;
+ 	box-shadow: inset 0px 0px 3px 2px rgba(134, 134, 134, 0.65);
+
+}
+
+
+.box-sanidad {
+	background-color:#6D4A84; 
+	
+}
+
+.box-genetica {
+	background-color:#ED7C28; 
+}
+
+.box-genetica-inner {
+ 	border:2px solid #ED7C28 ;
+}
+.box-sanidad-inner {
+ 	border:2px solid #6D4A84 ;
+}
+.box-nutricion {
+	background-color:#BAA200; 
+}
+
+
+.box-relleno{
+	opacity: .1;
+}
+
+.box-nutricion-inner {
+ 	border:2px solid #BAA200 ;
+}
+
+
+.box-manejo {
+	background-color:#003D6A;
+}
+
+.box-manejo-inner {
+ 	border:2px solid #003D6A ;
+}
+
+.color-sanidad{
+	color:#6D4A84;
+}
+
+.color-manejo{
+	color:#003D6A;
+}
+
+
+.color-nutricion{
+	color: #BAA200;
+}
+
+.color-genetica{
+	color: #ED7C28;
+
+}
+
+
+/**********************FIN SANIDAD, NUTRICION, MANEJO, GENETICA***************/
+
+
+.box-producir-3 > div> div {
+	padding: 0px 10px;
+ 	text-align: center;
+ 	height: 50px;
+ 	background-color: white;
+ 	border-bottom-right-radius: 100px;
+ 	vertical-align: middle;
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+
+
+.box-sanidad-inner #planes-h1 { 
+    color: #6D4A84;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.box-sanidad-2 {
+    background-color: #6D4A84;
+    width: 89.5vw;
+}
+
+.planes{ 
+	margin-top: 70px;
+    margin-right: 3%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: #6D4A84;
+	box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.52);
+}
+
+.planes *,
+.planes *:before,
+.planes *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+
+.planes .planes-descarga{
+	position: absolute;
+	top: 0;
+	-webkit-transform: translateY(430%);
+	transform: translateY(430%);
+	background-color:white;
+	-webkit-transition:  all 0.5s ease;
+	transition:  all 0.5s ease;
+}
+
+.planes .planes-box {
+	vertical-align:top;
+}
+
+
+.planes:hover .planes-box {
+	zoom: 1;
+	-webkit-transform: translateY(-60px);
+	transform: translateY(-60px);
+}
+
+.planes:hover .planes-descarga{
+	-webkit-transform: translateY(-200);
+	transform: translateY(-200);
+	opacity: 1;
+}
+
+.planes:hover .planes-descarga{
+  -webkit-transition:  all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.planes-descarga{ 
+	height:6vh;
+	background:white;
+}
+
+.planes-descarga img{ 
+	height:40px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+.planes-box p{ 
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 90px;
+    width: 130px;
+}
+
+.planes:hover .border-planes{ 
+	position: relative;
+	transition: all 0.5s ease;
+	margin-bottom:5px;
+}
+
+ .border-planes{
+	width:0%;
+	height:0px;
+	transition-delay:0s;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	opacity:0;
+
+}
+
+
+
+.planes:hover .border-planes{
+	width:12%;
+	height:3px;
+	background:#6D4A84;
+	transition-delay:0.3s;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	opacity: 1;
+}
+
+
+#p-download{
+    padding: 0;
+    background: white;
+    width: 100%;
+}
+
+/************** LABORATORIOS ************************/
+.laboratorios{ 
+	margin-top: 70px;
+    margin-right: 3%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.lab1{
+	background-image: url(../img/link-laboratoiro-azul.png);
+	background-size: 100% 100%;
+}
+
+.lab2{
+	background-image: url(../img/link-inta.png);
+	background-size: 100% 100%;
+}
+
+.lab-box p {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 80%;
+}
+
+.lab-box span {
+	font-weight:700;
+}
+
+
+/*********************HOME*******************/
+
+#home{ 
+	padding: 45px; 
+	background-image: url(../img/bg-index.png); 
+	width: 100%;  
+	text-align: center; 
+	background-size:auto 100% ;
+	min-height: 100vh;
+}
+
+.home-upper-box { 
+	padding: 20px 20px;
+}
+
+.home-upper-box > div {
+	box-shadow: 5px 5px 10px rgba(136,136,136,0.5);
+	background-color: #f4dfd1;
+	padding: 25px;
+	height: auto;
+	background: -webkit-linear-gradient(left, #f4dfd1, #fcf6ef, #f4dfd1);
+}
+
+.home-upper-box img:nth-child(1){
+	float: left;  
+	width: 10em;
+	position: relative;	
+}
+
+.home-upper-box img:nth-child(2){
+	float: right; 
+	position: relative;
+	width: 15em;
+	margin-top: 20px;
+}
+
+.home-bottom-box { 
+	padding: 0; 
+	margin:0; 
+	text-align:center;
+}
+
+.home-bottom-box p {
+	color: white; 
+	font-size: 1.12em;
+	margin-bottom: 0px;
+	position: relative;
+	margin-top: 2%;
+}
+
+.home-bottom-box > a> div {
+	padding: 20px 20px;    
+}
+
+.hoy-box > div, .hoy-box  {
+	background-color: #40CEDB;
+}
+
+.estemes-box, .estemes-box >div {
+	background-color: #0093D4
+}
+
+.producir-box{
+	background-color: #7067B0;
+}
+
+.producir-box > div:nth-child(1) { 
+	background-image: url(../img/icono-producir.png);
+	background-repeat: no-repeat;  
+	background-position: center;
+	background-size: 101% 101%;
+	background-color: #7067B0;
+}
+
+.ayuda-box, .ayuda-box >div{
+	background-color:#79BEFE;
+}
+ 
+
+.home-box > div {
+	box-shadow: 3px 2px 5px 0px rgba(0,0,0,.3);
+}
+
+
+.home-box > .square >div:nth-child(1) {
+	position: relative;
+	height: 80%;
+}
+
+.home-box > div > div:nth-child(1) {
+	box-shadow: 0 5px 10px -2px rgba(95,95,95,.5); 
+	padding: 15% 0%;
+} 
+
+
+.home-box:hover > .hoy-box{
+	background-color:#36ACB7;
+	transition: .5s;
+}
+.home-box:hover > .estemes-box{
+	background-color:#007FB7;
+	transition: .5s;
+}
+
+.home-box:hover > .producir-box{
+	background-color:#615A98;
+	transition: .5s;
+}
+
+.home-box:hover > .ayuda-box{
+	background-color:#6AA0D2;
+	transition: 0.5s;
+}
+
+
+.gota-producir > div > a > img {
+	width: 85%;
+	position: relative;
+	max-width: 235px;
+}
+
+.gota-producir{
+	padding: 25px 10px;
+}
+
+
+/***********************VETERINARIA***************/
+
+.veterinaria { 
+	max-width: 1500px;
+	text-align: center;
+}
+
+.veterinaria >div{
+	padding:20px;
+	text-align: center;
+	
+}
+
+#provincia, #localidad {
+	margin: 20px 0px; 
+}
+
+.map-box iframe{ 
+	border:2px solid #0078B9;
+	width:100%;
+	max-width:600px; 
+}
+
+
+.red-box img { 
+	width: 40%; 
+}
+
+.red-form {
+	margin-top: 40px;
+	padding-left: 20px;
+}
+
+.red-form > div > form > select{
+	border:none; 
+	color: rgba(158,158,158,.5); 
+	width: 100%;
+	background-color: #f7f7f7;
+}
+
+.red-form > #localidad, .red-form > #provincia {
+	padding:0; 
+	border-bottom: 2px solid rgba(0,120,185,.6);
+}
+
+
+.red-form > div > form > select:focus {
+	outline:none;
+}
+
+.info-mapa > h1 {
+	color: #0078B9;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.info-mapa > p {
+	color: #8c8c8c;
+	text-align: left;
+}
+
+/***********LINKS DE INTERES************/
+
+.box-interes {
+	padding: 15px;
+}
+
+
+.box-interes-inner {
+	border-top: 4px solid #5771B0;
+	background-size: auto 100%;
+}
+
+a:nth-child(2) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-crea.png');
+
+}
+
+ a:nth-child(3)> .box-interes >.box-interes-inner {
+	background-image: url('../img/link-cra.png');
+}
+
+a:nth-child(4) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-sra.png');
+
+}
+
+a:nth-child(5) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-inta.png');
+
+}
+
+a:nth-child(6) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-senasa.png');
+
+}
+
+a:nth-child(7) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-feedlot.png');
+
+}
+
+a:nth-child(8) > .box-interes > .box-interes-inner {
+	background-image: url('../img/link-ipcva.png');
+}
+
+
+
+.box-interes-inner-relleno {
+	border: 4px solid #5771B0;
+}
+
+.box-interes > p {
+	color:#999999;
+	margin:2px; 
+}
+
+.box-interes-img {
+	padding-top: 25px;
+}
+
+.box-interes-img img {
+	width: 100%;
+	position: relative;
+}
+
+
+/********FIN LINKS DE INTERESES********/
+
+
+/*dar detalle de esta seccion*/
+
+#clima form select::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#clima form select::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px blue;
+}
+ 
+#clima form select::-webkit-scrollbar-thumb{
+	background-color: blue;
+	outline: 1px solid blue;
+}
+
+
+.columna-indicadores p{
+    font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+	font-weight:700;
+    color: #8C8C8C;
+}
+
+.columna-granos p{
+	font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    color: #8C8C8C;
+	font-weight:700;
+}
+
+.columna-ganado p{
+	font-size: 1.5rem;
+    padding-top: 3px;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #8C8C8C;
+}
+
+.table-mercado-items div p {
+	text-align:left;
+	padding-left:10px;
+	color:  #8c8c8c;
+	font-size:1.2rem;
+}
+
+.container-items-mercados{
+	margin-bottom: 10px;
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #28A382;
+    border-color: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'arialregular';
+}
+
+.btn {
+	display: inline-block;
+	padding: 9px 0px;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	margin-top:5px;
+    width: 110px;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #D0CFCF;
+    border-color: transparent;
+}
+
+.btn-default:focus{
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #CDCDCD;
+    border-color: transparent;
+}
+
+.btn-default:active{
+	outline:none;
+	border:none;
+	color: #FFF;
+    background-color: #CDCDCD;
+    border-color: transparent;
+}
+
+.btn:focus {
+    outline:none!important;
+}
+
+.actualizar-ganado{
+	background: #C4c6c7!important;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	min-height:30px!important;
+}
+
+
+.actualizar-ganado p{
+	color: white!important;
+    font-size: 1.2rem!important;
+    font-weight: 400!important;
+    margin:0;
+    padding-top: 5px;
+}
+
+.btn-indicadores {
+    display: inline-block;
+    padding: 9px 0px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top:5px;
+	width: 110px;
+	
+}
+
+
+
+/* LOADING PAGE*/
+.loading {
+	background-color: transparent;
+}
+
+
+.loading-gif {	
+	background-color: transparent;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 20% auto;
+	top:0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.loading-gif img{
+	width: 20em;
+}
+
+.loader-home{
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	left:auto;
+	right: auto;
+	text-align: center;
+}
+
+.loader-home img {
+ width: 100px;
+ margin-top: 25%;
+}
+
+/*SPLASH HOME*/
+
+.splash{
+	padding: 90px 10px;
+	position: fixed;
+	top: 0;
+	background:radial-gradient(circle,white,#f4dfd1);
+	height: 100vh;
+
+}
+
+.img-1-splash{
+	text-align: center;
+	margin: 2em auto;
+}
+
+.img-2-splash{
+	text-align: right;
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+}
+
+
+.img-1-splash > img{
+	width: 10em;
+}
+
+.img-2-splash > img{
+	width: 7em;	
+}
+
+.slogan-splash{
+	color: gray ;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.puntitos-splash{
+	background-image: url('../img/puntos-menu.png');
+	margin: 30px auto;
+	width: 90%;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+
+/***************TITULO MOBILE**********/
+
+.titulo-mobile {
+	position: fixed;
+	width: 100%;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.titulo-mobile > p {
+	padding:6px 6px;
+	margin:0;
+	color: white;
+}
+.titulo-mobile-producir {
+	background-color: #7067B0;
+}
+
+.titulo-mobile-estemes {
+	background-color: #0093D4;
+}
+
+.titulo-mobile-ayuda {
+	background-color: #79BEFE;
+}
+
+.titulo-mobile-hoy {
+	background-color: #40CEDB;
+}
+
+
+
+/**********FIN TITULO MOBILE**************/
+
+
+
+
+
+
+
+/********************* ESTE MES ****************************/
+
+/* Caja remates generales */
+.maxbox-remgenerales{
+	background-color: #005fb5;
+    min-height: 100%;
+}
+
+/* Caja remates cabaña */
+.maxbox-remcabania{
+	background-color: #f9b95a;
+    min-height: 100%;
+}
+
+/* Caja checkbox */
+.maxbox-checkbox{
+	background-color: #189dbf;
+    min-height: 100%;
+}
+
+.maxboxes-inner-estemes{
+	padding: 35px 25px;
+	padding-top:80px;
+}
+
+
+.maxboxes-inner-estemes h2{
+    padding-top: 65%;
+	font-size: 1.9em;
+}
+
+.maxboxes-inner-estemes .estemes-img{
+    width: 50%;
+}
+
+
+/******** CHECKBOX ************/
+#checkbox h1{
+    font-size: 2.3rem;
+    color: #A3A3A3;
+	padding-bottom:30px;
+}
+
+.checkbox-box{
+	border: 1px solid #189dbf;	
+}
+
+.checkbox-container{
+	padding: 5px 5px;	
+}
+
+#nombre-checkbox{
+	background:#189dbf;
+}
+
+#nombre-checkbox h2{
+	color: white;
+    font-size: 2rem;
+    text-align: center;
+	
+}
+
+
+
+/************ REMATES **************/
+.remates h1{
+    font-size: 2.3rem;
+    color: #A3A3A3;
+	padding-bottom:30px;
+}
+
+.title-remates{
+	height: 35px;
+}
+
+
+.title-remates h2{
+    color: white;
+    font-size: 1.6rem;
+    padding-top: 10px;
+	margin:0;
+}
+
+.container-fecha-remates{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-fecha-remates p {
+	color:white;
+}
+
+.container-fecha-remates p:first-child {
+   
+    font-size: 1.8rem;
+}
+
+.container-fecha-remates p:nth-child(2) {
+    
+    font-size: 4rem;
+}
+
+.container-fecha-remates p:nth-child(3) {
+    
+    font-size: 2rem;
+}
+
+
+/** Container modadlidad, consignatorio, lugar, provincia, cabezas **/
+/*Modalidad*/
+.container-modalidad{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+/*Consignatorio*/
+.container-consignatorio{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+
+.container-consignatorio p{
+    color: #8F8F8F;
+    padding-top: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/*Lugar*/
+.container-lugar{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+
+.container-lugar p{
+    color: #8F8F8F;
+    letter-spacing: 1px;
+	margin:0;
+}
+
+.container-lugar p:first-child{
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+/*Provincia */
+
+.container-provincia{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+/*Cabezas */
+
+.container-cabezas{
+    min-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+.container-cabezas p{
+    color: #8F8F8F;
+    padding-top: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.fecha-remates-mobile{
+	padding:20px 0px;
+	color: white;
+	font-size: 1.2em;
+}
+
+
+/**************** REMATES GENERALES ****************/
+
+.color-generales{
+	background: #005FB5;
+}
+
+
+/**************** REMATES CABAÑA****************/
+
+.color-cabanias{
+	background: #f9b95a;
+}
+
+/********REMATES EN MOBILE - SLIDE & ELSE*******/
+
+.info-remates-mobile, {
+	display: none;
+}
+
+.fecha-remates-mobile > button {
+	background-color: rgba(99,99,99,.5);
+	border-radius: 10px;
+	border: 0.5px solid white;
+}
+
+.boton-prueba-atras{
+	float:left;
+}
+
+.boton-prueba{
+	float: right;
+}
+
+/****************** SANIDAD- ENFERMEDADES ***********************/
+
+.enfermedades-box p{
+    font-size: 1.5rem;
+    width:100%;
+}
+
+#enfermedades-more{
+    color: #6D4A84;
+    padding: 0;
+    font-size: 3.4rem;
+    background: white;
+    min-height: 0;
+    display: inline-block;
+}
+
+.enfermedades-inside-title{
+    margin: 0;
+    color: #6B4982;
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 15%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.enfermedades-inside-container{
+    text-align: left;
+    padding-top: 2%;
+    color: grey;
+}
+
+.widget-enfermedades{
+    background: #6C4982;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.54);
+}
+
+.widget-enfermedades p{
+    margin: 0;
+    color: white;
+    padding-top: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+
+.widget-links-enfermedades{
+    padding-top: 10%;
+}
+
+.widget-links-enfermedades a{
+	display:block;
+    display: block;
+    color: #676767;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+
+/****************MANEJO - CUBICACION DE BAÑADEROS******************/
+
+.title-producir-inside{
+	font-size: 2rem;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 50px;
+}
+ 
+.producir-inside-container{
+	text-align: left;
+	color: gray;
+	margin-top: 50px;
+}
+.producir-inside-container > h2{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.producir-inside-container > h3{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.planes-h1{
+	font-weight: 700;
+	font-size:20px;
+}
+
+.block-img{
+	 padding:20px;
+	 text-align: center;
+}
+
+.block-img  p {
+	 width:100%;
+	 border-top: 2px solid #003D6A ;
+	 margin-top:10px;
+	 padding:10px;
+	 text-align: left;
+}
+
+.block-img img {
+	width:auto;
+}
+
+.producir-inside-container li { 
+	list-style-type: square;
+ }
+
+
+/*DISTRIBUCION COLORES DE PRODUCIR
+
+y fondos ubicacion en linea 1441 */
+
+/*GENETICA MENU, ICONOS, TESTING
+*/
+
+.icon-hereford{
+	background-image:url(../img/hereford.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.icon-braford{
+	background-image:url(../img/braford.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.icon-angus{
+	background-image:url(../img/angus.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.icon-brangus{
+	background-image:url(../img/brangus.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+
+.name-genetica{
+	padding:10px 0;
+}

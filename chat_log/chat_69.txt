@@ -1,0 +1,4 @@
+
+<div class='user-message-container'><p class='user-nick'>asd</p> <p class='user-message'> hola! </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Admin</p> <p class='admin-message'> que tal? ;D </p></div>
+<span>Conversación terminada</span>

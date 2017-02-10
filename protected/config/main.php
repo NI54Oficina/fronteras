@@ -25,7 +25,7 @@ return array(
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'stalker03936',
+			'password'=>'ni54ni54',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('*','::1'),
 		),
@@ -62,6 +62,7 @@ return array(
 				
 				"ar/testAjax"=>array("web/testAjax"),
 				"<pais>/getLocalidades/id/<id>"=>array("web/getLocalidades/id/<id>"),
+				"<pais>/setClima/id/<id>"=>array("web/setClima/id/<id>"),
 				"<pais>/getVeterinaria/id/<id>"=>array("web/getVeterinaria/id/<id>"),
 				"<pais>/getVeterinariaByProvincia/id/<id>"=>array("web/getVeterinariaByProvincia/id/<id>"),
 				"paises"=>array("web/get/data/paises"	),
@@ -73,6 +74,9 @@ return array(
 				),
 				
 				"<pais>/noticia/<id>"=>"web/get/data/noticia/id/<id>",
+				"<pais>/ganado/<id>"=>"web/get/data/ganado/id/<id>",
+				"<pais>/clima/<id>"=>"web/get/data/clima/id/<id>",
+				"<pais>/hoy/<id>"=>"web/get/data/hoy/id/<id>",
 				"<pais>/enfermedad/<id>"=>"web/get/data/enfermedad/id/<id>",
 
 				'<controller:\w+>/<action:\w+>/id/<id>'=>'<controller>/<action>/id/<id>',

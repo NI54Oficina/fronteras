@@ -1,0 +1,4 @@
+
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> hola juanjo? </p></div>
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> andas por ahi? </p></div>
+<span>Conversación terminada</span>

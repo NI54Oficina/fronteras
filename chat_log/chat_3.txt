@@ -1,0 +1,4 @@
+
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Buenas tardes Carlos, nosotros no tenemos vacunas que incluya la prevenci&oacute;n de t&eacute;tanos. Cobexin 10 del laboratorio MSD lo contiene. Tambi&eacute;n puede consultar el vadem&eacute;cum veterinario SANI para mayor informaci&oacute;n. </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> Muchas gracias por su consulta </p></div>
+<span>Conversación terminada</span>

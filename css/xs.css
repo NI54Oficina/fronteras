@@ -1,10 +1,16 @@
 @media screen and (max-width: 767px){
 
+	.box-clima {
+
+    padding-top: 0;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;}
 
 	#bg-square{
 		display:none;
 	}
-	
+
 	#bg-square-2{
 		background-image: url(../img/cuadrado-botonera.png);
 		min-height: 5px;
@@ -15,9 +21,9 @@
 		margin-bottom: 5px;
 	}
 	.section { /*Disminucion de padding en mobile*/
-		padding:50px 2px;
+		padding:20px 2px;
 	}
-	
+
 	.col-xs-5{
 		width: 20%;
 	}
@@ -28,11 +34,12 @@
 
 
 
+
 	/*HOME*/
 	#home{
 		padding: 15px 15px;
 	}
-	
+
 	.home-upper-box {
 		padding: 7px 27px 20px 27px;
 	}
@@ -40,9 +47,9 @@
 	.home-upper-box > div {
 		padding: 10px;
 	}
-	
+
 	.home-upper-box img:nth-child(1) {
-	    float: none;
+
 	    width: 6em;
 	}
 	.home-bottom-box > a> div {
@@ -52,94 +59,115 @@
 	.box-producir p {
 		font-size: .8em;
 	}
-	
+
 	.box-noticias #noticia-box {
 		height: auto !important;
 	}
-	
+
 	.box-mercado-title {
 		height: auto !important;
 	}
-	
+
 	.box-mercado > div:first-child > div h1 {
 		padding: 10px 0;
 	}
-	
+
 	.home-box > div > div > img{
 		width:45%;
 	}
-	
+
 	.box-producir-2  p{
 		font-size: 1em;
 	}
 
+	.home-upper-box img:nth-child(2) {
+
+    width: 50%;
+
+}
+
 	/*TERMINA HOME*/
-	
-	.navbar-toggle {
+
+	/*PRODUCIR*/
+	.gota-producir {
+	    padding: 15px 5px;
+	}
+ /*TERAMINA PRODUCIR*/
+
+	.navbar-toggle2 {
 		margin-right:0px;
 		margin-top: 0;
-		color: #5F5F5F;
+		color: white;
 	}
-	
+
 	.ul-nav{
 		width: 100vw;
 		text-align: center;
-		
+
 	}
-	
+
 	.ul-nav li {
 		padding-left: 0;
-		height: 140px;
-		/*width:40vw;*/
-		
-		/*margin-left: 15px;*/
-		margin-bottom: 15px;
+		margin-bottom: 10px !important;
 		padding:0;
 	}
-	
+
 	.ul-nav li:nth-child(2){
 		text-align: center;
 		padding-right:0px;
 	}
-	
+
 	.ul-nav li a {
 		color:white;
 		z-index:33333333333;
 	}
-	
+
 	.ul-nav .li-header li:first-child{
 		background:red;
 	}
-	
+
 	.cont-menu-mob{
 	    padding:15px 15px;
 	    text-align: center;
 	}
-	
+
 	/* Caja menú hoy */
 	#hoy-header-m{
 		background:#40CEDB;
-	} 
-	
+	}
+
 	/* Caja menú mes */
 	#mes-header-m{
 		background:#0093D4;
-	} 
-	
+	}
+
 	/* Caja menú producir */
 	#producir-header-m{
 		background:#7067B0;
-	} 
-	
+	}
+
 	/* Caja menú ayuda*/
 	#ayuda-header-m{
 		background:#79BEFE;
-	} 
-	
+	}
+
 	#inner-header  .home-upper-box{
-		padding:10px 30px;
-	} 
-	
+		padding:10px 20px;
+		padding-top: 30px;
+
+
+	}
+
+	#inner-header{
+		  background: url(../img/bg-index.png);
+			background-size:auto  100% ;
+			background-position: center;
+	}
+
+	.navbar-collapse {
+		border:none;
+	}
+
 	.p-header-mobile{
 		color: white;
 		font-size: 1.12em;
@@ -159,12 +187,17 @@
 	header .home-upper-box {
 		display:block;
 	}
-	
+
 	.cont-section-mobile{
-		height: 110px!important; 
-		width: 40vw!important;
+		height: 110px!important;
+		/*width: 40vw!important;*/
 		display:block;
+
 	}
+
+	/*.img-menu-header{
+		margin-top: 5%;
+	}*/
 
 	header .home-upper-box > div{
 		display:block;
@@ -185,7 +218,7 @@
 		display:none;
 	}
 
-	.navbar-toggle {
+	.navbar-toggle2 {
 		float: left;
 	}
 
@@ -196,15 +229,18 @@
 
 	/*	LOADING PAGE*/
 
-	.loading-gif {	
+	.loading-gif {
 		margin: 50% auto;
 	}
-	
-	.navbar-toggle {
+
+	.navbar-toggle2 {
 		margin-top: 0px;
-		height: 0px;
-		padding-left: 93vw;
-		padding-top: 5px;
+		height: 50px;
+		padding-top: 8px;
+		left:initial;
+		right:10px;
+		width:50px;
+		text-align:right;
 	}
 
 
@@ -214,24 +250,58 @@
 		height: auto !important;
 	}
 
+
+	.btn-mapas{
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+
+	/*.box-clima :first-child{
+    padding-top: 0px;
+}*/
+
+/*.box-clima:nth-child(2),  .box-clima:nth-child(3){
+	padding-top: 30px ;
+}*/
+
+
 	/* CUBICACION BAÑADEROS */
-	
-	
+
+
 	.enfermedades-inside-title, .enfermedades-inside-container, .retiro-container{
 		padding:0 15px;
 	}
-	
+
 	.container-widget{
 		padding: 0px 15px;
 	}
-	
 
+	.title-producir-inside {
+  margin-top: 20px;
+  }
 
-   /*REMATES TEST*/
+	.block-img-6-p, .block-img-4-p {
+		position: absolute;
+		bottom:0;
+	}
+	.block-img-6, .block-img-4 {
+		position: absolute;
+		right: 0;
+		top:0;
+	}
+
+	.block-img-2 {
+		position: absolute;
+		right: 0;
+	}
+
+   /*REMATES */
 
 	.title-remates h2{
     	font-size: 1.2rem;
-    
+
 	}
 
 	.container-fechas-remates {
@@ -241,14 +311,18 @@
 	.remates-box{
 	padding: 1px 1px;
 	}
-	
+
 	.remates-box-2{
 		padding:2px 2px;
 	}
 	.columna-ganado p{
+		font-size: 1.0rem;
+	}
+
+	.columna-indicadores p{
 		font-size: 1.1rem;
 	}
-	
+
 	.columna-granos p {
 		font-size: 1.1rem;
 	}
@@ -261,7 +335,7 @@
 		padding: 15px;
 		margin-bottom:10px;
 	}
-	
+
 	.max-box-planes {
 		padding:15px 15px;
 	}
@@ -271,77 +345,80 @@
 		font-size: 17px;
 	}
 
-	.planes-box p {
-		padding-top: 50px;
-	}
-	
-	
+
+
 	.container-inside-noticia img{
 		width: 100%;
 		height: auto;
 	}
-	
-	
+
+.container-inside-noticia{
+	padding: 10px 15px;
+}
+
 	.line-not {
 		margin-top: 3%;
 		width: 43vw;
 	}
-	
+
 	.planes-box p {
 		color: white;
 		font-size: 20px;
 	}
-	
+
 	.box-mercado-clima-noticias .small-boxes-mercado p{
 	    font-size: 2.1rem;
 	}
-	
+
 	.clima-pronostico >.small-boxes-mercado p:nth-child(2) {
 		font-size: 1.1em;
 		width: 114%;
 	}
-	
+
 	.glyphicon-triangle-right{
 		font-size: 1.3rem;
+		color: white;
 	}
-	
+
 	.glyphicon-triangle-left{
 		font-size: 1.3rem;
+		color: white;
 	}
-	
+
 	.box-mercado > div > div {
 		height: auto;
 	}
-	
+
 	.container-inside-noticia .titulo {
 		display: inline-block;
 	}
-	
-	
+
+
 	.container-items-mercados{
 		height:auto !important;
 	}
-	
+
 
 	.container-boton-ganado{
 		height: auto !important;
 		padding-top: 0 !important;
-		
+
 		z-index: 2;
-		
+
 	}
-		
+
 	.img-ganado{
 		width: 100%;
 		margin-bottom: 20px;
-	}	
+	}
+
 /* NO BORRRAR
 	.container-boton-ganado{
 		height: auto !important;
 		padding-top: 0 !important;
-		
+
 		z-index: 2;
-		
+
 	}
 
 	#prev{
@@ -361,41 +438,318 @@
 */
 
 	.general-container-producir > .selector-side {
-		padding-right: 0px; 
+		padding-right: 0px;
 	}
 
 	.enfermedades-inside-container{
-		padding: 0; 
+		padding: 0;
 	}
-	
+
 	.color-title-prod {
 		background: #ED7C28;
 		margin-left: -1%;
 	}
-	
+
+	.container-prot.prioridad-prot{
+		height:4rem !important;
+	}
+
 	.number-protocolo {
 		padding-top: 9%;
 		text-align: center;
 	}
-	
+
 	.square-separador{
 		display: none;
 	}
-	
+
 	.boton-header {
 		width: 22px;
 		margin-top: 6%;
 		padding: 0;
 	}
-	
-	
+
+
 	.general-container-producir{
-		padding:15px;
+		padding:10px 15px;
 	}
 
+	.padd-prot, #dias-prot > p {
+    padding-top: 7% !important;
+ }
+
+
+/*RED VETERINARIA*/
+	.red-form{
+		margin-top: 0;
+	}
+	.red-box {
+     padding:0;
+
+		 }
+
+		 .map-box {
+
+	     box-shadow: none;
+	 }
+
+	/*HEADER*/
+
+
+	.boton-volver-header{
+	  padding-left: 5px;
+	}
+
+	/*ESTADO CORPORAL*/
+	.img-ganado{
+		width: 100%;
+	}
+	.ganado-col-1{
+	  text-align: center;;
+	  padding:0 10px;
+	}
+	  .ganado-col-2{
+		text-align: left;
+		padding:0 10px;
+	}
+
+<<<<<<< HEAD
 	.boton-volver-header {
 		padding-left: 5px;
+=======
+	.boton-ganado {
+    margin-top: 0;
+		}
+
+		.boton-ganado {
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.ganado-col-2 h1 {
+
+    text-align: center;
+}
+
+.contenedor-botones-mobile{
+	margin: 10px 0;
+}
+
+.img-ganado-info {
+    width: 100%;
+}
+
+.dot-nav-slider{
+	margin:15px 0px;
+}
+
+	/*LINK DE INTERESES*/
+
+	.box-interes {
+		padding: 10px;
+	}
+
+
+
+	/*RECOMENDACIONES*/
+
+	.parrafo-recomendaciones{
+	  padding-left:0px;
+	}
+
+	.img-recomendaciones{
+	  padding-right: 0px;
+	}
+
+.img-r-2, .img-r-1{
+	width: 50%;
+}
+
+.img-r-3 {
+    width: 25%;
+}
+.container-recomendaciones{
+	padding: 10px 15px;
+}
+/*FIN RECOMENDACIONES*/
+
+/*CHAT AYUDA*/
+
+.ayuda-form-side {
+    padding: 0px 0px;
+    margin-left:0px;
+}
+#datosUser input, #datosUser textarea {
+
+    width: 85% ;
+    margin: 20px 15px;
+}
+
+.title-ayuda-mobile{
+	margin: 30px 0px;
+}
+
+#ayuda {
+    padding: 15px;
+}
+/*
+.sendie{
+	width: 80%;
+}
+.send-chat{
+	float:right;
+	width:19%;
+	background-color:#79BEFE;
+	color:white; border:none;
+	padding: 10px 0px;
+}*/
+
+/**Mercados**/
+.moneda-mercados .glyphicon{
+	float:left;
+	padding-right:5px;
+	padding-left:0px;
+}
+.table-mercado-items div p,.table-mercado-items div span,.box-mercado  .table-mercado-items .moneda-mercados,.columna-ganado p {
+padding-left:5px;
+}
+
+.table-mercado-items div p.leche-precio{
+	padding-left:10px;
+}
+
+.table-mercado-items div p.leche-mercados{
+	line-height:1.2em;
+}
+
+/*chat*/
+
+.max-box-chat{
+  background-color: rgb(248, 242, 236) !important;
+  padding: 10px;
+}
+
+
+
+.send-button-a{
+	margin: 40px 0px !important;
+	float: left;
+	width: 100% !important;
+}
+
+
+.chat-area{
+	min-height: 70vh;
+}
+
+/*FIN CHAT AYUDA*/
+
+/*DIAS DE RETIRO DE PRODUCTO*/
+.retiro-img {
+    text-align: center;
+}
+
+	.comunicado{
+		max-width:90%;
 	}
 	
+	.comunicado h1{
+		line-height:50px;
+		font-size:45px;
+	}
+	
+	.comunicado h2{
+		font-size:19px;
+		padding-bottom:5px;
+		text-align:left;	
+	}
+	
+	.adherirse .cabecera h2{
+		font-size:40px;
+		line-height:20px;
+		padding-top:20px;
+	}
+	
+	.comunicado h3{
+		padding-bottom:20px;
+	}
+	.comunicado h4{
+		text-align:left;
+		line-height:23px;
+	}
+	
+	.adherirse .caja-paso ul li,.adherirse .caja-paso ul p{
+		text-align:left;
+	}
+	
+	.comunicado .adherirse .datos-senasa p.senasa-web strong{
+		font-size:22px;
+	}
+	
+	.comunicado .adherirse .datos-senasa p.senasa-mail strong{
+		font-size:20px;
+>>>>>>> origin/master
+	}
+	
+	.adherirse .caja-paso,.adherirse .cabecera p,.adherirse > h2,.adherirse .cabecera h2{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.adherirse .cabecera p{
+		text-align:left;
+	}
+	
+	.comunicado .adherirse .datos-senasa p, .comunicado .adherirse .datos-senasa p strong{
+		text-align:left;
+		font-size:20px;
+	}
+
 /*CIERRE DE LLAVES PRINCIPALES*/
+}
+
+
+@media screen and (max-width: 767px) and (orientation:landscape){
+
+
+/*DISTRIBUCION DE COLUMNAS*/
+	.col-lan-xs-3{
+			width: 25%;
+	}
+
+	.col-lan-xs-6{
+			width: 50%;
+	}
+
+	.col-lan-xs-4{
+			width: 33%;
+	}
+
+
+	.home-upper-box img:nth-child(2) {
+    width: 25%;
+}
+
+	header .home-box > div > div:nth-child(1) {
+    height: 85px;
+}
+
+	/*CLIMA*/
+
+/*PRODUCIR*/
+
+.gota-producir {
+    padding: 10px 25px;
+}
+
+
+
+
+
+/*FIN DISTRIBUCION DE COLUMNAS*/
+
+
+
 }

@@ -1,4 +1,9 @@
 var isHome=false;
+var isApp=false;
+var importantMobile=false;
+
+var menuReady=true;
+
 $(window).on("load",function () {
 	LoaderGif();
 	LoadFunction();
@@ -13,29 +18,45 @@ function LoaderGif() {
 
 var loadHome=false;
 function LoadFunction(){
+	if(!readyExecuted){
+		ReadyFunction();
+	}
 	console.log("entra load");
+		if(isHome&&isMobile){
+			$("header").hide();
+		}else{
+			$("header").show();
+		}
 		CheckDevice();
 		Header();
+		ResetHeight();
 		SameHeight();
+		AdaptSquare();
 		FillParent();
 		ResizeViewportElements();
 		CenterToParent();
 		ScrollHome();
-
+		slider();
 
 
 		if(!isHome || !isMobile){
-
+			
+			if(isApp){
+				ResetHeight();
+				SameHeight();
+				AdaptSquare();
+			}
 			$(".fadder").css('opacity',1);
 			$("section").css('opacity',1);
 			$(".fadder").css('animation-play-state',"running");
 			$("section").css('animation-play-state',"running");
 		}else{
+			$("header").hide();
 			loadHome=true;
 			FadeHome();
 		}
 		if(isMobile){
-			lengthRemates=    $('.container-cabezas').length;
+			lengthRemates=    $('.table-indexer').length;
 			initializeRemates();
 			$('#iconos-institucional div').each(function(i) {
 				$(this).addClass('notransition');
@@ -94,20 +115,54 @@ function LoadFunction(){
 
 		initializeRemates();
 		var lastOrientation= currentOrientation;
+		var prevHeight= viewportHeight;
+		var prevWidth= viewportWidth;
 		CheckDevice();
 		Header();
-		if(isIOS){
-			if(lastOrientation==currentOrientation){
+		//if(isIOS){
+			if(isIOS&&lastOrientation==currentOrientation){
 				return;
 			}
-		}
+			if(prevHeight<viewportHeight){
+				prevHeight= viewportHeight-prevHeight;
+			}else{
+				prevHeight= prevHeight-viewportHeight;
+			}
+
+			if(prevWidth<viewportWidth){
+				prevWidth= viewportWidth-prevWidth;
+			}else{
+				prevWidth= prevWidth-viewportWidth;
+			}
+
+
+			if(prevHeight<30||prevWidth<30){
+				return;
+			}
+
+			$(".fadder").css('transition',"0s");
+			$("section").css('transition',"0s");
+			$(".fadder").css('opacity',0);
+			$("section").css('opacity',0);
+
+		//}
 
 		ResetHeight();
 		SetDistanceHeader();
 		ResizeViewportElements();
 
 		setTimeout(function(){
-		SameHeight(); AdaptSquare();},1000);
+			Header();
+			fitBackground();
+			$(".fadder").css('transition',"0.5s");
+			$("section").css('transition',"0.5s");
+			SameHeight();
+			AdaptSquare();
+			$(".fadder").css('opacity',1);
+			$("section").css('opacity',1);
+		},1000);
+
+		fitBackground();
 	});
 
 	function ResizeViewportElements(){
@@ -122,8 +177,10 @@ function LoadFunction(){
 
 	var isMobile=false;
 	var isIOS=false;
+	var isIpad=false;
 	var currentOrientation="";
-
+	var viewportHeight=0;
+	var viewportWidth=0;
 
 	function CheckDevice(){
 		if(window.innerHeight > window.innerWidth){
@@ -132,15 +189,23 @@ function LoadFunction(){
 		}else{
 			currentOrientation= "landscape;"
 		}
-		//$("#logDiv").html("<div>"+currentOrientation+"</div>"+$("#logDiv").html());
 
+		viewportHeight=window.innerHeight;
+		viewportWidth=window.innerWidth;
+
+		//$("#logDiv").html("<div>"+currentOrientation+"</div>"+$("#logDiv").html());
+		if(!importantMobile){
 		isMobile = /Android|mobi|iPad|Android|webOS|iPhone|iPod|pocket|psp|kindle|Kindle|avantgo|blazer|midori|Tablet|Palm|maemo|plucker|phone|symbian|IEMobile|mobile|ZuneWP7|Windows Phone|Opera Mini|BlackBerry/i.test(navigator.userAgent);
 		if(!isMobile){
 			isMobile=/iPhone|iPad|iPod/i.test(navigator.platform);
 		}
 		isIOS = /iPad|iPhone|iPod|Opera Mini/i.test(navigator.userAgent);
+		isIpad = /iPad/i.test(navigator.userAgent);
 		if(!isIOS){
 			isIOS=/iPhone|iPad|iPod/i.test(navigator.platform);
+		}
+		}else{
+			isMobile=true;
 		}
 		if(isMobile){
 			$("header").addClass("headermobile");
@@ -154,8 +219,8 @@ function LoadFunction(){
 		}else{
 			$("header").css("position","fixed");
 		}*/
-		console.log(isMobile);
-		console.log(isIOS);
+		//console.log(isMobile);
+		//console.log(isIOS);
 	}
 
 	function ResetHeight(){
@@ -190,8 +255,9 @@ function LoadFunction(){
 		}
 	}
 
+
 	function Header(){
-		console.log("entra");
+		//console.log("entra");
 		var auxH=$("#logo-bago-mobile").outerHeight()+10;
 		if(!isHome){
 
@@ -207,6 +273,8 @@ function LoadFunction(){
 				$("#inner-header").height(0);
 			}
 			var rule = getStyleRule('.headermobile .navbar-collapse.in');
+			auxH= screen.height;
+			console.log("entra screen height "+screen.height);
 			if(rule){
 				console.log("entra rule");
 			//var auxH= screen.height-$("#navbar-main").height();
@@ -214,10 +282,15 @@ function LoadFunction(){
 			auxH= screen.height;
 			rule.height= "auto";
 			rule['min-height']= auxH+"px";
-			console.log(rule.height);;
+			//console.log(rule.height);;
 			}else{
 				console.log("no entró rule");
 				$("body").append("<style>.headermobile .navbar-collapse.in{height:auto;min-height:"+auxH+"px;}</style>");
+			}
+			if(isIpad){
+				
+				$(".cont-menu-mob").removeClass("hidden-xs");
+				$(".cont-menu-mob").css("display","inline-block");
 			}
 		}
 
@@ -235,11 +308,7 @@ $("body").on("mousedown",".navbar-toggle",function(){
 	//$("body").css("background","red");
 });
 var scrollTop;
-$("body").on("touchstart",".navbar-toggle",function(){
-	//$(this).click();
 
-
-});
 
 function getStyleRule(name) {
 	for(var i=0; i<document.styleSheets.length; i++) {
@@ -279,9 +348,18 @@ function checkVisible( elm, evalType ) {
 
 var indexRemates=0;
 var lengthRemates = 0;
+var readyExecuted=false;
 
 $(document).on("ready",function(){
+	ReadyFunction();
+
+});
+
+
+function ReadyFunction(){
+	readyExecuted=true;
 	CheckDevice();
+	//console.log("entra ready jsjs");
 	if(isMobile){
 		splash();
 	}
@@ -290,6 +368,7 @@ $(document).on("ready",function(){
 		 changeContent();
 		 slider();
 		 backButton();
+		 limited();
 		 fitBackground();
 
 
@@ -309,7 +388,7 @@ $(document).on("ready",function(){
 			//$(target).css("max-height","10000000px");
 		}
 	});
-	$("body").on("touchend",".toggle-dropdown-header",function(){
+	$("body").on("tap",".toggle-dropdown-header",function(){
 		//$(this).click();
 		var target= $(this).attr("target");
 			console.log($(this).attr("target"));
@@ -334,7 +413,7 @@ $(document).on("ready",function(){
 
  //  };
 
-});
+}
 
 function CenterToParent(){
 	$(".center-to-parent").each(function(){
@@ -343,10 +422,27 @@ function CenterToParent(){
 		$(this).css("padding-bottom",0);
 		$(this).css("padding-top",0);
 		var parent= $(this).parent();
-		console.log($(this).outerHeight());
-		var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
-		$(this).css("padding-top",paddingTop+"px");
+		//console.log($(this).outerHeight());
+		if($(this).outerHeight()>0){
+			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+			$(this).css("padding-top",paddingTop+"px");
+		}
 	});
+
+	$(".center-to-parent-d").each(function(){
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("padding-top",0);
+		var parent= $(this).parent();
+		//console.log($(this).outerHeight());
+		if($(this).outerHeight()>0){
+			var paddingTop= ($(parent).innerHeight()/2)-($(this).outerHeight()/2);
+			paddingTop= paddingTop/2;
+			$(this).css("padding-top",paddingTop+"px");
+		}
+	});
+
 	$(".center-to-parent-m").each(function(){
 		$(this).css("margin-top",0);
 		$(this).css("margin-bottom",0);
@@ -393,11 +489,11 @@ function AdaptSquare(){
 	//edit by fran, preguntar porque
 	$(".square").each(function(){
 		if($(this).attr("onlymobile")=="true"&&!isMobile){
-			console.log("entra poyo");
+			//console.log("entra poyo");
 			 $(this).css('height', "auto");
 		}else{
 		var ancho = $(this).outerWidth();
-		console.log("ancho "+ancho);
+		//console.log("ancho "+ancho);
 	  $(this).css('height', ancho+"px");
 
 /*
@@ -421,15 +517,16 @@ function AdaptSquare(){
 
 }
 
+var delaySplash=3000;
 
 function splash() {
 
-     $(".splash").delay(3000).queue(function(){
+     $(".splash").delay(delaySplash).queue(function(){
 
      	finishDelayHome=true;
  		FadeHome();
  		 });
-     console.log("Entro delay");
+     //console.log("Entro delay");
 
 }
 
@@ -462,6 +559,7 @@ function FillParent(){
 }
 
 // FUNCION QUE HACE DESAPARECER EL BOTON SIGUIENTE O ATRAS DE ACUERDO SI QUEDAN ITEM
+
 function checkNavigationButton(){
 
 	if( indexRemates <= 0){
@@ -484,23 +582,29 @@ function checkNavigationButton(){
 
 // MANTIENE UNA SOLA FILA DE DATOS EN MOBILE
 
+
 function initializeRemates(){
 
 	checkNavigationButton();
 
     $(".containerColumnas").find('.info-remates-mobile').css("display","none");
+		$(".mes-remates").css("display","none");
+		$(".date-remates").css("display", "none");
 
 
  $(".containerColumnas").each(function(){
 
  	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+	$(".mes-remates").css("display","block");
+	$(".date-remates").css("display", "block");
+	
  	checkNavigationButton();
 
- 	console.log("esto funciona");
+ 	//console.log("esto funciona");
 
 
  });
-
+	setTimeout(function(){CenterToParent()},100);
 }
 
 // FIN MANTIENE UNA SOLA FILA DE DATOS EN MOBILE
@@ -519,21 +623,29 @@ function turnOnButtonRemates(){
     	if(!tableAnimating){
     		tableAnimating=true;
 			$(".fade-in-mobile").fadeOut(400);
+			//$(".mes-remates").fadeOut(400);
+			//$(".date-remates").fadeOut(400);
 
 			setTimeout(function(){
 
 				$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+				//$(".mes-remates").css("display","none");
+				$(".date-remates").css("display", "none");
 
 
 				++indexRemates;
 				 $(".containerColumnas").each(function(){
-					console.log("entra indicie"+indexRemates);
+					//console.log("entra indicie"+indexRemates);
 					$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					CenterToParent();
+					//$(".mes-remates").css("display","block");
+					//$(".date-remates").css("display", "block");
 					$(".fade-in-mobile").fadeIn(400);
+					//$(".mes-remates").fadeIn(400);
+					//$(".date-remates").fadeIn(400);
 					checkNavigationButton();
 
-
-					console.log("esto funciona");
+					//console.log("esto funciona");
 				 });
 
 				setTimeout(function(){
@@ -543,7 +655,7 @@ function turnOnButtonRemates(){
 
 			}, 400);
 
-			 console.log("lengthRemates "+lengthRemates);
+			// console.log("lengthRemates "+lengthRemates);
 			 checkNavigationButton();
 
 
@@ -558,15 +670,27 @@ function turnOnButtonRemates(){
 			tableAnimating=true;
 
 	    	$(".fade-in-mobile").fadeOut(400);
+				//$(".mes-remates").fadeOut(400);
+				//$(".date-remates").fadeOut(400);
+				// $(".mes-remates")
+				// $("date-remates")
 
 	    	setTimeout(function(){
 	    		$(".containerColumnas").find('.info-remates-mobile').css("display","none");
+					//$(".mes-remates").css("display","none");
+					//$(".date-remates").css("display", "none");
 		    	--indexRemates;
 		    	 $(".containerColumnas").each(function(){
-		    	 	console.log("entra indicie"+indexRemates);
+		    	 	//console.log("entra indicie"+indexRemates);
 				 	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
+					CenterToParent();
+					//$(".mes-remates").css("display","block");
+					//$(".date-remates").css("display", "block");
 				 	$(".fade-in-mobile").fadeIn(400);
-				 	console.log("esto funciona");
+					//$(".mes-remates").fadeIn(400);
+					//$(".date-remates").fadeIn(400);
+
+				 	//console.log("esto funciona");
 				 	checkNavigationButton();
 
 				 });
@@ -598,15 +722,15 @@ function fillBackground(){
 	var pheigth= $(".fill-heigth").parent().outerHeight();
 	var bgheigth= pheigth - selfheigth;
 
-	console.log("check-point-1; " + pheigth);
-	console.log("check-point-2; " + selfheigth);
-	console.log("check-point-2; " + bgheigth);
+	//console.log("check-point-1; " + pheigth);
+	//console.log("check-point-2; " + selfheigth);
+	//console.log("check-point-2; " + bgheigth);
 
 	$(".fill-heigth").each(function(){
 
 	$(".fill-heigth").parent().css("background-size", "100%" + bgheigth + "px");
 
-	console.log("check-point-3" );
+	//console.log("check-point-3" );
 
 	});
 
@@ -614,20 +738,42 @@ function fillBackground(){
 
 // FIN FUNCION QUE AJUSTA EL FONDO CON EL ESPACIO SOBRANTE DEL PADRE
 
+
+
+//FUNCION QUE AJUSTA EL SELECT DEPENDIENDO DE LO QUE SE ELIJA
 function changeContent(){
 
+	var id=5;
+
     $('#enfermedades-selector').change(function(){
+			$('.relleno-enfermedad').hide();
+
         $('.enfermedades-infecciosas').hide();
         $('#' + $(this).val()).show();
+
     });
-	console.log("salida enfermedades");
+	//console.log("salida enfermedades");
     $('#parext-selector').change(function(){
+			$('.relleno-enfermedad').hide();
         $('.parasitos-externos').hide();
+				// var test = $(this)
         $('#' + $(this).val()).show();
+				// var selector = test.index();;
+
+				// $(".changed-name li").hide(); //aca se eliminana los datos que aparecen enel cuadrado de la info
+
+				// var selectId = selector.
+				// console.log(selector);
+				//
+				// $(".changed-name li").eq(selector).css("display", "block");
+
+				 //aca se eliminana los datos que aparecen enel cuadrado de la info
     });
-	console.log("salida enfermedades");
+	//console.log("salida enfermedades");
 
 }
+
+// FIN FUNCION QUE AJUSTA EL SELECT DEPENDIENDO DE LO QUE SE ELIJA
 
 // VERSION GENERALIZADA DE AJUSTE DEL BACKGROUND
 
@@ -689,9 +835,13 @@ if( (wdWidth-wdHeight) > 0 ){
 
 // FUNCION QUE AJUSTA EL ANCHO DEL BACKGROUND SIN DEFORMAR
 function fitBackground(){
-
+	console.log("entra fit");
 	var img = new Image ;
-	img.src = $('#home').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
+	try{
+		img.src = $('.bg-fit').css('background-image').replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "");
+	}catch(err){
+
+	}
 	$(img).load(function() {
     var bgWidth = img.width;
     var bgHeight = img.height;
@@ -700,35 +850,87 @@ function fitBackground(){
 
     var wdHeight = $(window).height();
 	var wdWidth = $(window).width();
+	var docHeight = $(document).height();
+	var docWidth = $(document).width();
 
-	console.log("wWd:"+wdWidth+"  hWd:"+wdHeight ) ;
+	console.log("WdWin:"+wdWidth+"  heiWin:"+wdHeight ) ;
+	console.log("WdDoc:"+docWidth+"  heiDoc:"+docHeight ) ;
 
 if( (wdWidth-wdHeight) > 0 ){
+
      // if que determina si la pantalla es mas ancha que alta
     console.log("pantalla mas ancha que alta");
 
-    if( (wdWidth- wdHeight) > (bgWidth-bgHeight) ){
-
-    	$("#home").css("background-size","100% auto");
-
-     }else{
+  if( (wdWidth- wdHeight) > (bgWidth-bgHeight)){
 
 
-         $("#home").css("background-size"," auto  100%");
+					if(docHeight > wdHeight){
 
-     };
+						if(bgHeight < wdHeight){
+							$(".bg-fit").css("background-size","auto 100%  ");
+							console.log("pantalla0");
+						}else{
+							$(".bg-fit").css("background-size","100% auto ");
+							console.log("pantalla 0.5");
+						}
+					}else {
+								$(".bg-fit").css("background-size","100% auto");
+								console.log("DOCUMENTO IGUAL");
+					};
+
+
+    }else{
+
+			// LA PARTE APAISADA TIENE QUE ENTRAR ACA
+
+			 		if(docHeight > wdHeight) {
+
+						if(bgHeight < wdHeight){
+							$(".bg-fit").css("background-size","auto 100%  ");
+							console.log("pantalla1");
+						}else{
+							$(".bg-fit").css("background-size","100% auto ");
+							console.log("pantalla 2");
+						}
+										// $("#home").css("background-size","auto 100% ");
+										// console.log("pantalla1");
+
+
+					}else{
+
+						if(docHeight > bgHeight){
+								$(".bg-fit").css("background-size","auto  100% ");
+								console.log("pantalla3");
+						}else{
+								if(bgHeight < wdHeight){
+									$(".bg-fit").css("background-size","auto 100%  ");
+									console.log("pantalla4");
+								}else{
+									$(".bg-fit").css("background-size","130% auto ");
+									console.log("pantalla 5");
+
+								}
+
+						};
+
+				 };
+	};
+
+//  ELSE QUE CALCULA EL ALTO
+
 
    }else{
        console.log("pantalla mas alta que ancha");
 
        if( (wdHeight- wdWidth) > (bgHeight-bgWidth) ){
 
-    	$("#home").css("background-size"," auto 100%");
+
+    	$(".bg-fit").css("background-size"," auto 100%");
 
      }else{
 
 
-         $("#home").css("background-size","100%  auto");
+         $(".bg-fit").css("background-size","100%  auto");
 
      };
 
@@ -745,14 +947,20 @@ if( (wdWidth-wdHeight) > 0 ){
 
 
 function slider(){
-	console.log("entra slider");
+	//console.log("entra slider");
 
 var currentIndex = 0,
-  items = $('.general-container-producir'),
+  items = $('.general-container-producir');
   itemAmt = items.length;
+	items.css("display","none");
+	items.eq(currentIndex).css("display", "block");
+	// multiplicateDotNav(itemAmt);
 
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-	$(".nav-dot").eq(currentIndex).css("background-color",  "rgba(0,0,0,.8)");
+
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 
 function cycleItems() {
 
@@ -765,15 +973,18 @@ function cycleItems() {
 $('.next-ganado').click(function() {
 
 	currentIndex += 1;
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-	$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 
   if (currentIndex > itemAmt - 1) {
 
     currentIndex = 0;
-		$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-		$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
-
+		$(".nav-dots").each(function(){
+			$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+			$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+		});
   }
   cycleItems();
 });
@@ -781,8 +992,10 @@ $('.next-ganado').click(function() {
 $('.preview-ganado').click(function() {
 
   currentIndex -= 1;
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-		$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 
   if (currentIndex < 0) {
 
@@ -793,30 +1006,35 @@ $('.preview-ganado').click(function() {
 
 $('.nav-dot').click(function() {
 
-	console.log("entro dot Slider");
-	var which = $(this).index();
+	//console.log("entro dot Slider");
+	var dotIndex = $(this).index();
 	$(".general-container-producir").hide();
-	$('.general-container-producir').eq(which).fadeIn("slow");
+	$('.general-container-producir').eq(dotIndex).fadeIn("slow");
 
-	currentIndex = which;
-	$(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
-	$(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	currentIndex = dotIndex;
+	$(".nav-dots").each(function(){
+		$(this).find(".nav-dot").css("background-color", "rgba(0, 106, 160, 0.6)");
+		$(this).find(".nav-dot").eq(currentIndex).css("background-color", "rgba(0,0,0,.8)");
+	});
 });
 
 
 
- console.log("sale slider");
+// console.log("sale slider");
 }
 
 // FIN FUNCION QUE MUESTRA ITEM EN UNA COLA ITERATIVA + dot nav
 
 // FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
 function backButton(){
-	$('.boton-volver-header').click(function(){
-		history.back();
-	});
+	if (typeof BackApp == 'function'){
 
-	console.log("volver");
+	}else{
+		$('.boton-volver-header').click(function(){
+			history.back();
+		});
+	}
+	//console.log("volver");
 }
 
 // FIN FUNCION QUE VUELVE A LA PAGINA ANTERIOR (HISTORY BACK)
@@ -827,4 +1045,78 @@ function ScrollHome(){
 			$("section").css("padding-bottom","0");
 		}
 	}
+}
+
+
+
+// FUNCION EN TESTEO DE LIMITAR PALABRAS
+
+function limited(){
+	var id;
+	var text= []
+	var text= $(".ganado").text().split(" ");
+	var n=2;
+	var i=0;
+
+	//console.log("test limited ");
+	//console.log(text[2]);
+
+
+  // PUEDE NO IR PORQUE VA COMO PARAMETROS
+  var heightFont =  $(".ganado").css("font-size");
+  var heightMargins = $(".ganado").css("margin-top") + $(".ganado").css("margin-top");
+  var totalHeight = parseInt( heightFont + heightMargins);
+
+	//console.log(totalHeight);
+
+	var altoDiv = $(".ganado").height();
+
+	//console.log(altoDiv);
+ if(altoDiv > n*totalHeight){
+  // $(".ganado").text([1]).css("display","none");
+	var nuevoAlto= $(".ganado").height();
+
+	//  while( nuevoAlto <= n*totalHeight){
+	// 	 		console.log(text[i++]);
+	// 		 $(".ganado").text(text[i++]);
+	// 		 var nuevoAlto= $(".ganado").height();
+	 //
+	 //
+	//  };
+ }
+
+
+};
+
+
+// FIN FUNCION DE TESTEO
+
+
+////funcion que multiplica los dot nav del slider
+
+//NO ESTA EN USO
+
+function multiplicateDotNav(quantity){
+		$(".nav-dot").clone().insertAfter(".nav-dot");
+
+for(var i=0; i < 9; i++ ){
+			 $(".nav-dot").clone().insertAfter(".nav-dot");
+	 }
+}
+
+
+//// fin funcion que multiplica los dot nav del slider
+
+
+function ContentFadeIn(){
+	//fader y section mostrar (show), poner height y square y luego opacity 1
+
+}
+
+function ContentFadeOut(){
+
+}
+
+function ContentOpacitySet(toSet){
+
 }

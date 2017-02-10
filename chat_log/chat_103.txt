@@ -1,0 +1,3 @@
+
+<div class='user-message-container'><p class='user-nick'>Ghiiufff</p> <p class='user-message'> Hola </p></div>
+<span>Conversación terminada</span>

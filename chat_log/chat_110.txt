@@ -1,0 +1,5 @@
+
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> Hola </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> </p></div>
+<div class='user-message-container'><p class='user-nick'>Juan </p> <p class='user-message'> </p></div>
+<span>Conversación terminada</span>

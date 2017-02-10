@@ -12,24 +12,35 @@ $localidades["910"]="9 de Julio";$localidades["32861"]="Adelia María";$localida
 
 
 $localidad= "41396";
-if(isset($_POST["localidad"])){
+/*if(isset($_POST["localidad"])){
 	$_SESSION["localidad"]= $_POST["localidad"];
-}
+}*/
 if(isset($_SESSION["localidad"])){
 	$localidad= $_SESSION["localidad"];
 }else{
 	$_SESSION["localidad"]=$localidad;
 }
+if(isset($data)&&!empty($data)&&!is_null($data)){
+	$localidad=$data;
+}
 
-//$data = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/'.$localidad,false,$context);
+$options = array(
+  'http'=>array(
+    'method'=>"GET",
+    'header'=>"FYO-AUTH:RllPUG9ydGFsLEZZT1BvcnRhbA=="
+  )
+);
+$context=stream_context_create($options);
+
+$dataClima = @file_get_contents('http://webservice.fyo.com/PortalClimaExtendidoProcedure.svc/'.$localidad,false,$context);
 
 
-$Criteria = new CDbCriteria();
+/*$Criteria = new CDbCriteria();
 $Criteria->condition = "localidad = ".$localidad;
 $auxNota = Clima::model()->find($Criteria);
 
 if($auxNota){
-	$data=$auxNota->content;
-}
+	$dataClima=$auxNota->content;
+}*/
 
 ?>

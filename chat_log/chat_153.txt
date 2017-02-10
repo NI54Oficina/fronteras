@@ -1,0 +1,6 @@
+
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> mensaje de prieba </p></div>
+<div class='admin-message-container'><p class='admin-nick'>Biogénesis Bagó</p> <p class='admin-message'> hola </p></div>
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> probando </p></div>
+<div class='user-message-container'><p class='user-nick'>Francisco Serante</p> <p class='user-message'> probando </p></div>
+<span>Conversación terminada</span>

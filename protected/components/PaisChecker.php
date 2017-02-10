@@ -5,7 +5,7 @@ class PaisChecker extends CApplicationComponent
         public function PaisCheck()
         {
 		
-			$_SESSION["webRoot"]="fronteras/";
+			$_SESSION["webRoot"]="fronteras2/";
 			$webRoot=$_SESSION["webRoot"];
 			$initUrl=$_SERVER['REQUEST_URI'];
 			/*Hardcodeo pais*/
